@@ -1,0 +1,42 @@
+{
+  "id": "kale",
+  "name": "Kale",
+  "aliases": ["curly kale", "lacinato kale", "dinosaur kale"],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": ["galactans"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Conservative safe serving",
+      "cups": "1 cup chopped"
+    },
+    "moderate": {
+      "grams": 150,
+      "description": "Generous portion, still generally safe",
+      "cups": "2 cups"
+    },
+    "high": {
+      "grams": 222,
+      "description": "Very large portions contain moderate galactans",
+      "cups": "3 cups"
+    }
+  },
+  "siboNotes": "Kale is an excellent choice for SIBO patients. It remains low FODMAP up to quite large quantities. Only at 222g+ does it contain moderate galactans. You can safely use 100-150g in a meal.",
+  "preparationTips": [
+    "Massage raw kale with oil to soften for salads",
+    "Sautéing makes it more digestible",
+    "Remove tough stems before cooking",
+    "Makes great crispy kale chips when baked"
+  ],
+  "pairsWellWith": ["olive oil", "lemon", "eggs", "quinoa", "chicken"],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin K",
+    "Excellent source of vitamin A",
+    "High in vitamin C",
+    "Good source of calcium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "eggplant",
+  "name": "Eggplant",
+  "aliases": ["aubergine"],
+  "category": "vegetable",
+  "subcategory": "nightshade",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans", "polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.5 cup diced"
+    },
+    "moderate": {
+      "grams": 178,
+      "description": "Larger serving, may trigger sensitive individuals",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Eggplant is generally well-tolerated by SIBO patients at standard portions. It's versatile and can be a good meat substitute in dishes. Watch portion sizes during elimination phase.",
+  "preparationTips": [
+    "Salting before cooking can reduce bitterness",
+    "Grilling or roasting brings out flavor",
+    "Can be used as a base for dips (baba ganoush)",
+    "Avoid breading to keep low FODMAP"
+  ],
+  "pairsWellWith": ["olive oil", "tomatoes", "basil", "lamb", "tahini"],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Contains fiber",
+    "Provides manganese",
+    "Contains nasunin (antioxidant)"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "garlic",
+  "name": "Garlic",
+  "aliases": ["garlic cloves"],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "high": {
+      "grams": 3,
+      "description": "One clove is high FODMAP",
+      "cups": "1 clove"
+    }
+  },
+  "siboNotes": "Garlic is extremely high in fructans and should be completely avoided during SIBO treatment. Even one clove (3g) is high FODMAP. Garlic powder is also high FODMAP. However, GARLIC-INFUSED OIL is safe because fructans are water-soluble but not oil-soluble - the flavor transfers but the FODMAPs don't.",
+  "preparationTips": [
+    "Use garlic-infused olive oil for flavor without FODMAPs",
+    "Remove garlic after infusing and discard",
+    "Garlic scapes (green tops) are low FODMAP",
+    "Asafoetida can provide similar depth of flavor"
+  ],
+  "alternatives": ["garlic-infused-oil", "asafoetida", "chives"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Contains allicin (antimicrobial)",
+    "Good source of manganese",
+    "Contains vitamin B6"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

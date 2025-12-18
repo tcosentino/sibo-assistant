@@ -1,0 +1,32 @@
+{
+  "id": "mushroom-oyster",
+  "name": "Oyster Mushroom",
+  "aliases": ["oyster mushrooms"],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Oyster mushrooms are one of the few low-FODMAP mushroom varieties. Most other mushrooms (button, cremini, portobello, shiitake) are high in polyols. Canned mushrooms and oyster mushrooms are the safe options.",
+  "preparationTips": [
+    "Sauté with garlic-infused oil for flavor",
+    "Great meat substitute texture",
+    "Don't wash - wipe clean with damp cloth"
+  ],
+  "alternatives": [],
+  "pairsWellWith": ["garlic-infused oil", "thyme", "chicken", "rice", "pasta"],
+  "nutritionalHighlights": [
+    "Good source of B vitamins",
+    "Contains protein",
+    "Provides potassium",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

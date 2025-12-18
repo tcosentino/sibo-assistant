@@ -1,0 +1,37 @@
+{
+  "id": "bell-pepper-red",
+  "name": "Bell Pepper (Red)",
+  "aliases": ["red pepper", "red capsicum", "red bell pepper"],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["fructose", "fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 43,
+      "description": "Small safe serving",
+      "cups": "0.33 cup"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "Standard serving but may trigger sensitive individuals",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Red bell peppers have a higher FODMAP content than green peppers due to increased fructose as they ripen. During elimination phase, prefer green peppers or limit red peppers to small portions.",
+  "preparationTips": [
+    "Roasting concentrates sweetness",
+    "Use sparingly as a garnish during elimination",
+    "Reintroduce after green peppers are tolerated"
+  ],
+  "alternatives": ["bell-pepper-green"],
+  "pairsWellWith": ["olive oil", "basil", "chicken", "fish"],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin C",
+    "High in vitamin A",
+    "Contains antioxidants",
+    "Good source of vitamin B6"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

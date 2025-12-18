@@ -1,0 +1,38 @@
+{
+  "id": "leek",
+  "name": "Leek",
+  "aliases": ["leeks"],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 67,
+      "description": "Green leaves ONLY - not the white part",
+      "cups": "0.5 cup green leaves"
+    },
+    "high": {
+      "grams": 50,
+      "description": "White/light green parts are high FODMAP",
+      "cups": "0.33 cup"
+    }
+  },
+  "siboNotes": "Like scallions, leeks have a split personality: the GREEN LEAVES are low FODMAP while the WHITE BULB is high FODMAP. During elimination, only use the dark green portions. The white parts should be avoided like onion.",
+  "preparationTips": [
+    "Separate green from white - only use green leaves",
+    "Green parts work well in soups and stocks",
+    "Discard white and light green portions",
+    "Use scallion greens or chives as alternatives"
+  ],
+  "alternatives": ["scallion", "chives"],
+  "pairsWellWith": ["potato", "chicken stock", "thyme"],
+  "nutritionalHighlights": [
+    "Good source of vitamin K",
+    "Contains vitamin A",
+    "Provides manganese",
+    "Contains folate"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

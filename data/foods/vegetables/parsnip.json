@@ -1,0 +1,32 @@
+{
+  "id": "parsnip",
+  "name": "Parsnip",
+  "aliases": ["parsnips"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": ["polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Parsnips are safe for SIBO at standard portions. They have a sweet, nutty flavor and work well as a potato or carrot alternative in roasted vegetable dishes.",
+  "preparationTips": [
+    "Roasting caramelizes natural sugars",
+    "Can be mashed alone or with potato",
+    "Good in soups",
+    "Pairs well with warming spices"
+  ],
+  "pairsWellWith": ["olive oil", "rosemary", "maple syrup (small amount)", "chicken", "beef"],
+  "nutritionalHighlights": [
+    "High in fiber",
+    "Good source of vitamin C",
+    "Contains folate",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

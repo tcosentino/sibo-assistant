@@ -1,0 +1,32 @@
+{
+  "id": "potato",
+  "name": "Potato",
+  "aliases": ["potatoes", "white potato", "russet potato", "red potato"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Standard serving",
+      "cups": "0.5 cup diced"
+    }
+  },
+  "siboNotes": "Regular potatoes (white, red, russet) are FODMAP-free and safe for SIBO patients. They're an excellent source of safe carbohydrates. Do not confuse with sweet potatoes, which require portion control.",
+  "preparationTips": [
+    "Baking or roasting are simple preparation methods",
+    "Avoid adding high-FODMAP toppings (sour cream, chives in large amounts)",
+    "Mashed potatoes with lactose-free butter are safe",
+    "Cooled potatoes contain resistant starch for gut health"
+  ],
+  "pairsWellWith": ["butter (lactose-free)", "olive oil", "rosemary", "chicken", "beef"],
+  "nutritionalHighlights": [
+    "Good source of potassium",
+    "Contains vitamin C",
+    "Provides vitamin B6",
+    "Good source of fiber (with skin)"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

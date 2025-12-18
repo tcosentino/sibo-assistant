@@ -1,0 +1,42 @@
+{
+  "id": "cauliflower",
+  "name": "Cauliflower",
+  "aliases": [],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["polyols-mannitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "Small serving that may be tolerated",
+      "cups": "0.33 cup"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "Standard serving, moderate in mannitol",
+      "cups": "0.5 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "High in mannitol, likely to trigger symptoms",
+      "cups": "0.66 cup"
+    }
+  },
+  "siboNotes": "Cauliflower is higher in FODMAPs than most vegetables and should be limited or avoided during elimination. Some people may tolerate a 3/4 cup serving, but many with SIBO find it problematic. Use broccoli florets as an alternative.",
+  "preparationTips": [
+    "If attempting, start with very small portions",
+    "Roasting may improve digestibility",
+    "Often used as rice substitute but portions must be watched"
+  ],
+  "alternatives": ["broccoli", "zucchini", "potato"],
+  "pairsWellWith": ["olive oil", "turmeric", "chicken"],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains choline",
+    "Provides fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

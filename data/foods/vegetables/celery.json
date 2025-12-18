@@ -1,0 +1,37 @@
+{
+  "id": "celery",
+  "name": "Celery",
+  "aliases": ["celery stalk", "celery sticks"],
+  "category": "vegetable",
+  "subcategory": "stem",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["polyols-mannitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "Very small serving (less than 5cm of stalk)",
+      "cups": "2 tablespoons diced"
+    },
+    "high": {
+      "grams": 50,
+      "description": "Standard serving is high in mannitol",
+      "cups": "0.33 cup"
+    }
+  },
+  "siboNotes": "Celery has a very low safe serving size - only about 5cm of stalk (15g). It's particularly high in mannitol. Most people need to avoid or severely limit celery during SIBO treatment. Use cucumber as an alternative for crunch.",
+  "preparationTips": [
+    "If using, limit to a few small pieces for flavor",
+    "Often hidden in soups and stocks - check ingredients",
+    "Cucumber provides similar crunch with no FODMAPs"
+  ],
+  "alternatives": ["cucumber", "bell-pepper-green", "carrot"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains vitamin K",
+    "Good source of potassium",
+    "Provides hydration"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

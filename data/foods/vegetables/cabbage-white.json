@@ -1,0 +1,36 @@
+{
+  "id": "cabbage-white",
+  "name": "Cabbage (White/Green)",
+  "aliases": ["white cabbage", "green cabbage", "common cabbage"],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": ["polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.75 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "Larger servings contain moderate sorbitol",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "White/green cabbage is safe at standard portions. Red cabbage and savoy cabbage have different FODMAP profiles - check separately. White cabbage is good for coleslaw and stir-fries.",
+  "preparationTips": [
+    "Can be eaten raw in slaws",
+    "Fermented as sauerkraut (check for added onion/garlic)",
+    "Cooking softens and may improve digestibility"
+  ],
+  "pairsWellWith": ["carrot", "mayonnaise (check ingredients)", "apple cider vinegar", "pork"],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains fiber",
+    "Provides folate"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

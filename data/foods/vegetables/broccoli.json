@@ -1,0 +1,41 @@
+{
+  "id": "broccoli",
+  "name": "Broccoli",
+  "aliases": ["broccoli florets", "broccoli heads"],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans", "polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving of florets/heads only",
+      "cups": "0.75 cup florets"
+    },
+    "moderate": {
+      "grams": 150,
+      "description": "Larger portion, may trigger symptoms in some",
+      "cups": "1.5 cups"
+    },
+    "high": {
+      "grams": 200,
+      "description": "Large portions become high FODMAP",
+      "cups": "2+ cups"
+    }
+  },
+  "siboNotes": "Important: Stick to broccoli HEADS/FLORETS only - the stalks have higher FODMAP content (only 1/3 cup stalks is low FODMAP). Florets are safe up to about 2 cups before becoming moderate FODMAP.",
+  "preparationTips": [
+    "Use florets, not stalks, during elimination phase",
+    "Steaming preserves nutrients and aids digestion",
+    "Roasting with olive oil adds flavor"
+  ],
+  "pairsWellWith": ["olive oil", "lemon", "chicken", "salmon", "rice"],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Excellent source of vitamin K",
+    "Good source of folate",
+    "Contains sulforaphane (antioxidant)"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

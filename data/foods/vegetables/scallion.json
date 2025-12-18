@@ -1,0 +1,36 @@
+{
+  "id": "scallion",
+  "name": "Scallion (Green Onion)",
+  "aliases": ["green onion", "spring onion", "scallions"],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Green parts only - safe serving",
+      "cups": "1.5 cups green parts"
+    },
+    "moderate": {
+      "grams": 97,
+      "description": "Green parts become moderate at this amount",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "CRITICAL: Only the GREEN parts of scallions are low FODMAP. The white bulb portion is HIGH FODMAP like regular onion. Cut off and discard the white parts. The green tops are an excellent onion substitute providing flavor without triggering symptoms.",
+  "preparationTips": [
+    "Use only the green parts, discard white bulb",
+    "Slice thinly for garnish",
+    "Can be used raw or cooked",
+    "Great substitute for onion flavor"
+  ],
+  "pairsWellWith": ["eggs", "rice", "chicken", "fish", "stir-fries"],
+  "nutritionalHighlights": [
+    "Good source of vitamin K",
+    "Contains vitamin C",
+    "Provides folate"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

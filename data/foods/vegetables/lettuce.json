@@ -1,0 +1,31 @@
+{
+  "id": "lettuce",
+  "name": "Lettuce",
+  "aliases": ["romaine", "iceberg", "butter lettuce", "cos lettuce"],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Standard serving",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Lettuce varieties (romaine, iceberg, butter) contain little to no FODMAPs and have no known upper limit in Monash testing. This is one of the safest vegetables for SIBO patients and can generally be eaten freely.",
+  "preparationTips": [
+    "Best eaten raw and fresh",
+    "Use as wraps instead of bread",
+    "Base for any safe salad"
+  ],
+  "pairsWellWith": ["olive oil", "lemon", "chicken", "eggs", "cucumber", "tomatoes"],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains vitamin A",
+    "Provides vitamin K",
+    "Good source of hydration"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

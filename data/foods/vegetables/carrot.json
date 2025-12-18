@@ -1,0 +1,31 @@
+{
+  "id": "carrot",
+  "name": "Carrot",
+  "aliases": ["carrots"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Standard safe serving",
+      "cups": "0.5 cup chopped"
+    }
+  },
+  "siboNotes": "Carrots don't contain any measurable FODMAPs, making them one of the safest vegetables for SIBO patients. They are generally well-tolerated in moderate to large portions.",
+  "preparationTips": [
+    "Roasting brings out natural sweetness",
+    "Raw carrots may be harder to digest - cooking can help",
+    "Can be used as a base for soups and stews"
+  ],
+  "pairsWellWith": ["ginger", "olive oil", "chicken", "rice", "potatoes"],
+  "nutritionalHighlights": [
+    "Very high in beta-carotene (vitamin A)",
+    "Good source of fiber",
+    "Contains vitamin K1",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

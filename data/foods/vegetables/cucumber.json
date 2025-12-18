@@ -1,0 +1,31 @@
+{
+  "id": "cucumber",
+  "name": "Cucumber",
+  "aliases": ["cucumbers"],
+  "category": "vegetable",
+  "subcategory": "gourd",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Technical low-FODMAP serving",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Cucumber is one of the safest vegetables for SIBO patients. It contains no measurable FODMAPs and can generally be eaten freely without strict portion limits.",
+  "preparationTips": [
+    "Best eaten raw for crunch and hydration",
+    "Peeling is optional but may aid digestion",
+    "Great base for cold salads"
+  ],
+  "pairsWellWith": ["dill", "lemon", "olive oil", "tomatoes", "feta (if tolerated)"],
+  "nutritionalHighlights": [
+    "Very hydrating (95% water)",
+    "Low in calories",
+    "Contains vitamin K",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

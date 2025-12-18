@@ -1,0 +1,32 @@
+{
+  "id": "chives",
+  "name": "Chives",
+  "aliases": [],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon - adds great flavor",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Chives are the go-to onion substitute on a low-FODMAP diet. One tablespoon adds excellent onion-like flavor without triggering symptoms. Unlike onions and garlic, chives are safe and don't contain problematic fructans.",
+  "preparationTips": [
+    "Use fresh for best flavor",
+    "Add at end of cooking to preserve flavor",
+    "Great as garnish for eggs, potatoes, soups",
+    "Can be used more generously than scallion greens"
+  ],
+  "pairsWellWith": ["eggs", "potato", "sour cream (lactose-free)", "salmon", "cream cheese (lactose-free)"],
+  "nutritionalHighlights": [
+    "Good source of vitamin K",
+    "Contains vitamin A",
+    "Provides vitamin C",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

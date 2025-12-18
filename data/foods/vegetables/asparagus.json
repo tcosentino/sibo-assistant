@@ -1,0 +1,32 @@
+{
+  "id": "asparagus",
+  "name": "Asparagus",
+  "aliases": [],
+  "category": "vegetable",
+  "subcategory": "stem",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans", "fructose"],
+  "servingSizes": {
+    "high": {
+      "grams": 75,
+      "description": "Standard serving is high FODMAP",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Asparagus is high in fructose and fructans and should be avoided during SIBO elimination phase. There is no established low-FODMAP serving size. Choose green beans or zucchini as alternatives for similar texture.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "May be reintroduced during challenge phase to test tolerance",
+    "If tolerated later, roasting or grilling are good methods"
+  ],
+  "alternatives": ["green-beans", "zucchini", "broccoli"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "High in folate",
+    "Good source of vitamin K",
+    "Contains vitamin A",
+    "Provides fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

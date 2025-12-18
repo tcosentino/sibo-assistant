@@ -1,0 +1,32 @@
+{
+  "id": "onion",
+  "name": "Onion",
+  "aliases": ["onions", "white onion", "yellow onion", "red onion", "brown onion"],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "high": {
+      "grams": 10,
+      "description": "Even small amounts are high FODMAP",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Onions are one of the highest FODMAP foods and should be strictly avoided during SIBO treatment. There is NO safe low-FODMAP serving size. Even onion powder and dried onion flakes must be avoided. Check ingredient labels carefully as onion is hidden in many prepared foods.",
+  "preparationTips": [
+    "Avoid completely during elimination phase",
+    "Use green parts of scallions as alternative",
+    "Garlic-infused oil does not contain fructans (oil-soluble, not water-soluble)",
+    "Asafoetida powder can provide similar savory flavor"
+  ],
+  "alternatives": ["scallion-green", "chives", "asafoetida"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Contains quercetin (antioxidant)",
+    "Good source of vitamin C",
+    "Contains prebiotic fibers"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

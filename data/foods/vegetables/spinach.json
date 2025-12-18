@@ -1,0 +1,36 @@
+{
+  "id": "spinach",
+  "name": "Spinach",
+  "aliases": ["baby spinach"],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving with minimal FODMAP content",
+      "cups": "1.5 cups"
+    },
+    "moderate": {
+      "grams": 150,
+      "description": "May cause mild symptoms in sensitive individuals",
+      "cups": "3 cups"
+    }
+  },
+  "siboNotes": "Excellent choice for SIBO patients. Baby spinach contains only trace amounts of FODMAPs. English spinach, silverbeet, and swiss chard are similarly safe with minimal FODMAP content.",
+  "preparationTips": [
+    "Can be eaten raw in salads",
+    "Lightly sautéed with garlic-infused oil for flavor without FODMAPs",
+    "Blends well into smoothies"
+  ],
+  "pairsWellWith": ["olive oil", "lemon", "eggs", "chicken", "salmon"],
+  "nutritionalHighlights": [
+    "High in iron",
+    "Excellent source of vitamin K",
+    "Rich in folate",
+    "Good source of vitamin A"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

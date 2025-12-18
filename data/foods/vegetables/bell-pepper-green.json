@@ -1,0 +1,36 @@
+{
+  "id": "bell-pepper-green",
+  "name": "Bell Pepper (Green)",
+  "aliases": ["green pepper", "green capsicum", "green bell pepper"],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.5 cup chopped"
+    },
+    "moderate": {
+      "grams": 250,
+      "description": "Large portion, still generally tolerated",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Green bell peppers are the best choice for SIBO patients. They have significantly lower FODMAP content than red, yellow, or orange peppers. Most people can tolerate generous portions.",
+  "preparationTips": [
+    "Can be eaten raw for maximum crunch",
+    "Roasting mellows the flavor",
+    "Great for stir-fries with garlic-infused oil"
+  ],
+  "pairsWellWith": ["olive oil", "chicken", "beef", "rice", "eggs"],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Good source of vitamin A",
+    "Contains vitamin B6",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

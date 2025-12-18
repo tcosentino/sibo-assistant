@@ -1,0 +1,32 @@
+{
+  "id": "green-beans",
+  "name": "Green Beans",
+  "aliases": ["string beans", "french beans", "snap beans"],
+  "category": "vegetable",
+  "subcategory": "legume",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Green beans are safe for SIBO patients unlike most legumes. They don't contain the problematic galactans found in dried beans. An excellent way to get the 'bean experience' without FODMAP issues.",
+  "preparationTips": [
+    "Steam or sauté until tender-crisp",
+    "Roasting with olive oil enhances flavor",
+    "Can be used in salads cold",
+    "Blanching preserves bright color"
+  ],
+  "pairsWellWith": ["olive oil", "lemon", "almonds", "chicken", "salmon"],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains vitamin K",
+    "Provides folate",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

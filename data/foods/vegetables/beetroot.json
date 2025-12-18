@@ -1,0 +1,37 @@
+{
+  "id": "beetroot",
+  "name": "Beetroot",
+  "aliases": ["beet", "beets", "red beet"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["fructans", "galactans"],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 2 slices - safe serving",
+      "cups": "2 slices"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "Half cup becomes moderate in oligos",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Fresh beetroot has a very small safe serving (about 2 slices). However, CANNED beetroot has a larger safe serving of about 60g due to processing reducing FODMAP content. Pickled beets are also generally safer.",
+  "preparationTips": [
+    "Canned or pickled beetroot is better tolerated",
+    "Fresh beets should be limited to 2 slices",
+    "Check canned products for added onion/garlic"
+  ],
+  "alternatives": ["carrot"],
+  "pairsWellWith": ["goat cheese (if tolerated)", "walnuts", "arugula", "olive oil"],
+  "nutritionalHighlights": [
+    "High in nitrates (supports blood pressure)",
+    "Good source of folate",
+    "Contains manganese",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

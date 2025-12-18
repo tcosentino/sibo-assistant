@@ -1,0 +1,37 @@
+{
+  "id": "bok-choy",
+  "name": "Bok Choy",
+  "aliases": ["pak choi", "chinese cabbage"],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans", "polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "1 cup"
+    },
+    "moderate": {
+      "grams": 150,
+      "description": "Larger portions may be moderate",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Bok choy is a great choice for SIBO-friendly Asian dishes. It's low FODMAP at standard portions and adds excellent texture and nutrition to stir-fries and soups.",
+  "preparationTips": [
+    "Separate leaves and stalks - stalks take longer to cook",
+    "Great in stir-fries with garlic-infused oil",
+    "Can be grilled or roasted",
+    "Baby bok choy can be cooked whole"
+  ],
+  "pairsWellWith": ["ginger", "sesame oil", "soy sauce (check ingredients)", "chicken", "shrimp"],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin A",
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains calcium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

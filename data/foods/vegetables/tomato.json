@@ -1,0 +1,36 @@
+{
+  "id": "tomato",
+  "name": "Tomato",
+  "aliases": ["tomatoes", "roma tomato", "cherry tomato"],
+  "category": "vegetable",
+  "subcategory": "nightshade",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructose"],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "Safe serving (about 1 small tomato)",
+      "cups": "0.5 cup chopped"
+    },
+    "moderate": {
+      "grams": 123,
+      "description": "One medium tomato, generally well tolerated",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Tomatoes are generally safe for SIBO patients at normal serving sizes. Cherry tomatoes and roma tomatoes are also low FODMAP. Canned tomatoes may have added high-FODMAP ingredients, so check labels.",
+  "preparationTips": [
+    "Fresh tomatoes are easiest to digest",
+    "Cooking may increase digestibility",
+    "Avoid tomato sauces with added onion or garlic"
+  ],
+  "pairsWellWith": ["basil", "olive oil", "mozzarella (if tolerated)", "cucumber", "eggs"],
+  "nutritionalHighlights": [
+    "Excellent source of lycopene (antioxidant)",
+    "High in vitamin C",
+    "Good source of potassium",
+    "Contains vitamin K"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

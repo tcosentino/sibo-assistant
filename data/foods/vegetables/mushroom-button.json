@@ -1,0 +1,31 @@
+{
+  "id": "mushroom-button",
+  "name": "Button Mushroom",
+  "aliases": ["white mushroom", "cremini", "portobello", "common mushroom"],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "high",
+  "fodmapTypes": ["polyols-mannitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 75,
+      "description": "Standard serving is high in mannitol",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Button mushrooms, cremini, and portobello (all the same species at different stages) are high in polyols and should be avoided during SIBO treatment. Use oyster mushrooms or canned mushrooms as alternatives.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Canned mushrooms are lower in FODMAPs due to processing",
+    "Oyster mushrooms provide similar texture"
+  ],
+  "alternatives": ["mushroom-oyster"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Good source of selenium",
+    "Contains B vitamins",
+    "Provides vitamin D (if exposed to UV)"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

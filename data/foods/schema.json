@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIBO Food Database Schema",
+  "description": "Schema for food items in the SIBO assistant database",
+  "type": "object",
+  "required": ["id", "name", "category", "fodmapRating", "servingSizes"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (lowercase, hyphenated)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the food"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternative names for the food"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["vegetable", "fruit", "protein", "grain", "dairy", "fat", "sweetener", "beverage", "condiment"],
+      "description": "Food category"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "More specific category (e.g., 'leafy-green', 'cruciferous', 'allium')"
+    },
+    "fodmapRating": {
+      "type": "string",
+      "enum": ["low", "moderate", "high"],
+      "description": "Overall FODMAP rating at typical serving"
+    },
+    "fodmapTypes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["fructose", "lactose", "fructans", "galactans", "polyols-sorbitol", "polyols-mannitol"]
+      },
+      "description": "Which FODMAPs this food contains"
+    },
+    "servingSizes": {
+      "type": "object",
+      "properties": {
+        "low": {
+          "type": "object",
+          "properties": {
+            "grams": { "type": "number" },
+            "description": { "type": "string" },
+            "cups": { "type": "string" }
+          },
+          "description": "Safe low-FODMAP serving size"
+        },
+        "moderate": {
+          "type": "object",
+          "properties": {
+            "grams": { "type": "number" },
+            "description": { "type": "string" },
+            "cups": { "type": "string" }
+          },
+          "description": "Moderate FODMAP serving size (may trigger some)"
+        },
+        "high": {
+          "type": "object",
+          "properties": {
+            "grams": { "type": "number" },
+            "description": { "type": "string" },
+            "cups": { "type": "string" }
+          },
+          "description": "High FODMAP serving size (likely to trigger symptoms)"
+        }
+      }
+    },
+    "siboNotes": {
+      "type": "string",
+      "description": "Specific considerations for SIBO patients"
+    },
+    "preparationTips": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tips for preparing this food to minimize symptoms"
+    },
+    "alternatives": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Lower-FODMAP alternatives if this food is high FODMAP"
+    },
+    "pairsWellWith": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Foods that complement this item in SIBO-friendly meals"
+    },
+    "nutritionalHighlights": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Key nutrients this food provides"
+    },
+    "source": {
+      "type": "string",
+      "description": "Primary data source (e.g., 'Monash University FODMAP App')"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this entry was last verified"
+    }
+  }
+}

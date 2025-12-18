@@ -1,0 +1,32 @@
+{
+  "id": "ginger",
+  "name": "Ginger",
+  "aliases": ["ginger root", "fresh ginger"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 1 teaspoon grated - standard culinary amount",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Ginger is excellent for SIBO patients - not only is it low FODMAP, but it acts as a NATURAL PROKINETIC that supports gut motility. Studies show it increases gastric emptying. Consider using regularly to support the migrating motor complex.",
+  "preparationTips": [
+    "Fresh ginger can be grated, sliced, or minced",
+    "Makes excellent tea for digestive support",
+    "Ground ginger is also low FODMAP",
+    "Freeze fresh ginger for easy grating"
+  ],
+  "pairsWellWith": ["chicken", "fish", "rice", "carrots", "lemon"],
+  "nutritionalHighlights": [
+    "Contains gingerols (anti-inflammatory)",
+    "Supports digestion and motility",
+    "May reduce nausea",
+    "Has antioxidant properties"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

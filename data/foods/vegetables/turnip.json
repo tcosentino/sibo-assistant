@@ -1,0 +1,32 @@
+{
+  "id": "turnip",
+  "name": "Turnip",
+  "aliases": ["turnips", "white turnip"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Turnips are a great low-FODMAP root vegetable option. They can be used similarly to potatoes in many dishes and remain safe at standard portions.",
+  "preparationTips": [
+    "Can be mashed like potatoes",
+    "Roasting brings out sweetness",
+    "Good in soups and stews",
+    "Young turnips are milder in flavor"
+  ],
+  "pairsWellWith": ["butter (lactose-free)", "thyme", "chicken", "beef", "carrots"],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains fiber",
+    "Low in calories",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

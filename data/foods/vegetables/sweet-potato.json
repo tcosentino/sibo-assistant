@@ -1,0 +1,38 @@
+{
+  "id": "sweet-potato",
+  "name": "Sweet Potato",
+  "aliases": ["sweet potatoes", "yam"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": ["polyols-mannitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "Safe serving (measured raw)",
+      "cups": "0.5 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "Becomes moderate in mannitol",
+      "cups": "0.66 cup"
+    }
+  },
+  "siboNotes": "Sweet potatoes need careful portion control as they can quickly become high FODMAP. Stick to 75g (raw weight) or about half a cup. They're nutritious but not as SIBO-friendly as regular potatoes.",
+  "preparationTips": [
+    "Measure portions before cooking",
+    "Roasting brings out natural sweetness",
+    "Can be mashed or baked",
+    "Pair with safe fats like olive oil or butter"
+  ],
+  "alternatives": ["potato"],
+  "pairsWellWith": ["cinnamon", "ginger", "olive oil", "maple syrup (small amount)", "chicken"],
+  "nutritionalHighlights": [
+    "Very high in vitamin A (beta-carotene)",
+    "Good source of fiber",
+    "Contains vitamin C",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "zucchini",
+  "name": "Zucchini",
+  "aliases": ["courgette", "summer squash"],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "Safe serving with low FODMAP content",
+      "cups": "0.5 cup"
+    },
+    "moderate": {
+      "grams": 85,
+      "description": "Becomes moderate in fructans at this size",
+      "cups": "0.66 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "High in fructans, likely to trigger symptoms",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Zucchini requires careful portion control. While low FODMAP at smaller servings, it becomes high in fructans at 85g or more. Stick to half-cup portions during the elimination phase.",
+  "preparationTips": [
+    "Makes excellent 'zoodles' as a pasta alternative",
+    "Grilling enhances flavor",
+    "Can be spiralized or sliced thin for salads"
+  ],
+  "pairsWellWith": ["tomatoes", "olive oil", "basil", "chicken", "fish"],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Good source of vitamin C",
+    "Contains potassium",
+    "Provides manganese"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}
