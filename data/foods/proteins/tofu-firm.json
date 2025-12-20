@@ -1,0 +1,34 @@
+{
+  "id": "tofu-firm",
+  "name": "Tofu (Firm/Extra-Firm)",
+  "aliases": ["firm tofu", "extra-firm tofu", "bean curd"],
+  "category": "protein",
+  "subcategory": "plant-protein",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 160,
+      "description": "About 2/3 cup cubed",
+      "cups": "0.66 cup"
+    }
+  },
+  "siboNotes": "IMPORTANT: Only FIRM and EXTRA-FIRM tofu is low FODMAP. Silken/soft tofu is HIGH FODMAP. The firmer varieties have most of the oligosaccharides pressed out. Check that it's made from soybean curd, not soy protein isolate.",
+  "preparationTips": [
+    "Press to remove excess water",
+    "Marinate in safe sauces",
+    "Pan-fry for crispy exterior",
+    "Bake or grill",
+    "Avoid silken tofu"
+  ],
+  "alternatives": ["tempeh", "eggs", "chicken"],
+  "pairsWellWith": ["soy sauce", "ginger", "sesame oil", "rice", "bok choy"],
+  "nutritionalHighlights": [
+    "Good plant protein source",
+    "Contains calcium",
+    "Low in calories",
+    "Source of iron"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

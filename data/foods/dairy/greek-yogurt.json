@@ -1,0 +1,38 @@
+{
+  "id": "greek-yogurt",
+  "name": "Greek Yogurt",
+  "aliases": ["strained yogurt"],
+  "category": "dairy",
+  "subcategory": "yogurt",
+  "fodmapRating": "low",
+  "fodmapTypes": ["lactose"],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "0.5 cup"
+    },
+    "moderate": {
+      "grams": 200,
+      "description": "Larger portions may trigger sensitive individuals",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Greek yogurt is lower in lactose than regular yogurt due to straining. Small portions are often tolerated. The live cultures also help digest lactose. Try small amounts to test tolerance.",
+  "preparationTips": [
+    "Start with small portions",
+    "Plain varieties are safest",
+    "Live cultures aid digestion",
+    "Use lactose-free if sensitive"
+  ],
+  "alternatives": ["yogurt-lactose-free", "yogurt-coconut"],
+  "pairsWellWith": ["berries", "honey (small amount)", "maple syrup", "cucumber"],
+  "nutritionalHighlights": [
+    "Very high in protein",
+    "Contains probiotics",
+    "Good source of calcium",
+    "Lower in sugar than regular yogurt"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

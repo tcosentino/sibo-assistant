@@ -1,0 +1,33 @@
+{
+  "id": "mayonnaise",
+  "name": "Mayonnaise",
+  "aliases": ["mayo"],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Plain mayonnaise made from eggs, oil, and vinegar is low FODMAP. CHECK INGREDIENTS for garlic, onion, or high-FODMAP sweeteners. Most commercial brands are safe.",
+  "preparationTips": [
+    "Check ingredients for garlic/onion",
+    "Avoid flavored mayonnaises",
+    "Make your own for guaranteed safety",
+    "Great base for safe dressings"
+  ],
+  "alternatives": ["olive-oil", "mustard"],
+  "pairsWellWith": ["sandwiches", "tuna", "chicken salad", "vegetables"],
+  "nutritionalHighlights": [
+    "High in fat",
+    "Contains vitamin E",
+    "Made from eggs and oil",
+    "Low in carbs"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

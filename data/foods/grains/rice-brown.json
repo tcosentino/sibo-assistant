@@ -1,0 +1,33 @@
+{
+  "id": "rice-brown",
+  "name": "Rice (Brown)",
+  "aliases": ["brown rice", "whole grain rice"],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 190,
+      "description": "1 cup cooked - generous portion",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "Brown rice is FODMAP-free like white rice but contains more fiber. It takes longer to cook but provides more nutrients. May be slightly harder to digest than white rice for some.",
+  "preparationTips": [
+    "Requires longer cooking time",
+    "Rinse before cooking",
+    "Great for grain bowls",
+    "More fiber than white rice"
+  ],
+  "alternatives": ["rice-white", "quinoa"],
+  "pairsWellWith": ["vegetables", "proteins", "sesame oil", "ginger"],
+  "nutritionalHighlights": [
+    "Higher in fiber than white rice",
+    "Contains manganese",
+    "Good source of magnesium",
+    "More B vitamins than white rice"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

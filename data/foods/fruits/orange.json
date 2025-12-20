@@ -1,0 +1,33 @@
+{
+  "id": "orange",
+  "name": "Orange",
+  "aliases": ["oranges", "navel orange"],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 130,
+      "description": "1 medium orange",
+      "cups": "1 medium"
+    }
+  },
+  "siboNotes": "Oranges are a safe citrus choice for SIBO. One medium orange per sitting is well-tolerated. A great source of vitamin C and refreshing flavor.",
+  "preparationTips": [
+    "Eat fresh segments",
+    "Can be used in salads",
+    "Fresh-squeezed juice in small amounts",
+    "Zest can be used for flavoring"
+  ],
+  "alternatives": ["lemon", "lime", "mandarin"],
+  "pairsWellWith": ["chicken", "salads", "dark chocolate", "carrots"],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Good source of fiber",
+    "Contains folate",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

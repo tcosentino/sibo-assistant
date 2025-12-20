@@ -1,0 +1,33 @@
+{
+  "id": "bread-gluten-free",
+  "name": "Bread (Gluten-Free)",
+  "aliases": ["GF bread"],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 54,
+      "description": "2 slices",
+      "cups": "2 slices"
+    }
+  },
+  "siboNotes": "Gluten-free bread is generally low FODMAP, but CHECK INGREDIENTS. Avoid breads with apple, pear, honey, agave, inulin, chicory root, or high-FODMAP flours. Look for rice, corn, or potato-based breads.",
+  "preparationTips": [
+    "Read ingredients carefully",
+    "Avoid inulin/chicory root fiber",
+    "Toast for better texture",
+    "Store in freezer for freshness"
+  ],
+  "alternatives": ["bread-sourdough", "rice-white", "potato"],
+  "pairsWellWith": ["butter", "eggs", "safe sandwich fillings"],
+  "nutritionalHighlights": [
+    "Varies by brand",
+    "Often fortified with vitamins",
+    "Check fiber content",
+    "May be lower in protein than wheat bread"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "turkey",
+  "name": "Turkey",
+  "aliases": ["turkey breast", "ground turkey"],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 breast portion"
+    }
+  },
+  "siboNotes": "Plain turkey is FODMAP-free. It's leaner than chicken and makes a great protein choice. Watch out for pre-seasoned or deli turkey which may contain high-FODMAP ingredients.",
+  "preparationTips": [
+    "Choose plain, unseasoned cuts",
+    "Ground turkey works for many recipes",
+    "Check deli turkey for additives",
+    "Roast with safe herbs",
+    "Avoid stuffing during elimination"
+  ],
+  "alternatives": ["chicken", "pork", "fish"],
+  "pairsWellWith": ["cranberry sauce (check sugar)", "rice", "potatoes", "green beans"],
+  "nutritionalHighlights": [
+    "Very lean protein",
+    "High in B vitamins",
+    "Good source of selenium",
+    "Contains tryptophan"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

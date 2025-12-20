@@ -1,0 +1,28 @@
+{
+  "id": "tea-green",
+  "name": "Green Tea",
+  "aliases": ["matcha", "sencha"],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup - weak strength is safest",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Green tea is low FODMAP when brewed weak (not steeped too long). Strong brews may cause issues for some. Herbal teas vary - check each type.",
+  "preparationTips": [
+    "Steep for 2-3 minutes max",
+    "Weak brew is safest",
+    "Matcha is also low FODMAP",
+    "Avoid chai (often contains high-FODMAP spices)"
+  ],
+  "alternatives": ["peppermint-tea", "ginger-tea"],
+  "pairsWellWith": ["lemon", "ginger"],
+  "nutritionalHighlights": ["Contains antioxidants (EGCG)", "Has caffeine", "May boost metabolism"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

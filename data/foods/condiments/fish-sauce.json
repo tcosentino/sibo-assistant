@@ -1,0 +1,28 @@
+{
+  "id": "fish-sauce",
+  "name": "Fish Sauce",
+  "aliases": ["nam pla", "nuoc mam"],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Fish sauce is FODMAP-free and essential for Southeast Asian cooking. Adds umami depth to dishes. A little goes a long way - it's quite pungent.",
+  "preparationTips": [
+    "Use sparingly - very strong flavor",
+    "Essential for Thai and Vietnamese dishes",
+    "Adds umami without garlic/onion",
+    "Check labels for added ingredients"
+  ],
+  "alternatives": ["soy-sauce"],
+  "pairsWellWith": ["rice", "stir-fries", "curries", "marinades"],
+  "nutritionalHighlights": ["High in sodium", "Contains protein", "Source of umami"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

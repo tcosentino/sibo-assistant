@@ -1,0 +1,34 @@
+{
+  "id": "pork",
+  "name": "Pork",
+  "aliases": ["pork chop", "pork loin", "pork tenderloin"],
+  "category": "protein",
+  "subcategory": "red-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 chop or portion"
+    }
+  },
+  "siboNotes": "Plain pork is FODMAP-free. Lean cuts like tenderloin and loin are excellent choices. Avoid processed pork products (sausages, bacon) which may contain high-FODMAP seasonings.",
+  "preparationTips": [
+    "Choose plain, unmarinated cuts",
+    "Tenderloin is very lean",
+    "Season with safe herbs and spices",
+    "Check sausages for onion/garlic",
+    "Plain bacon is usually safe in moderation"
+  ],
+  "alternatives": ["chicken", "beef", "lamb"],
+  "pairsWellWith": ["applesauce (small amount)", "rosemary", "potatoes", "maple syrup"],
+  "nutritionalHighlights": [
+    "High in thiamin (B1)",
+    "Good source of protein",
+    "Contains selenium",
+    "Provides zinc"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

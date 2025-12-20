@@ -1,0 +1,34 @@
+{
+  "id": "salmon",
+  "name": "Salmon",
+  "aliases": ["atlantic salmon", "wild salmon", "salmon fillet"],
+  "category": "protein",
+  "subcategory": "fish",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 fillet"
+    }
+  },
+  "siboNotes": "Salmon is FODMAP-free and an excellent choice for SIBO. It provides anti-inflammatory omega-3 fatty acids which may help with gut healing. Fresh, canned, or smoked are all safe.",
+  "preparationTips": [
+    "Bake, grill, or pan-sear",
+    "Season with lemon, dill, and safe herbs",
+    "Canned salmon is convenient and safe",
+    "Smoked salmon is also low FODMAP",
+    "Use garlic-infused oil for flavor"
+  ],
+  "alternatives": ["tuna", "cod", "trout", "shrimp"],
+  "pairsWellWith": ["lemon", "dill", "rice", "potatoes", "green beans"],
+  "nutritionalHighlights": [
+    "Very high in omega-3 fatty acids",
+    "Excellent protein source",
+    "High in B vitamins",
+    "Good source of selenium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

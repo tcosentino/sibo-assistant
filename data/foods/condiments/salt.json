@@ -1,0 +1,32 @@
+{
+  "id": "salt",
+  "name": "Salt",
+  "aliases": ["table salt", "sea salt", "kosher salt", "himalayan salt"],
+  "category": "condiment",
+  "subcategory": "seasoning",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "Use as needed for seasoning",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "All types of salt are FODMAP-free. Use to season food as desired. Essential for flavor in low-FODMAP cooking.",
+  "preparationTips": [
+    "All salt types are safe",
+    "Essential for flavoring food",
+    "Use kosher salt for better control",
+    "Finishing salts add texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": ["all foods"],
+  "nutritionalHighlights": [
+    "Provides sodium",
+    "Essential mineral",
+    "Sea salt contains trace minerals"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

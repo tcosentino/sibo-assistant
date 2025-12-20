@@ -1,0 +1,43 @@
+{
+  "id": "avocado",
+  "name": "Avocado",
+  "aliases": ["avocados"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": ["polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/8 of a whole avocado",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 45,
+      "description": "1/4 avocado - moderate sorbitol",
+      "cups": "3 tablespoons"
+    },
+    "high": {
+      "grams": 80,
+      "description": "Half avocado or more is high FODMAP",
+      "cups": "0.5 avocado"
+    }
+  },
+  "siboNotes": "Avocado has a VERY small safe portion - only about 1/8 of a whole avocado (30g). It's high in sorbitol at larger portions. Many people with SIBO need to avoid it entirely.",
+  "preparationTips": [
+    "Measure portions carefully",
+    "Thin slices on toast rather than mashing",
+    "Skip guacamole during elimination",
+    "Freeze unused portions"
+  ],
+  "alternatives": ["olive oil", "tahini"],
+  "pairsWellWith": ["eggs", "tomatoes", "lime", "cilantro"],
+  "nutritionalHighlights": [
+    "High in healthy monounsaturated fats",
+    "Good source of potassium",
+    "Contains vitamin K",
+    "High in fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

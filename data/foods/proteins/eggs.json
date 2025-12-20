@@ -1,0 +1,34 @@
+{
+  "id": "eggs",
+  "name": "Eggs",
+  "aliases": ["egg", "whole eggs", "chicken eggs"],
+  "category": "protein",
+  "subcategory": "eggs",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "2 large eggs"
+    }
+  },
+  "siboNotes": "Eggs are an excellent SIBO-safe protein containing NO FODMAPs. They can be prepared many ways and are well-tolerated by most. A complete protein with all essential amino acids.",
+  "preparationTips": [
+    "Scrambled, fried, poached, or boiled",
+    "Use butter or safe oils for cooking",
+    "Add safe vegetables to omelets",
+    "Hard-boiled for easy snacks",
+    "Avoid adding milk (use lactose-free if needed)"
+  ],
+  "alternatives": ["chicken", "fish", "tofu-firm"],
+  "pairsWellWith": ["spinach", "tomatoes", "cheese (hard)", "chives", "safe vegetables"],
+  "nutritionalHighlights": [
+    "Complete protein source",
+    "High in choline",
+    "Good source of B12",
+    "Contains vitamin D"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

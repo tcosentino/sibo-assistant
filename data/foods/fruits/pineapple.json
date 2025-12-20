@@ -1,0 +1,33 @@
+{
+  "id": "pineapple",
+  "name": "Pineapple",
+  "aliases": [],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "1 cup chopped - generous portion",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Pineapple is a great tropical fruit choice for SIBO with a generous safe serving size. It contains bromelain, an enzyme that aids protein digestion. Fresh is best.",
+  "preparationTips": [
+    "Fresh pineapple is best",
+    "Canned in juice (not syrup) is acceptable",
+    "Core is edible and high in bromelain",
+    "Great in stir-fries and curries"
+  ],
+  "alternatives": ["kiwi", "papaya", "orange"],
+  "pairsWellWith": ["chicken", "shrimp", "rice", "coconut"],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains bromelain enzyme",
+    "Good source of manganese",
+    "Anti-inflammatory properties"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

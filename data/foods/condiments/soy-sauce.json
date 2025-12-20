@@ -1,0 +1,33 @@
+{
+  "id": "soy-sauce",
+  "name": "Soy Sauce",
+  "aliases": ["shoyu", "tamari"],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 42,
+      "description": "2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Soy sauce is FODMAP-free despite containing wheat - the amount is too small to matter. Tamari (gluten-free soy sauce) is also safe. Essential for Asian cooking.",
+  "preparationTips": [
+    "Use in stir-fries and marinades",
+    "Low-sodium versions also safe",
+    "Tamari for gluten-free option",
+    "Combine with ginger and sesame oil"
+  ],
+  "alternatives": ["tamari", "coconut-aminos"],
+  "pairsWellWith": ["rice", "tofu", "chicken", "vegetables", "ginger"],
+  "nutritionalHighlights": [
+    "High in sodium",
+    "Contains some protein",
+    "Fermented product",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

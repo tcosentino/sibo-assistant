@@ -1,0 +1,38 @@
+{
+  "id": "oats",
+  "name": "Oats",
+  "aliases": ["oatmeal", "rolled oats", "porridge"],
+  "category": "grain",
+  "subcategory": "oats",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 52,
+      "description": "About 1/2 cup dry oats",
+      "cups": "0.5 cup dry"
+    },
+    "moderate": {
+      "grams": 78,
+      "description": "3/4 cup dry contains moderate fructans",
+      "cups": "0.75 cup dry"
+    }
+  },
+  "siboNotes": "Oats are low FODMAP at about 1/2 cup dry (52g). Larger portions become moderate in fructans. Quick oats, rolled oats, and steel-cut are all similar. Choose certified gluten-free if sensitive.",
+  "preparationTips": [
+    "Stick to 1/2 cup dry portion",
+    "Cook with lactose-free milk or water",
+    "Top with safe fruits and maple syrup",
+    "Overnight oats work well too"
+  ],
+  "alternatives": ["rice", "quinoa"],
+  "pairsWellWith": ["banana-firm", "blueberries", "maple syrup", "cinnamon", "walnuts"],
+  "nutritionalHighlights": [
+    "High in fiber (beta-glucan)",
+    "Good source of manganese",
+    "Contains iron",
+    "Provides B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

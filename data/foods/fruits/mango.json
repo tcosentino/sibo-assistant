@@ -1,0 +1,36 @@
+{
+  "id": "mango",
+  "name": "Mango",
+  "aliases": ["mangos", "mangoes"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose"],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "Very small portion only",
+      "cups": "0.25 cup"
+    },
+    "high": {
+      "grams": 80,
+      "description": "Larger portions are high FODMAP",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Mango has a very small safe portion (40g or about 1/4 cup). It quickly becomes high FODMAP due to fructose. Dried mango is even higher in FODMAPs. Use pineapple or papaya as alternatives.",
+  "preparationTips": [
+    "Stick to very small portions if eating",
+    "Avoid dried mango",
+    "Use pineapple for similar tropical flavor"
+  ],
+  "alternatives": ["pineapple", "papaya", "kiwi"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Very high in vitamin A",
+    "Good source of vitamin C",
+    "Contains fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

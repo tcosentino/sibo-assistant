@@ -1,0 +1,33 @@
+{
+  "id": "vinegar-apple-cider",
+  "name": "Apple Cider Vinegar",
+  "aliases": ["ACV"],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Apple cider vinegar is low FODMAP despite being made from apples - the fermentation removes the fructose. Some people find it aids digestion. Use in dressings and drinks.",
+  "preparationTips": [
+    "Dilute if drinking",
+    "Great in salad dressings",
+    "Use for marinades",
+    "May help digestion for some"
+  ],
+  "alternatives": ["lemon", "vinegar-balsamic", "vinegar-red-wine"],
+  "pairsWellWith": ["olive oil", "salads", "marinades", "pickles"],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains acetic acid",
+    "May support digestion",
+    "Fermented product"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

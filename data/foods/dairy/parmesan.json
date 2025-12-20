@@ -1,0 +1,33 @@
+{
+  "id": "parmesan",
+  "name": "Parmesan",
+  "aliases": ["parmigiano-reggiano", "parm"],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1/3 cup grated",
+      "cups": "0.33 cup grated"
+    }
+  },
+  "siboNotes": "Parmesan is one of the safest cheeses - it's aged so long that virtually all lactose is gone. Use freely for flavor on pasta, salads, and vegetables.",
+  "preparationTips": [
+    "Grate fresh for best flavor",
+    "Aged versions are most flavorful",
+    "Use to add depth to dishes",
+    "Rinds can flavor soups (remove before eating)"
+  ],
+  "alternatives": ["pecorino", "asiago", "grana-padano"],
+  "pairsWellWith": ["pasta", "risotto", "salads", "eggs", "vegetables"],
+  "nutritionalHighlights": [
+    "Very high in calcium",
+    "Excellent protein source",
+    "Contains phosphorus",
+    "Rich in vitamin A"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

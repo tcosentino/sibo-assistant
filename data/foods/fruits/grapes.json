@@ -1,0 +1,37 @@
+{
+  "id": "grapes",
+  "name": "Grapes",
+  "aliases": ["green grapes", "red grapes", "seedless grapes"],
+  "category": "fruit",
+  "subcategory": "vine",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["fructose"],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 6 grapes - very small portion",
+      "cups": "small handful"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "Contains moderate fructose",
+      "cups": "handful"
+    }
+  },
+  "siboNotes": "Grapes have a very small safe serving size - only about 6 grapes (14g). Monash recently retested and reduced the recommended portion due to fructose content. Many people report GI discomfort with larger portions.",
+  "preparationTips": [
+    "Limit to 6 grapes per serving",
+    "Can be frozen for a cool snack",
+    "Red and green varieties similar FODMAP content"
+  ],
+  "alternatives": ["strawberry", "kiwi", "orange"],
+  "pairsWellWith": ["cheese (hard)", "walnuts"],
+  "nutritionalHighlights": [
+    "Contains resveratrol",
+    "Good source of vitamin K",
+    "Contains vitamin C",
+    "Provides hydration"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "kiwi",
+  "name": "Kiwi",
+  "aliases": ["kiwifruit", "green kiwi"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "2 small kiwis - generous portion allowed",
+      "cups": "2 small"
+    }
+  },
+  "siboNotes": "Kiwi is an excellent fruit choice for SIBO! It has a generous safe serving size and is known to support digestive regularity. The actinidin enzyme may aid protein digestion.",
+  "preparationTips": [
+    "Eat skin-on for extra fiber (wash well)",
+    "Slice over yogurt or oatmeal",
+    "Great in smoothies",
+    "Can be eaten with a spoon by cutting in half"
+  ],
+  "alternatives": ["orange", "pineapple", "papaya"],
+  "pairsWellWith": ["strawberry", "banana-firm", "lactose-free yogurt", "oats"],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin C",
+    "Good source of vitamin K",
+    "Contains actinidin enzyme",
+    "High in fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

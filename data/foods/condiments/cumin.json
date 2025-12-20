@@ -1,0 +1,32 @@
+{
+  "id": "cumin",
+  "name": "Cumin",
+  "aliases": ["ground cumin", "cumin seeds"],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 3,
+      "description": "1 teaspoon - use as needed",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Cumin is FODMAP-free and essential for Mexican, Indian, and Middle Eastern cuisines. Ground or whole seeds are both safe. Adds warm, earthy flavor.",
+  "preparationTips": [
+    "Toast whole seeds for more flavor",
+    "Use in spice blends",
+    "Essential for chili and curry",
+    "Pairs well with coriander"
+  ],
+  "alternatives": ["coriander", "caraway"],
+  "pairsWellWith": ["beans (if tolerated)", "rice", "meat", "vegetables"],
+  "nutritionalHighlights": [
+    "Contains iron",
+    "Has antioxidants",
+    "May aid digestion"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

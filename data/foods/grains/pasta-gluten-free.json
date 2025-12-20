@@ -1,0 +1,33 @@
+{
+  "id": "pasta-gluten-free",
+  "name": "Pasta (Gluten-Free)",
+  "aliases": ["GF pasta", "rice pasta", "corn pasta"],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 145,
+      "description": "1 cup cooked",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "Rice and corn-based gluten-free pasta is low FODMAP. Avoid pasta made with legume flours (chickpea, lentil, bean) which are high FODMAP. Check ingredients carefully.",
+  "preparationTips": [
+    "Choose rice, corn, or quinoa-based",
+    "Avoid chickpea/lentil pasta",
+    "Don't overcook - GF pasta gets mushy",
+    "Use safe sauces (no garlic/onion)"
+  ],
+  "alternatives": ["rice-white", "rice-noodles", "zucchini-noodles"],
+  "pairsWellWith": ["olive oil", "tomatoes", "basil", "parmesan", "safe proteins"],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates",
+    "Varies by ingredients",
+    "Often fortified",
+    "Rice pasta is easy to digest"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

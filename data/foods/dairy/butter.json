@@ -1,0 +1,33 @@
+{
+  "id": "butter",
+  "name": "Butter",
+  "aliases": ["unsalted butter", "salted butter"],
+  "category": "dairy",
+  "subcategory": "fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Butter contains only trace amounts of lactose and is safe for SIBO. Both salted and unsalted are fine. Use for cooking, baking, and spreading.",
+  "preparationTips": [
+    "Use for sautéing and baking",
+    "Clarified butter (ghee) is also safe",
+    "Spreadable butter is also low FODMAP",
+    "Great for finishing dishes"
+  ],
+  "alternatives": ["olive-oil", "ghee", "coconut-oil"],
+  "pairsWellWith": ["bread", "vegetables", "pasta", "eggs", "seafood"],
+  "nutritionalHighlights": [
+    "Good source of vitamin A",
+    "Contains vitamin D",
+    "Provides fat-soluble vitamins",
+    "High in saturated fat"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

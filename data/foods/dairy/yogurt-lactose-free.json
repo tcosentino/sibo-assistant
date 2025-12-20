@@ -1,0 +1,33 @@
+{
+  "id": "yogurt-lactose-free",
+  "name": "Yogurt (Lactose-Free)",
+  "aliases": ["lactose-free yogurt", "Lactaid yogurt"],
+  "category": "dairy",
+  "subcategory": "yogurt",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Lactose-free yogurt is safe for SIBO. Check ingredients for high-FODMAP additives like inulin, chicory root fiber, honey, agave, or high-FODMAP fruits. Plain is safest, add your own toppings.",
+  "preparationTips": [
+    "Choose plain and add safe toppings",
+    "Check ingredients for inulin/chicory",
+    "Avoid versions with honey or agave",
+    "Add safe fruits and maple syrup"
+  ],
+  "alternatives": ["yogurt-coconut", "kefir-lactose-free"],
+  "pairsWellWith": ["berries", "banana-firm", "maple syrup", "granola (check ingredients)"],
+  "nutritionalHighlights": [
+    "Good source of protein",
+    "High in calcium",
+    "Contains probiotics",
+    "Provides B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

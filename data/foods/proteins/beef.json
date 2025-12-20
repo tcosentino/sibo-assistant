@@ -1,0 +1,34 @@
+{
+  "id": "beef",
+  "name": "Beef",
+  "aliases": ["steak", "ground beef", "beef mince"],
+  "category": "protein",
+  "subcategory": "red-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 steak or 1 cup ground"
+    }
+  },
+  "siboNotes": "Plain beef contains NO FODMAPs and can be eaten freely. Choose unmarinated cuts and season with safe herbs. Ground beef is versatile for many SIBO-friendly recipes.",
+  "preparationTips": [
+    "Choose plain cuts without marinades",
+    "Use garlic-infused oil for cooking",
+    "Season with salt, pepper, and safe herbs",
+    "Avoid pre-seasoned or marinated cuts",
+    "Check sausages for onion/garlic"
+  ],
+  "alternatives": ["lamb", "pork", "chicken"],
+  "pairsWellWith": ["potatoes", "rice", "safe vegetables", "rosemary", "thyme"],
+  "nutritionalHighlights": [
+    "Excellent source of protein",
+    "Very high in iron",
+    "Rich in B12",
+    "Contains zinc"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

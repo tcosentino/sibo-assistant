@@ -1,0 +1,33 @@
+{
+  "id": "cod",
+  "name": "Cod",
+  "aliases": ["atlantic cod", "pacific cod", "white fish"],
+  "category": "protein",
+  "subcategory": "fish",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 fillet"
+    }
+  },
+  "siboNotes": "Cod is a mild white fish that's FODMAP-free. Its neutral flavor makes it versatile for many preparations. Similar fish like haddock, pollock, and halibut are also safe.",
+  "preparationTips": [
+    "Bake, pan-fry, or poach",
+    "Use lemon and herbs for flavor",
+    "Avoid breaded versions",
+    "Pairs well with safe sauces"
+  ],
+  "alternatives": ["haddock", "tilapia", "halibut", "salmon"],
+  "pairsWellWith": ["lemon", "dill", "potatoes", "capers", "tomatoes"],
+  "nutritionalHighlights": [
+    "Very lean protein",
+    "Low in calories",
+    "Good source of B12",
+    "Contains phosphorus"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

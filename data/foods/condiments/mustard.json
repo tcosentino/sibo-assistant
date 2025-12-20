@@ -1,0 +1,33 @@
+{
+  "id": "mustard",
+  "name": "Mustard",
+  "aliases": ["dijon mustard", "yellow mustard", "whole grain mustard"],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 17,
+      "description": "1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Most mustards are low FODMAP - dijon, yellow, and whole grain are all safe at normal portions. CHECK for added honey (honey mustard may be high FODMAP) or high-FODMAP additives.",
+  "preparationTips": [
+    "Check for added honey or garlic",
+    "Great in dressings and marinades",
+    "All basic varieties are safe",
+    "Adds flavor without FODMAPs"
+  ],
+  "alternatives": ["mayonnaise", "horseradish"],
+  "pairsWellWith": ["sandwiches", "salad dressings", "pork", "chicken", "beef"],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains selenium",
+    "Provides turmeric (in yellow mustard)",
+    "Adds flavor without fat"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

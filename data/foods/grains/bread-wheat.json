@@ -1,0 +1,37 @@
+{
+  "id": "bread-wheat",
+  "name": "Bread (Regular Wheat)",
+  "aliases": ["white bread", "whole wheat bread"],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "1 slice only",
+      "cups": "1 slice"
+    },
+    "moderate": {
+      "grams": 48,
+      "description": "2 slices - moderate fructans",
+      "cups": "2 slices"
+    }
+  },
+  "siboNotes": "Regular wheat bread has a small safe portion - just 1 slice (24g). It's the fructans in wheat (not gluten) that cause issues. Sourdough or gluten-free bread are better options.",
+  "preparationTips": [
+    "Limit to 1 slice during elimination",
+    "Choose sourdough for larger portions",
+    "Toasting doesn't reduce FODMAPs",
+    "Consider gluten-free alternatives"
+  ],
+  "alternatives": ["bread-sourdough", "bread-gluten-free", "rice"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Contains B vitamins",
+    "Provides fiber (whole wheat)",
+    "Good source of carbohydrates"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

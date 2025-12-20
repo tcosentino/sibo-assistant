@@ -1,0 +1,28 @@
+{
+  "id": "arugula",
+  "name": "Arugula",
+  "aliases": ["rocket", "roquette"],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2 cups",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Arugula is low FODMAP and adds a peppery flavor to salads. Great as a pizza topping or in pasta dishes. Very low in calories.",
+  "preparationTips": [
+    "Use fresh in salads",
+    "Add to hot dishes at last minute",
+    "Great on pizza after cooking",
+    "Pairs with parmesan and lemon"
+  ],
+  "alternatives": ["spinach", "lettuce", "kale"],
+  "pairsWellWith": ["parmesan", "lemon", "olive oil", "prosciutto", "pizza"],
+  "nutritionalHighlights": ["High in vitamin K", "Contains calcium", "Low in calories", "Has antioxidants"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

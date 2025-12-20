@@ -1,0 +1,33 @@
+{
+  "id": "quinoa",
+  "name": "Quinoa",
+  "aliases": ["red quinoa", "white quinoa", "tri-color quinoa"],
+  "category": "grain",
+  "subcategory": "pseudo-grain",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "1 cup cooked - generous portion",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "Quinoa is both gluten-free AND low FODMAP. It's a complete protein containing all essential amino acids - rare for a plant food. All colors (red, white, black) are safe.",
+  "preparationTips": [
+    "Rinse well to remove bitter saponins",
+    "Cook like rice (2:1 water ratio)",
+    "All color varieties are safe",
+    "Great cold in salads"
+  ],
+  "alternatives": ["rice-white", "rice-brown", "millet"],
+  "pairsWellWith": ["vegetables", "lemon", "olive oil", "herbs", "feta (if tolerated)"],
+  "nutritionalHighlights": [
+    "Complete plant protein",
+    "High in fiber",
+    "Good source of iron",
+    "Contains magnesium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

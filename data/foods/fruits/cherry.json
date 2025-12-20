@@ -1,0 +1,36 @@
+{
+  "id": "cherry",
+  "name": "Cherry",
+  "aliases": ["cherries", "sweet cherries"],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose", "polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 28,
+      "description": "Only 3 cherries",
+      "cups": "3 cherries"
+    },
+    "high": {
+      "grams": 50,
+      "description": "5+ cherries is high FODMAP",
+      "cups": "handful"
+    }
+  },
+  "siboNotes": "Cherries are high in both fructose and sorbitol. Only 3 cherries (28g) is considered safe. Most people will need to avoid cherries during SIBO treatment.",
+  "preparationTips": [
+    "Limit to 3 cherries if eating any",
+    "Avoid dried cherries completely",
+    "Choose berries instead"
+  ],
+  "alternatives": ["strawberry", "blueberry", "raspberry"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Contains melatonin",
+    "High in antioxidants",
+    "Good source of vitamin C"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

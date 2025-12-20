@@ -1,0 +1,33 @@
+{
+  "id": "corn-tortilla",
+  "name": "Corn Tortilla",
+  "aliases": ["tortilla", "taco shell"],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "2 small corn tortillas",
+      "cups": "2 tortillas"
+    }
+  },
+  "siboNotes": "Corn tortillas are FODMAP-free and great for tacos and wraps. Choose 100% corn tortillas. Flour tortillas are higher in FODMAPs due to wheat content.",
+  "preparationTips": [
+    "Choose 100% corn varieties",
+    "Heat for better texture",
+    "Double up for sturdier tacos",
+    "Avoid flour tortillas"
+  ],
+  "alternatives": ["rice", "lettuce-wraps"],
+  "pairsWellWith": ["safe proteins", "lettuce", "tomatoes", "cheese", "lime"],
+  "nutritionalHighlights": [
+    "Gluten-free",
+    "Contains fiber",
+    "Good source of whole grains",
+    "Lower in calories than flour tortillas"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

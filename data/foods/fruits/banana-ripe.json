@@ -1,0 +1,30 @@
+{
+  "id": "banana-ripe",
+  "name": "Banana (Ripe)",
+  "aliases": ["ripe banana", "spotted banana"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "high": {
+      "grams": 100,
+      "description": "Ripe bananas are high FODMAP",
+      "cups": "1 medium"
+    }
+  },
+  "siboNotes": "Ripe bananas with brown spots are HIGH FODMAP and should be avoided during SIBO treatment. As bananas ripen, their resistant starch converts to fructans. Choose firm, unripe bananas instead.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Choose firm/green bananas instead",
+    "If banana ripens, freeze for later use after reintroduction"
+  ],
+  "alternatives": ["banana-firm", "orange", "kiwi"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "High in potassium",
+    "Contains vitamin B6"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

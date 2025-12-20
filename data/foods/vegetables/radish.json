@@ -1,0 +1,28 @@
+{
+  "id": "radish",
+  "name": "Radish",
+  "aliases": ["radishes", "red radish"],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 66,
+      "description": "About 4-5 radishes",
+      "cups": "0.5 cup sliced"
+    }
+  },
+  "siboNotes": "Radishes are low FODMAP and add a nice peppery crunch to salads. Both the root and the green tops are edible and safe.",
+  "preparationTips": [
+    "Eat raw for best crunch",
+    "Roasting mellows the flavor",
+    "Greens are also edible",
+    "Great in salads and tacos"
+  ],
+  "alternatives": ["cucumber", "carrot"],
+  "pairsWellWith": ["butter", "salt", "salads", "tacos"],
+  "nutritionalHighlights": ["Low in calories", "Contains vitamin C", "Provides fiber"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

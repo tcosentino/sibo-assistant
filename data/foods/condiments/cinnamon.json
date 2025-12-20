@@ -1,0 +1,32 @@
+{
+  "id": "cinnamon",
+  "name": "Cinnamon",
+  "aliases": ["ground cinnamon", "cinnamon sticks"],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "Use freely for flavoring",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Cinnamon is FODMAP-free and adds warmth to both sweet and savory dishes. May help regulate blood sugar. Great for oatmeal, baking, and curries.",
+  "preparationTips": [
+    "Use in oatmeal and baking",
+    "Add to coffee or smoothies",
+    "Works in savory dishes too",
+    "Ceylon cinnamon is milder"
+  ],
+  "alternatives": ["nutmeg", "allspice"],
+  "pairsWellWith": ["oats", "banana-firm", "apples (avoid)", "sweet potato", "coffee"],
+  "nutritionalHighlights": [
+    "May help blood sugar regulation",
+    "Contains antioxidants",
+    "Has anti-inflammatory properties"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

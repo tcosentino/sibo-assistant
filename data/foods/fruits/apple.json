@@ -1,0 +1,31 @@
+{
+  "id": "apple",
+  "name": "Apple",
+  "aliases": ["apples"],
+  "category": "fruit",
+  "subcategory": "pome",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose", "polyols-sorbitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 100,
+      "description": "One medium apple is high FODMAP",
+      "cups": "1 medium"
+    }
+  },
+  "siboNotes": "Apples are HIGH FODMAP and should be avoided during SIBO treatment. They contain high levels of fructose and sorbitol. Choose oranges, kiwi, or berries instead.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Cooking does not reduce FODMAP content",
+    "Apple juice and cider also high FODMAP"
+  ],
+  "alternatives": ["orange", "kiwi", "strawberry", "banana-firm"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "High in fiber",
+    "Contains vitamin C",
+    "Good source of antioxidants"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

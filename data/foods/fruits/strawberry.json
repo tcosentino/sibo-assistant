@@ -1,0 +1,37 @@
+{
+  "id": "strawberry",
+  "name": "Strawberry",
+  "aliases": ["strawberries"],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 5 medium strawberries",
+      "cups": "0.5 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "Larger portions may trigger symptoms",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Strawberries are safe at about 5 medium berries (65g). Monash retested in 2022 and reduced the safe portion. Fresh is best - check labels on frozen for added sugars.",
+  "preparationTips": [
+    "Eat fresh for best tolerance",
+    "Can be added to lactose-free yogurt",
+    "Blend into smoothies with safe portions"
+  ],
+  "alternatives": ["blueberry", "raspberry"],
+  "pairsWellWith": ["lactose-free yogurt", "banana", "maple syrup", "oats"],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Good source of manganese",
+    "Contains antioxidants",
+    "High in fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

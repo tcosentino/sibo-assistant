@@ -1,0 +1,33 @@
+{
+  "id": "feta",
+  "name": "Feta Cheese",
+  "aliases": ["feta"],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": ["lactose"],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup crumbled",
+      "cups": "0.25 cup"
+    }
+  },
+  "siboNotes": "Feta is lower in lactose than many soft cheeses and is generally well-tolerated at moderate portions. Traditional feta made from sheep/goat milk may be easier to digest.",
+  "preparationTips": [
+    "Crumble over salads",
+    "Use in Mediterranean dishes",
+    "Pairs well with safe vegetables",
+    "Traditional Greek feta may be better tolerated"
+  ],
+  "alternatives": ["cheddar", "parmesan", "goat-cheese"],
+  "pairsWellWith": ["tomatoes", "cucumber", "olives", "olive oil", "herbs"],
+  "nutritionalHighlights": [
+    "Good source of calcium",
+    "Contains protein",
+    "High in sodium",
+    "Provides B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

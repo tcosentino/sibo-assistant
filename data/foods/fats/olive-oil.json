@@ -1,0 +1,33 @@
+{
+  "id": "olive-oil",
+  "name": "Olive Oil",
+  "aliases": ["extra virgin olive oil", "EVOO"],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "1 tablespoon - use freely",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Olive oil is FODMAP-free. All fats and oils contain no FODMAPs. Extra virgin olive oil is excellent for cooking and dressings. Has anti-inflammatory properties.",
+  "preparationTips": [
+    "Use for cooking, dressings, and finishing",
+    "Extra virgin is best for cold uses",
+    "Regular olive oil for high-heat cooking",
+    "Drizzle over finished dishes"
+  ],
+  "alternatives": ["coconut-oil", "butter", "avocado-oil"],
+  "pairsWellWith": ["salads", "vegetables", "bread", "pasta", "fish"],
+  "nutritionalHighlights": [
+    "High in monounsaturated fats",
+    "Contains antioxidants",
+    "Anti-inflammatory properties",
+    "Supports heart health"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

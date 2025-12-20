@@ -1,0 +1,33 @@
+{
+  "id": "coconut-oil",
+  "name": "Coconut Oil",
+  "aliases": ["virgin coconut oil"],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "1 tablespoon - use freely",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Coconut oil is FODMAP-free like all oils. Good for high-heat cooking due to high smoke point. Has a subtle coconut flavor that works well in Asian and tropical dishes.",
+  "preparationTips": [
+    "Great for high-heat cooking",
+    "Solid at room temperature",
+    "Refined has less coconut flavor",
+    "Virgin has more coconut taste"
+  ],
+  "alternatives": ["olive-oil", "butter", "avocado-oil"],
+  "pairsWellWith": ["Asian dishes", "curries", "baking", "smoothies"],
+  "nutritionalHighlights": [
+    "High in medium-chain triglycerides (MCTs)",
+    "High in saturated fat",
+    "May boost metabolism",
+    "Good for high-heat cooking"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

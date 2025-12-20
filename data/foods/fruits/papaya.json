@@ -1,0 +1,33 @@
+{
+  "id": "papaya",
+  "name": "Papaya",
+  "aliases": ["pawpaw"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "About 1 cup cubed - generous portion",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Papaya is an excellent fruit choice for SIBO with a generous safe portion. It contains papain enzyme which aids protein digestion. A great mango substitute.",
+  "preparationTips": [
+    "Best eaten fresh and ripe",
+    "Squeeze lime over it",
+    "Can be used in smoothies",
+    "Seeds are edible (peppery flavor)"
+  ],
+  "alternatives": ["pineapple", "kiwi", "cantaloupe"],
+  "pairsWellWith": ["lime", "coconut", "chicken", "shrimp"],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Good source of vitamin A",
+    "Contains papain enzyme",
+    "High in fiber"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

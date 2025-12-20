@@ -1,0 +1,33 @@
+{
+  "id": "mandarin",
+  "name": "Mandarin",
+  "aliases": ["clementine", "tangerine", "satsuma"],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 2 small mandarins",
+      "cups": "2 small"
+    }
+  },
+  "siboNotes": "Mandarins are a great portable snack for SIBO. Easy to peel and naturally portioned. Clementines and tangerines are similar and also safe.",
+  "preparationTips": [
+    "Peel and eat fresh",
+    "Great for on-the-go snacking",
+    "Add segments to salads",
+    "Easy portion control"
+  ],
+  "alternatives": ["orange", "lemon", "lime"],
+  "pairsWellWith": ["spinach salads", "chicken", "almonds"],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of fiber",
+    "Contains vitamin A",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

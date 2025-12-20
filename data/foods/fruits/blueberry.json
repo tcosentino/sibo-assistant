@@ -1,0 +1,37 @@
+{
+  "id": "blueberry",
+  "name": "Blueberry",
+  "aliases": ["blueberries"],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 20 blueberries",
+      "cups": "0.25 cup"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "Larger portions contain moderate fructans",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Blueberries are safe in small portions. Stick to about a quarter cup (40g) per serving. They're nutrient-dense so even small amounts provide good nutrition.",
+  "preparationTips": [
+    "Fresh or frozen both work well",
+    "Add to oatmeal or yogurt",
+    "Great in smoothies within portion limits"
+  ],
+  "alternatives": ["strawberry", "raspberry"],
+  "pairsWellWith": ["oats", "lactose-free yogurt", "banana", "maple syrup"],
+  "nutritionalHighlights": [
+    "Very high in antioxidants",
+    "Good source of vitamin K",
+    "Contains vitamin C",
+    "Supports brain health"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

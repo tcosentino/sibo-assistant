@@ -1,0 +1,37 @@
+{
+  "id": "raspberry",
+  "name": "Raspberry",
+  "aliases": ["raspberries"],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 30 raspberries",
+      "cups": "0.33 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "Larger portions may contain moderate FODMAPs",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Raspberries are a good berry choice for SIBO. They're lower in FODMAPs than many other berries and provide excellent fiber and nutrients.",
+  "preparationTips": [
+    "Eat fresh when possible",
+    "Frozen work well for smoothies",
+    "Combine with other safe fruits"
+  ],
+  "alternatives": ["strawberry", "blueberry"],
+  "pairsWellWith": ["lactose-free yogurt", "maple syrup", "oats", "dark chocolate"],
+  "nutritionalHighlights": [
+    "Very high in fiber",
+    "Excellent source of vitamin C",
+    "Contains manganese",
+    "High in antioxidants"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

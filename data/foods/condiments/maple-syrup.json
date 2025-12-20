@@ -1,0 +1,33 @@
+{
+  "id": "maple-syrup",
+  "name": "Maple Syrup",
+  "aliases": ["pure maple syrup"],
+  "category": "condiment",
+  "subcategory": "sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "PURE maple syrup is low FODMAP - it's an excellent honey substitute. Make sure it's 100% real maple syrup, NOT maple-flavored syrup which contains high-fructose corn syrup.",
+  "preparationTips": [
+    "Choose 100% pure maple syrup",
+    "Avoid maple-flavored syrups",
+    "Great honey substitute",
+    "Use in baking and cooking"
+  ],
+  "alternatives": ["sugar", "stevia"],
+  "pairsWellWith": ["pancakes", "oatmeal", "yogurt", "baking", "glazes"],
+  "nutritionalHighlights": [
+    "Contains manganese",
+    "Provides zinc",
+    "Natural sweetener",
+    "Contains antioxidants"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

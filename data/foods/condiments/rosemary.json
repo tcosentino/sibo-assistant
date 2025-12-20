@@ -1,0 +1,32 @@
+{
+  "id": "rosemary",
+  "name": "Rosemary",
+  "aliases": ["fresh rosemary", "dried rosemary"],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "Use freely",
+      "cups": "1 tablespoon fresh"
+    }
+  },
+  "siboNotes": "Rosemary is FODMAP-free. Its strong piney flavor pairs excellently with roasted meats and potatoes. Fresh or dried both work well.",
+  "preparationTips": [
+    "Use sparingly - strong flavor",
+    "Chop fine or remove stems before serving",
+    "Excellent with lamb and chicken",
+    "Infuse in olive oil"
+  ],
+  "alternatives": ["thyme", "oregano", "sage"],
+  "pairsWellWith": ["lamb", "chicken", "potatoes", "olive oil", "bread"],
+  "nutritionalHighlights": [
+    "Contains antioxidants",
+    "Has rosmarinic acid",
+    "May support memory"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cheddar",
+  "name": "Cheddar Cheese",
+  "aliases": ["cheddar", "aged cheddar"],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1.5 oz",
+      "cups": "2 slices"
+    }
+  },
+  "siboNotes": "Cheddar and other hard aged cheeses are naturally low in lactose and safe for SIBO. The aging process breaks down lactose. If the nutrition label shows 0g sugar, it's essentially lactose-free.",
+  "preparationTips": [
+    "All aged cheddars are safe",
+    "Check nutrition label - 0g sugar = lactose-free",
+    "Sharp and mild cheddar both safe",
+    "Great for cooking and snacking"
+  ],
+  "alternatives": ["swiss", "parmesan", "gouda"],
+  "pairsWellWith": ["crackers (GF)", "grapes (small amount)", "apples (avoid)", "eggs"],
+  "nutritionalHighlights": [
+    "High in calcium",
+    "Good source of protein",
+    "Contains vitamin A",
+    "Provides vitamin B12"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}
