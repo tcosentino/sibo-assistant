@@ -11,13 +11,11 @@ interface Message {
 
 interface UserPreferences {
   tolerances: {
-    // Foods or categories the user can tolerate
-    foods: string[]; // food IDs
-    fodmapTypes: FodmapType[]; // FODMAP types they tolerate (e.g., lactose)
-    categories: string[]; // categories like "dairy", "legumes"
+    foods: string[];
+    fodmapTypes: FodmapType[];
+    categories: string[];
   };
   sensitivities: {
-    // Foods or categories the user is sensitive to
     foods: string[];
     fodmapTypes: FodmapType[];
     categories: string[];
@@ -29,13 +27,13 @@ interface ChatWindowProps {
 }
 
 const PREFERENCES_KEY = 'sibo-assistant-preferences';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 const DEFAULT_PREFERENCES: UserPreferences = {
   tolerances: { foods: [], fodmapTypes: [], categories: [] },
   sensitivities: { foods: [], fodmapTypes: [], categories: [] },
 };
 
-// Mapping of common terms to FODMAP types
 const FODMAP_KEYWORDS: Record<string, FodmapType> = {
   lactose: 'lactose',
   dairy: 'lactose',
@@ -54,7 +52,6 @@ const FODMAP_KEYWORDS: Record<string, FodmapType> = {
   polyols: 'polyols-sorbitol',
 };
 
-// Category keywords
 const CATEGORY_KEYWORDS = [
   'dairy',
   'vegetables',
@@ -72,10 +69,10 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [preferences, setPreferences] = useState<UserPreferences>(DEFAULT_PREFERENCES);
   const [showPreferences, setShowPreferences] = useState(false);
+  const [useApi, setUseApi] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Load preferences from localStorage on mount
   useEffect(() => {
     try {
       const saved = localStorage.getItem(PREFERENCES_KEY);
@@ -87,7 +84,6 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     }
   }, []);
 
-  // Generate welcome message based on preferences
   const getWelcomeMessage = useCallback((): Message => {
     const hasPref =
       preferences.tolerances.foods.length > 0 ||
@@ -108,12 +104,10 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return { id: 'welcome', role: 'assistant', content };
   }, [preferences]);
 
-  // Initialize messages with welcome
   useEffect(() => {
     setMessages([getWelcomeMessage()]);
   }, [getWelcomeMessage]);
 
-  // Save preferences to localStorage whenever they change
   useEffect(() => {
     localStorage.setItem(PREFERENCES_KEY, JSON.stringify(preferences));
   }, [preferences]);
@@ -158,165 +152,67 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return found;
   };
 
-  // Detect if user is sharing tolerance/sensitivity information
-  const detectPreferenceStatement = (
-    message: string
-  ): { type: 'tolerance' | 'sensitivity'; items: string[] } | null => {
-    const lowerMessage = message.toLowerCase();
-
-    // Tolerance patterns
-    const tolerancePatterns = [
-      /i (?:can|could) (?:eat|have|handle|tolerate|digest) (.+?)(?:\s+(?:fine|ok|okay|well|no problem|without issues?))?(?:\.|$)/i,
-      /(.+?) (?:is|are) (?:fine|ok|okay) (?:for me|with me)/i,
-      /i(?:'m| am) (?:fine|ok|okay|good) with (.+)/i,
-      /i don'?t have (?:a )?(?:problem|issue|trouble) with (.+)/i,
-      /(.+?) (?:doesn'?t|don'?t|does not|do not) (?:bother|affect|upset) me/i,
-      /i tolerate (.+?) (?:well|fine|ok)/i,
-    ];
-
-    // Sensitivity patterns
-    const sensitivityPatterns = [
-      /i (?:can'?t|cannot|couldn'?t) (?:eat|have|handle|tolerate|digest) (.+)/i,
-      /(.+?) (?:bothers?|upsets?|affects?) me/i,
-      /i(?:'m| am) sensitive to (.+)/i,
-      /i have (?:a )?(?:problem|issue|trouble) with (.+)/i,
-      /(.+?) (?:makes?|make) me (?:sick|bloated|uncomfortable)/i,
-      /i react (?:badly )?to (.+)/i,
-    ];
-
-    for (const pattern of tolerancePatterns) {
-      const match = lowerMessage.match(pattern);
-      if (match) {
-        const items = match[1]
-          .split(/,|and/)
-          .map((s) => s.trim().replace(/[.!?]$/, ''))
-          .filter((s) => s.length > 0);
-        return { type: 'tolerance', items };
-      }
-    }
-
-    for (const pattern of sensitivityPatterns) {
-      const match = lowerMessage.match(pattern);
-      if (match) {
-        const items = match[1]
-          .split(/,|and/)
-          .map((s) => s.trim().replace(/[.!?]$/, ''))
-          .filter((s) => s.length > 0);
-        return { type: 'sensitivity', items };
-      }
-    }
-
-    return null;
-  };
-
-  // Process and save preference
-  const processPreference = (
+  const processPreferenceItems = (
     type: 'tolerance' | 'sensitivity',
     items: string[]
-  ): string => {
+  ): void => {
     const newPrefs = { ...preferences };
     const target =
       type === 'tolerance' ? newPrefs.tolerances : newPrefs.sensitivities;
-    const remembered: string[] = [];
 
     for (const item of items) {
       const lowerItem = item.toLowerCase();
 
-      // Check if it's a FODMAP type keyword
       const fodmapType = FODMAP_KEYWORDS[lowerItem];
       if (fodmapType && !target.fodmapTypes.includes(fodmapType)) {
         target.fodmapTypes.push(fodmapType);
-        remembered.push(formatFodmapType(fodmapType));
         continue;
       }
 
-      // Check if it's a category
       if (
         CATEGORY_KEYWORDS.includes(lowerItem) &&
         !target.categories.includes(lowerItem)
       ) {
         target.categories.push(lowerItem);
-        remembered.push(lowerItem);
         continue;
       }
 
-      // Check if it's a specific food
       const food = findFoodInDatabase(item);
       if (food && !target.foods.includes(food.id)) {
         target.foods.push(food.id);
-        remembered.push(food.name);
       }
     }
 
-    if (remembered.length > 0) {
-      setPreferences(newPrefs);
-      const action = type === 'tolerance' ? 'can tolerate' : 'are sensitive to';
-      return `Got it! I'll remember that you ${action} **${remembered.join(', ')}**. I'll keep this in mind for future recommendations.`;
-    }
-
-    return '';
+    setPreferences(newPrefs);
   };
 
-  // Check if a food is tolerated based on preferences
   const isFoodTolerated = (food: Food): boolean => {
-    // Check if specifically marked as tolerated
-    if (preferences.tolerances.foods.includes(food.id)) {
-      return true;
-    }
-
-    // Check if category is tolerated
-    if (preferences.tolerances.categories.includes(food.category)) {
-      return true;
-    }
-
-    // Check if all FODMAP types in this food are tolerated
+    if (preferences.tolerances.foods.includes(food.id)) return true;
+    if (preferences.tolerances.categories.includes(food.category)) return true;
     if (food.fodmapTypes.length > 0) {
       const allTolerated = food.fodmapTypes.every((ft) =>
         preferences.tolerances.fodmapTypes.includes(ft)
       );
-      if (allTolerated) {
-        return true;
-      }
+      if (allTolerated) return true;
     }
-
     return false;
   };
 
-  // Check if a food should be avoided based on sensitivities
   const isFoodSensitive = (food: Food): boolean => {
-    if (preferences.sensitivities.foods.includes(food.id)) {
-      return true;
-    }
-
-    if (preferences.sensitivities.categories.includes(food.category)) {
-      return true;
-    }
-
-    // Check if any FODMAP type in this food is a sensitivity
+    if (preferences.sensitivities.foods.includes(food.id)) return true;
+    if (preferences.sensitivities.categories.includes(food.category)) return true;
     if (food.fodmapTypes.length > 0) {
       const anySensitive = food.fodmapTypes.some((ft) =>
         preferences.sensitivities.fodmapTypes.includes(ft)
       );
-      if (anySensitive) {
-        return true;
-      }
+      if (anySensitive) return true;
     }
-
     return false;
   };
 
   const generateLocalResponse = (userMessage: string): string => {
-    // First check if this is a preference statement
-    const prefStatement = detectPreferenceStatement(userMessage);
-    if (prefStatement) {
-      const response = processPreference(prefStatement.type, prefStatement.items);
-      if (response) {
-        return response;
-      }
-    }
-
-    // Check for preference management commands
     const lowerMessage = userMessage.toLowerCase();
+
     if (
       lowerMessage.includes('what do you remember') ||
       lowerMessage.includes('my preferences') ||
@@ -334,11 +230,9 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       return "I've cleared all your saved preferences. We're starting fresh!";
     }
 
-    // Find foods mentioned in the message
     const mentionedFoods = findFoodsInText(userMessage);
 
     if (mentionedFoods.length === 0) {
-      // Try to extract potential food name from common question patterns
       const patterns = [
         /can i (?:eat|have) (.+?)(?:\?|$)/i,
         /is (.+?) (?:ok|okay|safe|good)/i,
@@ -364,7 +258,6 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       return `I don't have information about that specific food in my database yet. Try asking about common vegetables like broccoli, carrots, or garlic. You can also browse the food list above to see what's available.\n\n*Tip: You can also tell me about your personal tolerances, like "I can handle dairy fine"!*`;
     }
 
-    // Generate response based on found foods
     const responses: string[] = [];
 
     for (const { food } of mentionedFoods) {
@@ -372,7 +265,6 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       const tolerated = isFoodTolerated(food);
       const sensitive = isFoodSensitive(food);
 
-      // Add personalization based on preferences
       if (sensitive) {
         response = `⚠️ Based on what you've told me, you're sensitive to **${food.name}**. `;
         response += `You may want to avoid this or be extra careful. `;
@@ -441,7 +333,6 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       });
       tolerances.fodmapTypes.forEach((ft) => items.push(formatFodmapType(ft)));
       tolerances.categories.forEach((c) => items.push(c));
-
       parts.push(`**You tolerate:** ${items.join(', ')}`);
     }
 
@@ -453,13 +344,32 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       });
       sensitivities.fodmapTypes.forEach((ft) => items.push(formatFodmapType(ft)));
       sensitivities.categories.forEach((c) => items.push(c));
-
       parts.push(`**You're sensitive to:** ${items.join(', ')}`);
     }
 
     parts.push('\n*Say "forget everything" to clear these preferences.*');
 
     return parts.join('\n\n');
+  };
+
+  const callApi = async (
+    conversationMessages: { role: 'user' | 'assistant'; content: string }[]
+  ): Promise<{ message: string; detectedPreference?: { type: 'tolerance' | 'sensitivity'; items: string[] } }> => {
+    const response = await fetch(`${API_URL}/api/chat`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: conversationMessages,
+        preferences,
+        userId: localStorage.getItem('sibo-user-id') || undefined,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error(`API error: ${response.status}`);
+    }
+
+    return response.json();
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -478,19 +388,57 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     setMessages((prev) => [...prev, newUserMessage]);
     setIsLoading(true);
 
-    // Simulate a small delay for better UX
-    await new Promise((resolve) => setTimeout(resolve, 500));
+    try {
+      let responseContent: string;
 
-    const response = generateLocalResponse(userMessage);
+      if (useApi) {
+        // Build conversation history (exclude welcome message)
+        const conversationMessages = messages
+          .filter((m) => m.id !== 'welcome')
+          .map((m) => ({ role: m.role, content: m.content }));
+        conversationMessages.push({ role: 'user', content: userMessage });
 
-    const newAssistantMessage: Message = {
-      id: (Date.now() + 1).toString(),
-      role: 'assistant',
-      content: response,
-    };
+        try {
+          const apiResponse = await callApi(conversationMessages);
+          responseContent = apiResponse.message;
 
-    setMessages((prev) => [...prev, newAssistantMessage]);
-    setIsLoading(false);
+          // If API detected a preference, save it
+          if (apiResponse.detectedPreference) {
+            processPreferenceItems(
+              apiResponse.detectedPreference.type,
+              apiResponse.detectedPreference.items
+            );
+          }
+        } catch {
+          // API failed, fall back to local
+          console.warn('API unavailable, using local responses');
+          setUseApi(false);
+          responseContent = generateLocalResponse(userMessage);
+        }
+      } else {
+        // Use local response generation
+        await new Promise((resolve) => setTimeout(resolve, 300));
+        responseContent = generateLocalResponse(userMessage);
+      }
+
+      const newAssistantMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: 'assistant',
+        content: responseContent,
+      };
+
+      setMessages((prev) => [...prev, newAssistantMessage]);
+    } catch (error) {
+      console.error('Chat error:', error);
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        role: 'assistant',
+        content: 'Sorry, I encountered an error. Please try again.',
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const clearPreferences = () => {
@@ -507,18 +455,14 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   };
 
   const renderMessageContent = (content: string) => {
-    // Parse markdown-like formatting and food links
     const parts: React.ReactNode[] = [];
-    let remaining = content;
     let keyIndex = 0;
 
-    // Simple markdown parsing for bold text
     const boldRegex = /\*\*(.+?)\*\*/g;
     let lastIndex = 0;
     let match;
 
     while ((match = boldRegex.exec(content)) !== null) {
-      // Add text before the match
       if (match.index > lastIndex) {
         parts.push(
           <span key={keyIndex++}>{content.slice(lastIndex, match.index)}</span>
@@ -526,7 +470,6 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       }
 
       const boldText = match[1];
-      // Check if this bold text is a food name
       const food = findFoodInDatabase(boldText);
       if (food) {
         parts.push(
@@ -545,17 +488,14 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       lastIndex = match.index + match[0].length;
     }
 
-    // Add remaining text
     if (lastIndex < content.length) {
-      remaining = content.slice(lastIndex);
-      // Split by newlines for proper line breaks
+      const remaining = content.slice(lastIndex);
       const lines = remaining.split('\n');
       lines.forEach((line, i) => {
         if (i > 0) {
           parts.push(<br key={keyIndex++} />);
         }
         if (line) {
-          // Handle italics
           const italicParts = line.split(/\*(.+?)\*/g);
           italicParts.forEach((part, j) => {
             if (j % 2 === 1) {
@@ -593,7 +533,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         <div className="chat-window__container">
           <div className="chat-window__header">
             <div className="chat-window__header-content">
-              <h3>Food Assistant</h3>
+              <h3>Food Assistant {useApi ? '' : '(Offline)'}</h3>
               <p>Ask about any food for SIBO</p>
             </div>
             {hasPreferences && (
