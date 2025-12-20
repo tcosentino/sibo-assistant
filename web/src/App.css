@@ -34,9 +34,70 @@
   z-index: 10;
 }
 
+/* Category Filter Chips - horizontal scroll on mobile */
+.app__categories {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0;
+  margin: 0 -16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.app__categories::-webkit-scrollbar {
+  display: none;
+}
+
+.app__category-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 12px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  min-width: 60px;
+}
+
+.app__category-btn:hover {
+  border-color: #6366f1;
+  background: #f5f3ff;
+}
+
+.app__category-btn--active {
+  background: #6366f1;
+  border-color: #6366f1;
+  color: white;
+}
+
+.app__category-emoji {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.app__category-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 .app__content {
   flex: 1;
   padding: 0 16px 24px;
+}
+
+.app__results-count {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .app__grid {

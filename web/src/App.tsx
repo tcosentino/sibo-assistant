@@ -1,23 +1,43 @@
 import { useState, useMemo } from 'react';
-import { allFoods } from './data/foods';
-import type { Food } from './types/food';
+import { allFoods, foodsByCategory } from './data/foods';
+import type { Food, FoodCategory } from './types/food';
 import { SearchBar } from './components/SearchBar';
 import { FilterTabs, type FilterOption } from './components/FilterTabs';
 import { FoodCard } from './components/FoodCard';
 import { FoodDetail } from './components/FoodDetail';
 import './App.css';
 
+type CategoryFilter = 'all' | FoodCategory;
+
+const CATEGORY_CONFIG: { value: CategoryFilter; label: string; emoji: string }[] = [
+  { value: 'all', label: 'All', emoji: '🍽️' },
+  { value: 'vegetable', label: 'Veggies', emoji: '🥬' },
+  { value: 'fruit', label: 'Fruits', emoji: '🍓' },
+  { value: 'protein', label: 'Protein', emoji: '🍗' },
+  { value: 'grain', label: 'Grains', emoji: '🍚' },
+  { value: 'dairy', label: 'Dairy', emoji: '🧀' },
+  { value: 'condiment', label: 'Spices', emoji: '🌿' },
+  { value: 'fat', label: 'Oils', emoji: '🫒' },
+  { value: 'beverage', label: 'Drinks', emoji: '☕' },
+];
+
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [filter, setFilter] = useState<FilterOption>('all');
+  const [fodmapFilter, setFodmapFilter] = useState<FilterOption>('all');
+  const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('all');
   const [selectedFood, setSelectedFood] = useState<Food | null>(null);
 
   const filteredFoods = useMemo(() => {
     let foods = allFoods;
 
+    // Apply category filter
+    if (categoryFilter !== 'all') {
+      foods = foods.filter((food) => food.category === categoryFilter);
+    }
+
     // Apply FODMAP filter
-    if (filter !== 'all') {
-      foods = foods.filter((food) => food.fodmapRating === filter);
+    if (fodmapFilter !== 'all') {
+      foods = foods.filter((food) => food.fodmapRating === fodmapFilter);
     }
 
     // Apply search filter
@@ -31,7 +51,7 @@ function App() {
       );
     }
 
-    // Sort: low first, then moderate, then high
+    // Sort: low first, then moderate, then high, then by name
     const order = { low: 0, moderate: 1, high: 2 };
     return foods.sort((a, b) => {
       if (order[a.fodmapRating] !== order[b.fodmapRating]) {
@@ -39,18 +59,25 @@ function App() {
       }
       return a.name.localeCompare(b.name);
     });
-  }, [searchQuery, filter]);
+  }, [searchQuery, fodmapFilter, categoryFilter]);
 
   const counts = useMemo(() => {
-    const base = searchQuery.trim()
-      ? allFoods.filter(
-          (food) =>
-            food.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            food.aliases?.some((alias) =>
-              alias.toLowerCase().includes(searchQuery.toLowerCase())
-            )
-        )
-      : allFoods;
+    let base = allFoods;
+
+    // Apply category filter for counts
+    if (categoryFilter !== 'all') {
+      base = base.filter((food) => food.category === categoryFilter);
+    }
+
+    // Apply search filter for counts
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      base = base.filter(
+        (food) =>
+          food.name.toLowerCase().includes(query) ||
+          food.aliases?.some((alias) => alias.toLowerCase().includes(query))
+      );
+    }
 
     return {
       all: base.length,
@@ -58,7 +85,19 @@ function App() {
       moderate: base.filter((f) => f.fodmapRating === 'moderate').length,
       high: base.filter((f) => f.fodmapRating === 'high').length,
     };
-  }, [searchQuery]);
+  }, [searchQuery, categoryFilter]);
+
+  const getCategoryCount = (category: CategoryFilter) => {
+    if (category === 'all') return allFoods.length;
+    return foodsByCategory[category === 'condiment' ? 'condiments' :
+           category === 'fat' ? 'fats' :
+           category === 'beverage' ? 'beverages' :
+           category === 'vegetable' ? 'vegetables' :
+           category === 'fruit' ? 'fruits' :
+           category === 'protein' ? 'proteins' :
+           category === 'grain' ? 'grains' :
+           category === 'dairy' ? 'dairy' : 'vegetables']?.length || 0;
+  };
 
   return (
     <div className="app">
@@ -73,17 +112,41 @@ function App() {
         <SearchBar
           value={searchQuery}
           onChange={setSearchQuery}
-          placeholder="Search vegetables..."
+          placeholder="Search foods, ingredients..."
         />
-        <FilterTabs selected={filter} onChange={setFilter} counts={counts} />
+
+        {/* Category Filter */}
+        <div className="app__categories">
+          {CATEGORY_CONFIG.map((cat) => (
+            <button
+              key={cat.value}
+              className={`app__category-btn ${categoryFilter === cat.value ? 'app__category-btn--active' : ''}`}
+              onClick={() => setCategoryFilter(cat.value)}
+            >
+              <span className="app__category-emoji">{cat.emoji}</span>
+              <span className="app__category-label">{cat.label}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* FODMAP Safety Filter */}
+        <FilterTabs selected={fodmapFilter} onChange={setFodmapFilter} counts={counts} />
       </div>
 
       <main className="app__content">
+        <div className="app__results-count">
+          {filteredFoods.length} {filteredFoods.length === 1 ? 'result' : 'results'}
+        </div>
+
         {filteredFoods.length === 0 ? (
           <div className="app__empty">
-            <p>No foods found matching your search.</p>
-            <button onClick={() => { setSearchQuery(''); setFilter('all'); }}>
-              Clear filters
+            <p>No foods found matching your filters.</p>
+            <button onClick={() => {
+              setSearchQuery('');
+              setFodmapFilter('all');
+              setCategoryFilter('all');
+            }}>
+              Clear all filters
             </button>
           </div>
         ) : (
@@ -101,8 +164,8 @@ function App() {
 
       <footer className="app__footer">
         <p>
-          Data sourced from Monash University FODMAP App. Always consult with
-          your healthcare provider.
+          Data sourced from Monash University FODMAP App.<br />
+          Always consult with your healthcare provider.
         </p>
       </footer>
 
