@@ -5,6 +5,7 @@ import { SearchBar } from './components/SearchBar';
 import { FilterTabs, type FilterOption } from './components/FilterTabs';
 import { FoodCard } from './components/FoodCard';
 import { FoodDetail } from './components/FoodDetail';
+import { ChatWindow } from './components/ChatWindow';
 import './App.css';
 
 type CategoryFilter = 'all' | FoodCategory;
@@ -175,6 +176,8 @@ function App() {
           onClose={() => setSelectedFood(null)}
         />
       )}
+
+      <ChatWindow onFoodClick={setSelectedFood} />
     </div>
   );
 }

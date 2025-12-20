@@ -2,6 +2,23 @@
 # https://render.com/docs/blueprint-spec
 
 services:
+  # Express API server with Claude integration
+  - type: web
+    name: sibo-assistant-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: HELICONE_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+
+  # Static frontend
   - type: web
     name: sibo-food-guide
     runtime: static
@@ -11,6 +28,11 @@ services:
     envVars:
       - key: NODE_VERSION
         value: "20"
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: sibo-assistant-api
+          property: host
     headers:
       - path: /*
         name: Cache-Control
