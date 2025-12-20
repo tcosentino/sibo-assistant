@@ -1,0 +1,94 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__header {
+  padding: 24px 16px 16px;
+  text-align: center;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.app__subtitle {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.app__controls {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to bottom, #f3f4f6 85%, transparent);
+  padding-bottom: 16px;
+  z-index: 10;
+}
+
+.app__content {
+  flex: 1;
+  padding: 0 16px 24px;
+}
+
+.app__grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .app__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .app__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.app__empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: #6b7280;
+}
+
+.app__empty button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.app__empty button:hover {
+  background: #4f46e5;
+}
+
+.app__footer {
+  padding: 24px 16px;
+  text-align: center;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.app__footer p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  max-width: 400px;
+  margin: 0 auto;
+}
