@@ -1,0 +1,33 @@
+{
+  "id": "basil",
+  "name": "Basil",
+  "aliases": ["fresh basil", "dried basil", "thai basil"],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "Use freely - about 1 cup fresh leaves",
+      "cups": "1 cup fresh"
+    }
+  },
+  "siboNotes": "Basil and most herbs are FODMAP-free. Use generously for flavor. Fresh basil adds brightness, dried basil is more concentrated.",
+  "preparationTips": [
+    "Add fresh basil at end of cooking",
+    "Use dried basil during cooking",
+    "Great in pesto (use garlic-infused oil)",
+    "All varieties are safe"
+  ],
+  "alternatives": ["oregano", "parsley", "cilantro"],
+  "pairsWellWith": ["tomatoes", "mozzarella", "pasta", "chicken", "olive oil"],
+  "nutritionalHighlights": [
+    "Contains vitamin K",
+    "Has antioxidants",
+    "Contains essential oils",
+    "Very low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

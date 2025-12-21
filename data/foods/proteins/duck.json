@@ -1,0 +1,33 @@
+{
+  "id": "duck",
+  "name": "Duck",
+  "aliases": ["duck breast", "duck leg", "roast duck"],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 breast or 1 leg"
+    }
+  },
+  "siboNotes": "Plain duck is FODMAP-free. It's richer than chicken or turkey due to higher fat content. Score the skin for crispy results. Avoid orange sauce which may contain honey.",
+  "preparationTips": [
+    "Score skin in crosshatch pattern",
+    "Start skin-side down in cold pan",
+    "Render fat slowly for crispy skin",
+    "Pair with safe citrus-based sauces"
+  ],
+  "alternatives": ["chicken", "turkey", "pork"],
+  "pairsWellWith": ["orange (fresh)", "rosemary", "potatoes", "green beans"],
+  "nutritionalHighlights": [
+    "High in iron",
+    "Good source of B vitamins",
+    "Contains selenium",
+    "Higher in fat than chicken"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

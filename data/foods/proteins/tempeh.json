@@ -1,0 +1,33 @@
+{
+  "id": "tempeh",
+  "name": "Tempeh",
+  "aliases": ["fermented soy"],
+  "category": "protein",
+  "subcategory": "plant-protein",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz - generous portion",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Tempeh is fermented soybeans and is low FODMAP at standard portions. The fermentation process reduces FODMAPs. A great plant protein option for SIBO with a nutty flavor.",
+  "preparationTips": [
+    "Steam before marinating for better absorption",
+    "Slice thin and pan-fry",
+    "Marinate in safe sauces",
+    "Crumble for tacos or pasta"
+  ],
+  "alternatives": ["tofu-firm", "eggs", "chicken"],
+  "pairsWellWith": ["soy sauce", "ginger", "maple syrup", "rice", "vegetables"],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Contains probiotics",
+    "Good source of manganese",
+    "Provides B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

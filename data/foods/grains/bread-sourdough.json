@@ -1,0 +1,33 @@
+{
+  "id": "bread-sourdough",
+  "name": "Bread (Sourdough)",
+  "aliases": ["sourdough bread", "spelt sourdough"],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 97,
+      "description": "2 slices of wheat sourdough",
+      "cups": "2 slices"
+    }
+  },
+  "siboNotes": "TRUE sourdough (long-fermented) is lower in FODMAPs than regular bread. The fermentation process breaks down fructans. Look for authentic sourdough with just flour, water, salt, and starter - no added yeast.",
+  "preparationTips": [
+    "Choose authentic long-fermented sourdough",
+    "Check ingredients - no added yeast",
+    "Spelt sourdough is also an option",
+    "Toast for easier digestion"
+  ],
+  "alternatives": ["bread-gluten-free", "rice"],
+  "pairsWellWith": ["butter", "eggs", "safe toppings", "olive oil"],
+  "nutritionalHighlights": [
+    "Easier to digest than regular bread",
+    "Contains some B vitamins",
+    "Provides fiber",
+    "May have better mineral absorption"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "vinegar-balsamic",
+  "name": "Balsamic Vinegar",
+  "aliases": ["balsamic"],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructose"],
+  "servingSizes": {
+    "low": {
+      "grams": 21,
+      "description": "1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 42,
+      "description": "2 tablespoons - moderate fructose",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Balsamic vinegar is safe at 1 tablespoon per serving. Larger amounts (2+ tablespoons) contain moderate fructose. Great for dressings and drizzling.",
+  "preparationTips": [
+    "Stick to 1 tablespoon portions",
+    "Use in salad dressings",
+    "Drizzle over vegetables",
+    "Reduce for glaze (same portion limits)"
+  ],
+  "alternatives": ["vinegar-red-wine", "vinegar-apple-cider", "lemon"],
+  "pairsWellWith": ["olive oil", "salads", "tomatoes", "strawberries"],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Contains antioxidants",
+    "May aid digestion"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

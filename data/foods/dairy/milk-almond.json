@@ -1,0 +1,33 @@
+{
+  "id": "milk-almond",
+  "name": "Almond Milk",
+  "aliases": ["almond milk unsweetened"],
+  "category": "dairy",
+  "subcategory": "milk-alternative",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Unsweetened almond milk is low FODMAP. Check ingredients - avoid versions with inulin, chicory root, or high-FODMAP sweeteners. Choose calcium-fortified for nutrition.",
+  "preparationTips": [
+    "Choose unsweetened varieties",
+    "Check for inulin/chicory root (avoid)",
+    "Shake well before using",
+    "Use in smoothies, cereals, cooking"
+  ],
+  "alternatives": ["milk-lactose-free", "milk-coconut", "milk-rice"],
+  "pairsWellWith": ["oats", "smoothies", "coffee", "cereal"],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Often fortified with calcium and vitamin D",
+    "Contains vitamin E",
+    "Lower protein than dairy milk"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tuna",
+  "name": "Tuna",
+  "aliases": ["tuna steak", "canned tuna", "ahi tuna"],
+  "category": "protein",
+  "subcategory": "fish",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 can or 1 steak"
+    }
+  },
+  "siboNotes": "Tuna is FODMAP-free. Canned tuna in water or oil is convenient and safe. Fresh tuna steaks are also excellent. Avoid tuna salad made with high-FODMAP ingredients.",
+  "preparationTips": [
+    "Canned in water or olive oil is best",
+    "Sear fresh tuna quickly for best texture",
+    "Make safe tuna salad with safe mayo and chives",
+    "Check pre-made tuna salad for onion"
+  ],
+  "alternatives": ["salmon", "chicken", "eggs"],
+  "pairsWellWith": ["mayonnaise", "lemon", "capers", "olives", "rice"],
+  "nutritionalHighlights": [
+    "Very high in protein",
+    "Excellent source of omega-3s",
+    "High in selenium",
+    "Good source of B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

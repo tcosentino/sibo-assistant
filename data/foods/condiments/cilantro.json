@@ -1,0 +1,32 @@
+{
+  "id": "cilantro",
+  "name": "Cilantro",
+  "aliases": ["coriander leaves", "fresh coriander"],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "Use freely",
+      "cups": "0.5 cup"
+    }
+  },
+  "siboNotes": "Cilantro is FODMAP-free and excellent for adding fresh flavor to dishes. Essential for Mexican and Asian cuisines. Note: coriander SEEDS are also low FODMAP.",
+  "preparationTips": [
+    "Add fresh at end of cooking",
+    "Use stems too - they have good flavor",
+    "Essential for Mexican and Thai food",
+    "Store in water like fresh flowers"
+  ],
+  "alternatives": ["parsley", "basil"],
+  "pairsWellWith": ["lime", "rice", "tacos", "curries", "salsa"],
+  "nutritionalHighlights": [
+    "Contains vitamin K",
+    "Good source of vitamin A",
+    "Has antioxidants"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "peach",
+  "name": "Peach",
+  "aliases": ["peaches"],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "high",
+  "fodmapTypes": ["polyols-sorbitol"],
+  "servingSizes": {
+    "low": {
+      "grams": 28,
+      "description": "Very small portion - 1/4 peach",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 100,
+      "description": "One medium peach is high FODMAP",
+      "cups": "1 medium"
+    }
+  },
+  "siboNotes": "Peaches are high in sorbitol and have a very small safe portion. Canned peaches in syrup are even higher in FODMAPs. Choose berries or citrus instead.",
+  "preparationTips": [
+    "Avoid or limit to tiny portions",
+    "Canned peaches are also high FODMAP",
+    "Use pineapple for similar texture"
+  ],
+  "alternatives": ["pineapple", "kiwi", "papaya"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains vitamin A",
+    "Provides potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

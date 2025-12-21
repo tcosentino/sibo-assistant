@@ -1,0 +1,33 @@
+{
+  "id": "polenta",
+  "name": "Polenta",
+  "aliases": ["cornmeal", "grits"],
+  "category": "grain",
+  "subcategory": "corn",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "Polenta (cornmeal) is FODMAP-free and makes a great alternative to pasta or rice. It's naturally gluten-free and can be served creamy or grilled as a base for toppings.",
+  "preparationTips": [
+    "Cook with water or lactose-free milk",
+    "Serve creamy or let set and grill",
+    "Add parmesan for flavor",
+    "Top with safe sauces and proteins"
+  ],
+  "alternatives": ["rice-white", "potato", "quinoa"],
+  "pairsWellWith": ["parmesan", "butter", "tomato sauce", "mushroom-oyster", "beef"],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates",
+    "Gluten-free",
+    "Contains some fiber",
+    "Provides iron"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

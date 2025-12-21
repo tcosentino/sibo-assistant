@@ -1,0 +1,31 @@
+{
+  "id": "watermelon",
+  "name": "Watermelon",
+  "aliases": [],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose", "polyols-mannitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 150,
+      "description": "Standard portions are high FODMAP",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Watermelon is HIGH FODMAP and should be avoided during SIBO treatment. It's high in both fructose and mannitol. Choose cantaloupe or honeydew instead.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Use cantaloupe or honeydew as substitutes",
+    "May test tolerance during reintroduction"
+  ],
+  "alternatives": ["cantaloupe", "honeydew", "pineapple"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "High in lycopene",
+    "Very hydrating",
+    "Contains vitamin C"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "chicken",
+  "name": "Chicken",
+  "aliases": ["chicken breast", "chicken thigh", "poultry"],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 breast or 2 thighs"
+    }
+  },
+  "siboNotes": "Plain chicken contains NO FODMAPs and can be eaten freely. It's an excellent protein source for SIBO. Avoid marinated or breaded chicken which may contain high-FODMAP ingredients like garlic, onion, or wheat.",
+  "preparationTips": [
+    "Use garlic-infused oil for flavor",
+    "Season with safe herbs and spices",
+    "Grill, bake, or pan-fry",
+    "Check marinades for hidden onion/garlic",
+    "Avoid breaded versions during elimination"
+  ],
+  "alternatives": ["turkey", "fish", "eggs"],
+  "pairsWellWith": ["rice", "potatoes", "safe vegetables", "lemon", "herbs"],
+  "nutritionalHighlights": [
+    "Excellent source of lean protein",
+    "High in B vitamins",
+    "Good source of selenium",
+    "Contains phosphorus"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

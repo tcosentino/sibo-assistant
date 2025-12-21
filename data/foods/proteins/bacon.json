@@ -1,0 +1,33 @@
+{
+  "id": "bacon",
+  "name": "Bacon",
+  "aliases": ["streaky bacon", "back bacon"],
+  "category": "protein",
+  "subcategory": "processed-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 2-3 rashers",
+      "cups": "2 rashers"
+    }
+  },
+  "siboNotes": "Plain bacon without added flavors is low FODMAP. Check labels for honey, maple, or other high-FODMAP additions. Some brands add onion or garlic powder - read ingredients carefully.",
+  "preparationTips": [
+    "Choose plain, unflavored bacon",
+    "Check ingredients for onion/garlic",
+    "Avoid honey or maple glazed varieties",
+    "Bake for crispier, less greasy results"
+  ],
+  "alternatives": ["prosciutto", "turkey"],
+  "pairsWellWith": ["eggs", "potatoes", "tomatoes", "lettuce"],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Contains B vitamins",
+    "High in sodium",
+    "Contains saturated fat"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

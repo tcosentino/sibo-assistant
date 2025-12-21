@@ -1,0 +1,33 @@
+{
+  "id": "crab",
+  "name": "Crab",
+  "aliases": ["crab meat", "crab legs", "king crab"],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 cup crab meat"
+    }
+  },
+  "siboNotes": "Crab is FODMAP-free and a delicious seafood option. Fresh, canned, or frozen are all safe. Watch out for imitation crab which may contain high-FODMAP fillers.",
+  "preparationTips": [
+    "Choose real crab, not imitation",
+    "Canned is convenient and safe",
+    "Serve with safe mayo for crab cakes",
+    "Check pre-made crab cakes for breadcrumbs"
+  ],
+  "alternatives": ["shrimp", "lobster", "scallops"],
+  "pairsWellWith": ["mayonnaise", "lemon", "old bay seasoning", "butter"],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Excellent source of B12",
+    "Contains zinc",
+    "Low in fat"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

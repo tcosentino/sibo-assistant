@@ -1,0 +1,33 @@
+{
+  "id": "honeydew",
+  "name": "Honeydew Melon",
+  "aliases": ["honeydew"],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "About 3/4 cup cubed",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Honeydew is a safe melon choice for SIBO. Along with cantaloupe, it's one of the low-FODMAP melons. Avoid watermelon which is high in fructose.",
+  "preparationTips": [
+    "Best served chilled",
+    "Pairs well with other melons",
+    "Add to fruit salads",
+    "Can be used in smoothies"
+  ],
+  "alternatives": ["cantaloupe", "pineapple"],
+  "pairsWellWith": ["cantaloupe", "mint", "lime", "prosciutto"],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains potassium",
+    "Very hydrating",
+    "Low in calories"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

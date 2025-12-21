@@ -1,0 +1,32 @@
+{
+  "id": "pepper-black",
+  "name": "Black Pepper",
+  "aliases": ["pepper", "ground pepper", "peppercorns"],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "Use freely for seasoning",
+      "cups": "to taste"
+    }
+  },
+  "siboNotes": "Black pepper and most spices are FODMAP-free and can be used freely for seasoning. Fresh cracked pepper has the best flavor.",
+  "preparationTips": [
+    "Use freshly ground for best flavor",
+    "Safe in any amount",
+    "Essential seasoning",
+    "Pair with salt for basic seasoning"
+  ],
+  "alternatives": ["white pepper", "pink peppercorns"],
+  "pairsWellWith": ["all savory foods"],
+  "nutritionalHighlights": [
+    "Contains piperine",
+    "May enhance nutrient absorption",
+    "Antioxidant properties"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

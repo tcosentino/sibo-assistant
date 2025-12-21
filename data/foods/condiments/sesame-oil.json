@@ -1,0 +1,28 @@
+{
+  "id": "sesame-oil",
+  "name": "Sesame Oil",
+  "aliases": ["toasted sesame oil"],
+  "category": "condiment",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "1 tablespoon - use freely",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Sesame oil is FODMAP-free. Toasted sesame oil adds intense nutty flavor as a finishing oil. Regular sesame oil is good for cooking.",
+  "preparationTips": [
+    "Use toasted sesame oil for finishing",
+    "A little goes a long way",
+    "Don't heat toasted sesame oil - loses flavor",
+    "Essential for Asian dishes"
+  ],
+  "alternatives": ["olive-oil", "peanut-oil"],
+  "pairsWellWith": ["stir-fries", "noodles", "salads", "dumplings"],
+  "nutritionalHighlights": ["High in vitamin E", "Contains antioxidants", "Has omega-6 fatty acids"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

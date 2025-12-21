@@ -1,0 +1,33 @@
+{
+  "id": "milk-lactose-free",
+  "name": "Milk (Lactose-Free)",
+  "aliases": ["Lactaid milk", "lactose-free dairy milk"],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Lactose-free milk is regular dairy milk with lactase enzyme added to break down lactose. It's safe for SIBO and provides all the nutrients of regular milk. Full-fat, low-fat, and skim are all safe.",
+  "preparationTips": [
+    "Use anywhere regular milk is called for",
+    "Tastes slightly sweeter than regular milk",
+    "All fat levels are safe",
+    "Great for cooking and baking"
+  ],
+  "alternatives": ["milk-almond", "milk-coconut", "milk-rice"],
+  "pairsWellWith": ["oats", "cereal", "coffee", "smoothies"],
+  "nutritionalHighlights": [
+    "Same nutrition as regular milk",
+    "High in calcium",
+    "Good source of vitamin D",
+    "Contains protein"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

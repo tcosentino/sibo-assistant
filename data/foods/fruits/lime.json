@@ -1,0 +1,32 @@
+{
+  "id": "lime",
+  "name": "Lime",
+  "aliases": ["limes", "lime juice"],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "Juice of 1-2 limes or zest freely",
+      "cups": "3 tablespoons juice"
+    }
+  },
+  "siboNotes": "Lime is safe for SIBO and adds excellent flavor to Asian and Mexican dishes. Both juice and zest can be used freely within normal cooking amounts.",
+  "preparationTips": [
+    "Use in marinades and dressings",
+    "Essential for Thai and Mexican cuisine",
+    "Squeeze over tacos and curries",
+    "Zest for added flavor"
+  ],
+  "alternatives": ["lemon", "orange"],
+  "pairsWellWith": ["fish", "shrimp", "chicken", "coconut", "cilantro", "ginger"],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains antioxidants",
+    "Aids iron absorption"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

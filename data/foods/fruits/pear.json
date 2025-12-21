@@ -1,0 +1,31 @@
+{
+  "id": "pear",
+  "name": "Pear",
+  "aliases": ["pears"],
+  "category": "fruit",
+  "subcategory": "pome",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose", "polyols-sorbitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 100,
+      "description": "One medium pear is high FODMAP",
+      "cups": "1 medium"
+    }
+  },
+  "siboNotes": "Pears are HIGH FODMAP similar to apples. They're very high in fructose and sorbitol. Avoid during SIBO treatment and choose other fruits like kiwi or citrus.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Pear juice also high FODMAP",
+    "Choose citrus or melons instead"
+  ],
+  "alternatives": ["kiwi", "orange", "cantaloupe", "pineapple"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "High in fiber",
+    "Contains vitamin C",
+    "Good source of potassium"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

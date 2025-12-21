@@ -1,0 +1,32 @@
+{
+  "id": "garlic-infused-oil",
+  "name": "Garlic-Infused Oil",
+  "aliases": ["garlic oil"],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "1 tablespoon - use freely for garlic flavor",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "GAME CHANGER for SIBO cooking! Fructans are water-soluble but NOT oil-soluble. So garlic-infused oil provides garlic flavor without FODMAPs. The key to flavorful low-FODMAP cooking.",
+  "preparationTips": [
+    "Buy commercial garlic-infused oil",
+    "Or make your own: heat oil, add garlic, remove garlic before using",
+    "Use as base for sautéing",
+    "Great in dressings and marinades"
+  ],
+  "alternatives": ["olive-oil", "chives", "asafoetida"],
+  "pairsWellWith": ["pasta", "shrimp", "vegetables", "bread", "all proteins"],
+  "nutritionalHighlights": [
+    "Same benefits as olive oil",
+    "No garlic nutrients (removed)",
+    "Provides garlic flavor safely"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

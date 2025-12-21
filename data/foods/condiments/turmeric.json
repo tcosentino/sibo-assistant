@@ -1,0 +1,33 @@
+{
+  "id": "turmeric",
+  "name": "Turmeric",
+  "aliases": ["ground turmeric", "turmeric powder"],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 3,
+      "description": "1 teaspoon - use as needed",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Turmeric is FODMAP-free and has potent anti-inflammatory properties from curcumin. Great for SIBO as it may help reduce gut inflammation. Pair with black pepper to enhance absorption.",
+  "preparationTips": [
+    "Combine with black pepper for better absorption",
+    "Use in curries and golden milk",
+    "Fresh turmeric also available",
+    "Stains easily - be careful"
+  ],
+  "alternatives": ["ginger", "curry-powder"],
+  "pairsWellWith": ["rice", "chicken", "vegetables", "coconut milk"],
+  "nutritionalHighlights": [
+    "Contains curcumin (anti-inflammatory)",
+    "Strong antioxidant",
+    "May support gut health",
+    "Traditional medicinal uses"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

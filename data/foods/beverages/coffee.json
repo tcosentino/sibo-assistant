@@ -1,0 +1,28 @@
+{
+  "id": "coffee",
+  "name": "Coffee",
+  "aliases": ["espresso", "black coffee", "brewed coffee"],
+  "category": "beverage",
+  "subcategory": "caffeinated",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 180,
+      "description": "About 3/4 cup - limit 2 per sitting",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Black coffee is low FODMAP. Limit to about 2 cups per sitting. Use lactose-free milk or safe alternatives. Avoid flavored coffees with high-FODMAP syrups.",
+  "preparationTips": [
+    "Black coffee is safest",
+    "Use lactose-free milk if needed",
+    "Avoid flavored syrups (check ingredients)",
+    "Espresso is also safe"
+  ],
+  "alternatives": ["tea"],
+  "pairsWellWith": ["lactose-free milk", "maple syrup", "cinnamon"],
+  "nutritionalHighlights": ["Contains caffeine", "High in antioxidants", "May boost metabolism"],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

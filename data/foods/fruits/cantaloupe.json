@@ -1,0 +1,33 @@
+{
+  "id": "cantaloupe",
+  "name": "Cantaloupe",
+  "aliases": ["rockmelon", "muskmelon"],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "About 3/4 cup cubed",
+      "cups": "0.75 cup"
+    }
+  },
+  "siboNotes": "Cantaloupe is a refreshing melon that's safe for SIBO. Honeydew melon is also low FODMAP. Avoid watermelon which is high in FODMAPs.",
+  "preparationTips": [
+    "Best eaten fresh and cold",
+    "Great in fruit salads with other safe fruits",
+    "Can be blended into smoothies",
+    "Wrap with prosciutto for appetizer"
+  ],
+  "alternatives": ["honeydew", "pineapple", "orange"],
+  "pairsWellWith": ["prosciutto", "mint", "lime", "other safe fruits"],
+  "nutritionalHighlights": [
+    "Very high in vitamin A",
+    "High in vitamin C",
+    "Good source of potassium",
+    "Hydrating (90% water)"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

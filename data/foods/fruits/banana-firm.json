@@ -1,0 +1,38 @@
+{
+  "id": "banana-firm",
+  "name": "Banana (Firm/Unripe)",
+  "aliases": ["green banana", "unripe banana"],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "1 medium firm banana",
+      "cups": "1 medium"
+    },
+    "moderate": {
+      "grams": 120,
+      "description": "Larger portions contain moderate fructans",
+      "cups": "1 large"
+    }
+  },
+  "siboNotes": "IMPORTANT: Only FIRM/UNRIPE bananas are low FODMAP. As bananas ripen and become spotty, their FODMAP content increases significantly. Choose bananas that are still slightly green or just yellow with no brown spots.",
+  "preparationTips": [
+    "Choose firm, yellow bananas without spots",
+    "Avoid ripe bananas with brown spots",
+    "Good for smoothies and breakfast",
+    "Can be sliced over oatmeal"
+  ],
+  "alternatives": ["orange", "kiwi"],
+  "pairsWellWith": ["oats", "peanut butter", "lactose-free yogurt", "maple syrup"],
+  "nutritionalHighlights": [
+    "Excellent source of potassium",
+    "Good source of vitamin B6",
+    "Contains resistant starch (unripe)",
+    "Provides quick energy"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

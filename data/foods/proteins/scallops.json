@@ -1,0 +1,33 @@
+{
+  "id": "scallops",
+  "name": "Scallops",
+  "aliases": ["sea scallops", "bay scallops"],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "about 6 large scallops"
+    }
+  },
+  "siboNotes": "Scallops are FODMAP-free and make an elegant, quick-cooking protein. They're naturally sweet and require minimal seasoning. Sear briefly for best results.",
+  "preparationTips": [
+    "Pat dry for best sear",
+    "Cook briefly - 2-3 minutes per side",
+    "Finish with lemon and butter",
+    "Don't overcook or they become rubbery"
+  ],
+  "alternatives": ["shrimp", "cod", "salmon"],
+  "pairsWellWith": ["butter", "lemon", "pea shoots", "bacon", "risotto"],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "High in protein",
+    "Good source of B12",
+    "Contains zinc"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

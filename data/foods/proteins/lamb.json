@@ -1,0 +1,33 @@
+{
+  "id": "lamb",
+  "name": "Lamb",
+  "aliases": ["lamb chop", "lamb leg", "ground lamb"],
+  "category": "protein",
+  "subcategory": "red-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "1 chop or portion"
+    }
+  },
+  "siboNotes": "Plain lamb is FODMAP-free. It has a distinctive flavor that pairs well with Mediterranean herbs. Popular in many cuisines and easy to prepare.",
+  "preparationTips": [
+    "Season with rosemary and mint",
+    "Use garlic-infused oil",
+    "Grill, roast, or pan-fry",
+    "Ground lamb for kofta or meatballs"
+  ],
+  "alternatives": ["beef", "pork", "chicken"],
+  "pairsWellWith": ["rosemary", "mint", "lemon", "potatoes", "eggplant"],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Excellent source of B12",
+    "Contains zinc",
+    "Good source of iron"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

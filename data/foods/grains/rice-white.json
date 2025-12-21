@@ -1,0 +1,33 @@
+{
+  "id": "rice-white",
+  "name": "Rice (White)",
+  "aliases": ["white rice", "basmati rice", "jasmine rice"],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 190,
+      "description": "1 cup cooked - generous portion",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "White rice is completely FODMAP-free and one of the safest starches for SIBO. All varieties (basmati, jasmine, arborio, sushi) are safe. Easy to digest and gentle on the gut.",
+  "preparationTips": [
+    "Rinse before cooking for fluffier texture",
+    "All white rice varieties are safe",
+    "Use in stir-fries, bowls, and sides",
+    "Can be made into rice noodles"
+  ],
+  "alternatives": ["rice-brown", "quinoa", "potato"],
+  "pairsWellWith": ["all safe proteins", "vegetables", "soy sauce", "ginger"],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates",
+    "Easy to digest",
+    "Provides energy",
+    "Contains some B vitamins"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}

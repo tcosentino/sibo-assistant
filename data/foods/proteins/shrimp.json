@@ -1,0 +1,33 @@
+{
+  "id": "shrimp",
+  "name": "Shrimp",
+  "aliases": ["prawns", "scampi"],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "No FODMAP limit - eat freely",
+      "cups": "about 10-12 large shrimp"
+    }
+  },
+  "siboNotes": "Shrimp are FODMAP-free and make an excellent quick-cooking protein. Easy to prepare and versatile in many cuisines. Use garlic-infused oil for that garlic shrimp flavor without the FODMAPs.",
+  "preparationTips": [
+    "Sauté in garlic-infused oil",
+    "Grill with lemon and herbs",
+    "Avoid breaded versions",
+    "Check cocktail sauce for high-fructose corn syrup"
+  ],
+  "alternatives": ["salmon", "cod", "scallops"],
+  "pairsWellWith": ["garlic-infused oil", "lemon", "rice", "zucchini", "tomatoes"],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "High in protein",
+    "Good source of selenium",
+    "Contains omega-3s"
+  ],
+  "source": "Monash University FODMAP App",
+  "lastUpdated": "2024-12-18"
+}
