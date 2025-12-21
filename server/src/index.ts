@@ -1,11 +1,12 @@
 import Anthropic from '@anthropic-ai/sdk';
+import type { MessageParam, ImageBlockParam, TextBlockParam } from '@anthropic-ai/sdk/resources/messages';
 import express from 'express';
 import cors from 'cors';
 import { foodDatabase, getFoodContext } from './foods.js';
 
 const app = express();
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '10mb' })); // Increase limit for image uploads
 
 // Initialize Anthropic client with Helicone proxy
 const anthropic = new Anthropic({
@@ -32,6 +33,7 @@ interface UserPreferences {
 interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
+  image?: string; // base64 data URL
 }
 
 interface ChatRequest {
@@ -99,6 +101,13 @@ ${preferencesContext}
 5. **Acknowledge uncertainty** - If you don't have info on a specific food, say so
 6. **Remember new preferences** - If the user tells you about a new tolerance or sensitivity, acknowledge it and ask them to save it
 
+## Image Analysis
+When users send images of food:
+1. Identify all visible foods/ingredients in the image
+2. For each food, provide its FODMAP rating and serving size guidance
+3. Highlight any high-FODMAP ingredients that should be avoided
+4. Suggest modifications if the dish contains problematic ingredients
+
 ## Detecting User Preferences
 When users say things like:
 - "I can eat dairy fine" / "Lactose doesn't bother me" → They tolerate lactose
@@ -109,6 +118,62 @@ Acknowledge these and suggest they use the save button in the app to remember th
 - Use **bold** for food names when first mentioned
 - Use bullet points for lists
 - Keep responses focused and not too long`;
+}
+
+// Parse base64 data URL to extract media type and data
+function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | null {
+  const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
+  if (!match) return null;
+  return {
+    mediaType: match[1],
+    data: match[2],
+  };
+}
+
+// Convert our message format to Anthropic's format
+function convertToAnthropicMessages(messages: ChatMessage[]): MessageParam[] {
+  return messages.map((msg) => {
+    if (msg.role === 'assistant') {
+      return {
+        role: 'assistant' as const,
+        content: msg.content,
+      };
+    }
+
+    // User message - may include image
+    if (msg.image) {
+      const parsed = parseDataUrl(msg.image);
+      if (parsed) {
+        const content: (ImageBlockParam | TextBlockParam)[] = [
+          {
+            type: 'image' as const,
+            source: {
+              type: 'base64' as const,
+              media_type: parsed.mediaType as 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp',
+              data: parsed.data,
+            },
+          },
+        ];
+
+        if (msg.content) {
+          content.push({
+            type: 'text' as const,
+            text: msg.content,
+          });
+        }
+
+        return {
+          role: 'user' as const,
+          content,
+        };
+      }
+    }
+
+    return {
+      role: 'user' as const,
+      content: msg.content,
+    };
+  });
 }
 
 app.post('/api/chat', async (req, res) => {
@@ -124,11 +189,8 @@ app.post('/api/chat', async (req, res) => {
       sensitivities: { foods: [], fodmapTypes: [], categories: [] },
     });
 
-    // Convert messages to Anthropic format
-    const anthropicMessages = messages.map((msg) => ({
-      role: msg.role as 'user' | 'assistant',
-      content: msg.content,
-    }));
+    // Convert messages to Anthropic format (handles images)
+    const anthropicMessages = convertToAnthropicMessages(messages);
 
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
@@ -143,8 +205,9 @@ app.post('/api/chat', async (req, res) => {
     const assistantMessage = textContent?.type === 'text' ? textContent.text : '';
 
     // Check if Claude detected a new preference in the conversation
+    const lastUserMessage = messages[messages.length - 1];
     const detectedPreference = detectPreferenceInResponse(
-      messages[messages.length - 1]?.content || '',
+      lastUserMessage?.content || '',
       assistantMessage
     );
 
