@@ -4,7 +4,7 @@ import express from 'express';
 import cors from 'cors';
 import { foodDatabase, getFoodContext } from './foods.js';
 
-const app = express();
+export const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' })); // Increase limit for image uploads
 
@@ -17,7 +17,7 @@ const anthropic = new Anthropic({
   },
 });
 
-interface UserPreferences {
+export interface UserPreferences {
   tolerances: {
     foods: string[];
     fodmapTypes: string[];
@@ -30,19 +30,19 @@ interface UserPreferences {
   };
 }
 
-interface ChatMessage {
+export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
   image?: string; // base64 data URL
 }
 
-interface ChatRequest {
+export interface ChatRequest {
   messages: ChatMessage[];
   preferences: UserPreferences;
   userId?: string;
 }
 
-function buildSystemPrompt(preferences: UserPreferences): string {
+export function buildSystemPrompt(preferences: UserPreferences): string {
   const foodContext = getFoodContext();
 
   let preferencesContext = '';
@@ -121,7 +121,7 @@ Acknowledge these and suggest they use the save button in the app to remember th
 }
 
 // Parse base64 data URL to extract media type and data
-function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | null {
+export function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | null {
   const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
   if (!match) return null;
   return {
@@ -131,7 +131,7 @@ function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | nu
 }
 
 // Convert our message format to Anthropic's format
-function convertToAnthropicMessages(messages: ChatMessage[]): MessageParam[] {
+export function convertToAnthropicMessages(messages: ChatMessage[]): MessageParam[] {
   return messages.map((msg) => {
     if (msg.role === 'assistant') {
       return {
@@ -174,6 +174,58 @@ function convertToAnthropicMessages(messages: ChatMessage[]): MessageParam[] {
       content: msg.content,
     };
   });
+}
+
+// Detect if the user expressed a preference in their message
+export function detectPreferenceInResponse(
+  userMessage: string,
+  _assistantResponse: string
+): { type: 'tolerance' | 'sensitivity'; items: string[] } | null {
+  const lowerMessage = userMessage.toLowerCase();
+
+  // Tolerance patterns
+  const tolerancePatterns = [
+    /i (?:can|could) (?:eat|have|handle|tolerate|digest) (.+?)(?:\s+(?:fine|ok|okay|well|no problem|without issues?))?(?:\.|$)/i,
+    /(.+?) (?:is|are) (?:fine|ok|okay) (?:for me|with me)/i,
+    /i(?:'m| am) (?:fine|ok|okay|good) with (.+)/i,
+    /i don'?t have (?:a )?(?:problem|issue|trouble) with (.+)/i,
+    /(.+?) (?:doesn'?t|don'?t|does not|do not) (?:bother|affect|upset) me/i,
+    /i tolerate (.+?) (?:well|fine|ok)/i,
+  ];
+
+  // Sensitivity patterns
+  const sensitivityPatterns = [
+    /i (?:can'?t|cannot|couldn'?t) (?:eat|have|handle|tolerate|digest) (.+)/i,
+    /(.+?) (?:bothers?|upsets?|affects?) me/i,
+    /i(?:'m| am) sensitive to (.+)/i,
+    /i have (?:a )?(?:problem|issue|trouble) with (.+)/i,
+    /(.+?) (?:makes?|make) me (?:sick|bloated|uncomfortable)/i,
+    /i react (?:badly )?to (.+)/i,
+  ];
+
+  for (const pattern of tolerancePatterns) {
+    const match = lowerMessage.match(pattern);
+    if (match) {
+      const items = match[1]
+        .split(/,|and/)
+        .map((s) => s.trim().replace(/[.!?]$/, ''))
+        .filter((s) => s.length > 0);
+      return { type: 'tolerance', items };
+    }
+  }
+
+  for (const pattern of sensitivityPatterns) {
+    const match = lowerMessage.match(pattern);
+    if (match) {
+      const items = match[1]
+        .split(/,|and/)
+        .map((s) => s.trim().replace(/[.!?]$/, ''))
+        .filter((s) => s.length > 0);
+      return { type: 'sensitivity', items };
+    }
+  }
+
+  return null;
 }
 
 app.post('/api/chat', async (req, res) => {
@@ -225,58 +277,6 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-// Detect if the user expressed a preference in their message
-function detectPreferenceInResponse(
-  userMessage: string,
-  _assistantResponse: string
-): { type: 'tolerance' | 'sensitivity'; items: string[] } | null {
-  const lowerMessage = userMessage.toLowerCase();
-
-  // Tolerance patterns
-  const tolerancePatterns = [
-    /i (?:can|could) (?:eat|have|handle|tolerate|digest) (.+?)(?:\s+(?:fine|ok|okay|well|no problem|without issues?))?(?:\.|$)/i,
-    /(.+?) (?:is|are) (?:fine|ok|okay) (?:for me|with me)/i,
-    /i(?:'m| am) (?:fine|ok|okay|good) with (.+)/i,
-    /i don'?t have (?:a )?(?:problem|issue|trouble) with (.+)/i,
-    /(.+?) (?:doesn'?t|don'?t|does not|do not) (?:bother|affect|upset) me/i,
-    /i tolerate (.+?) (?:well|fine|ok)/i,
-  ];
-
-  // Sensitivity patterns
-  const sensitivityPatterns = [
-    /i (?:can'?t|cannot|couldn'?t) (?:eat|have|handle|tolerate|digest) (.+)/i,
-    /(.+?) (?:bothers?|upsets?|affects?) me/i,
-    /i(?:'m| am) sensitive to (.+)/i,
-    /i have (?:a )?(?:problem|issue|trouble) with (.+)/i,
-    /(.+?) (?:makes?|make) me (?:sick|bloated|uncomfortable)/i,
-    /i react (?:badly )?to (.+)/i,
-  ];
-
-  for (const pattern of tolerancePatterns) {
-    const match = lowerMessage.match(pattern);
-    if (match) {
-      const items = match[1]
-        .split(/,|and/)
-        .map((s) => s.trim().replace(/[.!?]$/, ''))
-        .filter((s) => s.length > 0);
-      return { type: 'tolerance', items };
-    }
-  }
-
-  for (const pattern of sensitivityPatterns) {
-    const match = lowerMessage.match(pattern);
-    if (match) {
-      const items = match[1]
-        .split(/,|and/)
-        .map((s) => s.trim().replace(/[.!?]$/, ''))
-        .filter((s) => s.length > 0);
-      return { type: 'sensitivity', items };
-    }
-  }
-
-  return null;
-}
-
 // Health check endpoint
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', foods: foodDatabase.length });
@@ -287,9 +287,12 @@ app.get('/api/foods', (_req, res) => {
   res.json(foodDatabase);
 });
 
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Helicone integration: ${process.env.HELICONE_API_KEY ? 'enabled' : 'disabled (no API key)'}`);
-});
+// Only start the server if this file is run directly
+const isMainModule = import.meta.url === `file://${process.argv[1]}`;
+if (isMainModule) {
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    console.log(`Helicone integration: ${process.env.HELICONE_API_KEY ? 'enabled' : 'disabled (no API key)'}`);
+  });
+}
