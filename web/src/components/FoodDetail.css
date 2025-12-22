@@ -225,6 +225,19 @@
   border-radius: 9999px;
   font-size: 0.875rem;
   font-weight: 500;
+  border: none;
+  font-family: inherit;
+}
+
+.food-detail__alternative--link {
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.food-detail__alternative--link:hover {
+  background-color: #bbf7d0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(22, 101, 52, 0.2);
 }
 
 .food-detail__pairings {
