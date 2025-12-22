@@ -2,7 +2,12 @@ import Anthropic from '@anthropic-ai/sdk';
 import type { MessageParam, ImageBlockParam, TextBlockParam } from '@anthropic-ai/sdk/resources/messages';
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { foodDatabase, getFoodContext } from './foods.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export const app = express();
 app.use(cors());
@@ -285,6 +290,15 @@ app.get('/api/health', (_req, res) => {
 // Get food database
 app.get('/api/foods', (_req, res) => {
   res.json(foodDatabase);
+});
+
+// Serve static files from the public directory (production)
+const publicPath = path.join(__dirname, 'public');
+app.use(express.static(publicPath));
+
+// SPA fallback - serve index.html for any non-API routes
+app.get('*', (_req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html'));
 });
 
 // Only start the server if this file is run directly
