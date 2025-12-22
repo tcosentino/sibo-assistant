@@ -7,6 +7,7 @@ interface Message {
   id: string;
   role: 'user' | 'assistant';
   content: string;
+  image?: string; // base64 data URL
 }
 
 interface UserPreferences {
@@ -70,8 +71,10 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [preferences, setPreferences] = useState<UserPreferences>(DEFAULT_PREFERENCES);
   const [showPreferences, setShowPreferences] = useState(false);
   const [useApi, setUseApi] = useState(true);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     try {
@@ -91,7 +94,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       preferences.tolerances.categories.length > 0;
 
     let content =
-      'Hi! Ask me about any food to learn if it\'s safe to eat with SIBO. For example, try "Can I eat garlic?" or "What about broccoli?"';
+      'Hi! Ask me about any food to learn if it\'s safe to eat with SIBO. You can also upload a photo of food and I\'ll identify it for you!';
 
     if (hasPref) {
       content +=
@@ -210,7 +213,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return false;
   };
 
-  const generateLocalResponse = (userMessage: string): string => {
+  const generateLocalResponse = (userMessage: string, hasImage: boolean): string => {
+    if (hasImage) {
+      return "I can only analyze images when connected to the server. Please make sure the API is running, or describe the food in text and I'll help you!";
+    }
+
     const lowerMessage = userMessage.toLowerCase();
 
     if (
@@ -353,7 +360,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   };
 
   const callApi = async (
-    conversationMessages: { role: 'user' | 'assistant'; content: string }[]
+    conversationMessages: { role: 'user' | 'assistant'; content: string; image?: string }[]
   ): Promise<{ message: string; detectedPreference?: { type: 'tolerance' | 'sensitivity'; items: string[] } }> => {
     const response = await fetch(`${API_URL}/api/chat`, {
       method: 'POST',
@@ -372,17 +379,53 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return response.json();
   };
 
+  const handleImageSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Check file size (max 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      alert('Image too large. Please select an image under 5MB.');
+      return;
+    }
+
+    // Check file type
+    if (!file.type.startsWith('image/')) {
+      alert('Please select an image file.');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      setSelectedImage(event.target?.result as string);
+    };
+    reader.readAsDataURL(file);
+  };
+
+  const clearSelectedImage = () => {
+    setSelectedImage(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!input.trim() || isLoading) return;
+    if ((!input.trim() && !selectedImage) || isLoading) return;
 
-    const userMessage = input.trim();
+    const userMessage = input.trim() || (selectedImage ? "What's in this image? Is it safe to eat with SIBO?" : '');
+    const userImage = selectedImage;
     setInput('');
+    setSelectedImage(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
 
     const newUserMessage: Message = {
       id: Date.now().toString(),
       role: 'user',
       content: userMessage,
+      image: userImage || undefined,
     };
 
     setMessages((prev) => [...prev, newUserMessage]);
@@ -395,8 +438,8 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         // Build conversation history (exclude welcome message)
         const conversationMessages = messages
           .filter((m) => m.id !== 'welcome')
-          .map((m) => ({ role: m.role, content: m.content }));
-        conversationMessages.push({ role: 'user', content: userMessage });
+          .map((m) => ({ role: m.role, content: m.content, image: m.image }));
+        conversationMessages.push({ role: 'user', content: userMessage, image: userImage || undefined });
 
         try {
           const apiResponse = await callApi(conversationMessages);
@@ -413,12 +456,12 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
           // API failed, fall back to local
           console.warn('API unavailable, using local responses');
           setUseApi(false);
-          responseContent = generateLocalResponse(userMessage);
+          responseContent = generateLocalResponse(userMessage, !!userImage);
         }
       } else {
         // Use local response generation
         await new Promise((resolve) => setTimeout(resolve, 300));
-        responseContent = generateLocalResponse(userMessage);
+        responseContent = generateLocalResponse(userMessage, !!userImage);
       }
 
       const newAssistantMessage: Message = {
@@ -454,9 +497,22 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     ]);
   };
 
-  const renderMessageContent = (content: string) => {
+  const renderMessageContent = (message: Message) => {
+    const { content, image } = message;
     const parts: React.ReactNode[] = [];
     let keyIndex = 0;
+
+    // Render image if present
+    if (image) {
+      parts.push(
+        <img
+          key={keyIndex++}
+          src={image}
+          alt="Uploaded food"
+          className="chat-window__message-image"
+        />
+      );
+    }
 
     const boldRegex = /\*\*(.+?)\*\*/g;
     let lastIndex = 0;
@@ -604,7 +660,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                 key={message.id}
                 className={`chat-window__message chat-window__message--${message.role}`}
               >
-                {renderMessageContent(message.content)}
+                {renderMessageContent(message)}
               </div>
             ))}
             {isLoading && (
@@ -619,12 +675,36 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
             <div ref={messagesEndRef} />
           </div>
 
+          {selectedImage && (
+            <div className="chat-window__image-preview">
+              <img src={selectedImage} alt="Selected" />
+              <button onClick={clearSelectedImage} title="Remove image">×</button>
+            </div>
+          )}
+
           <form className="chat-window__form" onSubmit={handleSubmit}>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              onChange={handleImageSelect}
+              className="chat-window__file-input"
+              disabled={isLoading}
+            />
+            <button
+              type="button"
+              className="chat-window__upload-btn"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={isLoading}
+              title="Upload a photo of food"
+            >
+              📷
+            </button>
             <input
               ref={inputRef}
               type="text"
               className="chat-window__input"
-              placeholder="Ask about a food..."
+              placeholder={selectedImage ? "Ask about this food..." : "Ask about a food..."}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               disabled={isLoading}
@@ -632,7 +712,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
             <button
               type="submit"
               className="chat-window__send"
-              disabled={!input.trim() || isLoading}
+              disabled={(!input.trim() && !selectedImage) || isLoading}
             >
               Send
             </button>

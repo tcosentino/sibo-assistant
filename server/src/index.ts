@@ -1,11 +1,12 @@
 import Anthropic from '@anthropic-ai/sdk';
+import type { MessageParam, ImageBlockParam, TextBlockParam } from '@anthropic-ai/sdk/resources/messages';
 import express from 'express';
 import cors from 'cors';
 import { foodDatabase, getFoodContext } from './foods.js';
 
-const app = express();
+export const app = express();
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '10mb' })); // Increase limit for image uploads
 
 // Initialize Anthropic client with Helicone proxy
 const anthropic = new Anthropic({
@@ -16,7 +17,7 @@ const anthropic = new Anthropic({
   },
 });
 
-interface UserPreferences {
+export interface UserPreferences {
   tolerances: {
     foods: string[];
     fodmapTypes: string[];
@@ -29,18 +30,19 @@ interface UserPreferences {
   };
 }
 
-interface ChatMessage {
+export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
+  image?: string; // base64 data URL
 }
 
-interface ChatRequest {
+export interface ChatRequest {
   messages: ChatMessage[];
   preferences: UserPreferences;
   userId?: string;
 }
 
-function buildSystemPrompt(preferences: UserPreferences): string {
+export function buildSystemPrompt(preferences: UserPreferences): string {
   const foodContext = getFoodContext();
 
   let preferencesContext = '';
@@ -99,6 +101,13 @@ ${preferencesContext}
 5. **Acknowledge uncertainty** - If you don't have info on a specific food, say so
 6. **Remember new preferences** - If the user tells you about a new tolerance or sensitivity, acknowledge it and ask them to save it
 
+## Image Analysis
+When users send images of food:
+1. Identify all visible foods/ingredients in the image
+2. For each food, provide its FODMAP rating and serving size guidance
+3. Highlight any high-FODMAP ingredients that should be avoided
+4. Suggest modifications if the dish contains problematic ingredients
+
 ## Detecting User Preferences
 When users say things like:
 - "I can eat dairy fine" / "Lactose doesn't bother me" → They tolerate lactose
@@ -111,59 +120,64 @@ Acknowledge these and suggest they use the save button in the app to remember th
 - Keep responses focused and not too long`;
 }
 
-app.post('/api/chat', async (req, res) => {
-  try {
-    const { messages, preferences, userId } = req.body as ChatRequest;
+// Parse base64 data URL to extract media type and data
+export function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | null {
+  const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
+  if (!match) return null;
+  return {
+    mediaType: match[1],
+    data: match[2],
+  };
+}
 
-    if (!messages || !Array.isArray(messages)) {
-      return res.status(400).json({ error: 'Messages array is required' });
+// Convert our message format to Anthropic's format
+export function convertToAnthropicMessages(messages: ChatMessage[]): MessageParam[] {
+  return messages.map((msg) => {
+    if (msg.role === 'assistant') {
+      return {
+        role: 'assistant' as const,
+        content: msg.content,
+      };
     }
 
-    const systemPrompt = buildSystemPrompt(preferences || {
-      tolerances: { foods: [], fodmapTypes: [], categories: [] },
-      sensitivities: { foods: [], fodmapTypes: [], categories: [] },
-    });
+    // User message - may include image
+    if (msg.image) {
+      const parsed = parseDataUrl(msg.image);
+      if (parsed) {
+        const content: (ImageBlockParam | TextBlockParam)[] = [
+          {
+            type: 'image' as const,
+            source: {
+              type: 'base64' as const,
+              media_type: parsed.mediaType as 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp',
+              data: parsed.data,
+            },
+          },
+        ];
 
-    // Convert messages to Anthropic format
-    const anthropicMessages = messages.map((msg) => ({
-      role: msg.role as 'user' | 'assistant',
+        if (msg.content) {
+          content.push({
+            type: 'text' as const,
+            text: msg.content,
+          });
+        }
+
+        return {
+          role: 'user' as const,
+          content,
+        };
+      }
+    }
+
+    return {
+      role: 'user' as const,
       content: msg.content,
-    }));
-
-    const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 1024,
-      system: systemPrompt,
-      messages: anthropicMessages,
-      metadata: userId ? { user_id: userId } : undefined,
-    });
-
-    // Extract text content from response
-    const textContent = response.content.find((block) => block.type === 'text');
-    const assistantMessage = textContent?.type === 'text' ? textContent.text : '';
-
-    // Check if Claude detected a new preference in the conversation
-    const detectedPreference = detectPreferenceInResponse(
-      messages[messages.length - 1]?.content || '',
-      assistantMessage
-    );
-
-    res.json({
-      message: assistantMessage,
-      detectedPreference,
-      usage: response.usage,
-    });
-  } catch (error) {
-    console.error('Chat error:', error);
-    res.status(500).json({
-      error: 'Failed to process chat request',
-      details: error instanceof Error ? error.message : 'Unknown error',
-    });
-  }
-});
+    };
+  });
+}
 
 // Detect if the user expressed a preference in their message
-function detectPreferenceInResponse(
+export function detectPreferenceInResponse(
   userMessage: string,
   _assistantResponse: string
 ): { type: 'tolerance' | 'sensitivity'; items: string[] } | null {
@@ -214,6 +228,55 @@ function detectPreferenceInResponse(
   return null;
 }
 
+app.post('/api/chat', async (req, res) => {
+  try {
+    const { messages, preferences, userId } = req.body as ChatRequest;
+
+    if (!messages || !Array.isArray(messages)) {
+      return res.status(400).json({ error: 'Messages array is required' });
+    }
+
+    const systemPrompt = buildSystemPrompt(preferences || {
+      tolerances: { foods: [], fodmapTypes: [], categories: [] },
+      sensitivities: { foods: [], fodmapTypes: [], categories: [] },
+    });
+
+    // Convert messages to Anthropic format (handles images)
+    const anthropicMessages = convertToAnthropicMessages(messages);
+
+    const response = await anthropic.messages.create({
+      model: 'claude-sonnet-4-20250514',
+      max_tokens: 1024,
+      system: systemPrompt,
+      messages: anthropicMessages,
+      metadata: userId ? { user_id: userId } : undefined,
+    });
+
+    // Extract text content from response
+    const textContent = response.content.find((block) => block.type === 'text');
+    const assistantMessage = textContent?.type === 'text' ? textContent.text : '';
+
+    // Check if Claude detected a new preference in the conversation
+    const lastUserMessage = messages[messages.length - 1];
+    const detectedPreference = detectPreferenceInResponse(
+      lastUserMessage?.content || '',
+      assistantMessage
+    );
+
+    res.json({
+      message: assistantMessage,
+      detectedPreference,
+      usage: response.usage,
+    });
+  } catch (error) {
+    console.error('Chat error:', error);
+    res.status(500).json({
+      error: 'Failed to process chat request',
+      details: error instanceof Error ? error.message : 'Unknown error',
+    });
+  }
+});
+
 // Health check endpoint
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', foods: foodDatabase.length });
@@ -224,9 +287,12 @@ app.get('/api/foods', (_req, res) => {
   res.json(foodDatabase);
 });
 
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Helicone integration: ${process.env.HELICONE_API_KEY ? 'enabled' : 'disabled (no API key)'}`);
-});
+// Only start the server if this file is run directly
+const isMainModule = import.meta.url === `file://${process.argv[1]}`;
+if (isMainModule) {
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    console.log(`Helicone integration: ${process.env.HELICONE_API_KEY ? 'enabled' : 'disabled (no API key)'}`);
+  });
+}

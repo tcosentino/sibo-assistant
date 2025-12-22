@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { allFoods, foodsByCategory } from './data/foods';
+import { allFoods } from './data/foods';
 import type { Food, FoodCategory } from './types/food';
 import { SearchBar } from './components/SearchBar';
 import { FilterTabs, type FilterOption } from './components/FilterTabs';
@@ -87,18 +87,6 @@ function App() {
       high: base.filter((f) => f.fodmapRating === 'high').length,
     };
   }, [searchQuery, categoryFilter]);
-
-  const getCategoryCount = (category: CategoryFilter) => {
-    if (category === 'all') return allFoods.length;
-    return foodsByCategory[category === 'condiment' ? 'condiments' :
-           category === 'fat' ? 'fats' :
-           category === 'beverage' ? 'beverages' :
-           category === 'vegetable' ? 'vegetables' :
-           category === 'fruit' ? 'fruits' :
-           category === 'protein' ? 'proteins' :
-           category === 'grain' ? 'grains' :
-           category === 'dairy' ? 'dairy' : 'vegetables']?.length || 0;
-  };
 
   return (
     <div className="app">
