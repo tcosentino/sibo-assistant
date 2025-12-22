@@ -102,6 +102,21 @@ describe('ChatWindow', () => {
       expect(screen.queryByText('Food Assistant')).not.toBeInTheDocument();
     });
 
+    it('should close sidebar when backdrop is clicked', async () => {
+      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+
+      // Open
+      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      await userEvent.click(toggleButton);
+      expect(screen.getByText('Food Assistant')).toBeInTheDocument();
+
+      // Click backdrop to close
+      const backdrop = document.querySelector('.chat-window__backdrop');
+      expect(backdrop).toBeInTheDocument();
+      await userEvent.click(backdrop!);
+      expect(screen.queryByText('Food Assistant')).not.toBeInTheDocument();
+    });
+
     it('should show welcome message when opened', async () => {
       render(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
@@ -349,6 +364,115 @@ describe('ChatWindow', () => {
           expect.objectContaining({ id: 'carrot', name: 'Carrot' })
         );
       }
+    });
+  });
+
+  describe('Markdown Rendering', () => {
+    it('should render markdown headers in API responses', async () => {
+      (global.fetch as ReturnType<typeof vi.fn>).mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({
+          message: '## Recipe Ideas\n\nHere are some options:\n\n- Option 1\n- Option 2',
+          detectedPreference: null,
+        }),
+      });
+
+      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+
+      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      await userEvent.click(toggleButton);
+
+      const input = screen.getByPlaceholderText(/ask about a food/i);
+      await userEvent.type(input, 'Give me recipes');
+      await userEvent.click(screen.getByRole('button', { name: /send/i }));
+
+      await waitFor(() => {
+        // Check that header is rendered as h2
+        const header = document.querySelector('.chat-window__markdown h2');
+        expect(header).toBeInTheDocument();
+        expect(header?.textContent).toBe('Recipe Ideas');
+      });
+
+      // Check that list items are rendered
+      const listItems = document.querySelectorAll('.chat-window__markdown li');
+      expect(listItems.length).toBe(2);
+    });
+
+    it('should render markdown links with target blank', async () => {
+      (global.fetch as ReturnType<typeof vi.fn>).mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({
+          message: 'Check out [this resource](https://example.com) for more info.',
+          detectedPreference: null,
+        }),
+      });
+
+      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+
+      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      await userEvent.click(toggleButton);
+
+      const input = screen.getByPlaceholderText(/ask about a food/i);
+      await userEvent.type(input, 'Give me a link');
+      await userEvent.click(screen.getByRole('button', { name: /send/i }));
+
+      await waitFor(() => {
+        const link = document.querySelector('.chat-window__markdown a');
+        expect(link).toBeInTheDocument();
+        expect(link).toHaveAttribute('target', '_blank');
+        expect(link).toHaveAttribute('rel', 'noopener noreferrer');
+      });
+    });
+
+    it('should render bold food names as clickable buttons', async () => {
+      (global.fetch as ReturnType<typeof vi.fn>).mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({
+          message: '**Carrot** is a great low FODMAP vegetable!',
+          detectedPreference: null,
+        }),
+      });
+
+      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+
+      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      await userEvent.click(toggleButton);
+
+      const input = screen.getByPlaceholderText(/ask about a food/i);
+      await userEvent.type(input, 'Tell me about carrot');
+      await userEvent.click(screen.getByRole('button', { name: /send/i }));
+
+      await waitFor(() => {
+        // Find the food link button for Carrot
+        const foodLink = screen.getByRole('button', { name: 'Carrot' });
+        expect(foodLink).toBeInTheDocument();
+        expect(foodLink).toHaveClass('chat-window__food-link');
+      });
+    });
+
+    it('should render bold non-food text as strong element', async () => {
+      (global.fetch as ReturnType<typeof vi.fn>).mockResolvedValueOnce({
+        ok: true,
+        json: () => Promise.resolve({
+          message: 'This is **important** information.',
+          detectedPreference: null,
+        }),
+      });
+
+      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+
+      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      await userEvent.click(toggleButton);
+
+      const input = screen.getByPlaceholderText(/ask about a food/i);
+      await userEvent.type(input, 'Tell me something');
+      await userEvent.click(screen.getByRole('button', { name: /send/i }));
+
+      await waitFor(() => {
+        const strongElement = document.querySelector('.chat-window__markdown strong');
+        expect(strongElement).toBeInTheDocument();
+        expect(strongElement?.textContent).toBe('important');
+      });
     });
   });
 
