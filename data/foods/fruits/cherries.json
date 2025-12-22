@@ -1,0 +1,22 @@
+{
+  "id": "cherries",
+  "name": "Cherries",
+  "aliases": ["cherry", "sweet cherries", "bing cherries", "rainier cherries"],
+  "category": "fruit",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose", "sorbitol"],
+  "servingSizes": {
+    "low": null,
+    "moderate": "3 cherries",
+    "high": "More than 3 cherries"
+  },
+  "siboNotes": "Cherries are high in both fructose and sorbitol. Only 3 cherries is considered moderate - very easy to overeat. Dried cherries are even more concentrated.",
+  "preparationTips": [
+    "If testing, limit to 2-3 cherries maximum",
+    "Avoid dried cherries completely",
+    "Do not eat cherry pie or cherry-flavored foods"
+  ],
+  "alternatives": ["strawberries", "blueberries", "raspberries", "grapes (limit 6)"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": ["anthocyanins", "vitamin C", "potassium"]
+}

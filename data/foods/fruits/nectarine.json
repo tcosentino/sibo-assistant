@@ -1,0 +1,22 @@
+{
+  "id": "nectarine",
+  "name": "Nectarine",
+  "aliases": ["nectarines", "white nectarine"],
+  "category": "fruit",
+  "fodmapRating": "high",
+  "fodmapTypes": ["sorbitol"],
+  "servingSizes": {
+    "low": null,
+    "moderate": "1/3 nectarine (50g)",
+    "high": "More than 1/3 nectarine"
+  },
+  "siboNotes": "Nectarines are high in sorbitol. They look like a smooth peach but have higher FODMAP content. Very small portions only.",
+  "preparationTips": [
+    "Limit to a few slices if testing",
+    "Fresh is better than canned",
+    "Do not combine with other stone fruits"
+  ],
+  "alternatives": ["strawberries", "kiwi", "oranges", "pineapple"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": ["vitamin C", "vitamin A", "niacin"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "apricot",
+  "name": "Apricot",
+  "aliases": ["apricots"],
+  "category": "fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": ["sorbitol", "fructose"],
+  "servingSizes": {
+    "low": "1 small apricot (35g)",
+    "moderate": "2 small apricots (70g)",
+    "high": "More than 2 apricots"
+  },
+  "siboNotes": "Fresh apricots are moderate FODMAP in small amounts. Dried apricots are extremely high FODMAP due to concentration and added sorbitol - avoid completely.",
+  "preparationTips": [
+    "Fresh only - never dried",
+    "Limit to 1-2 small fresh apricots",
+    "Avoid apricot jam and preserves"
+  ],
+  "alternatives": ["strawberries", "kiwi", "mandarin oranges"],
+  "pairsWellWith": ["almonds (10 max)", "lactose-free yogurt"],
+  "nutritionalHighlights": ["vitamin A", "vitamin C", "potassium"]
+}

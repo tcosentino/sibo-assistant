@@ -1,0 +1,22 @@
+{
+  "id": "plum",
+  "name": "Plum",
+  "aliases": ["plums", "prune plum"],
+  "category": "fruit",
+  "fodmapRating": "high",
+  "fodmapTypes": ["sorbitol"],
+  "servingSizes": {
+    "low": null,
+    "moderate": "1 small plum (45g)",
+    "high": "More than 1 small plum"
+  },
+  "siboNotes": "Plums are high in sorbitol. Dried plums (prunes) are extremely high FODMAP and commonly cause digestive issues even in people without SIBO.",
+  "preparationTips": [
+    "Limit to 1 very small plum if testing",
+    "Never eat prunes during elimination",
+    "Avoid plum sauce and plum wine"
+  ],
+  "alternatives": ["strawberries", "kiwi", "unripe banana", "oranges"],
+  "pairsWellWith": [],
+  "nutritionalHighlights": ["vitamin C", "vitamin K", "fiber"]
+}

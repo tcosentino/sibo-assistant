@@ -1,0 +1,22 @@
+{
+  "id": "blackberries",
+  "name": "Blackberries",
+  "aliases": ["blackberry"],
+  "category": "fruit",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": "60g (about 10 berries)",
+    "moderate": "90g (about 15 berries)",
+    "high": "More than 90g"
+  },
+  "siboNotes": "Blackberries are low FODMAP in reasonable portions. They're a great berry choice alongside strawberries, blueberries, and raspberries.",
+  "preparationTips": [
+    "Enjoy fresh or frozen",
+    "Great in smoothies with safe ingredients",
+    "Can be used in baking with gluten-free flour"
+  ],
+  "alternatives": ["strawberries", "blueberries", "raspberries"],
+  "pairsWellWith": ["lactose-free yogurt", "maple syrup", "oats"],
+  "nutritionalHighlights": ["vitamin C", "vitamin K", "fiber", "manganese"]
+}
