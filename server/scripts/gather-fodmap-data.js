@@ -7,8 +7,10 @@
  * established research (Monash University, peer-reviewed studies).
  *
  * Usage (from server directory):
- *   ANTHROPIC_API_KEY=your-key npm run gather-fodmap -- [options]
- *   ANTHROPIC_API_KEY=your-key node scripts/gather-fodmap-data.js [options]
+ *   npm run gather-fodmap -- [options]
+ *   node scripts/gather-fodmap-data.js [options]
+ *
+ * The script automatically loads ANTHROPIC_API_KEY from server/.env
  *
  * Options:
  *   --category <name>   Only process a specific category (vegetables, fruits, proteins, grains, dairy, fats, sweeteners, beverages, condiments)
@@ -36,6 +38,25 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Load .env file from server directory
+function loadEnv() {
+  const envPath = path.join(__dirname, '..', '.env');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf-8');
+    for (const line of envContent.split('\n')) {
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith('#')) {
+        const [key, ...valueParts] = trimmed.split('=');
+        const value = valueParts.join('=').replace(/^["']|["']$/g, '');
+        if (key && value && !process.env[key]) {
+          process.env[key] = value;
+        }
+      }
+    }
+  }
+}
+loadEnv();
 
 // Configuration
 const DATA_DIR = path.join(__dirname, '..', '..', 'data', 'foods');
