@@ -293,7 +293,9 @@ export const foodDatabase: Food[] = [
   },
 ];
 
-export function getFoodContext(): string {
+// Pre-compute food context at module load time for efficiency
+// This avoids recalculating the same string on every API request
+function computeFoodContext(): string {
   const sections = {
     low: foodDatabase.filter((f) => f.fodmapRating === 'low'),
     moderate: foodDatabase.filter((f) => f.fodmapRating === 'moderate'),
@@ -325,4 +327,12 @@ export function getFoodContext(): string {
   }
 
   return context;
+}
+
+// Cached food context - computed once at module load
+const cachedFoodContext = computeFoodContext();
+
+// Export function returns cached value (maintains API compatibility)
+export function getFoodContext(): string {
+  return cachedFoodContext;
 }
