@@ -4,9 +4,11 @@ import './FoodDetail.css';
 interface FoodDetailProps {
   food: Food;
   onClose: () => void;
+  allFoods?: Food[];
+  onFoodClick?: (food: Food) => void;
 }
 
-export function FoodDetail({ food, onClose }: FoodDetailProps) {
+export function FoodDetail({ food, onClose, allFoods, onFoodClick }: FoodDetailProps) {
   return (
     <div className="food-detail-overlay" onClick={onClose}>
       <div className="food-detail" onClick={(e) => e.stopPropagation()}>
@@ -115,11 +117,25 @@ export function FoodDetail({ food, onClose }: FoodDetailProps) {
           <section className="food-detail__section">
             <h3>Safer Alternatives</h3>
             <div className="food-detail__alternatives">
-              {food.alternatives.map((alt) => (
-                <span key={alt} className="food-detail__alternative">
-                  {formatAlternative(alt)}
-                </span>
-              ))}
+              {food.alternatives.map((alt) => {
+                const linkedFood = allFoods?.find((f) => f.id === alt);
+                if (linkedFood && onFoodClick) {
+                  return (
+                    <button
+                      key={alt}
+                      className="food-detail__alternative food-detail__alternative--link"
+                      onClick={() => onFoodClick(linkedFood)}
+                    >
+                      {formatAlternative(alt)}
+                    </button>
+                  );
+                }
+                return (
+                  <span key={alt} className="food-detail__alternative">
+                    {formatAlternative(alt)}
+                  </span>
+                );
+              })}
             </div>
           </section>
         )}

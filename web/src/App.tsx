@@ -162,6 +162,8 @@ function App() {
         <FoodDetail
           food={selectedFood}
           onClose={() => setSelectedFood(null)}
+          allFoods={allFoods}
+          onFoodClick={setSelectedFood}
         />
       )}
 
