@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { FoodDetail } from './FoodDetail';
@@ -9,7 +9,7 @@ const lowFodmapFood: Food = {
   id: 'carrot',
   name: 'Carrot',
   aliases: ['carrots'],
-  category: 'vegetables',
+  category: 'vegetable',
   fodmapRating: 'low',
   fodmapTypes: [],
   servingSizes: {
@@ -25,7 +25,7 @@ const highFodmapFood: Food = {
   id: 'garlic',
   name: 'Garlic',
   aliases: ['raw garlic', 'garlic cloves'],
-  category: 'vegetables',
+  category: 'vegetable',
   fodmapRating: 'high',
   fodmapTypes: ['fructans'],
   servingSizes: {
@@ -40,7 +40,7 @@ const highFodmapFood: Food = {
 const moderateFodmapFood: Food = {
   id: 'avocado',
   name: 'Avocado',
-  category: 'fruits',
+  category: 'fruit',
   fodmapRating: 'moderate',
   fodmapTypes: ['polyols-sorbitol'],
   servingSizes: {
