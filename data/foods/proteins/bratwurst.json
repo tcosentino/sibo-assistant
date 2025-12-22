@@ -1,0 +1,43 @@
+{
+  "id": "bratwurst",
+  "name": "Bratwurst",
+  "aliases": [
+    "German sausage",
+    "brat",
+    "bratwurst sausage"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "1 medium bratwurst",
+      "cups": "1 sausage"
+    }
+  },
+  "siboNotes": "Plain bratwurst without high-FODMAP seasonings like garlic or onion is well-tolerated. Check ingredient labels for added wheat, onion powder, or garlic powder which could trigger symptoms.",
+  "preparationTips": [
+    "Read ingredient labels carefully - some brands contain garlic or onion powder",
+    "Grill, pan-fry, or boil without adding high-FODMAP seasonings",
+    "Choose brands with simple ingredients: pork, salt, and FODMAP-friendly spices",
+    "Serve with low-FODMAP condiments like mustard or ketchup (check sugar content)"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sauerkraut (small portions)",
+    "Mustard",
+    "Grilled bell peppers",
+    "Sourdough bread (small portions)",
+    "Roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Good source of B vitamins, especially B12",
+    "Contains iron and zinc",
+    "Provides selenium for antioxidant function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

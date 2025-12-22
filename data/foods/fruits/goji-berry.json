@@ -1,0 +1,43 @@
+{
+  "id": "goji-berry",
+  "name": "Goji Berry",
+  "aliases": [
+    "Wolfberry",
+    "Chinese Wolfberry",
+    "Lycium Berry"
+  ],
+  "category": "fruit",
+  "subcategory": "dried-berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 1 tablespoon dried berries",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Goji berries are well-tolerated in small amounts and their dense nutrient profile makes them a valuable addition to SIBO-friendly diets.",
+  "preparationTips": [
+    "Stick to 1 tablespoon serving size to maintain low FODMAP status",
+    "Can be eaten dried as a snack or soaked in water to soften",
+    "Add to low FODMAP smoothies or sprinkle on lactose-free yogurt",
+    "Store in airtight container in cool, dry place to maintain freshness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Gluten-free oats",
+    "Mixed nuts and seeds",
+    "Low FODMAP smoothies",
+    "Rice cakes"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of vitamin A and zeaxanthin for eye health",
+    "Contains complete protein with all essential amino acids",
+    "Rich in iron and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

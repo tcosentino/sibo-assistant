@@ -1,0 +1,43 @@
+{
+  "id": "lotus-root",
+  "name": "Lotus Root",
+  "aliases": [
+    "renkon",
+    "lotus rhizome",
+    "sacred lotus root"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2/3 cup sliced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Lotus root is well-tolerated and provides beneficial resistant starch when cooked and cooled, which may support healthy gut bacteria balance.",
+  "preparationTips": [
+    "Slice and soak in acidulated water (water with lemon juice) to prevent browning",
+    "Can be eaten raw in salads when young and tender, or cooked in stir-fries and soups",
+    "Remove the outer skin with a vegetable peeler before slicing",
+    "Cook until tender but still slightly crisp for best texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "ginger",
+    "scallion greens",
+    "carrots",
+    "bell peppers",
+    "sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and potassium",
+    "Good source of dietary fiber",
+    "Contains antioxidants including flavonoids",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

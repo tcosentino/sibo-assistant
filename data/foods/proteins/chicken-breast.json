@@ -1,0 +1,43 @@
+{
+  "id": "chicken-breast",
+  "name": "Chicken Breast",
+  "aliases": [
+    "Chicken breast fillet",
+    "Boneless chicken breast",
+    "Skinless chicken breast"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 1 medium breast (7 oz)",
+      "cups": "1 cup cooked, diced"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it provides no fermentable carbohydrates. Well-tolerated in all phases of SIBO treatment.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or thyme",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Grill, bake, or sauté with low-FODMAP vegetables",
+    "Avoid marinades containing onion, garlic, or high-FODMAP ingredients"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Spinach",
+    "Bell peppers",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (31g per 100g)",
+    "Rich in B vitamins, especially niacin and B6",
+    "Good source of phosphorus and selenium",
+    "Low in saturated fat when skinless"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

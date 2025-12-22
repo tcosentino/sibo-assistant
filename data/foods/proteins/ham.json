@@ -1,0 +1,44 @@
+{
+  "id": "ham",
+  "name": "Ham",
+  "aliases": [
+    "deli ham",
+    "sliced ham",
+    "honey ham",
+    "spiral ham"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 85,
+      "description": "About 3 oz or 3-4 thin slices",
+      "cups": "1/2 cup chopped"
+    }
+  },
+  "siboNotes": "Plain ham is naturally FODMAP-free, but check labels for added high-FODMAP ingredients like honey, garlic, or onion powder.",
+  "preparationTips": [
+    "Choose plain, minimally processed ham without added sweeteners or seasonings",
+    "Read labels carefully - avoid varieties with honey, garlic powder, or onion powder",
+    "Rinse canned or packaged ham to reduce excess sodium if needed",
+    "Pair with low-FODMAP vegetables for balanced meals"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach",
+    "carrots",
+    "bell peppers",
+    "zucchini",
+    "hard cheese"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in B vitamins, especially B12",
+    "Good source of zinc and selenium",
+    "Contains iron for healthy blood cells"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

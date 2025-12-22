@@ -1,0 +1,42 @@
+{
+  "id": "serrano-pepper",
+  "name": "Serrano Pepper",
+  "aliases": [
+    "Serrano chili",
+    "Serrano chile"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 2-3 small peppers",
+      "cups": "2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet due to low FODMAP content. The capsaicin may provide digestive benefits for some individuals.",
+  "preparationTips": [
+    "Remove seeds and membranes to reduce heat while maintaining flavor",
+    "Wear gloves when handling to avoid skin irritation",
+    "Add gradually to dishes as heat level can vary significantly",
+    "Can be used fresh, roasted, or dried"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Tomatoes",
+    "Cilantro",
+    "Lime juice",
+    "Chicken"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Good source of vitamin A",
+    "Very low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

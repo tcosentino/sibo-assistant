@@ -1,0 +1,60 @@
+{
+  "id": "morel-mushroom",
+  "name": "Morel Mushroom",
+  "aliases": [
+    "Morchella",
+    "Honeycomb Mushroom",
+    "Sponge Mushroom"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/3 cup sliced",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 130,
+      "description": "About 2/3 cup sliced",
+      "cups": "2/3 cup"
+    },
+    "high": {
+      "grams": 195,
+      "description": "About 1 cup sliced",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Limit to small portions as mushrooms contain mannitol polyols which can trigger SIBO symptoms. Start with 1/3 cup and monitor tolerance.",
+  "preparationTips": [
+    "Soak in salt water for 30 minutes to remove dirt and insects",
+    "Slice lengthwise and rinse thoroughly inside the hollow stem",
+    "Sauté in garlic-infused oil for FODMAP-friendly flavor",
+    "Cook thoroughly as raw morels can cause digestive upset"
+  ],
+  "alternatives": [
+    "Oyster mushrooms (small portions)",
+    "Shiitake mushrooms (small portions)",
+    "Bell peppers for umami flavor",
+    "Eggplant for meaty texture"
+  ],
+  "pairsWellWith": [
+    "Garlic-infused olive oil",
+    "Fresh herbs (thyme, parsley)",
+    "Gruyere cheese",
+    "Chicken or beef",
+    "Rice or quinoa"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin D",
+    "Good source of iron and copper",
+    "Contains antioxidants",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

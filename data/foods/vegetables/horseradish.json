@@ -1,0 +1,42 @@
+{
+  "id": "horseradish",
+  "name": "Horseradish",
+  "aliases": [
+    "Prepared horseradish",
+    "Horseradish root"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Fresh horseradish root is FODMAP-free and well-tolerated. Check prepared horseradish labels for added garlic or onion powder.",
+  "preparationTips": [
+    "Grate fresh horseradish root just before serving for maximum potency",
+    "Store prepared horseradish in refrigerator and use within 3-4 weeks",
+    "Mix with vinegar or lemon juice to preserve color and flavor",
+    "Start with small amounts as horseradish is very potent"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roast beef",
+    "Smoked salmon",
+    "Hard cheeses",
+    "Potatoes",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and antioxidants",
+    "Contains glucosinolates with anti-inflammatory properties",
+    "Low in calories and carbohydrates",
+    "Natural antimicrobial compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

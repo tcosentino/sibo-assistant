@@ -1,0 +1,42 @@
+{
+  "id": "venison",
+  "name": "Venison",
+  "aliases": [
+    "deer meat",
+    "game meat"
+  ],
+  "category": "protein",
+  "subcategory": "game-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked portion",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Venison is naturally FODMAP-free and well-tolerated for SIBO. Choose lean cuts and avoid marinades with garlic or onion.",
+  "preparationTips": [
+    "Marinate with FODMAP-friendly herbs like rosemary, thyme, and oregano",
+    "Cook to medium-rare to avoid overcooking this lean meat",
+    "Season with garlic-infused oil instead of fresh garlic",
+    "Pair with low-FODMAP vegetables for balanced meals"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "roasted carrots",
+    "green beans",
+    "spinach",
+    "quinoa",
+    "red wine reduction"
+  ],
+  "nutritionalHighlights": [
+    "High in lean protein (26g per 100g)",
+    "Rich in iron and B vitamins",
+    "Lower in saturated fat than beef",
+    "Good source of zinc and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

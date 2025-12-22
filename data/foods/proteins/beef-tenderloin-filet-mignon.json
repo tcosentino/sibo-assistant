@@ -1,0 +1,43 @@
+{
+  "id": "beef-tenderloin-filet-mignon",
+  "name": "Beef Tenderloin (Filet Mignon)",
+  "aliases": [
+    "Filet Mignon",
+    "Tenderloin Steak",
+    "Eye Fillet"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked portion",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Plain beef is naturally FODMAP-free and well-tolerated in SIBO. Choose simple cooking methods and avoid high-FODMAP marinades or seasonings.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Cook with simple methods: grilling, pan-searing, or roasting",
+    "Avoid marinades containing onion, garlic, or high-FODMAP ingredients"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Spinach salad",
+    "Mashed potatoes (in low-FODMAP portions)",
+    "Grilled zucchini"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

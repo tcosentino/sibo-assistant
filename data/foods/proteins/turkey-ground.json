@@ -1,0 +1,43 @@
+{
+  "id": "turkey-ground",
+  "name": "Turkey Ground",
+  "aliases": [
+    "Ground turkey",
+    "Minced turkey",
+    "Turkey mince"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked",
+      "cups": "1/2 cup cooked"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated on SIBO diets. Choose lean ground turkey to minimize fat content if fat sensitivity is present.",
+  "preparationTips": [
+    "Cook thoroughly to 165°F internal temperature for food safety",
+    "Drain excess fat after cooking to aid digestion",
+    "Season with FODMAP-friendly herbs like oregano, basil, or thyme",
+    "Avoid pre-seasoned varieties that may contain garlic or onion powder"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Zucchini",
+    "Bell peppers",
+    "Spinach",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in B vitamins, especially niacin and B6",
+    "Good source of selenium and phosphorus",
+    "Lower in saturated fat than ground beef"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

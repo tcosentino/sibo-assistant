@@ -1,0 +1,42 @@
+{
+  "id": "ground-lamb",
+  "name": "Ground Lamb",
+  "aliases": [
+    "Minced lamb",
+    "Lamb mince"
+  ],
+  "category": "protein",
+  "subcategory": "lamb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked portion",
+      "cups": "1/2 cup cooked"
+    }
+  },
+  "siboNotes": "Plain ground lamb is FODMAP-free and well-tolerated on SIBO diets. Avoid pre-seasoned varieties that may contain garlic or onion.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like oregano, thyme, or rosemary",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Cook thoroughly to 160°F (71°C) internal temperature",
+    "Drain excess fat after cooking to improve digestibility"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Zucchini",
+    "Bell peppers",
+    "Potatoes",
+    "Fresh herbs (basil, mint, parsley)"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (20-25g per serving)",
+    "Rich in vitamin B12 and zinc",
+    "Good source of iron and selenium",
+    "Contains conjugated linoleic acid (CLA)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "jackfruit",
+  "name": "Jackfruit",
+  "aliases": [
+    "Young jackfruit",
+    "Ripe jackfruit",
+    "Kathal"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 3 bulbs or small pieces",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 6 bulbs or pieces",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 12 bulbs or large serving",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Start with small portions as jackfruit contains excess fructose and fructans that can trigger SIBO symptoms. Young jackfruit may be better tolerated than very ripe fruit.",
+  "preparationTips": [
+    "Choose less ripe jackfruit for potentially lower FODMAP content",
+    "Pair with glucose-rich foods to help balance fructose absorption",
+    "Remove seeds and fibrous core before eating",
+    "Canned young jackfruit in brine is often better tolerated than fresh ripe fruit"
+  ],
+  "alternatives": [
+    "Pineapple",
+    "Papaya",
+    "Cantaloupe",
+    "Orange"
+  ],
+  "pairsWellWith": [
+    "Coconut milk",
+    "Ginger",
+    "Lime juice",
+    "Rice",
+    "Chicken"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Potassium",
+    "Dietary fiber",
+    "Antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

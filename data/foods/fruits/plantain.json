@@ -1,0 +1,42 @@
+{
+  "id": "plantain",
+  "name": "Plantain",
+  "aliases": [
+    "Green banana",
+    "Cooking banana"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "About 1/2 medium plantain",
+      "cups": "2/3 cup sliced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low FODMAP and provides resistant starch when less ripe, which may support beneficial gut bacteria.",
+  "preparationTips": [
+    "Green plantains are starchy and best cooked - try roasting, frying, or boiling",
+    "Yellow/ripe plantains become sweeter and can be eaten raw or cooked",
+    "Remove the tough skin with a knife rather than peeling like a banana",
+    "Cook green plantains like potatoes - they're excellent mashed or as chips"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice",
+    "Grilled chicken",
+    "Bell peppers",
+    "Carrots",
+    "Coconut oil"
+  ],
+  "nutritionalHighlights": [
+    "Rich in potassium for heart health",
+    "Good source of vitamin B6",
+    "Provides resistant starch when green",
+    "Contains vitamin C and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

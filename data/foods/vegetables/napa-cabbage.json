@@ -1,0 +1,44 @@
+{
+  "id": "napa-cabbage",
+  "name": "Napa Cabbage",
+  "aliases": [
+    "Chinese Cabbage",
+    "Wombok",
+    "Pe-tsai",
+    "Celery Cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 cup chopped",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low in fermentable carbohydrates. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Can be eaten raw in salads or coleslaw",
+    "Great for stir-frying - retains crunch when lightly cooked",
+    "Use outer leaves for wrapping proteins or rice",
+    "Add to soups in final minutes to maintain texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Bell peppers",
+    "Bok choy",
+    "Chicken",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and K",
+    "Good source of folate",
+    "Contains antioxidants like beta-carotene",
+    "Low in calories and high in water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

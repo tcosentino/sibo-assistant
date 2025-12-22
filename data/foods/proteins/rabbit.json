@@ -1,0 +1,48 @@
+{
+  "id": "rabbit",
+  "name": "Rabbit",
+  "aliases": [
+    "Rabbit meat",
+    "Wild rabbit",
+    "Domestic rabbit"
+  ],
+  "category": "protein",
+  "subcategory": "game-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium serving (5 oz)",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Excellent lean protein option for SIBO diets as it's naturally FODMAP-free and easy to digest.",
+  "preparationTips": [
+    "Marinate in low-FODMAP herbs like rosemary or thyme to enhance flavor",
+    "Cook low and slow to prevent tough texture - braising or slow roasting works well",
+    "Season with garlic-infused oil instead of fresh garlic for flavor",
+    "Pair with low-FODMAP root vegetables for a complete meal"
+  ],
+  "alternatives": [
+    "Chicken breast",
+    "Turkey",
+    "Lean beef",
+    "Duck breast"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Parsnips",
+    "Potatoes",
+    "Green beans",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Very lean with minimal saturated fat",
+    "Rich in B vitamins, especially B12",
+    "Good source of selenium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

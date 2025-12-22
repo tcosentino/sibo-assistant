@@ -1,0 +1,47 @@
+{
+  "id": "crenshaw-melon",
+  "name": "Crenshaw Melon",
+  "aliases": [
+    "Cranshaw melon",
+    "Crenshaw cantaloupe"
+  ],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "About 3/4 cup diced",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low in fermentable carbohydrates. Start with smaller portions if you have severe symptoms.",
+  "preparationTips": [
+    "Choose melons that give slightly to pressure at the stem end",
+    "Store cut melon in refrigerator and consume within 3-4 days",
+    "Remove seeds and rind completely before eating",
+    "Can be frozen in chunks for smoothies"
+  ],
+  "alternatives": [
+    "Cantaloupe",
+    "Honeydew melon",
+    "Papaya",
+    "Orange"
+  ],
+  "pairsWellWith": [
+    "Prosciutto",
+    "Feta cheese",
+    "Fresh mint",
+    "Lime juice",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of potassium",
+    "Contains beta-carotene",
+    "High water content for hydration"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

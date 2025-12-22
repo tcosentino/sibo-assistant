@@ -1,0 +1,43 @@
+{
+  "id": "dragon-fruit-pitaya",
+  "name": "Dragon Fruit (Pitaya)",
+  "aliases": [
+    "Pitaya",
+    "Strawberry Pear",
+    "Cactus Fruit"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 160,
+      "description": "About 1 cup cubed",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Dragon fruit is well-tolerated for SIBO patients as it's naturally low in FODMAPs and has mild, gentle fiber content.",
+  "preparationTips": [
+    "Cut in half lengthwise and scoop out flesh with a spoon",
+    "Peel skin and cube the flesh for fruit salads",
+    "Chill before serving for best texture and flavor",
+    "Choose fruits that yield slightly to pressure but aren't mushy"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Kiwi fruit",
+    "Strawberries",
+    "Lime juice",
+    "Coconut flakes",
+    "Mint leaves"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of iron and magnesium",
+    "Contains beneficial plant compounds called betalains",
+    "Low in calories with high water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

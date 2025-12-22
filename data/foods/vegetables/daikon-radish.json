@@ -1,0 +1,44 @@
+{
+  "id": "daikon-radish",
+  "name": "Daikon Radish",
+  "aliases": [
+    "White Radish",
+    "Japanese Radish",
+    "Mooli",
+    "Chinese Radish"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3/4 cup sliced",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO diets as it's naturally low in fermentable carbohydrates and has mild digestive properties.",
+  "preparationTips": [
+    "Can be eaten raw in salads or pickled for probiotic benefits",
+    "Cooking softens texture and makes it easier to digest",
+    "Remove skin if experiencing digestive sensitivity",
+    "Grate finely for better digestion when eating raw"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Cucumber",
+    "Ginger",
+    "Rice vinegar",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of potassium for heart health",
+    "Contains digestive enzymes that may aid digestion",
+    "Low in calories but high in fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fennel",
+  "name": "Fennel",
+  "aliases": [
+    "Florence fennel",
+    "Fennel bulb",
+    "Sweet fennel"
+  ],
+  "category": "vegetable",
+  "subcategory": "bulb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Fennel is well-tolerated in SIBO and may have mild digestive benefits due to its traditional use for digestive comfort.",
+  "preparationTips": [
+    "Remove tough outer layers and slice thinly for raw preparations",
+    "Roast or braise to bring out natural sweetness",
+    "Save feathery fronds as a low-FODMAP herb garnish",
+    "Cut away the hard core if using raw in salads"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "bell peppers",
+    "zucchini",
+    "olive oil",
+    "lemon juice"
+  ],
+  "nutritionalHighlights": [
+    "vitamin C",
+    "potassium",
+    "fiber",
+    "antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

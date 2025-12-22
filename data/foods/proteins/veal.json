@@ -1,0 +1,42 @@
+{
+  "id": "veal",
+  "name": "Veal",
+  "aliases": [
+    "calf meat",
+    "young beef"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "equivalent to 1/2 cup diced"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated on SIBO diets. Choose lean cuts to minimize digestive stress.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Cook gently to maintain tenderness - avoid high heat which can make it tough",
+    "Pair with low-FODMAP vegetables for balanced nutrition",
+    "Avoid marinades containing garlic or onion - use garlic-infused oil instead"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "green beans",
+    "spinach",
+    "potatoes",
+    "rice"
+  ],
+  "nutritionalHighlights": [
+    "high-quality complete protein",
+    "iron",
+    "vitamin B12",
+    "zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

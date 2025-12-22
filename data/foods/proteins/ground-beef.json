@@ -1,0 +1,43 @@
+{
+  "id": "ground-beef",
+  "name": "Ground Beef",
+  "aliases": [
+    "Minced Beef",
+    "Hamburger Meat",
+    "Ground Chuck"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked patty",
+      "cups": "1/2 cup cooked crumbled"
+    }
+  },
+  "siboNotes": "Plain ground beef is naturally FODMAP-free and well-tolerated in SIBO. Choose lean varieties and avoid processed versions with added seasonings that may contain garlic or onion.",
+  "preparationTips": [
+    "Choose lean ground beef (85/15 or 90/10) to reduce fat content",
+    "Season with FODMAP-friendly herbs like oregano, thyme, or rosemary",
+    "Avoid pre-seasoned varieties that may contain onion or garlic powder",
+    "Cook thoroughly to 160°F internal temperature for food safety"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice",
+    "Quinoa",
+    "Carrots",
+    "Bell peppers",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in iron and zinc",
+    "Good source of vitamin B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

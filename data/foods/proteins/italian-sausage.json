@@ -1,0 +1,48 @@
+{
+  "id": "italian-sausage",
+  "name": "Italian Sausage",
+  "aliases": [
+    "Sweet Italian Sausage",
+    "Hot Italian Sausage",
+    "Italian Pork Sausage"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1 medium link (4 inches)",
+      "cups": "1/2 cup cooked, sliced"
+    }
+  },
+  "siboNotes": "Plain Italian sausage is generally well-tolerated, but check labels for added garlic or onion powder which can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Read ingredient labels carefully - avoid varieties with garlic or onion powder",
+    "Cook thoroughly to 160°F internal temperature for food safety",
+    "Remove casings if texture is problematic for digestion",
+    "Pair with low-FODMAP vegetables and herbs for flavor enhancement"
+  ],
+  "alternatives": [
+    "Plain ground pork seasoned with fennel and oregano",
+    "Chicken sausage (garlic/onion-free varieties)",
+    "Turkey sausage (check ingredients)",
+    "Homemade sausage with safe herbs and spices"
+  ],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Zucchini",
+    "Spinach",
+    "Tomatoes",
+    "Basil and oregano"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in B vitamins, especially B12",
+    "Good source of zinc and selenium",
+    "Contains iron for oxygen transport"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

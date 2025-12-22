@@ -1,0 +1,59 @@
+{
+  "id": "raisins",
+  "name": "Raisins",
+  "aliases": [
+    "Dried grapes",
+    "Sultanas"
+  ],
+  "category": "fruit",
+  "subcategory": "dried-fruit",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 26,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 52,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Small portions are well-tolerated, but the concentrated sugars in larger amounts may feed bacterial overgrowth and cause symptoms.",
+  "preparationTips": [
+    "Measure portions carefully as it's easy to overconsume",
+    "Soak in warm water briefly to plump and reduce sweetness concentration",
+    "Choose unsweetened varieties to avoid added sugars",
+    "Mix with low-FODMAP nuts for balanced snacking"
+  ],
+  "alternatives": [
+    "Fresh grapes (small portion)",
+    "Dried cranberries (small portion)",
+    "Freeze-dried strawberries",
+    "Small portion of dates"
+  ],
+  "pairsWellWith": [
+    "Almonds",
+    "Walnuts",
+    "Aged cheddar cheese",
+    "Oatmeal",
+    "Rice cakes"
+  ],
+  "nutritionalHighlights": [
+    "Good source of potassium for heart health",
+    "Contains iron for healthy blood",
+    "Provides antioxidants from grape compounds",
+    "Natural source of quick energy from natural sugars"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "cranberry",
+  "name": "Cranberry",
+  "aliases": [
+    "Fresh cranberries",
+    "Raw cranberries"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1/3 cup fresh cranberries",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Fresh cranberries are well-tolerated on SIBO diets due to their low FODMAP content and natural antimicrobial properties.",
+  "preparationTips": [
+    "Choose fresh cranberries over dried versions which often contain high-FODMAP sweeteners",
+    "Can be cooked into sauces with maple syrup or stevia instead of regular sugar",
+    "Freeze fresh cranberries to use year-round in smoothies and baking",
+    "Rinse and remove any soft or damaged berries before use"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Orange zest",
+    "Walnuts",
+    "Turkey",
+    "Brie cheese",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Contains proanthocyanidins which support urinary tract health",
+    "Good source of fiber for digestive health",
+    "Low in natural sugars compared to most fruits"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

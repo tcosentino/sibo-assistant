@@ -1,0 +1,42 @@
+{
+  "id": "red-cabbage",
+  "name": "Red Cabbage",
+  "aliases": [
+    "Purple cabbage",
+    "Red kraut cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 3/4 cup shredded",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated cruciferous vegetable that's gentle on the digestive system. Cook thoroughly if experiencing any bloating.",
+  "preparationTips": [
+    "Massage shredded raw cabbage with salt for easier digestion",
+    "Cook until tender to break down fiber for sensitive stomachs",
+    "Remove tough outer leaves and core before preparing",
+    "Add acidic ingredients like lemon juice to preserve bright color"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Bell peppers",
+    "Cucumber",
+    "Olive oil",
+    "Rice vinegar"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of vitamin K",
+    "Contains anti-inflammatory compounds",
+    "Low in calories, high in fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

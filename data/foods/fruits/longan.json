@@ -1,0 +1,59 @@
+{
+  "id": "longan",
+  "name": "Longan",
+  "aliases": [
+    "Dragon's eye fruit",
+    "Dimocarpus longan"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 5 fresh longans",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 120,
+      "description": "About 10 fresh longans",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 180,
+      "description": "About 15 fresh longans",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Small portions are well-tolerated, but larger servings may trigger symptoms due to excess fructose content.",
+  "preparationTips": [
+    "Remove the brown shell and translucent flesh from the black seed",
+    "Fresh longans are preferable to canned varieties which may contain added sugars",
+    "Combine with low-FODMAP foods to balance the meal",
+    "Eat slowly and chew thoroughly to aid digestion"
+  ],
+  "alternatives": [
+    "Strawberries",
+    "Kiwi fruit",
+    "Orange segments",
+    "Grapes"
+  ],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Rice crackers",
+    "Almonds",
+    "Mint leaves",
+    "Coconut flakes"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Potassium",
+    "Copper",
+    "Riboflavin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

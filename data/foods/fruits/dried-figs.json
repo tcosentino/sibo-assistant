@@ -1,0 +1,60 @@
+{
+  "id": "dried-figs",
+  "name": "Dried Figs",
+  "aliases": [
+    "Fig, dried",
+    "Dried fig"
+  ],
+  "category": "fruit",
+  "subcategory": "dried-fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 small dried figs",
+      "cups": "2 pieces"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 4 small dried figs",
+      "cups": "4 pieces"
+    },
+    "high": {
+      "grams": 90,
+      "description": "About 6+ small dried figs",
+      "cups": "6+ pieces"
+    }
+  },
+  "siboNotes": "Start with very small portions (1-2 figs) as the concentrated fructose and sorbitol can trigger symptoms. Consider avoiding during active SIBO flares.",
+  "preparationTips": [
+    "Soak briefly in warm water to soften before eating",
+    "Chop and sprinkle small amounts over low-FODMAP yogurt or oatmeal",
+    "Pair with protein or fat to slow sugar absorption",
+    "Store in airtight container to maintain freshness"
+  ],
+  "alternatives": [
+    "Fresh strawberries",
+    "Cantaloupe",
+    "Grapes",
+    "Dried cranberries (small portions)"
+  ],
+  "pairsWellWith": [
+    "Lactose-free Greek yogurt",
+    "Almonds",
+    "Walnuts",
+    "Hard cheeses",
+    "Oat-based cereals"
+  ],
+  "nutritionalHighlights": [
+    "High in fiber",
+    "Good source of potassium",
+    "Contains calcium",
+    "Provides antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

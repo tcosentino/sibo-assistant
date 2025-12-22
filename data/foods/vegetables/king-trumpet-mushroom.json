@@ -1,0 +1,60 @@
+{
+  "id": "king-trumpet-mushroom",
+  "name": "King Trumpet Mushroom",
+  "aliases": [
+    "King Oyster Mushroom",
+    "Eryngii Mushroom",
+    "Pleurotus eryngii"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 130,
+      "description": "About 1 cup sliced",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 1.5 cups sliced",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "King trumpet mushrooms contain mannitol but are well-tolerated in small servings. Start with 1/2 cup portions and monitor symptoms during SIBO treatment phases.",
+  "preparationTips": [
+    "Slice thick and sear to develop meaty texture",
+    "Remove tough stem ends before cooking",
+    "Pat dry before cooking to prevent excess moisture",
+    "Can be grilled, roasted, or sautéed for best flavor"
+  ],
+  "alternatives": [
+    "Red bell pepper",
+    "Zucchini",
+    "Eggplant",
+    "Bok choy"
+  ],
+  "pairsWellWith": [
+    "Garlic-infused oil",
+    "Fresh ginger",
+    "Soy sauce (gluten-free)",
+    "Green beans",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "High in potassium",
+    "Good source of B vitamins",
+    "Contains ergothioneine antioxidant",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

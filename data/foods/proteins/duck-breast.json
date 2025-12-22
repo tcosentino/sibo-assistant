@@ -1,0 +1,47 @@
+{
+  "id": "duck-breast",
+  "name": "Duck Breast",
+  "aliases": [
+    "Duck fillet",
+    "Magret duck breast"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium breast fillet (5 oz)",
+      "cups": "1 cup sliced"
+    }
+  },
+  "siboNotes": "Plain duck breast is excellent for SIBO as it contains no fermentable carbohydrates and provides high-quality protein for gut healing.",
+  "preparationTips": [
+    "Score the skin in a crosshatch pattern before cooking to render fat properly",
+    "Start cooking skin-side down in a cold pan to slowly render the fat",
+    "Avoid high-FODMAP marinades containing garlic or onion",
+    "Season with low-FODMAP herbs like rosemary, thyme, or sage"
+  ],
+  "alternatives": [
+    "Chicken breast",
+    "Turkey breast",
+    "Lean beef cuts",
+    "Salmon fillet"
+  ],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Wild rice",
+    "Orange segments",
+    "Baby spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (25g per 100g)",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially B12",
+    "Contains selenium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

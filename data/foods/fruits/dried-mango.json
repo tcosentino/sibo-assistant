@@ -1,0 +1,59 @@
+{
+  "id": "dried-mango",
+  "name": "Dried Mango",
+  "aliases": [
+    "Dehydrated Mango",
+    "Mango Chips"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2 small pieces",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 20,
+      "description": "About 4 small pieces",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 6 pieces or 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Very concentrated fructose source due to dehydration process - even small amounts can trigger symptoms. Consider avoiding during SIBO treatment phases.",
+  "preparationTips": [
+    "Stick to very small portions (1-2 pieces max)",
+    "Choose unsweetened varieties without added sugars",
+    "Pair with protein or fat to slow absorption",
+    "Consider soaking briefly in warm water to rehydrate slightly"
+  ],
+  "alternatives": [
+    "Dried Banana",
+    "Dried Kiwi",
+    "Orange segments",
+    "Strawberries"
+  ],
+  "pairsWellWith": [
+    "Almonds",
+    "Macadamia nuts",
+    "Hard cheese",
+    "Plain yogurt (lactose-free)",
+    "Dark chocolate (70%+)"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin A",
+    "Vitamin C",
+    "Fiber",
+    "Potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

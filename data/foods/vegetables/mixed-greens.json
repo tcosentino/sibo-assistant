@@ -1,0 +1,44 @@
+{
+  "id": "mixed-greens",
+  "name": "Mixed Greens",
+  "aliases": [
+    "salad mix",
+    "spring mix",
+    "field greens",
+    "mesclun"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2 cups",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as leafy greens are easily digestible and low in fermentable fibers.",
+  "preparationTips": [
+    "Wash thoroughly and dry completely to reduce bacterial load",
+    "Store in refrigerator and consume within 3-5 days of opening",
+    "Massage tougher greens like kale with a little oil to improve digestibility",
+    "Choose organic when possible to reduce pesticide exposure"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cucumber",
+    "carrots",
+    "bell peppers",
+    "olive oil",
+    "lemon juice"
+  ],
+  "nutritionalHighlights": [
+    "vitamin K",
+    "folate",
+    "vitamin A",
+    "antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

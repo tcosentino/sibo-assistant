@@ -1,0 +1,43 @@
+{
+  "id": "pork-ribs",
+  "name": "Pork Ribs",
+  "aliases": [
+    "Baby back ribs",
+    "Spare ribs",
+    "Country-style ribs"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 3-4 ribs (cooked)",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Plain pork ribs are naturally FODMAP-free and well-tolerated in SIBO. Watch for high-FODMAP marinades or rubs containing garlic, onion, or honey.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Avoid BBQ sauces containing high fructose corn syrup or onion/garlic powder",
+    "Slow cooking methods help break down tough connective tissue"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled zucchini",
+    "Roasted carrots",
+    "Green beans",
+    "Quinoa salad",
+    "Coleslaw with FODMAP-friendly dressing"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Rich in B vitamins, especially B12 and niacin",
+    "Good source of zinc for immune function",
+    "Contains phosphorus for bone health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

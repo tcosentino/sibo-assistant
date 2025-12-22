@@ -1,0 +1,43 @@
+{
+  "id": "beef-brisket",
+  "name": "Beef Brisket",
+  "aliases": [
+    "BBQ brisket",
+    "smoked brisket",
+    "slow-cooked brisket"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "3/4 cup sliced"
+    }
+  },
+  "siboNotes": "Plain beef brisket is well-tolerated for SIBO as it contains no fermentable carbohydrates. Watch for high-FODMAP marinades or rubs containing garlic or onion.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Avoid marinades containing onion powder, garlic powder, or high fructose corn syrup",
+    "Low and slow cooking methods work best for tender results"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Mashed potatoes",
+    "Coleslaw with low-FODMAP dressing",
+    "Sourdough bread (spelt or wheat-free)"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

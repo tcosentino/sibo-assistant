@@ -1,0 +1,48 @@
+{
+  "id": "habanero-pepper",
+  "name": "Habanero Pepper",
+  "aliases": [
+    "Habanero Chili",
+    "Habanero Chile",
+    "Caribbean Red Pepper"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1-2 whole peppers",
+      "cups": "2 tablespoons diced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients due to low FODMAP content, though extreme heat may irritate sensitive digestive systems.",
+  "preparationTips": [
+    "Remove seeds and membrane to reduce heat while maintaining flavor",
+    "Wear gloves when handling to avoid skin and eye irritation",
+    "Start with very small amounts (1/4 pepper) to test heat tolerance",
+    "Pairs well with lime juice to balance intense heat"
+  ],
+  "alternatives": [
+    "Jalapeño pepper (milder heat)",
+    "Bell pepper (no heat)",
+    "Paprika (dried, mild)",
+    "Cayenne pepper (powdered, controlled heat)"
+  ],
+  "pairsWellWith": [
+    "Lime juice",
+    "Fresh cilantro",
+    "Grilled chicken",
+    "Rice dishes",
+    "Tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin C (more than citrus fruits)",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Good source of vitamin A and carotenoids",
+    "Very low in calories and carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

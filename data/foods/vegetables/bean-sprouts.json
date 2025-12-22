@@ -1,0 +1,43 @@
+{
+  "id": "bean-sprouts",
+  "name": "Bean Sprouts",
+  "aliases": [
+    "Mung Bean Sprouts",
+    "Soybean Sprouts",
+    "Fresh Bean Sprouts"
+  ],
+  "category": "vegetable",
+  "subcategory": "legume-derivative",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as the sprouting process reduces FODMAP content compared to whole beans. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Rinse thoroughly before use and consume fresh for best digestibility",
+    "Lightly cook rather than eating raw if you have sensitive digestion",
+    "Add to stir-fries in the last few minutes to maintain crunch",
+    "Store in refrigerator and use within 2-3 days of purchase"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Bell peppers",
+    "Bok choy",
+    "Green beans",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and folate",
+    "Good source of vitamin K",
+    "Contains protein and fiber",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

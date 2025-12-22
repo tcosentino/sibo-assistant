@@ -1,0 +1,43 @@
+{
+  "id": "turkey-breast",
+  "name": "Turkey Breast",
+  "aliases": [
+    "Turkey breast meat",
+    "Sliced turkey",
+    "Turkey deli meat"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz serving",
+      "cups": "1 cup sliced"
+    }
+  },
+  "siboNotes": "Plain turkey breast is excellent for SIBO as it's protein-rich and FODMAP-free. Avoid processed varieties with added onion or garlic powder.",
+  "preparationTips": [
+    "Choose plain, unseasoned turkey breast to avoid hidden FODMAPs",
+    "Check deli meat labels for garlic powder, onion powder, or high-fructose corn syrup",
+    "Season with FODMAP-friendly herbs like oregano, thyme, or rosemary",
+    "Roast with olive oil and safe spices for meal prep"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach and arugula salads",
+    "Roasted carrots and parsnips",
+    "Quinoa or rice pilaf",
+    "Cucumber and tomato",
+    "Low-FODMAP mustard or mayo"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (25g per 3.5oz)",
+    "Rich in B vitamins, especially niacin and B6",
+    "Good source of selenium and phosphorus",
+    "Low in saturated fat compared to other meats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

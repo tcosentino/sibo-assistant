@@ -1,0 +1,43 @@
+{
+  "id": "enoki-mushroom",
+  "name": "Enoki Mushroom",
+  "aliases": [
+    "Enokitake",
+    "Golden Needle Mushroom",
+    "Winter Mushroom"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2/3 cup sliced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO protocols as they're low in fermentable carbohydrates and contain beneficial prebiotic compounds in small amounts.",
+  "preparationTips": [
+    "Trim off the tough root end before using",
+    "Separate individual mushrooms gently to avoid breaking",
+    "Add to soups and stir-fries in the last few minutes of cooking",
+    "Can be eaten raw in salads for a crisp texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bok choy",
+    "Carrots",
+    "Bell peppers",
+    "Ginger",
+    "Scallions (green tops only)"
+  ],
+  "nutritionalHighlights": [
+    "Good source of B vitamins, especially niacin",
+    "Contains potassium for heart health",
+    "Provides selenium and copper",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

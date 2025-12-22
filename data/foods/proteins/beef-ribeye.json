@@ -1,0 +1,48 @@
+{
+  "id": "beef-ribeye",
+  "name": "Beef Ribeye",
+  "aliases": [
+    "Ribeye Steak",
+    "Rib Eye",
+    "Delmonico Steak"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked steak",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it provides no fermentable carbohydrates. High fat content may slow digestion for some individuals.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like rosemary, thyme, or oregano",
+    "Avoid garlic and onion-based marinades",
+    "Cook to preferred doneness without adding high-FODMAP ingredients",
+    "Let rest 5 minutes after cooking for optimal tenderness"
+  ],
+  "alternatives": [
+    "Other cuts of beef (sirloin, tenderloin)",
+    "Chicken breast",
+    "Salmon",
+    "Pork tenderloin"
+  ],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Sautéed spinach",
+    "Grilled zucchini",
+    "Herb-roasted potatoes",
+    "Mixed greens salad"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in iron and zinc",
+    "Good source of B-vitamins",
+    "Contains healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

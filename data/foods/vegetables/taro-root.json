@@ -1,0 +1,43 @@
+{
+  "id": "taro-root",
+  "name": "Taro Root",
+  "aliases": [
+    "Colocasia",
+    "Dasheen",
+    "Eddo"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 84,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated starchy vegetable that can provide energy without feeding problematic bacteria. Cook thoroughly to improve digestibility.",
+  "preparationTips": [
+    "Always cook thoroughly - never eat raw as it contains calcium oxalate crystals",
+    "Boil, steam, or roast until tender and starchy texture develops",
+    "Peel completely before cooking to remove irritating compounds",
+    "Can be mashed, cubed, or sliced after cooking"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "green beans",
+    "chicken",
+    "ginger",
+    "coconut oil"
+  ],
+  "nutritionalHighlights": [
+    "potassium",
+    "vitamin C",
+    "fiber",
+    "manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

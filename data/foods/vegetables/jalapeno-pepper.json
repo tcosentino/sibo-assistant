@@ -1,0 +1,48 @@
+{
+  "id": "jalapeno-pepper",
+  "name": "Jalapeño Pepper",
+  "aliases": [
+    "Jalapeño",
+    "Jalapeno",
+    "Fresh jalapeño"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2-3 medium peppers",
+      "cups": "1/3 cup chopped"
+    }
+  },
+  "siboNotes": "Well tolerated in SIBO diets as they're FODMAP-free. The capsaicin may help stimulate digestion but could irritate sensitive stomachs.",
+  "preparationTips": [
+    "Remove seeds and membrane to reduce heat while maintaining flavor",
+    "Roast or grill to mellow the heat and add smoky flavor",
+    "Add gradually to dishes to control spice level",
+    "Wear gloves when handling to avoid skin irritation"
+  ],
+  "alternatives": [
+    "Bell peppers",
+    "Poblano peppers",
+    "Banana peppers",
+    "Cubanelle peppers"
+  ],
+  "pairsWellWith": [
+    "Lime juice",
+    "Cilantro",
+    "Tomatoes",
+    "Avocado",
+    "Cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Vitamin A",
+    "Capsaicin",
+    "Antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

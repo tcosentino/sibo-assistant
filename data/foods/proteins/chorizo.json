@@ -1,0 +1,47 @@
+{
+  "id": "chorizo",
+  "name": "Chorizo",
+  "aliases": [
+    "Spanish chorizo",
+    "Mexican chorizo"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 80,
+      "description": "About 2-3 oz or 2-3 slices",
+      "cups": "1/3 cup diced"
+    }
+  },
+  "siboNotes": "Pure chorizo is typically FODMAP-free, but check labels for garlic or onion powder which are common additives in commercial varieties.",
+  "preparationTips": [
+    "Choose Spanish dry-cured chorizo or cook fresh Mexican chorizo thoroughly",
+    "Check ingredient labels carefully - avoid varieties with garlic or onion powder",
+    "Remove casings from fresh chorizo before cooking if desired",
+    "Cook fresh chorizo over medium heat to render fat properly"
+  ],
+  "alternatives": [
+    "Plain Italian sausage",
+    "Turkey sausage (check ingredients)",
+    "Pepperoni (garlic-free)",
+    "Pancetta"
+  ],
+  "pairsWellWith": [
+    "Red bell peppers",
+    "Spinach",
+    "Tomatoes",
+    "Rice",
+    "Eggs"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (15-20g per serving)",
+    "Rich in vitamin B12",
+    "Good source of iron",
+    "Contains healthy fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

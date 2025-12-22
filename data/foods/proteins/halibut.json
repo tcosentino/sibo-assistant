@@ -1,0 +1,42 @@
+{
+  "id": "halibut",
+  "name": "Halibut",
+  "aliases": [
+    "Pacific halibut",
+    "Atlantic halibut"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 7 oz fillet",
+      "cups": "1 large fillet"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free and excellent for SIBO diets. Avoid breading or FODMAP-containing marinades and seasonings.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or thyme",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Grill, bake, or pan-sear with olive oil and lemon",
+    "Pair with low FODMAP vegetables for complete meals"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Zucchini",
+    "Spinach",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High in lean protein (40g per 200g serving)",
+    "Rich in omega-3 fatty acids",
+    "Excellent source of selenium and magnesium",
+    "Good source of vitamin B12 and niacin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

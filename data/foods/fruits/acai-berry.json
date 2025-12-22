@@ -1,0 +1,43 @@
+{
+  "id": "acai-berry",
+  "name": "Açaí Berry",
+  "aliases": [
+    "Acai Berry",
+    "Acai Fruit",
+    "Amazon Berry"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 1/4 cup frozen pulp",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO patients when consumed in normal serving sizes as açaí is naturally low FODMAP.",
+  "preparationTips": [
+    "Use frozen açaí pulp rather than sweetened açaí products which may contain high FODMAP sweeteners",
+    "Blend with low FODMAP fruits like strawberries or kiwi for smoothie bowls",
+    "Check açaí powder labels for added inulin or high FODMAP ingredients",
+    "Start with smaller portions if you have sensitive digestion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "strawberries",
+    "blueberries",
+    "kiwi fruit",
+    "coconut flakes",
+    "pumpkin seeds"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants",
+    "Rich in healthy fats",
+    "Good source of fiber",
+    "Contains vitamin A"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

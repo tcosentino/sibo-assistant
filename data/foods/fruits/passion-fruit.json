@@ -1,0 +1,47 @@
+{
+  "id": "passion-fruit",
+  "name": "Passion Fruit",
+  "aliases": [
+    "Purple Granadilla",
+    "Maracuja"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "2 whole passion fruits (pulp and seeds)",
+      "cups": "About 1/4 cup pulp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low FODMAP and the seeds provide gentle fiber that most people can handle.",
+  "preparationTips": [
+    "Cut in half and scoop out pulp with seeds using a spoon",
+    "Seeds are edible and provide texture - strain if preferred smooth",
+    "Use immediately after cutting as pulp oxidizes quickly",
+    "Freeze pulp in ice cube trays for later use in smoothies"
+  ],
+  "alternatives": [
+    "Kiwi fruit",
+    "Orange segments",
+    "Strawberries",
+    "Pineapple (small portions)"
+  ],
+  "pairsWellWith": [
+    "Greek yogurt (lactose-free)",
+    "Coconut cream",
+    "Dark chocolate",
+    "Lime juice",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of dietary fiber",
+    "Contains vitamin A and potassium",
+    "Provides beneficial plant compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

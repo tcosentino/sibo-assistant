@@ -1,0 +1,42 @@
+{
+  "id": "sprouts-alfalfa",
+  "name": "Sprouts (Alfalfa)",
+  "aliases": [
+    "Alfalfa sprouts",
+    "Alfalfa microgreens"
+  ],
+  "category": "vegetable",
+  "subcategory": "sprout",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as they are FODMAP-free and easily digestible. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Rinse thoroughly before eating to remove any bacteria",
+    "Add to sandwiches and salads just before serving to maintain crispness",
+    "Store in refrigerator and use within 2-3 days of purchase",
+    "Pat dry with paper towels after rinsing to prevent soggy dishes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lettuce",
+    "Cucumber",
+    "Carrots",
+    "Bell peppers",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin K",
+    "Vitamin C",
+    "Folate",
+    "Antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

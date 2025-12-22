@@ -1,0 +1,43 @@
+{
+  "id": "lemongrass",
+  "name": "Lemongrass",
+  "aliases": [
+    "Citronella grass",
+    "Cymbopogon",
+    "Sereh"
+  ],
+  "category": "vegetable",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 2-3 stalks or 2 tablespoons chopped",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical culinary amounts due to low FODMAP content and aromatic compounds that may support digestive comfort.",
+  "preparationTips": [
+    "Use only the tender white and pale green parts, discard tough outer layers",
+    "Bruise or crush stalks before adding to curries and soups for maximum flavor release",
+    "Remove whole stalks before serving as they remain fibrous and inedible",
+    "Finely mince when using raw in salads or marinades"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Ginger",
+    "Lime leaves",
+    "Coconut milk",
+    "Fish sauce",
+    "Rice noodles"
+  ],
+  "nutritionalHighlights": [
+    "Citral (antimicrobial compound)",
+    "Antioxidants",
+    "Essential oils",
+    "Small amounts of vitamin C"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

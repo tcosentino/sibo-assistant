@@ -1,0 +1,60 @@
+{
+  "id": "durian",
+  "name": "Durian",
+  "aliases": [
+    "King of fruits",
+    "Durian fruit"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 small pieces or 1 tablespoon",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 4 small pieces",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "About 1/2 cup or 6-8 pieces",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Start with very small portions as durian contains both excess fructose and sorbitol which can trigger SIBO symptoms. Consider avoiding during acute SIBO phases.",
+  "preparationTips": [
+    "Start with just 1-2 small pieces to test tolerance",
+    "Eat fresh rather than dried versions which concentrate FODMAPs",
+    "Pair with low-FODMAP protein or fat to slow digestion",
+    "Choose ripe but not overripe fruit for better tolerance"
+  ],
+  "alternatives": [
+    "Kiwi fruit",
+    "Orange segments",
+    "Strawberries",
+    "Dragon fruit"
+  ],
+  "pairsWellWith": [
+    "Coconut yogurt (lactose-free)",
+    "Macadamia nuts",
+    "Dark chocolate",
+    "Lime juice",
+    "Mint leaves"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Rich in potassium",
+    "Good source of B vitamins",
+    "Contains healthy fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

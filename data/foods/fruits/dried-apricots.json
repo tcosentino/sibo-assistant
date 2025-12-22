@@ -1,0 +1,59 @@
+{
+  "id": "dried-apricots",
+  "name": "Dried Apricots",
+  "aliases": [
+    "Apricot halves dried",
+    "Dehydrated apricots"
+  ],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 2 dried apricot halves",
+      "cups": "2 halves"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 5-6 dried apricot halves",
+      "cups": "1/4 cup chopped"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 10-12 dried apricot halves",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "The concentrated sorbitol in dried apricots can trigger symptoms even at small servings in sensitive individuals. Start with just 1-2 pieces to test tolerance.",
+  "preparationTips": [
+    "Choose unsulfured varieties when possible to avoid additional digestive irritants",
+    "Soak briefly in warm water to rehydrate slightly and reduce concentration",
+    "Chop finely and mix into larger low-FODMAP portions to dilute the serving size",
+    "Store in airtight containers to maintain texture and prevent spoilage"
+  ],
+  "alternatives": [
+    "Fresh strawberries (1 cup)",
+    "Dried banana chips (20g serving)",
+    "Orange segments (1 medium orange)",
+    "Cantaloupe melon (1 cup cubed)"
+  ],
+  "pairsWellWith": [
+    "Lactose-free Greek yogurt",
+    "Rice cakes",
+    "Almonds (10 nuts)",
+    "Cheddar cheese cubes",
+    "Maple syrup drizzle"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin A and beta-carotene for eye health",
+    "Good source of potassium for heart function",
+    "Contains dietary fiber for digestive health",
+    "Provides iron and antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

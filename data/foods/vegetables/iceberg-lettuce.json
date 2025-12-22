@@ -1,0 +1,42 @@
+{
+  "id": "iceberg-lettuce",
+  "name": "Iceberg Lettuce",
+  "aliases": [
+    "crisphead lettuce",
+    "head lettuce"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2 cups shredded",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Iceberg lettuce is naturally low FODMAP and well-tolerated in SIBO, providing fiber without fermentable sugars that could trigger symptoms.",
+  "preparationTips": [
+    "Wash thoroughly before eating",
+    "Store in refrigerator crisper drawer",
+    "Remove outer leaves if wilted",
+    "Tear rather than cut with metal knife to prevent browning"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cucumber",
+    "carrots",
+    "bell peppers",
+    "tomatoes",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High water content for hydration",
+    "Source of vitamin K",
+    "Contains folate",
+    "Low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

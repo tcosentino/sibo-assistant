@@ -1,0 +1,43 @@
+{
+  "id": "baby-corn",
+  "name": "Baby Corn",
+  "aliases": [
+    "young corn",
+    "miniature corn",
+    "baby sweet corn"
+  ],
+  "category": "vegetable",
+  "subcategory": "starchy-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1/2 cup or 6-8 pieces",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO due to low fiber content and easy digestibility compared to mature corn.",
+  "preparationTips": [
+    "Can be eaten raw in salads or lightly steamed for 2-3 minutes",
+    "Add to stir-fries in the last few minutes to maintain crunch",
+    "Drain canned baby corn thoroughly and rinse to remove excess sodium",
+    "Slice lengthwise for faster cooking and better flavor absorption"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "bell peppers",
+    "bok choy",
+    "chicken breast",
+    "tofu"
+  ],
+  "nutritionalHighlights": [
+    "fiber for digestive health",
+    "vitamin C for immune support",
+    "folate for cellular function",
+    "low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

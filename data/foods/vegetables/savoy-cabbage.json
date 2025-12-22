@@ -1,0 +1,42 @@
+{
+  "id": "savoy-cabbage",
+  "name": "Savoy Cabbage",
+  "aliases": [
+    "curly cabbage",
+    "crinkled cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet. Cook thoroughly to improve digestibility if experiencing gas or bloating.",
+  "preparationTips": [
+    "Remove tough outer leaves and core before cooking",
+    "Steam or sauté to soften fibrous texture",
+    "Cut into ribbons for quick cooking",
+    "Blanch briefly before adding to stir-fries"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "bell peppers",
+    "zucchini",
+    "chicken",
+    "ginger"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains folate",
+    "Rich in antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

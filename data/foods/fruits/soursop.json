@@ -1,0 +1,60 @@
+{
+  "id": "soursop",
+  "name": "Soursop",
+  "aliases": [
+    "Graviola",
+    "Guanábana",
+    "Custard apple"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/3 cup chopped",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "About 1/2 cup chopped",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Start with small portions due to excess fructose content. May cause digestive upset in sensitive individuals at larger servings.",
+  "preparationTips": [
+    "Choose ripe fruit with slightly soft flesh for easier digestion",
+    "Remove seeds and tough fibers thoroughly before eating",
+    "Pair with low FODMAP protein to slow fructose absorption",
+    "Consider blending into smoothies with lactose-free yogurt"
+  ],
+  "alternatives": [
+    "Kiwi fruit",
+    "Orange",
+    "Pineapple",
+    "Strawberries"
+  ],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Coconut milk",
+    "Lime juice",
+    "Ginger",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Vitamin B6",
+    "Potassium",
+    "Dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

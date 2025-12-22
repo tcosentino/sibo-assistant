@@ -1,0 +1,43 @@
+{
+  "id": "clementine",
+  "name": "Clementine",
+  "aliases": [
+    "Mandarin orange",
+    "Cuties",
+    "Halos"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 80,
+      "description": "About 1 medium clementine",
+      "cups": "1/2 cup segments"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO due to low FODMAP content and easy digestibility.",
+  "preparationTips": [
+    "Choose firm, heavy fruits with bright orange skin",
+    "Store at room temperature for best flavor or refrigerate for longer storage",
+    "Peel just before eating to preserve vitamin C content",
+    "Remove white pith if sensitive to fiber"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Almonds",
+    "Dark chocolate",
+    "Spinach salad",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of folate",
+    "Contains fiber",
+    "Provides potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

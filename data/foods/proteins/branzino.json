@@ -1,0 +1,43 @@
+{
+  "id": "branzino",
+  "name": "Branzino",
+  "aliases": [
+    "European sea bass",
+    "Mediterranean sea bass",
+    "Loup de mer"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "Plain fish is naturally FODMAP-free and well-tolerated in SIBO protocols. Avoid high-FODMAP seasonings or marinades.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or rosemary",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Grill, bake, or pan-sear with olive oil and lemon",
+    "Avoid breading with wheat flour; use rice flour if needed"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon wedges",
+    "Olive oil and herbs",
+    "Steamed carrots",
+    "Rice pilaf",
+    "Roasted zucchini"
+  ],
+  "nutritionalHighlights": [
+    "High-quality lean protein",
+    "Omega-3 fatty acids",
+    "Selenium and phosphorus",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

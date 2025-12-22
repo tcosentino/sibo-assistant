@@ -1,0 +1,43 @@
+{
+  "id": "pimiento",
+  "name": "Pimiento",
+  "aliases": [
+    "Pimento",
+    "Cherry pepper",
+    "Sweet cherry pepper"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 cup chopped",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated in SIBO diets due to low FODMAP content and mild nature. Safe for most sensitive digestive systems.",
+  "preparationTips": [
+    "Roast to enhance sweetness and reduce any potential digestive irritation",
+    "Remove seeds and membrane if experiencing sensitivity",
+    "Can be enjoyed raw in salads or cooked in dishes",
+    "Store in refrigerator and use within one week for best quality"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Cucumber",
+    "Lettuce",
+    "Tomato",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C for immune support",
+    "Good source of vitamin A for eye health",
+    "Contains antioxidants including capsanthin",
+    "Low in calories and naturally fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

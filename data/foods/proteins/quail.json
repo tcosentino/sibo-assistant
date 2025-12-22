@@ -1,0 +1,42 @@
+{
+  "id": "quail",
+  "name": "Quail",
+  "aliases": [
+    "Quail meat",
+    "Game bird"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 whole quail or 2-3 pieces",
+      "cups": "1 cup cooked"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it's naturally FODMAP-free and easily digestible when prepared simply.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Cook with garlic-infused oil instead of fresh garlic for flavor",
+    "Roast or grill for best digestibility",
+    "Remove skin if experiencing fat sensitivity during SIBO treatment"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Steamed green beans",
+    "Wild rice pilaf",
+    "Lemon and herb seasonings",
+    "Roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (22g per 100g)",
+    "Rich in iron and B-vitamins",
+    "Good source of phosphorus and selenium",
+    "Lower in fat than duck, higher in protein than chicken"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

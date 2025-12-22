@@ -1,0 +1,59 @@
+{
+  "id": "shallots",
+  "name": "Shallots",
+  "aliases": [
+    "French shallots",
+    "eschalots"
+  ],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "1 teaspoon minced",
+      "cups": "1 tsp"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "2 teaspoons minced",
+      "cups": "2 tsp"
+    },
+    "high": {
+      "grams": 15,
+      "description": "1 tablespoon minced or 1/4 small shallot",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "High fructan content makes shallots problematic for SIBO. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Use only the green tops if available - they're lower in fructans",
+    "Infuse oils with whole shallots then remove before serving",
+    "Start with tiny amounts (1 tsp) to test tolerance",
+    "Consider using shallot-infused garlic oil as alternative"
+  ],
+  "alternatives": [
+    "Chives or scallion greens",
+    "Garlic-infused oil",
+    "Asafoetida powder (tiny pinch)",
+    "Fennel bulb for mild onion-like flavor"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Fresh herbs like parsley",
+    "Grilled chicken",
+    "Root vegetables",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and flavonoids",
+    "Good source of vitamin A",
+    "Contains potassium",
+    "Provides small amounts of vitamin C"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

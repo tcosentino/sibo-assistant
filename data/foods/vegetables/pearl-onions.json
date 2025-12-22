@@ -1,0 +1,60 @@
+{
+  "id": "pearl-onions",
+  "name": "Pearl Onions",
+  "aliases": [
+    "Baby onions",
+    "Cocktail onions",
+    "Silverskin onions"
+  ],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "N/A"
+    },
+    "moderate": {
+      "grams": 15,
+      "description": "About 2-3 small pearl onions",
+      "cups": "1 tablespoon"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 4-6 small pearl onions",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Pearl onions are high in fructans and should be avoided during SIBO treatment phases. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "If tolerated in small amounts, use sparingly as garnish only",
+    "Remove before serving if used for flavoring during cooking",
+    "Blanch and peel by scoring an X on the root end",
+    "Consider infusing oil with pearl onions then discarding the onions"
+  ],
+  "alternatives": [
+    "Scallion greens (green parts only)",
+    "Chives",
+    "Garlic-infused oil",
+    "Asafoetida powder (pinch)"
+  ],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Beef stew",
+    "Potatoes",
+    "Fresh herbs",
+    "Red wine reductions"
+  ],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains antioxidant compounds",
+    "Low in calories",
+    "Provides small amounts of potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

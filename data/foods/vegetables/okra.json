@@ -1,0 +1,42 @@
+{
+  "id": "okra",
+  "name": "Okra",
+  "aliases": [
+    "Lady's finger",
+    "Gumbo"
+  ],
+  "category": "vegetable",
+  "subcategory": "pod-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 8-10 pods or 2/3 cup sliced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Okra is well-tolerated in SIBO as it's naturally FODMAP-free and provides soluble fiber that may support gut healing.",
+  "preparationTips": [
+    "Trim stems and tips before cooking to reduce sliminess",
+    "Cook at high heat or add acidic ingredients like lemon juice to minimize mucilage",
+    "Slice just before cooking to prevent excessive slime release",
+    "Works well grilled, roasted, or stir-fried for better texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Tomatoes",
+    "Bell peppers",
+    "Carrots",
+    "Chicken",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and folate",
+    "Good source of vitamin K",
+    "Contains antioxidants and fiber",
+    "Provides magnesium and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

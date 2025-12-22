@@ -1,0 +1,43 @@
+{
+  "id": "lamb-leg",
+  "name": "Lamb Leg",
+  "aliases": [
+    "Leg of lamb",
+    "Lamb roast",
+    "Boneless lamb leg"
+  ],
+  "category": "protein",
+  "subcategory": "lamb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked portion",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Plain lamb is protein-rich and FODMAP-free, making it excellent for SIBO diets. Avoid marinades containing garlic, onion, or high-FODMAP ingredients.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like rosemary, thyme, and oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Roast with low-FODMAP vegetables like carrots and potatoes",
+    "Let rest 10-15 minutes after cooking for optimal tenderness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Mashed potatoes",
+    "Green beans",
+    "Fresh mint",
+    "Red wine jus"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (25g per 100g)",
+    "Rich in iron and zinc",
+    "Good source of vitamin B12",
+    "Contains selenium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

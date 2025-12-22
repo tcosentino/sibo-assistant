@@ -1,0 +1,48 @@
+{
+  "id": "kelp",
+  "name": "Kelp",
+  "aliases": [
+    "Sea kelp",
+    "Brown seaweed",
+    "Kombu"
+  ],
+  "category": "vegetable",
+  "subcategory": "sea-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 2 tablespoons dried or 1/4 cup fresh",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's naturally low FODMAP. However, some individuals may be sensitive to the high iodine content.",
+  "preparationTips": [
+    "Rinse dried kelp before use to remove excess salt",
+    "Soak dried kelp for 10-15 minutes before cooking",
+    "Add to soups and broths for umami flavor",
+    "Use sparingly due to intense flavor and high iodine content"
+  ],
+  "alternatives": [
+    "Nori sheets",
+    "Dulse flakes",
+    "Wakame seaweed",
+    "Regular spinach or kale for similar mineral content"
+  ],
+  "pairsWellWith": [
+    "Miso soup (small amounts)",
+    "Rice dishes",
+    "Fish and seafood",
+    "Tofu",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "Very high in iodine for thyroid function",
+    "Rich in potassium and magnesium",
+    "Good source of folate and vitamin K",
+    "Contains antioxidants like fucoxanthin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

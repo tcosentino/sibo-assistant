@@ -1,0 +1,43 @@
+{
+  "id": "anaheim-pepper",
+  "name": "Anaheim Pepper",
+  "aliases": [
+    "New Mexico chile",
+    "Hatch chile",
+    "California chile"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1 medium pepper",
+      "cups": "1/2 cup chopped"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients. The mild heat may be gentler on sensitive digestive systems compared to hotter peppers.",
+  "preparationTips": [
+    "Remove skin by roasting and peeling for easier digestion",
+    "Start with smaller amounts if sensitive to peppers",
+    "Can be eaten raw, roasted, or cooked in dishes",
+    "Mild variety is better tolerated than hot peppers"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice dishes",
+    "Corn tortillas",
+    "Zucchini",
+    "Tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin A",
+    "Contains antioxidants",
+    "Low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cornish-hen",
+  "name": "Cornish Hen",
+  "aliases": [
+    "Rock Cornish Game Hen",
+    "Game Hen",
+    "Poussin"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked portion",
+      "cups": "1 cup diced"
+    }
+  },
+  "siboNotes": "Plain Cornish hen is naturally FODMAP-free and well-tolerated for SIBO. Avoid marinades or seasonings containing garlic, onion, or high-FODMAP ingredients.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Roast with low-FODMAP vegetables like carrots and parsnips",
+    "Remove skin if fat sensitivity is a concern for SIBO"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "roasted carrots",
+    "mashed potatoes",
+    "green beans",
+    "quinoa pilaf",
+    "lemon herb sauce"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in B vitamins, especially niacin and B6",
+    "Good source of phosphorus and selenium",
+    "Contains iron and zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

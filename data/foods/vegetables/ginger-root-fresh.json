@@ -1,0 +1,43 @@
+{
+  "id": "ginger-root-fresh",
+  "name": "Ginger Root (Fresh)",
+  "aliases": [
+    "Fresh Ginger",
+    "Ginger Rhizome",
+    "Raw Ginger"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 inch piece (2 tsp grated)",
+      "cups": "2 tsp grated"
+    }
+  },
+  "siboNotes": "Fresh ginger is naturally low FODMAP and may actually help reduce SIBO symptoms due to its prokinetic properties that support gut motility.",
+  "preparationTips": [
+    "Peel with a spoon edge to minimize waste",
+    "Grate fresh for maximum flavor release",
+    "Store peeled ginger in freezer for easy grating",
+    "Add at end of cooking to preserve beneficial compounds"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Garlic-infused oil",
+    "Fresh turmeric",
+    "Lemon juice",
+    "Low FODMAP vegetables in stir-fries",
+    "Green tea"
+  ],
+  "nutritionalHighlights": [
+    "Gingerols (anti-inflammatory compounds)",
+    "Digestive enzymes",
+    "Vitamin C",
+    "Natural prokinetic properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

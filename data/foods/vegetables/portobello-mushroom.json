@@ -1,0 +1,60 @@
+{
+  "id": "portobello-mushroom",
+  "name": "Portobello Mushroom",
+  "aliases": [
+    "Portabella Mushroom",
+    "Large Brown Mushroom",
+    "Mature Cremini"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 1 thin slice",
+      "cups": "1/8 cup diced"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 1/4 of a medium cap",
+      "cups": "1/3 cup diced"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 1/2 medium cap",
+      "cups": "2/3 cup diced"
+    }
+  },
+  "siboNotes": "High in mannitol which feeds bacterial overgrowth. Consider avoiding during SIBO treatment phases or limit to very small amounts.",
+  "preparationTips": [
+    "Remove dark gills to reduce bitterness",
+    "Brush clean rather than washing to prevent waterlogging",
+    "Grill or roast to concentrate flavors",
+    "Use as small flavor accent rather than main ingredient"
+  ],
+  "alternatives": [
+    "Oyster mushrooms (small amounts)",
+    "Bell peppers for meaty texture",
+    "Eggplant for umami",
+    "Zucchini for grilling"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Fresh herbs like thyme",
+    "Aged cheddar",
+    "Spinach",
+    "Tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Potassium for heart health",
+    "B vitamins for energy",
+    "Selenium antioxidant",
+    "Low calorie density"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

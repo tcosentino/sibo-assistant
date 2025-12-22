@@ -1,0 +1,43 @@
+{
+  "id": "beef-skirt-steak",
+  "name": "Beef Skirt Steak",
+  "aliases": [
+    "Skirt Steak",
+    "Fajita Meat",
+    "Philadelphia Steak"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "Plain beef is naturally FODMAP-free and well-tolerated on SIBO diets. Avoid marinades containing garlic, onion, or high-FODMAP ingredients.",
+  "preparationTips": [
+    "Marinate with low-FODMAP herbs like oregano, thyme, and chives",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Cook quickly over high heat for 2-3 minutes per side for optimal tenderness",
+    "Slice against the grain to reduce toughness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Zucchini",
+    "Spinach",
+    "Tomatoes",
+    "Lime juice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (about 26g per 100g)",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

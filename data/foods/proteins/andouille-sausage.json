@@ -1,0 +1,48 @@
+{
+  "id": "andouille-sausage",
+  "name": "Andouille Sausage",
+  "aliases": [
+    "Cajun sausage",
+    "Louisiana sausage",
+    "smoked andouille"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2-3 slices or 1 link",
+      "cups": "1/2 cup sliced"
+    }
+  },
+  "siboNotes": "Pure andouille sausage is typically low FODMAP, but check labels for garlic, onion powder, or high FODMAP fillers which are common in commercial varieties.",
+  "preparationTips": [
+    "Read ingredient labels carefully - avoid products with garlic or onion",
+    "Look for brands that use garlic-infused oil instead of garlic powder",
+    "Pan-fry or grill to render fat and enhance smoky flavor",
+    "Remove casings if sensitive to texture or additives"
+  ],
+  "alternatives": [
+    "Plain Italian sausage (check ingredients)",
+    "Chicken andouille sausage",
+    "Turkey sausage without garlic/onion",
+    "Homemade sausage with safe seasonings"
+  ],
+  "pairsWellWith": [
+    "White rice",
+    "Bell peppers",
+    "Tomatoes",
+    "Green beans",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (15-20g per serving)",
+    "Good source of B vitamins",
+    "Contains iron and zinc",
+    "Provides selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

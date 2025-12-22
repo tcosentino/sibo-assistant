@@ -1,0 +1,42 @@
+{
+  "id": "lychee",
+  "name": "Lychee",
+  "aliases": [
+    "Litchi",
+    "Lichi"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 5 fresh lychees (peeled)",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets due to low FODMAP content and natural antimicrobial properties.",
+  "preparationTips": [
+    "Remove the rough pink shell and white translucent flesh reveals easily",
+    "Remove the dark seed from center before eating",
+    "Choose fruits that give slightly to pressure but aren't mushy",
+    "Store ripe lychees in refrigerator for up to one week"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh mint leaves",
+    "Lime juice",
+    "Coconut (small amounts)",
+    "Strawberries",
+    "Kiwi fruit"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C (over 100% daily value per serving)",
+    "Good source of copper and potassium",
+    "Contains oligonol, a polyphenol with antioxidant properties",
+    "Low in calories (about 60 calories per 5 fruits)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

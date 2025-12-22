@@ -1,0 +1,43 @@
+{
+  "id": "beef-flank-steak",
+  "name": "Beef Flank Steak",
+  "aliases": [
+    "Flank Steak",
+    "London Broil",
+    "Jiffy Steak"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked portion",
+      "cups": "N/A - measured by weight"
+    }
+  },
+  "siboNotes": "Plain beef is SIBO-friendly as it contains no fermentable carbohydrates. Choose lean cuts and avoid marinades with garlic or onion.",
+  "preparationTips": [
+    "Marinate with FODMAP-friendly herbs like rosemary, thyme, and oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Slice against the grain after cooking for tenderness",
+    "Grill, broil, or pan-sear at high heat for best results"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled zucchini",
+    "Roasted carrots",
+    "Mixed greens salad",
+    "Quinoa",
+    "Roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (25-30g per serving)",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

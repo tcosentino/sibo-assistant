@@ -1,0 +1,43 @@
+{
+  "id": "mulberry",
+  "name": "Mulberry",
+  "aliases": [
+    "White mulberry",
+    "Red mulberry",
+    "Black mulberry"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Mulberries are well-tolerated on SIBO diets as they're low in fermentable carbohydrates and unlikely to feed bacterial overgrowth.",
+  "preparationTips": [
+    "Fresh mulberries are best consumed within 2-3 days of picking",
+    "Rinse gently just before eating to preserve delicate texture",
+    "Can be frozen for later use in smoothies or baking",
+    "Dried mulberries are more concentrated in sugars - use smaller portions"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Strawberries",
+    "Blueberries",
+    "Almonds",
+    "Spinach in smoothies"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Rich in anthocyanins and antioxidants",
+    "Good source of iron and potassium",
+    "Contains resveratrol with anti-inflammatory properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

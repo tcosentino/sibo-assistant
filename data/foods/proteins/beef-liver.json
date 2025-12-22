@@ -1,0 +1,47 @@
+{
+  "id": "beef-liver",
+  "name": "Beef Liver",
+  "aliases": [
+    "Calf liver",
+    "Liver"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked portion",
+      "cups": "1/2 cup sliced"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO diets as it's naturally FODMAP-free and provides essential nutrients often depleted during bacterial overgrowth.",
+  "preparationTips": [
+    "Soak in milk for 30 minutes before cooking to reduce strong flavor",
+    "Cook quickly over high heat to avoid tough texture",
+    "Season with low-FODMAP herbs like rosemary, thyme, or oregano",
+    "Pair with low-FODMAP vegetables for balanced nutrition"
+  ],
+  "alternatives": [
+    "Chicken liver",
+    "Beef heart",
+    "Regular beef cuts",
+    "Fish fillets"
+  ],
+  "pairsWellWith": [
+    "Spinach",
+    "Bell peppers",
+    "Carrots",
+    "Green beans",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin A (over 500% DV)",
+    "Excellent source of iron and B vitamins",
+    "High in folate and vitamin B12",
+    "Rich in CoQ10 and copper"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

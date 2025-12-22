@@ -1,0 +1,43 @@
+{
+  "id": "pork-chop",
+  "name": "Pork Chop",
+  "aliases": [
+    "Pork cutlet",
+    "Bone-in pork chop",
+    "Boneless pork chop"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium chop (5 oz)",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Plain pork chop is excellent for SIBO as it's naturally FODMAP-free and provides easily digestible protein. Avoid marinades or seasonings containing garlic or onion.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Marinate in low-FODMAP ingredients like lemon juice and olive oil",
+    "Cook thoroughly but avoid overcooking to maintain digestibility"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Mashed potatoes",
+    "Spinach salad",
+    "Rice pilaf"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (25-30g per serving)",
+    "Excellent source of B vitamins, especially B12 and thiamine",
+    "Rich in selenium and phosphorus",
+    "Good source of zinc and niacin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

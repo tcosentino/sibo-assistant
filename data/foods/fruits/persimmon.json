@@ -1,0 +1,42 @@
+{
+  "id": "persimmon",
+  "name": "Persimmon",
+  "aliases": [
+    "Sharon fruit",
+    "Kaki fruit"
+  ],
+  "category": "fruit",
+  "subcategory": "tree-fruit",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1 medium fruit",
+      "cups": "2/3 cup sliced"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diets due to low FODMAP content. The natural sugars are easily absorbed in the small intestine.",
+  "preparationTips": [
+    "Choose fully ripe persimmons for best digestibility and sweetness",
+    "Remove skin if experiencing any digestive sensitivity",
+    "Can be eaten fresh or dried in small portions",
+    "Pair with low-FODMAP nuts for balanced snacking"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Walnuts",
+    "Aged cheddar cheese",
+    "Spinach salad",
+    "Quinoa",
+    "Cinnamon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin A and beta-carotene",
+    "Good source of vitamin C",
+    "Contains fiber for digestive health",
+    "Provides antioxidants and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

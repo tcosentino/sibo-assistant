@@ -1,0 +1,42 @@
+{
+  "id": "lamb-shank",
+  "name": "Lamb Shank",
+  "aliases": [
+    "Lamb Leg Shank",
+    "Braising Lamb Shank"
+  ],
+  "category": "protein",
+  "subcategory": "lamb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium shank (5 oz)",
+      "cups": "n/a"
+    }
+  },
+  "siboNotes": "Plain lamb shank is FODMAP-free and well-tolerated. Avoid marinades containing garlic, onion, or high FODMAP ingredients.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, and oregano",
+    "Braise with low FODMAP vegetables like carrots, parsnips, and fennel",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Slow cook for best tenderness - lamb shanks benefit from long, moist cooking methods"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots and parsnips",
+    "Mashed potatoes with chives",
+    "Steamed green beans",
+    "Red wine reduction (check wine FODMAP status)",
+    "Fresh herbs like mint and parsley"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Rich in iron for oxygen transport",
+    "Good source of B vitamins, especially B12",
+    "Contains zinc for immune function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

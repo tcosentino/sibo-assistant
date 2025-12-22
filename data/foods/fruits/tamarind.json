@@ -1,0 +1,48 @@
+{
+  "id": "tamarind",
+  "name": "Tamarind",
+  "aliases": [
+    "Tamarind paste",
+    "Tamarind pulp",
+    "Indian date"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon paste",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Well tolerated in typical cooking amounts. The small serving sizes used in recipes are unlikely to trigger SIBO symptoms.",
+  "preparationTips": [
+    "Use tamarind paste or concentrate rather than whole pods for easier portion control",
+    "A little goes a long way - start with 1 teaspoon in dishes",
+    "Soak tamarind pulp in warm water and strain for homemade paste",
+    "Store opened tamarind paste in refrigerator for up to 6 months"
+  ],
+  "alternatives": [
+    "Lime juice for tartness",
+    "Rice vinegar for acidity",
+    "Pomegranate molasses",
+    "Lemon juice with brown sugar"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Cilantro",
+    "Fish sauce",
+    "Coconut milk",
+    "Rice noodles"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and polyphenols",
+    "Good source of potassium and magnesium",
+    "Contains vitamin C and B vitamins",
+    "Provides tartaric acid which may support digestion"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

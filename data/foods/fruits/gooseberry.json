@@ -1,0 +1,43 @@
+{
+  "id": "gooseberry",
+  "name": "Gooseberry",
+  "aliases": [
+    "Cape gooseberry",
+    "Chinese gooseberry",
+    "Physalis"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well tolerated in SIBO diets as it's naturally low FODMAP and doesn't contain fermentable carbohydrates that feed bacterial overgrowth.",
+  "preparationTips": [
+    "Remove papery husks from cape gooseberries before eating",
+    "Can be eaten fresh or cooked in jams and desserts",
+    "Store ripe berries in refrigerator for up to one week",
+    "Wash gently just before consuming to prevent premature spoilage"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Lactose-free yogurt",
+    "Maple syrup",
+    "Dark chocolate"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of vitamin A for eye health",
+    "Contains antioxidants and anti-inflammatory compounds",
+    "Provides dietary fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "goat",
+  "name": "Goat",
+  "aliases": [
+    "Goat meat",
+    "Chevon",
+    "Cabrito"
+  ],
+  "category": "protein",
+  "subcategory": "meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz portion",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "Plain goat meat is naturally FODMAP-free and well-tolerated. Avoid marinades containing high FODMAP ingredients like garlic or onion.",
+  "preparationTips": [
+    "Use FODMAP-friendly herbs like oregano, thyme, and rosemary for flavoring",
+    "Marinate with garlic-infused oil instead of fresh garlic",
+    "Cook with ginger, cumin, or paprika for added flavor without FODMAPs",
+    "Pair with low FODMAP vegetables for balanced meals"
+  ],
+  "alternatives": [
+    "Chicken",
+    "Turkey",
+    "Beef",
+    "Lamb"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Zucchini",
+    "Bell peppers",
+    "Spinach",
+    "Brown rice"
+  ],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Rich in iron",
+    "Good source of vitamin B12",
+    "Contains zinc and selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

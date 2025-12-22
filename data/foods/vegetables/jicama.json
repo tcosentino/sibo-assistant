@@ -1,0 +1,43 @@
+{
+  "id": "jicama",
+  "name": "Jicama",
+  "aliases": [
+    "Mexican turnip",
+    "Mexican yam bean",
+    "Chinese turnip"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup diced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diet due to low fermentable carbohydrate content. Provides beneficial fiber without triggering bacterial overgrowth.",
+  "preparationTips": [
+    "Peel thick skin completely before eating - only the white flesh is edible",
+    "Can be eaten raw for maximum crunch or lightly cooked",
+    "Store whole jicama at room temperature, cut pieces in refrigerator",
+    "Add lemon juice to prevent browning when cut"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lime juice",
+    "Carrots",
+    "Bell peppers",
+    "Cucumber",
+    "Cilantro"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of fiber",
+    "Low in calories",
+    "Contains potassium and folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

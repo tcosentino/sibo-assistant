@@ -1,0 +1,60 @@
+{
+  "id": "dried-cranberries",
+  "name": "Dried Cranberries",
+  "aliases": [
+    "Craisins",
+    "Dried Craisins",
+    "Sweetened Dried Cranberries"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 20,
+      "description": "About 1.5 tablespoons",
+      "cups": "1.5 tablespoons"
+    },
+    "high": {
+      "grams": 40,
+      "description": "About 3 tablespoons or 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "The concentrated fructose and added sugars in dried cranberries can feed bacterial overgrowth. Stick to very small portions and consider fresh cranberries when possible.",
+  "preparationTips": [
+    "Look for varieties with no added sugar or juice concentrates",
+    "Rinse briefly to remove excess surface sugar if needed",
+    "Use sparingly as a garnish rather than eating by the handful",
+    "Mix with low-FODMAP nuts or seeds to slow sugar absorption"
+  ],
+  "alternatives": [
+    "Fresh cranberries",
+    "Dried strawberries (small amounts)",
+    "Freeze-dried strawberries",
+    "Fresh blueberries"
+  ],
+  "pairsWellWith": [
+    "Walnuts",
+    "Almonds",
+    "Spinach salad",
+    "Quinoa",
+    "Aged cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Antioxidants (anthocyanins)",
+    "Fiber",
+    "Vitamin E"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}
