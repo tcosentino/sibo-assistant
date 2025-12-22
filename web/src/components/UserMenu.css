@@ -97,9 +97,10 @@
   top: 100%;
   right: 0;
   margin-top: 0.5rem;
-  min-width: 200px;
+  min-width: 280px;
+  max-width: 320px;
   background: white;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   z-index: 50;
   overflow: hidden;
@@ -151,6 +152,73 @@
 
 .user-menu__item--logout:hover {
   background: #fef2f2;
+}
+
+/* Memory section */
+.user-menu__memory {
+  padding: 0.75rem 1rem;
+}
+
+.user-menu__memory-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.user-menu__memory-icon {
+  font-size: 1rem;
+}
+
+.user-menu__memory-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-menu__memory-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.user-menu__memory-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.user-menu__memory-label--good {
+  color: #059669;
+}
+
+.user-menu__memory-label--warning {
+  color: #d97706;
+}
+
+.user-menu__memory-items {
+  font-size: 0.8rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.user-menu__memory-sync {
+  font-size: 0.7rem;
+  color: #6366f1;
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #e5e7eb;
+}
+
+.user-menu__memory-empty {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  font-style: italic;
+  line-height: 1.4;
 }
 
 /* Responsive adjustments */

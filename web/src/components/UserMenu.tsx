@@ -1,12 +1,75 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { GoogleLogin, type CredentialResponse } from '@react-oauth/google';
 import { useAuth } from '../contexts/AuthContext';
 import './UserMenu.css';
+
+const PREFERENCES_KEY = 'sibo-assistant-preferences';
+
+interface UserPreferences {
+  tolerances: {
+    foods: string[];
+    fodmapTypes: string[];
+    categories: string[];
+  };
+  sensitivities: {
+    foods: string[];
+    fodmapTypes: string[];
+    categories: string[];
+  };
+}
+
+const FODMAP_NAMES: Record<string, string> = {
+  fructose: 'Fructose',
+  lactose: 'Lactose',
+  fructans: 'Fructans',
+  galactans: 'Galactans',
+  'polyols-sorbitol': 'Sorbitol',
+  'polyols-mannitol': 'Mannitol',
+};
 
 export function UserMenu() {
   const { user, isAuthenticated, isLoading, login, logout } = useAuth();
   const [showDropdown, setShowDropdown] = useState(false);
   const [loginError, setLoginError] = useState<string | null>(null);
+  const [preferences, setPreferences] = useState<UserPreferences | null>(null);
+
+  // Load preferences from localStorage
+  useEffect(() => {
+    const loadPreferences = () => {
+      try {
+        const saved = localStorage.getItem(PREFERENCES_KEY);
+        if (saved) {
+          setPreferences(JSON.parse(saved));
+        }
+      } catch {
+        // Ignore parse errors
+      }
+    };
+
+    loadPreferences();
+    // Listen for storage changes (when preferences update in ChatWindow)
+    window.addEventListener('storage', loadPreferences);
+    // Also check periodically for same-tab updates
+    const interval = setInterval(loadPreferences, 1000);
+
+    return () => {
+      window.removeEventListener('storage', loadPreferences);
+      clearInterval(interval);
+    };
+  }, []);
+
+  const hasPreferences = preferences && (
+    preferences.tolerances.foods.length > 0 ||
+    preferences.tolerances.fodmapTypes.length > 0 ||
+    preferences.tolerances.categories.length > 0 ||
+    preferences.sensitivities.foods.length > 0 ||
+    preferences.sensitivities.fodmapTypes.length > 0 ||
+    preferences.sensitivities.categories.length > 0
+  );
+
+  const formatItems = (items: string[], type: 'fodmap' | 'other' = 'other') => {
+    return items.map(item => type === 'fodmap' ? (FODMAP_NAMES[item] || item) : item);
+  };
 
   const handleGoogleSuccess = async (response: CredentialResponse) => {
     setLoginError(null);
@@ -83,7 +146,66 @@ export function UserMenu() {
               <strong>{user?.name}</strong>
               <span>{user?.email}</span>
             </div>
+
             <hr className="user-menu__divider" />
+
+            <div className="user-menu__memory">
+              <div className="user-menu__memory-header">
+                <span className="user-menu__memory-icon">🧠</span>
+                <span>My Memory</span>
+              </div>
+
+              {hasPreferences ? (
+                <div className="user-menu__memory-content">
+                  {(preferences.tolerances.foods.length > 0 ||
+                    preferences.tolerances.fodmapTypes.length > 0 ||
+                    preferences.tolerances.categories.length > 0) && (
+                    <div className="user-menu__memory-section">
+                      <span className="user-menu__memory-label user-menu__memory-label--good">
+                        ✓ I tolerate:
+                      </span>
+                      <span className="user-menu__memory-items">
+                        {[
+                          ...formatItems(preferences.tolerances.foods),
+                          ...formatItems(preferences.tolerances.fodmapTypes, 'fodmap'),
+                          ...preferences.tolerances.categories,
+                        ].join(', ')}
+                      </span>
+                    </div>
+                  )}
+
+                  {(preferences.sensitivities.foods.length > 0 ||
+                    preferences.sensitivities.fodmapTypes.length > 0 ||
+                    preferences.sensitivities.categories.length > 0) && (
+                    <div className="user-menu__memory-section">
+                      <span className="user-menu__memory-label user-menu__memory-label--warning">
+                        ⚠ Sensitive to:
+                      </span>
+                      <span className="user-menu__memory-items">
+                        {[
+                          ...formatItems(preferences.sensitivities.foods),
+                          ...formatItems(preferences.sensitivities.fodmapTypes, 'fodmap'),
+                          ...preferences.sensitivities.categories,
+                        ].join(', ')}
+                      </span>
+                    </div>
+                  )}
+
+                  {isAuthenticated && (
+                    <div className="user-menu__memory-sync">
+                      ☁️ Synced across devices
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div className="user-menu__memory-empty">
+                  No preferences saved yet. Tell the assistant about your tolerances!
+                </div>
+              )}
+            </div>
+
+            <hr className="user-menu__divider" />
+
             <button
               className="user-menu__item user-menu__item--logout"
               onClick={() => {
