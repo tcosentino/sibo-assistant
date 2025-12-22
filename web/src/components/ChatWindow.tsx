@@ -28,7 +28,8 @@ interface ChatWindowProps {
 }
 
 const PREFERENCES_KEY = 'sibo-assistant-preferences';
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+// Use relative path in production (same origin), localhost for development
+const API_URL = import.meta.env.VITE_API_URL ?? (import.meta.env.DEV ? 'http://localhost:3001' : '');
 
 const DEFAULT_PREFERENCES: UserPreferences = {
   tolerances: { foods: [], fodmapTypes: [], categories: [] },

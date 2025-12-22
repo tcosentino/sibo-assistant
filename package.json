@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "description": "SIBO Food Guide - Monorepo root",
   "scripts": {
-    "install": "cd web && npm install",
-    "build": "cd web && npm run build",
-    "dev": "cd web && npm run dev",
-    "postbuild": "cp -r web/dist ."
+    "install": "cd web && npm install && cd ../server && npm install",
+    "build": "cd web && npm run build && cd ../server && npm run build",
+    "postbuild": "cp -r web/dist server/dist/public",
+    "start": "cd server && npm start",
+    "dev": "cd web && npm run dev"
   }
 }
