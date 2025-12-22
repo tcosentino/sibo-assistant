@@ -2,7 +2,19 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ChatWindow } from './ChatWindow';
+import { AuthProvider } from '../contexts/AuthContext';
 import type { Food } from '../types/food';
+import type { ReactNode } from 'react';
+
+// Wrapper component that provides auth context
+const TestWrapper = ({ children }: { children: ReactNode }) => (
+  <AuthProvider>{children}</AuthProvider>
+);
+
+// Helper function to render with providers
+const renderWithProviders = (ui: React.ReactElement) => {
+  return render(ui, { wrapper: TestWrapper });
+};
 
 // Mock localStorage
 const mockLocalStorage = {
@@ -72,14 +84,14 @@ describe('ChatWindow', () => {
 
   describe('Rendering', () => {
     it('should render toggle button when closed', () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       expect(toggleButton).toBeInTheDocument();
     });
 
     it('should open chat window when toggle is clicked', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -89,7 +101,7 @@ describe('ChatWindow', () => {
     });
 
     it('should close chat window when toggle is clicked while open', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       // Open
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
@@ -103,7 +115,7 @@ describe('ChatWindow', () => {
     });
 
     it('should show welcome message when opened', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -114,7 +126,7 @@ describe('ChatWindow', () => {
 
   describe('Message Input', () => {
     it('should have disabled send button when input is empty', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -124,7 +136,7 @@ describe('ChatWindow', () => {
     });
 
     it('should enable send button when input has text', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -144,7 +156,7 @@ describe('ChatWindow', () => {
     });
 
     it('should respond about low FODMAP foods', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -159,7 +171,7 @@ describe('ChatWindow', () => {
     });
 
     it('should respond about high FODMAP foods', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -174,7 +186,7 @@ describe('ChatWindow', () => {
     });
 
     it('should respond when food is not found in database', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -195,7 +207,7 @@ describe('ChatWindow', () => {
     });
 
     it('should not show preferences button when no preferences saved', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -205,7 +217,7 @@ describe('ChatWindow', () => {
     });
 
     it('should save preferences to localStorage', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -215,7 +227,7 @@ describe('ChatWindow', () => {
     });
 
     it('should show preferences summary when asked', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -240,7 +252,7 @@ describe('ChatWindow', () => {
         }),
       });
 
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -267,7 +279,7 @@ describe('ChatWindow', () => {
     it('should fall back to local when API fails', async () => {
       (global.fetch as ReturnType<typeof vi.fn>).mockRejectedValueOnce(new Error('Network error'));
 
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -290,7 +302,7 @@ describe('ChatWindow', () => {
 
   describe('Image Upload', () => {
     it('should have upload button', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -302,7 +314,7 @@ describe('ChatWindow', () => {
     it('should show offline message when trying to analyze image without API', async () => {
       (global.fetch as ReturnType<typeof vi.fn>).mockRejectedValueOnce(new Error('API unavailable'));
 
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -325,7 +337,7 @@ describe('ChatWindow', () => {
     });
 
     it('should call onFoodClick when clicking a food link', async () => {
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -362,7 +374,7 @@ describe('ChatWindow', () => {
         }), 1000))
       );
 
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);
@@ -383,7 +395,7 @@ describe('ChatWindow', () => {
         }), 1000))
       );
 
-      render(<ChatWindow onFoodClick={mockOnFoodClick} />);
+      renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       const toggleButton = screen.getByRole('button', { name: /ask about food/i });
       await userEvent.click(toggleButton);

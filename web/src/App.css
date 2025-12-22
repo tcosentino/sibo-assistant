@@ -5,21 +5,29 @@
 }
 
 .app__header {
-  padding: 24px 16px 16px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 16px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+}
+
+.app__header-content {
+  text-align: left;
 }
 
 .app__title {
   margin: 0;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: #1f2937;
+  color: white;
 }
 
 .app__subtitle {
-  margin: 8px 0 0;
-  font-size: 0.95rem;
-  color: #6b7280;
+  margin: 4px 0 0;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .app__controls {

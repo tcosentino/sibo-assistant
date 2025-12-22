@@ -6,6 +6,7 @@ import { FilterTabs, type FilterOption } from './components/FilterTabs';
 import { FoodCard } from './components/FoodCard';
 import { FoodDetail } from './components/FoodDetail';
 import { ChatWindow } from './components/ChatWindow';
+import { UserMenu } from './components/UserMenu';
 import './App.css';
 
 type CategoryFilter = 'all' | FoodCategory;
@@ -91,10 +92,13 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">SIBO Food Guide</h1>
-        <p className="app__subtitle">
-          Find what's safe to eat during your SIBO journey
-        </p>
+        <div className="app__header-content">
+          <h1 className="app__title">SIBO Food Guide</h1>
+          <p className="app__subtitle">
+            Find what's safe to eat during your SIBO journey
+          </p>
+        </div>
+        <UserMenu />
       </header>
 
       <div className="app__controls">
