@@ -272,7 +272,9 @@ describe('ChatWindow', () => {
       });
 
       await waitFor(() => {
-        expect(screen.getByText('Carrot is safe!')).toBeInTheDocument();
+        // Text is split because "Carrot" is now a clickable link
+        expect(screen.getByText(/is safe!/)).toBeInTheDocument();
+        expect(screen.getByText('Carrot')).toBeInTheDocument();
       });
     });
 
