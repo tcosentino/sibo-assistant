@@ -1,0 +1,48 @@
+{
+  "id": "key-lime",
+  "name": "Key Lime",
+  "aliases": [
+    "Mexican lime",
+    "West Indian lime",
+    "bartender's lime"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1 medium key lime",
+      "cups": "2 tablespoons juice"
+    }
+  },
+  "siboNotes": "Key limes are well-tolerated on SIBO diets as citrus fruits are naturally low in fermentable carbohydrates and provide beneficial vitamin C.",
+  "preparationTips": [
+    "Roll lime on counter before juicing to release more juice",
+    "Use zest sparingly as it's more concentrated in flavor",
+    "Fresh juice is best - avoid bottled versions with additives",
+    "Store at room temperature for softer texture and easier juicing"
+  ],
+  "alternatives": [
+    "Regular lime",
+    "Lemon",
+    "Orange juice",
+    "Grapefruit"
+  ],
+  "pairsWellWith": [
+    "Fresh ginger",
+    "Mint leaves",
+    "Coconut",
+    "Fish and seafood",
+    "Chicken"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains citric acid for flavor",
+    "Low in calories",
+    "Provides small amounts of folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

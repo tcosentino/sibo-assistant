@@ -1,0 +1,47 @@
+{
+  "id": "leeks-green-part-only",
+  "name": "Leeks (Green Part Only)",
+  "aliases": [
+    "leek greens",
+    "leek tops",
+    "green leek leaves"
+  ],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 54,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Green parts of leeks are well-tolerated and provide fiber without FODMAPs. Safe for most SIBO protocols.",
+  "preparationTips": [
+    "Use only the dark green leafy portions, avoiding white and light green parts",
+    "Wash thoroughly between layers to remove dirt and sand",
+    "Can be used raw in salads or cooked in soups and stir-fries",
+    "Freeze chopped green parts for easy addition to broths"
+  ],
+  "alternatives": [
+    "Chives",
+    "Green onion tops (green part only)",
+    "Scallion greens"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Potatoes",
+    "Chicken broth",
+    "Olive oil",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin K for bone health",
+    "Vitamin A for eye health",
+    "Folate for cell function",
+    "Antioxidants including kaempferol"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

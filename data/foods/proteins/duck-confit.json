@@ -1,0 +1,42 @@
+{
+  "id": "duck-confit",
+  "name": "Duck Confit",
+  "aliases": [
+    "Confit de Canard",
+    "Preserved Duck"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 duck leg portion",
+      "cups": "3/4 cup shredded"
+    }
+  },
+  "siboNotes": "Pure duck confit is naturally FODMAP-free and suitable for SIBO diets. Watch for added seasonings or marinades that may contain garlic or onion.",
+  "preparationTips": [
+    "Check ingredient labels for garlic or onion powder in commercial versions",
+    "Traditional confit uses only duck, salt, and duck fat which are all low FODMAP",
+    "Homemade versions allow complete control over FODMAP-friendly seasonings",
+    "Crisp the skin under broiler for added texture without FODMAPs"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Baby spinach salad",
+    "Parsnip puree",
+    "Red wine reduction"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Rich in iron and zinc",
+    "Contains B vitamins, especially B12",
+    "Source of selenium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "brussels-sprouts",
+  "name": "Brussels Sprouts",
+  "aliases": [
+    "Brussels Cabbage",
+    "Baby Cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 78,
+      "description": "About 5 medium sprouts or 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO diets. The fiber content may cause gas in sensitive individuals, so introduce gradually.",
+  "preparationTips": [
+    "Remove outer leaves and trim the stem end before cooking",
+    "Cut larger sprouts in half for even cooking",
+    "Roasting at high heat (400°F) caramelizes edges and reduces bitterness",
+    "Steam for 6-8 minutes or roast for 20-25 minutes until tender"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bacon or pancetta",
+    "Balsamic vinegar",
+    "Parmesan cheese",
+    "Walnuts or pine nuts",
+    "Garlic-infused oil"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin K for bone health",
+    "High in vitamin C for immune support",
+    "Good source of folate and fiber",
+    "Contains antioxidants and anti-inflammatory compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

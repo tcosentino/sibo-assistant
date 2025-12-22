@@ -1,0 +1,60 @@
+{
+  "id": "maitake-mushroom",
+  "name": "Maitake Mushroom",
+  "aliases": [
+    "Hen of the Woods",
+    "Dancing Mushroom",
+    "Grifola frondosa"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup sliced",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1 cup sliced",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Like most mushrooms, maitake contains mannitol which can trigger SIBO symptoms. Start with small portions and monitor tolerance.",
+  "preparationTips": [
+    "Sauté in garlic-infused oil instead of fresh garlic",
+    "Cook thoroughly to improve digestibility",
+    "Start with smaller portions to test tolerance",
+    "Pair with low-FODMAP herbs like basil or oregano for flavor"
+  ],
+  "alternatives": [
+    "oyster mushrooms (small portions)",
+    "shiitake mushrooms (small portions)",
+    "zucchini",
+    "eggplant"
+  ],
+  "pairsWellWith": [
+    "chicken breast",
+    "firm tofu",
+    "brown rice",
+    "spinach",
+    "carrots"
+  ],
+  "nutritionalHighlights": [
+    "high in potassium",
+    "good source of B vitamins",
+    "contains beta-glucans",
+    "low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

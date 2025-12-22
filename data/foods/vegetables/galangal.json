@@ -1,0 +1,44 @@
+{
+  "id": "galangal",
+  "name": "Galangal",
+  "aliases": [
+    "Thai ginger",
+    "Blue ginger",
+    "Greater galangal",
+    "Laos root"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 1 tablespoon fresh grated or sliced",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Galangal is well-tolerated in typical culinary amounts and may have anti-inflammatory properties that could benefit digestive health.",
+  "preparationTips": [
+    "Use fresh galangal sparingly - a little goes a long way for flavor",
+    "Peel and grate or slice thinly for cooking, or pound in a mortar and pestle",
+    "Can be frozen whole and grated directly from frozen",
+    "Dried galangal powder is more concentrated - use even smaller amounts"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "ginger",
+    "lemongrass",
+    "lime leaves",
+    "coconut milk",
+    "fish sauce"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and anti-inflammatory compounds",
+    "Contains galangin, a flavonoid with potential health benefits",
+    "Good source of vitamin C and iron",
+    "May have antimicrobial properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

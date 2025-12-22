@@ -1,0 +1,44 @@
+{
+  "id": "nori-seaweed",
+  "name": "Nori (Seaweed)",
+  "aliases": [
+    "dried seaweed",
+    "laver",
+    "sea vegetable",
+    "sushi nori"
+  ],
+  "category": "vegetable",
+  "subcategory": "sea-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 2-3 sheets",
+      "cups": "2-3 sheets"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low FODMAP and may provide beneficial minerals. Start with small amounts as some people are sensitive to high iodine content.",
+  "preparationTips": [
+    "Use as sushi wrapper or crumble over rice dishes",
+    "Toast lightly for enhanced flavor and crispness",
+    "Store in airtight container to maintain crispness",
+    "Rinse briefly if very salty varieties are used"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "sushi rice",
+    "cucumber",
+    "carrots",
+    "salmon",
+    "tuna"
+  ],
+  "nutritionalHighlights": [
+    "high in iodine",
+    "good source of vitamin B12",
+    "contains omega-3 fatty acids",
+    "rich in minerals like iron and calcium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

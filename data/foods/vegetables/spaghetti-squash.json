@@ -1,0 +1,42 @@
+{
+  "id": "spaghetti-squash",
+  "name": "Spaghetti Squash",
+  "aliases": [
+    "Vegetable Spaghetti",
+    "Noodle Squash"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Excellent choice for SIBO patients as it's naturally FODMAP-free and provides fiber without triggering symptoms.",
+  "preparationTips": [
+    "Cut in half lengthwise and roast cut-side down at 400°F for 35-45 minutes",
+    "Scrape flesh with fork to create spaghetti-like strands",
+    "Can be steamed, microwaved, or slow-cooked as alternatives to roasting",
+    "Season after cooking to avoid burning spices during roasting"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "olive oil",
+    "garlic-infused oil",
+    "parmesan cheese",
+    "fresh basil",
+    "cherry tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and beta-carotene",
+    "Good source of potassium",
+    "Low in calories (about 40 per cup)",
+    "Provides fiber and folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

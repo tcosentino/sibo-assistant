@@ -1,0 +1,43 @@
+{
+  "id": "elderberry",
+  "name": "Elderberry",
+  "aliases": [
+    "Elder berries",
+    "Sambucus berries",
+    "Black elderberry"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/2 cup fresh berries",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients due to low FODMAP content, but consume in moderation as with all fruits during active symptoms.",
+  "preparationTips": [
+    "Cook elderberries before eating - raw berries can cause digestive upset",
+    "Remove stems and leaves completely as they contain toxic compounds",
+    "Use in jams, syrups, or baked goods for better digestibility",
+    "Strain cooked elderberries to remove seeds if sensitive to fiber"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Blueberries",
+    "Strawberries",
+    "Lemon juice",
+    "Ginger",
+    "Cinnamon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Rich in anthocyanins and antioxidants",
+    "Good source of fiber",
+    "Contains immune-supporting compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

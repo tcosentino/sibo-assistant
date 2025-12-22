@@ -1,0 +1,42 @@
+{
+  "id": "collard-greens",
+  "name": "Collard Greens",
+  "aliases": [
+    "Collards",
+    "Tree Cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 cup chopped raw or 1/2 cup cooked",
+      "cups": "1 cup raw"
+    }
+  },
+  "siboNotes": "Excellent choice for SIBO diets as they're naturally FODMAP-free and provide fiber that's generally well-tolerated. Cook thoroughly to improve digestibility.",
+  "preparationTips": [
+    "Remove tough stems and ribs before cooking",
+    "Blanch in boiling water for 2-3 minutes to reduce bitterness",
+    "Sauté with garlic-infused oil instead of fresh garlic",
+    "Add a splash of low-FODMAP vinegar to enhance flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bacon or pancetta",
+    "Lemon juice and zest",
+    "Red pepper flakes",
+    "Parmesan cheese",
+    "Chicken broth"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin K for bone health",
+    "High in vitamin C and folate",
+    "Rich in antioxidants like beta-carotene",
+    "Good source of calcium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

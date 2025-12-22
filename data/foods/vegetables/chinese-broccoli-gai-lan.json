@@ -1,0 +1,43 @@
+{
+  "id": "chinese-broccoli-gai-lan",
+  "name": "Chinese Broccoli (Gai Lan)",
+  "aliases": [
+    "Gai Lan",
+    "Chinese Kale",
+    "Kai-lan"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 90,
+      "description": "About 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients as it's low FODMAP and easy to digest when cooked. Steaming or stir-frying may be gentler than raw consumption.",
+  "preparationTips": [
+    "Trim and discard thick stem ends, but tender stems are edible",
+    "Blanch briefly in boiling water for 2-3 minutes to reduce bitterness",
+    "Stir-fry with garlic-infused oil instead of fresh garlic",
+    "Cook until bright green and tender-crisp for best digestibility"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "jasmine rice",
+    "sesame oil",
+    "fresh ginger",
+    "carrots",
+    "bok choy"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains folate",
+    "Provides calcium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

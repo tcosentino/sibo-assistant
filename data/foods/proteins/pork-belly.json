@@ -1,0 +1,42 @@
+{
+  "id": "pork-belly",
+  "name": "Pork Belly",
+  "aliases": [
+    "Fresh pork belly",
+    "Uncured pork belly"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Plain pork belly is FODMAP-free and generally well-tolerated on SIBO diets. Choose fresh cuts without added marinades or seasonings that may contain FODMAPs.",
+  "preparationTips": [
+    "Avoid marinades containing garlic, onion, or high-FODMAP ingredients",
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Cook methods like roasting, braising, or slow cooking work well",
+    "Score the skin in a crosshatch pattern for better rendering if keeping skin on"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Sautéed spinach",
+    "Mashed potatoes",
+    "Green beans",
+    "Bok choy"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Rich in B vitamins, especially B1 and B6",
+    "Good source of zinc and selenium",
+    "Contains healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

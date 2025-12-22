@@ -1,0 +1,43 @@
+{
+  "id": "mustard-greens",
+  "name": "Mustard Greens",
+  "aliases": [
+    "Brassica juncea",
+    "Indian mustard",
+    "Chinese mustard greens"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 cup chopped raw or 1/2 cup cooked",
+      "cups": "1 cup raw"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as a low FODMAP leafy green. Cook thoroughly if experiencing sensitivity to raw cruciferous vegetables.",
+  "preparationTips": [
+    "Remove thick stems before cooking as they can be tough and fibrous",
+    "Sauté with garlic-infused oil instead of fresh garlic for FODMAP-friendly flavor",
+    "Blanch briefly in boiling water to reduce bitterness if desired",
+    "Add to soups and stews in the last few minutes of cooking to preserve nutrients"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "chicken breast",
+    "salmon",
+    "quinoa",
+    "carrots",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin K",
+    "Rich in vitamin A",
+    "Good source of folate",
+    "Contains antioxidants like beta-carotene"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

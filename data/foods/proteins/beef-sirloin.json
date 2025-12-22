@@ -1,0 +1,43 @@
+{
+  "id": "beef-sirloin",
+  "name": "Beef Sirloin",
+  "aliases": [
+    "sirloin steak",
+    "top sirloin",
+    "bottom sirloin"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked serving",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Plain beef sirloin is excellent for SIBO as it's naturally FODMAP-free and provides high-quality protein without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like oregano, thyme, or rosemary",
+    "Avoid marinades containing garlic or onion - use garlic-infused oil instead",
+    "Grill, broil, or pan-sear for best flavor without adding FODMAPs",
+    "Let meat rest 5-10 minutes after cooking for optimal tenderness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "roasted carrots",
+    "green beans",
+    "spinach salad",
+    "quinoa",
+    "roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (25-30g per serving)",
+    "Rich in iron and zinc",
+    "Good source of B-vitamins, especially B12",
+    "Contains creatine for muscle function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

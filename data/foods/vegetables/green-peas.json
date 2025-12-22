@@ -1,0 +1,61 @@
+{
+  "id": "green-peas",
+  "name": "Green Peas",
+  "aliases": [
+    "garden peas",
+    "sweet peas",
+    "snap peas",
+    "fresh peas"
+  ],
+  "category": "vegetable",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 130,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Start with small portions (1/4 cup) as GOS can ferment in the small intestine. Cooking may help reduce some galactans.",
+  "preparationTips": [
+    "Start with frozen peas which may be easier to digest than fresh",
+    "Cook thoroughly to break down some of the galactans",
+    "Combine with low-FODMAP herbs like chives or parsley for flavor",
+    "Consider removing from pods and discarding shells which contain more FODMAPs"
+  ],
+  "alternatives": [
+    "Green beans (low FODMAP up to 135g)",
+    "Sugar snap pea pods (low FODMAP up to 65g)",
+    "Carrot rounds",
+    "Zucchini pieces"
+  ],
+  "pairsWellWith": [
+    "Basmati rice",
+    "Grilled chicken",
+    "Fresh mint",
+    "Lemon juice",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Excellent source of vitamin K",
+    "Good source of folate and vitamin C",
+    "Rich in fiber and antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cremini-mushroom",
+  "name": "Cremini Mushroom",
+  "aliases": [
+    "Baby Bella Mushroom",
+    "Brown Mushroom",
+    "Swiss Brown Mushroom"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2/3 cup sliced",
+      "cups": "2/3 cup"
+    },
+    "moderate": {
+      "grams": 150,
+      "description": "About 1.5 cups sliced",
+      "cups": "1.5 cups"
+    },
+    "high": {
+      "grams": 250,
+      "description": "About 2.5 cups sliced",
+      "cups": "2.5 cups"
+    }
+  },
+  "siboNotes": "Start with small portions as mushrooms contain mannitol which can trigger SIBO symptoms. Monitor tolerance and increase gradually if well-tolerated.",
+  "preparationTips": [
+    "Sauté with garlic-infused oil instead of fresh garlic",
+    "Remove stems if texture-sensitive",
+    "Cook thoroughly to improve digestibility",
+    "Start with smaller portions to test tolerance"
+  ],
+  "alternatives": [
+    "Zucchini slices",
+    "Eggplant cubes",
+    "Red bell pepper strips",
+    "Bok choy"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Spinach",
+    "Bell peppers",
+    "Chicken breast",
+    "Firm tofu"
+  ],
+  "nutritionalHighlights": [
+    "B vitamins (riboflavin, niacin)",
+    "Selenium",
+    "Potassium",
+    "Antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

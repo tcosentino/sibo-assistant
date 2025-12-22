@@ -1,0 +1,43 @@
+{
+  "id": "rutabaga",
+  "name": "Rutabaga",
+  "aliases": [
+    "Swede",
+    "Swedish turnip",
+    "Neep"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup diced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated root vegetable that's naturally FODMAP-free and gentle on sensitive digestive systems.",
+  "preparationTips": [
+    "Peel thick skin with a sharp knife before cooking",
+    "Cut into uniform pieces for even cooking",
+    "Roast at 400°F for 25-30 minutes until tender",
+    "Can be mashed like potatoes for a lower-carb alternative"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Parsnips",
+    "Chicken",
+    "Beef",
+    "Fresh herbs like thyme"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of potassium",
+    "Contains fiber for digestive health",
+    "Low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

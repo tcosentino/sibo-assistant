@@ -1,0 +1,42 @@
+{
+  "id": "blackberry",
+  "name": "Blackberry",
+  "aliases": [
+    "blackberries",
+    "brambleberries"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Low FODMAP berry that's well-tolerated in SIBO diets. High fiber content may cause digestive discomfort in sensitive individuals.",
+  "preparationTips": [
+    "Rinse gently just before eating to preserve freshness",
+    "Remove any stems or leaves before consuming",
+    "Can be eaten fresh, frozen, or cooked without affecting FODMAP content",
+    "Store in refrigerator and use within 2-3 days for best quality"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lactose-free yogurt",
+    "oats",
+    "almonds",
+    "maple syrup",
+    "vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of dietary fiber",
+    "Contains vitamin K and manganese",
+    "Low in calories and natural sugars"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

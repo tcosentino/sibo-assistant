@@ -1,0 +1,43 @@
+{
+  "id": "butter-lettuce",
+  "name": "Butter Lettuce",
+  "aliases": [
+    "Boston lettuce",
+    "Bibb lettuce",
+    "Living lettuce"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "About 2 cups chopped",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO due to minimal fermentable content. Can be eaten freely as part of low-FODMAP meals.",
+  "preparationTips": [
+    "Wash leaves gently and pat dry to maintain delicate texture",
+    "Use whole leaves as wraps for low-FODMAP proteins",
+    "Add to salads at the end to prevent wilting",
+    "Store with roots attached in water for longer freshness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Hard cheeses like cheddar",
+    "Cherry tomatoes",
+    "Cucumber",
+    "Olive oil and lemon dressing"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin K for bone health",
+    "Good source of folate",
+    "Contains vitamin A for eye health",
+    "Very low in calories and high in water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

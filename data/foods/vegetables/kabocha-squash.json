@@ -1,0 +1,43 @@
+{
+  "id": "kabocha-squash",
+  "name": "Kabocha Squash",
+  "aliases": [
+    "Japanese Pumpkin",
+    "Japanese Squash",
+    "Kent Pumpkin"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3/4 cup cubed",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO protocols. The low fiber content and natural sweetness make it a good carbohydrate option during symptom flares.",
+  "preparationTips": [
+    "Roast with olive oil and low-FODMAP herbs for enhanced flavor",
+    "Steam or boil until tender for easier digestion",
+    "Remove skin after cooking if you have sensitive digestion",
+    "Can be pureed into soups or used as a base for FODMAP-friendly curries"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Ginger",
+    "Turmeric",
+    "Coconut oil",
+    "Spinach",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "High in beta-carotene and vitamin A",
+    "Good source of vitamin C",
+    "Contains potassium and fiber",
+    "Naturally low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

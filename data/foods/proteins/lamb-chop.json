@@ -1,0 +1,48 @@
+{
+  "id": "lamb-chop",
+  "name": "Lamb Chop",
+  "aliases": [
+    "Lamb Cutlet",
+    "Lamb Rib Chop",
+    "Lamb Loin Chop"
+  ],
+  "category": "protein",
+  "subcategory": "lamb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "1 medium chop (3.5 oz)",
+      "cups": "About 3/4 cup diced"
+    }
+  },
+  "siboNotes": "Plain lamb is well-tolerated on SIBO protocols as it contains no fermentable carbohydrates. Choose lean cuts and avoid high-fat preparations that may slow gastric emptying.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like rosemary, thyme, or oregano",
+    "Avoid garlic and onion-based marinades - use garlic-infused oil instead",
+    "Trim visible fat to aid digestion",
+    "Cook to medium doneness to maintain tenderness while ensuring food safety"
+  ],
+  "alternatives": [
+    "Chicken breast",
+    "Turkey cutlets",
+    "Lean beef cuts",
+    "Pork tenderloin"
+  ],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Green beans",
+    "Baby spinach",
+    "Quinoa",
+    "Fresh mint"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in vitamin B12 and iron",
+    "Good source of zinc and selenium",
+    "Contains conjugated linoleic acid (CLA)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

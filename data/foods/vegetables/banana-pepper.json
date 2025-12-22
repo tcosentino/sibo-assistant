@@ -1,0 +1,43 @@
+{
+  "id": "banana-pepper",
+  "name": "Banana Pepper",
+  "aliases": [
+    "Yellow Wax Pepper",
+    "Hungarian Wax Pepper",
+    "Sweet Banana Pepper"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1 medium pepper",
+      "cups": "1/3 cup sliced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as peppers are naturally low FODMAP and don't contain fermentable carbohydrates that feed bacteria.",
+  "preparationTips": [
+    "Remove seeds and membranes to reduce any potential digestive irritation",
+    "Roasting or grilling can enhance sweetness and make them easier to digest",
+    "Start with smaller portions if you have capsaicin sensitivity",
+    "Fresh banana peppers are milder than pickled varieties"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Zucchini",
+    "Carrots",
+    "Chicken breast",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of vitamin A for eye health",
+    "Contains antioxidants like capsanthin",
+    "Low in calories and high in water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

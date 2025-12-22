@@ -1,0 +1,59 @@
+{
+  "id": "plum",
+  "name": "Plum",
+  "aliases": [
+    "Stone fruit",
+    "Prune plum"
+  ],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 small plum or 2-3 cherry plums",
+      "cups": "about 1/4 cup chopped"
+    },
+    "moderate": {
+      "grams": 65,
+      "description": "1 medium plum",
+      "cups": "about 1/2 cup chopped"
+    },
+    "high": {
+      "grams": 100,
+      "description": "1 large plum or 2 medium plums",
+      "cups": "about 3/4 cup chopped"
+    }
+  },
+  "siboNotes": "Start with small portions as sorbitol can trigger symptoms. Consider cherry plums for smaller individual servings to better control intake.",
+  "preparationTips": [
+    "Choose firmer, less ripe plums as they may contain slightly lower sorbitol levels",
+    "Remove skin if you have severe sensitivities",
+    "Pair with low-FODMAP foods to slow digestion",
+    "Space consumption throughout the day rather than eating multiple servings at once"
+  ],
+  "alternatives": [
+    "Strawberries",
+    "Grapes",
+    "Kiwi fruit",
+    "Orange"
+  ],
+  "pairsWellWith": [
+    "Greek yogurt (lactose-free)",
+    "Almonds",
+    "Walnuts",
+    "Spinach",
+    "Chicken"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C for immune support",
+    "Vitamin K for bone health",
+    "Potassium for heart health",
+    "Antioxidants including anthocyanins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

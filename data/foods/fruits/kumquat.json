@@ -1,0 +1,42 @@
+{
+  "id": "kumquat",
+  "name": "Kumquat",
+  "aliases": [
+    "Golden orange",
+    "Cumquat"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 4-5 small kumquats",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as they are low FODMAP and contain minimal fermentable carbohydrates. The small serving size naturally limits potential issues.",
+  "preparationTips": [
+    "Eat whole including the peel for maximum fiber and nutrients",
+    "Choose firm, bright orange fruits for best flavor",
+    "Can be eaten fresh, candied, or added to salads",
+    "Store at room temperature for 2-3 days or refrigerate for up to 2 weeks"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach salad",
+    "Grilled chicken",
+    "Rice pilaf",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of fiber",
+    "Contains antioxidants",
+    "Provides potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tangerine",
+  "name": "Tangerine",
+  "aliases": [
+    "mandarin",
+    "clementine",
+    "satsuma"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 84,
+      "description": "1 medium tangerine",
+      "cups": "3/4 cup segments"
+    }
+  },
+  "siboNotes": "Tangerines are well-tolerated and provide natural digestive enzymes. Their lower fiber content compared to other fruits makes them gentle on sensitive digestive systems.",
+  "preparationTips": [
+    "Choose ripe, soft tangerines for easier digestion",
+    "Remove white pith if you have severe sensitivities",
+    "Eat between meals rather than with large meals to optimize digestion",
+    "Fresh is preferable to canned in syrup which may contain high FODMAP sweeteners"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "strawberries",
+    "kiwi fruit",
+    "grapes",
+    "lactose-free yogurt",
+    "almonds"
+  ],
+  "nutritionalHighlights": [
+    "vitamin C",
+    "folate",
+    "potassium",
+    "antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "snow-peas",
+  "name": "Snow Peas",
+  "aliases": [
+    "Mangetout",
+    "Sugar Peas",
+    "Chinese Pea Pods"
+  ],
+  "category": "vegetable",
+  "subcategory": "legume-pod",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 10 pods",
+      "cups": "1/2 cup chopped"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "About 15 pods",
+      "cups": "3/4 cup chopped"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 23 pods",
+      "cups": "1+ cup chopped"
+    }
+  },
+  "siboNotes": "The mannitol content may trigger symptoms in sensitive individuals, so start with smaller portions during SIBO treatment phases.",
+  "preparationTips": [
+    "Remove strings before cooking",
+    "Quick stir-fry or steam for 2-3 minutes to retain crispness",
+    "Add to dishes in the last few minutes of cooking",
+    "Can be eaten raw in salads when young and tender"
+  ],
+  "alternatives": [
+    "Green beans",
+    "Sugar snap peas (small portions)",
+    "Bok choy",
+    "Bean sprouts"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Garlic-infused oil",
+    "Carrots",
+    "Bell peppers",
+    "Tofu"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Vitamin K",
+    "Folate",
+    "Fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

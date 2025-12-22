@@ -1,0 +1,43 @@
+{
+  "id": "bell-pepper-orange",
+  "name": "Bell Pepper (Orange)",
+  "aliases": [
+    "Orange Bell Pepper",
+    "Orange Sweet Pepper",
+    "Orange Capsicum"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 medium pepper or 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets due to low fermentation potential and minimal fiber content compared to other vegetables.",
+  "preparationTips": [
+    "Remove seeds and white pith for easier digestion",
+    "Cook lightly to soften fiber if experiencing sensitivity",
+    "Store in refrigerator for up to 1 week for best quality",
+    "Can be eaten raw or cooked without affecting FODMAP content"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Zucchini",
+    "Carrots",
+    "Spinach",
+    "Chicken breast",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin C (more than oranges)",
+    "Rich in beta-carotene and antioxidants",
+    "Good source of vitamin B6 and folate",
+    "Low in calories and high in water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

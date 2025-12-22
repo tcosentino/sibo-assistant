@@ -1,0 +1,42 @@
+{
+  "id": "yuzu",
+  "name": "Yuzu",
+  "aliases": [
+    "Japanese citron",
+    "yuzu citrus"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "Juice from 1-2 yuzu (about 2 tablespoons juice)",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Yuzu juice and zest are well-tolerated for most SIBO patients as citrus fruits are typically low in fermentable compounds.",
+  "preparationTips": [
+    "Use yuzu zest sparingly as it's very aromatic and flavorful",
+    "Fresh yuzu juice can be stored in refrigerator for up to 1 week",
+    "Bottled yuzu juice is available if fresh yuzu is unavailable",
+    "A little goes a long way - yuzu has an intense citrus flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "fresh ginger",
+    "soy sauce (gluten-free)",
+    "rice vinegar",
+    "sesame oil",
+    "fresh herbs like cilantro"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains citrus bioflavonoids",
+    "Low in calories",
+    "Natural citric acid"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "yuca-cassava",
+  "name": "Yuca (Cassava)",
+  "aliases": [
+    "Cassava",
+    "Mandioca",
+    "Tapioca root",
+    "Manioc"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2/3 cup cooked",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diet as a starchy carbohydrate that's easily digestible and doesn't feed bacterial overgrowth.",
+  "preparationTips": [
+    "Peel thoroughly and remove the fibrous core before cooking",
+    "Boil, steam, or roast until tender - raw cassava contains compounds that must be cooked out",
+    "Can be mashed like potatoes or cut into fries",
+    "Store peeled cassava in water in the refrigerator for up to 3 days"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Green beans",
+    "Bell peppers",
+    "Cilantro and lime",
+    "Olive oil with herbs"
+  ],
+  "nutritionalHighlights": [
+    "High in resistant starch when cooled",
+    "Good source of vitamin C",
+    "Provides potassium and folate",
+    "Naturally gluten-free carbohydrate source"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

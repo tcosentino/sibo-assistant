@@ -1,0 +1,44 @@
+{
+  "id": "chayote",
+  "name": "Chayote",
+  "aliases": [
+    "Choko",
+    "Vegetable pear",
+    "Mirliton",
+    "Christophine"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 80,
+      "description": "About 2/3 cup chopped",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Chayote is well-tolerated on SIBO diets as it's naturally low in FODMAPs and fiber content is moderate.",
+  "preparationTips": [
+    "Can be eaten raw in salads or cooked like summer squash",
+    "Remove the single large seed before cooking",
+    "Steam, sauté, or add to stir-fries for best digestibility",
+    "Mild flavor pairs well with stronger seasonings"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Zucchini",
+    "Bell peppers",
+    "Carrots",
+    "Fresh herbs like cilantro or parsley",
+    "Olive oil and lemon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of folate",
+    "Contains potassium for heart health",
+    "Low in calories and high water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

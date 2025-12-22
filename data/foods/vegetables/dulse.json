@@ -1,0 +1,43 @@
+{
+  "id": "dulse",
+  "name": "Dulse",
+  "aliases": [
+    "red dulse",
+    "sea lettuce",
+    "palmaria palmata"
+  ],
+  "category": "vegetable",
+  "subcategory": "seaweed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2-3 tablespoons dried",
+      "cups": "2-3 tbsp"
+    }
+  },
+  "siboNotes": "Sea vegetables like dulse are generally well-tolerated and may provide beneficial minerals for gut health recovery.",
+  "preparationTips": [
+    "Rinse briefly to remove excess salt",
+    "Can be eaten raw as a snack or added to soups",
+    "Soak in water for 5-10 minutes to soften if desired",
+    "Store in airtight container in cool, dry place"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "rice dishes",
+    "miso soup",
+    "salads with cucumber",
+    "grilled fish",
+    "quinoa bowls"
+  ],
+  "nutritionalHighlights": [
+    "High in iodine",
+    "Good source of potassium",
+    "Contains vitamin B12",
+    "Rich in iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

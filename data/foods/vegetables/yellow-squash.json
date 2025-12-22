@@ -1,0 +1,43 @@
+{
+  "id": "yellow-squash",
+  "name": "Yellow Squash",
+  "aliases": [
+    "Summer Squash",
+    "Crookneck Squash",
+    "Straightneck Squash"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Yellow squash is well-tolerated on SIBO diets due to its low fiber content and lack of fermentable carbohydrates.",
+  "preparationTips": [
+    "Remove seeds if sensitive to fiber",
+    "Cook until tender to aid digestion",
+    "Slice thin for quicker cooking and better tolerance",
+    "Avoid combining with high-FODMAP seasonings like garlic powder"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Zucchini",
+    "Bell peppers",
+    "Carrots",
+    "Chicken breast",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains potassium for heart health",
+    "Low in calories and carbohydrates",
+    "Provides folate and vitamin A"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

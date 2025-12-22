@@ -1,0 +1,42 @@
+{
+  "id": "prosciutto",
+  "name": "Prosciutto",
+  "aliases": [
+    "Parma ham",
+    "Italian dry-cured ham"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2-3 thin slices",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "Plain prosciutto is FODMAP-free and generally well-tolerated. Choose varieties without added onion or garlic seasonings.",
+  "preparationTips": [
+    "Check ingredient labels to avoid varieties with garlic or onion powder",
+    "Serve at room temperature for best flavor",
+    "Pair with low-FODMAP cheeses and fruits",
+    "Use as a protein wrap for vegetables or cheese"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cantaloupe melon",
+    "Aged cheddar cheese",
+    "Fresh basil",
+    "Olive oil",
+    "Arugula"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (8-10g per serving)",
+    "Rich in B vitamins, especially B12",
+    "Good source of selenium",
+    "Contains healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

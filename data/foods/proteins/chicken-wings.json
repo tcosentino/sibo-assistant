@@ -1,0 +1,43 @@
+{
+  "id": "chicken-wings",
+  "name": "Chicken Wings",
+  "aliases": [
+    "Buffalo wings",
+    "Hot wings",
+    "Chicken drummettes"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "About 4-5 medium wings",
+      "cups": "1 cup pieces"
+    }
+  },
+  "siboNotes": "Plain chicken wings are excellent for SIBO as they're protein-rich and naturally FODMAP-free. Avoid marinades or sauces containing garlic, onion, or high FODMAP ingredients.",
+  "preparationTips": [
+    "Season with SIBO-safe herbs like oregano, thyme, and rosemary",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Avoid pre-made marinades which often contain onion and garlic powders",
+    "Bake, grill, or air-fry for crispy texture without breading"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Green beans",
+    "Carrots",
+    "Bell peppers",
+    "Cucumber slices",
+    "Rice crackers"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in B vitamins, especially niacin and B6",
+    "Good source of selenium and phosphorus",
+    "Contains zinc for immune function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

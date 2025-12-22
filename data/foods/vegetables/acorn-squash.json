@@ -1,0 +1,42 @@
+{
+  "id": "acorn-squash",
+  "name": "Acorn Squash",
+  "aliases": [
+    "Winter Squash",
+    "Table Squash"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2/3 cup cubed",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated due to its low FODMAP content. The natural fiber is beneficial for gut health in most SIBO patients.",
+  "preparationTips": [
+    "Roast at 400°F for 25-30 minutes until tender",
+    "Cut in half, remove seeds, and cube for easier cooking",
+    "Can be steamed, baked, or added to soups and stews",
+    "Pairs well with low-FODMAP herbs like thyme and rosemary"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Spinach",
+    "Chicken",
+    "Brown rice",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin A (beta-carotene)",
+    "Good source of vitamin C",
+    "Contains potassium for heart health",
+    "Provides dietary fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

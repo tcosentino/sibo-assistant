@@ -1,0 +1,59 @@
+{
+  "id": "nectarine",
+  "name": "Nectarine",
+  "aliases": [
+    "smooth peach",
+    "fuzzless peach"
+  ],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/2 medium fruit",
+      "cups": "1/3 cup chopped"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 2/3 medium fruit",
+      "cups": "1/2 cup chopped"
+    },
+    "high": {
+      "grams": 150,
+      "description": "1 large fruit or more",
+      "cups": "3/4 cup chopped"
+    }
+  },
+  "siboNotes": "Limit to small portions due to sorbitol content. May trigger symptoms in sensitive individuals even at low FODMAP serves.",
+  "preparationTips": [
+    "Choose firm, ripe nectarines for better digestion",
+    "Remove skin if experiencing digestive sensitivity",
+    "Start with very small portions to test tolerance",
+    "Pair with low FODMAP protein to slow absorption"
+  ],
+  "alternatives": [
+    "Kiwi fruit (green, 2 small)",
+    "Orange (1 medium)",
+    "Strawberries (5 medium)",
+    "Cantaloupe (1/2 cup)"
+  ],
+  "pairsWellWith": [
+    "Plain Greek yogurt (lactose-free)",
+    "Almonds (10 nuts)",
+    "Oats (1/2 cup dry)",
+    "Chia seeds",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C for immune support",
+    "Vitamin A for eye health",
+    "Potassium for heart health",
+    "Dietary fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

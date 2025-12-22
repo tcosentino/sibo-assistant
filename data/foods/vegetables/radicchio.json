@@ -1,0 +1,42 @@
+{
+  "id": "radicchio",
+  "name": "Radicchio",
+  "aliases": [
+    "Italian chicory",
+    "red chicory"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 cup chopped",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diets due to naturally low FODMAP content. The bitter compounds may actually support digestive health.",
+  "preparationTips": [
+    "Grilling or roasting reduces bitterness and enhances flavor",
+    "Soak chopped radicchio in cold water for 30 minutes to mellow bitterness",
+    "Pair with sweet or fatty ingredients to balance the bitter taste",
+    "Use outer leaves for cooking and tender inner leaves for raw salads"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "arugula",
+    "spinach",
+    "walnuts",
+    "aged parmesan",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin K for bone health",
+    "Rich in antioxidants including anthocyanins",
+    "Good source of folate",
+    "Contains beneficial bitter compounds that may support liver function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

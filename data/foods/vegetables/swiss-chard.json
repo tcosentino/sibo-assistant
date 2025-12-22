@@ -1,0 +1,43 @@
+{
+  "id": "swiss-chard",
+  "name": "Swiss Chard",
+  "aliases": [
+    "Chard",
+    "Silverbeet",
+    "Rainbow Chard"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 cup chopped",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Excellent choice for SIBO diet as it's naturally FODMAP-free and provides essential nutrients without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Separate stems from leaves - stems take longer to cook",
+    "Sauté stems first, then add leaves in final 2-3 minutes",
+    "Remove tough ribs from large leaves before cooking",
+    "Can be eaten raw when young and tender in salads"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Olive oil",
+    "Garlic-infused oil",
+    "Lemon juice",
+    "Pine nuts",
+    "Parmesan cheese"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin K for bone health",
+    "High in vitamin A and beta-carotene",
+    "Rich in magnesium and potassium",
+    "Good source of iron and vitamin C"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

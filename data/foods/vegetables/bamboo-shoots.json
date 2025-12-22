@@ -1,0 +1,42 @@
+{
+  "id": "bamboo-shoots",
+  "name": "Bamboo Shoots",
+  "aliases": [
+    "bamboo sprouts",
+    "takenoko"
+  ],
+  "category": "vegetable",
+  "subcategory": "shoot",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Bamboo shoots are naturally low FODMAP and well-tolerated for SIBO. Their fiber content may provide gentle prebiotic benefits without triggering symptoms.",
+  "preparationTips": [
+    "Rinse canned bamboo shoots thoroughly to remove excess sodium",
+    "Fresh bamboo shoots require boiling for 20-30 minutes to remove bitterness",
+    "Add to stir-fries in the last few minutes to maintain crunch",
+    "Store opened canned bamboo shoots in water in the refrigerator for up to 1 week"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "bell peppers",
+    "bok choy",
+    "ginger",
+    "scallions (green tops only)"
+  ],
+  "nutritionalHighlights": [
+    "High in fiber for digestive health",
+    "Good source of potassium",
+    "Low in calories",
+    "Contains antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

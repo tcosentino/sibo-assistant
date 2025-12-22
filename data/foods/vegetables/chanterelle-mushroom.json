@@ -1,0 +1,47 @@
+{
+  "id": "chanterelle-mushroom",
+  "name": "Chanterelle Mushroom",
+  "aliases": [
+    "Golden chanterelle",
+    "Girole"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 3/4 cup diced",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Chanterelles are well-tolerated on SIBO diets as they're naturally low FODMAP and don't contain problematic fibers that feed bacteria.",
+  "preparationTips": [
+    "Clean gently with damp paper towel rather than washing to preserve texture",
+    "Sauté over medium-high heat to remove excess moisture before adding other ingredients",
+    "Don't overcrowd the pan when cooking to ensure proper browning",
+    "Store in paper bag in refrigerator and use within 3-5 days for best quality"
+  ],
+  "alternatives": [
+    "Oyster mushrooms",
+    "Shiitake mushrooms (canned)",
+    "Button mushrooms",
+    "Cremini mushrooms"
+  ],
+  "pairsWellWith": [
+    "Garlic-infused olive oil",
+    "Fresh thyme",
+    "Grilled chicken breast",
+    "Aged parmesan cheese",
+    "Wild rice"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin D and B vitamins",
+    "Good source of potassium and copper",
+    "Contains antioxidants like beta-carotene",
+    "Low in calories and fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

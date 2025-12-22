@@ -1,0 +1,43 @@
+{
+  "id": "ground-pork",
+  "name": "Ground Pork",
+  "aliases": [
+    "Minced Pork",
+    "Ground Pork Mince",
+    "Pork Mince"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz or 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Plain ground pork is naturally FODMAP-free and well-tolerated. Choose lean varieties to minimize digestive stress during SIBO treatment.",
+  "preparationTips": [
+    "Cook thoroughly to 160°F internal temperature for food safety",
+    "Drain excess fat after cooking to improve digestibility",
+    "Season with low-FODMAP herbs like oregano, basil, or thyme",
+    "Avoid pre-seasoned varieties that may contain garlic or onion powder"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Zucchini",
+    "Carrots",
+    "Spinach",
+    "Rice"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (20-25g per serving)",
+    "Rich in B vitamins, especially B12 and thiamine",
+    "Good source of zinc and selenium",
+    "Contains iron for healthy blood cells"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

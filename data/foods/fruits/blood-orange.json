@@ -1,0 +1,43 @@
+{
+  "id": "blood-orange",
+  "name": "Blood Orange",
+  "aliases": [
+    "Red orange",
+    "Moro orange",
+    "Tarocco orange"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 130,
+      "description": "1 medium blood orange",
+      "cups": "3/4 cup segments"
+    }
+  },
+  "siboNotes": "Blood oranges are well-tolerated on SIBO diets as they're naturally low FODMAP and don't feed bacterial overgrowth.",
+  "preparationTips": [
+    "Choose firm, heavy oranges with smooth skin for best quality",
+    "Store at room temperature for up to 1 week or refrigerate for longer storage",
+    "Roll on counter before peeling to make segmenting easier",
+    "Remove white pith which can be bitter"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach",
+    "carrots",
+    "chicken",
+    "quinoa",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Rich in anthocyanins (antioxidants that give red color)",
+    "Good source of folate",
+    "Contains fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

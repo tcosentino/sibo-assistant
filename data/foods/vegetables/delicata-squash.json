@@ -1,0 +1,43 @@
+{
+  "id": "delicata-squash",
+  "name": "Delicata Squash",
+  "aliases": [
+    "Peanut Squash",
+    "Bohemian Squash",
+    "Sweet Potato Squash"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3/4 cup cubed",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients due to low fiber content and naturally low FODMAP profile. Cook thoroughly to improve digestibility.",
+  "preparationTips": [
+    "Roast with skin on - it's edible and becomes tender when cooked",
+    "Cut in half lengthwise, scoop out seeds, then slice into half-moons",
+    "Steam or roast at 400°F for 15-20 minutes until tender",
+    "Season with low-FODMAP herbs like rosemary or thyme"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Bell peppers",
+    "Spinach",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin A and beta-carotene",
+    "Good source of potassium",
+    "Contains vitamin C",
+    "Provides dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

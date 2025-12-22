@@ -1,0 +1,48 @@
+{
+  "id": "sea-bass",
+  "name": "Sea Bass",
+  "aliases": [
+    "Chilean Sea Bass",
+    "Black Sea Bass",
+    "Striped Bass"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "1 medium fillet (5-6 oz)",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Sea bass is naturally FODMAP-free and well-tolerated by most SIBO patients. Choose simple preparation methods to avoid triggering ingredients.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or thyme",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Grill, bake, or pan-sear with olive oil for best digestibility",
+    "Avoid breading with wheat flour - use gluten-free alternatives if needed"
+  ],
+  "alternatives": [
+    "Cod",
+    "Halibut",
+    "Salmon",
+    "Chicken breast"
+  ],
+  "pairsWellWith": [
+    "Steamed carrots",
+    "Roasted potatoes",
+    "Sautéed spinach",
+    "Lemon wedges",
+    "Brown rice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (20-25g per serving)",
+    "Rich in omega-3 fatty acids for heart and brain health",
+    "Good source of selenium and vitamin B12",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

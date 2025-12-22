@@ -1,0 +1,59 @@
+{
+  "id": "artichoke",
+  "name": "Artichoke",
+  "aliases": [
+    "Globe artichoke",
+    "Jerusalem artichoke hearts"
+  ],
+  "category": "vegetable",
+  "subcategory": "flower-vegetable",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "About 1/4 of a small heart",
+      "cups": "1 tablespoon"
+    },
+    "high": {
+      "grams": 28,
+      "description": "1/2 medium heart or 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Artichokes are very high in fructans and should be completely avoided during SIBO elimination phases. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Artichoke hearts in brine may be slightly lower in FODMAPs than fresh",
+    "Remove all tough outer leaves and choke completely",
+    "If attempting small amounts, start with canned hearts which may be more tolerable",
+    "Consider infusing oil with artichoke flavor instead of eating the vegetable itself"
+  ],
+  "alternatives": [
+    "Green beans",
+    "Zucchini",
+    "Eggplant",
+    "Bell peppers"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Lemon juice",
+    "Fresh herbs (basil, oregano)",
+    "Parmesan cheese",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "High in fiber",
+    "Rich in antioxidants",
+    "Good source of folate",
+    "Contains cynarin for liver support"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

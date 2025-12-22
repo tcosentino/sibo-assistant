@@ -1,0 +1,42 @@
+{
+  "id": "guava",
+  "name": "Guava",
+  "aliases": [
+    "Guayaba",
+    "Common guava"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 medium fruit",
+      "cups": "1/2 cup diced"
+    }
+  },
+  "siboNotes": "Guava is well-tolerated in SIBO diets at the recommended serving size. Its natural fiber content may help with gut healing.",
+  "preparationTips": [
+    "Choose ripe but firm guavas for best digestibility",
+    "Remove seeds if you have sensitive digestion",
+    "Can be eaten fresh or blended into smoothies",
+    "Pairs well with lime juice to enhance flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Strawberries",
+    "Kiwi fruit",
+    "Pineapple",
+    "Coconut",
+    "Fresh mint"
+  ],
+  "nutritionalHighlights": [
+    "Very high in vitamin C",
+    "Good source of dietary fiber",
+    "Contains folate",
+    "Rich in antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

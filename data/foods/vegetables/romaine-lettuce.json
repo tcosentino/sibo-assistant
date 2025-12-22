@@ -1,0 +1,42 @@
+{
+  "id": "romaine-lettuce",
+  "name": "Romaine Lettuce",
+  "aliases": [
+    "Cos lettuce",
+    "Roman lettuce"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1 cup chopped",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well tolerated in SIBO as it's FODMAP-free and provides gentle fiber. Choose inner leaves if experiencing severe symptoms.",
+  "preparationTips": [
+    "Wash thoroughly and dry completely to remove bacteria",
+    "Remove outer leaves if they appear wilted or damaged",
+    "Store in refrigerator wrapped in paper towel to maintain crispness",
+    "Cut just before serving to prevent browning"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cucumber",
+    "carrots",
+    "bell peppers",
+    "tomatoes",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin K",
+    "Folate",
+    "Vitamin A",
+    "Low calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

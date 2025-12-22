@@ -1,0 +1,43 @@
+{
+  "id": "pork-shoulder",
+  "name": "Pork Shoulder",
+  "aliases": [
+    "Boston Butt",
+    "Pork Butt",
+    "Shoulder Roast"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz cooked",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Plain pork shoulder is FODMAP-free and well-tolerated on SIBO diets. Avoid marinades or rubs containing garlic, onion, or high-FODMAP ingredients.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like rosemary, thyme, or oregano",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Slow-cook or braise for tender, easily digestible results",
+    "Remove excess fat before cooking to reduce digestive stress"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Potatoes",
+    "Green beans",
+    "Bell peppers",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (20-25g per serving)",
+    "Rich in B vitamins, especially B12 and niacin",
+    "Good source of zinc and selenium",
+    "Contains iron and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

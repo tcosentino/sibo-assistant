@@ -1,0 +1,43 @@
+{
+  "id": "wakame",
+  "name": "Wakame",
+  "aliases": [
+    "sea mustard",
+    "miyeok",
+    "undaria pinnatifida"
+  ],
+  "category": "vegetable",
+  "subcategory": "sea-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2 tablespoons dried or 1/3 cup rehydrated",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Sea vegetables are generally well-tolerated and may provide beneficial minerals without triggering SIBO symptoms.",
+  "preparationTips": [
+    "Rinse dried wakame thoroughly before soaking",
+    "Soak in cold water for 5-10 minutes until tender",
+    "Remove tough center ribs if present",
+    "Add to soups in the last few minutes of cooking"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cucumber",
+    "carrots",
+    "sesame oil",
+    "rice vinegar",
+    "ginger"
+  ],
+  "nutritionalHighlights": [
+    "Rich in iodine for thyroid function",
+    "Good source of calcium and magnesium",
+    "Contains fucoidan (beneficial compound)",
+    "Low in calories but nutrient-dense"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

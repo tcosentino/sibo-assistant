@@ -1,0 +1,42 @@
+{
+  "id": "santa-claus-melon",
+  "name": "Santa Claus Melon",
+  "aliases": [
+    "Christmas Melon",
+    "Piel de Sapo"
+  ],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "About 3/4 cup diced",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet due to low FODMAP content and easier digestibility compared to high-fructose fruits.",
+  "preparationTips": [
+    "Chill before serving for best flavor and digestive comfort",
+    "Remove seeds and rind completely",
+    "Cut into small pieces to aid digestion",
+    "Store cut melon refrigerated and consume within 2-3 days"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cantaloupe",
+    "Fresh mint",
+    "Lime juice",
+    "Lactose-free yogurt",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of potassium for heart health",
+    "Contains beta-carotene for eye health",
+    "High water content for hydration"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

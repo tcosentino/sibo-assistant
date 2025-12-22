@@ -1,0 +1,42 @@
+{
+  "id": "pomegranate",
+  "name": "Pomegranate",
+  "aliases": [
+    "pomegranate arils",
+    "pomegranate seeds"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 84,
+      "description": "About 1/2 cup arils",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Pomegranate is well-tolerated and may have anti-inflammatory properties beneficial for gut health. The fiber content is moderate and typically well-handled during SIBO treatment.",
+  "preparationTips": [
+    "Remove arils underwater to prevent staining and make separation easier",
+    "Store fresh arils in refrigerator for up to 5 days",
+    "Frozen arils work well in smoothies and maintain nutritional value",
+    "Pat arils dry before adding to salads to prevent excess moisture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach",
+    "walnuts",
+    "feta cheese",
+    "quinoa",
+    "grapes"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants and vitamin C",
+    "Good source of fiber",
+    "Contains potassium",
+    "Rich in polyphenols with anti-inflammatory properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

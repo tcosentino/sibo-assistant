@@ -1,0 +1,43 @@
+{
+  "id": "pattypan-squash",
+  "name": "Pattypan Squash",
+  "aliases": [
+    "Scallop squash",
+    "Sunburst squash",
+    "Button squash"
+  ],
+  "category": "vegetable",
+  "subcategory": "squash",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 2/3 cup diced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated for SIBO as it's naturally low in fermentable carbohydrates and easy to digest when cooked.",
+  "preparationTips": [
+    "Steam or roast until tender to improve digestibility",
+    "Remove seeds if preparing for sensitive individuals",
+    "Can be eaten raw when young and tender",
+    "Pairs well with low-FODMAP herbs like basil and oregano"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Zucchini",
+    "Bell peppers",
+    "Carrots",
+    "Fresh herbs (basil, oregano)",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains potassium for heart health",
+    "Low in calories and high in water content",
+    "Provides folate and manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

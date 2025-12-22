@@ -1,0 +1,46 @@
+{
+  "id": "boysenberry",
+  "name": "Boysenberry",
+  "aliases": [
+    "boysenberries"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/3 cup",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated in SIBO as naturally low FODMAP. Rich in antioxidants that may support gut healing.",
+  "preparationTips": [
+    "Rinse gently just before eating to preserve delicate structure",
+    "Can be eaten fresh or added to low-FODMAP smoothies",
+    "Freeze for longer storage and use in baking",
+    "Pair with lactose-free yogurt for a gut-friendly snack"
+  ],
+  "alternatives": [
+    "Blueberries",
+    "Strawberries",
+    "Raspberries",
+    "Blackberries"
+  ],
+  "pairsWellWith": [
+    "Lactose-free Greek yogurt",
+    "Oats",
+    "Rice cakes",
+    "Almonds",
+    "Dark chocolate (85% cacao)"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Rich in anthocyanins and antioxidants",
+    "Good source of fiber for digestive health",
+    "Contains folate and manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

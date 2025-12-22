@@ -1,0 +1,42 @@
+{
+  "id": "poblano-pepper",
+  "name": "Poblano Pepper",
+  "aliases": [
+    "Ancho pepper (when dried)",
+    "Mexican pepper"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1 medium pepper",
+      "cups": "3/4 cup chopped"
+    }
+  },
+  "siboNotes": "Well-tolerated in SIBO diets as poblanos are naturally FODMAP-free and low in fermentable fibers.",
+  "preparationTips": [
+    "Roast over open flame or under broiler until skin is charred, then steam in bag to remove skin easily",
+    "Remove seeds and membranes to reduce heat level if sensitive to spice",
+    "Can be stuffed, grilled, or added to stews and salsas",
+    "Freeze roasted poblanos for up to 6 months for convenient use"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Tomatoes",
+    "Chicken breast",
+    "Cheddar cheese",
+    "Cilantro"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of vitamin A for eye health",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Low in calories but high in flavor"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

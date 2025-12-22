@@ -1,0 +1,48 @@
+{
+  "id": "celeriac",
+  "name": "Celeriac",
+  "aliases": [
+    "Celery root",
+    "Knob celery",
+    "Turnip-rooted celery"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1/2 cup diced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as it's low FODMAP and not highly fermentable. May provide beneficial prebiotic effects in small amounts.",
+  "preparationTips": [
+    "Peel thick skin before cooking",
+    "Can be roasted, mashed, or used in soups",
+    "Turns brown when cut - use lemon juice to prevent oxidation",
+    "Cook until tender as raw celeriac can be tough"
+  ],
+  "alternatives": [
+    "Parsnip (small serves)",
+    "Turnip",
+    "Rutabaga",
+    "Potato"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Potatoes",
+    "Fresh herbs like thyme",
+    "Olive oil",
+    "Lemon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin K",
+    "Good source of phosphorus",
+    "Contains vitamin C",
+    "Provides potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

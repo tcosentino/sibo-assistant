@@ -1,0 +1,43 @@
+{
+  "id": "broccolini",
+  "name": "Broccolini",
+  "aliases": [
+    "baby broccoli",
+    "broccoletti",
+    "aspabroc"
+  ],
+  "category": "vegetable",
+  "subcategory": "cruciferous",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 90,
+      "description": "About 3/4 cup chopped",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's low in fermentable carbohydrates. Cook thoroughly to improve digestibility.",
+  "preparationTips": [
+    "Steam or sauté lightly to maintain crispness and nutrients",
+    "Trim tough stem ends before cooking",
+    "Blanch briefly in salted water then shock in ice bath for vibrant color",
+    "Drizzle with garlic-infused oil instead of fresh garlic"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "salmon",
+    "quinoa",
+    "carrots",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and folate",
+    "Good source of vitamin K for bone health",
+    "Contains antioxidants and anti-inflammatory compounds",
+    "Provides fiber and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

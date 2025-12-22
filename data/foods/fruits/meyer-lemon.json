@@ -1,0 +1,42 @@
+{
+  "id": "meyer-lemon",
+  "name": "Meyer Lemon",
+  "aliases": [
+    "Meyer lemon fruit",
+    "Sweet lemon"
+  ],
+  "category": "fruit",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 80,
+      "description": "1 medium Meyer lemon (flesh and juice)",
+      "cups": "about 1/3 cup flesh"
+    }
+  },
+  "siboNotes": "Low FODMAP citrus fruits like Meyer lemons are generally well-tolerated and provide natural digestive support through citric acid.",
+  "preparationTips": [
+    "Use both zest and juice for maximum flavor without FODMAP concerns",
+    "Meyer lemon juice makes an excellent low-FODMAP salad dressing base",
+    "Store at room temperature for up to 1 week or refrigerate for 3-4 weeks",
+    "Choose fruits that feel heavy for their size and have smooth, thin skin"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "olive oil",
+    "fresh herbs",
+    "grilled chicken",
+    "salmon",
+    "spinach"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Citric acid",
+    "Folate",
+    "Potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

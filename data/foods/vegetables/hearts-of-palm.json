@@ -1,0 +1,43 @@
+{
+  "id": "hearts-of-palm",
+  "name": "Hearts of Palm",
+  "aliases": [
+    "Palm hearts",
+    "Palmito",
+    "Swamp cabbage"
+  ],
+  "category": "vegetable",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2/3 cup sliced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Hearts of palm are naturally FODMAP-free and well-tolerated on SIBO diets. Their mild flavor and tender texture make them easy to digest.",
+  "preparationTips": [
+    "Rinse canned hearts of palm before using to reduce sodium content",
+    "Slice lengthwise for salads or crosswise for stir-fries",
+    "Can be eaten raw or lightly cooked - avoid overcooking as they become mushy",
+    "Pat dry after rinsing if using in salads to prevent diluting dressings"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Mixed greens",
+    "Cherry tomatoes",
+    "Cucumber",
+    "Bell peppers",
+    "Olive oil and lemon dressing"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (about 20 calories per 100g)",
+    "Good source of potassium for heart health",
+    "Contains vitamin B6 and folate",
+    "Provides dietary fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

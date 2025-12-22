@@ -1,0 +1,42 @@
+{
+  "id": "chicken-liver",
+  "name": "Chicken Liver",
+  "aliases": [
+    "Poultry liver",
+    "Chicken offal"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 pieces or 1/2 cup chopped",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's naturally FODMAP-free. High protein content may support gut healing in SIBO recovery.",
+  "preparationTips": [
+    "Soak in milk for 30 minutes before cooking to reduce strong flavor",
+    "Cook quickly over high heat to maintain tender texture",
+    "Season with FODMAP-friendly herbs like thyme, oregano, or chives",
+    "Avoid onion and garlic - use garlic-infused oil instead"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach",
+    "Carrots",
+    "Bell peppers",
+    "Rice",
+    "Potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Extremely high in vitamin A and iron",
+    "Rich in vitamin B12 and folate",
+    "High-quality complete protein",
+    "Good source of CoQ10 and choline"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

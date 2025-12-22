@@ -1,0 +1,42 @@
+{
+  "id": "watercress",
+  "name": "Watercress",
+  "aliases": [
+    "Garden watercress",
+    "Nasturtium officinale"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 80,
+      "description": "About 1 cup chopped",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Watercress is naturally FODMAP-free and well-tolerated by most SIBO patients. Its mild peppery flavor makes it easy to digest.",
+  "preparationTips": [
+    "Rinse thoroughly under cold water to remove any grit or sand",
+    "Remove thick stems for better digestibility",
+    "Use fresh within 2-3 days as it wilts quickly",
+    "Add to salads raw or lightly sauté for a milder flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cucumber",
+    "Carrots",
+    "Bell peppers",
+    "Grilled chicken",
+    "Hard cheeses like cheddar"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of vitamin K for bone health",
+    "High in vitamin C for immune support",
+    "Rich in antioxidants like beta-carotene",
+    "Good source of calcium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

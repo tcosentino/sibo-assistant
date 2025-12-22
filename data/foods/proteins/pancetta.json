@@ -1,0 +1,42 @@
+{
+  "id": "pancetta",
+  "name": "Pancetta",
+  "aliases": [
+    "Italian bacon",
+    "cured pork belly"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz or 4-5 thin slices",
+      "cups": "1/2 cup diced"
+    }
+  },
+  "siboNotes": "Plain pancetta is naturally FODMAP-free, but check for added seasonings containing garlic or onion. High fat content may trigger symptoms in some sensitive individuals.",
+  "preparationTips": [
+    "Crisp in a dry pan without oil - pancetta renders its own fat",
+    "Check ingredient labels for garlic or onion powder which would make it high FODMAP",
+    "Use rendered fat for cooking other low-FODMAP vegetables",
+    "Remove excess fat if you're sensitive to high-fat foods"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach and arugula",
+    "Cherry tomatoes",
+    "Hard cheeses like parmesan",
+    "Eggs and frittatas",
+    "Zucchini and bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (15-20g per 100g)",
+    "Rich in B vitamins, especially B12",
+    "Contains selenium and phosphorus",
+    "High in sodium - use sparingly"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

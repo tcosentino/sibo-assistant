@@ -1,0 +1,43 @@
+{
+  "id": "microgreens",
+  "name": "Microgreens",
+  "aliases": [
+    "baby greens",
+    "micro herbs",
+    "sprouted greens"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated due to small serving sizes and low fiber content. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Rinse gently just before eating to maintain freshness",
+    "Pat dry with paper towels to remove excess moisture",
+    "Add to dishes at the end to preserve delicate texture",
+    "Store in refrigerator with slightly damp paper towel"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lettuce",
+    "cucumber",
+    "carrots",
+    "bell peppers",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamins A, C, and K",
+    "Rich in antioxidants and phytonutrients",
+    "Good source of folate",
+    "Contains beneficial plant compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

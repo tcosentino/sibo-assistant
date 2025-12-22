@@ -1,0 +1,42 @@
+{
+  "id": "bison",
+  "name": "Bison",
+  "aliases": [
+    "Buffalo meat",
+    "American bison"
+  ],
+  "category": "protein",
+  "subcategory": "red-meat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "approximately 3/4 cup cubed"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated in SIBO. Choose plain preparations without high-FODMAP seasonings or marinades.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like oregano, thyme, or rosemary",
+    "Cook with garlic-infused oil instead of fresh garlic",
+    "Marinate with low-FODMAP ingredients like soy sauce, ginger, and citrus",
+    "Ground bison works well for burgers, meatballs, or chili"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Bell peppers",
+    "Quinoa",
+    "Sweet potato"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and iron",
+    "Leaner than beef with less saturated fat",
+    "Rich in vitamin B12 and zinc",
+    "Good source of selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

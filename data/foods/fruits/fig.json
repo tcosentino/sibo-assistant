@@ -1,0 +1,59 @@
+{
+  "id": "fig",
+  "name": "Fig",
+  "aliases": [
+    "Fresh fig",
+    "Common fig"
+  ],
+  "category": "fruit",
+  "subcategory": "stone-fruit",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 medium fresh fig",
+      "cups": "1/4 cup chopped"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "2 medium fresh figs",
+      "cups": "1/2 cup chopped"
+    },
+    "high": {
+      "grams": 120,
+      "description": "4+ medium fresh figs",
+      "cups": "1+ cups chopped"
+    }
+  },
+  "siboNotes": "Start with single fig portions and monitor tolerance. The natural sugars may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Eat fresh rather than dried to avoid concentrated sugars",
+    "Pair with low-FODMAP foods to slow digestion",
+    "Remove skin if experiencing digestive sensitivity",
+    "Consume earlier in the day for better tolerance"
+  ],
+  "alternatives": [
+    "Strawberries",
+    "Kiwi fruit",
+    "Orange segments",
+    "Cantaloupe"
+  ],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Almonds",
+    "Walnuts",
+    "Aged cheddar cheese",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in dietary fiber",
+    "Good source of potassium",
+    "Contains antioxidants",
+    "Provides natural sugars for energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

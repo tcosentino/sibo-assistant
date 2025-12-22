@@ -1,0 +1,43 @@
+{
+  "id": "beef-short-ribs",
+  "name": "Beef Short Ribs",
+  "aliases": [
+    "Short ribs",
+    "Braising ribs",
+    "Flanken ribs"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked portion",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated. Choose lean cuts and avoid high-FODMAP marinades or sauces during preparation.",
+  "preparationTips": [
+    "Braise with low-FODMAP vegetables like carrots and celery",
+    "Use garlic-infused oil instead of whole garlic for flavor",
+    "Season with fresh herbs like thyme, rosemary, or bay leaves",
+    "Trim visible fat before cooking to aid digestion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Mashed potatoes",
+    "Carrots",
+    "Green beans",
+    "Rice pilaf",
+    "Roasted parsnips"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (25-30g per serving)",
+    "Rich in iron and zinc",
+    "Good source of B vitamins",
+    "Contains collagen when slow-cooked"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

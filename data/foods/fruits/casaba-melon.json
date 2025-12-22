@@ -1,0 +1,42 @@
+{
+  "id": "casaba-melon",
+  "name": "Casaba Melon",
+  "aliases": [
+    "Winter melon",
+    "Honeydew casaba"
+  ],
+  "category": "fruit",
+  "subcategory": "melon",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 120,
+      "description": "About 3/4 cup cubed",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well tolerated on SIBO diets due to low sugar content and lack of FODMAPs. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Choose melons that yield slightly to pressure at the stem end",
+    "Store at room temperature until ripe, then refrigerate",
+    "Remove seeds and rind before eating",
+    "Can be enjoyed fresh or added to fruit salads"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cantaloupe",
+    "Strawberries",
+    "Lime juice",
+    "Mint leaves",
+    "Prosciutto"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Good source of potassium for heart health",
+    "High water content for hydration",
+    "Low in calories and naturally fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

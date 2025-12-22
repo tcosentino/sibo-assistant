@@ -1,0 +1,44 @@
+{
+  "id": "chicken-thigh",
+  "name": "Chicken Thigh",
+  "aliases": [
+    "Chicken leg",
+    "Dark meat chicken",
+    "Bone-in chicken thigh",
+    "Boneless chicken thigh"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "1 medium thigh (about 5 oz cooked)",
+      "cups": "3/4 cup diced"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it's naturally FODMAP-free and provides essential amino acids without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like oregano, thyme, or rosemary",
+    "Avoid garlic and onion powder - use garlic-infused oil instead",
+    "Cook with skin on for added flavor and healthy fats",
+    "Marinate in low-FODMAP ingredients like lemon juice and allowed spices"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Rice",
+    "Potatoes",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (25g per thigh)",
+    "Rich in iron and zinc",
+    "Good source of B vitamins, especially niacin",
+    "Contains healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

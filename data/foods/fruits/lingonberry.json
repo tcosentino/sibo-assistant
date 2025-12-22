@@ -1,0 +1,43 @@
+{
+  "id": "lingonberry",
+  "name": "Lingonberry",
+  "aliases": [
+    "Cowberry",
+    "Mountain cranberry",
+    "Partridgeberry"
+  ],
+  "category": "fruit",
+  "subcategory": "berry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/2 cup fresh berries",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated in SIBO diets due to low sugar content and absence of problematic FODMAPs. The tart flavor may help stimulate digestion.",
+  "preparationTips": [
+    "Fresh lingonberries can be quite tart - consider mixing with low-FODMAP sweeteners",
+    "Frozen lingonberries work well in baking and maintain their nutritional value",
+    "Check commercial lingonberry products for added high-FODMAP ingredients like apple juice",
+    "Pairs excellently with savory dishes as a traditional Scandinavian accompaniment"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cranberries",
+    "Blueberries",
+    "Strawberries",
+    "Aged cheddar cheese",
+    "Turkey"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Rich in antioxidants and anthocyanins",
+    "Good source of manganese",
+    "Contains proanthocyanidins for urinary health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

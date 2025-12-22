@@ -1,0 +1,60 @@
+{
+  "id": "porcini-mushroom",
+  "name": "Porcini Mushroom",
+  "aliases": [
+    "Boletus edulis",
+    "King Bolete",
+    "Penny Bun"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup chopped",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 1/3 cup chopped",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 1/2 cup chopped",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High mannitol content can trigger SIBO symptoms even in small amounts. Consider using dried porcini powder in very small quantities for flavor.",
+  "preparationTips": [
+    "Use dried porcini powder sparingly for umami flavor without large volume",
+    "Limit fresh porcini to very small amounts as garnish",
+    "Soak dried porcini and use only the strained liquid for cooking",
+    "Combine with low-FODMAP vegetables to reduce overall portion size"
+  ],
+  "alternatives": [
+    "Oyster mushrooms (small portions)",
+    "Shiitake mushrooms (limited amounts)",
+    "Bell peppers for meaty texture",
+    "Eggplant for earthy flavor"
+  ],
+  "pairsWellWith": [
+    "Chicken breast",
+    "Aged parmesan cheese",
+    "Fresh herbs (basil, oregano)",
+    "Olive oil",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Rich in protein and B vitamins",
+    "Good source of potassium and selenium",
+    "Contains antioxidants and beta-glucans",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

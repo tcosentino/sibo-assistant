@@ -1,0 +1,47 @@
+{
+  "id": "rambutan",
+  "name": "Rambutan",
+  "aliases": [
+    "Hairy lychee",
+    "Nephelium lappaceum"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 5 medium fruits (peeled)",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated tropical fruit option for SIBO diets due to low FODMAP content and natural enzymes that may aid digestion.",
+  "preparationTips": [
+    "Peel the hairy outer skin to reveal the translucent flesh inside",
+    "Remove the seed before eating - only consume the white flesh",
+    "Choose fruits that yield slightly to pressure but aren't mushy",
+    "Store ripe rambutans in refrigerator for up to one week"
+  ],
+  "alternatives": [
+    "Lychee",
+    "Longan",
+    "Grapes",
+    "Strawberries"
+  ],
+  "pairsWellWith": [
+    "Coconut flakes",
+    "Lime juice",
+    "Mint leaves",
+    "Kiwi fruit",
+    "Pineapple"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Contains copper for healthy connective tissue",
+    "Good source of manganese for bone health",
+    "Provides natural antioxidants and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

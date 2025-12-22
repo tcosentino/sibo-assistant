@@ -1,0 +1,47 @@
+{
+  "id": "starfruit-carambola",
+  "name": "Starfruit (Carambola)",
+  "aliases": [
+    "Carambola",
+    "Star fruit"
+  ],
+  "category": "fruit",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 130,
+      "description": "1 medium starfruit",
+      "cups": "1 cup sliced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets due to low FODMAP content and minimal fermentable sugars.",
+  "preparationTips": [
+    "Wash thoroughly and slice crosswise to create star shapes",
+    "Remove any brown edges or spots before eating",
+    "Can be eaten with skin on - no peeling required",
+    "Best when fully ripe and yellow with slight browning on ridges"
+  ],
+  "alternatives": [
+    "Kiwi fruit",
+    "Orange segments",
+    "Pineapple",
+    "Cantaloupe"
+  ],
+  "pairsWellWith": [
+    "Coconut yogurt",
+    "Lime juice",
+    "Mint leaves",
+    "Grapes",
+    "Lactose-free vanilla ice cream"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C (boost immune system)",
+    "Good source of fiber for digestive health",
+    "Contains potassium for heart health",
+    "Low in calories (about 30 per fruit)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

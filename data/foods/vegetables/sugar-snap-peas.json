@@ -1,0 +1,60 @@
+{
+  "id": "sugar-snap-peas",
+  "name": "Sugar Snap Peas",
+  "aliases": [
+    "Snap Peas",
+    "Mangetout",
+    "Sugar Peas"
+  ],
+  "category": "vegetable",
+  "subcategory": "legume-pod",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/3 cup or 10 pods",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "About 1/2 cup or 12 pods",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 145,
+      "description": "About 1 cup or 25 pods",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Limit to small servings due to mannitol content. The polyol content may trigger symptoms in sensitive individuals with SIBO.",
+  "preparationTips": [
+    "Remove strings before cooking for better digestibility",
+    "Lightly steam or stir-fry to retain crunch and nutrients",
+    "Add to dishes in the last few minutes of cooking",
+    "Pair with ginger or herbs to aid digestion"
+  ],
+  "alternatives": [
+    "Green beans (lower FODMAP)",
+    "Carrot sticks",
+    "Red bell pepper strips",
+    "Cucumber slices"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Ginger",
+    "Sesame oil",
+    "Rice dishes",
+    "Lemon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Good source of vitamin K",
+    "Contains folate",
+    "Provides dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

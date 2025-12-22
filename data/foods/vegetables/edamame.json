@@ -1,0 +1,59 @@
+{
+  "id": "edamame",
+  "name": "Edamame",
+  "aliases": [
+    "Young soybeans",
+    "Green soybeans"
+  ],
+  "category": "vegetable",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "About 1/4 cup shelled",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 90,
+      "description": "About 1/2 cup shelled",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 155,
+      "description": "About 1 cup shelled",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Start with small portions as GOS can feed bacterial overgrowth. Monitor tolerance carefully during reintroduction phase.",
+  "preparationTips": [
+    "Steam or boil in pods for 3-5 minutes until tender",
+    "Season with salt or low-FODMAP herbs after cooking",
+    "Buy frozen edamame for convenience - nutritionally equivalent to fresh",
+    "Remove from pods before eating for easier portion control"
+  ],
+  "alternatives": [
+    "Green beans",
+    "Snow peas (small amounts)",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "pairsWellWith": [
+    "Brown rice",
+    "Grilled chicken",
+    "Sesame oil",
+    "Ginger",
+    "Scallion greens"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "High in folate and vitamin K",
+    "Good source of plant-based iron",
+    "Contains beneficial isoflavones"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

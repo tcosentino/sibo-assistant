@@ -1,0 +1,50 @@
+{
+  "id": "ramps",
+  "name": "Ramps",
+  "aliases": [
+    "wild leeks",
+    "wild onions",
+    "spring onions"
+  ],
+  "category": "vegetable",
+  "subcategory": "allium",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 15,
+      "description": "About 2-3 ramps",
+      "cups": "1-2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Ramps are high in fructans and should be avoided during SIBO treatment. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Use only the green tops sparingly as flavoring if tolerated",
+    "Infuse oil with ramps then remove solids for milder flavor",
+    "Start with tiny amounts to test individual tolerance",
+    "Avoid the white bulb portion which is highest in FODMAPs"
+  ],
+  "alternatives": [
+    "Green onion tops (green parts only)",
+    "Chives",
+    "Garlic-infused oil",
+    "Asafoetida powder (pinch only)"
+  ],
+  "pairsWellWith": [
+    "Eggs",
+    "Potatoes",
+    "Spinach",
+    "Grilled meats",
+    "Rice dishes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C",
+    "Contains vitamin A",
+    "Good source of folate",
+    "Provides antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "water-chestnuts",
+  "name": "Water Chestnuts",
+  "aliases": [
+    "Chinese water chestnuts",
+    "canned water chestnuts"
+  ],
+  "category": "vegetable",
+  "subcategory": "root",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup sliced",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Water chestnuts are naturally low FODMAP and well-tolerated in SIBO diets. Their crisp texture adds bulk without fermentable carbohydrates.",
+  "preparationTips": [
+    "Fresh water chestnuts should be peeled before use",
+    "Canned water chestnuts are pre-peeled and ready to use - rinse before adding to dishes",
+    "Add to stir-fries at the end to maintain their signature crunch",
+    "Can be eaten raw in salads for extra texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Carrots",
+    "Bok choy",
+    "Chicken breast",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "High in potassium for heart health",
+    "Good source of fiber for digestive health",
+    "Low in calories but filling",
+    "Contains antioxidants and vitamin B6"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "endive",
+  "name": "Endive",
+  "aliases": [
+    "Belgian endive",
+    "chicory endive",
+    "witloof"
+  ],
+  "category": "vegetable",
+  "subcategory": "leafy-green",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 3/4 cup chopped or 6-8 leaves",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Endive is well-tolerated on SIBO diets due to its low fiber content and minimal fermentable compounds.",
+  "preparationTips": [
+    "Separate leaves gently to avoid bruising the delicate tips",
+    "Rinse briefly in cold water and pat dry thoroughly",
+    "Can be eaten raw in salads or braised to reduce bitterness",
+    "Store in refrigerator wrapped in damp paper towel for up to 5 days"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Bell peppers",
+    "Cucumber",
+    "Hard cheeses",
+    "Olive oil and lemon dressing"
+  ],
+  "nutritionalHighlights": [
+    "High in folate for cellular health",
+    "Good source of vitamin K for bone health",
+    "Contains antioxidants including kaempferol",
+    "Low in calories but high in water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

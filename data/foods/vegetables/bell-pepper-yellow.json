@@ -1,0 +1,43 @@
+{
+  "id": "bell-pepper-yellow",
+  "name": "Bell Pepper (Yellow)",
+  "aliases": [
+    "Yellow Bell Pepper",
+    "Yellow Capsicum",
+    "Sweet Yellow Pepper"
+  ],
+  "category": "vegetable",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 medium pepper",
+      "cups": "3/4 cup chopped"
+    }
+  },
+  "siboNotes": "Yellow bell peppers are well-tolerated and provide beneficial nutrients without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Remove seeds and white pith for easier digestion",
+    "Can be eaten raw or cooked - cooking may improve tolerance for sensitive individuals",
+    "Roasting enhances sweetness and makes them more digestible",
+    "Store in refrigerator for up to 1 week for optimal freshness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Zucchini",
+    "Carrots",
+    "Spinach",
+    "Chicken breast",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C (more than oranges)",
+    "Rich in vitamin A and beta-carotene",
+    "Good source of folate and potassium",
+    "Contains antioxidants lutein and zeaxanthin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

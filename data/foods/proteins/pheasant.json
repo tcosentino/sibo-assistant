@@ -1,0 +1,42 @@
+{
+  "id": "pheasant",
+  "name": "Pheasant",
+  "aliases": [
+    "Game bird",
+    "Wild pheasant"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium serving (5 oz)",
+      "cups": "1 cup cooked, diced"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated during SIBO treatment phases. Choose plain preparations without high-FODMAP seasonings.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like rosemary, thyme, or oregano",
+    "Avoid marinades containing garlic or onion - use garlic oil instead",
+    "Cook thoroughly to 165°F internal temperature due to game meat safety",
+    "Pair with low-FODMAP vegetables to create balanced meals"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Potatoes",
+    "Rice pilaf",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "High in lean protein (25-30g per serving)",
+    "Rich in iron and B vitamins",
+    "Lower in fat than many domesticated poultry",
+    "Good source of phosphorus and selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

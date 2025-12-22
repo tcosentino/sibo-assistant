@@ -1,0 +1,48 @@
+{
+  "id": "shiitake-mushroom",
+  "name": "Shiitake Mushroom",
+  "aliases": [
+    "Shiitake",
+    "Lentinula edodes",
+    "Black mushroom",
+    "Oak mushroom"
+  ],
+  "category": "vegetable",
+  "subcategory": "mushroom",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 5 medium mushrooms or 2/3 cup sliced",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Shiitake mushrooms are well-tolerated in SIBO as they're low FODMAP and don't contain significant fermentable carbohydrates. Their umami flavor can enhance dishes without triggering symptoms.",
+  "preparationTips": [
+    "Remove tough stems before cooking - they can be fibrous and harder to digest",
+    "Sauté or roast to concentrate flavors and improve digestibility",
+    "Start with smaller portions if you're sensitive to dietary fiber",
+    "Fresh shiitakes have better texture than rehydrated dried ones for sensitive stomachs"
+  ],
+  "alternatives": [
+    "Button mushrooms",
+    "Oyster mushrooms",
+    "King oyster mushrooms"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Scallion greens",
+    "Bok choy",
+    "Rice noodles",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "Rich in B vitamins, especially B5 and B6",
+    "Good source of selenium and copper",
+    "Contains beta-glucans for immune support",
+    "Provides umami flavor compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}
