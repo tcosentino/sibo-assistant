@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
+import Markdown from 'react-markdown';
 import type { Food, FodmapType } from '../types/food';
 import { allFoods } from '../data/foods';
 import './ChatWindow.css';
@@ -500,72 +501,48 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
 
   const renderMessageContent = (message: Message) => {
     const { content, image } = message;
-    const parts: React.ReactNode[] = [];
-    let keyIndex = 0;
 
-    // Render image if present
-    if (image) {
-      parts.push(
-        <img
-          key={keyIndex++}
-          src={image}
-          alt="Uploaded food"
-          className="chat-window__message-image"
-        />
-      );
-    }
-
-    const boldRegex = /\*\*(.+?)\*\*/g;
-    let lastIndex = 0;
-    let match;
-
-    while ((match = boldRegex.exec(content)) !== null) {
-      if (match.index > lastIndex) {
-        parts.push(
-          <span key={keyIndex++}>{content.slice(lastIndex, match.index)}</span>
-        );
-      }
-
-      const boldText = match[1];
-      const food = findFoodInDatabase(boldText);
-      if (food) {
-        parts.push(
-          <button
-            key={keyIndex++}
-            className="chat-window__food-link"
-            onClick={() => onFoodClick(food)}
+    return (
+      <>
+        {image && (
+          <img
+            src={image}
+            alt="Uploaded food"
+            className="chat-window__message-image"
+          />
+        )}
+        <div className="chat-window__markdown">
+          <Markdown
+            components={{
+              // Custom strong renderer to make food names clickable
+              strong: ({ children }) => {
+                const text = String(children);
+                const food = findFoodInDatabase(text);
+                if (food) {
+                  return (
+                    <button
+                      className="chat-window__food-link"
+                      onClick={() => onFoodClick(food)}
+                    >
+                      {text}
+                    </button>
+                  );
+                }
+                return <strong>{children}</strong>;
+              },
+              // Open links in new tab
+              a: ({ href, children }) => (
+                <a href={href} target="_blank" rel="noopener noreferrer">
+                  {children}
+                </a>
+              ),
+            }}
           >
-            {boldText}
-          </button>
-        );
-      } else {
-        parts.push(<strong key={keyIndex++}>{boldText}</strong>);
-      }
-
-      lastIndex = match.index + match[0].length;
-    }
-
-    if (lastIndex < content.length) {
-      const remaining = content.slice(lastIndex);
-      const lines = remaining.split('\n');
-      lines.forEach((line, i) => {
-        if (i > 0) {
-          parts.push(<br key={keyIndex++} />);
-        }
-        if (line) {
-          const italicParts = line.split(/\*(.+?)\*/g);
-          italicParts.forEach((part, j) => {
-            if (j % 2 === 1) {
-              parts.push(<em key={keyIndex++}>{part}</em>);
-            } else if (part) {
-              parts.push(<span key={keyIndex++}>{part}</span>);
-            }
-          });
-        }
-      });
-    }
-
-    return parts.length > 0 ? parts : content;
+            {content}
+          </Markdown>
+        </div>
+      </>
+    );
   };
 
   const hasPreferences =
@@ -587,7 +564,13 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       </button>
 
       {isOpen && (
-        <div className="chat-window__container">
+        <>
+          <div
+            className="chat-window__backdrop"
+            onClick={() => setIsOpen(false)}
+            aria-hidden="true"
+          />
+          <div className="chat-window__container">
           <div className="chat-window__header">
             <div className="chat-window__header-content">
               <h3>Food Assistant {useApi ? '' : '(Offline)'}</h3>
@@ -719,6 +702,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
             </button>
           </form>
         </div>
+        </>
       )}
     </div>
   );
