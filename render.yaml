@@ -1,5 +1,10 @@
 # Render.com Blueprint
 # https://render.com/docs/blueprint-spec
+#
+# For direct deployment (non-Blueprint), use these settings:
+#   Root Directory: (leave empty)
+#   Build Command: npm install && npm run build
+#   Publish Directory: dist
 
 services:
   # Express API server with Claude integration
@@ -22,7 +27,6 @@ services:
   - type: web
     name: sibo-food-guide
     runtime: static
-    rootDir: web
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     envVars:
