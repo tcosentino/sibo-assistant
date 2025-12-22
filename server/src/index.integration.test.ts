@@ -18,11 +18,18 @@ vi.mock('@anthropic-ai/sdk', () => {
 });
 
 // Import app after mocking
-import { app } from './index.js';
+import { app, clearResponseCache } from './index.js';
+
+// Helper to extract full system prompt from the array format
+function getSystemPromptText(systemBlocks: Array<{ type: string; text: string }>): string {
+  if (typeof systemBlocks === 'string') return systemBlocks;
+  return systemBlocks.map((block) => block.text).join('\n');
+}
 
 describe('Chat API Integration Tests', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    clearResponseCache(); // Clear cache between tests to ensure clean state
   });
 
   afterEach(() => {
@@ -63,10 +70,14 @@ describe('Chat API Integration Tests', () => {
         expect.objectContaining({
           model: 'claude-sonnet-4-20250514',
           max_tokens: 1024,
-          system: expect.stringContaining('SIBO'),
           messages: [{ role: 'user', content: 'Can I eat carrots?' }],
         })
       );
+
+      // Verify system prompt contains expected content (now an array format)
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
+      expect(systemPrompt).toContain('SIBO');
     });
 
     it('should include user preferences in system prompt', async () => {
@@ -87,8 +98,9 @@ describe('Chat API Integration Tests', () => {
 
       expect(response.status).toBe(200);
 
-      // Verify system prompt includes preferences
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      // Verify system prompt includes preferences (now an array format)
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).toContain('User CAN TOLERATE');
       expect(systemPrompt).toContain('lactose');
       expect(systemPrompt).toContain('dairy');
@@ -112,7 +124,8 @@ describe('Chat API Integration Tests', () => {
 
       expect(response.status).toBe(200);
 
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).toContain('User is SENSITIVE TO');
       expect(systemPrompt).toContain('garlic');
       expect(systemPrompt).toContain('fructans');
@@ -227,18 +240,15 @@ describe('Chat API Integration Tests', () => {
       await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'Hello unique message for this test' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
           },
         });
 
-      expect(mockCreate).toHaveBeenCalledWith(
-        expect.objectContaining({
-          metadata: undefined,
-        })
-      );
+      expect(mockCreate).toHaveBeenCalledTimes(1);
+      expect(mockCreate.mock.calls[0][0].metadata).toBeUndefined();
     });
   });
 
@@ -347,7 +357,7 @@ describe('Chat API Integration Tests', () => {
       const response = await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'Error test message 1 - rate limit' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
@@ -365,7 +375,7 @@ describe('Chat API Integration Tests', () => {
       const response = await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'Error test message 2 - network error' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
@@ -385,7 +395,7 @@ describe('Chat API Integration Tests', () => {
       const response = await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'Error test message 3 - empty response' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
@@ -405,14 +415,15 @@ describe('Chat API Integration Tests', () => {
       const response = await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'Error test message 4 - missing preferences' }],
           // preferences intentionally omitted
         });
 
       expect(response.status).toBe(200);
 
-      // Should use default empty preferences
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      // Should use default empty preferences (now an array format)
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).not.toContain('User CAN TOLERATE');
       expect(systemPrompt).not.toContain('User is SENSITIVE TO');
     });
@@ -493,14 +504,15 @@ describe('Chat API Integration Tests', () => {
       await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'System prompt test 1 - FODMAP types' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
           },
         });
 
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).toContain('Fructose');
       expect(systemPrompt).toContain('Lactose');
       expect(systemPrompt).toContain('Fructans');
@@ -517,14 +529,15 @@ describe('Chat API Integration Tests', () => {
       await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'System prompt test 2 - image guidelines' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
           },
         });
 
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).toContain('Image Analysis');
       expect(systemPrompt).toContain('Identify all visible foods');
     });
@@ -538,17 +551,97 @@ describe('Chat API Integration Tests', () => {
       await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'Hello' }],
+          messages: [{ role: 'user', content: 'System prompt test 3 - food database' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
           },
         });
 
-      const systemPrompt = mockCreate.mock.calls[0][0].system;
+      const systemBlocks = mockCreate.mock.calls[0][0].system;
+      const systemPrompt = getSystemPromptText(systemBlocks);
       expect(systemPrompt).toContain('Your Knowledge Base');
       // Should include some foods from the database
       expect(systemPrompt).toContain('Carrot');
+    });
+  });
+
+  describe('Response Caching', () => {
+    it('should cache responses for identical single-message queries', async () => {
+      mockCreate.mockResolvedValueOnce({
+        content: [{ type: 'text', text: 'Cached response' }],
+        usage: { input_tokens: 100, output_tokens: 10 },
+      });
+
+      const preferences = {
+        tolerances: { foods: [], fodmapTypes: [], categories: [] },
+        sensitivities: { foods: [], fodmapTypes: [], categories: [] },
+      };
+
+      // First request - should call API
+      const response1 = await request(app)
+        .post('/api/chat')
+        .send({
+          messages: [{ role: 'user', content: 'Cache test message' }],
+          preferences,
+        });
+
+      // Second identical request - should return cached response
+      const response2 = await request(app)
+        .post('/api/chat')
+        .send({
+          messages: [{ role: 'user', content: 'Cache test message' }],
+          preferences,
+        });
+
+      expect(response1.status).toBe(200);
+      expect(response2.status).toBe(200);
+      expect(response2.body.message).toBe('Cached response');
+      expect(response2.body.usage.cache_hit).toBe(true);
+      expect(mockCreate).toHaveBeenCalledTimes(1); // Only called once
+    });
+
+    it('should not cache multi-message conversations', async () => {
+      mockCreate
+        .mockResolvedValueOnce({
+          content: [{ type: 'text', text: 'Response 1' }],
+          usage: { input_tokens: 100, output_tokens: 10 },
+        })
+        .mockResolvedValueOnce({
+          content: [{ type: 'text', text: 'Response 2' }],
+          usage: { input_tokens: 100, output_tokens: 10 },
+        });
+
+      const preferences = {
+        tolerances: { foods: [], fodmapTypes: [], categories: [] },
+        sensitivities: { foods: [], fodmapTypes: [], categories: [] },
+      };
+
+      // First multi-message request
+      await request(app)
+        .post('/api/chat')
+        .send({
+          messages: [
+            { role: 'user', content: 'First message' },
+            { role: 'assistant', content: 'First response' },
+            { role: 'user', content: 'Second message' },
+          ],
+          preferences,
+        });
+
+      // Second identical multi-message request - should NOT use cache
+      await request(app)
+        .post('/api/chat')
+        .send({
+          messages: [
+            { role: 'user', content: 'First message' },
+            { role: 'assistant', content: 'First response' },
+            { role: 'user', content: 'Second message' },
+          ],
+          preferences,
+        });
+
+      expect(mockCreate).toHaveBeenCalledTimes(2); // Called twice, no caching
     });
   });
 });
