@@ -1,10 +1,16 @@
 import Anthropic from '@anthropic-ai/sdk';
-import type { MessageParam, ImageBlockParam, TextBlockParam } from '@anthropic-ai/sdk/resources/messages';
+import type {
+  MessageParam,
+  ImageBlockParam,
+  TextBlockParam,
+  TextBlock,
+} from '@anthropic-ai/sdk/resources/messages';
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { foodDatabase, getFoodContext } from './foods.js';
+import crypto from 'crypto';
 import {
   getOrCreateUser,
   getUserPreferences,
@@ -41,73 +47,108 @@ const anthropic = new Anthropic({
   },
 });
 
-export interface UserPreferences {
-  tolerances: {
-    foods: string[];
-    fodmapTypes: string[];
-    categories: string[];
+// ============================================================================
+// CACHING LAYER - Optimizations to reduce API costs and latency
+// ============================================================================
+
+// Response cache for identical queries (TTL: 5 minutes)
+interface CachedResponse {
+  message: string;
+  usage: {
+    input_tokens: number;
+    output_tokens: number;
+    cache_read_input_tokens?: number | null;
+    cache_creation_input_tokens?: number | null;
   };
-  sensitivities: {
-    foods: string[];
-    fodmapTypes: string[];
-    categories: string[];
-  };
+  timestamp: number;
 }
 
-export interface ChatMessage {
-  role: 'user' | 'assistant';
-  content: string;
-  image?: string; // base64 data URL
+const responseCache = new Map<string, CachedResponse>();
+const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes
+const MAX_CACHE_SIZE = 100; // Maximum cached responses
+
+// Generate cache key from message and preferences
+export function generateCacheKey(
+  lastMessage: string,
+  preferences: UserPreferences,
+  hasImage: boolean
+): string {
+  // Don't cache image queries - they're unique
+  if (hasImage) return '';
+
+  // Normalize message for cache key (lowercase, trimmed)
+  const normalizedMessage = lastMessage.toLowerCase().trim();
+
+  // Create key from message + preferences hash
+  const preferencesHash = crypto
+    .createHash('md5')
+    .update(JSON.stringify(preferences))
+    .digest('hex')
+    .slice(0, 8);
+
+  return `${normalizedMessage}:${preferencesHash}`;
 }
 
-export interface ChatRequest {
-  messages: ChatMessage[];
-  preferences: UserPreferences;
-  userId?: string;
+// Get cached response if valid
+export function getCachedResponse(key: string): CachedResponse | null {
+  if (!key) return null;
+
+  const cached = responseCache.get(key);
+  if (!cached) return null;
+
+  // Check if cache is still valid
+  if (Date.now() - cached.timestamp > CACHE_TTL_MS) {
+    responseCache.delete(key);
+    return null;
+  }
+
+  return cached;
 }
 
-export function buildSystemPrompt(preferences: UserPreferences): string {
-  const foodContext = getFoodContext();
+// Store response in cache
+export function setCachedResponse(key: string, response: CachedResponse): void {
+  if (!key) return;
 
-  let preferencesContext = '';
-  const hasTolerance =
-    preferences.tolerances.foods.length > 0 ||
-    preferences.tolerances.fodmapTypes.length > 0 ||
-    preferences.tolerances.categories.length > 0;
-  const hasSensitivity =
-    preferences.sensitivities.foods.length > 0 ||
-    preferences.sensitivities.fodmapTypes.length > 0 ||
-    preferences.sensitivities.categories.length > 0;
-
-  if (hasTolerance || hasSensitivity) {
-    preferencesContext = `\n\n## User's Personal Tolerances (IMPORTANT - Use this to personalize recommendations)\n`;
-
-    if (hasTolerance) {
-      const items = [
-        ...preferences.tolerances.foods,
-        ...preferences.tolerances.fodmapTypes,
-        ...preferences.tolerances.categories,
-      ];
-      preferencesContext += `- User CAN TOLERATE: ${items.join(', ')}\n`;
-      preferencesContext += `  When these foods/types come up, acknowledge that they work for this specific user even if generally problematic.\n`;
-    }
-
-    if (hasSensitivity) {
-      const items = [
-        ...preferences.sensitivities.foods,
-        ...preferences.sensitivities.fodmapTypes,
-        ...preferences.sensitivities.categories,
-      ];
-      preferencesContext += `- User is SENSITIVE TO: ${items.join(', ')}\n`;
-      preferencesContext += `  Warn about these even if they're generally considered safe.\n`;
+  // Evict oldest entries if cache is full
+  if (responseCache.size >= MAX_CACHE_SIZE) {
+    const oldestKey = responseCache.keys().next().value;
+    if (oldestKey) {
+      responseCache.delete(oldestKey);
     }
   }
 
-  return `You are a helpful SIBO (Small Intestinal Bacterial Overgrowth) diet assistant. Your role is to help users understand which foods are safe to eat during SIBO treatment, based on FODMAP content.
+  responseCache.set(key, { ...response, timestamp: Date.now() });
+}
+
+// Clear expired cache entries (called periodically)
+export function cleanupCache(): void {
+  const now = Date.now();
+  for (const [key, value] of responseCache.entries()) {
+    if (now - value.timestamp > CACHE_TTL_MS) {
+      responseCache.delete(key);
+    }
+  }
+}
+
+// Clear all cached responses (useful for testing)
+export function clearResponseCache(): void {
+  responseCache.clear();
+}
+
+// Run cache cleanup every minute
+setInterval(cleanupCache, 60 * 1000);
+
+// ============================================================================
+// STATIC SYSTEM PROMPT - Cached at module load for Anthropic prompt caching
+// ============================================================================
+
+// Pre-compute the static base system prompt (without user preferences)
+// This enables Anthropic's prompt caching which can reduce costs by up to 90%
+const BASE_SYSTEM_PROMPT = `You are a helpful SIBO (Small Intestinal Bacterial Overgrowth) diet assistant. Your role is to help users understand which foods are safe to eat during SIBO treatment, based on FODMAP content.
 
 ## Your Knowledge Base
 You have detailed information about these foods and their FODMAP ratings:
-${foodContext}
+${getFoodContext()}
 
 ## Key FODMAP Types
 - Fructose: Found in fruits, honey, high-fructose corn syrup
@@ -115,7 +156,7 @@ ${foodContext}
 - Fructans: Found in wheat, garlic, onions
 - Galactans (GOS): Found in legumes, beans
 - Polyols (Sorbitol/Mannitol): Found in stone fruits, artificial sweeteners, some vegetables
-${preferencesContext}
+
 ## Response Guidelines
 
 1. **Be concise but helpful** - Give clear, actionable advice
@@ -142,7 +183,81 @@ Acknowledge these and suggest they use the save button in the app to remember th
 - Use **bold** for food names when first mentioned
 - Use bullet points for lists
 - Keep responses focused and not too long`;
+
+export interface UserPreferences {
+  tolerances: {
+    foods: string[];
+    fodmapTypes: string[];
+    categories: string[];
+  };
+  sensitivities: {
+    foods: string[];
+    fodmapTypes: string[];
+    categories: string[];
+  };
 }
+
+export interface ChatMessage {
+  role: 'user' | 'assistant';
+  content: string;
+  image?: string; // base64 data URL
+}
+
+export interface ChatRequest {
+  messages: ChatMessage[];
+  preferences: UserPreferences;
+  userId?: string;
+}
+
+// Build user preferences section (dynamic, small, not cached by Anthropic)
+export function buildPreferencesContext(preferences: UserPreferences): string {
+  const hasTolerance =
+    preferences.tolerances.foods.length > 0 ||
+    preferences.tolerances.fodmapTypes.length > 0 ||
+    preferences.tolerances.categories.length > 0;
+  const hasSensitivity =
+    preferences.sensitivities.foods.length > 0 ||
+    preferences.sensitivities.fodmapTypes.length > 0 ||
+    preferences.sensitivities.categories.length > 0;
+
+  if (!hasTolerance && !hasSensitivity) {
+    return '';
+  }
+
+  let preferencesContext = `\n\n## User's Personal Tolerances (IMPORTANT - Use this to personalize recommendations)\n`;
+
+  if (hasTolerance) {
+    const items = [
+      ...preferences.tolerances.foods,
+      ...preferences.tolerances.fodmapTypes,
+      ...preferences.tolerances.categories,
+    ];
+    preferencesContext += `- User CAN TOLERATE: ${items.join(', ')}\n`;
+    preferencesContext += `  When these foods/types come up, acknowledge that they work for this specific user even if generally problematic.\n`;
+  }
+
+  if (hasSensitivity) {
+    const items = [
+      ...preferences.sensitivities.foods,
+      ...preferences.sensitivities.fodmapTypes,
+      ...preferences.sensitivities.categories,
+    ];
+    preferencesContext += `- User is SENSITIVE TO: ${items.join(', ')}\n`;
+    preferencesContext += `  Warn about these even if they're generally considered safe.\n`;
+  }
+
+  return preferencesContext;
+}
+
+// Build full system prompt (combines cached base + dynamic preferences)
+// Note: The actual caching happens via Anthropic's cache_control in the API call
+export function buildSystemPrompt(preferences: UserPreferences): string {
+  const preferencesContext = buildPreferencesContext(preferences);
+  return BASE_SYSTEM_PROMPT + preferencesContext;
+}
+
+// Export base prompt for testing
+export { BASE_SYSTEM_PROMPT };
 
 // Parse base64 data URL to extract media type and data
 export function parseDataUrl(dataUrl: string): { mediaType: string; data: string } | null {
@@ -260,32 +375,91 @@ app.post('/api/chat', async (req, res) => {
       return res.status(400).json({ error: 'Messages array is required' });
     }
 
-    const systemPrompt = buildSystemPrompt(preferences || {
+    const userPreferences = preferences || {
       tolerances: { foods: [], fodmapTypes: [], categories: [] },
       sensitivities: { foods: [], fodmapTypes: [], categories: [] },
-    });
+    };
+
+    // Get the last user message for caching
+    const lastUserMessage = messages[messages.length - 1];
+    const hasImage = messages.some((msg) => msg.image);
+
+    // Check response cache for identical queries (skip if conversation has multiple messages)
+    const cacheKey =
+      messages.length === 1
+        ? generateCacheKey(lastUserMessage?.content || '', userPreferences, hasImage)
+        : '';
+    const cachedResponse = getCachedResponse(cacheKey);
+
+    if (cachedResponse) {
+      // Return cached response with cache hit indicator
+      const detectedPreference = detectPreferenceInResponse(
+        lastUserMessage?.content || '',
+        cachedResponse.message
+      );
+
+      return res.json({
+        message: cachedResponse.message,
+        detectedPreference,
+        usage: {
+          ...cachedResponse.usage,
+          cache_hit: true, // Indicate this was served from local cache
+        },
+      });
+    }
+
+    // Build system prompt with preferences
+    const preferencesContext = buildPreferencesContext(userPreferences);
 
     // Convert messages to Anthropic format (handles images)
     const anthropicMessages = convertToAnthropicMessages(messages);
 
+    // Use Anthropic's prompt caching by sending system as array with cache_control
+    // The base prompt is static and will be cached by Anthropic for up to 5 minutes
+    // This can reduce costs by up to 90% on the cached portion
+    const systemBlocks: Array<{ type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }> =
+      [
+        {
+          type: 'text' as const,
+          text: BASE_SYSTEM_PROMPT,
+          cache_control: { type: 'ephemeral' }, // Mark for Anthropic prompt caching
+        },
+      ];
+
+    // Add preferences as a separate block (not cached since it varies per user)
+    if (preferencesContext) {
+      systemBlocks.push({
+        type: 'text' as const,
+        text: preferencesContext,
+      });
+    }
+
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-20250514',
       max_tokens: 1024,
-      system: systemPrompt,
+      system: systemBlocks,
       messages: anthropicMessages,
       metadata: userId ? { user_id: userId } : undefined,
     });
 
     // Extract text content from response
-    const textContent = response.content.find((block) => block.type === 'text');
-    const assistantMessage = textContent?.type === 'text' ? textContent.text : '';
+    const textContent = response.content.find((block): block is TextBlock => block.type === 'text');
+    const assistantMessage = textContent?.text || '';
 
     // Check if Claude detected a new preference in the conversation
-    const lastUserMessage = messages[messages.length - 1];
     const detectedPreference = detectPreferenceInResponse(
       lastUserMessage?.content || '',
       assistantMessage
     );
+
+    // Cache the response for future identical queries
+    if (cacheKey && assistantMessage) {
+      setCachedResponse(cacheKey, {
+        message: assistantMessage,
+        usage: response.usage,
+        timestamp: Date.now(),
+      });
+    }
 
     res.json({
       message: assistantMessage,
