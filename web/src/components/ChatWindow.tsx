@@ -2,6 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import Markdown from 'react-markdown';
 import type { Food, FodmapType } from '../types/food';
 import { allFoods } from '../data/foods';
+import { useAuth } from '../contexts/AuthContext';
 import './ChatWindow.css';
 
 interface Message {
@@ -66,6 +67,7 @@ const CATEGORY_KEYWORDS = [
 ];
 
 export function ChatWindow({ onFoodClick }: ChatWindowProps) {
+  const { isAuthenticated, getAuthHeaders, user } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
@@ -74,20 +76,48 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [showPreferences, setShowPreferences] = useState(false);
   const [useApi, setUseApi] = useState(true);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [isSyncing, setIsSyncing] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Load preferences from localStorage or backend
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem(PREFERENCES_KEY);
-      if (saved) {
-        setPreferences(JSON.parse(saved));
+    const loadPreferences = async () => {
+      // If authenticated, try to load from backend
+      if (isAuthenticated) {
+        try {
+          setIsSyncing(true);
+          const response = await fetch(`${API_URL}/api/preferences`, {
+            headers: { ...getAuthHeaders() },
+          });
+          if (response.ok) {
+            const data = await response.json();
+            setPreferences(data.preferences);
+            // Also sync to localStorage as backup
+            localStorage.setItem(PREFERENCES_KEY, JSON.stringify(data.preferences));
+            return;
+          }
+        } catch (error) {
+          console.warn('Failed to load preferences from backend:', error);
+        } finally {
+          setIsSyncing(false);
+        }
       }
-    } catch {
-      // Ignore parse errors
-    }
-  }, []);
+
+      // Fall back to localStorage
+      try {
+        const saved = localStorage.getItem(PREFERENCES_KEY);
+        if (saved) {
+          setPreferences(JSON.parse(saved));
+        }
+      } catch {
+        // Ignore parse errors
+      }
+    };
+
+    loadPreferences();
+  }, [isAuthenticated, getAuthHeaders]);
 
   const getWelcomeMessage = useCallback((): Message => {
     const hasPref =
@@ -95,27 +125,64 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       preferences.tolerances.fodmapTypes.length > 0 ||
       preferences.tolerances.categories.length > 0;
 
-    let content =
-      'Hi! Ask me about any food to learn if it\'s safe to eat with SIBO. You can also upload a photo of food and I\'ll identify it for you!';
+    let content = '';
+
+    if (isAuthenticated && user?.name) {
+      content = `Hi ${user.name.split(' ')[0]}! `;
+    } else {
+      content = 'Hi! ';
+    }
+
+    content += 'Ask me about any food to learn if it\'s safe to eat with SIBO. You can also upload a photo of food and I\'ll identify it for you!';
 
     if (hasPref) {
       content +=
         '\n\n*I remember your tolerances and will personalize my recommendations.*';
+      if (isAuthenticated) {
+        content += ' Your preferences are synced across devices.';
+      }
     } else {
       content +=
         '\n\n*Tip: Tell me about your personal tolerances (e.g., "I can handle dairy fine") and I\'ll remember them!*';
+      if (!isAuthenticated) {
+        content += ' Sign in with Google to save your preferences across devices.';
+      }
     }
 
     return { id: 'welcome', role: 'assistant', content };
-  }, [preferences]);
+  }, [preferences, isAuthenticated, user]);
 
   useEffect(() => {
     setMessages([getWelcomeMessage()]);
   }, [getWelcomeMessage]);
 
+  // Save preferences to localStorage and backend
   useEffect(() => {
+    // Always save to localStorage
     localStorage.setItem(PREFERENCES_KEY, JSON.stringify(preferences));
-  }, [preferences]);
+
+    // If authenticated, also sync to backend
+    if (isAuthenticated && !isSyncing) {
+      const syncToBackend = async () => {
+        try {
+          await fetch(`${API_URL}/api/preferences`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              ...getAuthHeaders(),
+            },
+            body: JSON.stringify({ preferences }),
+          });
+        } catch (error) {
+          console.warn('Failed to sync preferences to backend:', error);
+        }
+      };
+
+      // Debounce the sync to avoid too many requests
+      const timeout = setTimeout(syncToBackend, 500);
+      return () => clearTimeout(timeout);
+    }
+  }, [preferences, isAuthenticated, getAuthHeaders, isSyncing]);
 
   useEffect(() => {
     if (isOpen && inputRef.current) {
@@ -366,11 +433,14 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   ): Promise<{ message: string; detectedPreference?: { type: 'tolerance' | 'sensitivity'; items: string[] } }> => {
     const response = await fetch(`${API_URL}/api/chat`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        ...getAuthHeaders(),
+      },
       body: JSON.stringify({
         messages: conversationMessages,
         preferences,
-        userId: localStorage.getItem('sibo-user-id') || undefined,
+        userId: user?.id?.toString() || localStorage.getItem('sibo-user-id') || undefined,
       }),
     });
 

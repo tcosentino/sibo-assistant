@@ -11,6 +11,25 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { foodDatabase, getFoodContext } from './foods.js';
 import crypto from 'crypto';
+import {
+  getOrCreateUser,
+  getUserPreferences,
+  saveUserPreferences,
+  getUserConversations,
+  getConversationMessages,
+  createConversation,
+  addMessage,
+  deleteConversation,
+  getUserMemories,
+  addUserMemory,
+  userOps,
+} from './database.js';
+import {
+  handleGoogleSignIn,
+  authMiddleware,
+  optionalAuthMiddleware,
+  type AuthenticatedRequest,
+} from './auth.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -464,6 +483,220 @@ app.get('/api/health', (_req, res) => {
 // Get food database
 app.get('/api/foods', (_req, res) => {
   res.json(foodDatabase);
+});
+
+// ============================================================================
+// Authentication Routes
+// ============================================================================
+
+// Google Sign-In
+app.post('/api/auth/google', async (req, res) => {
+  try {
+    const { credential } = req.body;
+
+    if (!credential) {
+      return res.status(400).json({ error: 'Google credential is required' });
+    }
+
+    const result = await handleGoogleSignIn(credential);
+
+    if ('error' in result) {
+      return res.status(401).json({ error: result.error });
+    }
+
+    res.json(result);
+  } catch (error) {
+    console.error('Google auth error:', error);
+    res.status(500).json({ error: 'Authentication failed' });
+  }
+});
+
+// Get current user
+app.get('/api/auth/me', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const user = userOps.findById.get(req.user.id);
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    res.json({ user });
+  } catch (error) {
+    console.error('Get user error:', error);
+    res.status(500).json({ error: 'Failed to get user' });
+  }
+});
+
+// ============================================================================
+// Preferences Routes (Authenticated)
+// ============================================================================
+
+// Get user preferences
+app.get('/api/preferences', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const preferences = getUserPreferences(req.user.id);
+    res.json({ preferences });
+  } catch (error) {
+    console.error('Get preferences error:', error);
+    res.status(500).json({ error: 'Failed to get preferences' });
+  }
+});
+
+// Save user preferences
+app.post('/api/preferences', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const { preferences } = req.body;
+
+    if (!preferences) {
+      return res.status(400).json({ error: 'Preferences are required' });
+    }
+
+    saveUserPreferences(req.user.id, preferences);
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Save preferences error:', error);
+    res.status(500).json({ error: 'Failed to save preferences' });
+  }
+});
+
+// ============================================================================
+// Conversation/Chat History Routes (Authenticated)
+// ============================================================================
+
+// Get all conversations for user
+app.get('/api/conversations', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const conversations = getUserConversations(req.user.id);
+    res.json({ conversations });
+  } catch (error) {
+    console.error('Get conversations error:', error);
+    res.status(500).json({ error: 'Failed to get conversations' });
+  }
+});
+
+// Create a new conversation
+app.post('/api/conversations', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const { title } = req.body;
+    const conversation = createConversation(req.user.id, title || null);
+    res.json({ conversation });
+  } catch (error) {
+    console.error('Create conversation error:', error);
+    res.status(500).json({ error: 'Failed to create conversation' });
+  }
+});
+
+// Get messages for a conversation
+app.get('/api/conversations/:id/messages', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const conversationId = parseInt(req.params.id, 10);
+    const messages = getConversationMessages(conversationId);
+    res.json({ messages });
+  } catch (error) {
+    console.error('Get messages error:', error);
+    res.status(500).json({ error: 'Failed to get messages' });
+  }
+});
+
+// Add a message to a conversation
+app.post('/api/conversations/:id/messages', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const conversationId = parseInt(req.params.id, 10);
+    const { role, content, imageUrl } = req.body;
+
+    if (!role || !content) {
+      return res.status(400).json({ error: 'Role and content are required' });
+    }
+
+    addMessage(conversationId, role, content, imageUrl || null);
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Add message error:', error);
+    res.status(500).json({ error: 'Failed to add message' });
+  }
+});
+
+// Delete a conversation
+app.delete('/api/conversations/:id', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const conversationId = parseInt(req.params.id, 10);
+    deleteConversation(conversationId);
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Delete conversation error:', error);
+    res.status(500).json({ error: 'Failed to delete conversation' });
+  }
+});
+
+// ============================================================================
+// Memory Routes (Authenticated) - For long-term user facts
+// ============================================================================
+
+// Get user memories
+app.get('/api/memories', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const memories = getUserMemories(req.user.id);
+    res.json({ memories });
+  } catch (error) {
+    console.error('Get memories error:', error);
+    res.status(500).json({ error: 'Failed to get memories' });
+  }
+});
+
+// Add a memory
+app.post('/api/memories', authMiddleware, (req: AuthenticatedRequest, res) => {
+  try {
+    if (!req.user) {
+      return res.status(401).json({ error: 'Not authenticated' });
+    }
+
+    const { memoryType, content, source, confidence } = req.body;
+
+    if (!memoryType || !content) {
+      return res.status(400).json({ error: 'Memory type and content are required' });
+    }
+
+    addUserMemory(req.user.id, memoryType, content, source || null, confidence || 1.0);
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Add memory error:', error);
+    res.status(500).json({ error: 'Failed to add memory' });
+  }
 });
 
 // Serve static files from the public directory (production)

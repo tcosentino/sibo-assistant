@@ -7,8 +7,10 @@
 }
 
 .app__header {
-  padding: 32px 20px 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 20px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   position: relative;
@@ -24,6 +26,7 @@
   height: 200%;
   background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
   animation: pulse 15s ease-in-out infinite;
+  pointer-events: none;
 }
 
 @keyframes pulse {
@@ -31,9 +34,14 @@
   50% { transform: scale(1.1); opacity: 0.8; }
 }
 
+.app__header-content {
+  text-align: left;
+  position: relative;
+}
+
 .app__title {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: white;
   position: relative;
@@ -41,8 +49,8 @@
 }
 
 .app__subtitle {
-  margin: 10px 0 0;
-  font-size: 1rem;
+  margin: 6px 0 0;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
   font-weight: 400;
