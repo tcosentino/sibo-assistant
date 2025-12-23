@@ -400,7 +400,7 @@ app.post('/api/chat', async (req, res) => {
 
     if (cachedResponse) {
       // Return cached response with cache hit indicator
-      // For cached responses, also check for preferences via pattern matching as fallback
+      // Also apply the general preference-detection fallback (pattern matching) to this cached response
       const detectedPreference = detectPreferenceInResponse(
         lastUserMessage?.content || '',
         cachedResponse.message
