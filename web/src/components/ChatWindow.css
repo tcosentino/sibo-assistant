@@ -320,6 +320,17 @@
   color: white;
 }
 
+.chat-window__food-link--invalid {
+  color: #9ca3af;
+  cursor: not-allowed;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.chat-window__message--user .chat-window__food-link--invalid {
+  color: #d1d5db;
+}
+
 .chat-window__form {
   display: flex;
   gap: 10px;

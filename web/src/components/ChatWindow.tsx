@@ -675,6 +675,19 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                       </button>
                     );
                   }
+                  // Food link with unknown ID: log for debugging and render non-clickable text
+                  if (foodId) {
+                    console.warn(`Unknown food link in chat content: ${foodId}`);
+                  }
+                  return (
+                    <span
+                      className="chat-window__food-link chat-window__food-link--invalid"
+                      data-missing-food-id={foodId}
+                      title="Unknown food item"
+                    >
+                      {children}
+                    </span>
+                  );
                 }
                 // Regular links open in new tab
                 return (
