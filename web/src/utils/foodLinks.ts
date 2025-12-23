@@ -1,5 +1,10 @@
 import type { Food } from '../types/food';
 
+// Security limits to prevent ReDoS attacks
+const MAX_PATTERN_LENGTH = 100; // Max characters for a food name/alias
+const MAX_CONTENT_LENGTH = 50000; // Max content length to process
+const MAX_MATCHES_PER_PATTERN = 50; // Max matches per food pattern
+
 interface FoodPattern {
   foodId: string;
   regex: RegExp;
@@ -16,19 +21,23 @@ export function createFoodLinkProcessor(
   const patterns: FoodPattern[] = [];
 
   for (const food of foods) {
-    // Add the main name
-    patterns.push({
-      foodId: food.id,
-      regex: createBoundaryRegex(food.name),
-    });
+    // Add the main name (skip if too long to prevent ReDoS)
+    if (food.name.length <= MAX_PATTERN_LENGTH) {
+      patterns.push({
+        foodId: food.id,
+        regex: createBoundaryRegex(food.name),
+      });
+    }
 
-    // Add aliases
+    // Add aliases (skip if too long)
     if (food.aliases) {
       for (const alias of food.aliases) {
-        patterns.push({
-          foodId: food.id,
-          regex: createBoundaryRegex(alias),
-        });
+        if (alias.length <= MAX_PATTERN_LENGTH) {
+          patterns.push({
+            foodId: food.id,
+            regex: createBoundaryRegex(alias),
+          });
+        }
       }
     }
   }
@@ -94,6 +103,11 @@ function processContentWithPatterns(
   content: string,
   patterns: FoodPattern[]
 ): string {
+  // Skip processing if content is too long (security limit)
+  if (content.length > MAX_CONTENT_LENGTH) {
+    return content;
+  }
+
   // Track which ranges have been replaced to avoid overlapping matches
   const replacedRanges: { start: number; end: number }[] = [];
 
@@ -104,8 +118,10 @@ function processContentWithPatterns(
     // Reset regex lastIndex for fresh search
     regex.lastIndex = 0;
 
+    let matchCount = 0;
     let match;
-    while ((match = regex.exec(content)) !== null) {
+    while ((match = regex.exec(content)) !== null && matchCount < MAX_MATCHES_PER_PATTERN) {
+      matchCount++;
       const start = match.index;
       const end = start + match[0].length;
 

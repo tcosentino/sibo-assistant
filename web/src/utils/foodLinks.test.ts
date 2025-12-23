@@ -585,4 +585,66 @@ describe('createFoodLinkProcessor', () => {
       expect(processor.processContent('Use skim milk.')).toBe('Use [skim milk](@food:milk).');
     });
   });
+
+  describe('security limits', () => {
+    it('should skip food names that exceed maximum length', () => {
+      const veryLongName = 'A'.repeat(150); // Exceeds MAX_PATTERN_LENGTH of 100
+      const foods = [
+        { id: 'long-food', name: veryLongName },
+        { id: 'carrot', name: 'Carrot' },
+      ];
+
+      const processor = createFoodLinkProcessor(foods);
+      const content = `Try ${veryLongName} and Carrot.`;
+      const result = processor.processContent(content);
+
+      // Long food name should NOT be linked, but Carrot should be
+      expect(result).toContain(veryLongName);
+      expect(result).not.toContain(`[${veryLongName}]`);
+      expect(result).toContain('[Carrot](@food:carrot)');
+    });
+
+    it('should skip aliases that exceed maximum length', () => {
+      const veryLongAlias = 'B'.repeat(150);
+      const foods = [
+        { id: 'food', name: 'Food', aliases: [veryLongAlias, 'short alias'] },
+      ];
+
+      const processor = createFoodLinkProcessor(foods);
+
+      // Short alias should work
+      expect(processor.processContent('Try short alias.')).toBe('Try [short alias](@food:food).');
+
+      // Long alias should not be linked
+      const longContent = `Try ${veryLongAlias}.`;
+      expect(processor.processContent(longContent)).toBe(longContent);
+    });
+
+    it('should return content unchanged if it exceeds maximum length', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const processor = createFoodLinkProcessor(foods);
+
+      // Create content longer than MAX_CONTENT_LENGTH (50000)
+      const veryLongContent = 'Carrot '.repeat(10000); // ~70000 chars
+      const result = processor.processContent(veryLongContent);
+
+      // Should return unchanged (no links added)
+      expect(result).toBe(veryLongContent);
+    });
+
+    it('should limit matches per pattern to prevent excessive processing', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const processor = createFoodLinkProcessor(foods);
+
+      // Create content with many occurrences (more than MAX_MATCHES_PER_PATTERN of 50)
+      const manyCarrots = 'Carrot '.repeat(100);
+      const result = processor.processContent(manyCarrots);
+
+      // Count how many links were created (look for the food link pattern)
+      const linkCount = (result.match(/\]\(@food:carrot\)/g) || []).length;
+
+      // Should have exactly 50 links (the limit)
+      expect(linkCount).toBe(50);
+    });
+  });
 });
