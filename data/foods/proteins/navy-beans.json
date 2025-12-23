@@ -1,0 +1,61 @@
+{
+  "id": "navy-beans",
+  "name": "Navy Beans",
+  "aliases": [
+    "White beans",
+    "Boston beans",
+    "Pea beans",
+    "Haricot beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 90,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Navy beans are high in galactans (GOS) which can ferment in the small intestine. Limit to 2 tablespoons or less if tolerated during SIBO treatment phases.",
+  "preparationTips": [
+    "Soak dried beans overnight and rinse thoroughly before cooking to reduce oligosaccharides",
+    "Cook beans thoroughly and add digestive spices like ginger or fennel seeds",
+    "Start with very small portions (1-2 tablespoons) to test tolerance",
+    "Consider canned beans which may be slightly better tolerated than dried"
+  ],
+  "alternatives": [
+    "Firm tofu (low FODMAP protein source)",
+    "Tempeh in small amounts (46g serving)",
+    "Canned lentils (1/4 cup serving)",
+    "Eggs or chicken for complete protein without FODMAPs"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Spinach",
+    "Brown rice",
+    "Olive oil",
+    "Fresh herbs like parsley or chives"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein and fiber",
+    "Rich in folate and magnesium",
+    "Good source of iron and potassium",
+    "Contains resistant starch for gut health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

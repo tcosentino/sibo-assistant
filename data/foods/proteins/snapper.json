@@ -1,0 +1,48 @@
+{
+  "id": "snapper",
+  "name": "Snapper",
+  "aliases": [
+    "Red snapper",
+    "Pink snapper",
+    "Yellowtail snapper"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "1 serving"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO diets as it's naturally FODMAP-free and easy to digest when prepared simply.",
+  "preparationTips": [
+    "Grill, bake, or pan-sear with FODMAP-friendly herbs like basil or oregano",
+    "Avoid garlic and onion-based marinades",
+    "Season with lemon juice, salt, and pepper for simple preparation",
+    "Cook to internal temperature of 145°F (63°C)"
+  ],
+  "alternatives": [
+    "Cod",
+    "Halibut",
+    "Salmon",
+    "Chicken breast"
+  ],
+  "pairsWellWith": [
+    "Steamed carrots",
+    "Green beans",
+    "Quinoa",
+    "Baby spinach",
+    "Lemon wedges"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Omega-3 fatty acids",
+    "Vitamin B12",
+    "Selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

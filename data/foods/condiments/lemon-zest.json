@@ -1,0 +1,47 @@
+{
+  "id": "lemon-zest",
+  "name": "Lemon Zest",
+  "aliases": [
+    "Lemon peel",
+    "Lemon rind"
+  ],
+  "category": "condiment",
+  "subcategory": "citrus",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 6,
+      "description": "Zest of 1 medium lemon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated by SIBO patients as it contains minimal FODMAPs and provides flavor without digestive burden.",
+  "preparationTips": [
+    "Use a microplane or fine grater for best texture",
+    "Only zest the yellow outer layer, avoid bitter white pith",
+    "Wash lemon thoroughly before zesting",
+    "Store fresh zest in refrigerator up to 1 week or freeze for longer storage"
+  ],
+  "alternatives": [
+    "Lime zest",
+    "Orange zest",
+    "Lemon extract (small amounts)",
+    "Fresh lemon juice"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "White fish",
+    "Olive oil-based dressings",
+    "Fresh herbs like basil or thyme",
+    "Low-FODMAP vegetables"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and citrus bioflavonoids",
+    "Contains limonene with anti-inflammatory properties",
+    "Provides antioxidants without added sugars",
+    "Virtually calorie-free flavor enhancer"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

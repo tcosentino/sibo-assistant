@@ -1,0 +1,44 @@
+{
+  "id": "stevia",
+  "name": "Stevia",
+  "aliases": [
+    "stevia leaf extract",
+    "stevia powder",
+    "stevia drops",
+    "stevia sweetener"
+  ],
+  "category": "sweetener",
+  "subcategory": "natural-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 4,
+      "description": "About 1 teaspoon powder or 5-10 drops liquid",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Stevia is SIBO-friendly as it doesn't feed bacterial overgrowth and provides sweetness without digestive upset.",
+  "preparationTips": [
+    "Start with small amounts as stevia is much sweeter than sugar",
+    "Look for pure stevia extract without added bulking agents like inulin or maltodextrin",
+    "Liquid stevia drops dissolve easily in beverages",
+    "Pure stevia powder works well in baking but may need recipe adjustments"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "coffee",
+    "tea",
+    "plain yogurt",
+    "berries",
+    "lemon water"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories and carbohydrates",
+    "Does not affect blood sugar levels",
+    "Natural plant-based sweetener",
+    "No artificial additives in pure forms"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

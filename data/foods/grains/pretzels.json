@@ -1,0 +1,60 @@
+{
+  "id": "pretzels",
+  "name": "Pretzels",
+  "aliases": [
+    "soft pretzels",
+    "hard pretzels",
+    "pretzel sticks"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 15,
+      "description": "About 2-3 mini pretzels",
+      "cups": "1/8 cup"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 1 small pretzel or 6-8 mini pretzels",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High fructan content makes pretzels problematic for SIBO patients. Even small amounts can trigger symptoms due to wheat-based fructans.",
+  "preparationTips": [
+    "Check ingredient lists for added garlic or onion powder",
+    "Look for gluten-free varieties made with rice or corn flour",
+    "Consider making homemade versions with gluten-free flours",
+    "Be mindful of flavored varieties which may contain additional FODMAPs"
+  ],
+  "alternatives": [
+    "Rice cakes",
+    "Corn tortilla chips",
+    "Gluten-free crackers",
+    "Sourdough spelt bread (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Peanut butter",
+    "Lactose-free cream cheese",
+    "Carrot sticks",
+    "Bell pepper strips"
+  ],
+  "nutritionalHighlights": [
+    "Provides carbohydrates for energy",
+    "Contains B vitamins from wheat flour",
+    "Source of iron and folate",
+    "High in sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

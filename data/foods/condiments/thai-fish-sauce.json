@@ -1,0 +1,43 @@
+{
+  "id": "thai-fish-sauce",
+  "name": "Thai Fish Sauce",
+  "aliases": [
+    "Nam Pla",
+    "Fish Sauce",
+    "Nuoc Mam"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Fish sauce is naturally FODMAP-free and well-tolerated by most SIBO patients. Use as desired for flavor without FODMAP concerns.",
+  "preparationTips": [
+    "A little goes a long way - start with small amounts as it's very salty",
+    "Store in pantry after opening - refrigeration not required",
+    "Mix with lime juice and chili for a quick dipping sauce",
+    "Add at end of cooking to preserve flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice noodles",
+    "Grilled chicken or shrimp",
+    "Bok choy and other Asian greens",
+    "Lime juice and fresh herbs",
+    "Low-FODMAP stir-fry vegetables"
+  ],
+  "nutritionalHighlights": [
+    "Rich in umami compounds for deep savory flavor",
+    "Contains protein from fermented fish",
+    "Source of B vitamins from fermentation process",
+    "Low in calories but high in sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

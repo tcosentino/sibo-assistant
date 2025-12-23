@@ -1,0 +1,48 @@
+{
+  "id": "peppermint-tea",
+  "name": "Peppermint Tea",
+  "aliases": [
+    "Mint tea",
+    "Peppermint herbal tea",
+    "Mentha tea"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 standard tea cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Peppermint tea is well-tolerated and may actually help reduce SIBO symptoms due to its antimicrobial and antispasmodic properties. Avoid sweetening with high FODMAP ingredients.",
+  "preparationTips": [
+    "Steep fresh peppermint leaves for 5-7 minutes for optimal flavor",
+    "Use 1-2 teaspoons dried peppermint per cup of boiling water",
+    "Avoid adding honey or high FODMAP sweeteners",
+    "Can be enjoyed hot or cold throughout the day"
+  ],
+  "alternatives": [
+    "Chamomile tea",
+    "Ginger tea",
+    "Green tea",
+    "Black tea"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP biscuits",
+    "Rice crackers",
+    "Aged cheddar cheese",
+    "Strawberries",
+    "Dark chocolate (small portions)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in menthol with digestive benefits",
+    "Contains antioxidants and anti-inflammatory compounds",
+    "Naturally caffeine-free",
+    "May help reduce nausea and digestive discomfort"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "grits",
+  "name": "Grits",
+  "aliases": [
+    "Corn grits",
+    "Hominy grits",
+    "Stone-ground grits"
+  ],
+  "category": "grain",
+  "subcategory": "corn",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 185,
+      "description": "About 3/4 cup cooked",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Plain grits are well-tolerated for SIBO as they contain minimal fermentable carbohydrates and are easily digestible.",
+  "preparationTips": [
+    "Cook with lactose-free milk or water instead of regular milk",
+    "Avoid adding high-FODMAP ingredients like onion or garlic powder",
+    "Use low-FODMAP seasonings like chives, herbs, or a small amount of aged cheese",
+    "Stone-ground grits may be more nutritious but take longer to cook"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Chives",
+    "Lactose-free butter",
+    "Bacon or ham",
+    "Scrambled eggs"
+  ],
+  "nutritionalHighlights": [
+    "Good source of iron and B vitamins",
+    "Provides complex carbohydrates for sustained energy",
+    "Naturally gluten-free grain option",
+    "Contains antioxidants from corn"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

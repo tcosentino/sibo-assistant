@@ -1,0 +1,42 @@
+{
+  "id": "cashew-milk",
+  "name": "Cashew Milk",
+  "aliases": [
+    "Cashew beverage",
+    "Plant-based cashew milk"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as cashews are naturally low FODMAP and the milk form dilutes any potential residual FODMAPs further.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added high FODMAP sweeteners",
+    "Check labels for inulin or chicory root which are high FODMAP",
+    "Store-bought is often more diluted than homemade versions",
+    "Shake well before use as separation is natural"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Coffee and tea",
+    "Smoothies with low FODMAP fruits",
+    "Oats and quinoa porridge",
+    "Low FODMAP baking recipes"
+  ],
+  "nutritionalHighlights": [
+    "Healthy monounsaturated fats",
+    "Lower in protein than dairy milk",
+    "Often fortified with calcium and vitamin D",
+    "Naturally lactose-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

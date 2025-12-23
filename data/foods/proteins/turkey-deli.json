@@ -1,0 +1,49 @@
+{
+  "id": "turkey-deli",
+  "name": "Turkey (Deli)",
+  "aliases": [
+    "Sliced turkey",
+    "Deli turkey",
+    "Turkey lunch meat",
+    "Turkey cold cuts"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 thin slices",
+      "cups": "About 1/2 cup chopped"
+    }
+  },
+  "siboNotes": "Plain deli turkey is naturally FODMAP-free and well-tolerated. Check labels for added garlic, onion powder, or high FODMAP seasonings.",
+  "preparationTips": [
+    "Choose plain, unseasoned varieties when possible",
+    "Read ingredient labels carefully for garlic or onion powder",
+    "Look for nitrate-free options to reduce additives",
+    "Store properly and consume within 3-5 days of opening"
+  ],
+  "alternatives": [
+    "Freshly roasted turkey breast",
+    "Chicken breast (deli or fresh)",
+    "Ham (check for garlic/onion)",
+    "Roast beef (plain varieties)"
+  ],
+  "pairsWellWith": [
+    "Sourdough bread (spelt or wheat-free)",
+    "Lettuce and spinach",
+    "Tomatoes",
+    "Cucumber",
+    "Cheddar or Swiss cheese"
+  ],
+  "nutritionalHighlights": [
+    "High in lean protein (20-25g per 100g)",
+    "Good source of B vitamins, especially B6 and B12",
+    "Provides selenium and phosphorus",
+    "Low in saturated fat when skin is removed"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

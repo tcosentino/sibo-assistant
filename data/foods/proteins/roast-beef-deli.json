@@ -1,0 +1,43 @@
+{
+  "id": "roast-beef-deli",
+  "name": "Roast Beef (Deli)",
+  "aliases": [
+    "Deli roast beef",
+    "Sliced roast beef",
+    "Cold roast beef"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 thin slices",
+      "cups": "3/4 cup chopped"
+    }
+  },
+  "siboNotes": "Plain roast beef is naturally FODMAP-free and well-tolerated. Watch for added seasonings or marinades that may contain garlic or onion powder.",
+  "preparationTips": [
+    "Choose plain roast beef without added seasonings when possible",
+    "Check ingredient labels for garlic powder, onion powder, or high FODMAP additives",
+    "Opt for freshly sliced deli meat over pre-packaged varieties when available",
+    "Store properly refrigerated and consume within 3-5 days of purchase"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough bread (spelt or wheat-free)",
+    "Lettuce and spinach",
+    "Swiss or cheddar cheese",
+    "Cucumber slices",
+    "Carrot sticks"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (20-25g per serving)",
+    "Rich in iron and zinc",
+    "Good source of B-vitamins, especially B12",
+    "Contains selenium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

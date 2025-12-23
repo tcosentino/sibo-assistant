@@ -1,0 +1,59 @@
+{
+  "id": "naan",
+  "name": "Naan",
+  "aliases": [
+    "Indian flatbread",
+    "leavened flatbread"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0 cups"
+    },
+    "moderate": {
+      "grams": 25,
+      "description": "About 1/4 of small naan",
+      "cups": "Not applicable"
+    },
+    "high": {
+      "grams": 60,
+      "description": "1 small naan (typical serving)",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "High in fructans from wheat flour, should be avoided during SIBO elimination phases. Even small portions can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Choose gluten-free naan made with rice flour when available",
+    "Limit portion sizes if consuming occasionally",
+    "Pair with low-FODMAP proteins and vegetables",
+    "Consider making homemade versions with gluten-free flour blends"
+  ],
+  "alternatives": [
+    "Rice crackers",
+    "Corn tortillas",
+    "Gluten-free flatbread",
+    "Rice cakes"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Lamb curry",
+    "Basmati rice",
+    "Cucumber raita",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "Small amounts of protein",
+    "B vitamins from enriched flour",
+    "Iron from fortified flour"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

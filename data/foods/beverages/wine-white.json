@@ -1,0 +1,44 @@
+{
+  "id": "wine-white",
+  "name": "Wine (White)",
+  "aliases": [
+    "White wine",
+    "Chardonnay",
+    "Sauvignon Blanc",
+    "Pinot Grigio"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 standard glass (5 fl oz)",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Alcohol can slow gastric emptying and may worsen SIBO symptoms in some individuals. Consume in moderation and monitor tolerance.",
+  "preparationTips": [
+    "Choose dry white wines over sweet varieties to avoid added sugars",
+    "Consume with food to slow alcohol absorption",
+    "Stay hydrated by drinking water alongside wine",
+    "Limit to 1-2 glasses to avoid digestive irritation"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Aged hard cheeses",
+    "Grilled chicken",
+    "Fresh seafood",
+    "Low FODMAP herbs like basil or oregano",
+    "Olives"
+  ],
+  "nutritionalHighlights": [
+    "Contains antioxidants like resveratrol",
+    "Low in carbohydrates when dry",
+    "May support heart health in moderation",
+    "Contains potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

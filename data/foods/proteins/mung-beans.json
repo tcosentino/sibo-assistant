@@ -1,0 +1,60 @@
+{
+  "id": "mung-beans",
+  "name": "Mung Beans",
+  "aliases": [
+    "Green Beans (dried)",
+    "Moong Beans",
+    "Golden Gram"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons cooked",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High in galactans (GOS) which can feed bacterial overgrowth. If including, start with very small portions (1-2 tbsp) and monitor symptoms carefully.",
+  "preparationTips": [
+    "Soak overnight and rinse well before cooking to reduce FODMAP content",
+    "Cook thoroughly until very soft",
+    "Start with sprouted mung beans which may be better tolerated",
+    "Consider mung bean starch/flour as a lower-FODMAP alternative for recipes"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small portions)",
+    "Canned lentils (1/4 cup max)",
+    "Quinoa"
+  ],
+  "pairsWellWith": [
+    "Jasmine rice",
+    "Bok choy",
+    "Carrots",
+    "Ginger",
+    "Turmeric"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Rich in folate and potassium",
+    "Good source of fiber",
+    "Contains antioxidants and phytonutrients"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "nutmeg",
+  "name": "Nutmeg",
+  "aliases": [
+    "Ground nutmeg",
+    "Whole nutmeg",
+    "Myristica fragrans"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon ground",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Nutmeg is FODMAP-free and generally well-tolerated in typical culinary amounts. Use sparingly as excessive amounts can cause digestive upset.",
+  "preparationTips": [
+    "Use freshly grated whole nutmeg for best flavor and potency",
+    "Add at the end of cooking to preserve aromatic compounds",
+    "Store whole nutmeg in airtight container for up to 4 years",
+    "A little goes a long way - start with small pinches"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free milk and cream",
+    "Cinnamon and allspice",
+    "Vanilla extract",
+    "Maple syrup",
+    "Carrots and sweet potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and anti-inflammatory compounds",
+    "Contains manganese for bone health",
+    "Provides small amounts of copper and magnesium",
+    "Traditional digestive aid in small amounts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

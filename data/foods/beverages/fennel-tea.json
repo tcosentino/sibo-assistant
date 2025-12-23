@@ -1,0 +1,47 @@
+{
+  "id": "fennel-tea",
+  "name": "Fennel Tea",
+  "aliases": [
+    "Fennel seed tea",
+    "Fennel herbal tea"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Fennel tea may have antispasmodic properties that could help with digestive discomfort. Generally well-tolerated in SIBO protocols when consumed in normal amounts.",
+  "preparationTips": [
+    "Use 1-2 teaspoons of fennel seeds per cup of boiling water",
+    "Steep for 5-10 minutes for optimal flavor without becoming too strong",
+    "Strain seeds before drinking to avoid consuming whole seeds",
+    "Can be enjoyed hot or cold throughout the day"
+  ],
+  "alternatives": [
+    "Peppermint tea",
+    "Ginger tea",
+    "Chamomile tea",
+    "Green tea"
+  ],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Low-FODMAP crackers",
+    "Lactose-free cheese",
+    "Plain sourdough toast",
+    "Oranges"
+  ],
+  "nutritionalHighlights": [
+    "Contains anethole, which may aid digestion",
+    "Natural source of antioxidants",
+    "Caffeine-free herbal beverage",
+    "May help reduce bloating and gas"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

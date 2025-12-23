@@ -1,0 +1,47 @@
+{
+  "id": "coconut-flour",
+  "name": "Coconut Flour",
+  "aliases": [
+    "desiccated coconut flour",
+    "coconut meal"
+  ],
+  "category": "grain",
+  "subcategory": "flour",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated for SIBO as it's naturally FODMAP-free and high in fiber, though the fiber content may cause digestive symptoms if consumed in large amounts initially.",
+  "preparationTips": [
+    "Use only 1/4 the amount compared to wheat flour in recipes due to high absorbency",
+    "Always sift before measuring to break up clumps",
+    "Add extra liquid or eggs to recipes as coconut flour absorbs moisture rapidly",
+    "Allow batter to rest 5-10 minutes before baking to fully hydrate"
+  ],
+  "alternatives": [
+    "Almond flour",
+    "Rice flour",
+    "Oat flour (small amounts)",
+    "Tapioca flour"
+  ],
+  "pairsWellWith": [
+    "Eggs",
+    "Lactose-free milk",
+    "Vanilla extract",
+    "Maple syrup",
+    "Blueberries"
+  ],
+  "nutritionalHighlights": [
+    "High in dietary fiber (38g per 100g)",
+    "Good source of protein (19g per 100g)",
+    "Rich in healthy saturated fats",
+    "Contains iron and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

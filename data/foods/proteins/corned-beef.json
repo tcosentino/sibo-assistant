@@ -1,0 +1,43 @@
+{
+  "id": "corned-beef",
+  "name": "Corned Beef",
+  "aliases": [
+    "salt beef",
+    "pickled beef",
+    "brined beef"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz serving",
+      "cups": "2/3 cup sliced"
+    }
+  },
+  "siboNotes": "Plain corned beef is FODMAP-free and well-tolerated. Watch for added seasonings or sauces that may contain garlic or onion.",
+  "preparationTips": [
+    "Choose plain corned beef without seasoning packets that may contain garlic or onion powder",
+    "Rinse before cooking to reduce excess sodium if desired",
+    "Cook low and slow for tender results - simmer for 2-3 hours",
+    "Check deli versions for added ingredients like garlic or onion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "carrots",
+    "potatoes",
+    "cabbage",
+    "mustard",
+    "pickles"
+  ],
+  "nutritionalHighlights": [
+    "high-quality protein",
+    "vitamin B12",
+    "iron",
+    "zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

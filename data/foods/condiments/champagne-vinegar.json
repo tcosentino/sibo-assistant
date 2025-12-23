@@ -1,0 +1,47 @@
+{
+  "id": "champagne-vinegar",
+  "name": "Champagne Vinegar",
+  "aliases": [
+    "white wine vinegar",
+    "champagne wine vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as vinegars are FODMAP-free and may help with digestion.",
+  "preparationTips": [
+    "Use in salad dressings with low-FODMAP oils",
+    "Add to marinades for proteins and vegetables",
+    "Mix with herbs like chives or basil for flavor enhancement",
+    "Store in a cool, dark place to maintain quality"
+  ],
+  "alternatives": [
+    "Rice vinegar",
+    "Apple cider vinegar",
+    "White wine vinegar",
+    "Lemon juice"
+  ],
+  "pairsWellWith": [
+    "Mixed greens and spinach",
+    "Grilled chicken and fish",
+    "Olive oil and garlic-infused oil",
+    "Fresh herbs like basil and oregano",
+    "Low-FODMAP vegetables like bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories (about 3 per tablespoon)",
+    "Contains trace amounts of potassium",
+    "May help with blood sugar management",
+    "Adds flavor without sodium when used in place of salt"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

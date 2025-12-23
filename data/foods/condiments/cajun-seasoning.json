@@ -1,0 +1,48 @@
+{
+  "id": "cajun-seasoning",
+  "name": "Cajun Seasoning",
+  "aliases": [
+    "Creole seasoning",
+    "Blackening seasoning",
+    "Louisiana seasoning"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical seasoning amounts, though some commercial blends may contain garlic or onion powder - check ingredients.",
+  "preparationTips": [
+    "Read ingredient labels carefully as some commercial blends contain garlic or onion powder",
+    "Make your own blend with paprika, cayenne, oregano, thyme, and black pepper",
+    "Start with small amounts to test tolerance, especially if you're sensitive to spicy foods",
+    "Store in airtight container to maintain potency and prevent moisture"
+  ],
+  "alternatives": [
+    "Paprika with oregano and thyme",
+    "Chili powder (garlic-free)",
+    "Old Bay seasoning",
+    "Homemade spice blend with cumin and paprika"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "White fish fillets",
+    "Shrimp and seafood",
+    "Rice dishes",
+    "Roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from paprika and cayenne",
+    "Contains capsaicin which may boost metabolism",
+    "Provides vitamin A from paprika",
+    "Low in sodium compared to many seasoning salts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

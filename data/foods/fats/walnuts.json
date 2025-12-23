@@ -1,0 +1,43 @@
+{
+  "id": "walnuts",
+  "name": "Walnuts",
+  "aliases": [
+    "English walnuts",
+    "walnut halves",
+    "chopped walnuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 10 walnut halves or 1/4 cup chopped",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diets as they're FODMAP-free and provide beneficial fats that don't feed bacterial overgrowth.",
+  "preparationTips": [
+    "Store in refrigerator or freezer to prevent rancidity",
+    "Toast lightly to enhance flavor and crispness",
+    "Chop just before using to maintain freshness",
+    "Soak overnight if digestive sensitivity exists"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach salad",
+    "aged cheddar cheese",
+    "strawberries",
+    "dark chocolate",
+    "olive oil vinaigrette"
+  ],
+  "nutritionalHighlights": [
+    "High in omega-3 fatty acids (ALA)",
+    "Good source of protein and fiber",
+    "Rich in antioxidants and vitamin E",
+    "Contains magnesium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

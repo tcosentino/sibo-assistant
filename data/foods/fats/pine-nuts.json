@@ -1,0 +1,43 @@
+{
+  "id": "pine-nuts",
+  "name": "Pine Nuts",
+  "aliases": [
+    "Pignoli",
+    "Pinon nuts",
+    "Pine kernels"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons or 1 oz",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Pine nuts are naturally FODMAP-free and well-tolerated in SIBO, providing healthy fats without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Toast lightly in a dry pan for enhanced flavor and crunch",
+    "Store in refrigerator or freezer to prevent rancidity due to high oil content",
+    "Add to salads, pasta, or pesto at the end of cooking",
+    "Buy from reputable sources as quality varies significantly"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach and arugula salads",
+    "Low-FODMAP pasta dishes",
+    "Grilled chicken or fish",
+    "Olive oil-based sauces",
+    "Fresh basil and parmesan cheese"
+  ],
+  "nutritionalHighlights": [
+    "Rich in healthy monounsaturated fats",
+    "Good source of vitamin E and antioxidants",
+    "Contains heart-healthy oleic acid",
+    "Provides plant-based protein and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

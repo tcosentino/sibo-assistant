@@ -1,0 +1,43 @@
+{
+  "id": "champagne",
+  "name": "Champagne",
+  "aliases": [
+    "Sparkling wine",
+    "Prosecco",
+    "Cava"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "1 standard glass (5 fl oz)",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Alcohol can irritate the gut and affect motility, so consume in moderation even though champagne is FODMAP-free.",
+  "preparationTips": [
+    "Serve chilled for better digestibility",
+    "Drink slowly and with food to minimize gut irritation",
+    "Choose dry varieties over sweet champagnes",
+    "Limit to 1-2 glasses to avoid digestive upset"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Aged hard cheeses",
+    "Smoked salmon",
+    "Strawberries",
+    "Dark chocolate",
+    "Oysters"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (about 90-100 per glass)",
+    "Contains antioxidants from grapes",
+    "No carbohydrates or FODMAPs",
+    "Small amounts of potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "rye-bread",
+  "name": "Rye Bread",
+  "aliases": [
+    "Dark rye",
+    "Light rye",
+    "Pumpernickel"
+  ],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 1 thin slice",
+      "cups": "1 slice"
+    },
+    "moderate": {
+      "grams": 48,
+      "description": "About 2 thin slices",
+      "cups": "2 slices"
+    },
+    "high": {
+      "grams": 72,
+      "description": "About 3 slices or more",
+      "cups": "3+ slices"
+    }
+  },
+  "siboNotes": "High fructan content can trigger SIBO symptoms. Even small amounts may cause issues in sensitive individuals.",
+  "preparationTips": [
+    "Choose 100% spelt sourdough as better tolerated option",
+    "Toast lightly to aid digestion",
+    "Start with very small portions to test tolerance",
+    "Avoid if following strict elimination phase"
+  ],
+  "alternatives": [
+    "Sourdough spelt bread",
+    "Gluten-free bread",
+    "Rice cakes",
+    "Corn tortillas"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Peanut butter",
+    "Sliced tomatoes",
+    "Cucumber",
+    "Lettuce"
+  ],
+  "nutritionalHighlights": [
+    "B vitamins",
+    "Dietary fiber",
+    "Iron",
+    "Magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

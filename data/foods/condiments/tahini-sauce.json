@@ -1,0 +1,47 @@
+{
+  "id": "tahini-sauce",
+  "name": "Tahini Sauce",
+  "aliases": [
+    "sesame seed paste sauce",
+    "tahini dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure tahini is SIBO-friendly as it's made from sesame seeds. Check ingredients for added garlic or onion in commercial varieties.",
+  "preparationTips": [
+    "Make your own with pure sesame paste and lemon juice",
+    "Thin with water or olive oil for desired consistency",
+    "Add fresh herbs like parsley or chives instead of garlic",
+    "Store homemade tahini sauce in refrigerator for up to one week"
+  ],
+  "alternatives": [
+    "olive oil and lemon dressing",
+    "herb-infused olive oil",
+    "lemon vinaigrette",
+    "plain Greek yogurt with herbs"
+  ],
+  "pairsWellWith": [
+    "grilled chicken",
+    "roasted carrots",
+    "cucumber salad",
+    "quinoa bowls",
+    "grilled eggplant"
+  ],
+  "nutritionalHighlights": [
+    "healthy fats from sesame seeds",
+    "plant-based protein",
+    "calcium and magnesium",
+    "vitamin E and antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

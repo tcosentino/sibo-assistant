@@ -1,0 +1,43 @@
+{
+  "id": "coriander",
+  "name": "Coriander",
+  "aliases": [
+    "Cilantro",
+    "Chinese parsley",
+    "Fresh coriander"
+  ],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1/4 cup chopped fresh leaves",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Fresh coriander is well-tolerated and can help add flavor without triggering SIBO symptoms. Use freely as a low-FODMAP herb option.",
+  "preparationTips": [
+    "Wash thoroughly and pat dry before chopping to prevent wilting",
+    "Add fresh leaves at the end of cooking to preserve bright flavor",
+    "Store stems up in water like flowers to maintain freshness",
+    "Freeze chopped coriander in ice cube trays with oil for easy portioning"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lime juice",
+    "ginger",
+    "cumin",
+    "chili peppers",
+    "coconut milk"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin K",
+    "Vitamin C",
+    "Antioxidants",
+    "Folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

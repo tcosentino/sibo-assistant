@@ -1,0 +1,43 @@
+{
+  "id": "dill-weed",
+  "name": "Dill Weed",
+  "aliases": [
+    "Fresh Dill",
+    "Dill Leaves",
+    "Anethum graveolens"
+  ],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1/4 cup chopped",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as herbs are typically used in small quantities and don't significantly contribute FODMAPs.",
+  "preparationTips": [
+    "Add fresh dill at the end of cooking to preserve flavor and color",
+    "Chop finely to release maximum flavor from the delicate leaves",
+    "Store fresh dill in refrigerator wrapped in damp paper towel",
+    "Can be frozen in ice cube trays with water or oil for convenience"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Salmon",
+    "Cucumber",
+    "Yogurt (lactose-free)",
+    "Potatoes",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Vitamin A",
+    "Folate",
+    "Antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

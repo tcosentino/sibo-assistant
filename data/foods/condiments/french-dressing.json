@@ -1,0 +1,59 @@
+{
+  "id": "french-dressing",
+  "name": "French Dressing",
+  "aliases": [
+    "Catalina dressing",
+    "Western dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 45,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Contains high fructose corn syrup or sugar which may feed bacterial overgrowth. Choose brands with simple ingredients and use sparingly.",
+  "preparationTips": [
+    "Read labels carefully - avoid brands with high fructose corn syrup",
+    "Look for versions made with sugar or maple syrup instead",
+    "Make homemade with olive oil, vinegar, tomato paste, and allowed spices",
+    "Store opened bottles in refrigerator and shake well before use"
+  ],
+  "alternatives": [
+    "Olive oil and red wine vinegar",
+    "Lemon vinaigrette",
+    "Homemade tomato-based dressing with garlic oil",
+    "Italian dressing (check ingredients)"
+  ],
+  "pairsWellWith": [
+    "Mixed greens",
+    "Cucumber",
+    "Carrots",
+    "Bell peppers",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Provides vitamin E from vegetable oils",
+    "Contains lycopene from tomato ingredients",
+    "Often fortified with small amounts of vitamins A and C",
+    "High in calories from oil and sugar content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

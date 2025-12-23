@@ -1,0 +1,43 @@
+{
+  "id": "mussels",
+  "name": "Mussels",
+  "aliases": [
+    "Blue mussels",
+    "Mediterranean mussels",
+    "Green-lipped mussels"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 cup cooked mussels",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated in SIBO diets. Cook thoroughly and avoid high-FODMAP seasonings like garlic and onion.",
+  "preparationTips": [
+    "Steam in white wine with fresh herbs instead of garlic and onion",
+    "Season with garlic-infused oil (oil only, no garlic pieces) for flavor",
+    "Add fresh lemon juice and parsley after cooking",
+    "Discard any mussels that don't open during cooking"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon and herbs",
+    "White wine",
+    "Carrots",
+    "Bell peppers",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (24g per cup)",
+    "Excellent source of vitamin B12",
+    "Rich in selenium and manganese",
+    "Good source of omega-3 fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

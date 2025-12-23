@@ -1,0 +1,48 @@
+{
+  "id": "shaoxing-wine",
+  "name": "Shaoxing Wine",
+  "aliases": [
+    "Chinese cooking wine",
+    "Shaoxing rice wine",
+    "Chinese rice wine"
+  ],
+  "category": "condiment",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in cooking amounts as alcohol evaporates during cooking, reducing fermentation potential.",
+  "preparationTips": [
+    "Use in stir-fries and braised dishes where alcohol will cook off",
+    "Store in cool, dark place after opening",
+    "A little goes a long way - start with 1 tablespoon per dish",
+    "Can be added early in cooking process to allow alcohol to evaporate"
+  ],
+  "alternatives": [
+    "Dry sherry (similar flavor profile)",
+    "Rice vinegar with a pinch of salt",
+    "Mirin (check for added sugars)",
+    "Low-sodium soy sauce for umami depth"
+  ],
+  "pairsWellWith": [
+    "Ginger and scallion greens",
+    "Bok choy and other Asian greens",
+    "Tofu and tempeh",
+    "Rice and rice noodles",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "Adds complex umami flavor to dishes",
+    "Contains trace minerals from rice fermentation",
+    "Low in calories when used in cooking amounts",
+    "Alcohol content cooks off in most preparations"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

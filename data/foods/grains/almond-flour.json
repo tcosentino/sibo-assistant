@@ -1,0 +1,48 @@
+{
+  "id": "almond-flour",
+  "name": "Almond Flour",
+  "aliases": [
+    "Almond Meal",
+    "Ground Almonds",
+    "Blanched Almond Flour"
+  ],
+  "category": "grain",
+  "subcategory": "nut-flour",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as it's naturally grain-free and low in fermentable carbohydrates. High fat content may slow gastric emptying in some individuals.",
+  "preparationTips": [
+    "Store in refrigerator or freezer to prevent rancidity due to high oil content",
+    "Sift before using to remove any large pieces and ensure smooth texture",
+    "Use blanched almond flour for lighter colored baked goods",
+    "Substitute up to 25% of regular flour in recipes to start"
+  ],
+  "alternatives": [
+    "Coconut flour (use less, it's more absorbent)",
+    "Rice flour",
+    "Oat flour (if oats tolerated)",
+    "Cassava flour"
+  ],
+  "pairsWellWith": [
+    "Eggs for binding in baking",
+    "Vanilla extract",
+    "Cinnamon and other low-FODMAP spices",
+    "Low-FODMAP berries",
+    "Dark chocolate (lactose-free)"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and healthy monounsaturated fats",
+    "Good source of vitamin E and magnesium",
+    "Naturally gluten-free and grain-free",
+    "Lower in carbohydrates than wheat flour"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

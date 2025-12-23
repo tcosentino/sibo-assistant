@@ -1,0 +1,60 @@
+{
+  "id": "lima-beans",
+  "name": "Lima Beans",
+  "aliases": [
+    "Butter Beans",
+    "Baby Lima Beans",
+    "Large Lima Beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 1/4 cup canned, drained",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/2 cup canned, drained",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1 cup canned, drained",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Lima beans are high in galactans (GOS) which can trigger SIBO symptoms. Start with very small portions (1/4 cup or less) and monitor tolerance carefully.",
+  "preparationTips": [
+    "Rinse canned lima beans thoroughly to reduce FODMAP content",
+    "Start with baby lima beans as they may be better tolerated",
+    "Soak dried lima beans overnight and discard soaking water before cooking",
+    "Combine with digestive spices like cumin or fennel seeds"
+  ],
+  "alternatives": [
+    "Firm tofu (low FODMAP up to 170g)",
+    "Tempeh (low FODMAP up to 100g)",
+    "Canned lentils (low FODMAP up to 46g)",
+    "Green beans (low FODMAP up to 135g)"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Zucchini",
+    "Bell peppers",
+    "Olive oil",
+    "Fresh herbs like parsley"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Rich in dietary fiber",
+    "Good source of folate and potassium",
+    "Contains iron and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

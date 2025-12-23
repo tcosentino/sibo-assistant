@@ -1,0 +1,49 @@
+{
+  "id": "textured-vegetable-protein-tvp",
+  "name": "Textured Vegetable Protein (TVP)",
+  "aliases": [
+    "Textured Soy Protein",
+    "TSP",
+    "Soy Protein Chunks",
+    "Soy Meat"
+  ],
+  "category": "protein",
+  "subcategory": "soy",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 1/2 cup rehydrated",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "TVP is well-tolerated by most SIBO patients as it's low FODMAP and highly processed soy protein. The fiber content is moderate and generally digestible.",
+  "preparationTips": [
+    "Rehydrate with low-FODMAP broth or water before cooking",
+    "Season with garlic-infused oil instead of fresh garlic",
+    "Add herbs like oregano, basil, or thyme for flavor",
+    "Can be used as ground meat substitute in sauces and stews"
+  ],
+  "alternatives": [
+    "Firm tofu (up to 170g serving)",
+    "Tempeh (up to 75g serving)",
+    "Ground turkey or chicken",
+    "Lentil-free plant-based proteins"
+  ],
+  "pairsWellWith": [
+    "Brown rice or quinoa",
+    "Low-FODMAP vegetables like carrots and bell peppers",
+    "Tomato-based sauces",
+    "Spinach and leafy greens",
+    "Garlic-infused olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High complete protein (about 12g per 1/2 cup serving)",
+    "Good source of iron and B vitamins",
+    "Low in fat and calories",
+    "Contains isoflavones from soy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

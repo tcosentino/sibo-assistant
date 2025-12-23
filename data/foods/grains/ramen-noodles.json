@@ -1,0 +1,60 @@
+{
+  "id": "ramen-noodles",
+  "name": "Ramen Noodles",
+  "aliases": [
+    "Instant noodles",
+    "Cup noodles",
+    "Wheat ramen"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving - contains wheat",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 0,
+      "description": "No safe serving - contains wheat",
+      "cups": "0"
+    },
+    "high": {
+      "grams": 85,
+      "description": "1 standard serving package",
+      "cups": "About 1 cup cooked"
+    }
+  },
+  "siboNotes": "Avoid during SIBO treatment as wheat-based noodles are high in fructans and can feed bacterial overgrowth. Consider rice-based alternatives instead.",
+  "preparationTips": [
+    "If consuming, cook thoroughly to improve digestibility",
+    "Avoid seasoning packets which often contain garlic and onion",
+    "Drain cooking water to reduce some fructan content",
+    "Consider breaking portion into smaller amounts over time"
+  ],
+  "alternatives": [
+    "Rice noodles",
+    "Rice vermicelli",
+    "Gluten-free pasta",
+    "Shirataki noodles"
+  ],
+  "pairsWellWith": [
+    "Bok choy",
+    "Carrots",
+    "Scallions (green parts)",
+    "Eggs",
+    "Tofu"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "B vitamins (if fortified)",
+    "Iron (if fortified)",
+    "Low in fiber and protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "guacamole",
+  "name": "Guacamole",
+  "aliases": [
+    "avocado dip",
+    "avocado spread"
+  ],
+  "category": "condiment",
+  "subcategory": "dip",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "polyols-sorbitol",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "The sorbitol from avocado can trigger symptoms in SIBO patients. Start with small portions and monitor tolerance.",
+  "preparationTips": [
+    "Use lime juice instead of lemon for lower FODMAP content",
+    "Replace garlic with garlic-infused oil",
+    "Use green tops of scallions instead of onion",
+    "Add fresh cilantro for flavor without FODMAPs"
+  ],
+  "alternatives": [
+    "olive tapenade",
+    "herb-infused olive oil",
+    "tahini-based dips",
+    "low-FODMAP salsa verde"
+  ],
+  "pairsWellWith": [
+    "corn tortilla chips",
+    "bell pepper strips",
+    "cucumber slices",
+    "carrot sticks",
+    "grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "healthy monounsaturated fats",
+    "potassium",
+    "vitamin K",
+    "folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

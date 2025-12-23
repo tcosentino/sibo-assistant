@@ -1,0 +1,47 @@
+{
+  "id": "worcestershire-sauce",
+  "name": "Worcestershire Sauce",
+  "aliases": [
+    "Worcester sauce",
+    "Lea & Perrins"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well tolerated in typical serving sizes, but some brands may contain garlic powder - check ingredients if highly sensitive.",
+  "preparationTips": [
+    "Check ingredient labels as some brands may contain onion or garlic powder",
+    "Use sparingly as it's quite flavorful and sodium-rich",
+    "Store in refrigerator after opening for best quality",
+    "Shake well before use as ingredients may separate"
+  ],
+  "alternatives": [
+    "Tamari or soy sauce with a splash of vinegar",
+    "Fish sauce mixed with rice vinegar",
+    "Homemade blend of anchovies, vinegar, and spices",
+    "Low-sodium soy sauce with lemon juice"
+  ],
+  "pairsWellWith": [
+    "Grilled meats and poultry",
+    "Roasted vegetables like carrots and potatoes",
+    "Rice dishes and stir-fries",
+    "Tomato-based sauces",
+    "Hard cheeses like cheddar"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories per serving",
+    "Contains small amounts of B vitamins from yeast extract",
+    "Provides umami flavor without added FODMAPs",
+    "Contains vinegar which may support digestion"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

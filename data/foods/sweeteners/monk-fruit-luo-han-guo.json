@@ -1,0 +1,44 @@
+{
+  "id": "monk-fruit-luo-han-guo",
+  "name": "Monk Fruit (Luo Han Guo)",
+  "aliases": [
+    "Luo Han Guo",
+    "Buddha Fruit",
+    "Monk Fruit Sweetener",
+    "Siraitia grosvenorii"
+  ],
+  "category": "sweetener",
+  "subcategory": "natural-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2 teaspoons powdered or equivalent liquid",
+      "cups": "2 tsp"
+    }
+  },
+  "siboNotes": "Monk fruit is FODMAP-free and generally well-tolerated in SIBO, though some commercial blends may contain fillers like erythritol that could cause symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check ingredient labels as commercial monk fruit may be blended with other sweeteners",
+    "Pure monk fruit extract is 150-300x sweeter than sugar, so use sparingly",
+    "Works well in both hot and cold beverages and baking applications",
+    "May have a slight aftertaste that some find fruity or licorice-like"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "green tea",
+    "herbal teas",
+    "low-FODMAP baked goods",
+    "plain yogurt (lactose-free)",
+    "chia seeds"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "Zero carbohydrates",
+    "Contains antioxidant compounds called mogrosides",
+    "Does not affect blood sugar levels"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

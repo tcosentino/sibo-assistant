@@ -1,0 +1,43 @@
+{
+  "id": "tapioca",
+  "name": "Tapioca",
+  "aliases": [
+    "tapioca starch",
+    "cassava starch",
+    "tapioca flour"
+  ],
+  "category": "grain",
+  "subcategory": "starch",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 2/3 cup cooked tapioca pearls or 1/2 cup flour",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Tapioca is well-tolerated on SIBO diets as it's a pure starch without FODMAPs. Easy to digest and gentle on sensitive stomachs.",
+  "preparationTips": [
+    "Soak tapioca pearls for 30 minutes before cooking for even texture",
+    "Cook small pearl tapioca for 15-20 minutes until translucent",
+    "Use tapioca flour as a thickener for sauces and gravies",
+    "Store in airtight container to prevent clumping"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "coconut milk",
+    "vanilla extract",
+    "fresh berries",
+    "maple syrup",
+    "almond milk"
+  ],
+  "nutritionalHighlights": [
+    "Pure carbohydrate source for quick energy",
+    "Naturally gluten-free",
+    "Low in protein and fiber",
+    "Contains small amounts of calcium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

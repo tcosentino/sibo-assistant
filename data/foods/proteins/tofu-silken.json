@@ -1,0 +1,48 @@
+{
+  "id": "tofu-silken",
+  "name": "Tofu (Silken)",
+  "aliases": [
+    "Soft tofu",
+    "Japanese tofu",
+    "Silken bean curd"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 170,
+      "description": "About 3/4 cup cubed",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as it's low FODMAP and easily digestible. Choose organic varieties when possible.",
+  "preparationTips": [
+    "Drain gently as silken tofu is very delicate",
+    "Perfect for smoothies, desserts, and creamy sauces",
+    "Can be blended into salad dressings for protein boost",
+    "Store opened packages in water in refrigerator for up to 3 days"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small portions)",
+    "Chicken breast",
+    "Eggs"
+  ],
+  "pairsWellWith": [
+    "Bok choy",
+    "Carrots",
+    "Bell peppers",
+    "Rice noodles",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "Good source of calcium and iron",
+    "Contains isoflavones with potential health benefits",
+    "Low in saturated fat and cholesterol-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

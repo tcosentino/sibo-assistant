@@ -1,0 +1,43 @@
+{
+  "id": "ketchup",
+  "name": "Ketchup",
+  "aliases": [
+    "tomato ketchup",
+    "catsup",
+    "tomato sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts. Check labels for high fructose corn syrup or onion powder which may trigger symptoms.",
+  "preparationTips": [
+    "Choose brands without onion or garlic powder for best tolerance",
+    "Stick to recommended serving size as sugar content can accumulate",
+    "Store opened bottles in refrigerator to maintain quality",
+    "Mix with other low-FODMAP condiments to stretch flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "baked potato",
+    "scrambled eggs",
+    "turkey burger",
+    "sweet potato fries"
+  ],
+  "nutritionalHighlights": [
+    "Contains lycopene from tomatoes",
+    "Small amounts of vitamin C",
+    "Low in calories per serving",
+    "Provides umami flavor enhancement"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

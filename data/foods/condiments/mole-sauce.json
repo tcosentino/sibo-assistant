@@ -1,0 +1,62 @@
+{
+  "id": "mole-sauce",
+  "name": "Mole Sauce",
+  "aliases": [
+    "Mexican Mole",
+    "Mole Poblano",
+    "Chocolate Mole"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans",
+    "galactans",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Traditional mole contains onions, garlic, and sometimes dried fruits which can trigger SIBO symptoms. Use sparingly and consider homemade versions with FODMAP-friendly ingredients.",
+  "preparationTips": [
+    "Make homemade mole using garlic-infused oil instead of fresh garlic",
+    "Replace onions with green parts of scallions for flavor",
+    "Choose mole varieties with minimal dried fruit content",
+    "Start with small amounts to test individual tolerance"
+  ],
+  "alternatives": [
+    "Homemade low-FODMAP chocolate sauce with cocoa and maple syrup",
+    "Chipotle sauce made with tomatoes and spices",
+    "Enchilada sauce without onion and garlic",
+    "Simple tomato-based Mexican sauce with cumin and paprika"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Turkey or beef",
+    "Corn tortillas",
+    "Rice",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from chocolate and chiles",
+    "Contains healthy fats from nuts and seeds",
+    "Provides vitamin C from peppers",
+    "Good source of magnesium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

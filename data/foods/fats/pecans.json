@@ -1,0 +1,42 @@
+{
+  "id": "pecans",
+  "name": "Pecans",
+  "aliases": [
+    "pecan halves",
+    "pecan pieces"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 20 halves or 1/4 cup pieces",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Pecans are naturally FODMAP-free and generally well-tolerated. High fat content may slow digestion in some sensitive individuals.",
+  "preparationTips": [
+    "Store in refrigerator or freezer to prevent rancidity due to high oil content",
+    "Toast lightly to enhance flavor and improve digestibility",
+    "Choose raw or dry-roasted varieties over flavored options which may contain FODMAP ingredients",
+    "Chop or grind for easier digestion if experiencing sensitivity"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "maple syrup (in small amounts)",
+    "cinnamon",
+    "vanilla extract",
+    "dark chocolate",
+    "lactose-free yogurt"
+  ],
+  "nutritionalHighlights": [
+    "Rich in healthy monounsaturated fats",
+    "Good source of vitamin E and manganese",
+    "Contains magnesium and zinc",
+    "Provides plant-based protein and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

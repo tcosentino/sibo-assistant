@@ -1,0 +1,42 @@
+{
+  "id": "mct-oil",
+  "name": "MCT Oil",
+  "aliases": [
+    "Medium Chain Triglyceride Oil",
+    "Caprylic Capric Triglycerides"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "MCT oil is well-tolerated and rapidly absorbed in the small intestine, making it less likely to feed bacterial overgrowth compared to other fats.",
+  "preparationTips": [
+    "Start with 1 teaspoon and gradually increase to avoid digestive upset",
+    "Mix into smoothies, coffee, or salad dressings for easy incorporation",
+    "Store at room temperature - does not require refrigeration",
+    "Can be used for light cooking but has a lower smoke point than coconut oil"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP smoothies with strawberries and spinach",
+    "Coffee or tea as a creamer substitute",
+    "Olive oil in salad dressings",
+    "Low FODMAP vegetables for roasting",
+    "Lactose-free yogurt for added richness"
+  ],
+  "nutritionalHighlights": [
+    "Rapidly absorbed medium-chain fatty acids",
+    "Provides quick energy without storing as body fat",
+    "May support cognitive function and metabolism",
+    "Contains no carbohydrates or FODMAPs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

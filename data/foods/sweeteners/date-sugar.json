@@ -1,0 +1,61 @@
+{
+  "id": "date-sugar",
+  "name": "Date Sugar",
+  "aliases": [
+    "Ground dates",
+    "Powdered dates",
+    "Date powder"
+  ],
+  "category": "sweetener",
+  "subcategory": "natural-sweetener",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 7,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 14,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 28,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Use sparingly as dates contain fructose and fructans that can feed bacterial overgrowth. Start with minimal amounts during SIBO treatment.",
+  "preparationTips": [
+    "Measure carefully as small amounts add up quickly in recipes",
+    "Mix with low FODMAP spices like cinnamon to enhance sweetness perception",
+    "Use in baking rather than as table sweetener for better portion control",
+    "Combine with maple syrup or rice malt syrup for lower FODMAP sweetening"
+  ],
+  "alternatives": [
+    "Rice malt syrup",
+    "Pure maple syrup",
+    "Stevia",
+    "Glucose syrup"
+  ],
+  "pairsWellWith": [
+    "Oats",
+    "Bananas",
+    "Dark chocolate",
+    "Cinnamon",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Contains potassium and antioxidants from dates",
+    "Provides some fiber and minerals",
+    "Natural source of sweetness",
+    "Contains small amounts of iron and copper"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

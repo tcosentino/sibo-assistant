@@ -1,0 +1,43 @@
+{
+  "id": "chamomile-tea",
+  "name": "Chamomile Tea",
+  "aliases": [
+    "German chamomile tea",
+    "Roman chamomile tea",
+    "Chamomile herbal tea"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Chamomile tea is well-tolerated in SIBO and may have anti-inflammatory properties that support digestive health.",
+  "preparationTips": [
+    "Steep 1-2 teaspoons dried chamomile flowers or 1 tea bag in hot water for 5-10 minutes",
+    "Avoid adding honey or agave (high FODMAP) - use maple syrup or stevia instead",
+    "Can be enjoyed hot or iced throughout the day",
+    "Quality varies - choose organic chamomile for best flavor and purity"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Ginger tea",
+    "Peppermint tea",
+    "Low FODMAP cookies",
+    "Rice cakes",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "Contains apigenin, an antioxidant with calming properties",
+    "Naturally caffeine-free",
+    "May support sleep and relaxation",
+    "Contains anti-inflammatory compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

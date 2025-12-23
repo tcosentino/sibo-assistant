@@ -1,0 +1,59 @@
+{
+  "id": "evaporated-milk",
+  "name": "Evaporated Milk",
+  "aliases": [
+    "Condensed milk (unsweetened)",
+    "Concentrated milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High lactose content can trigger SIBO symptoms. Use sparingly or choose lactose-free versions.",
+  "preparationTips": [
+    "Look for lactose-free evaporated milk brands",
+    "Use small amounts in recipes rather than drinking directly",
+    "Can be diluted with water to reduce lactose concentration per serving",
+    "Store opened cans in refrigerator for up to 5 days"
+  ],
+  "alternatives": [
+    "Lactose-free evaporated milk",
+    "Coconut cream (canned)",
+    "Almond milk (unsweetened, concentrated)",
+    "Lactaid evaporated milk"
+  ],
+  "pairsWellWith": [
+    "Coffee (small amounts)",
+    "Low-FODMAP baked goods",
+    "Pumpkin puree for soups",
+    "Lactose-free ingredients in recipes",
+    "Vanilla extract in desserts"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (concentrated)",
+    "Rich in calcium and phosphorus",
+    "Good source of vitamin B12",
+    "Contains vitamin D (if fortified)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

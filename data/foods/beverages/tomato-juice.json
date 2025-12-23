@@ -1,0 +1,42 @@
+{
+  "id": "tomato-juice",
+  "name": "Tomato Juice",
+  "aliases": [
+    "V8 juice",
+    "vegetable juice"
+  ],
+  "category": "beverage",
+  "subcategory": "vegetable-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Pure tomato juice is well-tolerated in SIBO protocols. Check labels to avoid added onion or garlic powder which are high FODMAP.",
+  "preparationTips": [
+    "Choose 100% tomato juice without added high FODMAP ingredients",
+    "Check labels for onion powder, garlic powder, or high fructose corn syrup",
+    "Fresh-squeezed tomato juice is ideal for sensitive individuals",
+    "Dilute with water if experiencing any digestive sensitivity"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Celery sticks",
+    "Cucumber slices",
+    "Carrot sticks",
+    "Bell pepper strips",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "High in lycopene, a powerful antioxidant",
+    "Good source of vitamin C and potassium",
+    "Contains folate and vitamin K",
+    "Low in calories and naturally fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

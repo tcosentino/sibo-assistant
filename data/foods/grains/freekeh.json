@@ -1,0 +1,50 @@
+{
+  "id": "freekeh",
+  "name": "Freekeh",
+  "aliases": [
+    "Farik",
+    "Frikeh",
+    "Cracked wheat"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 40,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High in fructans and should be avoided during SIBO treatment phases. Consider substituting with quinoa or rice for similar texture.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove debris",
+    "Toast lightly in a dry pan before adding liquid for enhanced nutty flavor",
+    "Use 2.5:1 water to freekeh ratio when cooking",
+    "Simmer covered for 20-25 minutes until tender"
+  ],
+  "alternatives": [
+    "Quinoa",
+    "Brown rice",
+    "Millet",
+    "Buckwheat"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted carrots",
+    "Fresh herbs",
+    "Lemon juice",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (4g per 1/4 cup)",
+    "Rich in fiber",
+    "Good source of iron",
+    "Contains B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

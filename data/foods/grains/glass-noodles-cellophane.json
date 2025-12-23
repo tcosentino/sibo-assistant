@@ -1,0 +1,48 @@
+{
+  "id": "glass-noodles-cellophane",
+  "name": "Glass Noodles (Cellophane)",
+  "aliases": [
+    "Mung bean noodles",
+    "Bean thread noodles",
+    "Cellophane noodles",
+    "Crystal noodles"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as they're made from mung bean starch rather than grain flour. Light and easy to digest.",
+  "preparationTips": [
+    "Soak in hot water for 5-10 minutes until soft and translucent",
+    "Don't overcook as they become mushy quickly",
+    "Rinse with cold water after cooking to prevent sticking",
+    "Cut with scissors for easier eating in soups and stir-fries"
+  ],
+  "alternatives": [
+    "Rice noodles",
+    "Zucchini noodles",
+    "Shirataki noodles"
+  ],
+  "pairsWellWith": [
+    "Bok choy",
+    "Carrots",
+    "Bell peppers",
+    "Chicken or pork",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories and fat",
+    "Contains small amounts of iron and potassium",
+    "Gluten-free alternative to wheat noodles",
+    "Quick-cooking and versatile"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

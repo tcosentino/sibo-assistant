@@ -1,0 +1,43 @@
+{
+  "id": "ghee-clarified-butter",
+  "name": "Ghee (Clarified Butter)",
+  "aliases": [
+    "Clarified butter",
+    "Brown butter",
+    "Drawn butter"
+  ],
+  "category": "fat",
+  "subcategory": "dairy-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Excellent fat choice for SIBO as it's pure fat with no fermentable carbohydrates. The clarification process removes milk proteins and lactose.",
+  "preparationTips": [
+    "Store at room temperature for up to 3 months or refrigerate for longer storage",
+    "Use for high-heat cooking as it has a higher smoke point than regular butter",
+    "Add to cooked vegetables or rice for rich flavor without FODMAPs",
+    "Can be made at home by slowly heating butter until milk solids separate"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Basmati rice",
+    "Roasted carrots",
+    "Grilled chicken",
+    "Sautéed spinach",
+    "Baked potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in fat-soluble vitamins A, D, E, and K",
+    "Contains butyric acid which may support gut health",
+    "Lactose-free and casein-free",
+    "High smoke point makes it stable for cooking"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

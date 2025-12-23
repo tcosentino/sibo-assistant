@@ -1,0 +1,59 @@
+{
+  "id": "kimchi",
+  "name": "Kimchi",
+  "aliases": [
+    "Korean fermented cabbage",
+    "Korean pickled vegetables"
+  ],
+  "category": "condiment",
+  "subcategory": "fermented",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 43,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 86,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 129,
+      "description": "About 3/4 cup or more",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "While kimchi is fermented and may support gut health, limit portions due to fructan content from garlic and onions commonly used in preparation. Some SIBO patients may tolerate it better than others due to beneficial bacteria.",
+  "preparationTips": [
+    "Look for brands with minimal garlic and onion ingredients",
+    "Start with small portions to test tolerance",
+    "Rinse lightly if very sensitive to reduce sodium and some FODMAPs",
+    "Check ingredient lists as recipes vary significantly between brands"
+  ],
+  "alternatives": [
+    "Sauerkraut (plain, without garlic)",
+    "Pickled cucumber",
+    "Low-FODMAP pickled vegetables",
+    "Fermented carrots"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice dishes",
+    "Tofu",
+    "Asian-inspired salads",
+    "Low-FODMAP stir-fries"
+  ],
+  "nutritionalHighlights": [
+    "Probiotics from fermentation",
+    "Vitamin C from cabbage",
+    "Vitamin K for bone health",
+    "Low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

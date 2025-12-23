@@ -1,0 +1,42 @@
+{
+  "id": "chinese-five-spice",
+  "name": "Chinese Five Spice",
+  "aliases": [
+    "Five Spice Powder",
+    "Wu Xiang Fen"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Most individual spices in five spice blend are well-tolerated in typical cooking amounts. Use sparingly as with all spice blends.",
+  "preparationTips": [
+    "Use in small amounts as intended - typically 1/2 to 1 teaspoon per dish",
+    "Check ingredient list as some commercial blends may contain garlic powder",
+    "Store in airtight container to maintain potency",
+    "Toast briefly in dry pan before using to enhance flavors"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP proteins like chicken, pork, tofu",
+    "Bok choy and Chinese broccoli",
+    "Ginger and scallion greens",
+    "Rice and rice noodles",
+    "Carrots and bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Contains antioxidants from star anise and cloves",
+    "Cinnamon may help with blood sugar regulation",
+    "Sichuan peppercorns provide unique aromatic compounds",
+    "Very low calorie seasoning option"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

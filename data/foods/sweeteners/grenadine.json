@@ -1,0 +1,59 @@
+{
+  "id": "grenadine",
+  "name": "Grenadine",
+  "aliases": [
+    "pomegranate syrup",
+    "grenadine syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 teaspoons"
+    },
+    "high": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "High fructose content can feed bacterial overgrowth and trigger symptoms. Use sparingly and consider alternatives for SIBO management.",
+  "preparationTips": [
+    "Use only small amounts as a cocktail accent",
+    "Dilute with water or low-FODMAP juices",
+    "Mix into recipes rather than using as standalone sweetener",
+    "Check labels for high fructose corn syrup which increases FODMAP load"
+  ],
+  "alternatives": [
+    "maple syrup (small amounts)",
+    "rice malt syrup",
+    "pure glucose syrup",
+    "cranberry juice (small amounts)"
+  ],
+  "pairsWellWith": [
+    "lime juice",
+    "club soda",
+    "vodka",
+    "gin",
+    "orange zest"
+  ],
+  "nutritionalHighlights": [
+    "High in sugar",
+    "Contains antioxidants from pomegranate",
+    "No significant vitamins or minerals",
+    "Concentrated calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

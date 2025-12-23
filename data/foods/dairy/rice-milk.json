@@ -1,0 +1,47 @@
+{
+  "id": "rice-milk",
+  "name": "Rice Milk",
+  "aliases": [
+    "Rice beverage",
+    "Rice drink"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Rice milk is naturally FODMAP-free and well-tolerated on SIBO diets as a lactose-free milk alternative.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added sugars",
+    "Shake well before use as ingredients naturally separate",
+    "Use in cereals, smoothies, or baking as 1:1 milk substitute",
+    "Store refrigerated and use within 7-10 days after opening"
+  ],
+  "alternatives": [
+    "Almond milk (unsweetened)",
+    "Coconut milk (canned, small amounts)",
+    "Lactose-free dairy milk",
+    "Oat milk (small servings)"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Bananas and berries",
+    "Rice-based breakfast bowls",
+    "Coffee and tea",
+    "Low FODMAP smoothie ingredients"
+  ],
+  "nutritionalHighlights": [
+    "Naturally lactose-free",
+    "Often fortified with calcium and vitamin D",
+    "Lower in protein than dairy milk",
+    "Naturally cholesterol-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

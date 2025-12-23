@@ -1,0 +1,48 @@
+{
+  "id": "corn-flour",
+  "name": "Corn Flour",
+  "aliases": [
+    "Cornflour",
+    "Maize flour",
+    "Masa harina"
+  ],
+  "category": "grain",
+  "subcategory": "flour",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as it's naturally gluten-free and low FODMAP. May be better tolerated than wheat-based flours.",
+  "preparationTips": [
+    "Store in airtight container to prevent moisture absorption",
+    "Sift before using for smoother texture in baking",
+    "Can be used as 1:1 substitute for wheat flour in many recipes",
+    "Mix with other gluten-free flours for better texture in baking"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Potato starch",
+    "Tapioca flour",
+    "Oat flour (if gluten-free)"
+  ],
+  "pairsWellWith": [
+    "Rice flour for baking blends",
+    "Eggs for binding in recipes",
+    "Low-FODMAP spices like paprika",
+    "Lactose-free milk for batters",
+    "Maple syrup for sweetening"
+  ],
+  "nutritionalHighlights": [
+    "Good source of complex carbohydrates",
+    "Contains some protein and fiber",
+    "Naturally gluten-free",
+    "Provides B vitamins and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

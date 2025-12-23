@@ -1,0 +1,60 @@
+{
+  "id": "sweet-chili-sauce",
+  "name": "Sweet Chili Sauce",
+  "aliases": [
+    "Thai Sweet Chili Sauce",
+    "Sweet and Sour Chili Sauce",
+    "Nam Jim Jaew"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 21,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 42,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 84,
+      "description": "About 4 tablespoons",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Contains excess fructose from sugar and corn syrup; use sparingly as it can feed bacterial overgrowth. Stick to 1 tablespoon portions to minimize fermentation.",
+  "preparationTips": [
+    "Measure portions carefully as FODMAP load increases quickly with larger servings",
+    "Look for brands without high fructose corn syrup if possible",
+    "Dilute with rice vinegar or lime juice to extend volume without adding FODMAPs",
+    "Use as a finishing sauce rather than cooking ingredient to better control portions"
+  ],
+  "alternatives": [
+    "Soy sauce with a pinch of sugar",
+    "Rice vinegar with chili flakes",
+    "Sriracha (small amounts)",
+    "Homemade version using glucose instead of regular sugar"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice paper rolls",
+    "Steamed jasmine rice",
+    "Fresh cucumber",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories per serving",
+    "Contains capsaicin from chili peppers",
+    "Provides small amounts of vitamin C",
+    "High in sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

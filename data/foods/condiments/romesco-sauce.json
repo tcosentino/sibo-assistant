@@ -1,0 +1,60 @@
+{
+  "id": "romesco-sauce",
+  "name": "Romesco Sauce",
+  "aliases": [
+    "Catalan romesco",
+    "red pepper sauce",
+    "Spanish romesco"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Traditional romesco contains garlic which is high in fructans. Use garlic-infused oil version or make without garlic for better SIBO tolerance.",
+  "preparationTips": [
+    "Make homemade version using garlic-infused oil instead of fresh garlic",
+    "Check ingredient lists carefully as commercial versions often contain onion powder",
+    "Store homemade version in refrigerator for up to 1 week",
+    "Can be frozen in ice cube trays for portion control"
+  ],
+  "alternatives": [
+    "Red pepper coulis (without garlic)",
+    "Paprika-based sauce with garlic oil",
+    "Roasted red pepper spread",
+    "Harissa paste (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Roasted vegetables",
+    "Rice dishes",
+    "Crusty sourdough bread",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C from red peppers",
+    "Contains healthy fats from nuts and olive oil",
+    "Good source of vitamin E and antioxidants",
+    "Provides heart-healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

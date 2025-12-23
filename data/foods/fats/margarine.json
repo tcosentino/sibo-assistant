@@ -1,0 +1,48 @@
+{
+  "id": "margarine",
+  "name": "Margarine",
+  "aliases": [
+    "butter substitute",
+    "spread",
+    "plant-based butter"
+  ],
+  "category": "fat",
+  "subcategory": "spread",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure margarine is FODMAP-free and well-tolerated. Check labels for added inulin, chicory root, or other FODMAP ingredients in specialty varieties.",
+  "preparationTips": [
+    "Choose margarine without added fiber ingredients like inulin",
+    "Read labels carefully on flavored varieties which may contain garlic or onion",
+    "Store at room temperature for easy spreading",
+    "Use in baking as a butter substitute in FODMAP recipes"
+  ],
+  "alternatives": [
+    "Butter (if lactose tolerance allows)",
+    "Olive oil",
+    "Coconut oil",
+    "Avocado oil"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Rice cakes",
+    "Gluten-free toast",
+    "Steamed vegetables",
+    "Baked potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Source of vitamin E",
+    "Contains essential fatty acids",
+    "Fortified varieties provide vitamin A",
+    "Lower in saturated fat than butter"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

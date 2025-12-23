@@ -1,0 +1,42 @@
+{
+  "id": "tilapia",
+  "name": "Tilapia",
+  "aliases": [
+    "Nile tilapia",
+    "Mozambique tilapia"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "1 medium fillet"
+    }
+  },
+  "siboNotes": "Plain tilapia is excellent for SIBO as it's easily digestible and provides high-quality protein without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or thyme",
+    "Cook with garlic-infused oil instead of fresh garlic",
+    "Avoid breading with wheat flour - use rice flour or cornmeal instead",
+    "Pan-fry, bake, or grill for easy digestion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Rice",
+    "Spinach",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Low in saturated fat",
+    "Good source of phosphorus",
+    "Contains vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

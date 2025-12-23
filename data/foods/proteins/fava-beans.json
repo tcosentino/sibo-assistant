@@ -1,0 +1,60 @@
+{
+  "id": "fava-beans",
+  "name": "Fava Beans",
+  "aliases": [
+    "broad beans",
+    "horse beans",
+    "Windsor beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0 cups"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High in galacto-oligosaccharides (GOS) which feed bacterial overgrowth. Avoid during SIBO treatment phases.",
+  "preparationTips": [
+    "Remove outer skins after cooking to reduce fiber load",
+    "Start with very small portions if reintroducing",
+    "Soak dried beans overnight before cooking",
+    "Cook thoroughly to improve digestibility"
+  ],
+  "alternatives": [
+    "firm tofu (small serves)",
+    "tempeh (small serves)",
+    "canned lentils (2-3 tbsp)",
+    "green beans"
+  ],
+  "pairsWellWith": [
+    "quinoa",
+    "carrots",
+    "spinach",
+    "olive oil",
+    "fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "high protein",
+    "folate",
+    "fiber",
+    "iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

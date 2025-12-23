@@ -1,0 +1,42 @@
+{
+  "id": "flaxseed-oil",
+  "name": "Flaxseed Oil",
+  "aliases": [
+    "Linseed Oil",
+    "Flax Oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and well-tolerated in SIBO. Start with smaller amounts if sensitive to high-fat foods during flares.",
+  "preparationTips": [
+    "Store in refrigerator to prevent rancidity",
+    "Use cold-pressed, unrefined varieties for maximum nutrition",
+    "Add to smoothies or drizzle over cooked vegetables",
+    "Do not use for high-heat cooking as it breaks down easily"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach and kale salads",
+    "Blueberries in smoothies",
+    "Carrots and bell peppers",
+    "Quinoa bowls",
+    "Grilled salmon"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of omega-3 fatty acids (ALA)",
+    "Anti-inflammatory properties",
+    "Supports heart health",
+    "Contains lignans with antioxidant benefits"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

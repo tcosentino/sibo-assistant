@@ -1,0 +1,43 @@
+{
+  "id": "coconut-fresh",
+  "name": "Coconut (Fresh)",
+  "aliases": [
+    "Fresh coconut meat",
+    "Coconut flesh",
+    "Raw coconut"
+  ],
+  "category": "fat",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup shredded",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Fresh coconut is naturally FODMAP-free and well-tolerated. The high fat content may slow digestion, so start with smaller portions if sensitive.",
+  "preparationTips": [
+    "Pierce coconut eyes with skewer and drain liquid before cracking",
+    "Use coconut meat grater or vegetable peeler for thin shreds",
+    "Store fresh coconut meat in refrigerator for up to 5 days",
+    "Freeze shredded coconut in portions for easy use"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lime juice",
+    "Strawberries",
+    "Pineapple (small portions)",
+    "Dark chocolate",
+    "Macadamia nuts"
+  ],
+  "nutritionalHighlights": [
+    "Medium-chain triglycerides (MCTs)",
+    "Manganese",
+    "Copper",
+    "Dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

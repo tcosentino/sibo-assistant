@@ -1,0 +1,43 @@
+{
+  "id": "sunflower-seed-butter",
+  "name": "Sunflower Seed Butter",
+  "aliases": [
+    "SunButter",
+    "Sunflower Butter",
+    "Sun Seed Butter"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 32,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as sunflower seeds are naturally low FODMAP and don't feed bacterial overgrowth.",
+  "preparationTips": [
+    "Choose natural varieties without added inulin or chicory root fiber",
+    "Store in refrigerator after opening to prevent rancidity",
+    "Stir well before use as natural separation is normal",
+    "Check labels for high-FODMAP additives like honey or agave"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Sourdough spelt bread",
+    "Bananas (unripe)",
+    "Strawberries",
+    "Carrot sticks"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E and magnesium",
+    "Good source of healthy monounsaturated fats",
+    "Contains protein and fiber",
+    "Rich in folate and niacin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

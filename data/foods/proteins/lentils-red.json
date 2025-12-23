@@ -1,0 +1,60 @@
+{
+  "id": "lentils-red",
+  "name": "Lentils (Red)",
+  "aliases": [
+    "Red Split Lentils",
+    "Split Red Lentils",
+    "Masoor Dal"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons cooked",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Red lentils are high in galactans which can feed SIBO bacteria. Start with very small portions (2 tablespoons) if tolerated, and consider soaking/sprouting to reduce FODMAP content.",
+  "preparationTips": [
+    "Soak dried lentils for 8-12 hours before cooking to reduce galactan content",
+    "Cook thoroughly until very soft to improve digestibility",
+    "Start with small portions and gradually increase if well tolerated",
+    "Rinse canned lentils thoroughly to remove excess oligosaccharides"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small portions)",
+    "Chicken breast",
+    "Canned salmon"
+  ],
+  "pairsWellWith": [
+    "Basmati rice",
+    "Carrots",
+    "Spinach",
+    "Ginger",
+    "Turmeric"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Excellent source of folate",
+    "Rich in iron and potassium",
+    "Good source of fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

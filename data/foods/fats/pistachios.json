@@ -1,0 +1,60 @@
+{
+  "id": "pistachios",
+  "name": "Pistachios",
+  "aliases": [
+    "pistachio nuts",
+    "shelled pistachios"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans",
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 15 nuts",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 30 nuts",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 50,
+      "description": "About 50 nuts or more",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Small portions are generally well-tolerated, but the fructans and galactans can feed bacterial overgrowth in larger amounts. Start with the low FODMAP portion and monitor symptoms.",
+  "preparationTips": [
+    "Choose unsalted varieties to avoid excess sodium",
+    "Pre-portion into small containers to avoid overeating",
+    "Soak overnight and rinse to potentially reduce FODMAP content",
+    "Buy shelled to make portion control easier"
+  ],
+  "alternatives": [
+    "macadamia nuts",
+    "walnuts",
+    "pine nuts",
+    "pumpkin seeds"
+  ],
+  "pairsWellWith": [
+    "dark chocolate (70% or higher)",
+    "aged cheddar cheese",
+    "grapes",
+    "strawberries",
+    "spinach salad"
+  ],
+  "nutritionalHighlights": [
+    "high in protein",
+    "rich in healthy monounsaturated fats",
+    "good source of vitamin B6",
+    "contains potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

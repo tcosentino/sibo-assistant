@@ -1,0 +1,48 @@
+{
+  "id": "cayenne-pepper",
+  "name": "Cayenne Pepper",
+  "aliases": [
+    "Red Pepper",
+    "Chili Powder",
+    "Hot Pepper"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical spice quantities. May stimulate digestion and help with motility in some individuals.",
+  "preparationTips": [
+    "Start with small amounts as cayenne can be very hot",
+    "Mix into oil-based dishes to distribute heat evenly",
+    "Store in airtight container away from light to maintain potency",
+    "Can be added during cooking or sprinkled on finished dishes"
+  ],
+  "alternatives": [
+    "Paprika for mild heat",
+    "Black pepper for warmth without capsaicin",
+    "Turmeric for color without heat",
+    "Ginger for warming spice"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken and fish",
+    "Roasted vegetables",
+    "Olive oil and vinegar dressings",
+    "Rice dishes",
+    "Egg preparations"
+  ],
+  "nutritionalHighlights": [
+    "High in capsaicin with anti-inflammatory properties",
+    "Rich in vitamin A and antioxidants",
+    "May boost metabolism and circulation",
+    "Contains vitamin C and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

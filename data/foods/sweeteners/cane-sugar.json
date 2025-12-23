@@ -1,0 +1,44 @@
+{
+  "id": "cane-sugar",
+  "name": "Cane Sugar",
+  "aliases": [
+    "Granulated sugar",
+    "White sugar",
+    "Table sugar",
+    "Sucrose"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1.5 tablespoons",
+      "cups": "1.5 tablespoons"
+    }
+  },
+  "siboNotes": "Pure sucrose is well-tolerated as it's quickly absorbed in the small intestine and doesn't feed problematic bacteria.",
+  "preparationTips": [
+    "Use in moderation to avoid blood sugar spikes",
+    "Can be used freely in low FODMAP baking and cooking",
+    "Dissolves easily in both hot and cold liquids",
+    "Store in airtight container to prevent clumping"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP fruits like strawberries",
+    "Lactose-free milk in beverages",
+    "Gluten-free flour in baking",
+    "Eggs in desserts",
+    "Pure vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Pure carbohydrate providing quick energy",
+    "No vitamins or minerals (empty calories)",
+    "4 calories per gram",
+    "Rapidly absorbed glucose and fructose"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

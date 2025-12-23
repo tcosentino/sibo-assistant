@@ -1,0 +1,47 @@
+{
+  "id": "coconut-cream",
+  "name": "Coconut Cream",
+  "aliases": [
+    "canned coconut cream",
+    "coconut milk cream"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Coconut cream is well-tolerated on SIBO diets as it's naturally FODMAP-free and contains beneficial medium-chain triglycerides that are easily absorbed.",
+  "preparationTips": [
+    "Chill canned coconut cream overnight to separate thick cream from liquid",
+    "Choose brands without added gums or thickeners for better digestive tolerance",
+    "Whip chilled coconut cream for dairy-free whipped cream substitute",
+    "Use in curries, soups, and desserts as lactose-free alternative"
+  ],
+  "alternatives": [
+    "Lactose-free heavy cream",
+    "Almond milk (small amounts)",
+    "Rice milk",
+    "Hemp milk"
+  ],
+  "pairsWellWith": [
+    "Fresh ginger",
+    "Lime juice",
+    "Cilantro",
+    "Lemongrass",
+    "Green beans"
+  ],
+  "nutritionalHighlights": [
+    "Rich in medium-chain triglycerides (MCTs)",
+    "Good source of healthy saturated fats",
+    "Contains iron and potassium",
+    "Naturally lactose and dairy-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

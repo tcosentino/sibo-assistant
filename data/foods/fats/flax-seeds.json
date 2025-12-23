@@ -1,0 +1,42 @@
+{
+  "id": "flax-seeds",
+  "name": "Flax Seeds",
+  "aliases": [
+    "Linseeds",
+    "Common Flax Seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO diets as they're naturally low FODMAP and provide beneficial omega-3 fatty acids without fermentable carbohydrates.",
+  "preparationTips": [
+    "Grind flax seeds before eating to improve nutrient absorption",
+    "Store ground flaxseed in refrigerator to prevent rancidity",
+    "Add to smoothies, yogurt, or baked goods for omega-3 boost",
+    "Can be used as egg substitute when mixed with water"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Oats (in small portions)",
+    "Blueberries",
+    "Bananas",
+    "Almond milk"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of omega-3 fatty acids (ALA)",
+    "High in dietary fiber for digestive health",
+    "Good source of plant-based protein",
+    "Contains lignans with antioxidant properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

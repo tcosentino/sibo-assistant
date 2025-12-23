@@ -1,0 +1,48 @@
+{
+  "id": "instant-coffee",
+  "name": "Instant Coffee",
+  "aliases": [
+    "Coffee powder",
+    "Soluble coffee",
+    "Coffee crystals"
+  ],
+  "category": "beverage",
+  "subcategory": "coffee",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 4,
+      "description": "2 teaspoons instant coffee powder",
+      "cups": "1 cup prepared"
+    }
+  },
+  "siboNotes": "Black instant coffee is well-tolerated for SIBO as it contains no FODMAPs. Avoid adding milk, cream, or sweeteners that may trigger symptoms.",
+  "preparationTips": [
+    "Use hot water to dissolve instant coffee granules completely",
+    "Start with smaller amounts if sensitive to caffeine",
+    "Avoid adding milk - use lactose-free alternatives instead",
+    "Stick to plain instant coffee without added flavors or creamers"
+  ],
+  "alternatives": [
+    "Regular brewed coffee",
+    "Espresso",
+    "Decaffeinated instant coffee",
+    "Black tea"
+  ],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Almond milk (small amounts)",
+    "Rice cakes",
+    "Dark chocolate (85% cocoa)",
+    "Macadamia nuts"
+  ],
+  "nutritionalHighlights": [
+    "Caffeine for alertness and metabolism",
+    "Antioxidants including chlorogenic acid",
+    "Virtually calorie-free when consumed black",
+    "Source of potassium and magnesium in small amounts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

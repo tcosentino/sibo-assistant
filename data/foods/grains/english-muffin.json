@@ -1,0 +1,49 @@
+{
+  "id": "english-muffin",
+  "name": "English Muffin",
+  "aliases": [
+    "muffin",
+    "breakfast muffin"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 50,
+      "description": "1 whole English muffin",
+      "cups": "1 muffin"
+    }
+  },
+  "siboNotes": "Contains wheat-based fructans which can trigger SIBO symptoms. Avoid during elimination phase and consider gluten-free alternatives.",
+  "preparationTips": [
+    "Toast lightly to improve digestibility for some people",
+    "Remove excess crumb if very sensitive to fructans",
+    "Check ingredient list for added high-FODMAP ingredients like honey or inulin",
+    "Consider sourdough varieties which may be better tolerated due to fermentation"
+  ],
+  "alternatives": [
+    "Gluten-free English muffins made with rice flour",
+    "Sourdough English muffins (may be lower FODMAP due to fermentation)",
+    "Rice cakes as a similar base for toppings",
+    "Corn tortillas toasted until crispy"
+  ],
+  "pairsWellWith": [
+    "Lactose-free butter",
+    "Peanut butter (natural, no added sweeteners)",
+    "Aged cheddar cheese",
+    "Scrambled eggs",
+    "Sliced strawberries"
+  ],
+  "nutritionalHighlights": [
+    "B vitamins from wheat flour",
+    "Iron fortification in most commercial varieties",
+    "Carbohydrates for energy",
+    "Some fiber content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

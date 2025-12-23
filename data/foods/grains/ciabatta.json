@@ -1,0 +1,59 @@
+{
+  "id": "ciabatta",
+  "name": "Ciabatta",
+  "aliases": [
+    "Italian bread",
+    "Ciabatta bread"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 26,
+      "description": "1 small slice",
+      "cups": "about 1/4 cup cubed"
+    },
+    "moderate": {
+      "grams": 52,
+      "description": "2 small slices or 1 medium slice",
+      "cups": "about 1/2 cup cubed"
+    },
+    "high": {
+      "grams": 78,
+      "description": "3 slices or more",
+      "cups": "about 3/4 cup cubed"
+    }
+  },
+  "siboNotes": "Contains wheat-based fructans that can trigger SIBO symptoms. Start with smallest serving size and monitor tolerance carefully.",
+  "preparationTips": [
+    "Toast lightly to improve digestibility for some people",
+    "Pair with low-FODMAP proteins and fats to slow digestion",
+    "Consider sourdough ciabatta made with long fermentation",
+    "Store properly to maintain texture without additives"
+  ],
+  "alternatives": [
+    "Sourdough bread (spelt or wheat with long fermentation)",
+    "Gluten-free bread made with rice flour",
+    "Corn tortillas",
+    "Rice cakes"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Aged cheddar cheese",
+    "Tomatoes",
+    "Grilled chicken",
+    "Fresh basil"
+  ],
+  "nutritionalHighlights": [
+    "Complex carbohydrates for sustained energy",
+    "B vitamins including folate",
+    "Iron from wheat flour enrichment",
+    "Moderate protein content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "avocado-oil",
+  "name": "Avocado Oil",
+  "aliases": [
+    "Refined avocado oil",
+    "Cold-pressed avocado oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure avocado oil is well-tolerated for SIBO as it contains no fermentable carbohydrates and provides healthy fats for nutrient absorption.",
+  "preparationTips": [
+    "Use for high-heat cooking due to its high smoke point (520°F)",
+    "Store in a cool, dark place to maintain quality and prevent rancidity",
+    "Choose cold-pressed varieties for maximum nutritional benefits",
+    "Great for salad dressings and marinades"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Roasted vegetables like zucchini and bell peppers",
+    "Green salads with spinach and cucumber",
+    "Quinoa and rice dishes",
+    "Low-FODMAP herbs like basil and oregano"
+  ],
+  "nutritionalHighlights": [
+    "Rich in monounsaturated fats, particularly oleic acid",
+    "High in vitamin E and antioxidants",
+    "Contains lutein for eye health",
+    "Helps absorption of fat-soluble vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

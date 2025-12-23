@@ -1,0 +1,48 @@
+{
+  "id": "simple-syrup",
+  "name": "Simple Syrup",
+  "aliases": [
+    "sugar syrup",
+    "bar syrup",
+    "gomme syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure sucrose is well-absorbed in the small intestine and should not feed SIBO bacteria when consumed in typical serving sizes.",
+  "preparationTips": [
+    "Make fresh by dissolving equal parts sugar and water",
+    "Store refrigerated for up to 1 month",
+    "Use for cocktails, coffee, or desserts",
+    "Can be flavored with low-FODMAP extracts like vanilla"
+  ],
+  "alternatives": [
+    "maple syrup (2 tablespoons max)",
+    "rice malt syrup",
+    "glucose syrup",
+    "stevia liquid"
+  ],
+  "pairsWellWith": [
+    "lemon juice",
+    "lime juice",
+    "mint leaves",
+    "ginger tea",
+    "bourbon or rum"
+  ],
+  "nutritionalHighlights": [
+    "Quick energy from sucrose",
+    "No vitamins or minerals",
+    "High in calories",
+    "Rapidly absorbed carbohydrate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

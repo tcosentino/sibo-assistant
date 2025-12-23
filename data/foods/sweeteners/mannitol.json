@@ -1,0 +1,50 @@
+{
+  "id": "mannitol",
+  "name": "Mannitol",
+  "aliases": [
+    "D-mannitol",
+    "manna sugar",
+    "E421"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar-alcohol",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-mannitol"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Mannitol is poorly absorbed and rapidly fermented by gut bacteria, making it particularly problematic for SIBO patients even in very small amounts.",
+  "preparationTips": [
+    "Always check ingredient lists on sugar-free products",
+    "Look for 'E421' on European product labels",
+    "Be aware it's often combined with other sugar alcohols",
+    "Even small amounts can trigger symptoms"
+  ],
+  "alternatives": [
+    "Glucose",
+    "Sucrose (table sugar)",
+    "Maple syrup (small amounts)",
+    "Rice malt syrup"
+  ],
+  "pairsWellWith": [
+    "Not recommended for low-FODMAP diets",
+    "Consider natural sweeteners instead",
+    "Use glucose for baking",
+    "Try small amounts of pure maple syrup",
+    "Stevia as a calorie-free option"
+  ],
+  "nutritionalHighlights": [
+    "Provides 2.6 calories per gram",
+    "Acts as a laxative in larger amounts",
+    "Not metabolized by oral bacteria (won't cause tooth decay)",
+    "Used medically as an osmotic diuretic"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

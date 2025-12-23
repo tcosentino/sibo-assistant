@@ -1,0 +1,59 @@
+{
+  "id": "xylitol",
+  "name": "Xylitol",
+  "aliases": [
+    "birch sugar",
+    "wood sugar"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar-alcohol",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "high": {
+      "grams": 1,
+      "description": "Even tiny amounts trigger symptoms",
+      "cups": "1/8 teaspoon"
+    }
+  },
+  "siboNotes": "Xylitol is a polyol that feeds bacteria in the small intestine and should be completely avoided during SIBO treatment. Even small amounts can trigger significant digestive symptoms.",
+  "preparationTips": [
+    "Always read ingredient labels as xylitol is common in sugar-free products",
+    "Check gum, mints, and diabetic foods for xylitol content",
+    "Look for alternative names like birch sugar on labels",
+    "Be aware that xylitol is toxic to dogs"
+  ],
+  "alternatives": [
+    "Stevia (pure leaf extract)",
+    "Maple syrup (2 tablespoons max)",
+    "Rice malt syrup",
+    "Monk fruit sweetener"
+  ],
+  "pairsWellWith": [
+    "Use alternatives in baking with gluten-free flours",
+    "Sweeten beverages with stevia instead",
+    "Combine maple syrup with low-FODMAP fruits",
+    "Use rice malt syrup in homemade granola",
+    "Pair monk fruit with low-FODMAP spices like cinnamon"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories per serving",
+    "Does not raise blood sugar",
+    "May have dental health benefits",
+    "Highly fermentable causing digestive distress"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

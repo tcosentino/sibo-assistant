@@ -1,0 +1,47 @@
+{
+  "id": "brie",
+  "name": "Brie",
+  "aliases": [
+    "Brie cheese",
+    "Soft-ripened cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 2-3 thin slices",
+      "cups": "1/4 cup cubed"
+    }
+  },
+  "siboNotes": "As an aged soft cheese, brie is naturally low in lactose and well-tolerated by most SIBO patients. The aging process reduces lactose content significantly.",
+  "preparationTips": [
+    "Allow to come to room temperature for best flavor and texture",
+    "Remove rind if you prefer, though it's edible and adds flavor",
+    "Pair with low-FODMAP crackers made from rice or corn",
+    "Store properly wrapped in refrigerator and consume within a few days of opening"
+  ],
+  "alternatives": [
+    "Camembert cheese",
+    "Aged cheddar",
+    "Goat cheese (firm varieties)",
+    "Swiss cheese"
+  ],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Grapes",
+    "Strawberries",
+    "Walnuts",
+    "Low-FODMAP sourdough bread"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and calcium",
+    "Good source of vitamin B12",
+    "Contains beneficial probiotics",
+    "Rich in phosphorus for bone health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

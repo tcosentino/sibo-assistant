@@ -1,0 +1,43 @@
+{
+  "id": "cold-brew-coffee",
+  "name": "Cold Brew Coffee",
+  "aliases": [
+    "Cold Brewed Coffee",
+    "Iced Coffee Concentrate",
+    "Cold Press Coffee"
+  ],
+  "category": "beverage",
+  "subcategory": "coffee",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup (8 fl oz)",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Black cold brew coffee is well-tolerated and may actually support digestive health due to its prebiotic properties and lower acidity than hot coffee.",
+  "preparationTips": [
+    "Drink black or with lactose-free milk to maintain low FODMAP status",
+    "Avoid adding honey, agave, or high FODMAP sweeteners",
+    "Cold brew is naturally less acidic than hot coffee, making it gentler on sensitive stomachs",
+    "Store concentrate in refrigerator for up to 2 weeks"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Unsweetened almond milk",
+    "Sugar or maple syrup (small amounts)",
+    "Low FODMAP breakfast foods",
+    "Dark chocolate (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and chlorogenic acids",
+    "Contains beneficial compounds that support liver health",
+    "Provides caffeine for mental alertness",
+    "Lower in acid compounds compared to hot-brewed coffee"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

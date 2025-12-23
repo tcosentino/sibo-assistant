@@ -1,0 +1,47 @@
+{
+  "id": "erythritol",
+  "name": "Erythritol",
+  "aliases": [
+    "Sugar alcohol",
+    "E968"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar-alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Well-tolerated sugar alcohol that's absorbed in the small intestine before reaching the colon, making it less likely to cause digestive symptoms than other polyols.",
+  "preparationTips": [
+    "Use 70% of the amount you would use of regular sugar in recipes",
+    "Dissolves well in both hot and cold liquids",
+    "May have a slight cooling effect on the tongue",
+    "Works well in baking but doesn't caramelize like sugar"
+  ],
+  "alternatives": [
+    "Stevia",
+    "Monk fruit sweetener",
+    "Small amounts of maple syrup",
+    "Rice malt syrup"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP fruits in desserts",
+    "Coffee and tea",
+    "Low FODMAP baked goods",
+    "Sugar-free beverages",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "Does not affect blood sugar levels",
+    "Does not contribute to tooth decay",
+    "Contains no carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

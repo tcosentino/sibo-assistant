@@ -1,0 +1,43 @@
+{
+  "id": "olives-green",
+  "name": "Olives (Green)",
+  "aliases": [
+    "Green olives",
+    "Castelvetrano olives",
+    "Picholine olives"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 10 small olives",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Green olives are naturally FODMAP-free and well-tolerated in SIBO. Choose varieties without garlic or onion in the brine.",
+  "preparationTips": [
+    "Rinse olives if they're too salty for your taste",
+    "Check labels to avoid varieties marinated with garlic or onion",
+    "Slice and add to salads or grain bowls for flavor",
+    "Store opened jars in refrigerator and use within 2-3 weeks"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Feta cheese",
+    "Cherry tomatoes",
+    "Bell peppers",
+    "Cucumber",
+    "Fresh herbs like basil or oregano"
+  ],
+  "nutritionalHighlights": [
+    "Rich in healthy monounsaturated fats",
+    "Good source of vitamin E",
+    "Contains antioxidants like oleuropein",
+    "Provides iron and copper"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

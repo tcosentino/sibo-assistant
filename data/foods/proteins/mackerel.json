@@ -1,0 +1,48 @@
+{
+  "id": "mackerel",
+  "name": "Mackerel",
+  "aliases": [
+    "Atlantic mackerel",
+    "Spanish mackerel",
+    "King mackerel"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 fillet (5 oz)",
+      "cups": "3/4 cup flaked"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated during SIBO treatment phases. High in omega-3 fatty acids which may help reduce gut inflammation.",
+  "preparationTips": [
+    "Grill, bake, or pan-sear with FODMAP-friendly herbs like basil or oregano",
+    "Avoid high-FODMAP marinades containing garlic or onion",
+    "Season with lemon juice, salt, and allowed spices",
+    "Fresh mackerel should smell ocean-fresh, not fishy"
+  ],
+  "alternatives": [
+    "Salmon",
+    "Sardines",
+    "Tuna",
+    "Cod"
+  ],
+  "pairsWellWith": [
+    "Spinach",
+    "Green beans",
+    "Carrots",
+    "Rice",
+    "Quinoa"
+  ],
+  "nutritionalHighlights": [
+    "High in omega-3 fatty acids EPA and DHA",
+    "Excellent source of protein",
+    "Rich in vitamin B12 and selenium",
+    "Good source of vitamin D"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

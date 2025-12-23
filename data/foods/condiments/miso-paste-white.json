@@ -1,0 +1,48 @@
+{
+  "id": "miso-paste-white",
+  "name": "Miso Paste (White)",
+  "aliases": [
+    "White Miso",
+    "Shiro Miso",
+    "Sweet Miso"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "White miso is well-tolerated in small amounts typical for cooking. The fermentation process reduces potential FODMAP content.",
+  "preparationTips": [
+    "Use sparingly as it's very salty and flavorful",
+    "Dissolve in warm water or broth before adding to dishes",
+    "Store in refrigerator after opening - keeps for months",
+    "Mix with low-FODMAP ingredients like ginger and rice vinegar for marinades"
+  ],
+  "alternatives": [
+    "Tamari or gluten-free soy sauce",
+    "Fish sauce (small amounts)",
+    "Coconut aminos",
+    "Salt and umami seasonings"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Rice vinegar",
+    "Sesame oil",
+    "Green onions (green parts only)",
+    "Firm tofu"
+  ],
+  "nutritionalHighlights": [
+    "Rich in probiotics from fermentation",
+    "Good source of protein",
+    "Contains B vitamins",
+    "Provides beneficial enzymes"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

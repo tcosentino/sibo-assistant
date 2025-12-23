@@ -1,0 +1,48 @@
+{
+  "id": "herbs-de-provence",
+  "name": "Herbs de Provence",
+  "aliases": [
+    "French herb blend",
+    "Provençal herbs",
+    "Mediterranean herb mix"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical culinary amounts. Most herbs in the blend are naturally FODMAP-free and may have antimicrobial properties beneficial for SIBO management.",
+  "preparationTips": [
+    "Use dried blend as-is or bloom in oil for deeper flavor",
+    "Add to roasted vegetables in last 10 minutes to prevent burning",
+    "Mix into olive oil for a quick marinade base",
+    "Store in airtight container away from light to maintain potency"
+  ],
+  "alternatives": [
+    "Individual herbs like rosemary, thyme, or oregano",
+    "Italian seasoning blend",
+    "Fresh basil and oregano combination",
+    "Garlic-infused oil with single herbs"
+  ],
+  "pairsWellWith": [
+    "Roasted chicken and turkey",
+    "Grilled zucchini and eggplant",
+    "Olive oil and balsamic vinegar",
+    "Tomatoes and bell peppers",
+    "Hard cheeses like Parmesan"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from mixed herbs",
+    "Contains anti-inflammatory compounds",
+    "Good source of vitamin K from dried herbs",
+    "Provides trace minerals like iron and calcium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pickles-dill",
+  "name": "Pickles (Dill)",
+  "aliases": [
+    "Dill pickles",
+    "Cucumber pickles",
+    "Kosher dill pickles",
+    "Pickle spears"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2-3 medium pickle spears",
+      "cups": "1/3 cup sliced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as fermentation is external. Watch sodium content which may affect gut bacteria balance.",
+  "preparationTips": [
+    "Rinse pickles if sensitive to high sodium content",
+    "Choose brands without garlic or onion if extra sensitive",
+    "Look for naturally fermented varieties for potential probiotic benefits",
+    "Avoid sweet pickle varieties which may contain high FODMAP sweeteners"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Tuna salad",
+    "Hard cheeses",
+    "Sourdough bread",
+    "Potato salad"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Source of probiotics (fermented varieties)",
+    "Contains vitamin K",
+    "Provides electrolytes"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "tequila",
+  "name": "Tequila",
+  "aliases": [
+    "100% agave tequila",
+    "agave spirit"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "About 1.5 fl oz (1 standard shot)",
+      "cups": "3 tbsp"
+    }
+  },
+  "siboNotes": "Pure tequila is FODMAP-free, but alcohol can irritate the gut and alter gut motility in SIBO patients. Consume in moderation.",
+  "preparationTips": [
+    "Choose 100% agave tequila to avoid additives",
+    "Avoid flavored tequilas which may contain high-FODMAP ingredients",
+    "Consume with low-FODMAP foods to minimize gut irritation",
+    "Stay hydrated when consuming alcohol"
+  ],
+  "alternatives": [
+    "Vodka (potato or corn-based)",
+    "Gin (juniper-based)",
+    "Rum (sugarcane-based)",
+    "Low-FODMAP sparkling water with lime"
+  ],
+  "pairsWellWith": [
+    "Lime wedges",
+    "Salt rim",
+    "Cucumber slices",
+    "Fresh mint",
+    "Low-FODMAP salsa"
+  ],
+  "nutritionalHighlights": [
+    "Zero carbohydrates",
+    "No added sugars when 100% agave",
+    "Approximately 64 calories per shot",
+    "Naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

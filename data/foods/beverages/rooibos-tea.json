@@ -1,0 +1,42 @@
+{
+  "id": "rooibos-tea",
+  "name": "Rooibos Tea",
+  "aliases": [
+    "Red Bush Tea",
+    "African Red Tea"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free and well-tolerated in SIBO diets. Caffeine-free so won't stimulate gut motility.",
+  "preparationTips": [
+    "Steep 1-2 tea bags or 1 tsp loose tea in hot water for 5-7 minutes",
+    "Can be enjoyed hot or cold without affecting FODMAP content",
+    "Add lactose-free milk or small amounts of maple syrup if desired",
+    "Naturally caffeine-free so safe to drink evening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Small amount of maple syrup",
+    "Low FODMAP cookies",
+    "Rice cakes",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants including aspalathin",
+    "Contains minerals like calcium, iron, and zinc",
+    "Naturally caffeine-free",
+    "Anti-inflammatory compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

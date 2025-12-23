@@ -1,0 +1,47 @@
+{
+  "id": "oat-flour",
+  "name": "Oat Flour",
+  "aliases": [
+    "Ground Oats",
+    "Oat Meal Flour"
+  ],
+  "category": "grain",
+  "subcategory": "oat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 52,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as oats are low FODMAP and provide soluble fiber that may help with digestive regularity without excessive fermentation.",
+  "preparationTips": [
+    "Can be used as 1:1 substitute for wheat flour in many recipes",
+    "May need additional liquid in baking as oat flour absorbs more moisture",
+    "Store in airtight container to prevent rancidity",
+    "Can make at home by grinding rolled oats in food processor"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Almond flour",
+    "Quinoa flour",
+    "Buckwheat flour"
+  ],
+  "pairsWellWith": [
+    "Blueberries",
+    "Bananas",
+    "Cinnamon",
+    "Maple syrup",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "High in soluble fiber (beta-glucan)",
+    "Good source of protein for a grain",
+    "Contains important minerals like manganese and phosphorus",
+    "Naturally gluten-free when certified"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

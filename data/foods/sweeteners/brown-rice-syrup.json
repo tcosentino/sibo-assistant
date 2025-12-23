@@ -1,0 +1,48 @@
+{
+  "id": "brown-rice-syrup",
+  "name": "Brown Rice Syrup",
+  "aliases": [
+    "Rice Syrup",
+    "Rice Malt Syrup",
+    "Brown Rice Malt"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as it's primarily glucose and maltose, which are absorbed in the small intestine before reaching bacterial overgrowth areas.",
+  "preparationTips": [
+    "Use as a 1:1 substitute for honey in most recipes",
+    "Warm slightly to make pouring easier",
+    "Store in cool, dry place - may crystallize in cold temperatures",
+    "Mix well when using in cold applications like smoothies"
+  ],
+  "alternatives": [
+    "Maple syrup (pure, 1 tablespoon)",
+    "Rice malt syrup",
+    "Glucose syrup",
+    "Stevia or monk fruit for calorie-free option"
+  ],
+  "pairsWellWith": [
+    "Oatmeal and quinoa porridge",
+    "Low-FODMAP pancakes and waffles",
+    "Rice cakes and peanut butter",
+    "Green tea and ginger tea",
+    "Low-FODMAP granola and nuts"
+  ],
+  "nutritionalHighlights": [
+    "Provides quick energy from glucose and maltose",
+    "Contains small amounts of B vitamins from rice",
+    "Lower glycemic impact than regular sugar",
+    "Free from fructose, making it easier to digest"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

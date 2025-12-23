@@ -1,0 +1,48 @@
+{
+  "id": "yerba-mate",
+  "name": "Yerba Mate",
+  "aliases": [
+    "Mate Tea",
+    "Ilex paraguariensis",
+    "Paraguayan Tea"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain yerba mate is well-tolerated on SIBO diets as it's naturally FODMAP-free. Avoid sweetened versions or additives that may contain FODMAPs.",
+  "preparationTips": [
+    "Brew with hot (not boiling) water to reduce bitterness",
+    "Start with shorter steeping times if new to yerba mate",
+    "Avoid adding honey, agave, or other high-FODMAP sweeteners",
+    "Can be enjoyed hot or cold without affecting FODMAP content"
+  ],
+  "alternatives": [
+    "Green tea",
+    "Black tea",
+    "White tea",
+    "Rooibos tea"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP cookies (oat-based)",
+    "Rice crackers",
+    "Hard cheeses",
+    "Macadamia nuts",
+    "Dark chocolate (85% cacao)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and polyphenols",
+    "Contains caffeine for natural energy boost",
+    "Good source of vitamins A, C, and E",
+    "Provides minerals including potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

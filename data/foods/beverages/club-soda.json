@@ -1,0 +1,43 @@
+{
+  "id": "club-soda",
+  "name": "Club Soda",
+  "aliases": [
+    "Soda Water",
+    "Sparkling Water",
+    "Carbonated Water"
+  ],
+  "category": "beverage",
+  "subcategory": "carbonated",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 355,
+      "description": "About 1 can (12 fl oz)",
+      "cups": "1 1/2 cups"
+    }
+  },
+  "siboNotes": "Plain club soda is SIBO-friendly, but carbonation may cause bloating in sensitive individuals. Consider flat water if experiencing gas or distension.",
+  "preparationTips": [
+    "Choose plain club soda without added flavors or sweeteners",
+    "Let it sit open briefly to reduce carbonation if you're sensitive to bubbles",
+    "Serve chilled for best taste experience",
+    "Check labels to ensure no hidden FODMAPs like inulin or artificial sweeteners"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh lime juice",
+    "Lemon slices",
+    "Fresh mint leaves",
+    "Cucumber slices",
+    "Ginger pieces"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories and no added sugars",
+    "May contain trace minerals like sodium and potassium",
+    "Provides hydration without FODMAPs",
+    "Good alternative to sugary sodas"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

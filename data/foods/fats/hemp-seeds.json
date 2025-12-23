@@ -1,0 +1,42 @@
+{
+  "id": "hemp-seeds",
+  "name": "Hemp Seeds",
+  "aliases": [
+    "Hemp Hearts",
+    "Shelled Hemp Seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 3 tablespoons",
+      "cups": "3 tbsp"
+    }
+  },
+  "siboNotes": "Hemp seeds are well-tolerated and provide beneficial omega-3 fatty acids that may support gut health and reduce inflammation.",
+  "preparationTips": [
+    "Store in refrigerator after opening to prevent rancidity",
+    "Add to smoothies, yogurt, or salads for extra protein and healthy fats",
+    "Toast lightly in a dry pan for enhanced nutty flavor",
+    "Can be ground into hemp seed butter for spreading"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Spinach salad",
+    "Blueberries",
+    "Chia seeds",
+    "Pumpkin seeds"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "Rich in omega-3 and omega-6 fatty acids",
+    "Good source of magnesium and iron",
+    "Contains vitamin E and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

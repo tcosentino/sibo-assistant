@@ -1,0 +1,43 @@
+{
+  "id": "yellow-mustard",
+  "name": "Yellow Mustard",
+  "aliases": [
+    "American mustard",
+    "prepared mustard",
+    "classic mustard"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Yellow mustard is naturally FODMAP-free and well-tolerated in typical serving sizes for most SIBO patients.",
+  "preparationTips": [
+    "Check ingredient labels for added garlic or onion powder",
+    "Choose brands with simple ingredients: mustard seeds, vinegar, water, salt",
+    "Store opened mustard in refrigerator for best flavor retention",
+    "Use as a base for low-FODMAP marinades and dressings"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken breast",
+    "roast beef",
+    "hard cheeses like cheddar",
+    "sourdough bread (spelt)",
+    "potato salad with chives"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (about 3 calories per teaspoon)",
+    "Contains selenium from mustard seeds",
+    "Provides small amounts of magnesium and phosphorus",
+    "Naturally sodium-rich for electrolyte balance"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

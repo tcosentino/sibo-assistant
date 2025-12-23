@@ -1,0 +1,43 @@
+{
+  "id": "turbinado-sugar",
+  "name": "Turbinado Sugar",
+  "aliases": [
+    "Raw Sugar",
+    "Demerara Sugar",
+    "Turbinado"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 4 tablespoons",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Pure sucrose is generally well-tolerated in SIBO as it's absorbed in the small intestine before reaching problematic bacterial populations.",
+  "preparationTips": [
+    "Use in baking as 1:1 replacement for white sugar",
+    "Dissolves well in hot beverages and warm liquids",
+    "Has a subtle molasses flavor that complements coffee and tea",
+    "Store in airtight container to prevent hardening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Coffee",
+    "Black tea",
+    "Oat milk lattes",
+    "Gluten-free baked goods",
+    "Rice-based desserts"
+  ],
+  "nutritionalHighlights": [
+    "Provides quick energy from sucrose",
+    "Contains trace minerals from minimal processing",
+    "Similar caloric content to white sugar (4 calories per gram)",
+    "No fiber or significant micronutrients"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

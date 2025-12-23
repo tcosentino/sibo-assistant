@@ -1,0 +1,48 @@
+{
+  "id": "cassava-flour",
+  "name": "Cassava Flour",
+  "aliases": [
+    "Tapioca Flour",
+    "Yuca Flour",
+    "Manioc Flour"
+  ],
+  "category": "grain",
+  "subcategory": "alternative-flour",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Cassava flour is well-tolerated in SIBO as it's naturally FODMAP-free and grain-free, making it easier to digest than wheat-based flours.",
+  "preparationTips": [
+    "Use as 1:1 substitute for wheat flour in most baking recipes",
+    "Mix well to avoid clumping - sift before using",
+    "Works best when combined with other binding agents like eggs or xanthan gum",
+    "Store in airtight container to maintain freshness and prevent moisture absorption"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Potato starch",
+    "Almond flour (if tolerated)",
+    "Oat flour (gluten-free)"
+  ],
+  "pairsWellWith": [
+    "Eggs for binding in baking",
+    "Coconut oil for moisture",
+    "Maple syrup for sweetening",
+    "Vanilla extract",
+    "Low-FODMAP spices like cinnamon"
+  ],
+  "nutritionalHighlights": [
+    "Good source of resistant starch",
+    "Naturally gluten-free and grain-free",
+    "Contains vitamin C and folate",
+    "Provides carbohydrates for energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

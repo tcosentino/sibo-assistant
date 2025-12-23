@@ -1,0 +1,45 @@
+{
+  "id": "sorbitol",
+  "name": "Sorbitol",
+  "aliases": [
+    "E420",
+    "D-sorbitol",
+    "glucitol"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar-alcohol",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Sorbitol is poorly absorbed and rapidly fermented by gut bacteria, making it unsuitable for SIBO management even in small amounts.",
+  "preparationTips": [
+    "Check ingredient labels carefully as sorbitol is used in many sugar-free products",
+    "Found commonly in diet sodas, sugar-free gum, and diabetic foods",
+    "Can cause digestive symptoms even in non-IBS individuals at higher doses"
+  ],
+  "alternatives": [
+    "stevia",
+    "monk fruit sweetener",
+    "maple syrup (small amounts)",
+    "rice malt syrup"
+  ],
+  "pairsWellWith": [
+    "N/A - not recommended for low-FODMAP diet"
+  ],
+  "nutritionalHighlights": [
+    "provides sweetness with fewer calories than sugar",
+    "does not raise blood glucose significantly",
+    "has dental benefits (non-cariogenic)",
+    "acts as a humectant in food products"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

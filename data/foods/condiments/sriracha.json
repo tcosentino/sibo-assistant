@@ -1,0 +1,50 @@
+{
+  "id": "sriracha",
+  "name": "Sriracha",
+  "aliases": [
+    "sriracha sauce",
+    "rooster sauce",
+    "hot chili sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 17,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Contains garlic which is high in fructans and should be avoided during SIBO treatment phases. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check labels as some brands may contain additional high-FODMAP ingredients like onion powder",
+    "Start with very small amounts (1/4 teaspoon) if testing tolerance",
+    "Consider making homemade version with garlic-infused oil instead of garlic",
+    "Store in refrigerator after opening to maintain flavor and safety"
+  ],
+  "alternatives": [
+    "Chili-garlic oil (garlic-infused)",
+    "Red pepper flakes with olive oil",
+    "Tabasco or other vinegar-based hot sauces",
+    "Homemade chili sauce with scallion greens"
+  ],
+  "pairsWellWith": [
+    "Rice noodles",
+    "Grilled chicken",
+    "Scrambled eggs",
+    "Sushi rolls",
+    "Fried rice"
+  ],
+  "nutritionalHighlights": [
+    "Contains capsaicin which may boost metabolism",
+    "Low in calories (about 5 calories per teaspoon)",
+    "Provides small amounts of vitamin C from chili peppers",
+    "Contains vinegar which may aid digestion"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

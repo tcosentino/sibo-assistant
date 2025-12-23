@@ -1,0 +1,49 @@
+{
+  "id": "farro",
+  "name": "Farro",
+  "aliases": [
+    "Emmer wheat",
+    "Ancient wheat"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 50,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High fructan content makes farro problematic for SIBO patients. Consider avoiding during elimination phase and reintroduce cautiously during maintenance if tolerated.",
+  "preparationTips": [
+    "Soaking overnight may help reduce cooking time but won't significantly lower FODMAP content",
+    "Cook thoroughly to improve digestibility",
+    "Start with very small portions if reintroducing after elimination phase",
+    "Pair with low-FODMAP proteins and vegetables to balance the meal"
+  ],
+  "alternatives": [
+    "Brown rice",
+    "Quinoa",
+    "Buckwheat",
+    "Millet"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted carrots",
+    "Spinach",
+    "Bell peppers",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (about 7g per cooked cup)",
+    "Good source of fiber",
+    "Rich in magnesium and iron",
+    "Contains B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

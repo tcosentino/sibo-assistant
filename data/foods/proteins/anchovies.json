@@ -1,0 +1,43 @@
+{
+  "id": "anchovies",
+  "name": "Anchovies",
+  "aliases": [
+    "anchovy fillets",
+    "white anchovies",
+    "canned anchovies"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 8-10 fillets",
+      "cups": "1/4 cup chopped"
+    }
+  },
+  "siboNotes": "Anchovies are naturally FODMAP-free and well-tolerated on SIBO diets. The high salt content may help with electrolyte balance during digestive healing.",
+  "preparationTips": [
+    "Rinse canned anchovies to reduce excess salt if desired",
+    "Mash into paste for Caesar dressing or sauces",
+    "Add to low-FODMAP pizza or pasta dishes for umami flavor",
+    "Store opened canned anchovies covered in oil in refrigerator"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "olive oil",
+    "capers",
+    "lemon juice",
+    "parmesan cheese",
+    "spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in omega-3 fatty acids EPA and DHA",
+    "Excellent source of protein",
+    "Rich in calcium and selenium",
+    "Good source of niacin and vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

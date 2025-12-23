@@ -1,0 +1,60 @@
+{
+  "id": "cookie-butter",
+  "name": "Cookie Butter",
+  "aliases": [
+    "Speculoos spread",
+    "Biscoff spread",
+    "Lotus spread"
+  ],
+  "category": "condiment",
+  "subcategory": "spread",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 5,
+      "description": "About 1/2 teaspoon",
+      "cups": "1/2 tsp"
+    },
+    "high": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "High in wheat-derived fructans which can trigger SIBO symptoms. Best avoided during elimination phase.",
+  "preparationTips": [
+    "Check ingredient list for wheat flour content",
+    "Some brands may contain additional high FODMAP ingredients",
+    "Store in cool, dry place to maintain consistency",
+    "Warm slightly for easier spreading"
+  ],
+  "alternatives": [
+    "Peanut butter (natural, no added sweeteners)",
+    "Almond butter",
+    "Sunflower seed butter",
+    "Tahini"
+  ],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Gluten-free oats",
+    "Strawberries",
+    "Bananas",
+    "Rice crackers"
+  ],
+  "nutritionalHighlights": [
+    "High in calories and fat",
+    "Contains some protein from nuts/seeds",
+    "Provides vitamin E",
+    "High in added sugars"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

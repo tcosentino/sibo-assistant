@@ -1,0 +1,48 @@
+{
+  "id": "pickled-ginger",
+  "name": "Pickled Ginger",
+  "aliases": [
+    "Gari",
+    "Sushi Ginger",
+    "Japanese Pickled Ginger"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2-3 tablespoons sliced",
+      "cups": "2-3 tablespoons"
+    }
+  },
+  "siboNotes": "Fresh ginger is naturally low FODMAP and well-tolerated. The pickling process may enhance digestibility and provide gut-soothing properties.",
+  "preparationTips": [
+    "Rinse briefly if very salty or if you're sodium-sensitive",
+    "Use as a palate cleanser between different foods",
+    "Add to stir-fries or salads for a tangy kick",
+    "Store opened jars in refrigerator for up to 2 months"
+  ],
+  "alternatives": [
+    "Fresh ginger slices",
+    "Lemon juice",
+    "Rice vinegar with herbs",
+    "Lime zest"
+  ],
+  "pairsWellWith": [
+    "Sushi and sashimi",
+    "Grilled chicken or fish",
+    "Asian-style salads",
+    "Rice dishes",
+    "Low-FODMAP vegetables"
+  ],
+  "nutritionalHighlights": [
+    "Contains gingerol compounds with anti-inflammatory properties",
+    "Very low in calories",
+    "Source of beneficial probiotics from fermentation",
+    "Rich in antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

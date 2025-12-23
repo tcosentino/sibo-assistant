@@ -1,0 +1,42 @@
+{
+  "id": "brazil-nuts",
+  "name": "Brazil Nuts",
+  "aliases": [
+    "Brazil nut",
+    "Para nuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 5-6 nuts",
+      "cups": "2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free and well-tolerated. High fat content may slow digestion, so consume in moderation with SIBO.",
+  "preparationTips": [
+    "Store in refrigerator or freezer to prevent rancidity due to high oil content",
+    "Can be eaten raw or lightly toasted for enhanced flavor",
+    "Chop and add to salads, yogurt, or low-FODMAP baked goods",
+    "Limit to recommended serving size as they are very calorie-dense"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Mixed green salads",
+    "Gluten-free oats",
+    "Low-FODMAP berries",
+    "Dark chocolate (70%+ cacao)"
+  ],
+  "nutritionalHighlights": [
+    "Exceptionally high in selenium - just 1-2 nuts meet daily needs",
+    "Rich in healthy monounsaturated and polyunsaturated fats",
+    "Good source of magnesium and phosphorus",
+    "Contains vitamin E and zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "chimichurri",
+  "name": "Chimichurri",
+  "aliases": [
+    "Argentine chimichurri",
+    "green sauce",
+    "parsley sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 15,
+      "description": "1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Traditional chimichurri contains garlic, making it high FODMAP and unsuitable for SIBO diets. Even small amounts can trigger symptoms due to fructan content.",
+  "preparationTips": [
+    "Make FODMAP-friendly version using garlic-infused oil instead of fresh garlic",
+    "Use extra parsley and oregano to maintain flavor complexity",
+    "Add a pinch of asafoetida powder for umami depth",
+    "Store homemade low-FODMAP version in refrigerator for up to 1 week"
+  ],
+  "alternatives": [
+    "Garlic-infused oil with parsley and oregano",
+    "Basil pesto made without garlic",
+    "Simple herb oil with chives and parsley",
+    "Low-FODMAP green goddess dressing"
+  ],
+  "pairsWellWith": [
+    "Grilled steak or chicken",
+    "Roasted potatoes",
+    "Grilled zucchini",
+    "Hard cheeses",
+    "Sourdough bread (small portions)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin K from parsley",
+    "Contains antioxidants from fresh herbs",
+    "Provides healthy fats from olive oil",
+    "Good source of vitamin C"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

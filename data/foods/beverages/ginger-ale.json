@@ -1,0 +1,60 @@
+{
+  "id": "ginger-ale",
+  "name": "Ginger Ale",
+  "aliases": [
+    "Ginger soda",
+    "Ginger beer",
+    "Carbonated ginger drink"
+  ],
+  "category": "beverage",
+  "subcategory": "carbonated-soft-drink",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    },
+    "moderate": {
+      "grams": 375,
+      "description": "About 1.5 cups or 12 oz can",
+      "cups": "1.5 cups"
+    },
+    "high": {
+      "grams": 500,
+      "description": "About 2 cups or 16 oz bottle",
+      "cups": "2 cups"
+    }
+  },
+  "siboNotes": "Carbonation may worsen SIBO symptoms by increasing gas and bloating. Choose brands with real ginger for anti-inflammatory benefits.",
+  "preparationTips": [
+    "Choose brands with real ginger rather than artificial flavoring",
+    "Check labels for high fructose corn syrup which increases FODMAP load",
+    "Consider flat ginger ale if carbonation causes discomfort",
+    "Dilute with water to reduce sugar concentration if needed"
+  ],
+  "alternatives": [
+    "Fresh ginger tea with a pinch of sugar",
+    "Sparkling water with fresh ginger slices",
+    "Low-sugar ginger kombucha (small serving)",
+    "Homemade ginger water with glucose or dextrose"
+  ],
+  "pairsWellWith": [
+    "Plain crackers during nausea",
+    "Ginger cookies (low FODMAP recipe)",
+    "Rice-based meals",
+    "Chicken broth",
+    "Plain toast"
+  ],
+  "nutritionalHighlights": [
+    "May contain anti-inflammatory ginger compounds",
+    "Provides quick energy from simple sugars",
+    "Can help with nausea and digestive comfort",
+    "Typically low in sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

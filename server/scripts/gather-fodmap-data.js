@@ -19,6 +19,7 @@
  *   --delay <ms>        Delay between batches in ms (default: 2000)
  *   --force             Overwrite existing food files
  *   --list              List all foods to be generated and exit
+ *   --start-page <n>    Start from a specific page/batch number (1-indexed)
  *
  * Examples:
  *   # Dry run for sweeteners only
@@ -71,6 +72,7 @@ const options = {
   delay: 2000,
   force: args.includes('--force'),
   list: args.includes('--list'),
+  startPage: 1,
 };
 
 // Parse named arguments
@@ -83,6 +85,9 @@ for (let i = 0; i < args.length; i++) {
     i++;
   } else if (args[i] === '--delay' && args[i + 1]) {
     options.delay = parseInt(args[i + 1], 10);
+    i++;
+  } else if (args[i] === '--start-page' && args[i + 1]) {
+    options.startPage = parseInt(args[i + 1], 10);
     i++;
   }
 }
@@ -702,7 +707,8 @@ async function main() {
   console.log(`   Batch size: ${options.batchSize}`);
   console.log(`   Delay: ${options.delay}ms`);
   console.log(`   Dry run: ${options.dryRun}`);
-  console.log(`   Force overwrite: ${options.force}\n`);
+  console.log(`   Force overwrite: ${options.force}`);
+  console.log(`   Start page: ${options.startPage}\n`);
 
   console.log(`📊 Existing foods: ${existingFoods.size}\n`);
   console.log(`📝 Foods to process: ${foodsToProcess.length}\n`);
@@ -715,7 +721,12 @@ async function main() {
   };
 
   // Process in batches
-  for (let i = 0; i < foodsToProcess.length; i += options.batchSize) {
+  const startIndex = (options.startPage - 1) * options.batchSize;
+  if (startIndex > 0) {
+    console.log(`⏩ Skipping to page ${options.startPage} (starting at item ${startIndex + 1})\n`);
+  }
+
+  for (let i = startIndex; i < foodsToProcess.length; i += options.batchSize) {
     const batch = foodsToProcess.slice(i, i + options.batchSize);
     const batchNum = Math.floor(i / options.batchSize) + 1;
     const totalBatches = Math.ceil(foodsToProcess.length / options.batchSize);

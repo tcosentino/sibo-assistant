@@ -1,0 +1,43 @@
+{
+  "id": "olives-black",
+  "name": "Olives (Black)",
+  "aliases": [
+    "Black olives",
+    "Ripe olives",
+    "Kalamata olives"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 10 medium olives",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as they contain minimal fermentable carbohydrates. Watch sodium content if fluid retention is a concern.",
+  "preparationTips": [
+    "Rinse canned olives to reduce sodium content",
+    "Choose olives without garlic or onion seasonings",
+    "Fresh olives from the deli counter often have fewer additives",
+    "Slice or chop to distribute flavor throughout dishes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Feta cheese",
+    "Cherry tomatoes",
+    "Cucumber",
+    "Bell peppers",
+    "Olive oil and vinegar"
+  ],
+  "nutritionalHighlights": [
+    "Healthy monounsaturated fats",
+    "Vitamin E for antioxidant protection",
+    "Iron for oxygen transport",
+    "Low in carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

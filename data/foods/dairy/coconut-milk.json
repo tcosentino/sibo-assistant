@@ -1,0 +1,42 @@
+{
+  "id": "coconut-milk",
+  "name": "Coconut Milk",
+  "aliases": [
+    "Canned coconut milk",
+    "Coconut cream"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's naturally lactose-free and contains no FODMAPs. Choose unsweetened varieties without added inulin or other FODMAP ingredients.",
+  "preparationTips": [
+    "Choose full-fat canned coconut milk for cooking and baking",
+    "Check labels to avoid added sugars, gums, or inulin",
+    "Shake or stir well before using as separation is natural",
+    "Refrigerated carton versions are more diluted than canned"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Curry spices and turmeric",
+    "Rice and quinoa dishes",
+    "Low FODMAP fruits in smoothies",
+    "Chicken and seafood",
+    "Dark leafy greens"
+  ],
+  "nutritionalHighlights": [
+    "Rich in medium-chain triglycerides (MCTs)",
+    "Good source of potassium and magnesium",
+    "Contains lauric acid with antimicrobial properties",
+    "Naturally lactose-free and dairy-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

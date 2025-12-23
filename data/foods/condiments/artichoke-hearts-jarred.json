@@ -1,0 +1,60 @@
+{
+  "id": "artichoke-hearts-jarred",
+  "name": "Artichoke Hearts (Jarred)",
+  "aliases": [
+    "Marinated artichoke hearts",
+    "Canned artichoke hearts",
+    "Preserved artichoke hearts"
+  ],
+  "category": "condiment",
+  "subcategory": "preserved-vegetable",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1/4 cup or 2-3 small hearts",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 1/2 cup or 4-5 small hearts",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 3/4 cup or 7-8 small hearts",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "The fructans in artichoke hearts can feed SIBO bacteria, so stick to small portions and monitor symptoms. Rinse jarred varieties to remove excess marinade which may contain high-FODMAP ingredients.",
+  "preparationTips": [
+    "Rinse jarred artichoke hearts to remove marinade that may contain garlic or onion",
+    "Check ingredient labels - avoid varieties with added garlic or onion powder",
+    "Quarter or chop hearts to distribute the small serving throughout your dish",
+    "Pair with low-FODMAP ingredients to create satisfying portions"
+  ],
+  "alternatives": [
+    "Hearts of palm (naturally low FODMAP)",
+    "Roasted red peppers",
+    "Marinated eggplant (small portions)",
+    "Green olives"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Grilled chicken",
+    "Cherry tomatoes",
+    "Fresh basil",
+    "Olive oil and lemon dressing"
+  ],
+  "nutritionalHighlights": [
+    "Good source of fiber for digestive health",
+    "Rich in antioxidants, particularly cynarin",
+    "Contains folate and vitamin C",
+    "Provides potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

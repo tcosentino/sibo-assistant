@@ -1,0 +1,42 @@
+{
+  "id": "pecorino-romano",
+  "name": "Pecorino Romano",
+  "aliases": [
+    "Romano cheese",
+    "Pecorino cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1/3 cup grated or 1.5 oz block",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Aged hard cheeses like Pecorino Romano are naturally low in lactose due to the aging process, making them well-tolerated for SIBO patients.",
+  "preparationTips": [
+    "Grate fresh for best flavor and texture",
+    "Store wrapped in parchment paper in refrigerator",
+    "Add at the end of cooking to preserve sharp flavor",
+    "Pair with gluten-free pasta for low-FODMAP Italian dishes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Gluten-free pasta",
+    "Zucchini noodles",
+    "Fresh basil",
+    "Cherry tomatoes",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (8g per ounce)",
+    "Excellent source of calcium",
+    "Rich in phosphorus for bone health",
+    "Contains beneficial probiotics from aging process"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

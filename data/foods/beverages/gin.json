@@ -1,0 +1,47 @@
+{
+  "id": "gin",
+  "name": "Gin",
+  "aliases": [
+    "London Dry Gin",
+    "Distilled Gin"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 standard shot (1 fl oz)",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Pure distilled gin is FODMAP-free as alcohol distillation removes FODMAP compounds. However, alcohol can irritate the gut lining and may worsen SIBO symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Choose pure gin without added flavors or botanicals that may contain FODMAPs",
+    "Avoid gin cocktails with high-FODMAP mixers like apple juice or honey",
+    "Mix with low-FODMAP options like soda water, lime juice, or small amounts of cranberry juice",
+    "Consume in moderation as alcohol can disrupt gut bacteria balance"
+  ],
+  "alternatives": [
+    "Vodka (also FODMAP-free distilled spirit)",
+    "White rum (unflavored)",
+    "Whiskey (pure, unflavored)",
+    "Non-alcoholic gin alternatives with juniper extract"
+  ],
+  "pairsWellWith": [
+    "Fresh lime juice",
+    "Cucumber slices",
+    "Fresh mint leaves",
+    "Soda water",
+    "Small amounts of cranberry juice"
+  ],
+  "nutritionalHighlights": [
+    "Contains approximately 64 calories per 1 oz serving",
+    "No carbohydrates, sugars, or fiber",
+    "May contain trace amounts of botanicals like juniper",
+    "Provides no essential vitamins or minerals"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

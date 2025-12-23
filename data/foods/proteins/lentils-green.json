@@ -1,0 +1,60 @@
+{
+  "id": "lentils-green",
+  "name": "Lentils (Green)",
+  "aliases": [
+    "Green lentils",
+    "French lentils",
+    "Lentilles vertes"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons cooked",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 1/3 cup cooked",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "High in galactans which feed bacteria in SIBO. Start with very small portions (1-2 tablespoons) if tolerated during maintenance phase only.",
+  "preparationTips": [
+    "Soak overnight and rinse thoroughly before cooking to reduce some galactans",
+    "Cook until very soft to improve digestibility",
+    "Start with red lentils which may be slightly better tolerated",
+    "Combine with digestive spices like ginger, cumin, or fennel seeds"
+  ],
+  "alternatives": [
+    "Firm tofu (small portions)",
+    "Tempeh (small portions)",
+    "Canned lentils (small portions, rinse well)",
+    "Quinoa for plant-based protein"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Spinach",
+    "Brown rice",
+    "Ginger",
+    "Turmeric"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Rich in fiber and folate",
+    "Good source of iron and potassium",
+    "Contains B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

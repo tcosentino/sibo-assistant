@@ -1,0 +1,42 @@
+{
+  "id": "vanilla-extract",
+  "name": "Vanilla Extract",
+  "aliases": [
+    "Pure vanilla extract",
+    "Vanilla flavoring"
+  ],
+  "category": "condiment",
+  "subcategory": "flavoring",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Pure vanilla extract is FODMAP-free and safe for SIBO diets in typical baking and cooking amounts.",
+  "preparationTips": [
+    "Use pure vanilla extract rather than imitation vanilla which may contain artificial sweeteners",
+    "A little goes a long way - start with 1/2 teaspoon and adjust to taste",
+    "Store in a cool, dark place to maintain flavor potency",
+    "Can be used in both sweet and some savory applications"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP berries like strawberries and blueberries",
+    "Lactose-free dairy products",
+    "Gluten-free oats",
+    "Maple syrup",
+    "Dark chocolate (in moderation)"
+  ],
+  "nutritionalHighlights": [
+    "Contains vanillin, a natural antioxidant compound",
+    "Alcohol-based extraction preserves vanilla compounds",
+    "Very low calorie when used in typical amounts",
+    "May have mild anti-inflammatory properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "bacon-fat",
+  "name": "Bacon Fat",
+  "aliases": [
+    "bacon grease",
+    "pork fat",
+    "rendered bacon fat"
+  ],
+  "category": "fat",
+  "subcategory": "animal-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure animal fat is FODMAP-free and well-tolerated by most SIBO patients. High fat content may slow gastric emptying in sensitive individuals.",
+  "preparationTips": [
+    "Strain rendered bacon fat while warm to remove crispy bits",
+    "Store in refrigerator for up to 3 months or freeze for longer storage",
+    "Use for sautéing vegetables or as cooking fat for enhanced flavor",
+    "Start with small amounts if sensitive to high-fat foods"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "green beans",
+    "Brussels sprouts",
+    "potatoes",
+    "carrots",
+    "spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in saturated and monounsaturated fats",
+    "Contains fat-soluble vitamins A, D, E, K",
+    "Provides concentrated energy at 9 calories per gram",
+    "Source of natural pork flavor compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

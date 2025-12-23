@@ -1,0 +1,47 @@
+{
+  "id": "tamarind-paste",
+  "name": "Tamarind Paste",
+  "aliases": [
+    "Tamarind Concentrate",
+    "Tamarind Pulp"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts due to its concentrated nature and typical usage as a flavoring agent.",
+  "preparationTips": [
+    "Start with small amounts (1 teaspoon) to test tolerance",
+    "Mix with water to create tamarind water for cooking",
+    "Store in refrigerator after opening to maintain freshness",
+    "Use as a souring agent in curries and sauces"
+  ],
+  "alternatives": [
+    "Lime juice",
+    "Rice vinegar",
+    "White wine vinegar",
+    "Lemon juice"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Turmeric",
+    "Coconut milk",
+    "Fish sauce",
+    "Brown sugar"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and antioxidants",
+    "Contains potassium and magnesium",
+    "Source of tartaric acid",
+    "Provides B vitamins including thiamine"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

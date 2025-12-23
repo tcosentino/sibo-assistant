@@ -1,0 +1,47 @@
+{
+  "id": "pepperoni",
+  "name": "Pepperoni",
+  "aliases": [
+    "pepperoni slices",
+    "pizza pepperoni"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 28,
+      "description": "About 15-20 slices",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's naturally FODMAP-free, but high sodium and fat content may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Choose nitrate-free versions when possible for better gut health",
+    "Pat with paper towel to remove excess grease before eating",
+    "Check labels for added garlic or onion powder in seasoning",
+    "Store properly refrigerated and use within recommended timeframe"
+  ],
+  "alternatives": [
+    "Turkey pepperoni (lower fat option)",
+    "Grilled chicken strips",
+    "Hard salami without garlic",
+    "Cooked bacon bits"
+  ],
+  "pairsWellWith": [
+    "Lactose-free mozzarella cheese",
+    "Bell peppers",
+    "Tomato sauce (garlic-free)",
+    "Gluten-free pizza crust",
+    "Fresh basil"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (5g per ounce)",
+    "Contains iron and zinc",
+    "High in sodium (requires moderation)",
+    "Source of vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

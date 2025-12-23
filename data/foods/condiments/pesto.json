@@ -1,0 +1,60 @@
+{
+  "id": "pesto",
+  "name": "Pesto",
+  "aliases": [
+    "Basil pesto",
+    "Pesto sauce",
+    "Pesto genovese"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 tsp"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Traditional pesto contains garlic which is very high in fructans and should be avoided during SIBO treatment. Even small amounts can trigger symptoms.",
+  "preparationTips": [
+    "Make homemade pesto using garlic-infused oil instead of fresh garlic",
+    "Use only the green tops of scallions for mild onion flavor",
+    "Substitute with basil oil for pure basil flavor without garlic",
+    "Store homemade low-FODMAP pesto in refrigerator for up to one week"
+  ],
+  "alternatives": [
+    "Garlic-infused oil with fresh basil",
+    "Basil and olive oil blend",
+    "Low-FODMAP herb oil",
+    "Chives and basil sauce"
+  ],
+  "pairsWellWith": [
+    "Gluten-free pasta",
+    "Grilled chicken breast",
+    "Zucchini noodles",
+    "Rice crackers",
+    "Firm tofu"
+  ],
+  "nutritionalHighlights": [
+    "High in healthy monounsaturated fats from olive oil",
+    "Rich in vitamin K from fresh basil",
+    "Contains antioxidants from pine nuts",
+    "Good source of calcium from parmesan cheese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "miso-paste-red",
+  "name": "Miso Paste (Red)",
+  "aliases": [
+    "Red Miso",
+    "Aka Miso",
+    "Fermented Soybean Paste"
+  ],
+  "category": "condiment",
+  "subcategory": "fermented-paste",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Red miso paste is well-tolerated as it's fermented, which breaks down FODMAPs. Use in small amounts as it's very salty.",
+  "preparationTips": [
+    "Start with small amounts (1/2 tablespoon) as miso is very salty and flavorful",
+    "Dissolve in warm water or broth before adding to dishes",
+    "Store in refrigerator after opening - it keeps for months",
+    "Don't boil miso directly as it can become grainy"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Tofu (firm)",
+    "Scallions (green parts only)",
+    "Ginger",
+    "Rice noodles",
+    "Bok choy"
+  ],
+  "nutritionalHighlights": [
+    "Rich in probiotics from fermentation",
+    "Good source of protein and B vitamins",
+    "Contains beneficial enzymes",
+    "High in sodium - use sparingly"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

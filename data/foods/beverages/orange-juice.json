@@ -1,0 +1,60 @@
+{
+  "id": "orange-juice",
+  "name": "Orange Juice",
+  "aliases": [
+    "Fresh orange juice",
+    "OJ",
+    "Squeezed orange juice"
+  ],
+  "category": "beverage",
+  "subcategory": "citrus-juice",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 cup or more",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Limit to 1/2 cup serving to avoid excess fructose which can feed bacteria in SIBO. Fresh squeezed may be better tolerated than commercial varieties with added sugars.",
+  "preparationTips": [
+    "Choose fresh squeezed over concentrate when possible",
+    "Dilute with water to reduce fructose concentration",
+    "Consume with food to slow absorption",
+    "Avoid varieties with added high fructose corn syrup"
+  ],
+  "alternatives": [
+    "Lemon water with stevia",
+    "Lime juice (small amounts)",
+    "Cranberry juice (pure, diluted)",
+    "Freshly squeezed mandarin juice (smaller serving)"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP breakfast cereals",
+    "Gluten-free toast",
+    "Eggs",
+    "Lactose-free yogurt",
+    "Nuts and seeds"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C",
+    "Folate",
+    "Potassium",
+    "Antioxidants (flavonoids)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

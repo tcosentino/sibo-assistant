@@ -1,0 +1,48 @@
+{
+  "id": "goat-cheese-chevre",
+  "name": "Goat Cheese (Chèvre)",
+  "aliases": [
+    "Chèvre",
+    "Soft Goat Cheese",
+    "Fresh Goat Cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 tablespoons or 1 oz",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as it's naturally lower in lactose than cow's milk cheeses. The aging process further reduces lactose content.",
+  "preparationTips": [
+    "Choose plain varieties without added high-FODMAP ingredients like garlic or onion",
+    "Let come to room temperature for best flavor and spreading consistency",
+    "Store in refrigerator and use within 5-7 days of opening",
+    "Check labels for added prebiotics or inulin which would increase FODMAP content"
+  ],
+  "alternatives": [
+    "Aged hard goat cheese",
+    "Lactose-free cream cheese",
+    "Firm aged cow's milk cheeses",
+    "Nutritional yeast for dairy-free option"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Rice crackers",
+    "Fresh strawberries",
+    "Walnuts",
+    "Chives"
+  ],
+  "nutritionalHighlights": [
+    "High-quality protein",
+    "Calcium for bone health",
+    "Vitamin A for eye health",
+    "Lower in lactose than cow's milk cheese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

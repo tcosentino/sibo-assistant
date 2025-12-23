@@ -1,0 +1,42 @@
+{
+  "id": "safflower-oil",
+  "name": "Safflower Oil",
+  "aliases": [
+    "high oleic safflower oil",
+    "cold-pressed safflower oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are SIBO-friendly and well-tolerated as they contain no carbohydrates to feed bacterial overgrowth.",
+  "preparationTips": [
+    "Store in cool, dark place to prevent rancidity",
+    "Use within 6 months of opening for best quality",
+    "Choose cold-pressed varieties for maximum nutrient retention",
+    "Suitable for high-heat cooking with high smoke point"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken breast",
+    "roasted carrots",
+    "quinoa salad",
+    "sautéed spinach",
+    "baked salmon"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E (antioxidant)",
+    "Rich in linoleic acid (omega-6 fatty acid)",
+    "Contains oleic acid (monounsaturated fat)",
+    "Cholesterol-free plant-based fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

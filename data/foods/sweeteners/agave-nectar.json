@@ -1,0 +1,60 @@
+{
+  "id": "agave-nectar",
+  "name": "Agave Nectar",
+  "aliases": [
+    "Agave Syrup",
+    "Blue Agave Nectar",
+    "Agave Sweetener"
+  ],
+  "category": "sweetener",
+  "subcategory": "liquid-sweetener",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 7,
+      "description": "About 1/2 tablespoon",
+      "cups": "1/2 tablespoon"
+    },
+    "moderate": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "high": {
+      "grams": 21,
+      "description": "About 1.5 tablespoons",
+      "cups": "1.5 tablespoons"
+    }
+  },
+  "siboNotes": "High in excess fructose which feeds bacteria in SIBO. Use sparingly and only during symptom-free periods if tolerated.",
+  "preparationTips": [
+    "Use only small amounts (1/2 tablespoon or less) if testing tolerance",
+    "Dilute with water when using in beverages to reduce concentration",
+    "Pair with glucose-containing foods to improve fructose absorption",
+    "Start with even smaller amounts (1 teaspoon) when first testing"
+  ],
+  "alternatives": [
+    "Maple syrup (pure, small amounts)",
+    "Rice malt syrup",
+    "Stevia",
+    "Table sugar (sucrose)"
+  ],
+  "pairsWellWith": [
+    "Lemon juice",
+    "Lime juice",
+    "Ginger",
+    "Mint leaves",
+    "Low FODMAP teas"
+  ],
+  "nutritionalHighlights": [
+    "Lower glycemic index than table sugar",
+    "Contains trace minerals like calcium and potassium",
+    "Concentrated source of calories",
+    "No significant vitamins or fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

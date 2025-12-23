@@ -1,0 +1,48 @@
+{
+  "id": "cornmeal",
+  "name": "Cornmeal",
+  "aliases": [
+    "Corn flour",
+    "Polenta",
+    "Maize meal"
+  ],
+  "category": "grain",
+  "subcategory": "corn",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 160,
+      "description": "About 1 cup dry",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free and well-tolerated. Choose plain cornmeal without added seasonings or wheat-based ingredients.",
+  "preparationTips": [
+    "Check labels for added wheat flour or high-FODMAP seasonings",
+    "Cook with lactose-free milk or water instead of regular milk",
+    "Add low-FODMAP herbs like oregano or basil for flavor",
+    "Can be used as breading for proteins or made into polenta"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Quinoa flour",
+    "Potato starch",
+    "Tapioca flour"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Bell peppers",
+    "Zucchini",
+    "Tomatoes",
+    "Aged cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "Good source of fiber",
+    "Contains vitamin A (yellow varieties)",
+    "Provides complex carbohydrates",
+    "Naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

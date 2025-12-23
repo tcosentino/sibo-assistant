@@ -1,0 +1,60 @@
+{
+  "id": "marmalade",
+  "name": "Marmalade",
+  "aliases": [
+    "orange marmalade",
+    "citrus marmalade",
+    "jam"
+  ],
+  "category": "condiment",
+  "subcategory": "preserve",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 3 tablespoons",
+      "cups": "3 tbsp"
+    }
+  },
+  "siboNotes": "High sugar content may feed bacterial overgrowth; limit to small servings and consume with protein or fat to slow absorption.",
+  "preparationTips": [
+    "Check labels for high fructose corn syrup which increases FODMAP load",
+    "Choose varieties with lower sugar content when possible",
+    "Spread thinly on low-FODMAP bread or crackers",
+    "Store opened jars in refrigerator to maintain quality"
+  ],
+  "alternatives": [
+    "Pure maple syrup (small amounts)",
+    "Low-sugar strawberry jam",
+    "Homemade citrus zest in butter",
+    "Sugar-free preserves with safe sweeteners"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Rice cakes",
+    "Gluten-free crackers",
+    "Plain Greek yogurt (lactose-free)",
+    "Aged hard cheese"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from citrus peel",
+    "Natural fruit sugars for quick energy",
+    "Pectin for digestive health",
+    "Antioxidants from citrus bioflavonoids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

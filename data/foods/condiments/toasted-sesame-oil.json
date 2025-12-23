@@ -1,0 +1,48 @@
+{
+  "id": "toasted-sesame-oil",
+  "name": "Toasted Sesame Oil",
+  "aliases": [
+    "Dark Sesame Oil",
+    "Asian Sesame Oil",
+    "Roasted Sesame Oil"
+  ],
+  "category": "condiment",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and well-tolerated in SIBO. Use sparingly as it's calorie-dense and rich flavor means a little goes a long way.",
+  "preparationTips": [
+    "Add at the end of cooking to preserve nutty flavor",
+    "Mix with rice vinegar for simple salad dressing",
+    "Store in cool, dark place to prevent rancidity",
+    "Use sparingly - intense flavor means 1-2 teaspoons often suffices"
+  ],
+  "alternatives": [
+    "Regular sesame oil (milder flavor)",
+    "Olive oil",
+    "Avocado oil",
+    "Coconut oil"
+  ],
+  "pairsWellWith": [
+    "Ginger",
+    "Scallions (green parts only)",
+    "Rice dishes",
+    "Stir-fried vegetables",
+    "Soy sauce (gluten-free)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin E",
+    "Contains heart-healthy monounsaturated fats",
+    "Source of lignans with antioxidant properties",
+    "Provides essential fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

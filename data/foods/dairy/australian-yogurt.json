@@ -1,0 +1,60 @@
+{
+  "id": "australian-yogurt",
+  "name": "Australian Yogurt",
+  "aliases": [
+    "Greek-style yogurt",
+    "Natural yogurt",
+    "Plain yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "yogurt",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 90,
+      "description": "About 1/3 cup",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Lactose content may feed bacterial overgrowth in SIBO patients. Consider lactose-free alternatives or limit to small portions during elimination phase.",
+  "preparationTips": [
+    "Choose plain varieties without added fruit or sweeteners",
+    "Strain through cheesecloth to make Greek-style and reduce lactose content",
+    "Combine with low FODMAP fruits like strawberries or kiwi",
+    "Use as a base for savory dips with garlic-infused oil instead of fresh garlic"
+  ],
+  "alternatives": [
+    "Lactose-free yogurt",
+    "Coconut yogurt (check additives)",
+    "Almond milk yogurt (limit to 1/4 cup)",
+    "Hard aged cheeses like cheddar or parmesan"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Kiwi fruit",
+    "Walnuts",
+    "Chia seeds"
+  ],
+  "nutritionalHighlights": [
+    "High in protein for muscle maintenance",
+    "Rich in calcium for bone health",
+    "Contains probiotics for gut health",
+    "Good source of B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cottage-cheese",
+  "name": "Cottage Cheese",
+  "aliases": [
+    "Curd cheese",
+    "Farmer's cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Contains lactose which can feed bacteria in SIBO patients. Choose lactose-free versions or limit portions to 1/4 cup servings.",
+  "preparationTips": [
+    "Choose lactose-free cottage cheese when available",
+    "Rinse regular cottage cheese to reduce lactose content slightly",
+    "Combine with low-FODMAP fruits for balanced nutrition",
+    "Use as protein base in savory dishes rather than sweet preparations"
+  ],
+  "alternatives": [
+    "Lactose-free cottage cheese",
+    "Firm tofu",
+    "Ricotta cheese (small portions)",
+    "Greek yogurt (lactose-free)"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Cantaloupe",
+    "Cucumber slices",
+    "Bell peppers",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Calcium for bone health",
+    "B-vitamins including B12",
+    "Low in carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

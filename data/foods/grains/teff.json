@@ -1,0 +1,43 @@
+{
+  "id": "teff",
+  "name": "Teff",
+  "aliases": [
+    "Eragrostis tef",
+    "tef grain",
+    "Ethiopian grain"
+  ],
+  "category": "grain",
+  "subcategory": "ancient-grain",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Teff is well-tolerated on SIBO diets as it's naturally gluten-free and low FODMAP. Its small grain size makes it easier to digest than larger grains.",
+  "preparationTips": [
+    "Rinse teff before cooking to remove any debris",
+    "Use a 3:1 water-to-teff ratio when cooking",
+    "Toast teff in a dry pan before cooking for enhanced nutty flavor",
+    "Cook for 15-20 minutes until tender and porridge-like"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP vegetables like carrots and spinach",
+    "Lactose-free milk or almond milk",
+    "Fresh herbs like parsley and chives",
+    "Low FODMAP proteins like chicken or fish",
+    "Maple syrup for sweetening"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (complete amino acid profile)",
+    "Rich in iron and calcium",
+    "Good source of dietary fiber",
+    "Contains magnesium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

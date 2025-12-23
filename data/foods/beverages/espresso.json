@@ -1,0 +1,43 @@
+{
+  "id": "espresso",
+  "name": "Espresso",
+  "aliases": [
+    "espresso coffee",
+    "short black",
+    "espresso shot"
+  ],
+  "category": "beverage",
+  "subcategory": "coffee",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 shot (standard espresso)",
+      "cups": "1 fl oz"
+    }
+  },
+  "siboNotes": "Black espresso is FODMAP-free and generally well-tolerated in SIBO. Caffeine may stimulate gut motility, which can be beneficial for some SIBO patients.",
+  "preparationTips": [
+    "Drink black without milk or sweeteners to keep FODMAP-free",
+    "Limit to 2-3 shots per day to avoid excessive caffeine",
+    "Choose quality beans for better flavor without additives",
+    "Avoid flavored syrups which often contain high-FODMAP ingredients"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lactose-free milk",
+    "small portion of hard cheese",
+    "rice cakes",
+    "dark chocolate (85% cacao)",
+    "almonds"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and chlorogenic acids",
+    "Contains caffeine for mental alertness",
+    "Virtually calorie-free when consumed black",
+    "May support metabolism and fat oxidation"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

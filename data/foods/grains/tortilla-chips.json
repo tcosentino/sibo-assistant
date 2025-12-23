@@ -1,0 +1,47 @@
+{
+  "id": "tortilla-chips",
+  "name": "Tortilla Chips",
+  "aliases": [
+    "Corn chips",
+    "Nacho chips"
+  ],
+  "category": "grain",
+  "subcategory": "corn",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 oz or 10-12 chips",
+      "cups": "1 cup broken pieces"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as corn is naturally low FODMAP. Choose brands without high-FODMAP seasonings like onion or garlic powder.",
+  "preparationTips": [
+    "Read ingredient labels carefully - avoid chips with onion or garlic powder",
+    "Choose plain salted varieties over flavored options",
+    "Stick to recommended serving sizes to avoid excess fat intake",
+    "Pair with low-FODMAP dips rather than high-FODMAP options"
+  ],
+  "alternatives": [
+    "Rice crackers",
+    "Corn tortillas (cut and baked)",
+    "Plain popcorn",
+    "Rice cakes"
+  ],
+  "pairsWellWith": [
+    "Guacamole (without garlic)",
+    "Salsa (garlic-free)",
+    "Cheese (aged varieties)",
+    "Low-FODMAP bean dip",
+    "Sour cream (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "Provides carbohydrates for energy",
+    "Contains some fiber from corn",
+    "Source of B vitamins",
+    "Provides small amounts of magnesium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

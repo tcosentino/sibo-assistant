@@ -1,0 +1,42 @@
+{
+  "id": "amaranth",
+  "name": "Amaranth",
+  "aliases": [
+    "amaranth grain",
+    "amaranth seeds"
+  ],
+  "category": "grain",
+  "subcategory": "ancient-grain",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup dry grain",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Amaranth is well-tolerated on SIBO diets as it's naturally FODMAP-free and easier to digest than many other grains.",
+  "preparationTips": [
+    "Rinse amaranth thoroughly before cooking to remove any bitter saponins",
+    "Toast dry amaranth in a pan for 2-3 minutes before adding liquid for nuttier flavor",
+    "Cook with 2.5-3 parts water to 1 part amaranth for fluffy texture",
+    "Can be popped like popcorn for a crunchy snack or cereal topping"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "quinoa",
+    "brown rice",
+    "carrots",
+    "spinach",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein containing all essential amino acids",
+    "High in iron and magnesium",
+    "Good source of fiber and B vitamins",
+    "Naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "split-peas",
+  "name": "Split Peas",
+  "aliases": [
+    "Yellow split peas",
+    "Green split peas",
+    "Field peas"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons cooked",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High in galactans (GOS) which feed bacterial overgrowth. Even small amounts may trigger symptoms in SIBO patients.",
+  "preparationTips": [
+    "Soak dried split peas overnight and rinse thoroughly",
+    "Cook with digestive spices like cumin or fennel",
+    "Start with very small portions to test tolerance",
+    "Remove foam while cooking to reduce gas-producing compounds"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small amounts)",
+    "Canned lentils (1/4 cup max)",
+    "Quinoa"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Parsnips",
+    "Potatoes",
+    "Spinach",
+    "Bay leaves"
+  ],
+  "nutritionalHighlights": [
+    "High protein (8g per 1/2 cup)",
+    "Rich in fiber",
+    "Good source of folate",
+    "Contains potassium and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

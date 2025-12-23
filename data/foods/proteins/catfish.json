@@ -1,0 +1,42 @@
+{
+  "id": "catfish",
+  "name": "Catfish",
+  "aliases": [
+    "Channel catfish",
+    "Farm-raised catfish"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "1 medium fillet"
+    }
+  },
+  "siboNotes": "Plain catfish is naturally FODMAP-free and well-tolerated. Choose simple cooking methods to avoid high-FODMAP seasonings or breading.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like basil, oregano, or chives",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Avoid onion powder - use green onion tops instead",
+    "Pan-fry, bake, or grill without high-FODMAP marinades"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice",
+    "Quinoa",
+    "Green beans",
+    "Carrots",
+    "Zucchini"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in vitamin B12",
+    "Good source of selenium",
+    "Contains omega-3 fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

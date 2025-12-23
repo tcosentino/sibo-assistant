@@ -1,0 +1,47 @@
+{
+  "id": "lard",
+  "name": "Lard",
+  "aliases": [
+    "Rendered pork fat",
+    "Pork lard"
+  ],
+  "category": "fat",
+  "subcategory": "animal-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Pure fat with no carbohydrates, making it well-tolerated for SIBO. Provides concentrated calories without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Use for high-heat cooking as it has a high smoke point",
+    "Store in refrigerator for up to 6 months",
+    "Can substitute 1:1 for butter in baking recipes",
+    "Allow to come to room temperature before measuring for accuracy"
+  ],
+  "alternatives": [
+    "Ghee (clarified butter)",
+    "Coconut oil",
+    "Olive oil",
+    "Avocado oil"
+  ],
+  "pairsWellWith": [
+    "Root vegetables for roasting",
+    "Low-FODMAP herbs like rosemary",
+    "Carrots and parsnips",
+    "Potatoes",
+    "Low-FODMAP greens like spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in saturated fat",
+    "Contains vitamin D",
+    "Rich in monounsaturated fats",
+    "Source of fat-soluble vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

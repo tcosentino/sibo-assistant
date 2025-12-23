@@ -1,0 +1,48 @@
+{
+  "id": "pickled-jalapenos",
+  "name": "Pickled Jalapeños",
+  "aliases": [
+    "pickled jalapeño peppers",
+    "jarred jalapeños",
+    "nacho peppers"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 6-8 slices",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Well tolerated in typical serving sizes. The pickling process may reduce any potential FODMAPs, and peppers are naturally low FODMAP.",
+  "preparationTips": [
+    "Rinse if too salty or acidic for your taste",
+    "Check ingredient labels - avoid brands with garlic or onion powder",
+    "Store opened jars in refrigerator and use within recommended time",
+    "Slice fresh jalapeños and quick-pickle in vinegar for homemade version"
+  ],
+  "alternatives": [
+    "Fresh jalapeño slices",
+    "Pickled bell peppers",
+    "Banana peppers",
+    "Green chili peppers"
+  ],
+  "pairsWellWith": [
+    "Lactose-free cheese",
+    "Corn tortilla chips",
+    "Grilled chicken",
+    "Rice dishes",
+    "Tacos with corn tortillas"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C for immune support",
+    "Capsaicin with potential anti-inflammatory properties",
+    "Low in calories",
+    "Contains probiotics from fermentation process"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

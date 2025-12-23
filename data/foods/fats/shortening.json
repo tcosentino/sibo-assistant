@@ -1,0 +1,48 @@
+{
+  "id": "shortening",
+  "name": "Shortening",
+  "aliases": [
+    "vegetable shortening",
+    "solid shortening",
+    "hydrogenated fat"
+  ],
+  "category": "fat",
+  "subcategory": "solid-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Pure shortening is FODMAP-free and well-tolerated. Use in moderation as high fat intake can slow gastric emptying.",
+  "preparationTips": [
+    "Check labels to ensure no added flavors or ingredients",
+    "Store in cool, dry place to maintain consistency",
+    "Allow to come to room temperature for easier mixing in baking",
+    "Can be substituted 1:1 for butter in most recipes"
+  ],
+  "alternatives": [
+    "coconut oil",
+    "butter (if lactose tolerant)",
+    "ghee",
+    "avocado oil for liquid fat needs"
+  ],
+  "pairsWellWith": [
+    "gluten-free flour",
+    "sugar",
+    "eggs",
+    "vanilla extract",
+    "baking powder"
+  ],
+  "nutritionalHighlights": [
+    "High in calories for energy",
+    "Contains vitamin E (if fortified)",
+    "Zero carbohydrates",
+    "Provides essential fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

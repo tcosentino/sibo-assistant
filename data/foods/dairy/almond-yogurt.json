@@ -1,0 +1,47 @@
+{
+  "id": "almond-yogurt",
+  "name": "Almond Yogurt",
+  "aliases": [
+    "Almond-based yogurt",
+    "Non-dairy almond yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "non-dairy-yogurt",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's lactose-free and doesn't contain high FODMAP ingredients when made from almonds.",
+  "preparationTips": [
+    "Check ingredient labels for added inulin, chicory root, or high FODMAP thickeners",
+    "Choose plain varieties to avoid high FODMAP fruit additions",
+    "Look for brands without carrageenan if you have sensitive digestion",
+    "Shake well before serving as separation is normal"
+  ],
+  "alternatives": [
+    "Coconut yogurt (plain)",
+    "Rice milk yogurt",
+    "Lactose-free dairy yogurt",
+    "Hemp seed yogurt"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP berries (strawberries, blueberries)",
+    "Maple syrup",
+    "Chia seeds",
+    "Walnuts",
+    "Kiwi fruit"
+  ],
+  "nutritionalHighlights": [
+    "Good source of vitamin E from almonds",
+    "Often fortified with calcium and vitamin D",
+    "Contains healthy monounsaturated fats",
+    "Lower in protein than dairy yogurt but lactose-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

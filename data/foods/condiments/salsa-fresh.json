@@ -1,0 +1,60 @@
+{
+  "id": "salsa-fresh",
+  "name": "Salsa (Fresh)",
+  "aliases": [
+    "Pico de gallo",
+    "Fresh tomato salsa",
+    "Salsa fresca"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 2-3 tablespoons",
+      "cups": "2-3 tablespoons"
+    },
+    "high": {
+      "grams": 65,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Traditional fresh salsa typically contains onion and garlic, making it high in fructans. Use sparingly and consider making FODMAP-friendly versions.",
+  "preparationTips": [
+    "Make your own salsa using green tops of scallions instead of onions",
+    "Use garlic-infused oil instead of fresh garlic",
+    "Check ingredient labels on store-bought versions for onion/garlic powder",
+    "Add fresh herbs like cilantro and parsley for extra flavor without FODMAPs"
+  ],
+  "alternatives": [
+    "Tomato-only salsa without onion/garlic",
+    "Salsa verde made with low-FODMAP herbs",
+    "Red pepper salsa",
+    "Cucumber tomato salad with herbs"
+  ],
+  "pairsWellWith": [
+    "Corn tortilla chips",
+    "Grilled chicken",
+    "Fish tacos",
+    "Scrambled eggs",
+    "Baked potato"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from tomatoes",
+    "Lycopene antioxidants",
+    "Potassium",
+    "Low calorie flavor enhancer"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

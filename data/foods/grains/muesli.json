@@ -1,0 +1,62 @@
+{
+  "id": "muesli",
+  "name": "Muesli",
+  "aliases": [
+    "bircher muesli",
+    "swiss muesli",
+    "overnight oats mix"
+  ],
+  "category": "grain",
+  "subcategory": "cereal",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans",
+    "fructose",
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 45,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 90,
+      "description": "About 1 cup (typical serving)",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Contains multiple FODMAP types from dried fruits, nuts, and oats. Start with very small portions and monitor symptoms carefully.",
+  "preparationTips": [
+    "Check ingredient list carefully - avoid varieties with dried apples, pears, or dates",
+    "Look for simple oat-based muesli with minimal dried fruit",
+    "Serve with lactose-free milk or small portions of almond milk",
+    "Consider making homemade version with low-FODMAP ingredients"
+  ],
+  "alternatives": [
+    "Rolled oats with low-FODMAP fruits",
+    "Rice-based cereals",
+    "Quinoa flakes",
+    "Homemade granola with maple syrup"
+  ],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Almond milk (small portions)",
+    "Fresh strawberries",
+    "Blueberries",
+    "Banana (firm, unripe)"
+  ],
+  "nutritionalHighlights": [
+    "High in fiber and complex carbohydrates",
+    "Good source of protein from nuts and seeds",
+    "Contains B vitamins and iron",
+    "Provides healthy fats from nuts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

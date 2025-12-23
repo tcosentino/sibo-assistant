@@ -1,0 +1,42 @@
+{
+  "id": "sunflower-oil",
+  "name": "Sunflower Oil",
+  "aliases": [
+    "Sunflower seed oil",
+    "Cold-pressed sunflower oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and generally well-tolerated in SIBO, though some may find high-fat foods slow digestion.",
+  "preparationTips": [
+    "Use for high-heat cooking as it has a neutral flavor",
+    "Store in cool, dark place to prevent rancidity",
+    "Choose cold-pressed varieties when possible for better nutrient retention",
+    "Measure portions as fats are calorie-dense"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Roasted carrots",
+    "Sautéed spinach",
+    "Pan-fried fish fillets",
+    "Stir-fried bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E (antioxidant)",
+    "Good source of unsaturated fats",
+    "Contains linoleic acid (omega-6 fatty acid)",
+    "Naturally free of trans fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

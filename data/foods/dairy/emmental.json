@@ -1,0 +1,42 @@
+{
+  "id": "emmental",
+  "name": "Emmental",
+  "aliases": [
+    "Swiss cheese",
+    "Emmental cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 2-3 thin slices",
+      "cups": "1/3 cup grated"
+    }
+  },
+  "siboNotes": "As a hard aged cheese, Emmental is naturally lactose-free and well-tolerated on SIBO diets. The aging process breaks down lactose completely.",
+  "preparationTips": [
+    "Buy pre-sliced or grate fresh for best flavor",
+    "Store wrapped in wax paper in refrigerator",
+    "Allow to come to room temperature before serving for optimal taste",
+    "Pairs excellently melted in sandwiches or fondues"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Walnuts",
+    "Grapes",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in calcium for bone health",
+    "Good source of protein",
+    "Contains vitamin B12",
+    "Provides phosphorus for teeth and bones"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

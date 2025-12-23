@@ -1,0 +1,47 @@
+{
+  "id": "adobo-sauce",
+  "name": "Adobo Sauce",
+  "aliases": [
+    "Chipotle adobo sauce",
+    "Mexican adobo"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small serving sizes. Watch for garlic powder in commercial varieties which may cause symptoms.",
+  "preparationTips": [
+    "Check ingredient labels for garlic powder or onion powder",
+    "Make homemade version with garlic-infused oil instead of garlic powder",
+    "Start with smaller amounts to test tolerance",
+    "Store opened cans in refrigerator and use within one week"
+  ],
+  "alternatives": [
+    "Paprika-based spice blend",
+    "Chipotle powder with garlic-infused oil",
+    "Homemade tomato-based hot sauce",
+    "Smoked paprika with cumin"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Pork tenderloin",
+    "Bell peppers",
+    "Zucchini",
+    "Rice dishes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C from peppers",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Source of antioxidants from smoked peppers",
+    "Low in calories and fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

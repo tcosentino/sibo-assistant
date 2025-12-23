@@ -1,0 +1,62 @@
+{
+  "id": "green-juice",
+  "name": "Green Juice",
+  "aliases": [
+    "Vegetable juice",
+    "Green veggie juice",
+    "Celery juice blend"
+  ],
+  "category": "beverage",
+  "subcategory": "vegetable-juice",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans",
+    "polyols-mannitol",
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 375,
+      "description": "About 1.5 cups or more",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Start with small servings as concentrated vegetable juices can trigger symptoms. Avoid if contains apple, pear, or high amounts of celery.",
+  "preparationTips": [
+    "Choose juices made primarily from low-FODMAP vegetables like spinach, kale, cucumber",
+    "Avoid green juices containing apple, pear, celery in large amounts, or wheat grass",
+    "Check ingredients list carefully - many commercial green juices contain high-FODMAP fruits",
+    "Consider diluting with water to reduce FODMAP concentration"
+  ],
+  "alternatives": [
+    "Spinach and cucumber juice",
+    "Carrot and ginger juice (small amounts)",
+    "Homemade kale and lemon juice",
+    "Lettuce and mint juice"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP protein smoothie additions",
+    "Lactose-free yogurt",
+    "Sourdough spelt toast",
+    "Hard cheeses",
+    "Nuts and seeds (appropriate portions)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamins A, C, and K",
+    "High in folate and iron",
+    "Contains antioxidants and phytonutrients",
+    "Good source of potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

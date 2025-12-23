@@ -1,0 +1,42 @@
+{
+  "id": "roquefort",
+  "name": "Roquefort",
+  "aliases": [
+    "Blue cheese",
+    "Roquefort cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "blue-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 2-3 tablespoons crumbled",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as aged cheeses are naturally low in lactose. Strong flavor means smaller portions are typically used.",
+  "preparationTips": [
+    "Store wrapped in parchment paper in refrigerator to maintain proper moisture",
+    "Bring to room temperature 30 minutes before serving for best flavor",
+    "Crumble over salads or melt into sauces for intense flavor",
+    "Pair with low-FODMAP fruits like grapes or strawberries"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Walnuts",
+    "Grapes",
+    "Strawberries",
+    "Arugula",
+    "Endive"
+  ],
+  "nutritionalHighlights": [
+    "High in calcium",
+    "Good source of protein",
+    "Contains vitamin B12",
+    "Provides beneficial probiotics"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

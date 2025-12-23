@@ -1,0 +1,48 @@
+{
+  "id": "jam-strawberry",
+  "name": "Jam (Strawberry)",
+  "aliases": [
+    "Strawberry jam",
+    "Strawberry preserves",
+    "Strawberry spread"
+  ],
+  "category": "condiment",
+  "subcategory": "sweet-spread",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts as strawberries are low FODMAP, though high sugar content may cause symptoms in some sensitive individuals.",
+  "preparationTips": [
+    "Check labels for high fructose corn syrup or honey which would make it high FODMAP",
+    "Choose brands with simple ingredients: strawberries, sugar, pectin",
+    "Store opened jam in refrigerator and use within recommended timeframe",
+    "Consider sugar-free versions but check for polyol sweeteners like sorbitol"
+  ],
+  "alternatives": [
+    "Fresh strawberries with a sprinkle of sugar",
+    "Low FODMAP berry compote made at home",
+    "Raspberry jam (check serving size)",
+    "Orange marmalade (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Rice cakes",
+    "Lactose-free yogurt",
+    "Peanut butter",
+    "Gluten-free toast"
+  ],
+  "nutritionalHighlights": [
+    "Contains vitamin C from strawberries",
+    "Provides quick energy from natural sugars",
+    "Low in fat and protein",
+    "Contains small amounts of antioxidants from berries"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

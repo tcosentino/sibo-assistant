@@ -1,0 +1,48 @@
+{
+  "id": "rum",
+  "name": "Rum",
+  "aliases": [
+    "white rum",
+    "dark rum",
+    "spiced rum"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 standard shot",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Pure distilled rum is FODMAP-free, but alcohol can irritate sensitive digestive systems and may worsen SIBO symptoms by affecting gut motility.",
+  "preparationTips": [
+    "Choose plain, unflavored rum to avoid added sugars or flavorings",
+    "Avoid rum-based cocktails with high-FODMAP mixers like apple juice or coconut cream",
+    "Consume in moderation as alcohol can disrupt gut bacteria balance",
+    "Mix with low-FODMAP mixers like lime juice, soda water, or small amounts of cranberry juice"
+  ],
+  "alternatives": [
+    "Vodka (also FODMAP-free)",
+    "Gin (plain, unflavored)",
+    "Whiskey (plain, unflavored)",
+    "Low-FODMAP mocktails with lime and soda water"
+  ],
+  "pairsWellWith": [
+    "Fresh lime juice",
+    "Soda water",
+    "Small amounts of cranberry juice",
+    "Fresh mint leaves",
+    "Orange peel (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "No carbohydrates or FODMAPs when pure",
+    "Contains approximately 65 calories per ounce",
+    "No vitamins or minerals",
+    "Should be consumed in moderation due to alcohol content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mortadella",
+  "name": "Mortadella",
+  "aliases": [
+    "Italian bologna",
+    "Bologna di Mortadella"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 thin slices",
+      "cups": "1/2 cup diced"
+    }
+  },
+  "siboNotes": "Plain mortadella is well-tolerated on SIBO diets as it contains no FODMAPs. Check labels for garlic powder or onion powder which would make it unsuitable.",
+  "preparationTips": [
+    "Read ingredients carefully - some brands contain garlic or onion powder",
+    "Choose high-quality mortadella with minimal additives",
+    "Slice thinly for sandwiches or cube for salads",
+    "Store properly refrigerated and consume within use-by date"
+  ],
+  "alternatives": [
+    "Plain ham or prosciutto",
+    "Turkey breast deli meat",
+    "Salami (check ingredients)",
+    "Roast beef deli slices"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Aged cheddar cheese",
+    "Cucumber slices",
+    "Tomato",
+    "Olive oil and herbs"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (15-20g per serving)",
+    "Contains B vitamins, especially B12",
+    "Good source of iron and zinc",
+    "Higher in sodium - monitor intake"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

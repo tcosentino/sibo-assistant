@@ -1,0 +1,42 @@
+{
+  "id": "duck-eggs",
+  "name": "Duck Eggs",
+  "aliases": [
+    "Duck egg",
+    "Waterfowl eggs"
+  ],
+  "category": "protein",
+  "subcategory": "eggs",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 140,
+      "description": "2 large duck eggs",
+      "cups": "About 1/2 cup scrambled"
+    }
+  },
+  "siboNotes": "Duck eggs are naturally FODMAP-free and well-tolerated on SIBO diets. Their higher fat content may slow gastric emptying, which can be beneficial for some SIBO patients.",
+  "preparationTips": [
+    "Cook thoroughly due to slightly higher risk of salmonella compared to chicken eggs",
+    "Use lower heat and longer cooking time as duck eggs have thicker shells and larger yolks",
+    "Great for baking due to higher fat and protein content",
+    "Store in refrigerator and use within 2-3 weeks of purchase"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach",
+    "Chives",
+    "Bell peppers",
+    "Lactose-free cheese",
+    "Sourdough bread (spelt)"
+  ],
+  "nutritionalHighlights": [
+    "Higher in protein than chicken eggs (9g vs 6g per egg)",
+    "Rich in vitamin B12 and selenium",
+    "Good source of choline for brain health",
+    "Higher in healthy fats, particularly omega-3 fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

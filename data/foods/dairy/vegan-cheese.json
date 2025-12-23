@@ -1,0 +1,48 @@
+{
+  "id": "vegan-cheese",
+  "name": "Vegan Cheese",
+  "aliases": [
+    "Plant-based cheese",
+    "Dairy-free cheese",
+    "Non-dairy cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "dairy-alternative",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1/4 cup shredded",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Most vegan cheeses are well-tolerated on SIBO diet as they're typically made from low-FODMAP nuts or coconut oil. Check ingredients for high-FODMAP additives like inulin or chicory root.",
+  "preparationTips": [
+    "Read ingredient labels carefully - avoid products with inulin, chicory root, or garlic powder",
+    "Cashew-based varieties are typically safest for sensitive individuals",
+    "Coconut oil-based options tend to be lower in FODMAPs than nut-based ones",
+    "Store properly refrigerated and use within expiration date for best digestibility"
+  ],
+  "alternatives": [
+    "Aged hard cheeses (if dairy tolerant)",
+    "Lactose-free cheese",
+    "Nutritional yeast for cheesy flavor",
+    "Tahini mixed with lemon juice for creamy texture"
+  ],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Sourdough spelt bread",
+    "Bell pepper slices",
+    "Cucumber rounds",
+    "Low-FODMAP herbs like chives"
+  ],
+  "nutritionalHighlights": [
+    "Often fortified with vitamin B12",
+    "May contain beneficial probiotics",
+    "Usually lower in saturated fat than dairy cheese",
+    "Source of plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

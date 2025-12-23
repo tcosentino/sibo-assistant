@@ -1,0 +1,50 @@
+{
+  "id": "saltine-crackers",
+  "name": "Saltine Crackers",
+  "aliases": [
+    "soda crackers",
+    "soup crackers",
+    "premium crackers"
+  ],
+  "category": "grain",
+  "subcategory": "crackers",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 8 small crackers",
+      "cups": "not applicable"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as wheat content is minimal per serving. Choose brands without garlic powder or onion powder.",
+  "preparationTips": [
+    "Check ingredient labels for added FODMAPs like onion or garlic powder",
+    "Pair with low-FODMAP proteins or fats to slow digestion",
+    "Store in airtight container to maintain crispness",
+    "Choose unsalted varieties if managing sodium intake"
+  ],
+  "alternatives": [
+    "rice crackers",
+    "gluten-free crackers",
+    "oat cakes",
+    "corn tortilla chips"
+  ],
+  "pairsWellWith": [
+    "cheddar cheese",
+    "lactose-free cream cheese",
+    "turkey slices",
+    "peanut butter",
+    "canned tuna"
+  ],
+  "nutritionalHighlights": [
+    "carbohydrates for energy",
+    "small amounts of B vitamins",
+    "minimal fiber",
+    "sodium for electrolyte balance"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chili-garlic-sauce",
+  "name": "Chili Garlic Sauce",
+  "aliases": [
+    "Garlic Chili Sauce",
+    "Chili Garlic Paste",
+    "Sambal Oelek with Garlic"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 tsp"
+    },
+    "high": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "High in fructans from garlic content; limit to very small amounts (1 tsp) during SIBO treatment. Consider garlic-free alternatives during elimination phase.",
+  "preparationTips": [
+    "Use sparingly - a little goes a long way for flavor",
+    "Mix with low-FODMAP oils to dilute garlic content per serving",
+    "Check ingredient list as formulations vary between brands",
+    "Store in refrigerator after opening to maintain freshness"
+  ],
+  "alternatives": [
+    "Garlic-infused oil (fructans removed)",
+    "Plain chili sauce without garlic",
+    "Red pepper flakes with ginger",
+    "Sriracha sauce (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or pork",
+    "Jasmine rice or rice noodles",
+    "Stir-fried bok choy",
+    "Firm tofu",
+    "Green beans"
+  ],
+  "nutritionalHighlights": [
+    "Contains capsaicin from chili peppers",
+    "May boost metabolism",
+    "Provides vitamin C from peppers",
+    "Low in calories per serving"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

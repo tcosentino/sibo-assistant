@@ -1,0 +1,60 @@
+{
+  "id": "regular-yogurt",
+  "name": "Regular Yogurt",
+  "aliases": [
+    "Plain yogurt",
+    "Natural yogurt",
+    "Unflavored yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "yogurt",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 90,
+      "description": "About 1/3 cup",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 3/4 cup or 1 standard container",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "High lactose content makes regular yogurt problematic for SIBO patients. Even small amounts may trigger symptoms due to bacterial fermentation of undigested lactose.",
+  "preparationTips": [
+    "Choose Greek yogurt over regular for lower lactose content",
+    "Look for lactose-free varieties with live cultures",
+    "Start with very small portions (1-2 tablespoons) to test tolerance",
+    "Avoid flavored varieties which often contain high FODMAP additives"
+  ],
+  "alternatives": [
+    "Lactose-free yogurt",
+    "Greek yogurt (small portions)",
+    "Coconut yogurt (unsweetened)",
+    "Almond milk yogurt"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP berries",
+    "Maple syrup (small amount)",
+    "Crushed walnuts",
+    "Chia seeds",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and calcium",
+    "Contains probiotics for gut health",
+    "Good source of riboflavin and phosphorus",
+    "Provides vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

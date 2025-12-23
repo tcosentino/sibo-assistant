@@ -1,0 +1,42 @@
+{
+  "id": "hemp-milk",
+  "name": "Hemp Milk",
+  "aliases": [
+    "Hemp beverage",
+    "Hemp seed milk"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup serving",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Hemp milk is well-tolerated on SIBO diets as it contains no FODMAPs and is naturally low in fermentable compounds.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added high-FODMAP sweeteners",
+    "Shake well before using as natural separation occurs",
+    "Check labels for added inulin or chicory root which are high-FODMAP",
+    "Store in refrigerator and use within 7-10 days of opening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low-FODMAP cereals",
+    "Blueberries",
+    "Strawberries",
+    "Oats",
+    "Lactose-free yogurt"
+  ],
+  "nutritionalHighlights": [
+    "Rich in omega-3 and omega-6 fatty acids",
+    "Contains complete protein with all essential amino acids",
+    "Good source of magnesium and phosphorus",
+    "Naturally free from lactose, soy, and nuts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

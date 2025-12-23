@@ -1,0 +1,43 @@
+{
+  "id": "wild-rice",
+  "name": "Wild Rice",
+  "aliases": [
+    "Manoomin",
+    "Indian Rice",
+    "Water Oats"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Wild rice is well-tolerated in SIBO as it's naturally low FODMAP and provides resistant starch that feeds beneficial bacteria without triggering symptoms.",
+  "preparationTips": [
+    "Rinse wild rice thoroughly before cooking to remove debris",
+    "Use a 3:1 water-to-rice ratio and simmer for 45-60 minutes until grains split",
+    "Can be cooked in bone broth for added flavor and gut-healing nutrients",
+    "Store cooked wild rice in refrigerator up to 5 days or freeze for meal prep"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or salmon",
+    "Roasted carrots and parsnips",
+    "Fresh herbs like parsley and chives",
+    "Toasted pine nuts or pumpkin seeds",
+    "Low-FODMAP vegetables like zucchini and bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (6.5g per cup) compared to other grains",
+    "Rich in B vitamins, particularly folate and niacin",
+    "Good source of minerals including manganese, phosphorus, and magnesium",
+    "Contains antioxidants and fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

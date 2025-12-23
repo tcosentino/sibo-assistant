@@ -1,0 +1,62 @@
+{
+  "id": "protein-powder-plant-based",
+  "name": "Protein Powder (Plant-Based)",
+  "aliases": [
+    "Vegan protein powder",
+    "Plant protein",
+    "Pea protein powder",
+    "Rice protein powder"
+  ],
+  "category": "beverage",
+  "subcategory": "protein-supplement",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 scoop (20g powder)",
+      "cups": "2-3 tbsp"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 1.5 scoops (30g powder)",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 40,
+      "description": "About 2 scoops (40g powder)",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Pea and hemp-based proteins contain galactans which can trigger SIBO symptoms. Rice protein powder is typically better tolerated.",
+  "preparationTips": [
+    "Choose rice protein or collagen peptides for lowest FODMAP content",
+    "Start with half serving size to assess tolerance",
+    "Mix with lactose-free milk or water, not regular dairy milk",
+    "Avoid products with inulin, chicory root, or artificial sweeteners"
+  ],
+  "alternatives": [
+    "Rice protein powder (lower galactans)",
+    "Collagen peptides (FODMAP-free)",
+    "Egg white protein powder",
+    "Plain Greek yogurt (lactose-free)"
+  ],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Banana (1/3 medium)",
+    "Strawberries",
+    "Spinach",
+    "Almond butter (1 tbsp)"
+  ],
+  "nutritionalHighlights": [
+    "Complete amino acid profile",
+    "High protein content (15-25g per serving)",
+    "Often fortified with B-vitamins",
+    "Dairy-free calcium source"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

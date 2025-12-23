@@ -1,0 +1,47 @@
+{
+  "id": "root-beer",
+  "name": "Root Beer",
+  "aliases": [
+    "Sarsaparilla",
+    "Root Beer Soda"
+  ],
+  "category": "beverage",
+  "subcategory": "soda",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 375,
+      "description": "1 standard can or bottle",
+      "cups": "1 1/2 cups"
+    }
+  },
+  "siboNotes": "Traditional root beer is typically FODMAP-free, but check labels for high fructose corn syrup or artificial sweeteners like sorbitol which could trigger SIBO symptoms.",
+  "preparationTips": [
+    "Choose brands made with cane sugar rather than high fructose corn syrup",
+    "Avoid diet versions that may contain polyol sweeteners",
+    "Look for natural root beer brands with simpler ingredient lists",
+    "Serve chilled for best flavor and reduced gas formation"
+  ],
+  "alternatives": [
+    "Ginger ale (check for HFCS)",
+    "Cola (cane sugar versions)",
+    "Sparkling water with natural flavoring",
+    "Lemon-lime soda (cane sugar versions)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Barbecue dishes",
+    "French fries",
+    "Vanilla ice cream",
+    "Pretzels"
+  ],
+  "nutritionalHighlights": [
+    "Contains carbonation which may aid digestion",
+    "Traditional varieties may contain trace minerals from natural root extracts",
+    "Provides quick energy from simple sugars",
+    "Generally caffeine-free unlike most sodas"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

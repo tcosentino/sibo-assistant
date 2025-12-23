@@ -1,0 +1,42 @@
+{
+  "id": "arborio-rice",
+  "name": "Arborio Rice",
+  "aliases": [
+    "Italian short-grain rice",
+    "risotto rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 3/4 cup cooked",
+      "cups": "3/4 cup cooked"
+    }
+  },
+  "siboNotes": "Plain arborio rice is well-tolerated and provides easily digestible carbohydrates. Cook with garlic-infused oil instead of garlic for SIBO-friendly risotto.",
+  "preparationTips": [
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Choose low-FODMAP broth or make your own with allowed vegetables",
+    "Add lactose-free parmesan or aged hard cheese for richness",
+    "Stir in low-FODMAP vegetables like spinach or bell peppers"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "garlic-infused olive oil",
+    "aged parmesan cheese",
+    "spinach",
+    "bell peppers",
+    "chicken broth (homemade or low-FODMAP)"
+  ],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates for energy",
+    "Contains small amounts of protein",
+    "Provides B vitamins, particularly niacin",
+    "Low in fat and naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

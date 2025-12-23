@@ -1,0 +1,44 @@
+{
+  "id": "clams",
+  "name": "Clams",
+  "aliases": [
+    "littleneck clams",
+    "steamers",
+    "manila clams",
+    "razor clams"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz or 6-8 medium clams",
+      "cups": "3/4 cup shucked"
+    }
+  },
+  "siboNotes": "Clams are naturally FODMAP-free and well-tolerated in SIBO diets. Choose fresh or frozen over canned varieties when possible to avoid added ingredients.",
+  "preparationTips": [
+    "Steam with white wine and low-FODMAP herbs like chives or parsley",
+    "Avoid garlic and onion-based preparations - use garlic-infused oil instead",
+    "Rinse canned clams thoroughly to remove excess sodium",
+    "Cook thoroughly to 145°F internal temperature for food safety"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "white rice",
+    "quinoa pasta",
+    "zucchini noodles",
+    "bell peppers",
+    "carrots"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (25g per 100g)",
+    "Excellent source of vitamin B12",
+    "Rich in iron and zinc",
+    "Good source of omega-3 fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

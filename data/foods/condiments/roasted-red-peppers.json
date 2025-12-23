@@ -1,0 +1,43 @@
+{
+  "id": "roasted-red-peppers",
+  "name": "Roasted Red Peppers",
+  "aliases": [
+    "Red Bell Peppers Roasted",
+    "Fire Roasted Red Peppers",
+    "Charred Red Peppers"
+  ],
+  "category": "condiment",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 75,
+      "description": "About 1/2 cup chopped",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as red peppers are low FODMAP. Choose versions without added garlic or onion.",
+  "preparationTips": [
+    "Check labels for added garlic or onion powder in jarred versions",
+    "Rinse jarred peppers to reduce sodium content",
+    "Roast your own by charring over open flame or under broiler",
+    "Store homemade roasted peppers in olive oil in refrigerator"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Aged cheddar cheese",
+    "Sourdough spelt bread",
+    "Olive oil and herbs",
+    "Lactose-free goat cheese"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Good source of vitamin A and beta-carotene",
+    "Contains folate and potassium",
+    "Low in calories and naturally fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

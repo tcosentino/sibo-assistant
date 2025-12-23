@@ -1,0 +1,42 @@
+{
+  "id": "hemp-oil",
+  "name": "Hemp Oil",
+  "aliases": [
+    "Hemp Seed Oil",
+    "Cold-pressed Hemp Oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and generally well-tolerated in SIBO, though high-fat intake may slow motility in some individuals.",
+  "preparationTips": [
+    "Use cold-pressed, unrefined hemp oil for maximum nutritional benefits",
+    "Store in refrigerator after opening to prevent rancidity",
+    "Add to foods after cooking to preserve delicate omega fatty acids",
+    "Start with smaller amounts (1 teaspoon) if new to hemp oil"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Green salads with low FODMAP vegetables",
+    "Grilled chicken or fish",
+    "Quinoa bowls",
+    "Roasted carrots and parsnips",
+    "Low FODMAP smoothies"
+  ],
+  "nutritionalHighlights": [
+    "Rich in omega-3 and omega-6 fatty acids",
+    "Contains gamma-linolenic acid (GLA)",
+    "Source of vitamin E",
+    "Provides essential fatty acids in optimal ratio"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cheerios",
+  "name": "Cheerios",
+  "aliases": [
+    "Honey Nut Cheerios",
+    "Original Cheerios",
+    "oat cereal"
+  ],
+  "category": "grain",
+  "subcategory": "cereal",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 3/4 cup dry cereal",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as oats are low FODMAP. Avoid honey varieties if fructose-sensitive.",
+  "preparationTips": [
+    "Pair with lactose-free milk or plant-based alternatives",
+    "Check labels for added high-FODMAP ingredients like honey or inulin",
+    "Stick to recommended serving size to maintain low FODMAP status",
+    "Consider plain varieties over flavored to avoid excess sugars"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lactose-free milk",
+    "almond milk",
+    "strawberries",
+    "blueberries",
+    "banana (1/3 medium)"
+  ],
+  "nutritionalHighlights": [
+    "Good source of whole grain oats",
+    "Fortified with vitamins and minerals",
+    "Contains beta-glucan fiber for heart health",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

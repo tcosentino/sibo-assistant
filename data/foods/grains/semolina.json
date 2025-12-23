@@ -1,0 +1,60 @@
+{
+  "id": "semolina",
+  "name": "Semolina",
+  "aliases": [
+    "Durum wheat semolina",
+    "Pasta flour",
+    "Coarse wheat flour"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 2 tablespoons uncooked",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup uncooked",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1/2 cup uncooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Contains fructans which feed bacteria in SIBO. Start with very small portions and monitor symptoms carefully during elimination phase.",
+  "preparationTips": [
+    "Use in small amounts as a thickening agent rather than main ingredient",
+    "Combine with low-FODMAP ingredients to dilute fructan content",
+    "Cook thoroughly to improve digestibility",
+    "Consider using only the low-FODMAP portion size for coating or binding"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Corn flour (polenta)",
+    "Quinoa flour",
+    "Gluten-free flour blend"
+  ],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Eggs",
+    "Olive oil",
+    "Fresh herbs",
+    "Parmesan cheese"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (12-13g per 100g)",
+    "Good source of B vitamins, especially folate",
+    "Contains iron and magnesium",
+    "Provides complex carbohydrates for energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

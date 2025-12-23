@@ -1,0 +1,42 @@
+{
+  "id": "basmati-rice",
+  "name": "Basmati Rice",
+  "aliases": [
+    "long-grain rice",
+    "aromatic rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated rice variety that's gentle on the digestive system and provides easily digestible carbohydrates for SIBO patients.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove excess starch",
+    "Use a 1:1.5 rice to water ratio for fluffy texture",
+    "Let rest 5 minutes after cooking before fluffing with fork",
+    "Store leftovers properly and reheat thoroughly to prevent bacterial growth"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken breast",
+    "steamed carrots",
+    "fresh herbs like cilantro",
+    "lemon juice",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Good source of complex carbohydrates",
+    "Provides B vitamins, especially niacin",
+    "Contains small amounts of protein",
+    "Naturally gluten-free grain option"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

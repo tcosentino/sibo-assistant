@@ -1,0 +1,47 @@
+{
+  "id": "celery-juice",
+  "name": "Celery Juice",
+  "aliases": [
+    "Fresh celery juice",
+    "Cold-pressed celery juice"
+  ],
+  "category": "beverage",
+  "subcategory": "vegetable-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as celery is low FODMAP. However, large volumes of any juice may cause digestive upset in sensitive individuals.",
+  "preparationTips": [
+    "Use fresh celery stalks and juice immediately for best nutrient retention",
+    "Strain if you prefer a smoother consistency without pulp",
+    "Start with smaller amounts (1/2 cup) if new to celery juice",
+    "Drink on an empty stomach for maximum absorption"
+  ],
+  "alternatives": [
+    "Cucumber juice",
+    "Carrot juice (small amounts)",
+    "Spinach juice",
+    "Green tea"
+  ],
+  "pairsWellWith": [
+    "Lemon juice",
+    "Ginger (small amounts)",
+    "Cucumber slices",
+    "Mint leaves",
+    "Ice cubes"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin K for bone health",
+    "Good source of potassium for heart health",
+    "Contains antioxidants like flavonoids",
+    "Low in calories and naturally hydrating"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "egg-noodles",
+  "name": "Egg Noodles",
+  "aliases": [
+    "fresh egg noodles",
+    "egg pasta",
+    "wide egg noodles"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/3 cup cooked",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 130,
+      "description": "About 2/3 cup cooked",
+      "cups": "2/3 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Contains wheat-derived fructans that can feed bacterial overgrowth. Start with small portions and assess tolerance.",
+  "preparationTips": [
+    "Cook al dente to potentially reduce FODMAP content",
+    "Pair with low-FODMAP proteins and vegetables",
+    "Consider portion control by mixing with zucchini noodles",
+    "Rinse after cooking to remove excess starch"
+  ],
+  "alternatives": [
+    "rice noodles",
+    "gluten-free corn pasta",
+    "zucchini noodles",
+    "shirataki noodles"
+  ],
+  "pairsWellWith": [
+    "grilled chicken",
+    "olive oil",
+    "fresh basil",
+    "cherry tomatoes",
+    "parmesan cheese"
+  ],
+  "nutritionalHighlights": [
+    "protein from eggs",
+    "B vitamins",
+    "selenium",
+    "folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

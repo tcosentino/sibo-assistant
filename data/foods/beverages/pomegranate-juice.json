@@ -1,0 +1,42 @@
+{
+  "id": "pomegranate-juice",
+  "name": "Pomegranate Juice",
+  "aliases": [
+    "Pomegranate drink",
+    "Pure pomegranate juice"
+  ],
+  "category": "beverage",
+  "subcategory": "fruit-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 180,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as it's low FODMAP. Choose 100% pure juice without added high FODMAP sweeteners.",
+  "preparationTips": [
+    "Choose 100% pure pomegranate juice without added sugars or sweeteners",
+    "Check labels to avoid juice blends with high FODMAP fruits like apple or pear",
+    "Store opened juice in refrigerator and consume within recommended timeframe",
+    "Consider diluting with water if too tart or to reduce sugar content"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Plain Greek yogurt (lactose-free)",
+    "Low FODMAP smoothie ingredients",
+    "Sparkling water for a refreshing spritzer",
+    "Fresh mint leaves",
+    "Lemon juice for added tartness"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants, particularly punicalagins",
+    "Good source of vitamin C",
+    "Contains potassium for heart health",
+    "Provides anti-inflammatory compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

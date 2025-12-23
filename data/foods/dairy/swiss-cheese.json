@@ -1,0 +1,43 @@
+{
+  "id": "swiss-cheese",
+  "name": "Swiss Cheese",
+  "aliases": [
+    "Emmental",
+    "Gruyere",
+    "Swiss"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1/4 cup shredded",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Hard aged cheeses like Swiss are naturally low in lactose and well-tolerated during SIBO treatment phases.",
+  "preparationTips": [
+    "Choose aged Swiss varieties for lowest lactose content",
+    "Store properly wrapped to maintain freshness and prevent mold",
+    "Allow to come to room temperature before serving for best flavor",
+    "Shred fresh rather than buying pre-shredded for better taste"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Low FODMAP crackers",
+    "Grapes",
+    "Walnuts",
+    "Cucumber slices"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (8g per ounce)",
+    "Excellent source of calcium for bone health",
+    "Rich in vitamin B12",
+    "Contains beneficial probiotics from aging process"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

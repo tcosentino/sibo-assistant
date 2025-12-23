@@ -1,0 +1,59 @@
+{
+  "id": "focaccia",
+  "name": "Focaccia",
+  "aliases": [
+    "Italian flatbread",
+    "herb focaccia"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving",
+      "cups": "None"
+    },
+    "moderate": {
+      "grams": 25,
+      "description": "Small 1-inch square piece",
+      "cups": "About 1/8 cup equivalent"
+    },
+    "high": {
+      "grams": 60,
+      "description": "Standard slice (2x3 inches)",
+      "cups": "About 1/3 cup equivalent"
+    }
+  },
+  "siboNotes": "High in wheat-based fructans which feed SIBO bacteria. Even small portions should be avoided during elimination phases.",
+  "preparationTips": [
+    "Look for gluten-free focaccia made with rice or potato flour",
+    "Check ingredients for onion and garlic which add additional FODMAPs",
+    "Some bakeries offer spelt versions which may be slightly better tolerated",
+    "Avoid herb focaccia with garlic or onion"
+  ],
+  "alternatives": [
+    "Gluten-free focaccia",
+    "Rice crackers with herbs",
+    "Corn tortilla with olive oil and herbs",
+    "Sourdough bread (small portions)"
+  ],
+  "pairsWellWith": [
+    "Extra virgin olive oil",
+    "Fresh basil",
+    "Cherry tomatoes",
+    "Lactose-free mozzarella",
+    "Aged parmesan"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "B vitamins from wheat flour",
+    "Healthy fats from olive oil",
+    "Iron from fortified flour"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

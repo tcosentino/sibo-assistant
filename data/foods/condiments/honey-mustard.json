@@ -1,0 +1,59 @@
+{
+  "id": "honey-mustard",
+  "name": "Honey Mustard",
+  "aliases": [
+    "honey dijon",
+    "sweet mustard"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 45,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "The honey content provides excess fructose which can trigger SIBO symptoms. Stick to small servings and pair with protein to slow absorption.",
+  "preparationTips": [
+    "Choose brands with minimal added sugars",
+    "Make homemade version with less honey",
+    "Use sparingly as a dipping sauce rather than coating",
+    "Check ingredients for high FODMAP additives like onion or garlic powder"
+  ],
+  "alternatives": [
+    "dijon mustard",
+    "yellow mustard",
+    "maple syrup with mustard (small amounts)",
+    "tahini-based dressing"
+  ],
+  "pairsWellWith": [
+    "grilled chicken",
+    "salmon",
+    "turkey slices",
+    "carrot sticks",
+    "cucumber"
+  ],
+  "nutritionalHighlights": [
+    "small amounts of antioxidants from mustard seeds",
+    "trace minerals from honey",
+    "minimal calories per serving",
+    "no significant protein or fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

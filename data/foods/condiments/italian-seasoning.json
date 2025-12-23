@@ -1,0 +1,48 @@
+{
+  "id": "italian-seasoning",
+  "name": "Italian Seasoning",
+  "aliases": [
+    "Italian herb blend",
+    "Italian herbs",
+    "herb seasoning mix"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Most dried herb blends are well-tolerated in typical cooking amounts. Check labels to ensure no garlic or onion powder is added.",
+  "preparationTips": [
+    "Read ingredient labels carefully - some commercial blends contain garlic or onion powder",
+    "Make your own blend with basil, oregano, thyme, and rosemary for guaranteed FODMAP-free seasoning",
+    "Store in airtight container away from light to maintain potency",
+    "Use generously as herbs provide flavor without FODMAPs"
+  ],
+  "alternatives": [
+    "Individual herbs like dried basil or oregano",
+    "Fresh herbs when available",
+    "Garlic-infused oil for garlic flavor",
+    "Homemade herb blend"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Roasted vegetables like zucchini and bell peppers",
+    "Pasta with olive oil",
+    "Low-FODMAP pizza toppings",
+    "Marinara sauce"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from herbs",
+    "Contains anti-inflammatory compounds",
+    "Provides flavor without sodium or calories",
+    "Source of vitamin K from dried herbs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

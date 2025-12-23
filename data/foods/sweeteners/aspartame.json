@@ -1,0 +1,48 @@
+{
+  "id": "aspartame",
+  "name": "Aspartame",
+  "aliases": [
+    "Equal",
+    "NutraSweet",
+    "Sugar Twin"
+  ],
+  "category": "sweetener",
+  "subcategory": "artificial-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 1,
+      "description": "Typical packet or serving",
+      "cups": "1 packet"
+    }
+  },
+  "siboNotes": "Aspartame is not fermented by gut bacteria and should not trigger SIBO symptoms. Generally well-tolerated for digestive sensitivities.",
+  "preparationTips": [
+    "Use in cold beverages as heat can break down aspartame and reduce sweetness",
+    "Add to foods after cooking rather than during high-heat preparation",
+    "Start with small amounts as some people may be sensitive to artificial sweeteners",
+    "Store in cool, dry place to maintain stability"
+  ],
+  "alternatives": [
+    "Stevia",
+    "Monk fruit sweetener",
+    "Small amounts of table sugar",
+    "Rice malt syrup"
+  ],
+  "pairsWellWith": [
+    "Coffee",
+    "Tea",
+    "Low FODMAP smoothies",
+    "Lemon water",
+    "Homemade low FODMAP desserts"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "Does not affect blood sugar levels",
+    "Much sweeter than sugar so small amounts needed",
+    "No carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

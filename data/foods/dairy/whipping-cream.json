@@ -1,0 +1,60 @@
+{
+  "id": "whipping-cream",
+  "name": "Whipping Cream",
+  "aliases": [
+    "Heavy cream",
+    "Heavy whipping cream",
+    "Double cream"
+  ],
+  "category": "dairy",
+  "subcategory": "cream",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "While lower in lactose than milk, whipping cream can still trigger symptoms in lactose-sensitive individuals. Start with small amounts during SIBO treatment.",
+  "preparationTips": [
+    "Use lactase enzyme drops if lactose sensitive",
+    "Whip just before serving to maintain texture",
+    "Store properly refrigerated to prevent spoilage",
+    "Consider using in small amounts as flavor enhancer rather than main ingredient"
+  ],
+  "alternatives": [
+    "Lactose-free whipping cream",
+    "Coconut cream (canned)",
+    "Cashew cream (homemade)",
+    "Oat cream (check ingredients for additives)"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Dark chocolate",
+    "Vanilla extract",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "High in saturated fat",
+    "Rich in fat-soluble vitamins A and D",
+    "Source of calcium",
+    "Provides concentrated calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

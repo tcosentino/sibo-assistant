@@ -1,0 +1,61 @@
+{
+  "id": "lemon-lime-soda",
+  "name": "Lemon-Lime Soda",
+  "aliases": [
+    "Sprite",
+    "7-Up",
+    "lemon lime soft drink",
+    "citrus soda"
+  ],
+  "category": "beverage",
+  "subcategory": "carbonated-soft-drink",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    },
+    "moderate": {
+      "grams": 355,
+      "description": "1 standard can (12 oz)",
+      "cups": "1 1/2 cups"
+    },
+    "high": {
+      "grams": 500,
+      "description": "Large bottle (16+ oz)",
+      "cups": "2+ cups"
+    }
+  },
+  "siboNotes": "Contains high fructose corn syrup which can feed SIBO bacteria. Consider limiting portion sizes and avoiding on empty stomach.",
+  "preparationTips": [
+    "Check ingredient labels - some brands use different sweeteners",
+    "Dilute with plain sparkling water to reduce FODMAP load",
+    "Consume with food to slow absorption",
+    "Choose diet versions sweetened with low-FODMAP artificial sweeteners if tolerated"
+  ],
+  "alternatives": [
+    "Sparkling water with fresh lemon and lime juice",
+    "Diet lemon-lime soda (aspartame or stevia sweetened)",
+    "Homemade citrus sparkling water",
+    "Plain soda water with a splash of citrus"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice crackers",
+    "Carrot sticks",
+    "Low-FODMAP sandwich",
+    "Popcorn"
+  ],
+  "nutritionalHighlights": [
+    "Provides hydration",
+    "Contains vitamin C from citrus flavoring",
+    "High in sugar and calories",
+    "No significant vitamins or minerals"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

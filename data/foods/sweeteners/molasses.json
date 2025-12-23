@@ -1,0 +1,49 @@
+{
+  "id": "molasses",
+  "name": "Molasses",
+  "aliases": [
+    "blackstrap molasses",
+    "dark molasses",
+    "light molasses",
+    "treacle"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts as it doesn't contain significant FODMAPs, but monitor individual tolerance as concentrated sweeteners can sometimes trigger symptoms.",
+  "preparationTips": [
+    "Use as a direct substitute for honey or maple syrup in low FODMAP recipes",
+    "Warm slightly before measuring for easier pouring and mixing",
+    "Store in a cool, dry place - crystallization is normal and doesn't affect quality",
+    "Start with smaller amounts when first introducing to assess tolerance"
+  ],
+  "alternatives": [
+    "Pure maple syrup (1 tablespoon)",
+    "Rice malt syrup (1 tablespoon)",
+    "Brown sugar (1 tablespoon)",
+    "Coconut sugar (1 teaspoon)"
+  ],
+  "pairsWellWith": [
+    "Ginger and cinnamon for baking",
+    "Peanut butter in sauces",
+    "Gluten-free oats for breakfast bowls",
+    "Firm tofu for marinades",
+    "Carrots in roasted vegetable dishes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in iron, especially blackstrap molasses",
+    "Contains calcium and potassium",
+    "Provides magnesium and B vitamins",
+    "Lower glycemic impact than refined sugar"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

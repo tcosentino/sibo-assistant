@@ -1,0 +1,59 @@
+{
+  "id": "kamut",
+  "name": "Kamut",
+  "aliases": [
+    "Khorasan wheat",
+    "QK-77"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 15,
+      "description": "About 1 tablespoon flour",
+      "cups": "1 tablespoon"
+    },
+    "high": {
+      "grams": 30,
+      "description": "2 tablespoons flour or 1/4 cup cooked",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Contains high levels of fructans like other wheat varieties, making it unsuitable for SIBO elimination phases. Should be avoided during bacterial overgrowth treatment.",
+  "preparationTips": [
+    "Soaking and fermenting may reduce FODMAP content slightly but won't make it low FODMAP",
+    "Can be used in very small amounts as flavoring in mixed dishes",
+    "Choose certified organic to avoid glyphosate residues",
+    "Store in airtight containers to prevent rancidity"
+  ],
+  "alternatives": [
+    "quinoa",
+    "rice",
+    "millet",
+    "buckwheat"
+  ],
+  "pairsWellWith": [
+    "olive oil",
+    "carrots",
+    "zucchini",
+    "spinach",
+    "chicken"
+  ],
+  "nutritionalHighlights": [
+    "protein",
+    "selenium",
+    "magnesium",
+    "zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ponzu-sauce",
+  "name": "Ponzu Sauce",
+  "aliases": [
+    "Ponzu",
+    "Citrus Soy Sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Traditional ponzu made with citrus juice and soy sauce is well-tolerated. Watch for added onion or garlic in commercial varieties.",
+  "preparationTips": [
+    "Check ingredient labels for added onion or garlic powder",
+    "Make homemade with yuzu/lemon juice, soy sauce, rice vinegar, and mirin",
+    "Use sparingly as it's high in sodium",
+    "Store in refrigerator and use within recommended timeframe"
+  ],
+  "alternatives": [
+    "Tamari or coconut aminos",
+    "Rice vinegar with a touch of maple syrup",
+    "Lemon juice with low-sodium soy sauce",
+    "Homemade citrus-ginger dressing"
+  ],
+  "pairsWellWith": [
+    "Grilled salmon or tuna",
+    "Sushi and sashimi",
+    "Steamed vegetables like bok choy",
+    "Rice noodle salads",
+    "Tempura vegetables"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from citrus ingredients",
+    "Low in calories",
+    "Contains beneficial plant compounds from citrus",
+    "Provides umami flavor without added FODMAPs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

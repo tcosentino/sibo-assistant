@@ -1,0 +1,43 @@
+{
+  "id": "yellowtail",
+  "name": "Yellowtail",
+  "aliases": [
+    "Yellowtail fish",
+    "Hamachi",
+    "Japanese amberjack"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet or serving",
+      "cups": "N/A - measured by weight"
+    }
+  },
+  "siboNotes": "Plain yellowtail is excellent for SIBO as it's naturally FODMAP-free and provides easily digestible protein without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Grill, bake, or pan-sear with FODMAP-friendly seasonings like salt, pepper, and herbs",
+    "Avoid marinades containing garlic, onion, or high FODMAP ingredients",
+    "Pair with low FODMAP vegetables and grains for complete meals",
+    "Fresh yellowtail is ideal - check that processed versions don't contain FODMAP additives"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Steamed bok choy",
+    "Jasmine rice",
+    "Grilled zucchini",
+    "Fresh ginger",
+    "Sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "High in omega-3 fatty acids for heart and brain health",
+    "Excellent source of complete protein with all essential amino acids",
+    "Rich in B vitamins, especially B12 and niacin",
+    "Good source of selenium and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

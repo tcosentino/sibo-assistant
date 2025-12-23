@@ -1,0 +1,43 @@
+{
+  "id": "jam-raspberry",
+  "name": "Jam (Raspberry)",
+  "aliases": [
+    "Raspberry jam",
+    "Raspberry preserve",
+    "Raspberry jelly"
+  ],
+  "category": "condiment",
+  "subcategory": "fruit-spread",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small portions for SIBO patients. The cooking process reduces FODMAP content compared to fresh raspberries.",
+  "preparationTips": [
+    "Stick to 1 tablespoon serving to maintain low FODMAP status",
+    "Check labels for added high FODMAP ingredients like honey or high fructose corn syrup",
+    "Choose jam with sugar rather than artificial sweeteners like sorbitol",
+    "Store opened jam in refrigerator and use clean utensils to prevent contamination"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Rice cakes",
+    "Lactose-free yogurt",
+    "Oatmeal",
+    "Gluten-free toast"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from raspberries",
+    "Antioxidants and anthocyanins",
+    "Quick energy from natural sugars",
+    "Small amounts of fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

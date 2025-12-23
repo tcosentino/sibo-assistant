@@ -1,0 +1,48 @@
+{
+  "id": "cornichons",
+  "name": "Cornichons",
+  "aliases": [
+    "French gherkins",
+    "small pickles",
+    "baby pickles"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 6-8 small cornichons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as they're fermented and low FODMAP. The vinegar may help with digestion.",
+  "preparationTips": [
+    "Rinse if very salty or if sensitive to high sodium",
+    "Slice thinly to distribute flavor without needing large quantities",
+    "Choose brands without garlic or onion in ingredients",
+    "Store opened jars in refrigerator and use within recommended timeframe"
+  ],
+  "alternatives": [
+    "Kalamata olives",
+    "Capers",
+    "Pickled radishes",
+    "Low FODMAP pickle relish"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Grilled chicken",
+    "Potato salad with chives",
+    "Smoked salmon",
+    "Sourdough bread"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories",
+    "Contains probiotics from fermentation",
+    "Source of vitamin K",
+    "Provides electrolytes from brine"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

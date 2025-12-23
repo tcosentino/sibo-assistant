@@ -1,0 +1,43 @@
+{
+  "id": "black-tea",
+  "name": "Black Tea",
+  "aliases": [
+    "English Breakfast Tea",
+    "Earl Grey",
+    "Orange Pekoe"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain black tea is well-tolerated and may have antimicrobial properties that could benefit SIBO management. Avoid adding high FODMAP sweeteners or milk.",
+  "preparationTips": [
+    "Brew with plain water only - avoid adding regular milk or honey",
+    "Steep for 3-5 minutes for optimal flavor without excessive tannins",
+    "Use lactose-free milk or small amounts of maple syrup if sweetening needed",
+    "Cold brewing reduces tannin content and may be gentler on sensitive stomachs"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice cakes with peanut butter",
+    "Low FODMAP biscuits",
+    "Aged cheddar cheese",
+    "Gluten-free oatmeal",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants (theaflavins and thearubigins)",
+    "Contains caffeine for alertness",
+    "Provides flavonoids for heart health",
+    "Naturally calorie-free when consumed plain"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

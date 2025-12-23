@@ -1,0 +1,42 @@
+{
+  "id": "duck-fat",
+  "name": "Duck Fat",
+  "aliases": [
+    "rendered duck fat",
+    "duck drippings"
+  ],
+  "category": "fat",
+  "subcategory": "animal-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Pure animal fats are FODMAP-free and well-tolerated in SIBO. High in calories, so use moderately to avoid slowing gastric motility.",
+  "preparationTips": [
+    "Store in refrigerator for up to 6 months or freeze for longer storage",
+    "Excellent for high-heat cooking and roasting vegetables",
+    "Let solidify at room temperature for easy measuring",
+    "Strain through fine mesh if rendering your own to remove any meat particles"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "roasted root vegetables like carrots and parsnips",
+    "Brussels sprouts",
+    "potatoes",
+    "lean proteins like chicken or beef",
+    "fresh herbs like rosemary and thyme"
+  ],
+  "nutritionalHighlights": [
+    "Rich in monounsaturated fats",
+    "Contains vitamin E and selenium",
+    "High smoke point (375°F) for cooking",
+    "Provides fat-soluble vitamin absorption support"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

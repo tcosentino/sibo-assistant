@@ -1,0 +1,61 @@
+{
+  "id": "fruit-preserves",
+  "name": "Fruit Preserves",
+  "aliases": [
+    "jam",
+    "jelly",
+    "fruit spread",
+    "marmalade"
+  ],
+  "category": "condiment",
+  "subcategory": "sugar",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 3 tablespoons or more",
+      "cups": "3+ tablespoons"
+    }
+  },
+  "siboNotes": "High sugar content can feed SIBO bacteria; use minimal amounts and avoid varieties with high fructose corn syrup or added fructose.",
+  "preparationTips": [
+    "Choose preserves with equal glucose to fructose ratios when possible",
+    "Look for varieties sweetened with table sugar rather than fruit juice concentrates",
+    "Check ingredient lists to avoid high FODMAP fruits like apple or pear as main ingredients",
+    "Consider making homemade preserves with low FODMAP fruits like strawberries"
+  ],
+  "alternatives": [
+    "Maple syrup (pure, 1 tablespoon)",
+    "Rice malt syrup (1 tablespoon)",
+    "Homemade strawberry or orange preserves",
+    "Small amounts of fresh berries with a touch of sugar"
+  ],
+  "pairsWellWith": [
+    "Gluten-free sourdough bread",
+    "Rice cakes",
+    "Lactose-free yogurt",
+    "Peanut butter",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "Quick source of carbohydrates and energy",
+    "May contain vitamin C if made with citrus fruits",
+    "Provides small amounts of antioxidants from fruit",
+    "High in added sugars with minimal fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

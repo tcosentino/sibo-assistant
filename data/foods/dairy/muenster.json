@@ -1,0 +1,42 @@
+{
+  "id": "muenster",
+  "name": "Muenster",
+  "aliases": [
+    "Munster cheese",
+    "Muenster cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "semi-hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 2 thick slices",
+      "cups": "1/3 cup shredded"
+    }
+  },
+  "siboNotes": "Aged cheeses like Muenster are naturally low in lactose and well-tolerated during SIBO treatment phases.",
+  "preparationTips": [
+    "Remove rind before eating as it may contain higher FODMAP compounds",
+    "Pairs excellently in grilled sandwiches with sourdough spelt bread",
+    "Melts beautifully for low-FODMAP mac and cheese using gluten-free pasta",
+    "Store properly wrapped to maintain flavor and prevent spoilage"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Grapes",
+    "Walnuts",
+    "Gluten-free crackers",
+    "Baby spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in calcium for bone health",
+    "Good source of protein",
+    "Contains vitamin A",
+    "Provides phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

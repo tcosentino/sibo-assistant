@@ -1,0 +1,42 @@
+{
+  "id": "gouda",
+  "name": "Gouda",
+  "aliases": [
+    "Aged Gouda",
+    "Dutch cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1.5 oz",
+      "cups": "1/3 cup shredded"
+    }
+  },
+  "siboNotes": "Aged hard cheeses like Gouda are naturally low in lactose due to the aging process, making them well-tolerated for most SIBO patients.",
+  "preparationTips": [
+    "Choose aged Gouda (12+ months) for lowest lactose content",
+    "Store properly wrapped in refrigerator to maintain quality",
+    "Allow to come to room temperature before serving for best flavor",
+    "Grate fresh rather than buying pre-shredded for better taste"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low-FODMAP crackers",
+    "Grapes",
+    "Strawberries",
+    "Walnuts",
+    "Spinach salad"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (7g per ounce)",
+    "Excellent source of calcium for bone health",
+    "Contains vitamin K2 for cardiovascular support",
+    "Provides conjugated linoleic acid (CLA)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

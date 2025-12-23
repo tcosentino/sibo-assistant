@@ -1,0 +1,43 @@
+{
+  "id": "olives-kalamata",
+  "name": "Olives (Kalamata)",
+  "aliases": [
+    "Kalamata olives",
+    "Greek black olives",
+    "Mediterranean olives"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 10 large olives",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO as they are low FODMAP and fermented. High sodium content may affect some individuals.",
+  "preparationTips": [
+    "Rinse before eating to reduce excess sodium if desired",
+    "Remove pits carefully to avoid choking hazard",
+    "Store opened jars in refrigerator and use within 2-3 weeks",
+    "Pat dry with paper towels when adding to salads to prevent excess liquid"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "feta cheese",
+    "tomatoes",
+    "cucumber",
+    "bell peppers",
+    "lettuce"
+  ],
+  "nutritionalHighlights": [
+    "healthy monounsaturated fats",
+    "vitamin E",
+    "iron",
+    "antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

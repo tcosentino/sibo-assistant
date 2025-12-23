@@ -1,0 +1,42 @@
+{
+  "id": "halloumi",
+  "name": "Halloumi",
+  "aliases": [
+    "Haloumi",
+    "Grilling cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "semi-hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 thick slices",
+      "cups": "1/4 cup cubed"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's naturally low in lactose due to the cheese-making process and high salt content.",
+  "preparationTips": [
+    "Slice and pan-fry or grill for best texture",
+    "Pat dry before cooking to reduce oil splatter",
+    "Don't overcook as it becomes rubbery",
+    "Can be eaten cold in salads"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cherry tomatoes",
+    "Cucumber",
+    "Bell peppers",
+    "Olive oil",
+    "Fresh herbs like mint or parsley"
+  ],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Good source of calcium",
+    "Contains vitamin B12",
+    "Provides phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

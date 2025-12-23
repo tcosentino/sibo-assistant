@@ -1,0 +1,59 @@
+{
+  "id": "gochujang",
+  "name": "Gochujang",
+  "aliases": [
+    "Korean chili paste",
+    "Korean fermented chili paste"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 teaspoons"
+    },
+    "moderate": {
+      "grams": 20,
+      "description": "About 1 tablespoon plus 1 teaspoon",
+      "cups": "1 tablespoon + 1 teaspoon"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Contains garlic and may include wheat-based ingredients which can trigger SIBO symptoms. Use sparingly and check ingredient labels for added wheat or onion.",
+  "preparationTips": [
+    "Check labels carefully - some brands contain wheat or onion powder",
+    "Start with very small amounts to test tolerance",
+    "Mix with garlic-infused oil instead of fresh garlic for homemade versions",
+    "Store in refrigerator after opening to maintain freshness"
+  ],
+  "alternatives": [
+    "Sriracha sauce (garlic-free brands)",
+    "Chili garlic oil (without actual garlic pieces)",
+    "Paprika and cayenne pepper blend",
+    "Harissa paste (check ingredients)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice dishes",
+    "Tofu",
+    "Bok choy",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from red peppers",
+    "Capsaicin with anti-inflammatory properties",
+    "Probiotics from fermentation",
+    "Antioxidants from chili peppers"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "powdered-sugar-confectioners",
+  "name": "Powdered Sugar (Confectioners)",
+  "aliases": [
+    "Confectioners' sugar",
+    "Icing sugar",
+    "10X sugar",
+    "Powdered sugar"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Pure sucrose is well-absorbed in the small intestine and typically well-tolerated in SIBO. Small amounts used in baking are generally fine.",
+  "preparationTips": [
+    "Sift before using to remove lumps and ensure even distribution",
+    "Store in airtight container to prevent clumping from moisture",
+    "Perfect for dusting baked goods or making quick glazes",
+    "Contains small amount of cornstarch which is FODMAP-friendly"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon juice (for glazes)",
+    "Vanilla extract",
+    "Low-FODMAP berries",
+    "Dark chocolate",
+    "Coconut milk"
+  ],
+  "nutritionalHighlights": [
+    "Pure carbohydrate source providing quick energy",
+    "No fat, protein, or fiber",
+    "Contains trace amounts of cornstarch as anti-caking agent",
+    "Very low in vitamins and minerals"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "tabasco",
+  "name": "Tabasco",
+  "aliases": [
+    "Tabasco sauce",
+    "hot pepper sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's FODMAP-free, though spicy foods may irritate sensitive digestive systems during active SIBO.",
+  "preparationTips": [
+    "Start with small amounts if you have a sensitive stomach",
+    "Mix into low-FODMAP dishes for flavor without adding FODMAPs",
+    "Store in refrigerator after opening for best quality",
+    "Check ingredient labels on flavored varieties for added garlic or onion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Scrambled eggs",
+    "Baked potato",
+    "Rice dishes",
+    "Low-FODMAP stir-fries"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains capsaicin with potential anti-inflammatory properties",
+    "Sodium content varies by brand",
+    "No significant vitamins or minerals due to small serving size"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

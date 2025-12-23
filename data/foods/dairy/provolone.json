@@ -1,0 +1,41 @@
+{
+  "id": "provolone",
+  "name": "Provolone",
+  "aliases": [
+    "Provolone cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1/3 cup shredded",
+      "cups": "1/3 cup shredded"
+    }
+  },
+  "siboNotes": "Aged hard cheeses like provolone are naturally low in lactose and well-tolerated in SIBO. The aging process breaks down most lactose content.",
+  "preparationTips": [
+    "Choose aged provolone over fresh varieties for lowest lactose content",
+    "Store properly wrapped in refrigerator to maintain quality",
+    "Allow to come to room temperature before serving for best flavor",
+    "Grate fresh rather than buying pre-shredded for better melting"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Lactose-free crackers",
+    "Bell peppers",
+    "Tomatoes",
+    "Basil"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (7g per ounce)",
+    "Good source of calcium for bone health",
+    "Contains vitamin B12",
+    "Provides phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "pita-bread",
+  "name": "Pita Bread",
+  "aliases": [
+    "pocket bread",
+    "Arabic bread",
+    "Syrian bread"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 26,
+      "description": "1 small pita (4 inch diameter)",
+      "cups": "N/A"
+    },
+    "moderate": {
+      "grams": 52,
+      "description": "1 large pita (6 inch diameter)",
+      "cups": "N/A"
+    },
+    "high": {
+      "grams": 78,
+      "description": "1.5 large pitas or 2 small pitas",
+      "cups": "N/A"
+    }
+  },
+  "siboNotes": "Wheat-based breads can be problematic for SIBO patients due to fructan content. Start with small portions and consider sourdough alternatives.",
+  "preparationTips": [
+    "Toast lightly to improve digestibility",
+    "Choose smaller pita sizes for better portion control",
+    "Look for spelt pita as a potential alternative",
+    "Pair with low-FODMAP proteins and fats to slow digestion"
+  ],
+  "alternatives": [
+    "sourdough bread (2 slices)",
+    "gluten-free bread",
+    "rice cakes",
+    "corn tortillas"
+  ],
+  "pairsWellWith": [
+    "grilled chicken",
+    "feta cheese",
+    "olive oil",
+    "cucumber",
+    "tomato"
+  ],
+  "nutritionalHighlights": [
+    "carbohydrates for energy",
+    "B vitamins",
+    "iron",
+    "dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

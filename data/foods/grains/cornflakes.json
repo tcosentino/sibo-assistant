@@ -1,0 +1,43 @@
+{
+  "id": "cornflakes",
+  "name": "Cornflakes",
+  "aliases": [
+    "corn flakes",
+    "breakfast cereal",
+    "corn cereal"
+  ],
+  "category": "grain",
+  "subcategory": "cereal",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain cornflakes are well-tolerated for SIBO as they're made from corn which is naturally low in fermentable carbohydrates.",
+  "preparationTips": [
+    "Choose plain varieties without added high-FODMAP ingredients like honey or inulin",
+    "Pair with lactose-free milk or small amounts of regular milk (up to 1/2 cup)",
+    "Check labels for added fibers like chicory root or inulin which are high FODMAP",
+    "Store in airtight container to maintain crispness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lactose-free milk",
+    "small serving regular milk (1/2 cup)",
+    "strawberries",
+    "blueberries",
+    "banana (1/3 medium)"
+  ],
+  "nutritionalHighlights": [
+    "Often fortified with iron and B vitamins",
+    "Low in fiber and easy to digest",
+    "Quick source of carbohydrates for energy",
+    "Typically low in fat and protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

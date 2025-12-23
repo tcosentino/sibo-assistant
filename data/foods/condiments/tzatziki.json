@@ -1,0 +1,59 @@
+{
+  "id": "tzatziki",
+  "name": "Tzatziki",
+  "aliases": [
+    "Greek yogurt dip",
+    "cucumber yogurt sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2-3 tablespoons",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 1/3 cup",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup or more",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Traditional tzatziki contains regular yogurt which is moderate in lactose. Choose lactose-free Greek yogurt versions when possible for SIBO management.",
+  "preparationTips": [
+    "Make with lactose-free Greek yogurt to reduce FODMAP content",
+    "Use garlic-infused oil instead of fresh garlic to avoid fructans",
+    "Drain cucumber well to prevent watery consistency",
+    "Fresh dill and lemon juice are naturally low FODMAP flavor enhancers"
+  ],
+  "alternatives": [
+    "Lactose-free tzatziki made with lactose-free Greek yogurt",
+    "Tahini-based cucumber sauce",
+    "Herb-infused olive oil dip",
+    "Low FODMAP ranch dressing"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Cucumber slices",
+    "Bell pepper strips",
+    "Gluten-free pita chips",
+    "Grilled zucchini"
+  ],
+  "nutritionalHighlights": [
+    "Probiotics from yogurt for gut health",
+    "Protein from Greek yogurt",
+    "Vitamin K from cucumber",
+    "Calcium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

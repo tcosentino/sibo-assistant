@@ -1,0 +1,41 @@
+{
+  "id": "canola-oil",
+  "name": "Canola Oil",
+  "aliases": [
+    "Rapeseed Oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and well-tolerated in SIBO. Use moderately as excess fats can slow digestion.",
+  "preparationTips": [
+    "Use for high-heat cooking due to neutral flavor and high smoke point",
+    "Store in cool, dark place to prevent rancidity",
+    "Measure portions as calories add up quickly",
+    "Good for baking as a butter substitute in FODMAP recipes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Roasted carrots and parsnips",
+    "Stir-fried bok choy",
+    "Quinoa pilaf",
+    "Homemade salad dressings"
+  ],
+  "nutritionalHighlights": [
+    "Rich in monounsaturated fats",
+    "Contains omega-3 fatty acids",
+    "Good source of vitamin E",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

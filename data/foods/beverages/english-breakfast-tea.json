@@ -1,0 +1,43 @@
+{
+  "id": "english-breakfast-tea",
+  "name": "English Breakfast Tea",
+  "aliases": [
+    "Black Tea",
+    "Breakfast Tea",
+    "Earl Grey Tea"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain black tea is SIBO-friendly and may have mild antimicrobial properties. Avoid adding high-FODMAP sweeteners or milk.",
+  "preparationTips": [
+    "Brew with hot water for 3-5 minutes for optimal flavor without bitterness",
+    "Use lactose-free milk or small amounts of regular milk (up to 1/4 cup)",
+    "Sweeten with maple syrup, sugar, or stevia instead of honey",
+    "Limit caffeine intake if sensitive, as it can affect gut motility"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough toast with butter",
+    "Low-FODMAP breakfast cereals",
+    "Eggs and bacon",
+    "Rice cakes with peanut butter",
+    "Low-FODMAP fruits like strawberries"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants including theaflavins and thearubigins",
+    "Contains moderate caffeine for alertness",
+    "Provides flavonoids that may support heart health",
+    "Naturally calorie-free when consumed plain"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

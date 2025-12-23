@@ -1,0 +1,48 @@
+{
+  "id": "almond-butter",
+  "name": "Almond Butter",
+  "aliases": [
+    "ground almonds",
+    "almond paste",
+    "natural almond butter"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 32,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as nuts are naturally FODMAP-free and provide beneficial fats and protein.",
+  "preparationTips": [
+    "Choose natural almond butter without added sugars or high FODMAP ingredients",
+    "Store in refrigerator after opening to maintain freshness",
+    "Stir well before use if oil separation occurs",
+    "Check labels to avoid varieties with added garlic or onion powder"
+  ],
+  "alternatives": [
+    "peanut butter",
+    "sunflower seed butter",
+    "tahini",
+    "macadamia nut butter"
+  ],
+  "pairsWellWith": [
+    "rice cakes",
+    "sourdough spelt bread",
+    "banana slices",
+    "strawberries",
+    "carrot sticks"
+  ],
+  "nutritionalHighlights": [
+    "vitamin E",
+    "magnesium",
+    "healthy monounsaturated fats",
+    "plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

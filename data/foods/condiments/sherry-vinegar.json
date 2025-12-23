@@ -1,0 +1,42 @@
+{
+  "id": "sherry-vinegar",
+  "name": "Sherry Vinegar",
+  "aliases": [
+    "Vinagre de Jerez",
+    "Spanish sherry vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Well tolerated in SIBO as vinegars are naturally FODMAP-free and may support digestive health through acetic acid.",
+  "preparationTips": [
+    "Use sparingly as vinegars are acidic and potent in flavor",
+    "Store in a cool, dark place to maintain quality",
+    "Look for authentic Spanish sherry vinegar for best flavor",
+    "Allow to come to room temperature before using for optimal taste"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Mixed greens salad",
+    "Grilled chicken",
+    "Roasted vegetables",
+    "Olive oil for vinaigrettes",
+    "Fresh herbs like basil or oregano"
+  ],
+  "nutritionalHighlights": [
+    "Virtually calorie-free",
+    "Contains beneficial acetic acid",
+    "May help with blood sugar regulation",
+    "Rich in antioxidants from sherry wine origin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

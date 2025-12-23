@@ -1,0 +1,43 @@
+{
+  "id": "ricotta",
+  "name": "Ricotta",
+  "aliases": [
+    "fresh ricotta",
+    "whole milk ricotta",
+    "part-skim ricotta"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO diets as it's naturally low in lactose due to the cheese-making process that removes most whey.",
+  "preparationTips": [
+    "Choose whole milk ricotta for better texture and flavor",
+    "Drain excess whey if using for baking to prevent soggy results",
+    "Can be used fresh or incorporated into cooked dishes",
+    "Store covered in refrigerator and use within 3-5 days of opening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach",
+    "basil",
+    "lemon zest",
+    "pine nuts",
+    "strawberries"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (11g per 1/4 cup)",
+    "Good source of calcium for bone health",
+    "Contains riboflavin and phosphorus",
+    "Lower in sodium than many other cheeses"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

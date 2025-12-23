@@ -1,0 +1,49 @@
+{
+  "id": "whiskey",
+  "name": "Whiskey",
+  "aliases": [
+    "Bourbon",
+    "Scotch",
+    "Rye whiskey",
+    "Irish whiskey"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "Standard shot (1.5 oz)",
+      "cups": "1.5 oz"
+    }
+  },
+  "siboNotes": "Alcohol can slow gut motility and may trigger symptoms in some SIBO patients, though whiskey itself contains no FODMAPs.",
+  "preparationTips": [
+    "Choose plain whiskey without added flavors or mixers",
+    "Avoid whiskey-based cocktails with high FODMAP ingredients",
+    "Drink in moderation as alcohol can irritate the digestive system",
+    "Consider having with low FODMAP snacks to minimize stomach irritation"
+  ],
+  "alternatives": [
+    "Vodka",
+    "Gin",
+    "Rum",
+    "Tequila"
+  ],
+  "pairsWellWith": [
+    "Hard aged cheeses",
+    "Dark chocolate",
+    "Olives",
+    "Nuts (almonds, walnuts)",
+    "Smoked salmon"
+  ],
+  "nutritionalHighlights": [
+    "Contains no carbohydrates",
+    "Zero sugar content",
+    "Provides calories from alcohol (7 calories per gram)",
+    "Contains trace amounts of antioxidants from aging process"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

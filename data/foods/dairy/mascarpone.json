@@ -1,0 +1,42 @@
+{
+  "id": "mascarpone",
+  "name": "Mascarpone",
+  "aliases": [
+    "mascarpone cheese",
+    "Italian cream cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Mascarpone is naturally very low in lactose due to its high fat content and minimal processing with cultures, making it well-tolerated for most SIBO patients.",
+  "preparationTips": [
+    "Use at room temperature for easier mixing and spreading",
+    "Fold gently into desserts to maintain light texture",
+    "Store covered in refrigerator and use within 3-5 days of opening",
+    "Can be whipped with low-FODMAP sweeteners for dessert toppings"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "strawberries",
+    "blueberries",
+    "dark chocolate",
+    "espresso",
+    "vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "high in vitamin A",
+    "rich in calcium",
+    "good source of protein",
+    "contains beneficial fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

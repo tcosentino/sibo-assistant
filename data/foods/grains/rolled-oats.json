@@ -1,0 +1,48 @@
+{
+  "id": "rolled-oats",
+  "name": "Rolled Oats",
+  "aliases": [
+    "Old-fashioned oats",
+    "Porridge oats",
+    "Quick oats"
+  ],
+  "category": "grain",
+  "subcategory": "oat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 52,
+      "description": "About 1/2 cup dry oats",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients due to soluble fiber content that feeds beneficial bacteria without excessive fermentation.",
+  "preparationTips": [
+    "Soak overnight to improve digestibility and reduce cooking time",
+    "Cook with lactose-free milk or water instead of regular dairy",
+    "Add low-FODMAP fruits like strawberries or kiwi for natural sweetness",
+    "Start with smaller portions if you have sensitive digestion"
+  ],
+  "alternatives": [
+    "Rice flakes",
+    "Quinoa flakes",
+    "Buckwheat flakes",
+    "Gluten-free cereal"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Kiwi fruit",
+    "Maple syrup",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "High in soluble fiber (beta-glucan)",
+    "Good source of plant-based protein",
+    "Contains manganese and phosphorus",
+    "Provides sustained energy release"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

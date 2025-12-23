@@ -1,0 +1,49 @@
+{
+  "id": "salsa-jarred",
+  "name": "Salsa (Jarred)",
+  "aliases": [
+    "Tomato salsa",
+    "Chunky salsa",
+    "Mild salsa",
+    "Hot salsa"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 42,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small portions, but check labels for garlic and onion powder which are common high-FODMAP additives.",
+  "preparationTips": [
+    "Choose brands that list 'garlic-infused oil' instead of garlic powder",
+    "Look for salsas with simple ingredient lists: tomatoes, peppers, vinegar, salt",
+    "Homemade salsa using scallion greens instead of onion is safer",
+    "Start with smaller portions to test tolerance"
+  ],
+  "alternatives": [
+    "Homemade salsa with scallion greens",
+    "Pico de gallo without onion",
+    "Tomato-based pasta sauce (garlic-free)",
+    "Fresh diced tomatoes with herbs"
+  ],
+  "pairsWellWith": [
+    "Corn tortilla chips",
+    "Grilled chicken",
+    "Scrambled eggs",
+    "Baked potato",
+    "White rice"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from tomatoes and peppers",
+    "Lycopene antioxidant from tomatoes",
+    "Low calorie condiment option",
+    "Potassium for heart health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

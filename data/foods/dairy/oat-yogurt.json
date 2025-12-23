@@ -1,0 +1,60 @@
+{
+  "id": "oat-yogurt",
+  "name": "Oat Yogurt",
+  "aliases": [
+    "oat-based yogurt",
+    "plant-based oat yogurt",
+    "dairy-free oat yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-based-yogurt",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Oats contain moderate levels of fructans which can trigger SIBO symptoms. Start with small portions and monitor tolerance carefully.",
+  "preparationTips": [
+    "Choose plain varieties without added inulin or high FODMAP fruits",
+    "Look for brands with minimal ingredients",
+    "Start with smaller servings to test tolerance",
+    "Pair with low FODMAP toppings rather than eating alone"
+  ],
+  "alternatives": [
+    "lactose-free dairy yogurt",
+    "coconut yogurt (plain)",
+    "almond yogurt (plain)",
+    "rice milk yogurt"
+  ],
+  "pairsWellWith": [
+    "strawberries",
+    "blueberries",
+    "kiwi fruit",
+    "walnuts",
+    "maple syrup (small amount)"
+  ],
+  "nutritionalHighlights": [
+    "beta-glucan fiber",
+    "plant-based protein",
+    "fortified with calcium and vitamin D",
+    "heart-healthy oat compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

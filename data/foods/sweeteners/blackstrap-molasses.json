@@ -1,0 +1,47 @@
+{
+  "id": "blackstrap-molasses",
+  "name": "Blackstrap Molasses",
+  "aliases": [
+    "dark molasses",
+    "unsulphured molasses"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts as it contains minimal fermentable carbohydrates, but use sparingly due to high sugar content.",
+  "preparationTips": [
+    "Measure carefully as molasses is very thick and sticky",
+    "Warm slightly to make it easier to pour and measure",
+    "Store in a cool, dry place to prevent crystallization",
+    "Use as a replacement for other liquid sweeteners in baking"
+  ],
+  "alternatives": [
+    "Maple syrup (small amounts)",
+    "Rice malt syrup",
+    "Glucose syrup",
+    "Brown sugar (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Ginger (fresh or ground)",
+    "Cinnamon",
+    "Oats (gluten-free)",
+    "Dark chocolate",
+    "Coffee"
+  ],
+  "nutritionalHighlights": [
+    "Rich in iron and calcium",
+    "Contains potassium and magnesium",
+    "Provides B vitamins including B6",
+    "Lower glycemic impact than refined sugar"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

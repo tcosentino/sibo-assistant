@@ -1,0 +1,47 @@
+{
+  "id": "sake",
+  "name": "Sake",
+  "aliases": [
+    "Japanese rice wine",
+    "rice wine"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 180,
+      "description": "About 1 standard glass (6 fl oz)",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Alcohol can potentially worsen SIBO symptoms and may slow gut motility, so consume in moderation if you have SIBO.",
+  "preparationTips": [
+    "Choose pure sake without added sugars or flavorings",
+    "Serve chilled or at room temperature as preferred",
+    "Consume with FODMAP-friendly foods to minimize digestive impact",
+    "Limit to one serving to avoid overwhelming the digestive system"
+  ],
+  "alternatives": [
+    "Dry white wine",
+    "Vodka with soda water",
+    "Gin with tonic (small amounts)",
+    "Low-FODMAP beer in moderation"
+  ],
+  "pairsWellWith": [
+    "Sushi with cucumber and carrots",
+    "Grilled salmon",
+    "Rice crackers",
+    "Seaweed salad",
+    "Tempura vegetables (eggplant, zucchini)"
+  ],
+  "nutritionalHighlights": [
+    "Naturally gluten-free (made from rice)",
+    "Contains amino acids from rice fermentation",
+    "Lower alcohol content than most spirits (14-16%)",
+    "Minimal carbohydrates in dry varieties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

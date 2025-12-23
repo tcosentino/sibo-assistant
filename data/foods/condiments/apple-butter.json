@@ -1,0 +1,60 @@
+{
+  "id": "apple-butter",
+  "name": "Apple Butter",
+  "aliases": [
+    "Apple spread",
+    "Apple jam"
+  ],
+  "category": "condiment",
+  "subcategory": "fruit-spread",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 4 tablespoons",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High sugar concentration may feed bacterial overgrowth. Stick to small servings and pair with protein to slow absorption.",
+  "preparationTips": [
+    "Choose apple butter without added high fructose corn syrup",
+    "Look for varieties made with cane sugar rather than honey",
+    "Start with 1 teaspoon to test tolerance",
+    "Spread thinly rather than using generous amounts"
+  ],
+  "alternatives": [
+    "Strawberry jam (low FODMAP at 2 tablespoons)",
+    "Orange marmalade (low FODMAP at 2 tablespoons)",
+    "Peanut butter or almond butter",
+    "Maple syrup (low FODMAP at 2 tablespoons)"
+  ],
+  "pairsWellWith": [
+    "Gluten-free toast",
+    "Rice cakes",
+    "Lactose-free yogurt",
+    "Oatmeal",
+    "Sourdough spelt bread"
+  ],
+  "nutritionalHighlights": [
+    "Concentrated apple antioxidants",
+    "Vitamin C from apples",
+    "Natural fruit sugars for quick energy",
+    "Pectin for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

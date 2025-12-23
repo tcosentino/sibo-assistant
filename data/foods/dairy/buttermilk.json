@@ -1,0 +1,59 @@
+{
+  "id": "buttermilk",
+  "name": "Buttermilk",
+  "aliases": [
+    "cultured buttermilk",
+    "traditional buttermilk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High lactose content makes buttermilk problematic for SIBO patients. Use sparingly in small amounts or choose lactose-free alternatives.",
+  "preparationTips": [
+    "Use only small amounts in baking recipes",
+    "Look for lactose-free buttermilk versions",
+    "Can substitute with lactose-free milk plus lemon juice",
+    "Strain if using in marinades to reduce liquid volume"
+  ],
+  "alternatives": [
+    "lactose-free buttermilk",
+    "lactose-free milk with lemon juice",
+    "coconut milk with vinegar",
+    "almond milk with acid"
+  ],
+  "pairsWellWith": [
+    "gluten-free flour",
+    "eggs",
+    "baking soda",
+    "vanilla extract",
+    "strawberries"
+  ],
+  "nutritionalHighlights": [
+    "probiotics from culturing",
+    "calcium",
+    "protein",
+    "B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

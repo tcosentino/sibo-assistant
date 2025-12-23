@@ -1,0 +1,42 @@
+{
+  "id": "malt-vinegar",
+  "name": "Malt Vinegar",
+  "aliases": [
+    "brown vinegar",
+    "beer vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical serving amounts. The fermentation process removes most FODMAPs from the original malt source.",
+  "preparationTips": [
+    "Use sparingly as condiment - a little goes a long way",
+    "Great for adding tangy flavor to fish and chips",
+    "Can be diluted with water if too strong",
+    "Store in cool, dark place after opening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "White fish",
+    "Roasted potatoes",
+    "Green beans",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains trace amounts of potassium",
+    "No fat or protein",
+    "May help with blood sugar control"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

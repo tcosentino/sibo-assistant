@@ -1,0 +1,60 @@
+{
+  "id": "queso-fresco",
+  "name": "Queso Fresco",
+  "aliases": [
+    "Fresh Cheese",
+    "Mexican Fresh Cheese",
+    "White Cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or small slice",
+      "cups": "1/4 cup crumbled"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 3 oz or medium serving",
+      "cups": "1/2 cup crumbled"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 4+ oz or large serving",
+      "cups": "3/4 cup crumbled"
+    }
+  },
+  "siboNotes": "Contains lactose which can feed bacteria in SIBO. Start with small portions and monitor symptoms, as tolerance varies among individuals.",
+  "preparationTips": [
+    "Crumble over dishes rather than eating in large chunks",
+    "Pair with lactase enzyme if lactose sensitive",
+    "Choose brands with shorter aging time for milder flavor",
+    "Store properly refrigerated and use within a few days"
+  ],
+  "alternatives": [
+    "Aged cheddar cheese",
+    "Parmesan cheese",
+    "Lactose-free cottage cheese",
+    "Firm tofu crumbles"
+  ],
+  "pairsWellWith": [
+    "Corn tortillas",
+    "Bell peppers",
+    "Tomatoes",
+    "Cilantro",
+    "Lime"
+  ],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Good source of calcium",
+    "Contains phosphorus",
+    "Provides vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

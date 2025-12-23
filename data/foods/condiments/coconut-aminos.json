@@ -1,0 +1,47 @@
+{
+  "id": "coconut-aminos",
+  "name": "Coconut Aminos",
+  "aliases": [
+    "coconut soy sauce",
+    "coconut liquid aminos"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as it's naturally fermented and contains minimal FODMAPs. Use in moderation as part of overall meal planning.",
+  "preparationTips": [
+    "Start with small amounts (1 teaspoon) to test tolerance",
+    "Check ingredient labels for added garlic or onion powder",
+    "Store in refrigerator after opening for best quality",
+    "Shake well before use as natural separation may occur"
+  ],
+  "alternatives": [
+    "Tamari (gluten-free soy sauce)",
+    "Fish sauce in small amounts",
+    "Sea salt with rice vinegar",
+    "Homemade herb-infused oils"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Stir-fried bok choy",
+    "Rice noodles",
+    "Sesame oil",
+    "Fresh ginger"
+  ],
+  "nutritionalHighlights": [
+    "Lower sodium than traditional soy sauce",
+    "Contains amino acids from coconut sap",
+    "Naturally gluten-free",
+    "Rich in potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

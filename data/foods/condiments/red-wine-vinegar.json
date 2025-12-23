@@ -1,0 +1,42 @@
+{
+  "id": "red-wine-vinegar",
+  "name": "Red Wine Vinegar",
+  "aliases": [
+    "red vinegar",
+    "wine vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as vinegars are typically FODMAP-free and may have mild antimicrobial properties.",
+  "preparationTips": [
+    "Use in salad dressings with low-FODMAP oils",
+    "Great for marinades with herbs and garlic-infused oil",
+    "Add to roasted vegetables for tangy flavor",
+    "Mix with Dijon mustard for low-FODMAP vinaigrette"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "olive oil",
+    "spinach",
+    "carrots",
+    "bell peppers",
+    "grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories (about 3 per tablespoon)",
+    "Contains small amounts of potassium",
+    "May help with blood sugar regulation",
+    "Provides acetic acid which may support digestion"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}
