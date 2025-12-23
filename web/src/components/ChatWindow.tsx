@@ -3,6 +3,7 @@ import Markdown from 'react-markdown';
 import type { Food, FodmapType } from '../types/food';
 import { allFoods } from '../data/foods';
 import { useAuth } from '../contexts/AuthContext';
+import { processContentWithFoodLinks } from '../utils/foodLinks';
 import './ChatWindow.css';
 
 interface Message {
@@ -225,83 +226,9 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return found;
   };
 
-  // Process text content to wrap food names with special link syntax
-  const processContentWithFoodLinks = (content: string): string => {
-    // Build a list of all food names and aliases with their food IDs
-    const foodMatches: { pattern: string; foodId: string; name: string }[] = [];
-
-    for (const food of allFoods) {
-      // Add the main name
-      foodMatches.push({ pattern: food.name, foodId: food.id, name: food.name });
-
-      // Add aliases
-      if (food.aliases) {
-        for (const alias of food.aliases) {
-          foodMatches.push({ pattern: alias, foodId: food.id, name: alias });
-        }
-      }
-    }
-
-    // Sort by length descending to match longer names first (e.g., "Bell Pepper" before "Pepper")
-    foodMatches.sort((a, b) => b.pattern.length - a.pattern.length);
-
-    // Track which ranges have been replaced to avoid overlapping matches
-    const replacedRanges: { start: number; end: number }[] = [];
-
-    // Find all matches with their positions
-    const matches: { start: number; end: number; replacement: string }[] = [];
-
-    for (const { pattern, foodId } of foodMatches) {
-      // Create a case-insensitive regex with "word-like" boundaries:
-      // ensure the pattern is not part of a larger word, but allow leading/trailing punctuation
-      // Escape special regex characters in the pattern
-      const escapedPattern = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`(?<![\\w])${escapedPattern}(?![\\w])`, 'gi');
-
-      let match;
-      while ((match = regex.exec(content)) !== null) {
-        const start = match.index;
-        const end = start + match[0].length;
-
-        // Check if this range overlaps with any already replaced range
-        const overlaps = replacedRanges.some(
-          range => (start >= range.start && start < range.end) ||
-                   (end > range.start && end <= range.end) ||
-                   (start <= range.start && end >= range.end)
-        );
-
-        if (!overlaps) {
-          // Check if already inside a markdown link or bold syntax
-          const beforeText = content.slice(Math.max(0, start - 50), start);
-          const afterText = content.slice(end, Math.min(content.length, end + 10));
-
-          // Skip if inside markdown link [...](...) or already a food link
-          const isInsideLink = /\[[^\]]*$/.test(beforeText) ||
-                               /^\]/.test(afterText) ||
-                               /@food:[a-z-]+\)$/.test(beforeText);
-
-          if (!isInsideLink) {
-            matches.push({
-              start,
-              end,
-              replacement: `[${match[0]}](@food:${foodId})`
-            });
-            replacedRanges.push({ start, end });
-          }
-        }
-      }
-    }
-
-    // Sort matches by position (reverse order for safe replacement)
-    matches.sort((a, b) => b.start - a.start);
-
-    // Apply replacements from end to start to preserve positions
-    let result = content;
-    for (const { start, end, replacement } of matches) {
-      result = result.slice(0, start) + replacement + result.slice(end);
-    }
-
-    return result;
+  // Wrapper to process content with food links using the utility function
+  const processMessageWithFoodLinks = (content: string): string => {
+    return processContentWithFoodLinks(content, allFoods);
   };
 
   const processPreferenceItems = (
@@ -663,7 +590,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
 
     // Process content to add food links for assistant messages
     const processedContent = message.role === 'assistant'
-      ? processContentWithFoodLinks(content)
+      ? processMessageWithFoodLinks(content)
       : content;
 
     return (
