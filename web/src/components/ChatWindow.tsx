@@ -611,14 +611,8 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         )}
         <div className="chat-window__markdown">
           <Markdown
-            urlTransform={(url) => {
-              // Preserve @food: URLs for our custom handler
-              if (url.startsWith('@food:')) {
-                return url;
-              }
-              // Default behavior for other URLs
-              return url;
-            }}
+            // Bypass default URL sanitization to allow custom @food: scheme
+            urlTransform={(url) => url}
             components={{
               // Custom strong renderer to make food names clickable
               strong: ({ children }) => {
