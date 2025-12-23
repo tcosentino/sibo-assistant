@@ -193,17 +193,21 @@ export function processContentWithFoodLinks(
   const patterns: FoodPattern[] = [];
 
   for (const food of foods) {
-    patterns.push({
-      foodId: food.id,
-      regex: createBoundaryRegex(food.name),
-    });
+    if (food.name.length <= MAX_PATTERN_LENGTH) {
+      patterns.push({
+        foodId: food.id,
+        regex: createBoundaryRegex(food.name),
+      });
+    }
 
     if (food.aliases) {
       for (const alias of food.aliases) {
-        patterns.push({
-          foodId: food.id,
-          regex: createBoundaryRegex(alias),
-        });
+        if (alias.length <= MAX_PATTERN_LENGTH) {
+          patterns.push({
+            foodId: food.id,
+            regex: createBoundaryRegex(alias),
+          });
+        }
       }
     }
   }
