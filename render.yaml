@@ -21,7 +21,17 @@ services:
         sync: false
       - key: HELICONE_API_KEY
         sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: DATABASE_PATH
+        value: /var/data/sibo.db
     healthCheckPath: /api/health
+    disk:
+      name: sibo-data
+      mountPath: /var/data
+      sizeGB: 1
 
   # Static frontend
   - type: web
