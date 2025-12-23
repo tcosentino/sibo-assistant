@@ -252,10 +252,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     const matches: { start: number; end: number; replacement: string }[] = [];
 
     for (const { pattern, foodId } of foodMatches) {
-      // Create a case-insensitive regex with word boundaries
+      // Create a case-insensitive regex with "word-like" boundaries:
+      // ensure the pattern is not part of a larger word, but allow leading/trailing punctuation
       // Escape special regex characters in the pattern
       const escapedPattern = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`\\b${escapedPattern}\\b`, 'gi');
+      const regex = new RegExp(`(?<![\\w])${escapedPattern}(?![\\w])`, 'gi');
 
       let match;
       while ((match = regex.exec(content)) !== null) {
