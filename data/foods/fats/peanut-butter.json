@@ -1,0 +1,42 @@
+{
+  "id": "peanut-butter",
+  "name": "Peanut Butter",
+  "aliases": [
+    "Ground peanuts",
+    "Peanut paste"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 32,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as it's FODMAP-free. Choose natural versions without added sugars or high-fructose corn syrup.",
+  "preparationTips": [
+    "Choose natural peanut butter with only peanuts and salt listed",
+    "Avoid varieties with added honey, agave, or high-fructose corn syrup",
+    "Store natural peanut butter upside down to make mixing easier",
+    "Warm slightly if too thick for spreading"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Sourdough spelt bread",
+    "Banana (1/3 medium)",
+    "Strawberries",
+    "Dark chocolate"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (8g per 2 tbsp)",
+    "Rich in healthy monounsaturated fats",
+    "Good source of niacin and magnesium",
+    "Contains vitamin E and antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

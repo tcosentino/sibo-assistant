@@ -1,0 +1,41 @@
+{
+  "id": "grapeseed-oil",
+  "name": "Grapeseed Oil",
+  "aliases": [
+    "Grape seed oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Pure oil is FODMAP-free and well-tolerated. High in fat which may slow digestion for some SIBO patients - use moderately.",
+  "preparationTips": [
+    "Store in cool, dark place to prevent rancidity",
+    "High smoke point (420°F) makes it excellent for high-heat cooking",
+    "Neutral flavor won't overpower dishes",
+    "Check labels to ensure no additives or flavorings"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted carrots",
+    "Sautéed spinach",
+    "Rice dishes",
+    "Salad dressings"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E (antioxidant)",
+    "Rich in omega-6 fatty acids",
+    "Contains proanthocyanidins (antioxidants)",
+    "Heart-healthy monounsaturated fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

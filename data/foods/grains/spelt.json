@@ -1,0 +1,60 @@
+{
+  "id": "spelt",
+  "name": "Spelt",
+  "aliases": [
+    "spelt wheat",
+    "hulled wheat",
+    "dinkel wheat"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 2 tablespoons flour",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 1/4 cup flour",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "About 1/2 cup flour",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Contains fructans which feed bacteria in SIBO patients. Start with very small amounts (2 tbsp) and monitor symptoms closely.",
+  "preparationTips": [
+    "Use spelt flour in small amounts as part of gluten-free flour blends",
+    "Try sourdough spelt bread as fermentation may reduce FODMAP content",
+    "Cook spelt berries thoroughly and limit portion sizes",
+    "Consider spelt pasta in 1/4 cup dry portions maximum"
+  ],
+  "alternatives": [
+    "Rice flour",
+    "Quinoa flour",
+    "Gluten-free oats",
+    "Brown rice"
+  ],
+  "pairsWellWith": [
+    "Lactose-free butter",
+    "Olive oil",
+    "Fresh herbs like basil",
+    "Low-FODMAP vegetables",
+    "Firm tofu"
+  ],
+  "nutritionalHighlights": [
+    "Higher protein than regular wheat",
+    "Good source of fiber",
+    "Contains B vitamins and minerals",
+    "Provides complex carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

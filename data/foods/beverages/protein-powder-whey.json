@@ -1,0 +1,48 @@
+{
+  "id": "protein-powder-whey",
+  "name": "Protein Powder (Whey)",
+  "aliases": [
+    "whey protein",
+    "whey protein powder",
+    "whey isolate"
+  ],
+  "category": "beverage",
+  "subcategory": "protein-supplement",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 scoop (30g)",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Pure whey protein isolate is generally well-tolerated by most SIBO patients. Avoid products with added inulin, chicory root, or artificial sweeteners like sorbitol and mannitol.",
+  "preparationTips": [
+    "Choose whey protein isolate over concentrate for better lactose tolerance",
+    "Read labels carefully to avoid added FODMAPs like inulin or sugar alcohols",
+    "Mix with lactose-free milk or water instead of regular milk",
+    "Start with smaller portions if you're sensitive to any residual lactose"
+  ],
+  "alternatives": [
+    "Rice protein powder",
+    "Pea protein isolate (small portions)",
+    "Egg white protein powder",
+    "Hemp protein powder"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Banana (1/3 medium)",
+    "Lactose-free milk",
+    "Almond milk (unsweetened)"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "High in branched-chain amino acids (BCAAs)",
+    "Supports muscle recovery and growth",
+    "Low in carbohydrates and fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

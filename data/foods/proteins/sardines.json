@@ -1,0 +1,43 @@
+{
+  "id": "sardines",
+  "name": "Sardines",
+  "aliases": [
+    "pilchards",
+    "canned sardines",
+    "fresh sardines"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 whole sardines or 1/2 cup flaked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as they're naturally FODMAP-free and provide gut-healing omega-3 fatty acids.",
+  "preparationTips": [
+    "Choose sardines packed in olive oil or water rather than sauces that may contain garlic or onion",
+    "Fresh sardines can be grilled, baked, or pan-fried with FODMAP-friendly herbs",
+    "Remove bones if sensitive, though they're edible and provide extra calcium",
+    "Rinse canned sardines if avoiding excess sodium"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach",
+    "cucumber",
+    "tomatoes",
+    "lemon juice",
+    "olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in omega-3 fatty acids EPA and DHA",
+    "Excellent source of protein and vitamin B12",
+    "Rich in calcium and phosphorus",
+    "Good source of selenium and vitamin D"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

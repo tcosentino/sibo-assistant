@@ -1,0 +1,43 @@
+{
+  "id": "cardamom",
+  "name": "Cardamom",
+  "aliases": [
+    "Green cardamom",
+    "True cardamom",
+    "Cardamom pods"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon ground or 4-6 pods",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Cardamom is SIBO-friendly and may actually help with digestive comfort due to its carminative properties.",
+  "preparationTips": [
+    "Crush whole pods lightly to release maximum flavor",
+    "Remove the outer pod shell and use only the seeds for stronger flavor",
+    "Toast whole pods briefly in a dry pan before grinding",
+    "Store whole pods in airtight containers to preserve essential oils"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Ginger",
+    "Cinnamon",
+    "Rice dishes",
+    "Lactose-free milk in chai",
+    "Orange zest"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and essential oils",
+    "Contains compounds that may support digestive health",
+    "Good source of manganese",
+    "Provides small amounts of iron and zinc"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

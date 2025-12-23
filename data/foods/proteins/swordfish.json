@@ -1,0 +1,42 @@
+{
+  "id": "swordfish",
+  "name": "Swordfish",
+  "aliases": [
+    "Broadbill",
+    "Broadbill swordfish"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium fillet (5 oz)",
+      "cups": "approximately 3/4 cup flaked"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated on SIBO diets. Choose fresh or frozen without marinades or seasonings that may contain FODMAPs.",
+  "preparationTips": [
+    "Grill, bake, or pan-sear with FODMAP-friendly herbs like basil or oregano",
+    "Avoid pre-marinated varieties that may contain garlic or onion",
+    "Season with lemon juice, olive oil, and low-FODMAP spices",
+    "Cook to internal temperature of 145°F (63°C) for food safety"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled zucchini",
+    "Steamed carrots",
+    "Quinoa pilaf",
+    "Mixed greens salad",
+    "Roasted red bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (25g per serving)",
+    "Rich in selenium and vitamin B12",
+    "Good source of omega-3 fatty acids",
+    "Contains niacin and vitamin B6"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

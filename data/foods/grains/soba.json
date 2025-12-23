@@ -1,0 +1,47 @@
+{
+  "id": "soba",
+  "name": "Soba",
+  "aliases": [
+    "Buckwheat noodles",
+    "Japanese soba noodles"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 145,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Pure buckwheat soba is well-tolerated for SIBO as buckwheat is naturally FODMAP-free. Check labels to ensure no wheat flour is added.",
+  "preparationTips": [
+    "Choose 100% buckwheat soba noodles (juwari soba) to avoid wheat contamination",
+    "Rinse cooked soba noodles in cold water to remove excess starch and improve texture",
+    "Check ingredient labels as some soba contains wheat flour which adds fructans",
+    "Cook until just tender to maintain firm texture and better digestibility"
+  ],
+  "alternatives": [
+    "Rice noodles",
+    "Quinoa pasta",
+    "Corn pasta",
+    "Pure rice vermicelli"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Sesame oil",
+    "Scallion greens only",
+    "Ginger",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "High in manganese and copper",
+    "Good source of fiber and B vitamins",
+    "Contains rutin, a powerful antioxidant"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

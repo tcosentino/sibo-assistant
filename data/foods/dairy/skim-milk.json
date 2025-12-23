@@ -1,0 +1,60 @@
+{
+  "id": "skim-milk",
+  "name": "Skim Milk",
+  "aliases": [
+    "Fat-free milk",
+    "Non-fat milk",
+    "0% milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "High lactose content makes this problematic for SIBO patients. Even small amounts may trigger symptoms in lactose-intolerant individuals.",
+  "preparationTips": [
+    "Use lactase enzyme drops to reduce lactose content",
+    "Try small amounts (1 tablespoon) in coffee or tea initially",
+    "Consider using in cooking where small amounts are diluted",
+    "Store properly refrigerated and check expiration dates"
+  ],
+  "alternatives": [
+    "Lactose-free skim milk",
+    "Almond milk (unsweetened)",
+    "Rice milk (small portions)",
+    "Oat milk (small portions)"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Gluten-free oats",
+    "Rice cakes",
+    "Banana (firm)",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (8g per cup)",
+    "Excellent source of calcium",
+    "Fortified with vitamin D",
+    "Contains B vitamins including B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

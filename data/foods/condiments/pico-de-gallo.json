@@ -1,0 +1,60 @@
+{
+  "id": "pico-de-gallo",
+  "name": "Pico de Gallo",
+  "aliases": [
+    "salsa fresca",
+    "fresh salsa",
+    "salsa cruda"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving due to onion content",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 2 tablespoons or more",
+      "cups": "2+ tbsp"
+    }
+  },
+  "siboNotes": "Traditional pico de gallo contains onions which are high in fructans and should be avoided on SIBO diets. Even small amounts can trigger symptoms.",
+  "preparationTips": [
+    "Make FODMAP-friendly version using green onion tops only",
+    "Use garlic-infused oil instead of fresh garlic",
+    "Increase tomato and cilantro proportions",
+    "Add lime juice for extra flavor without FODMAPs"
+  ],
+  "alternatives": [
+    "tomato salsa without onion",
+    "chimichurri made with garlic oil",
+    "herb-only salsa verde",
+    "low-FODMAP salsa with scallion greens"
+  ],
+  "pairsWellWith": [
+    "corn tortilla chips",
+    "grilled chicken",
+    "fish tacos",
+    "scrambled eggs",
+    "baked potato"
+  ],
+  "nutritionalHighlights": [
+    "vitamin C from tomatoes",
+    "folate from cilantro",
+    "lycopene from tomatoes",
+    "potassium from tomatoes"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

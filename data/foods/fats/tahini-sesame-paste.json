@@ -1,0 +1,43 @@
+{
+  "id": "tahini-sesame-paste",
+  "name": "Tahini (Sesame Paste)",
+  "aliases": [
+    "sesame seed paste",
+    "sesame butter",
+    "tahina"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as it's FODMAP-free, though high fat content may slow gastric emptying.",
+  "preparationTips": [
+    "Stir well before use as oil separation is natural",
+    "Store in refrigerator after opening to prevent rancidity",
+    "Thin with small amounts of water or lemon juice for easier mixing",
+    "Choose hulled tahini for milder flavor and smoother texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cucumber slices",
+    "carrot sticks",
+    "rice crackers",
+    "grilled chicken",
+    "roasted eggplant"
+  ],
+  "nutritionalHighlights": [
+    "rich in healthy monounsaturated fats",
+    "excellent source of calcium",
+    "good source of magnesium and phosphorus",
+    "provides plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "caesar-dressing",
+  "name": "Caesar Dressing",
+  "aliases": [
+    "Caesar salad dressing",
+    "Traditional Caesar dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 45,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Traditional Caesar dressing contains garlic which provides fructans. Stick to 1 tablespoon servings to minimize SIBO symptoms.",
+  "preparationTips": [
+    "Check ingredient labels as garlic powder is often used instead of fresh garlic",
+    "Look for brands that use garlic-infused oil rather than garlic pieces",
+    "Store-bought versions may vary significantly in garlic content",
+    "Homemade versions allow better control of garlic amounts"
+  ],
+  "alternatives": [
+    "Garlic-infused oil based Caesar dressing",
+    "Ranch dressing (check for onion/garlic)",
+    "Lemon vinaigrette with parmesan",
+    "Olive oil and lemon juice with anchovies"
+  ],
+  "pairsWellWith": [
+    "Romaine lettuce",
+    "Parmesan cheese",
+    "Sourdough croutons (small serving)",
+    "Grilled chicken",
+    "Bacon bits"
+  ],
+  "nutritionalHighlights": [
+    "Healthy fats from olive oil",
+    "Protein from anchovies and parmesan",
+    "Calcium from parmesan cheese",
+    "Vitamin K from herbs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

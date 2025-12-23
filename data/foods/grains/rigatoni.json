@@ -1,0 +1,59 @@
+{
+  "id": "rigatoni",
+  "name": "Rigatoni",
+  "aliases": [
+    "Rigatoni pasta",
+    "Tube pasta"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 2/3 cup cooked",
+      "cups": "2/3 cup"
+    },
+    "moderate": {
+      "grams": 100,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 1.5 cups cooked",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Wheat-based pasta can be problematic for SIBO patients due to fructan content. Start with small portions and consider alternatives during symptom flares.",
+  "preparationTips": [
+    "Cook al dente to potentially reduce FODMAP content",
+    "Measure portions carefully when cooked",
+    "Rinse with cold water after cooking if making pasta salad",
+    "Combine with low-FODMAP proteins and vegetables for balanced meals"
+  ],
+  "alternatives": [
+    "Brown rice pasta",
+    "Quinoa pasta",
+    "100% buckwheat noodles",
+    "Corn-based pasta"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Fresh basil",
+    "Olive oil",
+    "Bell peppers",
+    "Zucchini"
+  ],
+  "nutritionalHighlights": [
+    "Complex carbohydrates for energy",
+    "B vitamins including folate",
+    "Iron for oxygen transport",
+    "Moderate protein content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

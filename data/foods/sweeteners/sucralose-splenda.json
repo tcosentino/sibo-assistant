@@ -1,0 +1,43 @@
+{
+  "id": "sucralose-splenda",
+  "name": "Sucralose (Splenda)",
+  "aliases": [
+    "Splenda",
+    "sucralose",
+    "artificial sweetener"
+  ],
+  "category": "sweetener",
+  "subcategory": "artificial-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 1,
+      "description": "1 packet or 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Pure sucralose is well-tolerated in SIBO as it's not fermented by bacteria. However, some Splenda products contain bulking agents like maltodextrin which may cause issues in sensitive individuals.",
+  "preparationTips": [
+    "Use sparingly as sweetness is 600x stronger than sugar",
+    "Heat-stable for baking and cooking applications",
+    "Check ingredient labels as some Splenda products contain bulking agents",
+    "Start with small amounts to assess individual tolerance"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "coffee",
+    "tea",
+    "low-FODMAP fruits in desserts",
+    "lactose-free yogurt",
+    "low-FODMAP baking recipes"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "No impact on blood sugar levels",
+    "Does not contribute to tooth decay",
+    "Heat-stable for cooking"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

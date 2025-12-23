@@ -1,0 +1,60 @@
+{
+  "id": "penne",
+  "name": "Penne",
+  "aliases": [
+    "penne pasta",
+    "wheat penne",
+    "regular penne"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 65,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 130,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 1.5 cups cooked",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Wheat-based pasta contains fructans which can feed bacterial overgrowth. Consider gluten-free alternatives or stick to small portions during elimination phase.",
+  "preparationTips": [
+    "Cook until al dente to potentially reduce FODMAP content",
+    "Rinse cooked pasta if sensitive to reduce residual starches",
+    "Start with smaller portions and gradually increase if well-tolerated",
+    "Pair with low-FODMAP sauces and proteins for balanced meal"
+  ],
+  "alternatives": [
+    "Rice pasta",
+    "Quinoa pasta",
+    "Corn pasta",
+    "Buckwheat pasta"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Fresh basil",
+    "Parmesan cheese",
+    "Grilled chicken",
+    "Cherry tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Complex carbohydrates for energy",
+    "B vitamins including folate",
+    "Iron for oxygen transport",
+    "Protein for muscle maintenance"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

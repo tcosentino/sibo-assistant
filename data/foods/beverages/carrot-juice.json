@@ -1,0 +1,42 @@
+{
+  "id": "carrot-juice",
+  "name": "Carrot Juice",
+  "aliases": [
+    "Fresh carrot juice",
+    "Pressed carrot juice"
+  ],
+  "category": "beverage",
+  "subcategory": "vegetable-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as carrots are low FODMAP and the juice form may be easier to digest than whole carrots.",
+  "preparationTips": [
+    "Choose 100% pure carrot juice without added sugars or high FODMAP ingredients",
+    "Fresh-pressed is ideal, but bottled varieties are acceptable if no additives",
+    "Consume chilled for best taste and digestive comfort",
+    "Start with smaller portions if you have severe digestive sensitivity"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Ginger (small amounts)",
+    "Spinach in green juice blends",
+    "Cucumber juice",
+    "Lemon juice",
+    "Fresh herbs like parsley"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of beta-carotene (vitamin A)",
+    "Good source of potassium",
+    "Contains antioxidants like lutein",
+    "Provides natural sugars for quick energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

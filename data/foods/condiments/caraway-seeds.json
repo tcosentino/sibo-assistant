@@ -1,0 +1,42 @@
+{
+  "id": "caraway-seeds",
+  "name": "Caraway Seeds",
+  "aliases": [
+    "Persian cumin",
+    "meridian fennel"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Caraway seeds are naturally FODMAP-free and well-tolerated in typical culinary amounts. Their carminative properties may actually help reduce digestive discomfort.",
+  "preparationTips": [
+    "Lightly toast whole seeds before grinding to enhance flavor",
+    "Use sparingly as the flavor is quite potent",
+    "Store in airtight container to maintain potency",
+    "Can be used whole or ground depending on recipe needs"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fennel bulb",
+    "Carrots",
+    "Potatoes",
+    "Sourdough spelt bread",
+    "Aged cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and essential oils",
+    "Good source of dietary fiber",
+    "Contains iron and manganese",
+    "Traditional digestive aid with carminative properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

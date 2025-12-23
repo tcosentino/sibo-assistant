@@ -1,0 +1,61 @@
+{
+  "id": "chickpeas-garbanzo",
+  "name": "Chickpeas (Garbanzo)",
+  "aliases": [
+    "Garbanzo beans",
+    "Chana",
+    "Chickpeas canned",
+    "Chickpeas dried"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 42,
+      "description": "About 1/4 cup canned (drained)",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "About 1/2 cup canned (drained)",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "About 2/3 cup canned (drained)",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "High in galactans (GOS) which can trigger SIBO symptoms. Start with very small portions (1-2 tablespoons) if tolerated during maintenance phase.",
+  "preparationTips": [
+    "Rinse canned chickpeas thoroughly to reduce excess sodium",
+    "Soak dried chickpeas overnight and cook thoroughly to improve digestibility",
+    "Start with small portions and gradually increase if well-tolerated",
+    "Consider chickpea flour as alternative for baking in small amounts"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small portions)",
+    "Eggs",
+    "Canned lentils (1/4 cup max)"
+  ],
+  "pairsWellWith": [
+    "Spinach",
+    "Carrots",
+    "Bell peppers",
+    "Cucumber",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Excellent source of fiber",
+    "Rich in folate and iron",
+    "Good source of magnesium and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

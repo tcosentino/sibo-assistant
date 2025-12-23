@@ -1,0 +1,43 @@
+{
+  "id": "matcha",
+  "name": "Matcha",
+  "aliases": [
+    "Matcha powder",
+    "Green tea powder",
+    "Ceremonial matcha"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "1 teaspoon powder (typical serving)",
+      "cups": "1 cup prepared beverage"
+    }
+  },
+  "siboNotes": "Well-tolerated for SIBO as it's naturally FODMAP-free. The caffeine may stimulate gastric motility which can be beneficial for some SIBO patients.",
+  "preparationTips": [
+    "Use 1-2 teaspoons of matcha powder per cup of hot water (not boiling)",
+    "Whisk vigorously to prevent clumping and create froth",
+    "Add lactose-free milk or plant-based milk for matcha lattes",
+    "Sweeten with maple syrup or sugar if desired, avoiding honey"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Coconut milk",
+    "Almond milk (small servings)",
+    "Rice crackers",
+    "Dark chocolate (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants, particularly catechins and EGCG",
+    "Contains L-theanine for calm energy",
+    "Provides moderate caffeine (about 70mg per serving)",
+    "Good source of chlorophyll and vitamin C"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

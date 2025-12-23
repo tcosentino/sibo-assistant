@@ -1,0 +1,60 @@
+{
+  "id": "hoisin-sauce",
+  "name": "Hoisin Sauce",
+  "aliases": [
+    "Chinese barbecue sauce",
+    "Peking sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    },
+    "moderate": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 teaspoons"
+    },
+    "high": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Contains high fructose corn syrup and wheat-based ingredients that can trigger SIBO symptoms. Use sparingly and consider homemade alternatives with low-FODMAP sweeteners.",
+  "preparationTips": [
+    "Dilute with low-sodium soy sauce or rice vinegar to reduce FODMAP load per serving",
+    "Use only as a finishing sauce rather than marinade to limit total consumption",
+    "Check labels for garlic and onion powder which increase FODMAP content",
+    "Store opened bottles refrigerated to maintain flavor and reduce need for larger servings"
+  ],
+  "alternatives": [
+    "Tamari or soy sauce with maple syrup",
+    "Rice wine vinegar with brown sugar",
+    "Homemade sauce using garlic-infused oil and maple syrup",
+    "Sweet and sour sauce made with low-FODMAP ingredients"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or pork",
+    "Bok choy and other Asian greens",
+    "Rice noodles",
+    "Tofu (firm)",
+    "Sesame oil stir-fries"
+  ],
+  "nutritionalHighlights": [
+    "High in sodium",
+    "Contains some iron from soybean base",
+    "Provides umami flavor compounds",
+    "High in added sugars"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

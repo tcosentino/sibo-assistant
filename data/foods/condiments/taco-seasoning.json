@@ -1,0 +1,48 @@
+{
+  "id": "taco-seasoning",
+  "name": "Taco Seasoning",
+  "aliases": [
+    "Mexican seasoning",
+    "taco spice mix",
+    "Mexican spice blend"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 6,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure spice blends without garlic or onion powder are generally well-tolerated, but check labels for FODMAP additives.",
+  "preparationTips": [
+    "Check ingredient labels carefully - many commercial blends contain garlic and onion powder",
+    "Make your own blend using cumin, paprika, chili powder, oregano, and salt",
+    "Add garlic-infused oil separately for flavor without FODMAPs",
+    "Store homemade blends in airtight containers for maximum potency"
+  ],
+  "alternatives": [
+    "Homemade blend with cumin, paprika, and oregano",
+    "Individual spices mixed fresh",
+    "Garlic-infused oil with basic spices",
+    "Low-FODMAP Mexican seasoning brands"
+  ],
+  "pairsWellWith": [
+    "Ground beef or turkey",
+    "Bell peppers",
+    "Tomatoes",
+    "Corn tortillas",
+    "Cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from paprika and chili",
+    "Contains anti-inflammatory compounds from cumin",
+    "Good source of iron from various spices",
+    "Low in sodium when homemade"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

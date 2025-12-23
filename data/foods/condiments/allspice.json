@@ -1,0 +1,43 @@
+{
+  "id": "allspice",
+  "name": "Allspice",
+  "aliases": [
+    "Jamaica pepper",
+    "pimento",
+    "newspice"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon ground",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Well tolerated in typical cooking quantities. Spices are generally SIBO-friendly and may provide antimicrobial benefits.",
+  "preparationTips": [
+    "Use whole berries and grind fresh for maximum flavor",
+    "Toast briefly in dry pan before grinding to enhance aroma",
+    "Store in airtight container away from light and heat",
+    "A little goes a long way - start with small amounts"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cinnamon",
+    "cloves",
+    "nutmeg",
+    "ginger",
+    "cardamom"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants including eugenol",
+    "Contains vitamin C and manganese",
+    "Provides anti-inflammatory compounds",
+    "May support digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

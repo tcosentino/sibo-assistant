@@ -1,0 +1,44 @@
+{
+  "id": "langoustine",
+  "name": "Langoustine",
+  "aliases": [
+    "Dublin Bay prawn",
+    "Norway lobster",
+    "Scampi",
+    "Nephrops"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 4-6 medium langoustines",
+      "cups": "3/4 cup cooked"
+    }
+  },
+  "siboNotes": "Plain langoustines are naturally FODMAP-free and well-tolerated on SIBO diets. Avoid breaded preparations or high-FODMAP seasonings.",
+  "preparationTips": [
+    "Choose fresh or frozen plain langoustines without added seasonings",
+    "Avoid breaded or battered preparations which may contain wheat",
+    "Cook simply with garlic-infused oil instead of fresh garlic",
+    "Remove shells completely as they can be difficult to digest"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon juice and zest",
+    "Fresh herbs like parsley or chives",
+    "Garlic-infused olive oil",
+    "Carrots",
+    "Zucchini"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in omega-3 fatty acids",
+    "Good source of selenium and vitamin B12",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

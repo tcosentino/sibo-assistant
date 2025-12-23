@@ -1,0 +1,60 @@
+{
+  "id": "black-eyed-peas",
+  "name": "Black-Eyed Peas",
+  "aliases": [
+    "cowpeas",
+    "black-eye beans",
+    "southern peas"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 1/4 cup canned, drained",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/2 cup canned, drained",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 86,
+      "description": "About 3/4 cup canned, drained",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Start with small portions (1/4 cup) as galactans can feed bacteria in SIBO. Consider enzyme supplements with alpha-galactosidase.",
+  "preparationTips": [
+    "Drain and rinse canned black-eyed peas to reduce FODMAP content",
+    "Soak dried peas overnight and discard soaking water before cooking",
+    "Cook thoroughly until very soft to improve digestibility",
+    "Start with small portions and gradually increase if well-tolerated"
+  ],
+  "alternatives": [
+    "firm tofu",
+    "tempeh",
+    "chicken breast",
+    "canned lentils (1/4 cup max)"
+  ],
+  "pairsWellWith": [
+    "brown rice",
+    "quinoa",
+    "spinach",
+    "carrots",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "plant-based protein",
+    "folate",
+    "fiber",
+    "potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

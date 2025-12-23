@@ -1,0 +1,59 @@
+{
+  "id": "camembert",
+  "name": "Camembert",
+  "aliases": [
+    "Camembert cheese",
+    "French soft cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz slice",
+      "cups": "1/4 cup cubed"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 3 oz or 1/3 wheel",
+      "cups": "1/2 cup cubed"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 4 oz or 1/2 wheel",
+      "cups": "3/4 cup cubed"
+    }
+  },
+  "siboNotes": "Soft cheeses like Camembert contain moderate lactose levels that may trigger SIBO symptoms. Start with small portions and monitor tolerance.",
+  "preparationTips": [
+    "Allow cheese to come to room temperature for best flavor and digestibility",
+    "Remove rind if experiencing digestive sensitivity",
+    "Pair with lactase enzyme if lactose sensitive",
+    "Choose well-aged varieties which may have lower lactose content"
+  ],
+  "alternatives": [
+    "Aged hard cheeses (cheddar, parmesan)",
+    "Lactose-free soft cheese",
+    "Firm goat cheese",
+    "Brie (similar lactose content but may be better tolerated)"
+  ],
+  "pairsWellWith": [
+    "Gluten-free crackers",
+    "Fresh grapes",
+    "Walnuts",
+    "Low-FODMAP preserves",
+    "Cucumber slices"
+  ],
+  "nutritionalHighlights": [
+    "High-quality protein",
+    "Calcium for bone health",
+    "Vitamin B12",
+    "Beneficial probiotics from fermentation"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

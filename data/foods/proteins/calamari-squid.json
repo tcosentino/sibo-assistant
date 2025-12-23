@@ -1,0 +1,43 @@
+{
+  "id": "calamari-squid",
+  "name": "Calamari (Squid)",
+  "aliases": [
+    "Squid",
+    "Fried Calamari",
+    "Calamari Rings"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 cup cooked pieces",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated in SIBO diets. Avoid breaded preparations which may contain wheat flour and garlic.",
+  "preparationTips": [
+    "Choose plain grilled or sautéed calamari over breaded versions",
+    "Use garlic-infused oil instead of fresh garlic for flavoring",
+    "Cook quickly over high heat to prevent tough, rubbery texture",
+    "Season with low-FODMAP herbs like oregano, basil, or chives"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon juice and zest",
+    "Arugula or spinach salad",
+    "Roasted red bell peppers",
+    "Olive oil and fresh herbs",
+    "Gluten-free pasta with tomato sauce"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (15-18g per serving)",
+    "Excellent source of vitamin B12 and selenium",
+    "Good source of phosphorus and copper",
+    "Low in calories and saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

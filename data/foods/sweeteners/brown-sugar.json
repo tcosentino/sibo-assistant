@@ -1,0 +1,49 @@
+{
+  "id": "brown-sugar",
+  "name": "Brown Sugar",
+  "aliases": [
+    "Light brown sugar",
+    "Dark brown sugar",
+    "Raw sugar",
+    "Turbinado sugar"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure brown sugar is FODMAP-free but feeds gut bacteria; use sparingly and consider timing with meals to minimize bacterial fermentation.",
+  "preparationTips": [
+    "Store in airtight container to prevent hardening",
+    "If hardened, place a slice of bread in container overnight to soften",
+    "Dark brown sugar has stronger molasses flavor than light brown",
+    "Can substitute 1:1 for white sugar in most recipes"
+  ],
+  "alternatives": [
+    "Maple syrup (small amounts)",
+    "Rice malt syrup",
+    "Stevia",
+    "Dextrose powder"
+  ],
+  "pairsWellWith": [
+    "Gluten-free oats",
+    "Lactose-free butter",
+    "Cinnamon",
+    "Vanilla extract",
+    "Low FODMAP fruits like strawberries"
+  ],
+  "nutritionalHighlights": [
+    "Contains trace minerals from molasses",
+    "Provides quick energy from sucrose",
+    "Small amounts of potassium and calcium",
+    "No fiber or protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

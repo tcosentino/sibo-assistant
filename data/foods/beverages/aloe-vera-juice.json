@@ -1,0 +1,59 @@
+{
+  "id": "aloe-vera-juice",
+  "name": "Aloe Vera Juice",
+  "aliases": [
+    "Aloe juice",
+    "Aloe barbadensis juice"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-juice",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 cup or more",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Small amounts may be tolerated, but the natural sugars can feed bacterial overgrowth. Start with minimal doses if using medicinally.",
+  "preparationTips": [
+    "Choose pure aloe vera juice without added sugars or fruit juices",
+    "Dilute with water to reduce FODMAP load",
+    "Start with very small amounts (1-2 tablespoons)",
+    "Look for products that specify inner leaf gel only"
+  ],
+  "alternatives": [
+    "Coconut water (small serves)",
+    "Herbal teas (peppermint, ginger)",
+    "Plain water with lemon",
+    "Bone broth"
+  ],
+  "pairsWellWith": [
+    "Ginger tea",
+    "Lemon water",
+    "Mint leaves",
+    "Cucumber water",
+    "Plain rice cakes"
+  ],
+  "nutritionalHighlights": [
+    "Vitamins A, C, and E",
+    "Amino acids",
+    "Enzymes",
+    "Anti-inflammatory compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

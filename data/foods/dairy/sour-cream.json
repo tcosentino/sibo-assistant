@@ -1,0 +1,59 @@
+{
+  "id": "sour-cream",
+  "name": "Sour Cream",
+  "aliases": [
+    "soured cream",
+    "cultured sour cream"
+  ],
+  "category": "dairy",
+  "subcategory": "cultured-dairy",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1/2 cup or more",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "The lactose content may trigger symptoms in those with lactose intolerance. Stick to small portions (2 tablespoons or less) to minimize bacterial fermentation.",
+  "preparationTips": [
+    "Use as a small dollop or garnish rather than a main ingredient",
+    "Mix with lactose-free alternatives to extend volume while keeping lactose content low",
+    "Choose full-fat versions which typically have slightly less lactose than low-fat varieties",
+    "Store properly refrigerated and use before expiration date for best digestibility"
+  ],
+  "alternatives": [
+    "Lactose-free sour cream",
+    "Greek yogurt (lactose-free)",
+    "Coconut cream",
+    "Cashew-based sour cream"
+  ],
+  "pairsWellWith": [
+    "Baked potato",
+    "Chives",
+    "Grilled chicken",
+    "Corn tortillas",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Good source of calcium for bone health",
+    "Contains probiotics that may support gut health",
+    "Provides vitamin A for immune function",
+    "Source of protein and healthy fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

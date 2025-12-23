@@ -1,0 +1,43 @@
+{
+  "id": "whole-grain-mustard",
+  "name": "Whole Grain Mustard",
+  "aliases": [
+    "Dijon mustard with seeds",
+    "grainy mustard",
+    "stone-ground mustard"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it contains no significant fermentable carbohydrates and is used in small quantities.",
+  "preparationTips": [
+    "Check labels for added garlic or onion powder which would increase FODMAP content",
+    "Store in refrigerator after opening to maintain flavor and texture",
+    "Mix with low-FODMAP herbs like chives or oregano for enhanced flavor",
+    "Use as a marinade base with olive oil and allowed herbs"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or pork",
+    "Roasted root vegetables like carrots or parsnips",
+    "Low-FODMAP cheese platters",
+    "Sourdough spelt bread (in allowed portions)",
+    "Mixed greens salad with olive oil"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (about 5-10 per tablespoon)",
+    "Contains selenium from mustard seeds",
+    "Provides small amounts of magnesium and phosphorus",
+    "Naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

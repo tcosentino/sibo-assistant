@@ -1,0 +1,42 @@
+{
+  "id": "dandelion-tea",
+  "name": "Dandelion Tea",
+  "aliases": [
+    "Dandelion Root Tea",
+    "Taraxacum Tea"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients as it's FODMAP-free and may have mild digestive benefits. Some find it supports liver function.",
+  "preparationTips": [
+    "Steep 1-2 teaspoons dried dandelion root or leaves in hot water for 5-10 minutes",
+    "Start with weaker concentrations if you're sensitive to bitter flavors",
+    "Can be consumed hot or cold throughout the day",
+    "Avoid adding high-FODMAP sweeteners like honey or agave"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon slices",
+    "Fresh ginger",
+    "Peppermint leaves",
+    "Low-FODMAP crackers",
+    "Hard cheeses"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and vitamins A, C, and K",
+    "Contains potassium and iron",
+    "May support liver and kidney function",
+    "Naturally caffeine-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

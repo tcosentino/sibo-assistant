@@ -1,0 +1,48 @@
+{
+  "id": "chai-tea",
+  "name": "Chai Tea",
+  "aliases": [
+    "Masala Chai",
+    "Spiced Tea",
+    "Chai Latte"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain chai tea without milk is well-tolerated. Avoid chai lattes made with regular milk or honey sweeteners.",
+  "preparationTips": [
+    "Brew with water only to keep FODMAP-free",
+    "Use lactose-free milk or small amounts of coconut milk if desired",
+    "Sweeten with maple syrup or sugar instead of honey",
+    "Steep for 3-5 minutes for optimal flavor extraction"
+  ],
+  "alternatives": [
+    "Plain black tea",
+    "Green tea",
+    "Peppermint tea",
+    "Ginger tea"
+  ],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Oat cookies",
+    "Lactose-free yogurt",
+    "Banana slices",
+    "Peanut butter"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from black tea and spices",
+    "Contains beneficial compounds like theaflavins",
+    "Provides warming spices like cinnamon and cardamom",
+    "Naturally caffeine-containing for energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

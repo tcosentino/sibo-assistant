@@ -1,0 +1,46 @@
+{
+  "id": "walnut-oil",
+  "name": "Walnut Oil",
+  "aliases": [
+    "Cold-pressed walnut oil",
+    "Refined walnut oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1-2 tablespoons",
+      "cups": "1-2 tbsp"
+    }
+  },
+  "siboNotes": "Pure walnut oil is FODMAP-free and well-tolerated on SIBO diets. Choose cold-pressed varieties to avoid additives that might trigger symptoms.",
+  "preparationTips": [
+    "Store in refrigerator after opening to prevent rancidity",
+    "Use for finishing dishes rather than high-heat cooking",
+    "Check labels to ensure no garlic or onion additives",
+    "Start with small amounts as high-fat foods can trigger symptoms in some people"
+  ],
+  "alternatives": [
+    "Olive oil",
+    "Avocado oil",
+    "Macadamia oil"
+  ],
+  "pairsWellWith": [
+    "Mixed greens salad",
+    "Grilled chicken",
+    "Roasted carrots",
+    "Quinoa",
+    "Fresh herbs like basil"
+  ],
+  "nutritionalHighlights": [
+    "Rich in omega-3 fatty acids (ALA)",
+    "Contains vitamin E and antioxidants",
+    "Source of healthy monounsaturated fats",
+    "Provides essential fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "beyond-meat",
+  "name": "Beyond Meat",
+  "aliases": [
+    "plant-based meat",
+    "Beyond Burger",
+    "Beyond Sausage"
+  ],
+  "category": "protein",
+  "subcategory": "plant-based",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 113,
+      "description": "About 1 patty or 4 oz serving",
+      "cups": "1/2 cup crumbled"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's primarily pea protein-based without significant FODMAPs. Some individuals may be sensitive to pea protein itself.",
+  "preparationTips": [
+    "Check ingredient labels as formulations may vary between products",
+    "Cook thoroughly according to package directions",
+    "Pair with low-FODMAP seasonings like herbs and garlic-infused oil",
+    "Avoid Beyond products with onion or garlic powder if listed in ingredients"
+  ],
+  "alternatives": [
+    "Plain grilled chicken",
+    "Turkey patties",
+    "Firm tofu",
+    "Tempeh (small servings)"
+  ],
+  "pairsWellWith": [
+    "Bell peppers",
+    "Carrots",
+    "Spinach",
+    "Rice",
+    "Quinoa"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Contains iron",
+    "Good source of B vitamins",
+    "Lower in saturated fat than beef"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

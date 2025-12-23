@@ -1,0 +1,59 @@
+{
+  "id": "skyr-icelandic-yogurt",
+  "name": "Skyr (Icelandic Yogurt)",
+  "aliases": [
+    "Icelandic yogurt",
+    "strained yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "yogurt",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 90,
+      "description": "About 1/3 cup",
+      "cups": "1/3 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 200,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Contains lactose which can feed bacterial overgrowth. Those with severe lactose intolerance should limit portions or choose lactose-free alternatives.",
+  "preparationTips": [
+    "Choose plain varieties to avoid added high-FODMAP sweeteners",
+    "Start with smaller portions to assess tolerance",
+    "Consider taking lactase enzyme if lactose sensitive",
+    "Mix with low-FODMAP fruits like strawberries or kiwi"
+  ],
+  "alternatives": [
+    "Lactose-free yogurt",
+    "Coconut yogurt (check ingredients)",
+    "Almond yogurt (unsweetened)",
+    "Hard cheeses like cheddar or Swiss"
+  ],
+  "pairsWellWith": [
+    "Fresh strawberries",
+    "Blueberries",
+    "Kiwi fruit",
+    "Walnuts",
+    "Pumpkin seeds"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (15-20g per serving)",
+    "Rich in probiotics for gut health",
+    "Good source of calcium",
+    "Contains B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "lasagna-noodles",
+  "name": "Lasagna Noodles",
+  "aliases": [
+    "Lasagne sheets",
+    "Pasta sheets",
+    "Wide flat pasta"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 23,
+      "description": "About 1/4 cup cooked (very small portion)",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 46,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 92,
+      "description": "About 1 cup cooked (typical serving)",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Wheat-based pasta is high in fructans and should be avoided or consumed in very small portions during SIBO treatment. Consider gluten-free alternatives made from rice or corn.",
+  "preparationTips": [
+    "Cook al dente to potentially reduce FODMAP content slightly",
+    "Rinse after cooking to remove excess starch",
+    "Layer thinly in lasagna to minimize portion size",
+    "Combine with low-FODMAP vegetables to bulk up the dish"
+  ],
+  "alternatives": [
+    "Rice lasagna sheets",
+    "Corn-based pasta sheets",
+    "Zucchini slices as noodle replacement",
+    "Gluten-free lasagna noodles made from rice flour"
+  ],
+  "pairsWellWith": [
+    "Zucchini",
+    "Spinach",
+    "Bell peppers",
+    "Tomato sauce",
+    "Mozzarella cheese"
+  ],
+  "nutritionalHighlights": [
+    "Complex carbohydrates",
+    "B vitamins",
+    "Iron",
+    "Selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

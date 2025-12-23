@@ -1,0 +1,43 @@
+{
+  "id": "millet",
+  "name": "Millet",
+  "aliases": [
+    "Pearl millet",
+    "Finger millet",
+    "Proso millet"
+  ],
+  "category": "grain",
+  "subcategory": "gluten-free-grain",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Millet is well-tolerated in SIBO as it's naturally gluten-free and doesn't contain problematic fibers. Cook thoroughly for easier digestion.",
+  "preparationTips": [
+    "Toast dry millet in a pan for 2-3 minutes for nuttier flavor",
+    "Use 1:2.5 ratio (millet to water) for fluffy texture",
+    "Rinse before cooking to remove any bitter coating",
+    "Can be cooked like rice or ground into flour for baking"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Chicken or turkey",
+    "Carrots and bell peppers",
+    "Spinach and kale",
+    "Olive oil and herbs",
+    "Low FODMAP vegetables in stir-fries"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (6g per cup cooked)",
+    "Good source of magnesium and phosphorus",
+    "Contains B vitamins, especially niacin",
+    "Provides iron and antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

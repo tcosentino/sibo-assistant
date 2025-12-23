@@ -1,0 +1,47 @@
+{
+  "id": "sambal-oelek",
+  "name": "Sambal Oelek",
+  "aliases": [
+    "Indonesian chili paste",
+    "ground fresh chili paste"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 21,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's primarily chili peppers, vinegar, and salt without high-FODMAP ingredients like garlic or onion.",
+  "preparationTips": [
+    "Check ingredient labels as some brands may add garlic or onion powder",
+    "Start with small amounts to test spice tolerance",
+    "Mix with low-FODMAP oils to create marinades",
+    "Store in refrigerator after opening for best quality"
+  ],
+  "alternatives": [
+    "Fresh chili peppers",
+    "Red pepper flakes",
+    "Cayenne pepper",
+    "Hot sauce without garlic/onion"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Rice dishes",
+    "Stir-fried vegetables",
+    "Scrambled eggs",
+    "Low-FODMAP noodle dishes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C from chili peppers",
+    "Contains capsaicin with potential anti-inflammatory properties",
+    "Very low in calories and carbohydrates",
+    "Provides small amounts of vitamin A"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

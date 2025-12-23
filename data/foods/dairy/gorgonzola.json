@@ -1,0 +1,48 @@
+{
+  "id": "gorgonzola",
+  "name": "Gorgonzola",
+  "aliases": [
+    "blue cheese",
+    "gorgonzola dolce",
+    "gorgonzola piccante"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 3 tablespoons crumbled",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "As an aged cheese with minimal lactose, gorgonzola is well-tolerated by most SIBO patients. The aging process breaks down lactose naturally.",
+  "preparationTips": [
+    "Store wrapped in wax paper rather than plastic to maintain proper moisture",
+    "Bring to room temperature 30 minutes before serving for best flavor",
+    "Crumble over salads or melt into low-FODMAP sauces",
+    "Pairs excellently with low-FODMAP nuts and fruits"
+  ],
+  "alternatives": [
+    "Aged cheddar",
+    "Parmesan cheese",
+    "Brie (small portions)",
+    "Camembert (small portions)"
+  ],
+  "pairsWellWith": [
+    "Walnuts",
+    "Grapes",
+    "Spinach",
+    "Strawberries",
+    "Sourdough bread (spelt)"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (21g per 100g)",
+    "Rich in calcium for bone health",
+    "Contains vitamin B12 and riboflavin",
+    "Source of beneficial probiotics from aging process"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

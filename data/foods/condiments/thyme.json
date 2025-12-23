@@ -1,0 +1,49 @@
+{
+  "id": "thyme",
+  "name": "Thyme",
+  "aliases": [
+    "garden thyme",
+    "common thyme",
+    "dried thyme",
+    "fresh thyme"
+  ],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 tablespoon fresh or 1 teaspoon dried",
+      "cups": "1 tablespoon fresh"
+    }
+  },
+  "siboNotes": "Thyme is naturally FODMAP-free and well-tolerated. Its antimicrobial compounds may actually support digestive health.",
+  "preparationTips": [
+    "Strip fresh thyme leaves by running fingers opposite direction of growth",
+    "Add dried thyme early in cooking to allow flavor to develop",
+    "Fresh thyme can be added near end of cooking for brighter flavor",
+    "Store fresh thyme in refrigerator wrapped in damp paper towel"
+  ],
+  "alternatives": [
+    "oregano",
+    "rosemary",
+    "sage",
+    "marjoram"
+  ],
+  "pairsWellWith": [
+    "olive oil",
+    "lemon",
+    "garlic-infused oil",
+    "chicken",
+    "tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and antioxidants",
+    "Contains thymol with antimicrobial properties",
+    "Good source of vitamin A",
+    "Provides manganese and iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "fettuccine",
+  "name": "Fettuccine",
+  "aliases": [
+    "fettuccine pasta",
+    "wheat fettuccine",
+    "regular fettuccine"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 1/3 cup cooked",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 100,
+      "description": "About 2/3 cup cooked",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Traditional wheat fettuccine is high in fructans and should be avoided during SIBO treatment phases. Even small servings can trigger symptoms.",
+  "preparationTips": [
+    "Cook al dente to potentially reduce FODMAP content slightly",
+    "Rinse thoroughly after cooking",
+    "Pair with low-FODMAP sauces only",
+    "Consider portion control if attempting reintroduction"
+  ],
+  "alternatives": [
+    "gluten-free rice fettuccine",
+    "corn pasta",
+    "quinoa pasta",
+    "zucchini noodles"
+  ],
+  "pairsWellWith": [
+    "olive oil",
+    "basil",
+    "parmesan cheese",
+    "cherry tomatoes",
+    "spinach"
+  ],
+  "nutritionalHighlights": [
+    "carbohydrates for energy",
+    "B vitamins",
+    "iron",
+    "selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

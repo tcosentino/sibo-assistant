@@ -1,0 +1,59 @@
+{
+  "id": "creme-fraiche",
+  "name": "Crème Fraîche",
+  "aliases": [
+    "Creme Fraiche",
+    "French Sour Cream"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Contains moderate lactose levels; start with small portions and monitor tolerance. Those with severe lactose intolerance should avoid or use lactase enzymes.",
+  "preparationTips": [
+    "Use as a finishing touch rather than cooking ingredient to limit serving size",
+    "Let come to room temperature for better spreading and flavor",
+    "Mix with herbs for a flavorful low-FODMAP sauce base",
+    "Store properly refrigerated and use within expiration date"
+  ],
+  "alternatives": [
+    "Lactose-free sour cream",
+    "Greek yogurt (lactose-free variety)",
+    "Coconut cream (small amounts)",
+    "Aged hard cheeses like Parmesan"
+  ],
+  "pairsWellWith": [
+    "Fresh chives",
+    "Smoked salmon",
+    "Roasted potatoes",
+    "Fresh berries",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Rich in calcium for bone health",
+    "Contains beneficial probiotics",
+    "Good source of vitamin A",
+    "Provides protein and healthy fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

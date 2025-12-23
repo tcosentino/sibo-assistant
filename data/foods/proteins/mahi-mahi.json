@@ -1,0 +1,43 @@
+{
+  "id": "mahi-mahi",
+  "name": "Mahi Mahi",
+  "aliases": [
+    "Dolphinfish",
+    "Dorado",
+    "Mahi"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz cooked fillet",
+      "cups": "1 cup flaked"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it's naturally FODMAP-free and easily digestible when prepared simply.",
+  "preparationTips": [
+    "Season with FODMAP-friendly herbs like basil, oregano, or chives",
+    "Avoid garlic and onion-based marinades",
+    "Grill, bake, or pan-sear with olive oil for best digestibility",
+    "Pair with low-FODMAP vegetables for complete meals"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach",
+    "Zucchini",
+    "Bell peppers",
+    "Quinoa",
+    "Brown rice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality lean protein",
+    "Rich in selenium",
+    "Good source of B vitamins",
+    "Contains heart-healthy omega-3 fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "tonic-water",
+  "name": "Tonic Water",
+  "aliases": [
+    "Quinine Water",
+    "Indian Tonic Water"
+  ],
+  "category": "beverage",
+  "subcategory": "carbonated",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it contains no FODMAPs, though carbonation may cause bloating in sensitive individuals.",
+  "preparationTips": [
+    "Check labels for high-fructose corn syrup in some brands",
+    "Choose diet versions to avoid excess sugars",
+    "Serve chilled for best taste",
+    "Use as a mixer base for low-FODMAP cocktails"
+  ],
+  "alternatives": [
+    "Sparkling water with lime",
+    "Club soda",
+    "Plain carbonated water",
+    "Kombucha (small servings)"
+  ],
+  "pairsWellWith": [
+    "Gin (in moderation)",
+    "Fresh lime wedges",
+    "Cucumber slices",
+    "Fresh mint leaves",
+    "Low-FODMAP appetizers"
+  ],
+  "nutritionalHighlights": [
+    "Contains quinine (bitter compound)",
+    "Provides hydration",
+    "Low in calories (regular version)",
+    "May contain small amounts of sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

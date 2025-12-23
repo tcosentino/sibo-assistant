@@ -1,0 +1,48 @@
+{
+  "id": "hard-seltzer",
+  "name": "Hard Seltzer",
+  "aliases": [
+    "Alcoholic seltzer",
+    "Spiked seltzer",
+    "Alcoholic sparkling water"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 355,
+      "description": "1 standard can (12 fl oz)",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Plain hard seltzers are typically FODMAP-free, but alcohol can irritate sensitive digestive systems and may worsen SIBO symptoms in some individuals.",
+  "preparationTips": [
+    "Choose brands with simple ingredients (carbonated water, alcohol, natural flavors)",
+    "Avoid varieties with added fruit juices or artificial sweeteners",
+    "Check labels for high-FODMAP additives like inulin or high-fructose corn syrup",
+    "Consume in moderation as alcohol can affect gut bacteria balance"
+  ],
+  "alternatives": [
+    "Plain sparkling water with lime",
+    "Kombucha (small servings)",
+    "Infused water with low-FODMAP fruits",
+    "Dry white wine (small servings)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Rice crackers with cheese",
+    "Carrot and cucumber sticks",
+    "Mixed greens salad",
+    "Strawberries or grapes"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (typically 80-120 per can)",
+    "No carbohydrates or sugars in plain varieties",
+    "Contains alcohol (4-6% ABV typically)",
+    "Hydrating due to high water content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

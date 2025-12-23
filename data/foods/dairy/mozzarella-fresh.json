@@ -1,0 +1,61 @@
+{
+  "id": "mozzarella-fresh",
+  "name": "Mozzarella (Fresh)",
+  "aliases": [
+    "Fresh mozzarella",
+    "Mozzarella di bufala",
+    "Buffalo mozzarella",
+    "Bocconcini"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 small bocconcini or 1 slice",
+      "cups": "1/4 cup shredded"
+    },
+    "moderate": {
+      "grams": 65,
+      "description": "About 3-4 small bocconcini",
+      "cups": "1/3 cup shredded"
+    },
+    "high": {
+      "grams": 125,
+      "description": "About 1 large ball or 1/2 cup",
+      "cups": "1/2 cup shredded"
+    }
+  },
+  "siboNotes": "Fresh mozzarella contains moderate lactose levels. Those with severe SIBO may need to limit portions or choose aged mozzarella instead.",
+  "preparationTips": [
+    "Drain excess liquid before using to reduce serving size",
+    "Pair with low-FODMAP herbs like basil for flavor",
+    "Use in small amounts as garnish rather than main ingredient",
+    "Consider using aged mozzarella for pizza if fresh causes symptoms"
+  ],
+  "alternatives": [
+    "Aged mozzarella",
+    "Parmesan cheese",
+    "Cheddar cheese",
+    "Lactose-free mozzarella"
+  ],
+  "pairsWellWith": [
+    "Tomatoes",
+    "Fresh basil",
+    "Olive oil",
+    "Cucumber",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High-quality protein",
+    "Calcium for bone health",
+    "Phosphorus",
+    "Vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

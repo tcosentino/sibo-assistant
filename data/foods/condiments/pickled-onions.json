@@ -1,0 +1,60 @@
+{
+  "id": "pickled-onions",
+  "name": "Pickled Onions",
+  "aliases": [
+    "pickled red onions",
+    "pickled white onions",
+    "pickled pearl onions"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled-vegetable",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "Not recommended - no low FODMAP serving",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 5,
+      "description": "About 1 teaspoon or 2-3 small pieces",
+      "cups": "1/8 teaspoon"
+    },
+    "high": {
+      "grams": 15,
+      "description": "About 1 tablespoon or 8-10 pieces",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Onions remain high in fructans even when pickled, as the fermentation process doesn't significantly reduce FODMAP content. Best avoided during SIBO treatment phases.",
+  "preparationTips": [
+    "Use garlic-infused oil instead of whole garlic if making homemade",
+    "Rinse briefly before use to reduce sodium if needed",
+    "Store properly in refrigerator after opening",
+    "Consider using the pickling liquid sparingly as a vinegar substitute"
+  ],
+  "alternatives": [
+    "pickled chives (green parts only)",
+    "pickled radishes",
+    "pickled cucumber",
+    "scallion greens pickled"
+  ],
+  "pairsWellWith": [
+    "grilled chicken",
+    "aged cheddar",
+    "sourdough spelt bread",
+    "mixed greens salad",
+    "roasted carrots"
+  ],
+  "nutritionalHighlights": [
+    "vitamin C",
+    "antioxidants from onions",
+    "probiotics from fermentation",
+    "low calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

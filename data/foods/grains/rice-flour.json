@@ -1,0 +1,43 @@
+{
+  "id": "rice-flour",
+  "name": "Rice Flour",
+  "aliases": [
+    "White rice flour",
+    "Brown rice flour",
+    "Rice powder"
+  ],
+  "category": "grain",
+  "subcategory": "flour",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 160,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Rice flour is well-tolerated in SIBO as it's easily digestible and doesn't ferment in the small intestine. Brown rice flour may be slightly harder to digest than white rice flour.",
+  "preparationTips": [
+    "Store in airtight container to prevent rancidity, especially brown rice flour",
+    "Combine with xanthan gum or guar gum for better texture in gluten-free baking",
+    "Sift before use to prevent lumps in baked goods",
+    "Toast lightly in a dry pan before use to enhance nutty flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Tapioca starch",
+    "Potato starch",
+    "Eggs",
+    "Lactose-free milk",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "Naturally gluten-free",
+    "Good source of carbohydrates for energy",
+    "Brown rice flour provides more fiber and B vitamins",
+    "Lower protein content than wheat flour"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "chili-oil",
+  "name": "Chili Oil",
+  "aliases": [
+    "Hot chili oil",
+    "Chili-infused oil",
+    "Spicy oil"
+  ],
+  "category": "condiment",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure chili oil is FODMAP-free, but check ingredients for garlic or onion additions which would make it high FODMAP.",
+  "preparationTips": [
+    "Make homemade by infusing neutral oil with chili flakes or whole dried chilies",
+    "Avoid commercial versions containing garlic or onion powder",
+    "Store in refrigerator to maintain freshness and prevent rancidity",
+    "Start with small amounts as tolerance varies with spice level"
+  ],
+  "alternatives": [
+    "Paprika-infused oil",
+    "Cayenne pepper mixed with olive oil",
+    "Red pepper flakes in neutral oil"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Stir-fried bok choy",
+    "Rice noodles",
+    "Tofu dishes",
+    "Steamed vegetables"
+  ],
+  "nutritionalHighlights": [
+    "Provides healthy fats from base oil",
+    "Contains capsaicin which may support metabolism",
+    "Fat-soluble vitamins if using quality base oil",
+    "Minimal calories per serving"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

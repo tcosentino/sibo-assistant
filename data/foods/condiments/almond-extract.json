@@ -1,0 +1,47 @@
+{
+  "id": "almond-extract",
+  "name": "Almond Extract",
+  "aliases": [
+    "almond essence",
+    "almond flavoring"
+  ],
+  "category": "condiment",
+  "subcategory": "extract",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Pure almond extract is typically well-tolerated as it contains no fermentable carbohydrates, but check labels to avoid added high FODMAP ingredients.",
+  "preparationTips": [
+    "Use pure almond extract rather than imitation versions which may contain high FODMAP additives",
+    "A little goes a long way - start with 1/4 teaspoon in recipes",
+    "Store in a cool, dark place to maintain flavor potency",
+    "Check ingredient labels for wheat-derived alcohol or high FODMAP sweeteners"
+  ],
+  "alternatives": [
+    "Vanilla extract",
+    "Lemon extract",
+    "Orange extract",
+    "Pure almond oil"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP baked goods",
+    "Lactose-free dairy desserts",
+    "Rice-based puddings",
+    "Gluten-free cookies",
+    "Low FODMAP fruit salads"
+  ],
+  "nutritionalHighlights": [
+    "Virtually calorie-free in typical serving sizes",
+    "Provides intense almond flavor without FODMAP content",
+    "Contains no carbohydrates or fiber",
+    "Alcohol-based extracts are naturally preserving"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

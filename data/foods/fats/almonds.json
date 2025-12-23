@@ -1,0 +1,49 @@
+{
+  "id": "almonds",
+  "name": "Almonds",
+  "aliases": [
+    "almond nuts",
+    "sweet almonds"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 10 almonds",
+      "cups": "2 tablespoons chopped"
+    },
+    "moderate": {
+      "grams": 20,
+      "description": "About 20 almonds",
+      "cups": "1/4 cup chopped"
+    }
+  },
+  "siboNotes": "Generally well tolerated in small portions during SIBO treatment. Stick to 10 almonds or less to minimize potential galactan exposure.",
+  "preparationTips": [
+    "Choose raw or dry-roasted almonds without added seasonings",
+    "Soaking almonds overnight may improve digestibility",
+    "Almond flour can be used as wheat flour substitute in baking",
+    "Store in airtight container to maintain freshness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "lactose-free yogurt",
+    "strawberries",
+    "dark chocolate (check cocoa content)",
+    "green tea",
+    "carrots"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin E and healthy monounsaturated fats",
+    "Good source of magnesium and fiber",
+    "Contains plant-based protein",
+    "Provides antioxidants and heart-healthy nutrients"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

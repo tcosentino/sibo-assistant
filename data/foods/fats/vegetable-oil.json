@@ -1,0 +1,44 @@
+{
+  "id": "vegetable-oil",
+  "name": "Vegetable Oil",
+  "aliases": [
+    "cooking oil",
+    "canola oil",
+    "sunflower oil",
+    "safflower oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure vegetable oils are FODMAP-free and well-tolerated. Use in moderation as excess fat can slow digestion and worsen SIBO symptoms.",
+  "preparationTips": [
+    "Use for sautéing low-FODMAP vegetables",
+    "Choose neutral oils for versatile cooking",
+    "Store in cool, dark place to prevent rancidity",
+    "Heat gently to preserve oil quality"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "steamed carrots",
+    "sautéed spinach",
+    "roasted bell peppers",
+    "quinoa"
+  ],
+  "nutritionalHighlights": [
+    "Essential fatty acids",
+    "Fat-soluble vitamin absorption",
+    "Calorie-dense energy source",
+    "Zero carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

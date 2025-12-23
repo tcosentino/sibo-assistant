@@ -1,0 +1,42 @@
+{
+  "id": "old-bay-seasoning",
+  "name": "Old Bay Seasoning",
+  "aliases": [
+    "Old Bay",
+    "seafood seasoning blend"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 3,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "SIBO-friendly seasoning blend that adds flavor without FODMAPs, helping make compliant meals more enjoyable.",
+  "preparationTips": [
+    "Use sparingly as it's quite salty and flavorful",
+    "Great for seasoning proteins before cooking",
+    "Mix with olive oil for a marinade base",
+    "Store in airtight container to maintain potency"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled shrimp",
+    "baked cod",
+    "roasted chicken",
+    "steamed crab",
+    "sautéed zucchini"
+  ],
+  "nutritionalHighlights": [
+    "Contains celery seed for flavor complexity",
+    "Provides bay leaves' antioxidant properties",
+    "Good source of paprika's vitamin A",
+    "Very low in calories per serving"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

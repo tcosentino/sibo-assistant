@@ -1,0 +1,60 @@
+{
+  "id": "adzuki-beans",
+  "name": "Adzuki Beans",
+  "aliases": [
+    "Azuki Beans",
+    "Red Beans",
+    "Aduki Beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 42,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 84,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 168,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Start with small portions and assess tolerance as galactans can feed bacterial overgrowth. Thoroughly cooking and soaking may improve digestibility.",
+  "preparationTips": [
+    "Soak dried beans overnight before cooking to reduce galactan content",
+    "Cook thoroughly until very tender",
+    "Start with 1/4 cup serving and gradually increase if tolerated",
+    "Consider using canned beans with liquid drained and rinsed"
+  ],
+  "alternatives": [
+    "Firm tofu",
+    "Tempeh (small amounts)",
+    "Canned lentils (1/4 cup)",
+    "Eggs"
+  ],
+  "pairsWellWith": [
+    "Jasmine rice",
+    "Quinoa",
+    "Bok choy",
+    "Carrot",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "High in plant protein",
+    "Rich in folate",
+    "Good source of potassium",
+    "Contains iron and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

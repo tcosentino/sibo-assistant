@@ -1,0 +1,42 @@
+{
+  "id": "decaf-coffee",
+  "name": "Decaf Coffee",
+  "aliases": [
+    "Decaffeinated Coffee",
+    "Caffeine-Free Coffee"
+  ],
+  "category": "beverage",
+  "subcategory": "coffee",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "About 1 cup brewed",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain decaf coffee is FODMAP-free and generally well-tolerated in SIBO. Avoid adding high FODMAP milk or sweeteners.",
+  "preparationTips": [
+    "Use lactose-free milk or small amounts of regular milk if desired",
+    "Sweeten with glucose, maple syrup, or stevia instead of high-fructose sweeteners",
+    "Cold brew may be gentler on sensitive stomachs",
+    "Avoid adding inulin-containing creamers or sugar-free sweeteners with polyols"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Almond milk (small amounts)",
+    "Maple syrup",
+    "Glucose powder",
+    "Plain oats"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants",
+    "Contains chlorogenic acids",
+    "Minimal calories when consumed black",
+    "Provides potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "baba-ganoush",
+  "name": "Baba Ganoush",
+  "aliases": [
+    "Baba Ghanoush",
+    "Eggplant Dip",
+    "Mutabal"
+  ],
+  "category": "condiment",
+  "subcategory": "dip",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Garlic content makes this problematic for SIBO; choose garlic-free versions or make at home with garlic-infused oil instead of fresh garlic.",
+  "preparationTips": [
+    "Make homemade version using garlic-infused oil instead of fresh garlic",
+    "Check labels for onion powder which adds fructans",
+    "Roast eggplant thoroughly for better digestibility",
+    "Start with small portions to test tolerance"
+  ],
+  "alternatives": [
+    "Olive tapenade",
+    "Hummus made without garlic",
+    "Roasted red pepper dip",
+    "Simple tahini sauce with lemon"
+  ],
+  "pairsWellWith": [
+    "Cucumber slices",
+    "Carrot sticks",
+    "Rice crackers",
+    "Grilled chicken",
+    "Gluten-free pita"
+  ],
+  "nutritionalHighlights": [
+    "Fiber from eggplant",
+    "Healthy fats from tahini and olive oil",
+    "Protein from sesame seeds",
+    "Potassium and folate"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

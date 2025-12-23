@@ -1,0 +1,43 @@
+{
+  "id": "star-anise",
+  "name": "Star Anise",
+  "aliases": [
+    "Chinese star anise",
+    "badiane",
+    "eight-point anise"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1-2 whole star anise pods",
+      "cups": "1/2 teaspoon ground"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical spice quantities. May have mild antimicrobial properties that could be beneficial for SIBO management.",
+  "preparationTips": [
+    "Use whole pods in slow-cooking dishes and remove before serving",
+    "Grind fresh for maximum flavor potency",
+    "Toast lightly in dry pan before use to enhance aroma",
+    "Store in airtight container away from light to preserve oils"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "ginger",
+    "cinnamon",
+    "cloves",
+    "fennel seeds",
+    "low-FODMAP broths and soups"
+  ],
+  "nutritionalHighlights": [
+    "Rich in shikimic acid (antiviral compound)",
+    "Contains antioxidant compounds",
+    "Provides small amounts of iron and calcium",
+    "Natural source of anethole (digestive aid)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "arrowroot",
+  "name": "Arrowroot",
+  "aliases": [
+    "Arrowroot starch",
+    "Arrowroot flour",
+    "Arrowroot powder"
+  ],
+  "category": "grain",
+  "subcategory": "starch",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 3 tablespoons",
+      "cups": "3 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as a pure starch with minimal fermentable content, making it suitable for SIBO diets.",
+  "preparationTips": [
+    "Mix with cold liquid before adding to hot mixtures to prevent lumping",
+    "Use as a 1:1 substitute for cornstarch in most recipes",
+    "Creates a glossy, clear finish when used as a thickener",
+    "Ideal for gluten-free baking when combined with other flours"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice flour",
+    "Potato starch",
+    "Tapioca flour",
+    "Coconut flour",
+    "Almond flour"
+  ],
+  "nutritionalHighlights": [
+    "High in easily digestible carbohydrates",
+    "Naturally gluten-free and grain-free",
+    "Good source of potassium",
+    "Contains small amounts of iron and B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

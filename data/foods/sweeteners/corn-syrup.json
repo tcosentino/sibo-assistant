@@ -1,0 +1,48 @@
+{
+  "id": "corn-syrup",
+  "name": "Corn Syrup",
+  "aliases": [
+    "Light corn syrup",
+    "Karo syrup",
+    "Glucose syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure corn syrup is primarily glucose and generally well-tolerated in SIBO. Avoid high-fructose corn syrup which contains excess fructose.",
+  "preparationTips": [
+    "Check labels carefully - ensure it's pure corn syrup, not high-fructose corn syrup",
+    "Use in baking as a low-FODMAP liquid sweetener alternative",
+    "Store at room temperature and use within 2 years for best quality",
+    "Can be substituted 1:1 for other liquid sweeteners in recipes"
+  ],
+  "alternatives": [
+    "Maple syrup (2 tablespoons max)",
+    "Rice malt syrup",
+    "Golden syrup (1 tablespoon max)",
+    "Sugar dissolved in water"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP baked goods",
+    "Pancakes made with oat flour",
+    "Vanilla extract in desserts",
+    "Butter in caramel-style sauces",
+    "Lactose-free cream in candy making"
+  ],
+  "nutritionalHighlights": [
+    "Pure carbohydrate providing quick energy",
+    "Contains primarily glucose",
+    "No fat, protein, or fiber",
+    "Provides about 60 calories per tablespoon"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

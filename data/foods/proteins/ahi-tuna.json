@@ -1,0 +1,43 @@
+{
+  "id": "ahi-tuna",
+  "name": "Ahi Tuna",
+  "aliases": [
+    "Yellowfin Tuna",
+    "Big Eye Tuna",
+    "Sashimi Tuna"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz serving",
+      "cups": "1 cup cubed"
+    }
+  },
+  "siboNotes": "Plain ahi tuna is FODMAP-free and well-tolerated on SIBO diets. Avoid marinades containing garlic, onion, or high-FODMAP ingredients.",
+  "preparationTips": [
+    "Season with low-FODMAP herbs like basil, cilantro, or chives",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Sear quickly to maintain tender texture and nutritional value",
+    "Pair with low-FODMAP citrus like lime or lemon for brightness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cucumber",
+    "Carrots",
+    "Bell peppers",
+    "Sesame oil",
+    "Ginger"
+  ],
+  "nutritionalHighlights": [
+    "High in complete protein (25-30g per serving)",
+    "Excellent source of omega-3 fatty acids",
+    "Rich in selenium and vitamin B12",
+    "Good source of niacin and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

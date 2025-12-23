@@ -1,0 +1,43 @@
+{
+  "id": "chestnuts",
+  "name": "Chestnuts",
+  "aliases": [
+    "Sweet chestnuts",
+    "European chestnuts",
+    "Roasted chestnuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 3-4 chestnuts",
+      "cups": "2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO patients as they are low FODMAP and contain less fiber than many other nuts.",
+  "preparationTips": [
+    "Score an X on flat side before roasting to prevent bursting",
+    "Roast at 425°F for 15-20 minutes until tender",
+    "Can be boiled for 15-20 minutes as alternative to roasting",
+    "Remove both outer shell and inner skin while still warm"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted carrots",
+    "Brussels sprouts",
+    "Maple syrup",
+    "Sage",
+    "Turkey"
+  ],
+  "nutritionalHighlights": [
+    "Good source of vitamin C",
+    "Contains B vitamins including folate",
+    "Provides potassium and magnesium",
+    "Lower in fat than most nuts, higher in carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

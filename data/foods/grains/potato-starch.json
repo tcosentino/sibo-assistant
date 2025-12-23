@@ -1,0 +1,42 @@
+{
+  "id": "potato-starch",
+  "name": "Potato Starch",
+  "aliases": [
+    "Potato flour",
+    "Potato starch powder"
+  ],
+  "category": "grain",
+  "subcategory": "starch",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Pure potato starch is well-tolerated for SIBO as it contains no FODMAPs and can help thicken foods without adding fermentable sugars.",
+  "preparationTips": [
+    "Mix with cold liquid first to prevent lumping when adding to hot dishes",
+    "Use as a gluten-free thickener for soups, sauces, and gravies",
+    "Store in airtight container in cool, dry place to prevent moisture absorption",
+    "Can be used in baking as partial flour substitute for gluten-free recipes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice flour for baking",
+    "Low FODMAP vegetables in soups",
+    "Chicken or vegetable broth for thickening",
+    "Herbs and low FODMAP spices",
+    "Lactose-free milk in sauces"
+  ],
+  "nutritionalHighlights": [
+    "Pure carbohydrate with minimal protein or fat",
+    "Gluten-free and grain-free alternative",
+    "Resistant starch when cooled may support gut health",
+    "No vitamins or minerals - primarily functional ingredient"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

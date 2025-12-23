@@ -1,0 +1,59 @@
+{
+  "id": "harissa",
+  "name": "Harissa",
+  "aliases": [
+    "Harissa paste",
+    "North African chili paste"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 13,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 26,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 39,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Small amounts (1 tablespoon) are generally well-tolerated, but garlic content may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check ingredient list - some brands add onion powder or garlic powder",
+    "Make homemade version using garlic-infused oil instead of fresh garlic",
+    "Start with small amounts to test tolerance",
+    "Store opened paste in refrigerator for up to 6 months"
+  ],
+  "alternatives": [
+    "Chili flakes with paprika and cumin",
+    "Sriracha (small amounts)",
+    "Paprika paste with cayenne",
+    "Red curry paste (garlic-free versions)"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or lamb",
+    "Roasted carrots and parsnips",
+    "Quinoa and rice dishes",
+    "Firm tofu",
+    "Eggplant and zucchini"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C from red peppers",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Good source of vitamin A and antioxidants",
+    "Provides small amounts of iron and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

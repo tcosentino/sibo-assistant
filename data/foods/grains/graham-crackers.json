@@ -1,0 +1,59 @@
+{
+  "id": "graham-crackers",
+  "name": "Graham Crackers",
+  "aliases": [
+    "honey graham crackers",
+    "cinnamon graham crackers"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 16,
+      "description": "2 small squares",
+      "cups": "1/8 cup crushed"
+    },
+    "moderate": {
+      "grams": 32,
+      "description": "4 small squares (1 full cracker sheet)",
+      "cups": "1/4 cup crushed"
+    },
+    "high": {
+      "grams": 64,
+      "description": "8 small squares (2 full cracker sheets)",
+      "cups": "1/2 cup crushed"
+    }
+  },
+  "siboNotes": "Contains wheat-derived fructans which can trigger SIBO symptoms. Limit to small portions and avoid during SIBO flares.",
+  "preparationTips": [
+    "Choose plain graham crackers over honey-sweetened varieties to reduce fructose load",
+    "Crush into small amounts for recipes rather than eating whole crackers",
+    "Pair with low-FODMAP proteins or fats to slow digestion",
+    "Check ingredient lists for added inulin or chicory root fiber"
+  ],
+  "alternatives": [
+    "Rice crackers",
+    "Oatcakes (oat-based)",
+    "Corn tortilla chips",
+    "Gluten-free crackers made from rice or corn"
+  ],
+  "pairsWellWith": [
+    "Peanut butter (limit to 2 tbsp)",
+    "Aged cheddar cheese",
+    "Strawberries (5 medium)",
+    "Dark chocolate (1 oz)",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "Provides quick-acting carbohydrates",
+    "Contains some iron from wheat flour",
+    "Source of B vitamins",
+    "Moderate fiber content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

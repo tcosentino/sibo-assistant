@@ -1,0 +1,60 @@
+{
+  "id": "kombucha",
+  "name": "Kombucha",
+  "aliases": [
+    "fermented tea",
+    "booch"
+  ],
+  "category": "beverage",
+  "subcategory": "fermented",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 250,
+      "description": "About 1 cup (8 fl oz bottle)",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 375,
+      "description": "About 1.5 cups (12 fl oz bottle)",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "The fermentation process can reduce FODMAP content, but residual sugars and added fruit flavors may trigger SIBO symptoms. Plain varieties are generally better tolerated than fruit-flavored ones.",
+  "preparationTips": [
+    "Choose plain or ginger varieties over fruit-flavored options",
+    "Start with smaller portions to assess tolerance",
+    "Drink with meals rather than on an empty stomach",
+    "Look for brands with lower residual sugar content"
+  ],
+  "alternatives": [
+    "Green tea",
+    "Herbal teas (peppermint, chamomile)",
+    "Sparkling water with fresh lemon",
+    "Small amounts of coconut water"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Rice crackers",
+    "Cucumber slices",
+    "Carrots",
+    "Low-FODMAP nuts"
+  ],
+  "nutritionalHighlights": [
+    "Probiotics for gut health",
+    "Antioxidants from tea",
+    "B vitamins from fermentation",
+    "Lower sugar than most soft drinks"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

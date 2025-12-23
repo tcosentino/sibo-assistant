@@ -1,0 +1,59 @@
+{
+  "id": "lentils-black",
+  "name": "Lentils (Black)",
+  "aliases": [
+    "Black beluga lentils",
+    "Black turtle lentils"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 46,
+      "description": "About 1/4 cup canned, drained",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 92,
+      "description": "About 1/2 cup canned, drained",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 184,
+      "description": "About 1 cup canned, drained",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Start with very small portions (1-2 tablespoons) as galactans can feed bacterial overgrowth. Consider enzyme supplements containing alpha-galactosidase.",
+  "preparationTips": [
+    "Rinse canned lentils thoroughly to reduce FODMAP content",
+    "Start with small portions and gradually increase tolerance",
+    "Cook dried lentils thoroughly and discard cooking water",
+    "Combine with low-FODMAP herbs like oregano or thyme for flavor"
+  ],
+  "alternatives": [
+    "Firm tofu (pressed)",
+    "Tempeh (small portions)",
+    "Canned chickpeas (1/4 cup max)",
+    "Eggs or chicken for complete protein"
+  ],
+  "pairsWellWith": [
+    "Brown rice",
+    "Quinoa",
+    "Spinach",
+    "Carrots",
+    "Olive oil"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein (9g per 1/2 cup)",
+    "Rich in folate and iron",
+    "Good source of dietary fiber",
+    "Contains potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

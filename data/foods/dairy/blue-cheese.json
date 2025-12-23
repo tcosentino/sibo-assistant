@@ -1,0 +1,43 @@
+{
+  "id": "blue-cheese",
+  "name": "Blue Cheese",
+  "aliases": [
+    "Roquefort",
+    "Gorgonzola",
+    "Stilton"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or 2-3 tablespoons crumbled",
+      "cups": "1/4 cup crumbled"
+    }
+  },
+  "siboNotes": "Blue cheese is well-tolerated on SIBO diets as it's naturally FODMAP-free and aged, making it easier to digest than fresh dairy.",
+  "preparationTips": [
+    "Store properly wrapped in refrigerator to maintain freshness",
+    "Allow to come to room temperature before serving for best flavor",
+    "Crumble just before use to prevent drying out",
+    "Pair with low-FODMAP fruits like grapes or strawberries"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Mixed greens salad",
+    "Grapes",
+    "Strawberries",
+    "Walnuts",
+    "Gluten-free crackers"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (6g per oz)",
+    "Good source of calcium for bone health",
+    "Contains beneficial probiotics from aging process",
+    "Rich in vitamin K2"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

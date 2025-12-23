@@ -1,0 +1,59 @@
+{
+  "id": "goat-milk",
+  "name": "Goat Milk",
+  "aliases": [
+    "Goat's milk",
+    "Caprine milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 full cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Contains less lactose than cow's milk but still problematic in larger amounts for SIBO patients. Start with very small portions to test tolerance.",
+  "preparationTips": [
+    "Use in small amounts as a coffee creamer or in smoothies",
+    "Consider lactase enzyme supplements if consuming larger portions",
+    "Can be heated or used in cooking without affecting FODMAP content",
+    "Mix with lactose-free milk to extend volume while reducing lactose"
+  ],
+  "alternatives": [
+    "Lactose-free milk",
+    "Almond milk",
+    "Rice milk",
+    "Macadamia milk"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP cereals",
+    "Oats",
+    "Strawberries",
+    "Blueberries",
+    "Dark chocolate"
+  ],
+  "nutritionalHighlights": [
+    "High in protein",
+    "Good source of calcium",
+    "Contains vitamin A",
+    "Easier to digest than cow's milk for some people"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cream-of-rice",
+  "name": "Cream of Rice",
+  "aliases": [
+    "Rice cereal",
+    "Cream of rice cereal",
+    "Hot rice cereal"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "About 1/4 cup dry or 3/4 cup cooked",
+      "cups": "1/4 cup dry"
+    }
+  },
+  "siboNotes": "Excellent choice for SIBO as it's easily digestible and free of fermentable carbohydrates. Well-tolerated during bacterial overgrowth phases.",
+  "preparationTips": [
+    "Cook with lactose-free milk or water to maintain low FODMAP status",
+    "Add maple syrup or brown sugar instead of honey for sweetening",
+    "Start with smaller portions if you have severe digestive sensitivity",
+    "Can be made ahead and reheated with additional liquid"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Banana (firm, unripe)",
+    "Lactose-free milk",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "Iron-fortified in most commercial varieties",
+    "B-vitamin enriched",
+    "Easy to digest carbohydrates",
+    "Low in fiber, gentle on sensitive stomachs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

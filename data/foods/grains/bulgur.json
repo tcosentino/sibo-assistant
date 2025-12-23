@@ -1,0 +1,60 @@
+{
+  "id": "bulgur",
+  "name": "Bulgur",
+  "aliases": [
+    "Bulgur wheat",
+    "Cracked wheat",
+    "Burghul"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 45,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 90,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 135,
+      "description": "About 3/4 cup cooked",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Contains wheat-derived fructans which can feed bacterial overgrowth. Start with small portions and monitor symptoms carefully.",
+  "preparationTips": [
+    "Rinse bulgur before cooking to remove excess starch",
+    "Cook with garlic-infused oil instead of fresh garlic",
+    "Combine with low-FODMAP vegetables like carrots and bell peppers",
+    "Portion carefully as FODMAP content increases with serving size"
+  ],
+  "alternatives": [
+    "Quinoa",
+    "Rice",
+    "Millet",
+    "Buckwheat"
+  ],
+  "pairsWellWith": [
+    "Carrots",
+    "Bell peppers",
+    "Spinach",
+    "Olive oil",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "High fiber",
+    "B vitamins",
+    "Iron",
+    "Magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

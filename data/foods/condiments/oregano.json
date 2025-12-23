@@ -1,0 +1,43 @@
+{
+  "id": "oregano",
+  "name": "Oregano",
+  "aliases": [
+    "dried oregano",
+    "fresh oregano",
+    "wild marjoram"
+  ],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon dried or 1 tablespoon fresh",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Oregano is naturally FODMAP-free and safe for SIBO diets. Its antimicrobial properties may even support digestive health.",
+  "preparationTips": [
+    "Add dried oregano at the end of cooking to preserve flavor",
+    "Fresh oregano is best added in the last few minutes of cooking",
+    "Store dried oregano in airtight container away from light",
+    "Crush dried oregano between fingers before adding to release oils"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "tomatoes",
+    "olive oil",
+    "basil",
+    "garlic-infused oil",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants including carvacrol",
+    "Good source of vitamin K",
+    "Contains antimicrobial compounds",
+    "Provides small amounts of iron and manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

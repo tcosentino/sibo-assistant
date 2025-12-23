@@ -1,0 +1,59 @@
+{
+  "id": "black-beans",
+  "name": "Black Beans",
+  "aliases": [
+    "Black turtle beans",
+    "Frijoles negros"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons canned, drained",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "About 1/3 cup canned, drained",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 3/4 cup canned, drained",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Black beans are high in galacto-oligosaccharides (GOS) which feed SIBO bacteria. During elimination phase, stick to very small portions (2 tablespoons) or avoid entirely.",
+  "preparationTips": [
+    "Rinse and drain canned beans thoroughly to reduce FODMAP content",
+    "Start with very small portions and increase gradually during reintroduction",
+    "Soaking dried beans overnight and discarding soaking water may reduce GOS content",
+    "Combine with digestive spices like cumin, ginger, or fennel seeds"
+  ],
+  "alternatives": [
+    "Firm tofu (FODMAP-free)",
+    "Tempeh (fermented, lower FODMAP)",
+    "Canned lentils (small portions)",
+    "Eggs or chicken for complete protein"
+  ],
+  "pairsWellWith": [
+    "Brown rice",
+    "Quinoa",
+    "Bell peppers",
+    "Carrots",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Excellent source of fiber",
+    "Rich in folate and iron",
+    "Good source of magnesium and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "trout",
+  "name": "Trout",
+  "aliases": [
+    "Rainbow trout",
+    "Brown trout",
+    "Lake trout"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "1 medium fillet"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it's naturally FODMAP-free and easily digestible when prepared simply.",
+  "preparationTips": [
+    "Grill, bake, or pan-sear with low-FODMAP herbs",
+    "Avoid marinades containing garlic or onion",
+    "Cook thoroughly to 145°F internal temperature",
+    "Season with fresh dill, lemon, or chives"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon slices",
+    "Fresh dill",
+    "Steamed carrots",
+    "Green beans",
+    "Brown rice"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Omega-3 fatty acids",
+    "Vitamin D",
+    "B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

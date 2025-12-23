@@ -1,0 +1,49 @@
+{
+  "id": "kefir",
+  "name": "Kefir",
+  "aliases": [
+    "Kefir milk",
+    "Milk kefir"
+  ],
+  "category": "dairy",
+  "subcategory": "fermented-dairy",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 250,
+      "description": "1 cup serving",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Traditional kefir contains lactose and should be avoided during SIBO treatment. Some people with SIBO may tolerate small amounts due to partial lactose fermentation by kefir grains.",
+  "preparationTips": [
+    "Look for lactose-free kefir varieties made with lactase enzyme",
+    "Start with very small amounts (1-2 tablespoons) to test tolerance",
+    "Homemade kefir fermented longer may have reduced lactose content",
+    "Strain kefir through fine mesh to remove excess whey if needed"
+  ],
+  "alternatives": [
+    "Lactose-free kefir",
+    "Coconut kefir",
+    "Almond milk yogurt",
+    "Lactose-free Greek yogurt"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP berries",
+    "Walnuts",
+    "Chia seeds",
+    "Maple syrup",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Rich in probiotics and beneficial bacteria",
+    "High in protein and B vitamins",
+    "Good source of calcium and phosphorus",
+    "Contains bioactive compounds and peptides"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

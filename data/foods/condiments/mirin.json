@@ -1,0 +1,60 @@
+{
+  "id": "mirin",
+  "name": "Mirin",
+  "aliases": [
+    "Japanese sweet rice wine",
+    "hon mirin",
+    "cooking sake"
+  ],
+  "category": "condiment",
+  "subcategory": "alcohol",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Small amounts are typically well tolerated. The alcohol content may help with bacterial overgrowth, but the fructose can feed bacteria in larger quantities.",
+  "preparationTips": [
+    "Use sparingly as a flavor enhancer in marinades and glazes",
+    "Heat during cooking to evaporate some alcohol content",
+    "Mix with low FODMAP soy sauce for balanced umami",
+    "Store in refrigerator after opening to maintain quality"
+  ],
+  "alternatives": [
+    "Rice vinegar with a pinch of sugar",
+    "Dry white wine with maple syrup (small amounts)",
+    "Tamari or soy sauce for umami without sweetness",
+    "Sake with a touch of brown sugar"
+  ],
+  "pairsWellWith": [
+    "Grilled salmon or chicken",
+    "Stir-fried bok choy",
+    "Sushi rice",
+    "Roasted eggplant",
+    "Green beans"
+  ],
+  "nutritionalHighlights": [
+    "Contains small amounts of B vitamins from rice fermentation",
+    "Provides umami flavor compounds",
+    "Low in sodium compared to soy sauce",
+    "Contains trace minerals from rice"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

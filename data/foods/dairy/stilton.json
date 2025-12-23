@@ -1,0 +1,42 @@
+{
+  "id": "stilton",
+  "name": "Stilton",
+  "aliases": [
+    "Blue stilton",
+    "English blue cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "blue-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1.5 oz or small wedge",
+      "cups": "1/4 cup crumbled"
+    }
+  },
+  "siboNotes": "Aged blue cheeses like Stilton are naturally low in lactose due to the aging process. Generally well-tolerated in SIBO diets when consumed in moderate portions.",
+  "preparationTips": [
+    "Bring to room temperature before serving to enhance flavor",
+    "Crumble over salads or pair with low-FODMAP crackers",
+    "Store wrapped in wax paper rather than plastic to maintain texture",
+    "Pairs excellently with low-FODMAP wines"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Walnuts",
+    "Grapes",
+    "Rice crackers",
+    "Arugula",
+    "Red wine"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (6g per oz)",
+    "Rich in calcium for bone health",
+    "Contains beneficial probiotics from aging process",
+    "Good source of vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "chili-powder",
+  "name": "Chili Powder",
+  "aliases": [
+    "Chile Powder",
+    "Chili Seasoning"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Pure chili powder is well-tolerated in typical cooking amounts. Check labels for garlic or onion powder additions which would make it high FODMAP.",
+  "preparationTips": [
+    "Read ingredient labels carefully - many commercial chili powders contain garlic or onion powder",
+    "Look for single-ingredient chili powder or make your own blend",
+    "Start with small amounts and adjust to taste preference",
+    "Store in airtight container away from light to preserve flavor"
+  ],
+  "alternatives": [
+    "Paprika",
+    "Cayenne pepper",
+    "Individual ground chilies (chipotle, ancho)",
+    "Red pepper flakes"
+  ],
+  "pairsWellWith": [
+    "Cumin",
+    "Oregano",
+    "Lime juice",
+    "Grilled chicken",
+    "Ground beef"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin A and carotenoids",
+    "Contains capsaicin with anti-inflammatory properties",
+    "Good source of vitamin C",
+    "Provides antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

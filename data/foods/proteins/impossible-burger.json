@@ -1,0 +1,59 @@
+{
+  "id": "impossible-burger",
+  "name": "Impossible Burger",
+  "aliases": [
+    "Impossible meat",
+    "plant-based burger patty"
+  ],
+  "category": "protein",
+  "subcategory": "plant-based-protein",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 50,
+      "description": "About 1/4 patty (1.8 oz)",
+      "cups": "1/3 cup crumbled"
+    },
+    "moderate": {
+      "grams": 85,
+      "description": "About 1/2 patty (3 oz)",
+      "cups": "1/2 cup crumbled"
+    },
+    "high": {
+      "grams": 113,
+      "description": "1 full patty (4 oz)",
+      "cups": "3/4 cup crumbled"
+    }
+  },
+  "siboNotes": "Contains soy protein concentrate and yeast extract which may trigger SIBO symptoms. Start with smaller portions to assess tolerance.",
+  "preparationTips": [
+    "Cook thoroughly to improve digestibility",
+    "Pair with low-FODMAP sides to balance the meal",
+    "Consider crumbling into dishes rather than eating as whole patty",
+    "Limit to 1/4 patty per meal initially"
+  ],
+  "alternatives": [
+    "Beyond Burger (also moderate FODMAP but different protein blend)",
+    "Plain ground turkey or chicken",
+    "Firm tofu (low FODMAP up to 170g)",
+    "Tempeh (low FODMAP up to 100g)"
+  ],
+  "pairsWellWith": [
+    "Lettuce wrap or sourdough bread",
+    "Grilled zucchini or eggplant",
+    "Tomato slices",
+    "Spinach or arugula",
+    "Aged cheddar cheese"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein (19g per patty)",
+    "Contains iron and B-vitamins",
+    "Good source of fiber",
+    "Lower in saturated fat than beef"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

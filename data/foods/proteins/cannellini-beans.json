@@ -1,0 +1,60 @@
+{
+  "id": "cannellini-beans",
+  "name": "Cannellini Beans",
+  "aliases": [
+    "White kidney beans",
+    "White beans",
+    "Italian white beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 46,
+      "description": "About 1/4 cup canned",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 75,
+      "description": "About 1/3 cup canned",
+      "cups": "1/3 cup"
+    },
+    "high": {
+      "grams": 120,
+      "description": "About 1/2 cup canned",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Limit to 1/4 cup serving and introduce gradually. Canned beans may be better tolerated than dried due to processing.",
+  "preparationTips": [
+    "Rinse canned beans thoroughly to remove excess oligosaccharides",
+    "Combine with low-FODMAP grains to create complete protein",
+    "Start with smaller portions and increase gradually",
+    "Choose canned over dried for better tolerability"
+  ],
+  "alternatives": [
+    "Firm tofu (if soy-tolerant)",
+    "Tempeh in small amounts",
+    "Lentil-free alternatives like quinoa",
+    "Canned lentils in very small portions (1/4 cup max)"
+  ],
+  "pairsWellWith": [
+    "Brown rice",
+    "Quinoa",
+    "Spinach",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Rich in fiber",
+    "Good source of folate",
+    "Contains iron and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "curry-powder",
+  "name": "Curry Powder",
+  "aliases": [
+    "Curry Spice Blend",
+    "Garam Masala Blend"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in typical cooking amounts. Some commercial blends may contain garlic or onion powder - check ingredient labels.",
+  "preparationTips": [
+    "Check ingredient labels for garlic or onion powder in commercial blends",
+    "Make your own blend using turmeric, cumin, coriander, and paprika",
+    "Toast whole spices before grinding for enhanced flavor",
+    "Store in airtight container away from light to maintain potency"
+  ],
+  "alternatives": [
+    "Individual spices like turmeric and cumin",
+    "Homemade spice blend without garlic/onion",
+    "Fresh ginger and lemongrass for curry flavor",
+    "Paprika and cayenne for warmth"
+  ],
+  "pairsWellWith": [
+    "Rice and quinoa dishes",
+    "Chicken and tofu",
+    "Coconut milk curries",
+    "Root vegetables like carrots",
+    "Bell peppers and zucchini"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from turmeric and other spices",
+    "Contains anti-inflammatory compounds",
+    "Good source of iron and manganese",
+    "Provides flavor without added sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

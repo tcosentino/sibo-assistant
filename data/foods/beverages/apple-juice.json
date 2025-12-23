@@ -1,0 +1,50 @@
+{
+  "id": "apple-juice",
+  "name": "Apple Juice",
+  "aliases": [
+    "Apple Cider",
+    "Pressed Apple Juice",
+    "Fresh Apple Juice"
+  ],
+  "category": "beverage",
+  "subcategory": "fruit-juice",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 250,
+      "description": "1 cup (8 fl oz)",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Apple juice is very high in excess fructose and should be avoided during SIBO treatment phases. Even small amounts can trigger symptoms.",
+  "preparationTips": [
+    "Dilute with water if you must consume, but better to avoid entirely",
+    "Check labels for added high fructose corn syrup which increases FODMAP load",
+    "Fresh-pressed varieties may be slightly lower in FODMAPs than concentrated",
+    "Consider having with a meal rather than on empty stomach if consuming"
+  ],
+  "alternatives": [
+    "Orange juice (1/2 cup serving)",
+    "Cranberry juice (1/2 cup serving)",
+    "Grape juice (small portions)",
+    "Lemon or lime water with stevia"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP breakfast cereals",
+    "Rice cakes",
+    "Lactose-free cheese",
+    "Hard-boiled eggs",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C",
+    "Contains antioxidants like quercetin",
+    "Provides potassium",
+    "High in natural sugars and calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

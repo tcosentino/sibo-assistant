@@ -1,0 +1,59 @@
+{
+  "id": "nutella",
+  "name": "Nutella",
+  "aliases": [
+    "hazelnut chocolate spread",
+    "chocolate hazelnut spread"
+  ],
+  "category": "condiment",
+  "subcategory": "spread",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 40,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Limit to 1 tablespoon serving to minimize fructan load. The inulin content may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Measure portions carefully as it's easy to exceed low FODMAP serving size",
+    "Warm slightly for easier spreading without using more",
+    "Mix with rice cakes or gluten-free toast for balanced snack",
+    "Store at room temperature for optimal spreading consistency"
+  ],
+  "alternatives": [
+    "Pure almond butter with dark chocolate chips",
+    "Tahini mixed with maple syrup and cocoa powder",
+    "Peanut butter with small amount of dark chocolate",
+    "Homemade hazelnut butter with cocoa (no added inulin)"
+  ],
+  "pairsWellWith": [
+    "Gluten-free bread",
+    "Rice cakes",
+    "Strawberries",
+    "Bananas",
+    "Rice crackers"
+  ],
+  "nutritionalHighlights": [
+    "Contains hazelnuts providing healthy fats",
+    "Source of vitamin E from nuts",
+    "Provides quick energy from sugars",
+    "Contains some protein from hazelnuts and milk"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

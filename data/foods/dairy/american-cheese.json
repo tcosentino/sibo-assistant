@@ -1,0 +1,43 @@
+{
+  "id": "american-cheese",
+  "name": "American Cheese",
+  "aliases": [
+    "Processed cheese",
+    "American cheese slices",
+    "Cheese slices"
+  ],
+  "category": "dairy",
+  "subcategory": "processed-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices",
+      "cups": "1/4 cup shredded"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's aged/processed and lower in lactose than fresh dairy. Monitor individual tolerance.",
+  "preparationTips": [
+    "Choose brands without added onion or garlic powder",
+    "Check labels for high-FODMAP additives like inulin",
+    "Melts well for grilled cheese and quesadillas",
+    "Store properly refrigerated and use within expiration date"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough bread",
+    "Tomatoes",
+    "Lettuce",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Good source of calcium for bone health",
+    "Provides protein",
+    "Contains vitamin B12",
+    "Source of phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "red-rice",
+  "name": "Red Rice",
+  "aliases": [
+    "Wehani rice",
+    "Himalayan red rice",
+    "Bhutanese red rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as it's easily digestible and low in fermentable fibers compared to other whole grains.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove excess starch",
+    "Cook with 1.5-2 cups water per cup of rice for optimal texture",
+    "Soak for 30 minutes before cooking to reduce cooking time",
+    "Add a pinch of salt while cooking to enhance natural nutty flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or fish",
+    "Steamed carrots and green beans",
+    "Fresh herbs like cilantro and parsley",
+    "Low-FODMAP vegetables like bell peppers",
+    "Olive oil and lemon juice dressing"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants, particularly anthocyanins",
+    "Good source of fiber for digestive health",
+    "Contains B vitamins and minerals like manganese",
+    "Provides complex carbohydrates for sustained energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "garlic-powder",
+  "name": "Garlic Powder",
+  "aliases": [
+    "Dried garlic powder",
+    "Granulated garlic"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 1,
+      "description": "About 1/4 teaspoon",
+      "cups": "1/4 teaspoon"
+    },
+    "high": {
+      "grams": 3,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "High in fructans which can trigger SIBO symptoms even in small amounts. Avoid during elimination phase and use alternatives for flavor.",
+  "preparationTips": [
+    "Use garlic-infused oil instead for garlic flavor",
+    "Start with tiny pinches if reintroducing",
+    "Mix with other spices to reduce overall garlic content",
+    "Store in airtight container to maintain potency"
+  ],
+  "alternatives": [
+    "Garlic-infused oil",
+    "Asafoetida (hing)",
+    "Chives (green tops only)",
+    "Ginger powder"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Fresh herbs",
+    "Black pepper",
+    "Paprika",
+    "Oregano"
+  ],
+  "nutritionalHighlights": [
+    "Contains allicin compounds",
+    "Small amounts of manganese",
+    "Trace vitamins B6 and C",
+    "Concentrated flavor compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

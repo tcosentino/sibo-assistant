@@ -1,0 +1,44 @@
+{
+  "id": "rice-noodles",
+  "name": "Rice Noodles",
+  "aliases": [
+    "Rice vermicelli",
+    "Rice stick noodles",
+    "Pad Thai noodles",
+    "Pho noodles"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 145,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Rice noodles are well-tolerated and easier to digest than wheat-based noodles, making them suitable for SIBO management.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove excess starch",
+    "Don't overcook - they can become mushy quickly",
+    "Add to soups at the end of cooking to prevent over-softening",
+    "Soak thin varieties in hot water rather than boiling"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Bok choy",
+    "Carrots",
+    "Bell peppers",
+    "Chicken breast",
+    "Shrimp"
+  ],
+  "nutritionalHighlights": [
+    "Gluten-free carbohydrate source",
+    "Low in fiber compared to wheat noodles",
+    "Contains small amounts of iron and B vitamins",
+    "Lower protein content than wheat pasta"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "oysters",
+  "name": "Oysters",
+  "aliases": [
+    "Raw oysters",
+    "Cooked oysters",
+    "Pacific oysters",
+    "Eastern oysters"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 6-8 medium oysters",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free protein that's well-tolerated in SIBO diets. Choose fresh, high-quality sources to avoid digestive irritation.",
+  "preparationTips": [
+    "Steam, grill, or eat raw with lemon juice for easy digestion",
+    "Avoid breading or heavy sauces that may contain FODMAPs",
+    "Choose fresh oysters from reputable sources for food safety",
+    "Start with smaller portions if new to eating oysters"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon wedges",
+    "Fresh chives",
+    "Cucumber",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in zinc and vitamin B12",
+    "Rich in omega-3 fatty acids",
+    "Good source of iron and selenium",
+    "Low in calories and carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

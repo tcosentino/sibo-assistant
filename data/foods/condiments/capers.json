@@ -1,0 +1,42 @@
+{
+  "id": "capers",
+  "name": "Capers",
+  "aliases": [
+    "caper buds",
+    "pickled capers"
+  ],
+  "category": "condiment",
+  "subcategory": "pickled",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as they're naturally low FODMAP and used in small quantities.",
+  "preparationTips": [
+    "Rinse salted capers before use to reduce sodium content",
+    "Pat dry after rinsing for better texture in dishes",
+    "Add at the end of cooking to preserve their tangy flavor",
+    "Store in refrigerator after opening and use brine to keep fresh"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled fish",
+    "roasted chicken",
+    "olive oil and lemon dressing",
+    "fresh herbs like parsley",
+    "tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (only 2 calories per tablespoon)",
+    "Contains antioxidants like quercetin and rutin",
+    "Good source of vitamin K",
+    "Provides small amounts of iron and copper"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

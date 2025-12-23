@@ -1,0 +1,59 @@
+{
+  "id": "croissant",
+  "name": "Croissant",
+  "aliases": [
+    "butter croissant",
+    "plain croissant"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/2 small croissant",
+      "cups": "1/4 cup equivalent"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "1 small croissant",
+      "cups": "1/2 cup equivalent"
+    },
+    "high": {
+      "grams": 120,
+      "description": "1 large croissant",
+      "cups": "1 cup equivalent"
+    }
+  },
+  "siboNotes": "Contains wheat-based fructans that can trigger SIBO symptoms. Consider sourdough alternatives which may have reduced fructan content due to fermentation.",
+  "preparationTips": [
+    "Choose smaller portions to stay within low FODMAP limits",
+    "Pair with low FODMAP proteins or fats to slow digestion",
+    "Toast lightly to improve texture without adding FODMAPs",
+    "Check ingredients for added garlic or onion powder"
+  ],
+  "alternatives": [
+    "Sourdough bread (spelt or wheat)",
+    "Rice cakes with butter",
+    "Gluten-free pastries made with rice flour",
+    "Oat-based breakfast items"
+  ],
+  "pairsWellWith": [
+    "Hard aged cheeses",
+    "Lactose-free butter",
+    "Strawberry jam (small amounts)",
+    "Scrambled eggs",
+    "Canadian bacon"
+  ],
+  "nutritionalHighlights": [
+    "Provides carbohydrates for energy",
+    "Contains B vitamins from wheat flour",
+    "Source of dietary fat from butter",
+    "Iron and folate from enriched flour"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "orzo",
+  "name": "Orzo",
+  "aliases": [
+    "orzo pasta",
+    "rice-shaped pasta"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1/8 cup dry",
+      "cups": "1/8 cup"
+    },
+    "moderate": {
+      "grams": 35,
+      "description": "About 1/4 cup dry",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 50,
+      "description": "About 1/3 cup dry",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Very small portions only during symptom-free periods. Consider avoiding entirely during SIBO treatment phases due to high fructan content.",
+  "preparationTips": [
+    "Cook al dente to reduce FODMAP load",
+    "Rinse thoroughly after cooking",
+    "Combine with low-FODMAP proteins and vegetables",
+    "Limit portion size strictly"
+  ],
+  "alternatives": [
+    "rice pasta",
+    "quinoa pasta",
+    "gluten-free orzo",
+    "rice or quinoa grain"
+  ],
+  "pairsWellWith": [
+    "olive oil",
+    "fresh basil",
+    "grilled chicken",
+    "zucchini",
+    "bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "carbohydrates for energy",
+    "B vitamins",
+    "iron",
+    "fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

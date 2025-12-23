@@ -1,0 +1,43 @@
+{
+  "id": "salami",
+  "name": "Salami",
+  "aliases": [
+    "dry salami",
+    "cured sausage",
+    "Italian salami"
+  ],
+  "category": "protein",
+  "subcategory": "pork",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 6-8 thin slices",
+      "cups": "2 tablespoons diced"
+    }
+  },
+  "siboNotes": "Plain salami is FODMAP-free, but check ingredients for garlic powder or onion powder which are high FODMAP additives.",
+  "preparationTips": [
+    "Always read ingredient labels carefully as some brands contain garlic or onion powder",
+    "Choose uncured or naturally cured varieties when possible to avoid excess additives",
+    "Remove casing if it seems tough or causes digestive discomfort",
+    "Pair with low-FODMAP crackers made from rice or oats"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "aged cheddar cheese",
+    "rice crackers",
+    "cucumber slices",
+    "cherry tomatoes",
+    "olives"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (5-7g per serving)",
+    "Good source of B vitamins, especially B12",
+    "Contains iron and zinc",
+    "High in sodium - consume in moderation"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

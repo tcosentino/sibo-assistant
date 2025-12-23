@@ -1,0 +1,48 @@
+{
+  "id": "grape-juice",
+  "name": "Grape Juice",
+  "aliases": [
+    "Purple grape juice",
+    "White grape juice",
+    "Concord grape juice"
+  ],
+  "category": "beverage",
+  "subcategory": "fruit-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well tolerated on SIBO diet as it contains no significant FODMAPs, though some may be sensitive to natural fruit sugars.",
+  "preparationTips": [
+    "Choose 100% pure grape juice without added high fructose corn syrup",
+    "Dilute with water if you find it too sweet or concentrated",
+    "Serve chilled for best flavor and digestive comfort",
+    "Read labels carefully to avoid added fructose or artificial sweeteners"
+  ],
+  "alternatives": [
+    "Orange juice (small servings)",
+    "Cranberry juice (small servings)",
+    "Lemon or lime juice diluted with water",
+    "Coconut water"
+  ],
+  "pairsWellWith": [
+    "Plain crackers",
+    "Rice cakes",
+    "Hard cheeses",
+    "Nuts and seeds",
+    "Grilled chicken or turkey"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and antioxidants",
+    "Contains resveratrol (especially purple grape juice)",
+    "Good source of potassium",
+    "Provides natural carbohydrates for energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

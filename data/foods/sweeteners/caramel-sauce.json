@@ -1,0 +1,42 @@
+{
+  "id": "caramel-sauce",
+  "name": "Caramel Sauce",
+  "aliases": [
+    "Caramel Syrup",
+    "Butterscotch Sauce"
+  ],
+  "category": "sweetener",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    }
+  },
+  "siboNotes": "Traditional caramel made with sugar, cream, and butter is typically well-tolerated in small amounts. Avoid versions with high fructose corn syrup or inulin.",
+  "preparationTips": [
+    "Check ingredient labels for FODMAP additives like inulin or high fructose corn syrup",
+    "Make homemade caramel with regular sugar, lactose-free cream, and butter for better control",
+    "Use sparingly as a drizzle rather than a heavy coating",
+    "Store-bought versions may contain thickeners - choose simple ingredient lists"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Vanilla ice cream (lactose-free)",
+    "Rice pudding",
+    "Banana slices",
+    "Plain cheesecake",
+    "Grilled pineapple"
+  ],
+  "nutritionalHighlights": [
+    "High in simple sugars for quick energy",
+    "Contains some calcium from dairy components",
+    "Provides small amounts of vitamin A from butter",
+    "Calorie-dense - use in moderation"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

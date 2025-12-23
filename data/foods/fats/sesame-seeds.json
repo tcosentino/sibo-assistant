@@ -1,0 +1,42 @@
+{
+  "id": "sesame-seeds",
+  "name": "Sesame Seeds",
+  "aliases": [
+    "Benne seeds",
+    "Til seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Sesame seeds are naturally FODMAP-free and well-tolerated on SIBO diets. Their healthy fats may help with nutrient absorption.",
+  "preparationTips": [
+    "Toast lightly to enhance nutty flavor and digestibility",
+    "Store in airtight container to prevent rancidity",
+    "Can be ground into tahini paste for easier digestion",
+    "Soak briefly before use to improve digestibility"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Chicken breast",
+    "Rice",
+    "Spinach"
+  ],
+  "nutritionalHighlights": [
+    "Rich in healthy monounsaturated fats",
+    "Good source of calcium and magnesium",
+    "Contains lignans with antioxidant properties",
+    "Provides protein and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

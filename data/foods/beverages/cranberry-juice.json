@@ -1,0 +1,42 @@
+{
+  "id": "cranberry-juice",
+  "name": "Cranberry Juice",
+  "aliases": [
+    "cranberry cocktail",
+    "unsweetened cranberry juice"
+  ],
+  "category": "beverage",
+  "subcategory": "fruit-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Pure cranberry juice is well-tolerated for most SIBO patients. Avoid sweetened varieties that may contain high-fructose corn syrup or excess fructose.",
+  "preparationTips": [
+    "Choose 100% pure cranberry juice without added sugars",
+    "Start with smaller portions (1/2 cup) to assess tolerance",
+    "Dilute with water if the tartness is too strong",
+    "Check labels carefully - avoid varieties with apple juice or high-fructose corn syrup"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "sparkling water for a refreshing spritzer",
+    "lemon slices",
+    "fresh mint leaves",
+    "low-FODMAP smoothie ingredients",
+    "plain yogurt (lactose-free)"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C and antioxidants",
+    "Contains proanthocyanidins that support urinary tract health",
+    "Low in calories when unsweetened",
+    "Good source of manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

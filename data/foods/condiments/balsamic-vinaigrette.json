@@ -1,0 +1,42 @@
+{
+  "id": "balsamic-vinaigrette",
+  "name": "Balsamic Vinaigrette",
+  "aliases": [
+    "balsamic dressing",
+    "balsamic salad dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Simple balsamic vinaigrette made with olive oil and balsamic vinegar is well-tolerated. Avoid commercial versions with garlic or onion powder.",
+  "preparationTips": [
+    "Make homemade with balsamic vinegar, olive oil, salt, and pepper",
+    "Check commercial versions for garlic and onion ingredients",
+    "Add fresh herbs like basil or oregano for extra flavor",
+    "Use aged balsamic vinegar for richer taste without added sugars"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "mixed greens",
+    "cucumber",
+    "bell peppers",
+    "carrots",
+    "grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Heart-healthy monounsaturated fats from olive oil",
+    "Antioxidants from balsamic vinegar",
+    "Low in calories when used in moderation",
+    "May help with blood sugar regulation"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

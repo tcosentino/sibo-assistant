@@ -1,0 +1,59 @@
+{
+  "id": "baguette",
+  "name": "Baguette",
+  "aliases": [
+    "French bread",
+    "French stick"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "1 slice (about 1 inch thick)",
+      "cups": "Not applicable"
+    },
+    "moderate": {
+      "grams": 48,
+      "description": "2 slices or small dinner roll portion",
+      "cups": "Not applicable"
+    },
+    "high": {
+      "grams": 96,
+      "description": "4+ slices or half a small baguette",
+      "cups": "Not applicable"
+    }
+  },
+  "siboNotes": "Contains wheat fructans which can feed SIBO bacteria. Stick to 1 slice portions and consider sourdough alternatives with longer fermentation.",
+  "preparationTips": [
+    "Toast lightly to improve digestibility",
+    "Pair with low-FODMAP proteins and fats",
+    "Avoid garlic butter or high-FODMAP toppings",
+    "Store properly to maintain freshness and texture"
+  ],
+  "alternatives": [
+    "Sourdough bread (spelt or wheat)",
+    "Gluten-free bread",
+    "Rice cakes",
+    "Corn tortillas"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Olive oil",
+    "Tomatoes",
+    "Lettuce",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "B vitamins",
+    "Iron",
+    "Some protein from wheat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

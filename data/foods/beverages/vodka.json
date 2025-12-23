@@ -1,0 +1,46 @@
+{
+  "id": "vodka",
+  "name": "Vodka",
+  "aliases": [
+    "plain vodka",
+    "unflavored vodka"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "1 standard shot",
+      "cups": "1/8 cup"
+    }
+  },
+  "siboNotes": "Pure vodka is distilled and contains no FODMAPs, making it suitable for SIBO diets. However, alcohol can affect gut motility and should be consumed in moderation.",
+  "preparationTips": [
+    "Choose plain, unflavored vodka to avoid added sugars or flavorings",
+    "Mix with low-FODMAP mixers like fresh lime juice or club soda",
+    "Avoid flavored vodkas which may contain high-FODMAP ingredients",
+    "Consume with food to minimize digestive irritation"
+  ],
+  "alternatives": [
+    "Gin (plain, unflavored)",
+    "White rum (plain)",
+    "Whiskey (plain)"
+  ],
+  "pairsWellWith": [
+    "Fresh lime juice",
+    "Club soda",
+    "Fresh mint",
+    "Cucumber slices",
+    "Olives"
+  ],
+  "nutritionalHighlights": [
+    "Zero carbohydrates and FODMAPs when plain",
+    "Approximately 64 calories per ounce",
+    "No vitamins or minerals",
+    "40% alcohol by volume (80 proof)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

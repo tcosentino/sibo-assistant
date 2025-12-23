@@ -1,0 +1,60 @@
+{
+  "id": "couscous",
+  "name": "Couscous",
+  "aliases": [
+    "Pearl couscous",
+    "Israeli couscous",
+    "Moroccan couscous"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 35,
+      "description": "About 1/4 cup cooked",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 70,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 105,
+      "description": "About 3/4 cup cooked",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Contains wheat-based fructans which can feed SIBO bacteria. Start with small portions and monitor symptoms carefully.",
+  "preparationTips": [
+    "Cook with garlic-infused oil instead of garlic cloves for flavor",
+    "Add low-FODMAP herbs like parsley, chives, or cilantro for taste",
+    "Stick to 1/4 cup cooked portions initially",
+    "Combine with protein and vegetables to create a balanced meal"
+  ],
+  "alternatives": [
+    "Quinoa",
+    "Rice",
+    "Polenta",
+    "Gluten-free couscous"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted carrots",
+    "Fresh herbs",
+    "Olive oil",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "Small amounts of protein",
+    "B vitamins",
+    "Iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

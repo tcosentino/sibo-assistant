@@ -1,0 +1,59 @@
+{
+  "id": "maltitol",
+  "name": "Maltitol",
+  "aliases": [
+    "Maltitol syrup",
+    "E965"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar-alcohol",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "Not recommended",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    },
+    "high": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 tsp"
+    }
+  },
+  "siboNotes": "Maltitol is a polyol that feeds SIBO bacteria and can cause significant digestive distress even in small amounts. Avoid completely during SIBO treatment phases.",
+  "preparationTips": [
+    "Check ingredient labels carefully as maltitol is common in sugar-free products",
+    "Be aware that 'sugar-free' doesn't mean FODMAP-free",
+    "Start with tiny amounts if testing tolerance",
+    "May cause laxative effects even in healthy individuals"
+  ],
+  "alternatives": [
+    "Stevia",
+    "Monk fruit sweetener",
+    "Pure maple syrup (1 tablespoon max)",
+    "Rice malt syrup (1 tablespoon max)"
+  ],
+  "pairsWellWith": [
+    "Should be avoided on low-FODMAP diet",
+    "Consider natural sweetness from low-FODMAP fruits",
+    "Pair alternatives with compliant baking ingredients",
+    "Use with low-FODMAP flours for baking",
+    "Combine with permitted spices like cinnamon"
+  ],
+  "nutritionalHighlights": [
+    "Lower calorie than sugar",
+    "May help with blood sugar control",
+    "Does not contribute to tooth decay",
+    "Contains about 2.1 calories per gram"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

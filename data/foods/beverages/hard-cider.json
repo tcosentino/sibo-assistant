@@ -1,0 +1,48 @@
+{
+  "id": "hard-cider",
+  "name": "Hard Cider",
+  "aliases": [
+    "Fermented Apple Cider",
+    "Alcoholic Cider",
+    "Apple Cider Alcohol"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 355,
+      "description": "1 standard bottle or can",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as fermentation converts most FODMAPs to alcohol. However, alcohol can affect gut motility and may worsen SIBO symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Choose dry varieties over sweet ones which may contain added sugars",
+    "Check labels for added high-FODMAP ingredients like honey or apple juice concentrate",
+    "Start with smaller servings to assess individual tolerance",
+    "Consume with food to minimize digestive irritation"
+  ],
+  "alternatives": [
+    "Dry white wine",
+    "Vodka with lime",
+    "Gin with cucumber",
+    "Low-FODMAP beer (gluten-free)"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Grilled chicken",
+    "Roasted carrots",
+    "Walnuts",
+    "Fresh herbs like rosemary"
+  ],
+  "nutritionalHighlights": [
+    "Low in carbohydrates after fermentation",
+    "Contains antioxidants from apples",
+    "Provides some B vitamins from yeast",
+    "Moderate alcohol content (4-8% ABV)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

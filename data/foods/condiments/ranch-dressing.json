@@ -1,0 +1,43 @@
+{
+  "id": "ranch-dressing",
+  "name": "Ranch Dressing",
+  "aliases": [
+    "Ranch sauce",
+    "Buttermilk ranch",
+    "Creamy ranch"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Most commercial ranch dressings are well-tolerated in typical serving sizes, but check ingredients for garlic and onion powder which may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check ingredient labels as some brands may contain garlic or onion powder",
+    "Make homemade ranch using chives instead of onion powder",
+    "Store opened dressing in refrigerator and use within recommended timeframe",
+    "Shake well before using as ingredients may separate"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lettuce and mixed greens",
+    "Cucumber slices",
+    "Carrot sticks",
+    "Bell pepper strips",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Source of healthy fats from mayonnaise base",
+    "Contains calcium from buttermilk ingredients",
+    "Provides vitamin K from herb seasonings",
+    "Adds flavor to increase vegetable consumption"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pumpkin-seeds-pepitas",
+  "name": "Pumpkin Seeds (Pepitas)",
+  "aliases": [
+    "pepitas",
+    "hulled pumpkin seeds",
+    "raw pumpkin seeds",
+    "roasted pumpkin seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1/4 cup or 2 tablespoons",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Pumpkin seeds are FODMAP-free and generally well-tolerated. High fiber content may cause digestive discomfort if consumed in large quantities.",
+  "preparationTips": [
+    "Soak raw seeds overnight to improve digestibility",
+    "Roast with low-FODMAP seasonings like salt, paprika, or cumin",
+    "Store in airtight container to maintain freshness and prevent rancidity",
+    "Can be ground into flour or butter as alternatives to wheat flour or nut butters"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "mixed green salads",
+    "low-FODMAP yogurt",
+    "quinoa bowls",
+    "roasted vegetables",
+    "dark chocolate"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of magnesium and zinc",
+    "Rich in healthy monounsaturated and polyunsaturated fats",
+    "Good source of plant-based protein",
+    "Contains antioxidants including vitamin E"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

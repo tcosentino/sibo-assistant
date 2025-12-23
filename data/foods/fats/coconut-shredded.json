@@ -1,0 +1,43 @@
+{
+  "id": "coconut-shredded",
+  "name": "Coconut (Shredded)",
+  "aliases": [
+    "Desiccated coconut",
+    "Coconut flakes",
+    "Shredded coconut"
+  ],
+  "category": "fat",
+  "subcategory": "coconut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 25,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Coconut is naturally FODMAP-free and generally well-tolerated on SIBO diets. The high fiber content may cause digestive discomfort in sensitive individuals.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added sugars",
+    "Toast lightly in a dry pan to enhance flavor",
+    "Store in airtight container to prevent rancidity",
+    "Check labels for added ingredients like sulfites"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lactose-free yogurt",
+    "Strawberries",
+    "Dark chocolate (70% cacao)",
+    "Chia seeds",
+    "Vanilla extract"
+  ],
+  "nutritionalHighlights": [
+    "Medium-chain triglycerides (MCTs) for quick energy",
+    "Good source of manganese and copper",
+    "Contains dietary fiber for digestive health",
+    "Naturally gluten-free and dairy-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

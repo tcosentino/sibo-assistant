@@ -1,0 +1,60 @@
+{
+  "id": "golden-syrup",
+  "name": "Golden Syrup",
+  "aliases": [
+    "Lyle's Golden Syrup",
+    "Light Treacle",
+    "Refiner's Syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "sugar",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 7,
+      "description": "About 1/2 tablespoon",
+      "cups": "1/2 tablespoon"
+    },
+    "moderate": {
+      "grams": 14,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "high": {
+      "grams": 21,
+      "description": "About 1.5 tablespoons",
+      "cups": "1.5 tablespoons"
+    }
+  },
+  "siboNotes": "Contains excess free fructose which can feed bacterial overgrowth. Use sparingly even within low FODMAP limits during SIBO treatment.",
+  "preparationTips": [
+    "Measure carefully as serving sizes are very small",
+    "Can be diluted with water for lighter sweetening",
+    "Warm slightly for easier measuring and mixing",
+    "Store in cool, dry place to prevent crystallization"
+  ],
+  "alternatives": [
+    "Pure maple syrup (small amounts)",
+    "Rice malt syrup",
+    "Glucose syrup",
+    "Table sugar (sucrose)"
+  ],
+  "pairsWellWith": [
+    "Gluten-free oats",
+    "Rice cakes",
+    "Plain yogurt (lactose-free)",
+    "Low FODMAP pancakes",
+    "Tea or coffee"
+  ],
+  "nutritionalHighlights": [
+    "Provides quick energy from simple carbohydrates",
+    "Contains trace minerals from sugar processing",
+    "High in calories - about 60 calories per tablespoon",
+    "No protein or fiber content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

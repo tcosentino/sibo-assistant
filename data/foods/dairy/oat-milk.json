@@ -1,0 +1,59 @@
+{
+  "id": "oat-milk",
+  "name": "Oat Milk",
+  "aliases": [
+    "Oat beverage",
+    "Plant-based oat milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 180,
+      "description": "About 3/4 cup",
+      "cups": "3/4 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 full cup or more",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Contains fructans from oats which may feed bacterial overgrowth. Start with small portions and monitor tolerance during SIBO treatment phases.",
+  "preparationTips": [
+    "Look for oat milk without added high-FODMAP ingredients like apple juice or inulin",
+    "Shake well before use as natural separation occurs",
+    "Use smaller portions in coffee or tea to stay within low-FODMAP limits",
+    "Consider diluting with water if using larger amounts in recipes"
+  ],
+  "alternatives": [
+    "Lactose-free dairy milk",
+    "Rice milk",
+    "Almond milk (unsweetened)",
+    "Coconut milk (canned, small amounts)"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP cereals like rice cereal",
+    "Bananas in smoothies",
+    "Strawberries",
+    "Peanut butter",
+    "Coffee or tea"
+  ],
+  "nutritionalHighlights": [
+    "Often fortified with calcium and vitamin D",
+    "Contains beta-glucan fiber from oats",
+    "Good source of B vitamins when fortified",
+    "Lower protein than dairy milk"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

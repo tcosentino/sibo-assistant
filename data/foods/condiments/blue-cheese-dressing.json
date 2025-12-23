@@ -1,0 +1,47 @@
+{
+  "id": "blue-cheese-dressing",
+  "name": "Blue Cheese Dressing",
+  "aliases": [
+    "Blue cheese salad dressing",
+    "Bleu cheese dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as blue cheese is aged and low in lactose. Watch for onion/garlic powder in commercial versions.",
+  "preparationTips": [
+    "Check ingredient labels for onion or garlic powder in commercial dressings",
+    "Make homemade with aged blue cheese, mayonnaise, and herbs",
+    "Use lactose-free sour cream as base if needed",
+    "Store refrigerated and use within recommended timeframe"
+  ],
+  "alternatives": [
+    "Ranch dressing (garlic-free)",
+    "Caesar dressing (anchovy-based)",
+    "Olive oil and vinegar",
+    "Herb-infused mayonnaise"
+  ],
+  "pairsWellWith": [
+    "Mixed greens salad",
+    "Grilled chicken breast",
+    "Cherry tomatoes",
+    "Cucumber slices",
+    "Bell pepper strips"
+  ],
+  "nutritionalHighlights": [
+    "Calcium from blue cheese",
+    "Protein content",
+    "Healthy fats from olive oil base",
+    "Vitamin A"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

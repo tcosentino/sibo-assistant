@@ -1,0 +1,59 @@
+{
+  "id": "enchilada-sauce",
+  "name": "Enchilada Sauce",
+  "aliases": [
+    "Red enchilada sauce",
+    "Mexican chili sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Commercial enchilada sauces often contain onion and garlic powder, making them high in fructans. Start with small portions and check ingredient labels carefully.",
+  "preparationTips": [
+    "Check labels for onion and garlic - choose brands that use only chili powder and spices",
+    "Make homemade sauce using garlic-infused oil instead of garlic powder",
+    "Look for 'FODMAP-friendly' labeled versions in health food stores",
+    "Dilute with low-FODMAP broth if sauce is too concentrated"
+  ],
+  "alternatives": [
+    "Homemade sauce with chili powder and cumin only",
+    "Salsa verde made without onion or garlic",
+    "Plain tomato sauce with Mexican spices",
+    "Chipotle peppers in adobo sauce (small amounts)"
+  ],
+  "pairsWellWith": [
+    "Corn tortillas",
+    "Grilled chicken or beef",
+    "Lactose-free cheese",
+    "Bell peppers",
+    "Cilantro"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin C from chili peppers",
+    "Antioxidants from tomatoes and peppers",
+    "Low in calories",
+    "Source of capsaicin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

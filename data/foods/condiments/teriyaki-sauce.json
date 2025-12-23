@@ -1,0 +1,60 @@
+{
+  "id": "teriyaki-sauce",
+  "name": "Teriyaki Sauce",
+  "aliases": [
+    "Japanese teriyaki marinade",
+    "sweet soy glaze"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Use sparingly due to fructose and fructan content from high fructose corn syrup and garlic. Consider making homemade versions with low-FODMAP sweeteners.",
+  "preparationTips": [
+    "Look for brands without garlic powder or onion powder",
+    "Make homemade using tamari, maple syrup, and ginger",
+    "Use as a finishing sauce rather than marinade to control portions",
+    "Check labels for high fructose corn syrup and avoid those brands"
+  ],
+  "alternatives": [
+    "Homemade sauce with tamari and maple syrup",
+    "Low-sodium soy sauce with brown sugar",
+    "Coconut aminos with rice wine vinegar",
+    "Tamari with ginger and sesame oil"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Salmon fillets",
+    "Bok choy stir-fry",
+    "Brown rice",
+    "Green beans"
+  ],
+  "nutritionalHighlights": [
+    "High in sodium",
+    "Contains some B vitamins from soy base",
+    "Provides umami flavor compounds",
+    "Generally low in protein and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "honey-mustard-dressing",
+  "name": "Honey Mustard Dressing",
+  "aliases": [
+    "Honey Dijon Dressing",
+    "Sweet Mustard Dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    },
+    "moderate": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "high": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Honey contains excess fructose which can trigger SIBO symptoms. Use sparingly or choose alternatives without honey.",
+  "preparationTips": [
+    "Use mustard powder mixed with maple syrup instead of honey",
+    "Dilute with low-FODMAP oils to reduce FODMAP concentration",
+    "Check labels for high-fructose corn syrup",
+    "Make homemade versions to control ingredients"
+  ],
+  "alternatives": [
+    "Dijon mustard with olive oil",
+    "Lemon-herb vinaigrette",
+    "Rice wine vinegar dressing",
+    "Tahini-based dressing"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Mixed greens",
+    "Cucumber",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Small amounts of antioxidants from mustard seeds",
+    "Minimal protein content",
+    "Variable sodium levels",
+    "Contains simple sugars from honey"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

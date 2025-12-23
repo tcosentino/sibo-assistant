@@ -1,0 +1,42 @@
+{
+  "id": "white-wine-vinegar",
+  "name": "White Wine Vinegar",
+  "aliases": [
+    "White vinegar",
+    "Wine vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon plus 1 teaspoon",
+      "cups": "4 tsp"
+    }
+  },
+  "siboNotes": "Vinegar is generally well-tolerated and may have antimicrobial properties that could benefit SIBO management. Use freely in dressings and marinades.",
+  "preparationTips": [
+    "Use as a base for low-FODMAP salad dressings with olive oil and herbs",
+    "Add to marinades for meat and fish to enhance flavor",
+    "Use in pickling vegetables like carrots and radishes",
+    "Store in a cool, dark place - vinegar has a long shelf life"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Olive oil for dressings",
+    "Fresh herbs like basil and oregano",
+    "Grilled chicken and fish",
+    "Mixed greens and cucumber",
+    "Tomatoes and bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories (about 3 per tablespoon)",
+    "Contains acetic acid which may aid digestion",
+    "Naturally gluten-free and dairy-free",
+    "No added sugars or preservatives needed"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

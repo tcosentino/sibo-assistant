@@ -1,0 +1,51 @@
+{
+  "id": "treacle",
+  "name": "Treacle",
+  "aliases": [
+    "black treacle",
+    "molasses",
+    "golden syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 7,
+      "description": "About 1/2 tablespoon",
+      "cups": "1/2 tablespoon"
+    }
+  },
+  "siboNotes": "High in excess fructose and fructans, which can feed bacterial overgrowth. Even small amounts may trigger symptoms in SIBO patients.",
+  "preparationTips": [
+    "Use sparingly as even small amounts are high FODMAP",
+    "Consider diluting with water if using in recipes",
+    "Measure carefully as it's easy to use too much",
+    "Store in airtight container to prevent crystallization"
+  ],
+  "alternatives": [
+    "Pure maple syrup (1 tablespoon max)",
+    "Rice malt syrup",
+    "Glucose syrup",
+    "Table sugar in moderation"
+  ],
+  "pairsWellWith": [
+    "Ginger (fresh)",
+    "Cinnamon",
+    "Vanilla extract",
+    "Lemon juice",
+    "Oats (gluten-free)"
+  ],
+  "nutritionalHighlights": [
+    "Contains iron and potassium",
+    "Provides quick energy from sugars",
+    "Contains small amounts of B vitamins",
+    "High in calories and carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

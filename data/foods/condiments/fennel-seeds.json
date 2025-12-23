@@ -1,0 +1,42 @@
+{
+  "id": "fennel-seeds",
+  "name": "Fennel Seeds",
+  "aliases": [
+    "Saunf",
+    "Sweet Fennel Seeds"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Well-tolerated in typical culinary amounts and may actually help with digestive symptoms due to carminative properties.",
+  "preparationTips": [
+    "Toast lightly in a dry pan to enhance flavor and aroma",
+    "Grind fresh for maximum potency and digestive benefits",
+    "Start with smaller amounts (1/2 teaspoon) if sensitive to spices",
+    "Can be chewed whole after meals to aid digestion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Cumin seeds",
+    "Coriander seeds",
+    "Ginger",
+    "Turmeric",
+    "Low-FODMAP vegetables in curries"
+  ],
+  "nutritionalHighlights": [
+    "Rich in fiber and antioxidants",
+    "Contains anethole, which has anti-inflammatory properties",
+    "Good source of calcium and iron",
+    "Traditional digestive aid with carminative effects"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

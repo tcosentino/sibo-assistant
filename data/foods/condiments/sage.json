@@ -1,0 +1,43 @@
+{
+  "id": "sage",
+  "name": "Sage",
+  "aliases": [
+    "Common sage",
+    "Garden sage",
+    "Salvia officinalis"
+  ],
+  "category": "condiment",
+  "subcategory": "herb",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 tablespoon fresh or 1 teaspoon dried",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Fresh herbs like sage are generally well-tolerated and may have antimicrobial properties that could be beneficial for SIBO management.",
+  "preparationTips": [
+    "Use fresh sage leaves whole in cooking or chop finely to release more flavor",
+    "Dried sage is more concentrated - use about 1/3 the amount compared to fresh",
+    "Add sage near the end of cooking to preserve its delicate flavor",
+    "Store fresh sage wrapped in damp paper towel in refrigerator for up to 1 week"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Roasted chicken and turkey",
+    "Pork tenderloin",
+    "Butternut squash",
+    "Brown butter sauces",
+    "Parmesan cheese"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants and anti-inflammatory compounds",
+    "Contains vitamin K for bone health",
+    "Good source of iron and calcium",
+    "Provides rosmarinic acid with potential cognitive benefits"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "cola",
+  "name": "Cola",
+  "aliases": [
+    "Coke",
+    "Pepsi",
+    "Cola soda",
+    "Cola soft drink"
+  ],
+  "category": "beverage",
+  "subcategory": "soda",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructose",
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "1 cup or standard can",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "High fructose corn syrup and excess fructose can feed bacterial overgrowth. Avoid during SIBO treatment phases.",
+  "preparationTips": [
+    "Check ingredient labels for high fructose corn syrup",
+    "Consider smaller serving sizes if symptoms are mild",
+    "Avoid diet versions with polyol sweeteners",
+    "Drink with meals rather than alone to slow absorption"
+  ],
+  "alternatives": [
+    "Ginger ale (small amounts)",
+    "Lemon-lime soda (small amounts)",
+    "Sparkling water with fresh lime",
+    "Green tea"
+  ],
+  "pairsWellWith": [
+    "Plain rice crackers",
+    "Aged cheddar cheese",
+    "Grilled chicken",
+    "Carrot sticks",
+    "Bell pepper slices"
+  ],
+  "nutritionalHighlights": [
+    "High in simple sugars",
+    "Provides quick energy",
+    "No vitamins or minerals",
+    "High calorie density"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

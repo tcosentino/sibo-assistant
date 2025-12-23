@@ -1,0 +1,43 @@
+{
+  "id": "rice-cakes",
+  "name": "Rice Cakes",
+  "aliases": [
+    "Puffed rice cakes",
+    "Brown rice cakes",
+    "Plain rice cakes"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 26,
+      "description": "2 large rice cakes",
+      "cups": "2 cakes"
+    }
+  },
+  "siboNotes": "Plain rice cakes are well-tolerated and safe for SIBO diets. Choose varieties without high-FODMAP additives like onion or garlic powder.",
+  "preparationTips": [
+    "Choose plain varieties without added seasonings that may contain FODMAPs",
+    "Check ingredient labels for garlic powder, onion powder, or high-FODMAP grains",
+    "Brown rice cakes provide more fiber but both white and brown rice varieties are low FODMAP",
+    "Store in airtight container to maintain crispness"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Peanut butter",
+    "Aged cheddar cheese",
+    "Sliced strawberries",
+    "Lactose-free cream cheese",
+    "Canned tuna"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories and fat",
+    "Gluten-free carbohydrate source",
+    "Provides small amounts of manganese and niacin",
+    "Quick energy from easily digestible carbs"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

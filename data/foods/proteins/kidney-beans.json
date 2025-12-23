@@ -1,0 +1,60 @@
+{
+  "id": "kidney-beans",
+  "name": "Kidney Beans",
+  "aliases": [
+    "Red kidney beans",
+    "Dark red kidney beans",
+    "Light red kidney beans"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 25,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 75,
+      "description": "About 1/3 cup or more",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "High galactan content can feed bacteria in SIBO patients. Start with very small portions (1-2 tablespoons) if tolerated during maintenance phase.",
+  "preparationTips": [
+    "Rinse canned beans thoroughly to reduce FODMAP content",
+    "Start with small portions and gradually increase if well-tolerated",
+    "Combine with low-FODMAP grains like rice to create complete protein",
+    "Consider using bean liquid (aquafaba) in small amounts as it's lower FODMAP than whole beans"
+  ],
+  "alternatives": [
+    "Firm tofu (low FODMAP)",
+    "Tempeh in small portions",
+    "Canned lentils (small portions)",
+    "Quinoa for plant-based protein"
+  ],
+  "pairsWellWith": [
+    "Brown rice",
+    "Carrots",
+    "Bell peppers",
+    "Spinach",
+    "Cumin and paprika"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein",
+    "Rich in fiber for digestive health",
+    "Good source of folate and iron",
+    "Contains potassium and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

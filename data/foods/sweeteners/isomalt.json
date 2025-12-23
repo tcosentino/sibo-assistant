@@ -1,0 +1,60 @@
+{
+  "id": "isomalt",
+  "name": "Isomalt",
+  "aliases": [
+    "Palatinit",
+    "E953"
+  ],
+  "category": "sweetener",
+  "subcategory": "polyol",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "polyols-mannitol",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving identified",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 0,
+      "description": "No safe serving identified",
+      "cups": "0"
+    },
+    "high": {
+      "grams": 5,
+      "description": "1 teaspoon or more",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "As a polyol sweetener, isomalt is poorly absorbed and can trigger SIBO symptoms even in very small amounts. Should be completely avoided during SIBO treatment phases.",
+  "preparationTips": [
+    "Check ingredient labels carefully as isomalt appears in sugar-free products",
+    "Even small amounts in processed foods can trigger symptoms",
+    "Found commonly in sugar-free candies, chocolates, and baked goods",
+    "May be listed as E953 on European product labels"
+  ],
+  "alternatives": [
+    "Stevia",
+    "Monk fruit sweetener",
+    "Small amounts of maple syrup (1 tbsp)",
+    "Rice malt syrup (1 tbsp)"
+  ],
+  "pairsWellWith": [
+    "Use alternatives with low-FODMAP baking flours",
+    "Combine substitutes with vanilla extract",
+    "Pair with cinnamon for sweetness enhancement",
+    "Use with coconut oil in baking",
+    "Blend with cocoa powder for chocolate recipes"
+  ],
+  "nutritionalHighlights": [
+    "Provides sweetness with fewer calories than sugar",
+    "Does not affect blood glucose significantly",
+    "Contains no vitamins or minerals",
+    "High potential for digestive distress"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "buckwheat",
+  "name": "Buckwheat",
+  "aliases": [
+    "buckwheat groats",
+    "kasha",
+    "buckwheat flour"
+  ],
+  "category": "grain",
+  "subcategory": "pseudocereal",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Naturally gluten-free and well-tolerated for SIBO diets. High fiber content may cause initial digestive adjustment.",
+  "preparationTips": [
+    "Rinse raw buckwheat groats before cooking to remove bitter compounds",
+    "Toast groats in a dry pan for nuttier flavor before adding liquid",
+    "Cook with 2:1 water to buckwheat ratio for 15-20 minutes",
+    "Buckwheat flour works well in pancakes and baked goods as wheat substitute"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "eggs",
+    "spinach",
+    "carrots",
+    "bell peppers",
+    "chicken"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "Rich in magnesium and manganese",
+    "Good source of fiber and B vitamins",
+    "Contains rutin, a flavonoid with antioxidant properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

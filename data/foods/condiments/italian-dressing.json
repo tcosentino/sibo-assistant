@@ -1,0 +1,46 @@
+{
+  "id": "italian-dressing",
+  "name": "Italian Dressing",
+  "aliases": [
+    "Italian vinaigrette",
+    "Italian salad dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "dressing",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Most commercial Italian dressings are low FODMAP in typical serving sizes. Check labels for high FODMAP ingredients like garlic or onion powder.",
+  "preparationTips": [
+    "Check ingredient labels for garlic and onion - some brands use these",
+    "Make homemade with olive oil, vinegar, oregano, and basil for guaranteed low FODMAP option",
+    "Store opened bottles in refrigerator and shake before use",
+    "Start with smaller amounts if you have severe SIBO symptoms"
+  ],
+  "alternatives": [
+    "Olive oil and balsamic vinegar",
+    "Lemon juice with herbs",
+    "Simple vinaigrette with allowed herbs"
+  ],
+  "pairsWellWith": [
+    "Mixed greens salad",
+    "Cherry tomatoes",
+    "Cucumber",
+    "Bell peppers",
+    "Grilled chicken"
+  ],
+  "nutritionalHighlights": [
+    "Provides healthy fats from olive oil",
+    "Contains antioxidants from herbs and spices",
+    "Low in calories per serving",
+    "May support fat-soluble vitamin absorption"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

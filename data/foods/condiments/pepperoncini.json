@@ -1,0 +1,48 @@
+{
+  "id": "pepperoncini",
+  "name": "Pepperoncini",
+  "aliases": [
+    "Golden Greek peppers",
+    "Tuscan peppers",
+    "Sweet Italian peppers"
+  ],
+  "category": "condiment",
+  "subcategory": "pepper",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 4-5 peppers",
+      "cups": "1/4 cup sliced"
+    }
+  },
+  "siboNotes": "Generally well-tolerated due to low FODMAP content. The vinegar brine may provide digestive benefits for some individuals.",
+  "preparationTips": [
+    "Rinse briefly if sodium content is a concern",
+    "Use whole peppers as a garnish or slice for salads",
+    "Add to dishes at the end of cooking to preserve texture",
+    "Store opened jars in refrigerator and use within 2-3 months"
+  ],
+  "alternatives": [
+    "Bell pepper strips",
+    "Cucumber pickles",
+    "Radish slices",
+    "Green olives"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Grilled chicken",
+    "Mediterranean salad",
+    "Rice-based dishes",
+    "Olive tapenade"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories and carbohydrates",
+    "Source of vitamin C",
+    "Contains antioxidants from peppers",
+    "Provides small amounts of vitamin A"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

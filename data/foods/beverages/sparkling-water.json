@@ -1,0 +1,44 @@
+{
+  "id": "sparkling-water",
+  "name": "Sparkling Water",
+  "aliases": [
+    "Carbonated Water",
+    "Soda Water",
+    "Club Soda",
+    "Seltzer Water"
+  ],
+  "category": "beverage",
+  "subcategory": "water",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "1 cup (8 fl oz)",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain sparkling water is SIBO-friendly, though some people may experience increased bloating from carbonation during active symptoms.",
+  "preparationTips": [
+    "Choose plain sparkling water without added flavors or sweeteners",
+    "Check labels to avoid artificial sweeteners like sorbitol or mannitol",
+    "Let it sit open briefly to reduce carbonation if gas causes discomfort",
+    "Serve chilled for best taste experience"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh lemon or lime slices",
+    "Fresh mint leaves",
+    "Cucumber slices",
+    "Low-FODMAP herbs like basil",
+    "Ice cubes for refreshing drinks"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories and sugar-free",
+    "Provides hydration like regular water",
+    "May contain trace minerals depending on source",
+    "Can help meet daily fluid intake goals"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

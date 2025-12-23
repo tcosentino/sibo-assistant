@@ -1,0 +1,42 @@
+{
+  "id": "quail-eggs",
+  "name": "Quail Eggs",
+  "aliases": [
+    "quail egg",
+    "coturnix eggs"
+  ],
+  "category": "protein",
+  "subcategory": "poultry",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 5-6 quail eggs",
+      "cups": "1/4 cup equivalent"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as they're naturally FODMAP-free and easy to digest. No fermentation concerns.",
+  "preparationTips": [
+    "Crack carefully due to small size - use a serrated knife or special quail egg scissors",
+    "Boil for 2-3 minutes for hard-boiled eggs due to their small size",
+    "Store in refrigerator and use within 3-4 weeks of purchase",
+    "Perfect for appetizers, salads, or as protein garnish"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "spinach salad",
+    "low-FODMAP herbs like chives",
+    "olive oil",
+    "carrots",
+    "cucumber"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein",
+    "Rich in vitamin B12 and selenium",
+    "Good source of choline for brain health",
+    "Contains iron and riboflavin"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

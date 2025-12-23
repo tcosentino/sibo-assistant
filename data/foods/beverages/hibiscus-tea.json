@@ -1,0 +1,49 @@
+{
+  "id": "hibiscus-tea",
+  "name": "Hibiscus Tea",
+  "aliases": [
+    "Roselle tea",
+    "Sorrel tea",
+    "Red tea",
+    "Flor de Jamaica"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO protocols as it's naturally FODMAP-free and may have mild antimicrobial properties that could be beneficial.",
+  "preparationTips": [
+    "Steep dried hibiscus petals in hot water for 5-10 minutes for optimal flavor",
+    "Can be enjoyed hot or cold - makes excellent iced tea",
+    "Add low-FODMAP sweeteners like stevia or maple syrup (1 tbsp max) if desired",
+    "Avoid adding high-FODMAP fruits like apple or pear for flavoring"
+  ],
+  "alternatives": [
+    "Peppermint tea",
+    "Chamomile tea",
+    "Green tea",
+    "Ginger tea"
+  ],
+  "pairsWellWith": [
+    "Ginger slices",
+    "Lemon juice",
+    "Fresh mint leaves",
+    "Stevia or maple syrup",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "Rich in vitamin C and antioxidants",
+    "Contains anthocyanins which give the deep red color",
+    "Naturally caffeine-free",
+    "May support healthy blood pressure"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

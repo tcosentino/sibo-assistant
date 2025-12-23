@@ -1,0 +1,43 @@
+{
+  "id": "english-mustard",
+  "name": "English Mustard",
+  "aliases": [
+    "Keen's Mustard",
+    "Hot English Mustard",
+    "Dry Mustard Powder"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 2 teaspoons",
+      "cups": "2 tsp"
+    }
+  },
+  "siboNotes": "English mustard is well-tolerated on SIBO diets as it contains no fermentable carbohydrates and may have mild antimicrobial properties.",
+  "preparationTips": [
+    "Mix mustard powder with water or vinegar just before serving for maximum heat",
+    "Store prepared mustard in refrigerator for up to 2 weeks",
+    "Start with small amounts as English mustard is significantly hotter than American yellow mustard",
+    "Add to marinades and dressings for flavor without FODMAPs"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roast beef",
+    "Aged cheddar cheese",
+    "Sourdough spelt bread",
+    "Roasted potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in selenium and magnesium",
+    "Contains antioxidant compounds from mustard seeds",
+    "Very low in calories and sodium compared to other condiments",
+    "Source of omega-3 fatty acids from mustard seeds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

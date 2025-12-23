@@ -1,0 +1,62 @@
+{
+  "id": "jackfruit-meat-substitute",
+  "name": "Jackfruit (as meat substitute)",
+  "aliases": [
+    "young jackfruit",
+    "green jackfruit",
+    "canned jackfruit"
+  ],
+  "category": "protein",
+  "subcategory": "tropical",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose",
+    "fructans",
+    "polyols-sorbitol"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1/4 cup prepared",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 80,
+      "description": "About 1/2 cup prepared",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 150,
+      "description": "About 3/4 cup prepared",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Start with small portions during SIBO healing phase. The fructans and excess fructose may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Rinse canned jackfruit thoroughly to reduce FODMAP content",
+    "Season with garlic-infused oil instead of fresh garlic",
+    "Combine with low-FODMAP vegetables to bulk up portions",
+    "Use in small amounts mixed with other proteins"
+  ],
+  "alternatives": [
+    "firm tofu",
+    "tempeh (small portions)",
+    "chicken breast",
+    "canned tuna"
+  ],
+  "pairsWellWith": [
+    "bell peppers",
+    "carrots",
+    "zucchini",
+    "green beans",
+    "brown rice"
+  ],
+  "nutritionalHighlights": [
+    "fiber",
+    "vitamin C",
+    "potassium",
+    "antioxidants"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "matzo",
+  "name": "Matzo",
+  "aliases": [
+    "matzah",
+    "matzoh",
+    "unleavened bread",
+    "matza"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 30,
+      "description": "1 piece/sheet",
+      "cups": "1 piece"
+    }
+  },
+  "siboNotes": "Traditional wheat-based matzo is high in fructans and should be avoided during SIBO treatment. Even small servings can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Look for gluten-free matzo made from rice or potato flour",
+    "Check ingredient lists as some brands may contain onion powder",
+    "Consider using rice cakes as a similar crunchy alternative",
+    "If consuming traditional matzo, limit to very small portions initially"
+  ],
+  "alternatives": [
+    "Rice cakes",
+    "Corn tortillas",
+    "Gluten-free crackers (oat-based)",
+    "Sourdough spelt bread (small portions)"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Olive oil and herbs",
+    "Lactose-free cream cheese",
+    "Sliced tomatoes",
+    "Hard-boiled eggs"
+  ],
+  "nutritionalHighlights": [
+    "Provides carbohydrates for energy",
+    "Contains B vitamins from wheat flour",
+    "Low in fat and sugar",
+    "Source of plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cashews",
+  "name": "Cashews",
+  "aliases": [
+    "Raw cashews",
+    "Roasted cashews"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "galactans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 15-20 cashews",
+      "cups": "1/8 cup"
+    }
+  },
+  "siboNotes": "Cashews are well-tolerated on SIBO diets at moderate portions. Their lower fiber content compared to other nuts makes them gentler on sensitive digestive systems.",
+  "preparationTips": [
+    "Choose unsalted, unroasted varieties to avoid digestive irritation",
+    "Soak raw cashews for 2-4 hours to make them easier to digest",
+    "Start with smaller portions (10-15 nuts) if you're newly introducing FODMAPs",
+    "Store in airtight containers to maintain freshness and prevent rancidity"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Lactose-free cheese",
+    "Carrots",
+    "Bell peppers",
+    "Strawberries"
+  ],
+  "nutritionalHighlights": [
+    "Rich in heart-healthy monounsaturated fats",
+    "Good source of magnesium for muscle and nerve function",
+    "Contains copper for immune system support",
+    "Provides zinc for wound healing and immune function"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

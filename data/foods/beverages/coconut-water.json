@@ -1,0 +1,42 @@
+{
+  "id": "coconut-water",
+  "name": "Coconut Water",
+  "aliases": [
+    "coconut juice",
+    "coconut milk water"
+  ],
+  "category": "beverage",
+  "subcategory": "tropical",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well tolerated in SIBO as it's naturally FODMAP-free and provides electrolytes without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Choose pure coconut water without added sugars or fruit juices",
+    "Chill before serving for best taste",
+    "Check labels to avoid varieties with high FODMAP additives like apple juice",
+    "Fresh coconut water from young coconuts is ideal if available"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "plain rice cakes",
+    "low FODMAP smoothies with spinach and banana",
+    "grilled chicken or fish",
+    "post-workout snacks with low FODMAP nuts",
+    "tropical fruit salads with kiwi and pineapple"
+  ],
+  "nutritionalHighlights": [
+    "Rich in potassium for heart health and muscle function",
+    "Natural electrolytes for hydration",
+    "Low in calories compared to fruit juices",
+    "Contains magnesium and manganese"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

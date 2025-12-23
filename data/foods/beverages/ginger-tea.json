@@ -1,0 +1,48 @@
+{
+  "id": "ginger-tea",
+  "name": "Ginger Tea",
+  "aliases": [
+    "Fresh ginger tea",
+    "Ginger root tea",
+    "Ginger infusion"
+  ],
+  "category": "beverage",
+  "subcategory": "herbal-tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Fresh ginger tea is well-tolerated and may help with digestive symptoms and nausea, making it beneficial for SIBO management.",
+  "preparationTips": [
+    "Use fresh ginger root for best flavor and digestive benefits",
+    "Steep 1-2 inches of sliced fresh ginger in hot water for 5-10 minutes",
+    "Add a slice of lemon for extra flavor without FODMAPs",
+    "Strain out ginger pieces before drinking if desired"
+  ],
+  "alternatives": [
+    "Peppermint tea",
+    "Chamomile tea",
+    "Green tea",
+    "Lemon balm tea"
+  ],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Plain oats",
+    "Lactose-free yogurt",
+    "Banana",
+    "Carrots"
+  ],
+  "nutritionalHighlights": [
+    "Anti-inflammatory gingerols",
+    "Digestive support compounds",
+    "Antioxidants",
+    "Natural nausea relief"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

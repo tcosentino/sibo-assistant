@@ -1,0 +1,42 @@
+{
+  "id": "pastrami",
+  "name": "Pastrami",
+  "aliases": [
+    "Cured beef",
+    "Smoked beef brisket"
+  ],
+  "category": "protein",
+  "subcategory": "beef",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 thin slices",
+      "cups": "1/2 cup sliced"
+    }
+  },
+  "siboNotes": "Plain pastrami is naturally FODMAP-free, but check for garlic or onion seasonings in commercial varieties which could trigger SIBO symptoms.",
+  "preparationTips": [
+    "Choose plain pastrami without garlic or onion powder in the seasoning blend",
+    "Read labels carefully as some commercial brands add FODMAP-containing spices",
+    "Rinse slices if concerned about excess sodium for SIBO management",
+    "Serve at room temperature or lightly warmed to aid digestion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Lactose-free aged cheddar",
+    "Cucumber slices",
+    "Mustard (garlic-free)",
+    "Pickles (dill, no garlic)"
+  ],
+  "nutritionalHighlights": [
+    "High-quality complete protein (20-25g per 100g)",
+    "Rich in B vitamins, especially B12",
+    "Good source of iron and zinc",
+    "Contains selenium for antioxidant support"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

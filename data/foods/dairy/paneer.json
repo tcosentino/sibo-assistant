@@ -1,0 +1,42 @@
+{
+  "id": "paneer",
+  "name": "Paneer",
+  "aliases": [
+    "Indian cottage cheese",
+    "fresh cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "fresh-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz or 1/2 cup cubed",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's a fresh cheese with minimal lactose content due to the cheese-making process removing most whey.",
+  "preparationTips": [
+    "Choose plain paneer without added seasonings or marinades",
+    "Can be eaten fresh or cooked in curries and stir-fries",
+    "Store in refrigerator and use within 3-5 days of opening",
+    "Rinse gently before use if packed in salted water"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Spinach (low FODMAP portion)",
+    "Bell peppers",
+    "Tomatoes",
+    "Ginger and turmeric",
+    "Basmati rice"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (18-20g per 100g)",
+    "Good source of calcium for bone health",
+    "Contains B-vitamins, especially B12",
+    "Provides healthy fats and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "oolong-tea",
+  "name": "Oolong Tea",
+  "aliases": [
+    "Wu Long Tea",
+    "Blue Tea",
+    "Semi-Fermented Tea"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain oolong tea is naturally FODMAP-free and well-tolerated. Avoid adding high FODMAP sweeteners or milk containing lactose.",
+  "preparationTips": [
+    "Brew with hot water (185-205°F) for 3-5 minutes for optimal flavor",
+    "Can be steeped multiple times - each steeping reveals different flavor notes",
+    "Avoid adding honey, agave, or regular milk which contain FODMAPs",
+    "Use lactose-free milk or small amounts of hard cheese for creaminess if desired"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Low FODMAP nuts like almonds",
+    "Strawberries",
+    "Dark chocolate (check cocoa content)",
+    "Ginger cookies (homemade with suitable flour)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants, particularly polyphenols and catechins",
+    "Contains moderate caffeine (less than black tea, more than green tea)",
+    "May support metabolism and heart health",
+    "Provides beneficial flavonoids without calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

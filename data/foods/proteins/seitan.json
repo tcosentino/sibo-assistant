@@ -1,0 +1,50 @@
+{
+  "id": "seitan",
+  "name": "Seitan",
+  "aliases": [
+    "wheat gluten",
+    "vital wheat gluten",
+    "wheat meat"
+  ],
+  "category": "protein",
+  "subcategory": "wheat-protein",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 30,
+      "description": "About 1 oz or small piece",
+      "cups": "1/4 cup diced"
+    }
+  },
+  "siboNotes": "Contains concentrated wheat fructans and should be avoided during SIBO treatment phases. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check ingredient lists as commercial seitan may contain onion and garlic",
+    "Homemade versions allow better control over FODMAP ingredients",
+    "Some brands use soy sauce which may add additional FODMAPs",
+    "Consider portion size carefully as fructan content is concentrated"
+  ],
+  "alternatives": [
+    "firm tofu",
+    "tempeh (small portions)",
+    "chicken breast",
+    "turkey slices"
+  ],
+  "pairsWellWith": [
+    "bok choy",
+    "carrots",
+    "bell peppers",
+    "ginger",
+    "scallion greens"
+  ],
+  "nutritionalHighlights": [
+    "high protein content",
+    "good source of selenium",
+    "contains iron",
+    "provides B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

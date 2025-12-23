@@ -1,0 +1,60 @@
+{
+  "id": "whole-milk",
+  "name": "Whole Milk",
+  "aliases": [
+    "Regular milk",
+    "Full-fat milk",
+    "3.25% milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 60,
+      "description": "1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "high": {
+      "grams": 125,
+      "description": "1/2 cup or more",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "High lactose content can feed bacterial overgrowth in SIBO patients. Even small amounts may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Use lactase enzyme drops to break down lactose before consuming",
+    "Heat milk gently to preserve nutritional value",
+    "Store refrigerated and use within expiration date",
+    "Consider using only in small amounts for cooking or baking"
+  ],
+  "alternatives": [
+    "Lactose-free whole milk",
+    "Almond milk (unsweetened)",
+    "Rice milk",
+    "Oat milk (small servings)"
+  ],
+  "pairsWellWith": [
+    "Gluten-free oats",
+    "Low-FODMAP cereals",
+    "Bananas",
+    "Strawberries",
+    "Dark chocolate (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "High in calcium for bone health",
+    "Complete protein with all essential amino acids",
+    "Rich in vitamin B12 and riboflavin",
+    "Good source of phosphorus and potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

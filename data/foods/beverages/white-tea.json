@@ -1,0 +1,43 @@
+{
+  "id": "white-tea",
+  "name": "White Tea",
+  "aliases": [
+    "Silver Needle Tea",
+    "White Peony Tea",
+    "Bai Hao Yin Zhen"
+  ],
+  "category": "beverage",
+  "subcategory": "tea",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "1 cup brewed tea",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Plain white tea is SIBO-friendly and may have gentle anti-inflammatory properties. Avoid adding high FODMAP sweeteners or milk.",
+  "preparationTips": [
+    "Brew with water heated to 175-185°F (80-85°C) to preserve delicate flavor",
+    "Steep for 2-4 minutes to avoid bitterness",
+    "Sweeten with maple syrup (1 tbsp max) or stevia if needed",
+    "Can be enjoyed hot or iced throughout the day"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice crackers",
+    "Low FODMAP cookies",
+    "Hard cheeses",
+    "Strawberries",
+    "Dark chocolate (70% cacao or higher)"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants, particularly catechins",
+    "Contains minimal caffeine (15-30mg per cup)",
+    "Naturally calorie-free without additives",
+    "May support heart health and skin health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

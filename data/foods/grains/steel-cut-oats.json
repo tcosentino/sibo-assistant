@@ -1,0 +1,43 @@
+{
+  "id": "steel-cut-oats",
+  "name": "Steel Cut Oats",
+  "aliases": [
+    "Irish oats",
+    "pinhead oats",
+    "coarse oatmeal"
+  ],
+  "category": "grain",
+  "subcategory": "oats",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 52,
+      "description": "About 1/2 cup dry",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Steel cut oats are well-tolerated and provide beneficial soluble fiber that can help regulate gut bacteria without feeding SIBO overgrowth.",
+  "preparationTips": [
+    "Soak overnight to reduce cooking time and improve digestibility",
+    "Cook with low-FODMAP milk alternatives like lactose-free milk or almond milk",
+    "Add low-FODMAP toppings like blueberries, strawberries, or maple syrup",
+    "Store cooked oats in refrigerator for up to 5 days for meal prep"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Blueberries",
+    "Strawberries",
+    "Walnuts",
+    "Maple syrup",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "High in soluble fiber (beta-glucan)",
+    "Good source of protein",
+    "Rich in manganese and phosphorus",
+    "Contains heart-healthy compounds"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

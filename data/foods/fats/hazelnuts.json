@@ -1,0 +1,47 @@
+{
+  "id": "hazelnuts",
+  "name": "Hazelnuts",
+  "aliases": [
+    "filberts",
+    "cobnuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 20 hazelnuts",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Well tolerated on SIBO diet as they're naturally FODMAP-free and provide beneficial fats without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Toast lightly to enhance flavor and improve digestibility",
+    "Remove skins by roasting then rubbing with a clean towel if desired",
+    "Chop or grind just before use to prevent rancidity",
+    "Store in airtight container in refrigerator for extended freshness"
+  ],
+  "alternatives": [
+    "Almonds",
+    "Walnuts",
+    "Pecans",
+    "Macadamia nuts"
+  ],
+  "pairsWellWith": [
+    "Dark chocolate",
+    "Strawberries",
+    "Spinach salads",
+    "Aged cheddar cheese",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E and antioxidants",
+    "Rich in heart-healthy monounsaturated fats",
+    "Good source of magnesium and copper",
+    "Contains folate and dietary fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

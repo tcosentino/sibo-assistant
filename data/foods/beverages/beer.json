@@ -1,0 +1,61 @@
+{
+  "id": "beer",
+  "name": "Beer",
+  "aliases": [
+    "lager",
+    "ale",
+    "pilsner",
+    "wheat beer"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 375,
+      "description": "1 standard bottle/can",
+      "cups": "1½ cups"
+    },
+    "moderate": {
+      "grams": 750,
+      "description": "2 standard bottles/cans",
+      "cups": "3 cups"
+    },
+    "high": {
+      "grams": 1125,
+      "description": "3+ standard bottles/cans",
+      "cups": "4½+ cups"
+    }
+  },
+  "siboNotes": "Beer contains fructans from barley/wheat which can feed SIBO bacteria. Limit to 1 serving and avoid wheat beers during SIBO treatment.",
+  "preparationTips": [
+    "Choose lighter beers over dark or wheat beers for potentially lower FODMAP content",
+    "Drink with food to slow absorption and reduce digestive impact",
+    "Stay hydrated with water between alcoholic drinks",
+    "Avoid beers with added fruit flavors or high fructose corn syrup"
+  ],
+  "alternatives": [
+    "Gin with tonic water (check tonic ingredients)",
+    "Vodka with low-FODMAP mixers",
+    "Wine (dry varieties)",
+    "Hard cider made with low-FODMAP fruits"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Aged cheddar cheese",
+    "Salted peanuts",
+    "Corn chips with salsa",
+    "Barbecued meats"
+  ],
+  "nutritionalHighlights": [
+    "B vitamins (especially folate and niacin)",
+    "Silicon for bone health",
+    "Antioxidants from hops",
+    "Moderate alcohol content (4-6%)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

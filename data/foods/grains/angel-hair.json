@@ -1,0 +1,60 @@
+{
+  "id": "angel-hair",
+  "name": "Angel Hair",
+  "aliases": [
+    "Angel Hair Pasta",
+    "Capellini",
+    "Thin Spaghetti"
+  ],
+  "category": "grain",
+  "subcategory": "pasta",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0 cups"
+    },
+    "moderate": {
+      "grams": 35,
+      "description": "Small portion, about 1/4 cup dry",
+      "cups": "1/4 cup dry"
+    },
+    "high": {
+      "grams": 70,
+      "description": "Regular serving, about 1/2 cup dry",
+      "cups": "1/2 cup dry"
+    }
+  },
+  "siboNotes": "Contains wheat fructans which feed SIBO bacteria. Consider gluten-free alternatives made from rice or corn during elimination phase.",
+  "preparationTips": [
+    "Cook al dente to potentially reduce FODMAP content slightly",
+    "Rinse well after cooking to remove excess starch",
+    "Pair with low-FODMAP sauces only",
+    "Consider portion control if attempting reintroduction"
+  ],
+  "alternatives": [
+    "Rice noodles",
+    "Corn pasta",
+    "Quinoa pasta",
+    "Zucchini noodles"
+  ],
+  "pairsWellWith": [
+    "Olive oil",
+    "Fresh basil",
+    "Parmesan cheese",
+    "Cherry tomatoes",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "B-vitamins if enriched",
+    "Iron if fortified",
+    "Quick-cooking convenience"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

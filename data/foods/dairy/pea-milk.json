@@ -1,0 +1,48 @@
+{
+  "id": "pea-milk",
+  "name": "Pea Milk",
+  "aliases": [
+    "Split pea milk",
+    "Yellow pea milk",
+    "Plant-based pea milk"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 240,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Pea milk is generally well-tolerated as it's naturally FODMAP-free, but some brands may contain high-FODMAP additives like inulin or chicory root.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added sugars",
+    "Check ingredient labels for FODMAP-containing thickeners or sweeteners",
+    "Shake well before use as separation is natural",
+    "Can be used 1:1 as dairy milk replacement in most recipes"
+  ],
+  "alternatives": [
+    "Lactose-free dairy milk",
+    "Rice milk",
+    "Oat milk (small servings)",
+    "Almond milk"
+  ],
+  "pairsWellWith": [
+    "Low-FODMAP cereals",
+    "Gluten-free oats",
+    "Strawberries",
+    "Blueberries",
+    "Maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "High in plant-based protein (8-10g per cup)",
+    "Often fortified with calcium and vitamin D",
+    "Contains essential amino acids",
+    "Lower in calories than dairy milk"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cashew-butter",
+  "name": "Cashew Butter",
+  "aliases": [
+    "Cashew nut butter",
+    "Ground cashews"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 32,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as cashews are low FODMAP, but high fat content may slow digestion in some SIBO patients.",
+  "preparationTips": [
+    "Choose natural cashew butter without added sugars or high FODMAP ingredients",
+    "Store in refrigerator to prevent rancidity",
+    "Stir well before use as natural oils separate",
+    "Check labels for garlic or onion powder additives"
+  ],
+  "alternatives": [
+    "Peanut butter (2 tbsp)",
+    "Almond butter (1 tbsp)",
+    "Macadamia butter (2 tbsp)",
+    "Tahini (1 tbsp)"
+  ],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Sourdough spelt bread",
+    "Green banana",
+    "Strawberries",
+    "Dark chocolate (70%+ cacao)"
+  ],
+  "nutritionalHighlights": [
+    "Healthy monounsaturated fats",
+    "Magnesium for muscle and nerve function",
+    "Copper for immune system support",
+    "Plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

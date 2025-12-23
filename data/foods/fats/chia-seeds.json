@@ -1,0 +1,41 @@
+{
+  "id": "chia-seeds",
+  "name": "Chia Seeds",
+  "aliases": [
+    "Salvia hispanica seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as they're FODMAP-free, but high fiber content may cause digestive discomfort in sensitive individuals.",
+  "preparationTips": [
+    "Soak in liquid for 10-15 minutes to create a gel-like consistency that's easier to digest",
+    "Start with smaller amounts (1 tsp) and gradually increase to assess tolerance",
+    "Grind seeds for better nutrient absorption and easier digestion",
+    "Always consume with adequate liquid to prevent digestive blockage"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low-FODMAP smoothies with lactose-free milk",
+    "Gluten-free oatmeal or quinoa porridge",
+    "Low-FODMAP fruits like strawberries or kiwi",
+    "Coconut yogurt (check labels for additives)",
+    "Homemade low-FODMAP granola"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of omega-3 fatty acids (ALA)",
+    "High in fiber (10g per ounce)",
+    "Rich in protein with all essential amino acids",
+    "Good source of calcium, phosphorus, and magnesium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "smoked-paprika",
+  "name": "Smoked Paprika",
+  "aliases": [
+    "Pimenton",
+    "Spanish Paprika",
+    "Smoked Sweet Paprika"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 tsp"
+    }
+  },
+  "siboNotes": "Pure smoked paprika is FODMAP-free and generally well-tolerated. Check labels to ensure no garlic or onion powder has been added.",
+  "preparationTips": [
+    "Store in airtight container away from light to preserve flavor",
+    "Toast briefly in dry pan to enhance smokiness before adding to dishes",
+    "Add at end of cooking to prevent bitterness from overcooking",
+    "A little goes a long way - start with 1/4 teaspoon and adjust to taste"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "roasted potatoes",
+    "olive oil",
+    "hard cheeses",
+    "eggs"
+  ],
+  "nutritionalHighlights": [
+    "Vitamin A",
+    "Antioxidants (capsanthin)",
+    "Vitamin E",
+    "Iron"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

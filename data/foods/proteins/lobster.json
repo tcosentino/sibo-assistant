@@ -1,0 +1,44 @@
+{
+  "id": "lobster",
+  "name": "Lobster",
+  "aliases": [
+    "Maine lobster",
+    "Atlantic lobster",
+    "lobster tail",
+    "lobster meat"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 1 medium lobster tail or 3/4 cup cooked meat",
+      "cups": "3/4 cup"
+    }
+  },
+  "siboNotes": "Excellent protein choice for SIBO as it's naturally FODMAP-free and easy to digest. Choose simple preparations without high-FODMAP seasonings.",
+  "preparationTips": [
+    "Steam, boil, or grill with FODMAP-friendly herbs like chives or basil",
+    "Avoid garlic butter - use garlic-infused oil instead",
+    "Season with lemon, salt, pepper, and fresh herbs",
+    "Pair with low-FODMAP vegetables for a complete meal"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "steamed carrots",
+    "green beans",
+    "zucchini",
+    "lemon wedges",
+    "chives"
+  ],
+  "nutritionalHighlights": [
+    "high-quality complete protein",
+    "vitamin B12",
+    "zinc",
+    "selenium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

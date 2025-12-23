@@ -1,0 +1,48 @@
+{
+  "id": "tallow",
+  "name": "Tallow",
+  "aliases": [
+    "beef tallow",
+    "rendered beef fat",
+    "beef dripping"
+  ],
+  "category": "fat",
+  "subcategory": "animal-fat",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure animal fats are well-tolerated on SIBO diets as they contain no fermentable carbohydrates. High in saturated fat, so use in moderation.",
+  "preparationTips": [
+    "Store solidified tallow at room temperature or refrigerate for longer storage",
+    "Heat gently to liquid form for cooking - excellent for high-temperature frying",
+    "Strain homemade tallow through cheesecloth to remove any remaining protein particles",
+    "Can be used as a butter substitute for those avoiding dairy"
+  ],
+  "alternatives": [
+    "Coconut oil",
+    "Avocado oil",
+    "Olive oil",
+    "Duck fat"
+  ],
+  "pairsWellWith": [
+    "Root vegetables for roasting",
+    "Potatoes",
+    "Carrots",
+    "Beef and other meats",
+    "Low-FODMAP herbs and spices"
+  ],
+  "nutritionalHighlights": [
+    "High in saturated fats",
+    "Contains fat-soluble vitamins A, D, E, K",
+    "Source of conjugated linoleic acid (CLA)",
+    "Stable at high cooking temperatures"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

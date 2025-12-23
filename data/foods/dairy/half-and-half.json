@@ -1,0 +1,60 @@
+{
+  "id": "half-and-half",
+  "name": "Half and Half",
+  "aliases": [
+    "light cream",
+    "coffee cream",
+    "half & half"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "Small amounts (1 tablespoon) may be tolerated during SIBO healing phases. Lactose-free versions are preferred for sensitive individuals.",
+  "preparationTips": [
+    "Use lactose-free half and half as a direct substitute",
+    "Start with small amounts (1 tablespoon) to test tolerance",
+    "Consider diluting with lactose-free milk for larger volumes",
+    "Store properly refrigerated and use within expiration date"
+  ],
+  "alternatives": [
+    "Lactose-free half and half",
+    "Coconut cream (small amounts)",
+    "Canned coconut milk (light)",
+    "Almond milk creamer (unsweetened)"
+  ],
+  "pairsWellWith": [
+    "Coffee and tea",
+    "Low-FODMAP cereals",
+    "Oatmeal and quinoa porridge",
+    "Lactose-free baked goods",
+    "Smoothies with low-FODMAP fruits"
+  ],
+  "nutritionalHighlights": [
+    "Good source of calcium for bone health",
+    "Provides vitamin A for eye health",
+    "Contains protein for muscle maintenance",
+    "Source of vitamin D (if fortified)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

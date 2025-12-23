@@ -1,0 +1,42 @@
+{
+  "id": "rice-vinegar",
+  "name": "Rice Vinegar",
+  "aliases": [
+    "Rice Wine Vinegar",
+    "Seasoned Rice Vinegar"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Rice vinegar is well-tolerated and may help with digestion due to its acidity. Use freely in SIBO-friendly recipes.",
+  "preparationTips": [
+    "Choose unseasoned rice vinegar to avoid added sugars or garlic",
+    "Store in a cool, dark place after opening",
+    "Use in salad dressings, marinades, and Asian-inspired dishes",
+    "Mix with low-FODMAP oils for quick vinaigrettes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "sesame oil",
+    "ginger",
+    "scallions (green parts)",
+    "carrots",
+    "cucumber"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains trace amounts of potassium",
+    "Naturally gluten-free",
+    "May support blood sugar balance"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

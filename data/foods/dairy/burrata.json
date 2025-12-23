@@ -1,0 +1,49 @@
+{
+  "id": "burrata",
+  "name": "Burrata",
+  "aliases": [
+    "burrata cheese",
+    "fresh burrata"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "high": {
+      "grams": 50,
+      "description": "About 1/4 cup or small portion",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High lactose content makes burrata problematic for SIBO. Even small amounts can trigger symptoms due to the fresh, unaged nature of this cheese.",
+  "preparationTips": [
+    "Use lactase enzyme supplements if consuming",
+    "Start with very small portions to test tolerance",
+    "Pair with lactose-free foods to slow digestion",
+    "Choose well-aged alternatives for better tolerance"
+  ],
+  "alternatives": [
+    "Aged hard cheeses like Parmesan or aged cheddar",
+    "Lactose-free mozzarella",
+    "Firm tofu for creamy texture",
+    "Cashew-based cheese alternatives"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP tomatoes",
+    "Fresh basil",
+    "Gluten-free bread",
+    "Olive oil",
+    "Balsamic vinegar (small amounts)"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and calcium",
+    "Rich in vitamin B12",
+    "Contains conjugated linoleic acid (CLA)",
+    "Good source of phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

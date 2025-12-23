@@ -1,0 +1,60 @@
+{
+  "id": "chocolate-syrup",
+  "name": "Chocolate Syrup",
+  "aliases": [
+    "chocolate sauce",
+    "chocolate topping",
+    "hot fudge syrup"
+  ],
+  "category": "sweetener",
+  "subcategory": "syrup",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 45,
+      "description": "About 3 tablespoons or more",
+      "cups": "3+ tablespoons"
+    }
+  },
+  "siboNotes": "Contains high fructose corn syrup which can feed bacterial overgrowth. Use sparingly and consider glucose-based alternatives for SIBO management.",
+  "preparationTips": [
+    "Choose brands without high fructose corn syrup when possible",
+    "Warm gently to improve pourability",
+    "Store in refrigerator after opening",
+    "Mix with lactose-free milk for chocolate milk"
+  ],
+  "alternatives": [
+    "Pure maple syrup (small amounts)",
+    "Rice malt syrup",
+    "Glucose syrup",
+    "Dark chocolate melted with lactose-free milk"
+  ],
+  "pairsWellWith": [
+    "lactose-free ice cream",
+    "strawberries",
+    "bananas",
+    "gluten-free pancakes",
+    "rice cakes"
+  ],
+  "nutritionalHighlights": [
+    "provides quick energy from sugars",
+    "contains small amounts of cocoa antioxidants",
+    "high in calories",
+    "minimal protein or fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "spicy-brown-mustard",
+  "name": "Spicy Brown Mustard",
+  "aliases": [
+    "Deli mustard",
+    "Stone ground mustard",
+    "Whole grain mustard"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as mustard seeds are naturally low in fermentable carbohydrates.",
+  "preparationTips": [
+    "Check labels for added garlic or onion powder which would make it high FODMAP",
+    "Look for brands with simple ingredients: mustard seeds, vinegar, salt, and spices",
+    "Store opened mustard in refrigerator for best quality",
+    "A little goes a long way for flavor enhancement"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or turkey",
+    "Low FODMAP sandwich bread",
+    "Roasted carrots or parsnips",
+    "Hard cheeses like cheddar",
+    "Cooked potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains selenium from mustard seeds",
+    "Provides small amounts of magnesium and phosphorus",
+    "Virtually fat-free and sugar-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "coconut-yogurt",
+  "name": "Coconut Yogurt",
+  "aliases": [
+    "coconut yoghurt",
+    "dairy-free yogurt",
+    "plant-based yogurt"
+  ],
+  "category": "dairy",
+  "subcategory": "dairy-alternative",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's naturally lactose-free and typically doesn't contain high FODMAP ingredients. Check labels for added inulin or other high FODMAP thickeners.",
+  "preparationTips": [
+    "Check ingredient labels for added inulin, chicory root, or other high FODMAP additives",
+    "Choose plain varieties to avoid high FODMAP fruit additions",
+    "Look for products with live cultures for gut health benefits",
+    "Can be used as direct substitute for dairy yogurt in recipes"
+  ],
+  "alternatives": [
+    "Lactose-free Greek yogurt",
+    "Almond yogurt (plain)",
+    "Rice yogurt",
+    "Hemp yogurt"
+  ],
+  "pairsWellWith": [
+    "Fresh strawberries",
+    "Blueberries",
+    "Walnuts",
+    "Chia seeds",
+    "Pure maple syrup"
+  ],
+  "nutritionalHighlights": [
+    "Medium-chain triglycerides (MCTs) from coconut",
+    "Often fortified with calcium and vitamin D",
+    "Probiotic cultures for digestive health",
+    "Lower protein than dairy yogurt but dairy-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "acesulfame-k",
+  "name": "Acesulfame K",
+  "aliases": [
+    "Acesulfame potassium",
+    "Ace-K",
+    "E950",
+    "Sunett",
+    "Sweet One"
+  ],
+  "category": "sweetener",
+  "subcategory": "artificial-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "Typical serving amount in foods and beverages",
+      "cups": "2-3 packets"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's not fermented by gut bacteria, making it suitable for SIBO management.",
+  "preparationTips": [
+    "Heat-stable, making it suitable for baking and cooking",
+    "Often blended with other sweeteners to improve taste profile",
+    "No calories or carbohydrates, won't affect blood sugar",
+    "Use sparingly as it's 200 times sweeter than sugar"
+  ],
+  "alternatives": [
+    "Stevia (pure leaf extract)",
+    "Monk fruit sweetener",
+    "Sucralose",
+    "Small amounts of maple syrup (2 tablespoons max)"
+  ],
+  "pairsWellWith": [
+    "Coffee and tea",
+    "Low-FODMAP fruits like strawberries",
+    "Plain yogurt (lactose-free)",
+    "Low-FODMAP baking ingredients",
+    "Sugar-free beverages"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "No impact on blood glucose levels",
+    "Does not contribute to tooth decay",
+    "Potassium content is negligible"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

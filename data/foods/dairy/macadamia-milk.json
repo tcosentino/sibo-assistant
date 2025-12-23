@@ -1,0 +1,47 @@
+{
+  "id": "macadamia-milk",
+  "name": "Macadamia Milk",
+  "aliases": [
+    "Macadamia Nut Milk",
+    "Macadamia Beverage"
+  ],
+  "category": "dairy",
+  "subcategory": "nut-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated as it's naturally low FODMAP and free from common SIBO triggers like inulin or excess fiber.",
+  "preparationTips": [
+    "Check ingredient labels to avoid added inulin, chicory root, or high FODMAP sweeteners",
+    "Choose unsweetened varieties or those sweetened with maple syrup in small amounts",
+    "Store opened cartons in refrigerator and use within 7-10 days",
+    "Shake well before using as natural separation occurs"
+  ],
+  "alternatives": [
+    "Almond milk (unsweetened)",
+    "Rice milk",
+    "Coconut milk (canned, small amounts)",
+    "Lactose-free dairy milk"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Gluten-free oats",
+    "Coffee or tea",
+    "Smoothies with low FODMAP fruits",
+    "Chia seeds"
+  ],
+  "nutritionalHighlights": [
+    "Rich in healthy monounsaturated fats",
+    "Lower in protein compared to dairy milk",
+    "Often fortified with calcium and vitamin D",
+    "Naturally lactose-free and dairy-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

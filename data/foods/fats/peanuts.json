@@ -1,0 +1,42 @@
+{
+  "id": "peanuts",
+  "name": "Peanuts",
+  "aliases": [
+    "groundnuts",
+    "monkey nuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 32,
+      "description": "About 2 tablespoons or small handful",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as they're naturally FODMAP-free, though portion control is important due to high fat content.",
+  "preparationTips": [
+    "Choose plain roasted or raw peanuts without added onion or garlic powder",
+    "Limit to recommended serving size to avoid digestive discomfort from high fat content",
+    "Store in airtight container to maintain freshness and prevent rancidity",
+    "Natural peanut butter (just peanuts and salt) is also low FODMAP at 2 tablespoons"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "rice cakes",
+    "bananas",
+    "dark chocolate (70% cacao)",
+    "carrots",
+    "celery sticks"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (7g per serving)",
+    "Rich in healthy monounsaturated fats",
+    "Good source of niacin and folate",
+    "Contains magnesium and phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

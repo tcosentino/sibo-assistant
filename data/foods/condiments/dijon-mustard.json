@@ -1,0 +1,47 @@
+{
+  "id": "dijon-mustard",
+  "name": "Dijon Mustard",
+  "aliases": [
+    "French mustard",
+    "stone-ground mustard"
+  ],
+  "category": "condiment",
+  "subcategory": "mustard",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diets as it contains no fermentable carbohydrates. Use sparingly if sensitive to sulfur compounds.",
+  "preparationTips": [
+    "Check ingredient labels to avoid added garlic or onion powder",
+    "Store in refrigerator after opening to maintain quality",
+    "Mix with low-FODMAP herbs like chives for enhanced flavor",
+    "Use as a base for salad dressings with olive oil and vinegar"
+  ],
+  "alternatives": [
+    "Yellow mustard",
+    "Whole grain mustard",
+    "Mustard powder with water",
+    "Horseradish sauce"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted vegetables",
+    "Hard cheeses",
+    "Sourdough bread",
+    "Potato dishes"
+  ],
+  "nutritionalHighlights": [
+    "Very low in calories",
+    "Contains selenium and magnesium",
+    "Source of antioxidants from mustard seeds",
+    "Virtually fat-free and sugar-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "garam-masala",
+  "name": "Garam Masala",
+  "aliases": [
+    "Indian spice blend",
+    "warming spice mix"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Traditional garam masala is well-tolerated in typical cooking amounts. Avoid pre-made blends that may contain onion or garlic powder.",
+  "preparationTips": [
+    "Use authentic blends with whole spices (cumin, coriander, cardamom, cinnamon, cloves)",
+    "Make your own blend to ensure no garlic or onion powder is added",
+    "Store in airtight container to maintain potency and freshness",
+    "Toast whole spices lightly before grinding for enhanced flavor"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Basmati rice",
+    "Chicken breast",
+    "Lamb",
+    "Carrots",
+    "Potatoes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants from diverse spices",
+    "Contains anti-inflammatory compounds",
+    "Good source of manganese and iron",
+    "May support digestive health in small amounts"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

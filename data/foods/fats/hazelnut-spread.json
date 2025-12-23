@@ -1,0 +1,43 @@
+{
+  "id": "hazelnut-spread",
+  "name": "Hazelnut Spread",
+  "aliases": [
+    "Nutella",
+    "Chocolate hazelnut spread",
+    "Nut butter spread"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts, though high sugar content may feed bacterial overgrowth in sensitive individuals.",
+  "preparationTips": [
+    "Stick to 1 tablespoon serving to maintain low FODMAP status",
+    "Choose brands with minimal added sugars when possible",
+    "Store at room temperature for easier spreading",
+    "Warm slightly if refrigerated for better consistency"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Gluten-free bread",
+    "Rice cakes",
+    "Strawberries",
+    "Banana (1/3 medium)",
+    "Lactose-free milk"
+  ],
+  "nutritionalHighlights": [
+    "Healthy monounsaturated fats from hazelnuts",
+    "Vitamin E and antioxidants",
+    "Quick energy from natural sugars",
+    "Small amounts of protein and fiber"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

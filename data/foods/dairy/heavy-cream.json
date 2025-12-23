@@ -1,0 +1,48 @@
+{
+  "id": "heavy-cream",
+  "name": "Heavy Cream",
+  "aliases": [
+    "Heavy Whipping Cream",
+    "Double Cream",
+    "Whipping Cream"
+  ],
+  "category": "dairy",
+  "subcategory": "cream",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Heavy cream is naturally very low in lactose due to high fat content, making it well-tolerated in SIBO. The fat content may slow gastric emptying, which can be beneficial for some SIBO patients.",
+  "preparationTips": [
+    "Use room temperature cream for better whipping results",
+    "Can be frozen in ice cube trays for convenient portioning",
+    "Avoid ultra-pasteurized versions if making cultured dairy products",
+    "Store opened cream for maximum 7-10 days refrigerated"
+  ],
+  "alternatives": [
+    "Coconut cream (canned, full-fat)",
+    "Lactose-free heavy cream",
+    "Cashew cream (made from soaked cashews)",
+    "Silken tofu blended with plant milk"
+  ],
+  "pairsWellWith": [
+    "Fresh berries (strawberries, blueberries)",
+    "Low FODMAP herbs (chives, basil)",
+    "Vanilla extract",
+    "Maple syrup (small amounts)",
+    "Dark chocolate (low FODMAP portions)"
+  ],
+  "nutritionalHighlights": [
+    "High in fat-soluble vitamins A, D, E, K",
+    "Rich source of saturated and monounsaturated fats",
+    "Provides calcium and phosphorus",
+    "Very low in lactose compared to other dairy products"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

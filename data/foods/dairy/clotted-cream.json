@@ -1,0 +1,43 @@
+{
+  "id": "clotted-cream",
+  "name": "Clotted Cream",
+  "aliases": [
+    "Devon cream",
+    "Cornish cream",
+    "clouted cream"
+  ],
+  "category": "dairy",
+  "subcategory": "cream",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Clotted cream is naturally low in lactose due to its high fat content and processing method, making it generally well-tolerated for SIBO patients. The minimal carbohydrate content means less bacterial fermentation potential.",
+  "preparationTips": [
+    "Store refrigerated and use within 3-4 days of opening",
+    "Allow to come to room temperature for 10-15 minutes before serving for best texture",
+    "Don't heat directly as it may separate due to high fat content",
+    "Pair with low-FODMAP scones or strawberries for traditional cream tea"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low-FODMAP scones",
+    "Strawberries",
+    "Blueberries",
+    "Sourdough spelt bread",
+    "Low-FODMAP jam"
+  ],
+  "nutritionalHighlights": [
+    "High in saturated fat and calories",
+    "Rich in fat-soluble vitamins A and D",
+    "Good source of calcium",
+    "Contains beneficial fatty acids"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

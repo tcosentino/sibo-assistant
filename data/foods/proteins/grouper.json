@@ -1,0 +1,43 @@
+{
+  "id": "grouper",
+  "name": "Grouper",
+  "aliases": [
+    "Red grouper",
+    "Black grouper",
+    "Gag grouper"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "About 5 oz fillet",
+      "cups": "1 cup cooked flaked"
+    }
+  },
+  "siboNotes": "Plain grouper is naturally FODMAP-free and well-tolerated. Focus on simple preparation methods to avoid triggering ingredients.",
+  "preparationTips": [
+    "Season with low FODMAP herbs like basil, oregano, or chives",
+    "Use garlic-infused oil instead of fresh garlic",
+    "Grill, bake, or pan-sear with olive oil and lemon",
+    "Avoid breading with wheat flour - use rice flour or cornmeal instead"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carrots",
+    "Green beans",
+    "Rice pilaf",
+    "Lemon wedges",
+    "Fresh herbs"
+  ],
+  "nutritionalHighlights": [
+    "High-quality lean protein",
+    "Selenium for antioxidant support",
+    "Vitamin B12 for nerve function",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

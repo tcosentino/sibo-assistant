@@ -1,0 +1,43 @@
+{
+  "id": "cloves",
+  "name": "Cloves",
+  "aliases": [
+    "whole cloves",
+    "ground cloves",
+    "clove powder"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 1,
+      "description": "About 1/4 teaspoon ground or 2-3 whole cloves",
+      "cups": "1/4 teaspoon"
+    }
+  },
+  "siboNotes": "Cloves are naturally FODMAP-free and may have antimicrobial properties that could be beneficial for SIBO management when used in typical culinary amounts.",
+  "preparationTips": [
+    "Use whole cloves in slow-cooked dishes and remove before serving",
+    "Grind whole cloves fresh for maximum flavor and potency",
+    "Start with small amounts as cloves have a very strong, warming flavor",
+    "Store in airtight containers away from light to preserve essential oils"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "cinnamon",
+    "nutmeg",
+    "ginger",
+    "orange zest",
+    "bay leaves"
+  ],
+  "nutritionalHighlights": [
+    "Rich in eugenol (anti-inflammatory compound)",
+    "Contains manganese",
+    "Provides antioxidants",
+    "Natural antimicrobial properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

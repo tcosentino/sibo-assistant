@@ -1,0 +1,47 @@
+{
+  "id": "soy-milk",
+  "name": "Soy Milk",
+  "aliases": [
+    "Soymilk",
+    "Soya Milk"
+  ],
+  "category": "dairy",
+  "subcategory": "plant-milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as it's naturally lactose-free and low FODMAP. Choose unsweetened varieties to avoid added high-FODMAP sweeteners.",
+  "preparationTips": [
+    "Choose unsweetened varieties to avoid added FODMAPs like inulin or high fructose corn syrup",
+    "Check ingredient labels for carrageenan, which may cause digestive upset in sensitive individuals",
+    "Shake well before use as separation is natural",
+    "Can be heated for coffee drinks or used in cooking without FODMAP concerns"
+  ],
+  "alternatives": [
+    "Lactose-free cow's milk",
+    "Rice milk (unsweetened)",
+    "Almond milk (unsweetened, small amounts)",
+    "Oat milk (limit to 1/4 cup)"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Blueberries or strawberries",
+    "Peanut butter",
+    "Coffee or tea",
+    "Lactose-free yogurt"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "Fortified with calcium and vitamin D",
+    "Contains isoflavones with potential health benefits",
+    "Lower in saturated fat than whole dairy milk"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

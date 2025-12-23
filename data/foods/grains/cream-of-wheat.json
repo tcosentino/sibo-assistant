@@ -1,0 +1,60 @@
+{
+  "id": "cream-of-wheat",
+  "name": "Cream of Wheat",
+  "aliases": [
+    "Farina",
+    "Wheat porridge",
+    "Semolina porridge"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving size",
+      "cups": "0"
+    },
+    "moderate": {
+      "grams": 20,
+      "description": "About 2 tablespoons dry",
+      "cups": "1/8 cup dry"
+    },
+    "high": {
+      "grams": 40,
+      "description": "About 1/4 cup dry (typical serving)",
+      "cups": "1/4 cup dry"
+    }
+  },
+  "siboNotes": "High in fructans and should be avoided during SIBO treatment phases. Even small amounts may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Cook with lactose-free milk to avoid additional FODMAPs",
+    "Start with very small portions if testing tolerance",
+    "Avoid adding high-FODMAP sweeteners like honey or agave",
+    "Consider enzyme supplements if attempting to consume"
+  ],
+  "alternatives": [
+    "Rice porridge",
+    "Quinoa flakes",
+    "Gluten-free oats",
+    "Polenta (corn grits)"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Blueberries",
+    "Maple syrup",
+    "Lactose-free milk",
+    "Butter"
+  ],
+  "nutritionalHighlights": [
+    "Iron fortified",
+    "B vitamins",
+    "Folic acid",
+    "Low in fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

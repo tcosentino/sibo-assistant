@@ -1,0 +1,59 @@
+{
+  "id": "condensed-milk",
+  "name": "Condensed Milk",
+  "aliases": [
+    "Sweetened Condensed Milk",
+    "Eagle Brand Milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tbsp"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    },
+    "high": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "High lactose content makes this problematic for SIBO patients. Even small amounts may trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Use sparingly in recipes - a little goes a long way for sweetness",
+    "Can be diluted with lactose-free milk to reduce concentration",
+    "Consider using in baking where lactose may be partially broken down",
+    "Store opened cans in refrigerator and use within 3-4 days"
+  ],
+  "alternatives": [
+    "Coconut condensed milk (check for inulin)",
+    "Homemade lactose-free condensed milk using lactose-free milk",
+    "Maple syrup mixed with lactose-free milk powder",
+    "Rice malt syrup for sweetening applications"
+  ],
+  "pairsWellWith": [
+    "Coffee (small amounts)",
+    "Strawberries",
+    "Dark chocolate",
+    "Rice-based desserts",
+    "Lactose-free ice cream"
+  ],
+  "nutritionalHighlights": [
+    "High in calcium and protein",
+    "Very high in sugar and calories",
+    "Contains vitamin A and riboflavin",
+    "Concentrated source of dairy nutrients"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

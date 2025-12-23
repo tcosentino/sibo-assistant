@@ -1,0 +1,47 @@
+{
+  "id": "thousand-island",
+  "name": "Thousand Island",
+  "aliases": [
+    "Thousand Island Dressing",
+    "Thousand Island Sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in small amounts, but check ingredients for high FODMAP additions like onion powder or garlic.",
+  "preparationTips": [
+    "Read labels carefully - some brands contain onion or garlic powder",
+    "Make homemade version with mayonnaise, ketchup, and pickle relish for better control",
+    "Store opened bottles in refrigerator and use within recommended timeframe",
+    "Start with smaller amounts to test individual tolerance"
+  ],
+  "alternatives": [
+    "Plain mayonnaise with herbs",
+    "Olive oil and vinegar dressing",
+    "Lemon juice with herbs",
+    "Homemade herb-infused oil"
+  ],
+  "pairsWellWith": [
+    "Lettuce and green salads",
+    "Grilled chicken or turkey",
+    "Hard-boiled eggs",
+    "Cucumber slices",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Contains vitamin E from mayonnaise base",
+    "Provides small amounts of lycopene from tomato ingredients",
+    "Source of healthy fats when made with quality oils",
+    "Low in carbohydrates per serving"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "poppy-seeds",
+  "name": "Poppy Seeds",
+  "aliases": [
+    "Blue poppy seeds",
+    "White poppy seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Seeds are well-tolerated on SIBO diets as they're naturally FODMAP-free and provide healthy fats without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Toast lightly in a dry pan for enhanced nutty flavor",
+    "Grind for better nutrient absorption and easier digestion",
+    "Store in airtight container in refrigerator to prevent rancidity",
+    "Add to baked goods, salad dressings, or yogurt for texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Lemon juice and zest",
+    "Strawberries",
+    "Lactose-free yogurt",
+    "Sourdough spelt bread",
+    "Cucumber"
+  ],
+  "nutritionalHighlights": [
+    "High in healthy monounsaturated and polyunsaturated fats",
+    "Good source of calcium and magnesium for bone health",
+    "Contains manganese for enzyme function",
+    "Provides dietary fiber for digestive health"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

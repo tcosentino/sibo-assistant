@@ -1,0 +1,47 @@
+{
+  "id": "gruyere",
+  "name": "Gruyère",
+  "aliases": [
+    "Gruyere cheese",
+    "Swiss Gruyère"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 slices or 1/3 cup grated",
+      "cups": "1/3 cup grated"
+    }
+  },
+  "siboNotes": "As an aged hard cheese, Gruyère is naturally low in lactose and well-tolerated during SIBO treatment phases.",
+  "preparationTips": [
+    "Grate fresh for best flavor and texture",
+    "Allow to come to room temperature before serving",
+    "Pairs excellently in fondue or melted applications",
+    "Store wrapped in parchment paper in refrigerator"
+  ],
+  "alternatives": [
+    "Aged cheddar",
+    "Parmesan",
+    "Emmental",
+    "Aged gouda"
+  ],
+  "pairsWellWith": [
+    "Sourdough spelt bread",
+    "Walnuts",
+    "Grapes",
+    "Lactose-free crackers",
+    "Chives"
+  ],
+  "nutritionalHighlights": [
+    "High-quality protein",
+    "Calcium for bone health",
+    "Vitamin B12",
+    "Phosphorus"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

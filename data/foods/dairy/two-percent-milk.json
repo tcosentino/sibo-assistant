@@ -1,0 +1,60 @@
+{
+  "id": "two-percent-milk",
+  "name": "2% Milk",
+  "aliases": [
+    "reduced fat milk",
+    "2% reduced fat milk",
+    "2 percent milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "low",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "moderate": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    },
+    "high": {
+      "grams": 375,
+      "description": "About 1.5 cups",
+      "cups": "1.5 cups"
+    }
+  },
+  "siboNotes": "Start with smaller portions (1/4 cup) to test tolerance, as lactose can feed bacterial overgrowth in the small intestine.",
+  "preparationTips": [
+    "Keep well-chilled and consume within expiration date",
+    "Try warming gently for better digestibility",
+    "Consider taking lactase enzyme if needed",
+    "Use in cooking and baking where lactose is better tolerated"
+  ],
+  "alternatives": [
+    "lactose-free 2% milk",
+    "almond milk (unsweetened)",
+    "rice milk",
+    "oat milk (small servings)"
+  ],
+  "pairsWellWith": [
+    "low-FODMAP cereals",
+    "strawberries",
+    "bananas",
+    "gluten-free oats",
+    "cocoa powder"
+  ],
+  "nutritionalHighlights": [
+    "high-quality protein (8g per cup)",
+    "calcium for bone health",
+    "vitamin D (fortified)",
+    "riboflavin and vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

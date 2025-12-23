@@ -1,0 +1,43 @@
+{
+  "id": "sushi-rice",
+  "name": "Sushi Rice",
+  "aliases": [
+    "Short-grain rice",
+    "Japanese rice",
+    "Calrose rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as rice is easily digestible and doesn't feed bacterial overgrowth. Avoid if rice vinegar used in preparation contains garlic.",
+  "preparationTips": [
+    "Rinse rice thoroughly before cooking to remove excess starch",
+    "Use rice vinegar without garlic for traditional sushi rice seasoning",
+    "Cook with 1.2:1 water to rice ratio for proper sushi texture",
+    "Allow to cool to room temperature before adding vinegar seasoning"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh salmon",
+    "Cucumber",
+    "Nori seaweed",
+    "Pickled ginger",
+    "Wasabi"
+  ],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates for energy",
+    "Contains B vitamins, especially niacin",
+    "Provides small amounts of protein",
+    "Naturally gluten-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

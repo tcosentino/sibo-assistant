@@ -1,0 +1,43 @@
+{
+  "id": "black-rice-forbidden-rice",
+  "name": "Black Rice (Forbidden Rice)",
+  "aliases": [
+    "Forbidden Rice",
+    "Purple Rice",
+    "Black Glutinous Rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated by most SIBO patients as rice is easily digestible and FODMAP-free. Start with smaller portions if experiencing bacterial overgrowth symptoms.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove excess starch",
+    "Soak for 30 minutes before cooking for better texture and digestibility",
+    "Use 1:2 ratio (rice to water) and simmer for 30-35 minutes",
+    "Let stand 10 minutes after cooking for optimal texture"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken or salmon",
+    "Steamed bok choy",
+    "Carrots and bell peppers",
+    "Sesame oil and ginger",
+    "Low FODMAP vegetables for stir-fries"
+  ],
+  "nutritionalHighlights": [
+    "High in anthocyanins (antioxidants that give the dark color)",
+    "Good source of fiber for digestive health",
+    "Contains iron and vitamin E",
+    "Higher protein content than white rice"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

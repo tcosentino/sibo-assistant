@@ -1,0 +1,59 @@
+{
+  "id": "greek-dressing",
+  "name": "Greek Dressing",
+  "aliases": [
+    "Greek vinaigrette",
+    "Mediterranean dressing"
+  ],
+  "category": "condiment",
+  "subcategory": "dressing",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    },
+    "moderate": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    },
+    "high": {
+      "grams": 45,
+      "description": "About 3 tablespoons",
+      "cups": "3 tablespoons"
+    }
+  },
+  "siboNotes": "Contains garlic and onion which can trigger SIBO symptoms. Use sparingly and consider garlic-infused oil versions for better tolerance.",
+  "preparationTips": [
+    "Make homemade version using garlic-infused oil instead of fresh garlic",
+    "Use dried oregano and basil for authentic Greek flavor without FODMAPs",
+    "Add lemon juice and red wine vinegar for tang without high FODMAP ingredients",
+    "Store in refrigerator and shake well before each use"
+  ],
+  "alternatives": [
+    "Garlic-infused olive oil with herbs",
+    "Simple lemon and olive oil dressing",
+    "FODMAP-friendly Italian dressing",
+    "Homemade herb vinaigrette without garlic/onion"
+  ],
+  "pairsWellWith": [
+    "Mixed greens",
+    "Cucumber",
+    "Bell peppers",
+    "Feta cheese",
+    "Olives"
+  ],
+  "nutritionalHighlights": [
+    "Heart-healthy olive oil",
+    "Antioxidant-rich herbs",
+    "Low in calories",
+    "Source of vitamin E"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "macadamia-nuts",
+  "name": "Macadamia Nuts",
+  "aliases": [
+    "macadamias",
+    "Queensland nuts",
+    "bush nuts"
+  ],
+  "category": "fat",
+  "subcategory": "nut",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 10-12 nuts",
+      "cups": "2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Well-tolerated on SIBO diets due to high fat content and absence of FODMAPs. The high fat content may slow gastric emptying, which can be beneficial for some SIBO patients.",
+  "preparationTips": [
+    "Store in airtight container in refrigerator to maintain freshness",
+    "Toast lightly to enhance flavor without adding FODMAPs",
+    "Chop or crush to make portion control easier",
+    "Choose raw or dry-roasted varieties over flavored ones that may contain garlic or onion"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Low FODMAP salads",
+    "Grilled chicken or fish",
+    "Strawberries and blueberries",
+    "Dark chocolate (check cocoa content)",
+    "Coconut flakes"
+  ],
+  "nutritionalHighlights": [
+    "Rich in monounsaturated fats for heart health",
+    "Good source of manganese and thiamine",
+    "High in healthy omega-7 palmitoleic acid",
+    "Provides magnesium and copper"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

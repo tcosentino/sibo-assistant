@@ -1,0 +1,42 @@
+{
+  "id": "sunflower-seeds",
+  "name": "Sunflower Seeds",
+  "aliases": [
+    "Sunflower kernels",
+    "Hulled sunflower seeds"
+  ],
+  "category": "fat",
+  "subcategory": "seed",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons or small handful",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as they're low FODMAP and provide healthy fats without fermentable carbohydrates.",
+  "preparationTips": [
+    "Choose unsalted varieties to avoid excess sodium",
+    "Store in airtight container in refrigerator to prevent rancidity",
+    "Toast lightly to enhance flavor and crunch",
+    "Remove shells completely if buying in-shell varieties"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Green salads",
+    "Low FODMAP yogurt",
+    "Carrots",
+    "Bell peppers",
+    "Quinoa bowls"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E (antioxidant)",
+    "Good source of healthy unsaturated fats",
+    "Contains magnesium and selenium",
+    "Provides plant-based protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

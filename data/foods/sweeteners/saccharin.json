@@ -1,0 +1,48 @@
+{
+  "id": "saccharin",
+  "name": "Saccharin",
+  "aliases": [
+    "Sweet'N Low",
+    "sodium saccharin",
+    "artificial sweetener"
+  ],
+  "category": "sweetener",
+  "subcategory": "artificial-sweetener",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "Up to 10 packets",
+      "cups": "2 teaspoons"
+    }
+  },
+  "siboNotes": "Saccharin is not fermentable by gut bacteria and does not contribute to SIBO symptoms. Safe for all phases of SIBO treatment.",
+  "preparationTips": [
+    "Start with small amounts as some people may experience a metallic aftertaste",
+    "Works well in cold beverages and baking",
+    "Heat-stable, so suitable for cooking and baking applications",
+    "Mix with other sweeteners to improve taste profile if desired"
+  ],
+  "alternatives": [
+    "Stevia extract",
+    "Monk fruit sweetener",
+    "Aspartame",
+    "Sucralose"
+  ],
+  "pairsWellWith": [
+    "Coffee and tea",
+    "Low-FODMAP fruits for desserts",
+    "Baked goods made with gluten-free flour",
+    "Sugar-free beverages",
+    "Low-FODMAP yogurt alternatives"
+  ],
+  "nutritionalHighlights": [
+    "Zero calories",
+    "No impact on blood sugar",
+    "300-500 times sweeter than sugar",
+    "Does not contribute to tooth decay"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

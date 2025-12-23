@@ -1,0 +1,43 @@
+{
+  "id": "crawfish",
+  "name": "Crawfish",
+  "aliases": [
+    "Crayfish",
+    "Freshwater lobster",
+    "Mudbugs"
+  ],
+  "category": "protein",
+  "subcategory": "seafood",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3-4 oz or 1/2 cup cooked",
+      "cups": "1/2 cup"
+    }
+  },
+  "siboNotes": "Naturally FODMAP-free and well-tolerated. Watch for high-FODMAP seasonings like garlic and onion in Cajun preparations.",
+  "preparationTips": [
+    "Season with FODMAP-friendly spices like paprika, cayenne, and herbs",
+    "Use garlic-infused oil instead of fresh garlic for flavor",
+    "Avoid pre-seasoned varieties that may contain onion or garlic powder",
+    "Boil with low-FODMAP vegetables like carrots and potatoes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "White rice",
+    "Corn on the cob",
+    "Bell peppers",
+    "Carrots",
+    "Potatoes"
+  ],
+  "nutritionalHighlights": [
+    "High-quality protein",
+    "Vitamin B12",
+    "Selenium",
+    "Low in saturated fat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

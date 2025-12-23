@@ -1,0 +1,42 @@
+{
+  "id": "peanut-oil",
+  "name": "Peanut Oil",
+  "aliases": [
+    "Groundnut Oil",
+    "Arachis Oil"
+  ],
+  "category": "fat",
+  "subcategory": "oil",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Pure oils are FODMAP-free and well-tolerated in SIBO. Use in moderation as excessive fat can slow gastric emptying.",
+  "preparationTips": [
+    "Choose refined peanut oil for high-heat cooking due to its high smoke point",
+    "Store in a cool, dark place to prevent rancidity",
+    "Use cold-pressed versions for salad dressings and low-heat applications",
+    "Check labels to ensure no FODMAP-containing additives are present"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Grilled chicken breast",
+    "Stir-fried bok choy",
+    "Jasmine rice",
+    "Green beans",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E (antioxidant)",
+    "Contains monounsaturated fats",
+    "Good source of phytosterols",
+    "High smoke point (450°F) for cooking"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

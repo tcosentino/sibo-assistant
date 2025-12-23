@@ -1,0 +1,42 @@
+{
+  "id": "tempeh-plain",
+  "name": "Tempeh (Plain)",
+  "aliases": [
+    "fermented soybeans",
+    "soy tempeh"
+  ],
+  "category": "protein",
+  "subcategory": "legume",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 100,
+      "description": "About 3.5 oz or 2/3 cup crumbled",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated in SIBO due to fermentation process that reduces FODMAPs. Start with smaller portions if very sensitive.",
+  "preparationTips": [
+    "Steam for 10-15 minutes before cooking to reduce bitterness",
+    "Slice thin and pan-fry for crispy texture",
+    "Marinate in low-FODMAP sauces for enhanced flavor",
+    "Crumble into stir-fries as a ground meat substitute"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "brown rice",
+    "bok choy",
+    "carrots",
+    "bell peppers",
+    "ginger"
+  ],
+  "nutritionalHighlights": [
+    "Complete protein with all essential amino acids",
+    "Rich in probiotics from fermentation",
+    "High in magnesium and phosphorus",
+    "Good source of B vitamins"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

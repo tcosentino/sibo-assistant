@@ -1,0 +1,60 @@
+{
+  "id": "pumpernickel",
+  "name": "Pumpernickel",
+  "aliases": [
+    "pumpernickel bread",
+    "German rye bread",
+    "dark rye bread"
+  ],
+  "category": "grain",
+  "subcategory": "bread",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 26,
+      "description": "1 thin slice",
+      "cups": "1 slice"
+    },
+    "moderate": {
+      "grams": 52,
+      "description": "2 thin slices or 1 thick slice",
+      "cups": "2 slices"
+    },
+    "high": {
+      "grams": 78,
+      "description": "3 slices or more",
+      "cups": "3+ slices"
+    }
+  },
+  "siboNotes": "Traditional pumpernickel may be better tolerated than regular wheat bread due to the fermentation process, but should still be limited to small portions during SIBO treatment phases.",
+  "preparationTips": [
+    "Choose authentic German-style pumpernickel made with sourdough fermentation",
+    "Toast lightly to improve digestibility",
+    "Start with half a slice to test tolerance",
+    "Pair with low-FODMAP toppings to create a balanced meal"
+  ],
+  "alternatives": [
+    "Sourdough spelt bread (1 slice)",
+    "Gluten-free bread made from rice or oat flour",
+    "Rice cakes or corn thins",
+    "Oat crackers"
+  ],
+  "pairsWellWith": [
+    "Aged cheddar cheese",
+    "Smoked salmon",
+    "Butter or olive oil",
+    "Cucumber slices",
+    "Fresh herbs like chives or dill"
+  ],
+  "nutritionalHighlights": [
+    "Rich in B vitamins, especially thiamine and niacin",
+    "Good source of dietary fiber for digestive health",
+    "Contains iron and magnesium",
+    "Provides complex carbohydrates for sustained energy"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "onion-powder",
+  "name": "Onion Powder",
+  "aliases": [
+    "Dried Onion Powder",
+    "Ground Onion"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "Not suitable - no safe serving size",
+      "cups": "Not applicable"
+    },
+    "moderate": {
+      "grams": 1,
+      "description": "Pinch (1/4 teaspoon)",
+      "cups": "1/4 teaspoon"
+    },
+    "high": {
+      "grams": 2,
+      "description": "1/2 teaspoon or more",
+      "cups": "1/2 teaspoon"
+    }
+  },
+  "siboNotes": "High in fructans which feed SIBO bacteria and should be avoided completely during elimination phase. Even small amounts can trigger symptoms in sensitive individuals.",
+  "preparationTips": [
+    "Check ingredient lists carefully as onion powder appears in many spice blends",
+    "Start with tiny amounts if reintroducing after elimination phase",
+    "Store in airtight container to maintain potency",
+    "Consider making your own spice blends to control FODMAP content"
+  ],
+  "alternatives": [
+    "Garlic-infused oil (strained)",
+    "Chives (green parts only)",
+    "Asafoetida powder (small amounts)",
+    "Fresh herbs like oregano or thyme"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Roasted carrots",
+    "Rice dishes",
+    "Potato preparations",
+    "Low-FODMAP marinades"
+  ],
+  "nutritionalHighlights": [
+    "Contains quercetin antioxidants",
+    "Provides sulfur compounds",
+    "Source of vitamin C",
+    "Contains trace minerals"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

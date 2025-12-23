@@ -1,0 +1,48 @@
+{
+  "id": "rice-krispies",
+  "name": "Rice Krispies",
+  "aliases": [
+    "Rice Krispies cereal",
+    "Kellogg's Rice Krispies",
+    "puffed rice cereal"
+  ],
+  "category": "grain",
+  "subcategory": "breakfast-cereal",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 cup dry cereal",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Rice-based cereals are generally well-tolerated for SIBO as rice is easily digestible and low in fermentable carbohydrates.",
+  "preparationTips": [
+    "Serve with lactose-free milk or suitable plant milk",
+    "Check ingredient labels for added high-FODMAP ingredients like inulin or honey",
+    "Portion control is important - stick to recommended serving size",
+    "Can be eaten dry as a snack or used in baking recipes"
+  ],
+  "alternatives": [
+    "Plain puffed rice",
+    "Corn flakes (without added fructose)",
+    "Quinoa flakes",
+    "Gluten-free oats"
+  ],
+  "pairsWellWith": [
+    "Lactose-free milk",
+    "Almond milk",
+    "Strawberries",
+    "Banana (1/3 medium)",
+    "Blueberries"
+  ],
+  "nutritionalHighlights": [
+    "Fortified with B vitamins and iron",
+    "Low in fat and sugar",
+    "Gluten-free (rice-based)",
+    "Quick energy from carbohydrates"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

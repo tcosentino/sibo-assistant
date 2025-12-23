@@ -1,0 +1,59 @@
+{
+  "id": "sheep-milk",
+  "name": "Sheep Milk",
+  "aliases": [
+    "Ewe's milk",
+    "Sheep's milk"
+  ],
+  "category": "dairy",
+  "subcategory": "milk",
+  "fodmapRating": "moderate",
+  "fodmapTypes": [
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 60,
+      "description": "About 1/4 cup",
+      "cups": "1/4 cup"
+    },
+    "moderate": {
+      "grams": 125,
+      "description": "About 1/2 cup",
+      "cups": "1/2 cup"
+    },
+    "high": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Lower lactose content than cow's milk makes it potentially better tolerated by some SIBO patients. Start with small amounts to assess individual tolerance.",
+  "preparationTips": [
+    "Use in small amounts as a coffee creamer or in recipes",
+    "Consider warming gently to aid digestion",
+    "Pair with lactase enzyme if lactose sensitive",
+    "Store properly refrigerated and use within 3-5 days of opening"
+  ],
+  "alternatives": [
+    "Lactose-free cow's milk",
+    "Almond milk (unsweetened)",
+    "Rice milk",
+    "Coconut milk (canned, small amounts)"
+  ],
+  "pairsWellWith": [
+    "Low FODMAP cereals",
+    "Gluten-free oats",
+    "Strawberries",
+    "Blueberries",
+    "Bananas"
+  ],
+  "nutritionalHighlights": [
+    "Higher protein content than cow's milk",
+    "Rich in calcium and phosphorus",
+    "Contains vitamin B12 and riboflavin",
+    "Good source of healthy fats"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

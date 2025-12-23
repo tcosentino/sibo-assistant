@@ -1,0 +1,42 @@
+{
+  "id": "sundried-tomatoes",
+  "name": "Sundried Tomatoes",
+  "aliases": [
+    "Sun-dried tomatoes",
+    "Dried tomatoes"
+  ],
+  "category": "condiment",
+  "subcategory": "preserved-vegetable",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 4-5 pieces",
+      "cups": "2 tablespoons chopped"
+    }
+  },
+  "siboNotes": "Generally well tolerated in small portions. The concentration process may increase flavor intensity, allowing smaller amounts to provide satisfying taste.",
+  "preparationTips": [
+    "Soak oil-packed varieties briefly to reduce excess oil if desired",
+    "Chop finely to distribute flavor throughout dishes",
+    "Store opened jars in refrigerator for extended freshness",
+    "Choose varieties without garlic or onion additives"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh basil",
+    "Olive oil",
+    "Hard cheeses like parmesan",
+    "Grilled chicken",
+    "Gluten-free pasta"
+  ],
+  "nutritionalHighlights": [
+    "High in lycopene, a powerful antioxidant",
+    "Good source of vitamin K",
+    "Contains potassium for heart health",
+    "Provides concentrated umami flavor"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

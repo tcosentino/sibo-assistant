@@ -1,0 +1,46 @@
+{
+  "id": "saffron",
+  "name": "Saffron",
+  "aliases": [
+    "saffron threads",
+    "saffron spice"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 1,
+      "description": "Pinch of saffron threads",
+      "cups": "1/4 teaspoon"
+    }
+  },
+  "siboNotes": "Saffron is well-tolerated in SIBO diets due to typical small serving sizes and FODMAP-free nature.",
+  "preparationTips": [
+    "Soak threads in warm water or broth for 10-15 minutes before adding to dishes",
+    "Grind threads with a small amount of salt to release more flavor",
+    "Add at the end of cooking to preserve delicate flavor and color",
+    "A little goes a long way - start with just a pinch"
+  ],
+  "alternatives": [
+    "turmeric for color",
+    "annatto for golden color",
+    "paprika for mild flavor"
+  ],
+  "pairsWellWith": [
+    "basmati rice",
+    "chicken broth",
+    "olive oil",
+    "lemon juice",
+    "white fish"
+  ],
+  "nutritionalHighlights": [
+    "antioxidants (crocin)",
+    "vitamin C",
+    "manganese",
+    "potassium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

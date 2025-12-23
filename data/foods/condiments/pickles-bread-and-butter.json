@@ -1,0 +1,48 @@
+{
+  "id": "pickles-bread-and-butter",
+  "name": "Pickles (Bread and Butter)",
+  "aliases": [
+    "bread and butter pickles",
+    "sweet pickles",
+    "sweet cucumber pickles"
+  ],
+  "category": "condiment",
+  "subcategory": "vinegar",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 3-4 pickle slices",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as they're fermented and contain beneficial acids that may help with bacterial balance.",
+  "preparationTips": [
+    "Choose brands without high-fructose corn syrup or excess garlic/onion",
+    "Rinse if very salty to reduce sodium content",
+    "Store opened jars in refrigerator and use within recommended timeframe",
+    "Check ingredient list for FODMAP-containing additives like garlic powder"
+  ],
+  "alternatives": [
+    "Dill pickles (often lower in added sugars)",
+    "Homemade cucumber pickles with safe sweeteners",
+    "Pickled radishes or carrots",
+    "Fresh cucumber with vinegar and herbs"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken or turkey",
+    "Hard cheeses like cheddar",
+    "Sourdough bread (spelt)",
+    "Potato salad (with low-FODMAP ingredients)",
+    "Tuna or chicken salad"
+  ],
+  "nutritionalHighlights": [
+    "Low in calories (about 5-10 calories per serving)",
+    "Contains probiotics from fermentation process",
+    "Provides small amounts of vitamin K",
+    "Source of electrolytes from brine"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

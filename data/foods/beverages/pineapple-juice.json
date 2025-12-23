@@ -1,0 +1,42 @@
+{
+  "id": "pineapple-juice",
+  "name": "Pineapple Juice",
+  "aliases": [
+    "Fresh pineapple juice",
+    "100% pineapple juice"
+  ],
+  "category": "beverage",
+  "subcategory": "tropical-juice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 250,
+      "description": "About 1 cup",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Generally well-tolerated in SIBO diets as it contains no significant FODMAPs and may help with vitamin C intake.",
+  "preparationTips": [
+    "Choose 100% pineapple juice without added sugars or high fructose corn syrup",
+    "Fresh-squeezed juice is preferable to avoid preservatives",
+    "Dilute with water if too acidic for sensitive stomachs",
+    "Consume with meals to reduce potential stomach irritation"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Plain rice cakes",
+    "Lactose-free yogurt",
+    "Banana (firm, unripe)",
+    "Grilled chicken",
+    "Quinoa salad"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin C for immune support",
+    "Contains bromelain enzyme which may aid digestion",
+    "Good source of manganese",
+    "Provides natural electrolytes"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

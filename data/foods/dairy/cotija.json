@@ -1,0 +1,43 @@
+{
+  "id": "cotija",
+  "name": "Cotija",
+  "aliases": [
+    "Mexican Parmesan",
+    "Queso Cotija",
+    "Cotija cheese"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 oz or 1/4 cup crumbled",
+      "cups": "1/4 cup"
+    }
+  },
+  "siboNotes": "As an aged hard cheese, cotija is naturally low in lactose and well-tolerated by most people with SIBO. The aging process removes most lactose content.",
+  "preparationTips": [
+    "Crumble over dishes just before serving to maintain texture",
+    "Store wrapped in parchment paper in refrigerator to prevent moisture buildup",
+    "Grate fresh for best flavor rather than using pre-grated versions",
+    "Can be used as a finishing cheese for both hot and cold dishes"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "corn tortillas",
+    "bell peppers",
+    "tomatoes",
+    "cilantro",
+    "lime juice"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (7g per ounce)",
+    "Good source of calcium for bone health",
+    "Contains probiotics from the aging process",
+    "Rich in vitamin B12"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

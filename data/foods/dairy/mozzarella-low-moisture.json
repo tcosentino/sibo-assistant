@@ -1,0 +1,43 @@
+{
+  "id": "mozzarella-low-moisture",
+  "name": "Mozzarella (Low-Moisture)",
+  "aliases": [
+    "Part-skim mozzarella",
+    "Low-moisture part-skim mozzarella",
+    "Block mozzarella"
+  ],
+  "category": "dairy",
+  "subcategory": "hard-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 1/3 cup shredded or 1.5 oz slice",
+      "cups": "1/3 cup"
+    }
+  },
+  "siboNotes": "Aged and low-moisture cheeses like mozzarella are naturally low in lactose and well-tolerated on SIBO diets. The aging process reduces lactose content significantly.",
+  "preparationTips": [
+    "Choose block mozzarella and shred yourself for better texture and fewer additives",
+    "Low-moisture mozzarella melts well without becoming watery",
+    "Store properly wrapped in refrigerator to prevent drying out",
+    "Can be frozen for up to 6 months, though texture may change slightly"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Fresh basil",
+    "Roma tomatoes",
+    "Olive oil",
+    "Gluten-free pasta",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "High in protein (6-7g per ounce)",
+    "Good source of calcium for bone health",
+    "Contains vitamin B12",
+    "Moderate sodium content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

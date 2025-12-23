@@ -1,0 +1,43 @@
+{
+  "id": "sumac",
+  "name": "Sumac",
+  "aliases": [
+    "sumac berries",
+    "sumac powder",
+    "Middle Eastern sumac"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 5,
+      "description": "About 1 teaspoon",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "Sumac is well-tolerated in typical culinary amounts and adds beneficial antioxidants without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Start with small amounts (1/2 teaspoon) as the tart flavor is concentrated",
+    "Store in airtight container away from light to preserve color and potency",
+    "Add at end of cooking to preserve bright flavor and color",
+    "Mix with salt for a flavorful finishing seasoning"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "roasted vegetables",
+    "olive oil and lemon dressing",
+    "fresh herbs like parsley",
+    "rice and quinoa dishes"
+  ],
+  "nutritionalHighlights": [
+    "High in antioxidants, particularly anthocyanins",
+    "Contains vitamin C and anti-inflammatory compounds",
+    "Provides tannins with potential antimicrobial properties",
+    "Very low in calories and sodium"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

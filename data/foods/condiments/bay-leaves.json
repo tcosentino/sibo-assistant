@@ -1,0 +1,43 @@
+{
+  "id": "bay-leaves",
+  "name": "Bay Leaves",
+  "aliases": [
+    "Bay Leaf",
+    "Laurel Leaves",
+    "Sweet Bay"
+  ],
+  "category": "condiment",
+  "subcategory": "spice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 2,
+      "description": "2-3 whole leaves (typical recipe amount)",
+      "cups": "2-3 leaves"
+    }
+  },
+  "siboNotes": "Bay leaves are naturally FODMAP-free and well-tolerated by most SIBO patients when used in typical cooking amounts.",
+  "preparationTips": [
+    "Remove whole leaves before serving as they remain tough and inedible",
+    "Add to soups, stews, and braises at the beginning of cooking",
+    "Crush slightly to release more flavor compounds",
+    "Store in airtight container away from light to preserve potency"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "oregano",
+    "thyme",
+    "rosemary",
+    "garlic-infused oil",
+    "tomatoes"
+  ],
+  "nutritionalHighlights": [
+    "Contains antioxidant compounds",
+    "Provides small amounts of vitamin A",
+    "Contains essential oils with anti-inflammatory properties",
+    "Naturally sodium-free flavor enhancer"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

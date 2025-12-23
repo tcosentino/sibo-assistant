@@ -1,0 +1,61 @@
+{
+  "id": "brioche",
+  "name": "Brioche",
+  "aliases": [
+    "French brioche",
+    "brioche bread",
+    "brioche bun"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans",
+    "lactose"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 0,
+      "description": "No safe serving",
+      "cups": "None"
+    },
+    "moderate": {
+      "grams": 25,
+      "description": "Small 1-inch slice",
+      "cups": "About 1/4 slice"
+    },
+    "high": {
+      "grams": 50,
+      "description": "1 medium slice or small roll",
+      "cups": "1/2 slice or 1 small roll"
+    }
+  },
+  "siboNotes": "Contains wheat (fructans) and butter/milk (lactose), making it problematic for SIBO. Even small amounts can trigger symptoms due to dual FODMAP content.",
+  "preparationTips": [
+    "Look for sourdough brioche made with long fermentation to reduce fructans",
+    "Choose lactose-free brioche if available",
+    "Toast lightly to improve digestibility",
+    "Pair with low-FODMAP proteins to slow digestion"
+  ],
+  "alternatives": [
+    "Gluten-free bread made with rice or oat flour",
+    "Sourdough spelt bread (small portions)",
+    "Rice cakes or corn tortillas",
+    "Oat-based muffins (homemade with lactose-free milk)"
+  ],
+  "pairsWellWith": [
+    "Lactose-free butter",
+    "Strawberry jam (low-FODMAP portion)",
+    "Aged cheddar cheese",
+    "Turkey or chicken slices",
+    "Peanut butter"
+  ],
+  "nutritionalHighlights": [
+    "High in refined carbohydrates for quick energy",
+    "Contains eggs providing complete protein",
+    "Rich in B vitamins from wheat flour",
+    "High in saturated fat from butter content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

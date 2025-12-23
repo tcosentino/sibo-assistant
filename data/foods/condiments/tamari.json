@@ -1,0 +1,42 @@
+{
+  "id": "tamari",
+  "name": "Tamari",
+  "aliases": [
+    "gluten-free soy sauce",
+    "wheat-free soy sauce"
+  ],
+  "category": "condiment",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 20,
+      "description": "About 1 tablespoon",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Tamari is naturally FODMAP-free and well-tolerated by most SIBO patients. Use in moderation due to high sodium content.",
+  "preparationTips": [
+    "Check labels to ensure it's 100% soy-based with no wheat additives",
+    "Store in refrigerator after opening to maintain quality",
+    "Use sparingly as it's quite salty and flavorful",
+    "Mix with rice vinegar and sesame oil for a simple low-FODMAP dressing"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "steamed bok choy",
+    "jasmine rice",
+    "fresh ginger",
+    "sesame oil"
+  ],
+  "nutritionalHighlights": [
+    "High in sodium",
+    "Contains umami compounds for savory flavor",
+    "Naturally gluten-free",
+    "Low in calories"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}

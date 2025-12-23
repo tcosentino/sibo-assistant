@@ -1,0 +1,43 @@
+{
+  "id": "sorghum",
+  "name": "Sorghum",
+  "aliases": [
+    "sorghum grain",
+    "milo",
+    "jowar"
+  ],
+  "category": "grain",
+  "subcategory": "gluten-free-grain",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Naturally gluten-free and well-tolerated on SIBO diet. Contains resistant starch which may benefit gut health when tolerated.",
+  "preparationTips": [
+    "Rinse grain before cooking to remove any debris",
+    "Cook in 3:1 water to sorghum ratio for about 45-60 minutes",
+    "Can be popped like popcorn for a crunchy snack",
+    "Grind into flour for gluten-free baking applications"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "grilled chicken",
+    "roasted vegetables",
+    "olive oil",
+    "fresh herbs",
+    "low-FODMAP spices"
+  ],
+  "nutritionalHighlights": [
+    "High in protein and fiber",
+    "Rich in antioxidants and phenolic compounds",
+    "Good source of iron and B vitamins",
+    "Naturally gluten-free whole grain"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

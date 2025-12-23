@@ -1,0 +1,59 @@
+{
+  "id": "bagel",
+  "name": "Bagel",
+  "aliases": [
+    "plain bagel",
+    "bread bagel"
+  ],
+  "category": "grain",
+  "subcategory": "wheat",
+  "fodmapRating": "high",
+  "fodmapTypes": [
+    "fructans"
+  ],
+  "servingSizes": {
+    "low": {
+      "grams": 24,
+      "description": "About 1/4 of a standard bagel",
+      "cups": "1/4 bagel"
+    },
+    "moderate": {
+      "grams": 52,
+      "description": "About 1/2 of a standard bagel",
+      "cups": "1/2 bagel"
+    },
+    "high": {
+      "grams": 105,
+      "description": "1 whole standard bagel",
+      "cups": "1 bagel"
+    }
+  },
+  "siboNotes": "High in fructans which can feed bacterial overgrowth. Consider sourdough or gluten-free alternatives during SIBO treatment phases.",
+  "preparationTips": [
+    "Toast lightly to improve digestibility",
+    "Pair with protein and fat to slow digestion",
+    "Choose plain varieties over those with added garlic or onion",
+    "Consider removing some of the inner bread to reduce FODMAP load"
+  ],
+  "alternatives": [
+    "Sourdough bread (traditional fermentation)",
+    "Gluten-free bread",
+    "Rice cakes",
+    "Corn tortillas"
+  ],
+  "pairsWellWith": [
+    "Lactose-free cream cheese",
+    "Peanut butter",
+    "Sliced tomato",
+    "Cucumber",
+    "Hard cheese"
+  ],
+  "nutritionalHighlights": [
+    "Carbohydrates for energy",
+    "B vitamins (if enriched)",
+    "Iron (if enriched)",
+    "Protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

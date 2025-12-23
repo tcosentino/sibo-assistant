@@ -1,0 +1,42 @@
+{
+  "id": "cream-cheese",
+  "name": "Cream Cheese",
+  "aliases": [
+    "Philadelphia cream cheese",
+    "soft cheese spread"
+  ],
+  "category": "dairy",
+  "subcategory": "soft-cheese",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 2 tablespoons",
+      "cups": "2 tbsp"
+    }
+  },
+  "siboNotes": "Cream cheese is naturally low in lactose due to its high fat content and processing method, making it generally well-tolerated for SIBO patients in moderate portions.",
+  "preparationTips": [
+    "Allow to soften at room temperature for easier spreading",
+    "Choose plain varieties without added garlic or onion flavorings",
+    "Check ingredient labels for added inulin or chicory root fiber",
+    "Store opened packages refrigerated and use within 10 days"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Rice cakes",
+    "Gluten-free bagels",
+    "Cucumber slices",
+    "Strawberries",
+    "Chives"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin A for eye health",
+    "Good source of calcium for bone health",
+    "Contains healthy fats",
+    "Provides protein for satiety"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

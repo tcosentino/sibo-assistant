@@ -1,0 +1,43 @@
+{
+  "id": "mayonnaise-commercial",
+  "name": "Mayonnaise (Commercial)",
+  "aliases": [
+    "mayo",
+    "mayonnaise",
+    "sandwich spread"
+  ],
+  "category": "fat",
+  "subcategory": "sauce",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 40,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated on SIBO diet as it's primarily fat and contains no fermentable carbohydrates.",
+  "preparationTips": [
+    "Check ingredients for garlic or onion powder which would make it high FODMAP",
+    "Store in refrigerator and use within expiration date for food safety",
+    "Use as a base for low FODMAP sauces and dressings",
+    "Choose brands with simple ingredients: oil, eggs, vinegar, salt"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "chicken breast",
+    "turkey slices",
+    "lettuce wraps",
+    "cucumber slices",
+    "sourdough spelt bread"
+  ],
+  "nutritionalHighlights": [
+    "High in vitamin E from vegetable oils",
+    "Provides healthy fats for nutrient absorption",
+    "Good source of omega-6 fatty acids",
+    "Contains lecithin from egg yolks"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "nutritional-yeast",
+  "name": "Nutritional Yeast",
+  "aliases": [
+    "nooch",
+    "yeast flakes",
+    "savory yeast flakes"
+  ],
+  "category": "dairy",
+  "subcategory": "cheese-alternative",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 2 tablespoons",
+      "cups": "2 tablespoons"
+    }
+  },
+  "siboNotes": "Generally well-tolerated for SIBO as it's naturally FODMAP-free and provides beneficial B-vitamins without feeding bacterial overgrowth.",
+  "preparationTips": [
+    "Store in airtight container in cool, dry place to maintain freshness",
+    "Add after cooking to preserve B-vitamin content",
+    "Start with smaller amounts if new to nutritional yeast flavor",
+    "Sprinkle on popcorn, pasta, or salads for umami boost"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Parmesan cheese",
+    "Olive oil",
+    "Garlic-infused oil",
+    "Fresh herbs like basil",
+    "Rice pasta"
+  ],
+  "nutritionalHighlights": [
+    "Excellent source of B-vitamins, especially B12",
+    "Complete protein with all essential amino acids",
+    "Rich in folate and thiamine",
+    "Naturally low in sodium and fat-free"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

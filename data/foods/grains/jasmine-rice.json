@@ -1,0 +1,47 @@
+{
+  "id": "jasmine-rice",
+  "name": "Jasmine Rice",
+  "aliases": [
+    "Thai fragrant rice",
+    "aromatic rice"
+  ],
+  "category": "grain",
+  "subcategory": "rice",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 155,
+      "description": "About 1 cup cooked",
+      "cups": "1 cup"
+    }
+  },
+  "siboNotes": "Well-tolerated starchy carbohydrate that's easy to digest and can help provide safe energy for SIBO patients.",
+  "preparationTips": [
+    "Rinse thoroughly before cooking to remove excess starch",
+    "Use 1:1.5 rice to water ratio for fluffy texture",
+    "Let rest 5 minutes after cooking before fluffing",
+    "Store cooked rice in refrigerator up to 4 days"
+  ],
+  "alternatives": [
+    "Basmati rice",
+    "Brown rice (small portions)",
+    "Quinoa (1/4 cup)",
+    "Rice noodles"
+  ],
+  "pairsWellWith": [
+    "Grilled chicken",
+    "Salmon",
+    "Bok choy",
+    "Carrots",
+    "Bell peppers"
+  ],
+  "nutritionalHighlights": [
+    "Good source of carbohydrates for energy",
+    "Naturally gluten-free",
+    "Low in fat",
+    "Contains small amounts of protein"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-22"
+}

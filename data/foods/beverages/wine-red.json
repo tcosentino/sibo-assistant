@@ -1,0 +1,44 @@
+{
+  "id": "wine-red",
+  "name": "Wine (Red)",
+  "aliases": [
+    "red wine",
+    "cabernet",
+    "merlot",
+    "pinot noir"
+  ],
+  "category": "beverage",
+  "subcategory": "alcohol",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 150,
+      "description": "1 standard glass (5 fl oz)",
+      "cups": "2/3 cup"
+    }
+  },
+  "siboNotes": "Alcohol can affect gut motility and may worsen SIBO symptoms. Limit to 1-2 glasses and consume with food to minimize digestive irritation.",
+  "preparationTips": [
+    "Choose dry red wines over sweet varieties to minimize residual sugar",
+    "Consume with food to slow alcohol absorption",
+    "Stay hydrated by drinking water alongside wine",
+    "Avoid sulfite-sensitive reactions by choosing organic or low-sulfite wines"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "aged cheddar cheese",
+    "grilled chicken",
+    "dark chocolate",
+    "walnuts",
+    "olive tapenade"
+  ],
+  "nutritionalHighlights": [
+    "Contains resveratrol, an antioxidant",
+    "Provides small amounts of potassium",
+    "May support heart health in moderation",
+    "Contains polyphenols with anti-inflammatory properties"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-23"
+}
