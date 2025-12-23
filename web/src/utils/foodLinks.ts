@@ -63,14 +63,14 @@ export function createFoodLinkProcessor(
 
     const result = processContentWithPatterns(content, patterns);
 
-    // Add to cache, evicting oldest if needed
-    if (cache.size >= MAX_CACHE_SIZE) {
+    // Add to cache, then evict oldest if over capacity
+    cache.set(content, result);
+    if (cache.size > MAX_CACHE_SIZE) {
       const firstKey = cache.keys().next().value;
       if (firstKey !== undefined) {
         cache.delete(firstKey);
       }
     }
-    cache.set(content, result);
 
     return result;
   }
