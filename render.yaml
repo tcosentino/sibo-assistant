@@ -11,6 +11,7 @@ services:
   - type: web
     name: sibo-assistant-api
     runtime: node
+    plan: starter  # Required for disk support (free tier doesn't support disks)
     rootDir: server
     buildCommand: npm install && npm run build
     startCommand: npm start
