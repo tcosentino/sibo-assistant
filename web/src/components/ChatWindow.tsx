@@ -627,8 +627,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                 if (food) {
                   return (
                     <button
+                      type="button"
                       className="chat-window__food-link"
                       onClick={() => onFoodClick(food)}
+                      aria-label={`View details for ${food.name}`}
+                      title={`View ${food.name} details`}
                     >
                       {text}
                     </button>
@@ -645,8 +648,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                   if (food) {
                     return (
                       <button
+                        type="button"
                         className="chat-window__food-link"
                         onClick={() => onFoodClick(food)}
+                        aria-label={`View details for ${food.name}`}
+                        title={`View ${food.name} details`}
                       >
                         {children}
                       </button>
