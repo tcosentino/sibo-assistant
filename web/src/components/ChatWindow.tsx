@@ -82,6 +82,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const preferenceSavedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Load preferences from localStorage or backend
   useEffect(() => {
@@ -120,6 +121,15 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
 
     loadPreferences();
   }, [isAuthenticated, getAuthHeaders]);
+
+  // Clean up preference saved message timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (preferenceSavedTimeoutRef.current) {
+        clearTimeout(preferenceSavedTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const getWelcomeMessage = useCallback((): Message => {
     const hasPref =
@@ -277,7 +287,14 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       setPreferences(newPrefs);
       const verb = type === 'tolerance' ? 'tolerate' : 'are sensitive to';
       setPreferenceSavedMessage(`Saved: You ${verb} ${addedItems.join(', ')}`);
-      setTimeout(() => setPreferenceSavedMessage(null), 4000);
+      // Clear any existing timeout before setting a new one
+      if (preferenceSavedTimeoutRef.current) {
+        clearTimeout(preferenceSavedTimeoutRef.current);
+      }
+      preferenceSavedTimeoutRef.current = setTimeout(() => {
+        setPreferenceSavedMessage(null);
+        preferenceSavedTimeoutRef.current = null;
+      }, 4000);
     }
   };
 
