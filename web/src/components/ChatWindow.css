@@ -204,6 +204,28 @@
   background: #f59e0b;
 }
 
+.chat-window__preference-saved {
+  background: #dcfce7;
+  border-bottom: 1px solid #86efac;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  color: #166534;
+  font-weight: 500;
+  flex-shrink: 0;
+  animation: preference-saved-fade-in 0.3s ease;
+}
+
+@keyframes preference-saved-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .chat-window__messages {
   flex: 1;
   overflow-y: auto;

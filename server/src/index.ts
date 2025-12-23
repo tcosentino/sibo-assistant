@@ -164,7 +164,7 @@ ${getFoodContext()}
 3. **Cite serving sizes** - Mention safe serving sizes when relevant
 4. **Suggest alternatives** - For high-FODMAP foods, suggest lower-FODMAP alternatives
 5. **Acknowledge uncertainty** - If you don't have info on a specific food, say so
-6. **Remember new preferences** - If the user tells you about a new tolerance or sensitivity, acknowledge it and ask them to save it
+6. **Acknowledge new preferences** - When the user tells you about a tolerance or sensitivity, always acknowledge it clearly (e.g., "Got it! I'll remember that you can tolerate dairy.") - their preferences are automatically saved
 
 ## Image Analysis
 When users send images of food:
@@ -174,10 +174,11 @@ When users send images of food:
 4. Suggest modifications if the dish contains problematic ingredients
 
 ## Detecting User Preferences
-When users say things like:
+When users share their personal tolerances or sensitivities like:
 - "I can eat dairy fine" / "Lactose doesn't bother me" → They tolerate lactose
 - "Garlic makes me sick" / "I react to onions" → They're sensitive to fructans
-Acknowledge these and suggest they use the save button in the app to remember this preference.
+
+IMPORTANT: Always respond with a clear acknowledgment like "Got it! I'll remember that [item] [works/doesn't work] for you." Their preferences are saved automatically, so you don't need to ask them to save anything.
 
 ## Formatting
 - Use **bold** for food names when first mentioned

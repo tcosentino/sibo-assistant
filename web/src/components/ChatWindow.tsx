@@ -77,6 +77,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [useApi, setUseApi] = useState(true);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
+  const [preferenceSavedMessage, setPreferenceSavedMessage] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -309,6 +310,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     const newPrefs = { ...preferences };
     const target =
       type === 'tolerance' ? newPrefs.tolerances : newPrefs.sensitivities;
+    const addedItems: string[] = [];
 
     for (const item of items) {
       const lowerItem = item.toLowerCase();
@@ -316,6 +318,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       const fodmapType = FODMAP_KEYWORDS[lowerItem];
       if (fodmapType && !target.fodmapTypes.includes(fodmapType)) {
         target.fodmapTypes.push(fodmapType);
+        addedItems.push(item);
         continue;
       }
 
@@ -324,16 +327,23 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         !target.categories.includes(lowerItem)
       ) {
         target.categories.push(lowerItem);
+        addedItems.push(item);
         continue;
       }
 
       const food = findFoodInDatabase(item);
       if (food && !target.foods.includes(food.id)) {
         target.foods.push(food.id);
+        addedItems.push(food.name);
       }
     }
 
-    setPreferences(newPrefs);
+    if (addedItems.length > 0) {
+      setPreferences(newPrefs);
+      const verb = type === 'tolerance' ? 'tolerate' : 'are sensitive to';
+      setPreferenceSavedMessage(`Saved: You ${verb} ${addedItems.join(', ')}`);
+      setTimeout(() => setPreferenceSavedMessage(null), 4000);
+    }
   };
 
   const isFoodTolerated = (food: Food): boolean => {
@@ -825,6 +835,12 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
               >
                 Clear All Preferences
               </button>
+            </div>
+          )}
+
+          {preferenceSavedMessage && (
+            <div className="chat-window__preference-saved">
+              {preferenceSavedMessage}
             </div>
           )}
 
