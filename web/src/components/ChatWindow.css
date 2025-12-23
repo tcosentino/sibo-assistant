@@ -26,19 +26,6 @@
   transform: scale(1.05);
 }
 
-.chat-window--open .chat-window__toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #ef4444;
-  font-size: 28px;
-  z-index: 1002;
-}
-
-.chat-window--open .chat-window__toggle:hover {
-  background: #dc2626;
-}
-
 /* Sidebar container */
 .chat-window__container {
   position: fixed;
@@ -129,6 +116,31 @@
 }
 
 .chat-window__prefs-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.chat-window__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chat-window__close-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.chat-window__close-btn:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 

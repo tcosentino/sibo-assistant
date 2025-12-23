@@ -625,13 +625,15 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
 
   return (
     <div className={`chat-window ${isOpen ? 'chat-window--open' : ''}`}>
-      <button
-        className="chat-window__toggle"
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label={isOpen ? 'Close chat' : 'Ask about food'}
-      >
-        {isOpen ? '×' : '💬'}
-      </button>
+      {!isOpen && (
+        <button
+          className="chat-window__toggle"
+          onClick={() => setIsOpen(true)}
+          aria-label="Ask about food"
+        >
+          💬
+        </button>
+      )}
 
       {isOpen && (
         <>
@@ -646,15 +648,24 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
               <h3>Food Assistant {useApi ? '' : '(Offline)'}</h3>
               <p>Ask about any food for SIBO</p>
             </div>
-            {hasPreferences && (
+            <div className="chat-window__header-actions">
+              {hasPreferences && (
+                <button
+                  className="chat-window__prefs-btn"
+                  onClick={() => setShowPreferences(!showPreferences)}
+                  title="View your preferences"
+                >
+                  🧠
+                </button>
+              )}
               <button
-                className="chat-window__prefs-btn"
-                onClick={() => setShowPreferences(!showPreferences)}
-                title="View your preferences"
+                className="chat-window__close-btn"
+                onClick={() => setIsOpen(false)}
+                aria-label="Close chat"
               >
-                🧠
+                ×
               </button>
-            )}
+            </div>
           </div>
 
           {showPreferences && (
