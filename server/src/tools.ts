@@ -201,9 +201,9 @@ export function handleSearchFoods(input: SearchFoodsInput): string {
   });
 
   const totalMatching = allFoods.filter((f) => {
-    let matches = true;
-    if (input.category) matches = matches && f.category === input.category;
-    if (input.fodmap_rating) matches = matches && f.fodmapRating === input.fodmap_rating;
+    const matches =
+      (!input.category || f.category === input.category) &&
+      (!input.fodmap_rating || f.fodmapRating === input.fodmap_rating);
     return matches;
   }).length;
 
