@@ -110,10 +110,9 @@ function processContentWithPatterns(
       const end = start + match[0].length;
 
       // Check if this range overlaps with any already replaced range
+      // Two ranges overlap if one starts before the other ends and vice versa
       const overlaps = replacedRanges.some(
-        range => (start >= range.start && start < range.end) ||
-                 (end > range.start && end <= range.end) ||
-                 (start <= range.start && end >= range.end)
+        range => start < range.end && end > range.start
       );
 
       if (!overlaps) {
