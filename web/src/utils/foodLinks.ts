@@ -116,15 +116,20 @@ function processContentWithPatterns(
       );
 
       if (!overlaps) {
-        // Check if already inside a markdown link or bold syntax
+        // Check if already inside a markdown link
         const beforeText = content.slice(Math.max(0, start - 50), start);
-        const afterText = content.slice(end, Math.min(content.length, end + 10));
+        const afterText = content.slice(end, Math.min(content.length, end + 50));
 
-        // Skip if inside markdown link [...](...) or inside @food: URL
-        const isInsideLinkText = /\[[^\]]*$/.test(beforeText);
-        const isFollowedByLinkClose = /^\]/.test(afterText);
+        // Only consider it inside a markdown link if there's both an unclosed bracket
+        // before AND a closing ](url) pattern after - this avoids false positives
+        // from standalone brackets in normal text like "[shown here]"
+        const hasUnclosedBracket = /\[[^\]]*$/.test(beforeText);
+        const hasLinkClose = /^\]\([^)]*\)/.test(afterText);
+        const isInsideMarkdownLink = hasUnclosedBracket && hasLinkClose;
+
+        // Also check if we're inside a @food: URL (already linked)
         const isInsideFoodUrl = /@food:[a-z0-9-]*$/.test(beforeText);
-        const isInsideLink = isInsideLinkText || isFollowedByLinkClose || isInsideFoodUrl;
+        const isInsideLink = isInsideMarkdownLink || isInsideFoodUrl;
 
         if (!isInsideLink) {
           matches.push({

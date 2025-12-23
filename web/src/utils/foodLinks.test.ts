@@ -271,6 +271,24 @@ describe('processContentWithFoodLinks', () => {
 
       expect(result).toBe('I love [Carrot](url). [Carrot](@food:carrot) is my favorite.');
     });
+
+    it('should link food names after standalone brackets in normal text', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const content = 'The values [shown here] include Carrot.';
+
+      const result = processContentWithFoodLinks(content, foods);
+
+      expect(result).toBe('The values [shown here] include [Carrot](@food:carrot).');
+    });
+
+    it('should link food names before standalone brackets', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const content = 'Carrot is good [according to studies].';
+
+      const result = processContentWithFoodLinks(content, foods);
+
+      expect(result).toBe('[Carrot](@food:carrot) is good [according to studies].');
+    });
   });
 
   describe('regex escaping for special characters', () => {
