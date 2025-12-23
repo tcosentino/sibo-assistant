@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { processContentWithFoodLinks } from './foodLinks';
+import { processContentWithFoodLinks, createFoodLinkProcessor } from './foodLinks';
 
 describe('processContentWithFoodLinks', () => {
   describe('basic food name detection and linking', () => {
@@ -450,6 +450,121 @@ describe('processContentWithFoodLinks', () => {
       const result = processContentWithFoodLinks(content, foods);
 
       expect(result).toBe("Avoid [St. John's Wort](@food:st-johns).");
+    });
+  });
+});
+
+describe('createFoodLinkProcessor', () => {
+  describe('basic functionality', () => {
+    it('should process content the same as processContentWithFoodLinks', () => {
+      const foods = [
+        { id: 'carrot', name: 'Carrot' },
+        { id: 'spinach', name: 'Spinach' },
+      ];
+      const content = 'Carrot and Spinach are both safe.';
+
+      const processor = createFoodLinkProcessor(foods);
+      const memoizedResult = processor.processContent(content);
+      const directResult = processContentWithFoodLinks(content, foods);
+
+      expect(memoizedResult).toBe(directResult);
+    });
+
+    it('should handle aliases correctly', () => {
+      const foods = [
+        { id: 'milk', name: 'Milk', aliases: ['cow milk', 'whole milk'] },
+      ];
+      const content = 'Milk, cow milk, and whole milk are all dairy.';
+
+      const processor = createFoodLinkProcessor(foods);
+      const result = processor.processContent(content);
+
+      expect(result).toBe('[Milk](@food:milk), [cow milk](@food:milk), and [whole milk](@food:milk) are all dairy.');
+    });
+
+    it('should prefer longer names over shorter ones', () => {
+      const foods = [
+        { id: 'pepper', name: 'Pepper' },
+        { id: 'bell-pepper', name: 'Bell Pepper' },
+      ];
+      const content = 'Bell Pepper is a type of Pepper.';
+
+      const processor = createFoodLinkProcessor(foods);
+      const result = processor.processContent(content);
+
+      expect(result).toBe('[Bell Pepper](@food:bell-pepper) is a type of [Pepper](@food:pepper).');
+    });
+  });
+
+  describe('caching behavior', () => {
+    it('should return cached results for identical content', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const content = 'I love Carrot.';
+
+      const processor = createFoodLinkProcessor(foods);
+
+      const result1 = processor.processContent(content);
+      const result2 = processor.processContent(content);
+
+      expect(result1).toBe(result2);
+      expect(result1).toBe('I love [Carrot](@food:carrot).');
+    });
+
+    it('should process different content independently', () => {
+      const foods = [
+        { id: 'carrot', name: 'Carrot' },
+        { id: 'spinach', name: 'Spinach' },
+      ];
+
+      const processor = createFoodLinkProcessor(foods);
+
+      const result1 = processor.processContent('Carrot is great.');
+      const result2 = processor.processContent('Spinach is healthy.');
+
+      expect(result1).toBe('[Carrot](@food:carrot) is great.');
+      expect(result2).toBe('[Spinach](@food:spinach) is healthy.');
+    });
+
+    it('should handle many different contents without errors', () => {
+      const foods = [{ id: 'carrot', name: 'Carrot' }];
+      const processor = createFoodLinkProcessor(foods);
+
+      // Process more items than cache size to test eviction
+      for (let i = 0; i < 150; i++) {
+        const content = `Message ${i} about Carrot.`;
+        const result = processor.processContent(content);
+        expect(result).toBe(`Message ${i} about [Carrot](@food:carrot).`);
+      }
+    });
+  });
+
+  describe('pattern pre-computation', () => {
+    it('should work with a large number of foods', () => {
+      const foods = Array.from({ length: 100 }, (_, i) => ({
+        id: `food-${i}`,
+        name: `Food ${i}`,
+      }));
+
+      const processor = createFoodLinkProcessor(foods);
+      const result = processor.processContent('I ate Food 50 today.');
+
+      expect(result).toBe('I ate [Food 50](@food:food-50) today.');
+    });
+
+    it('should work with foods that have many aliases', () => {
+      const foods = [
+        {
+          id: 'milk',
+          name: 'Milk',
+          aliases: ['cow milk', 'whole milk', 'dairy milk', '2% milk', 'skim milk'],
+        },
+      ];
+
+      const processor = createFoodLinkProcessor(foods);
+
+      expect(processor.processContent('Drink Milk.')).toBe('Drink [Milk](@food:milk).');
+      expect(processor.processContent('Try cow milk.')).toBe('Try [cow milk](@food:milk).');
+      expect(processor.processContent('Use skim milk.')).toBe('Use [skim milk](@food:milk).');
     });
   });
 });

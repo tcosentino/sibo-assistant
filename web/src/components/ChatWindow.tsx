@@ -1,9 +1,9 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Markdown from 'react-markdown';
 import type { Food, FodmapType } from '../types/food';
 import { allFoods } from '../data/foods';
 import { useAuth } from '../contexts/AuthContext';
-import { processContentWithFoodLinks } from '../utils/foodLinks';
+import { createFoodLinkProcessor } from '../utils/foodLinks';
 import './ChatWindow.css';
 
 interface Message {
@@ -226,10 +226,17 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return found;
   };
 
-  // Wrapper to process content with food links using the utility function
-  const processMessageWithFoodLinks = (content: string): string => {
-    return processContentWithFoodLinks(content, allFoods);
-  };
+  // Create memoized food link processor (patterns computed once, results cached)
+  const foodLinkProcessor = useMemo(
+    () => createFoodLinkProcessor(allFoods),
+    [] // allFoods is static, so empty deps is fine
+  );
+
+  // Process content with food links using the memoized processor
+  const processMessageWithFoodLinks = useCallback(
+    (content: string): string => foodLinkProcessor.processContent(content),
+    [foodLinkProcessor]
+  );
 
   const processPreferenceItems = (
     type: 'tolerance' | 'sensitivity',
