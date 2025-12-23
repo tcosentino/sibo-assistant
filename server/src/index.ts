@@ -456,6 +456,7 @@ app.post('/api/chat', async (req, res) => {
     const MAX_TOOL_ITERATIONS = 5;
     let iterations = 0;
     let finalMessage = '';
+    let lastResponse: Awaited<ReturnType<typeof anthropic.messages.create>> | null = null;
 
     while (iterations < MAX_TOOL_ITERATIONS) {
       iterations++;
@@ -468,6 +469,9 @@ app.post('/api/chat', async (req, res) => {
         messages: anthropicMessages,
         metadata: userId ? { user_id: userId } : undefined,
       });
+
+      // Store last response for fallback if max iterations reached
+      lastResponse = response;
 
       // Accumulate usage
       totalUsage.input_tokens += response.usage.input_tokens;
@@ -531,6 +535,14 @@ app.post('/api/chat', async (req, res) => {
         finalMessage = textContent?.text || '';
         break;
       }
+    }
+
+    // Handle case where max iterations was reached without a final response
+    if (iterations >= MAX_TOOL_ITERATIONS && !finalMessage && lastResponse) {
+      console.warn(`Tool calling loop reached max iterations (${MAX_TOOL_ITERATIONS})`);
+      // Try to extract any text content from the last response as fallback
+      const textContent = lastResponse.content.find((block): block is TextBlock => block.type === 'text');
+      finalMessage = textContent?.text || 'I apologize, but I encountered an issue processing your request. Please try again.';
     }
 
     // Fallback: if no preference was detected via tool, try pattern matching
