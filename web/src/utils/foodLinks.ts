@@ -1,0 +1,219 @@
+import type { Food } from '../types/food';
+
+// Security limits to prevent ReDoS attacks
+const MAX_PATTERN_LENGTH = 100; // Max characters for a food name/alias
+const MAX_CONTENT_LENGTH = 50000; // Max content length to process
+const MAX_MATCHES_PER_PATTERN = 50; // Max matches per food pattern
+
+interface FoodPattern {
+  foodId: string;
+  regex: RegExp;
+}
+
+/**
+ * Creates a memoized food link processor that pre-computes regex patterns
+ * and caches results for efficient repeated processing.
+ */
+export function createFoodLinkProcessor(
+  foods: Pick<Food, 'id' | 'name' | 'aliases'>[]
+) {
+  // Pre-compute all patterns sorted by length (longer first)
+  const patterns: FoodPattern[] = [];
+
+  for (const food of foods) {
+    // Add the main name (skip if too long to prevent ReDoS)
+    if (food.name.length <= MAX_PATTERN_LENGTH) {
+      patterns.push({
+        foodId: food.id,
+        regex: createBoundaryRegex(food.name),
+      });
+    }
+
+    // Add aliases (skip if too long)
+    if (food.aliases) {
+      for (const alias of food.aliases) {
+        if (alias.length <= MAX_PATTERN_LENGTH) {
+          patterns.push({
+            foodId: food.id,
+            regex: createBoundaryRegex(alias),
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by pattern length descending (longer patterns first)
+  // We need to extract the source to get length since regex doesn't store original
+  patterns.sort((a, b) => {
+    const aLen = a.regex.source.length;
+    const bLen = b.regex.source.length;
+    return bLen - aLen;
+  });
+
+  // Simple LRU-like cache for processed content
+  const cache = new Map<string, string>();
+  const MAX_CACHE_SIZE = 100;
+
+  function processContent(content: string): string {
+    // Check cache first
+    const cached = cache.get(content);
+    if (cached !== undefined) {
+      return cached;
+    }
+
+    const result = processContentWithPatterns(content, patterns);
+
+    // Add to cache, then evict oldest if over capacity
+    cache.set(content, result);
+    if (cache.size > MAX_CACHE_SIZE) {
+      const firstKey = cache.keys().next().value;
+      if (firstKey !== undefined) {
+        cache.delete(firstKey);
+      }
+    }
+
+    return result;
+  }
+
+  return { processContent };
+}
+
+/**
+ * Creates a regex with appropriate word boundaries for a food pattern.
+ */
+function createBoundaryRegex(pattern: string): RegExp {
+  // Escape special regex characters
+  const escapedPattern = pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // Determine if pattern starts/ends with a word character for boundary matching
+  const startsWithWord = /^\w/.test(pattern);
+  const endsWithWord = /\w$/.test(pattern);
+
+  // For word chars, use \b; for non-word chars, use lookahead/behind for space/boundary
+  const leftBoundary = startsWithWord ? '\\b' : '(?<=^|[\\s.,;:!?])';
+  const rightBoundary = endsWithWord ? '\\b' : '(?=$|[\\s.,;:!?])';
+
+  return new RegExp(`${leftBoundary}${escapedPattern}${rightBoundary}`, 'gi');
+}
+
+/**
+ * Process content using pre-computed patterns.
+ */
+function processContentWithPatterns(
+  content: string,
+  patterns: FoodPattern[]
+): string {
+  // Skip processing if content is too long (security limit)
+  if (content.length > MAX_CONTENT_LENGTH) {
+    return content;
+  }
+
+  // Track which ranges have been replaced to avoid overlapping matches
+  const replacedRanges: { start: number; end: number }[] = [];
+
+  // Find all matches with their positions
+  const matches: { start: number; end: number; replacement: string }[] = [];
+
+  for (const { foodId, regex } of patterns) {
+    // Reset regex lastIndex for fresh search
+    regex.lastIndex = 0;
+
+    let matchCount = 0;
+    let match;
+    while ((match = regex.exec(content)) !== null && matchCount < MAX_MATCHES_PER_PATTERN) {
+      matchCount++;
+      const start = match.index;
+      const end = start + match[0].length;
+
+      // Check if this range overlaps with any already replaced range
+      // Two ranges overlap if one starts before the other ends and vice versa
+      const overlaps = replacedRanges.some(
+        range => start < range.end && end > range.start
+      );
+
+      if (!overlaps) {
+        // Check if already inside a markdown link
+        const beforeText = content.slice(Math.max(0, start - 50), start);
+        const afterText = content.slice(end, Math.min(content.length, end + 50));
+
+        // Only consider it inside a markdown link if there's both an unclosed bracket
+        // before AND a closing ](url) pattern after - this avoids false positives
+        // from standalone brackets in normal text like "[shown here]"
+        const hasUnclosedBracket = /\[[^\]]*$/.test(beforeText);
+        const hasLinkClose = /^\]\([^)]*\)/.test(afterText);
+        const isInsideMarkdownLink = hasUnclosedBracket && hasLinkClose;
+
+        // Also check if we're inside a @food: URL (already linked)
+        const isInsideFoodUrl = /@food:[a-z0-9-]*$/.test(beforeText);
+        const isInsideLink = isInsideMarkdownLink || isInsideFoodUrl;
+
+        if (!isInsideLink) {
+          matches.push({
+            start,
+            end,
+            replacement: `[${match[0]}](@food:${foodId})`
+          });
+          replacedRanges.push({ start, end });
+        }
+      }
+    }
+  }
+
+  // Sort matches by position (reverse order for safe replacement)
+  matches.sort((a, b) => b.start - a.start);
+
+  // Apply replacements from end to start to preserve positions
+  let result = content;
+  for (const { start, end, replacement } of matches) {
+    result = result.slice(0, start) + replacement + result.slice(end);
+  }
+
+  return result;
+}
+
+/**
+ * Process text content to convert food names into markdown links.
+ *
+ * Note: For better performance with repeated calls, use createFoodLinkProcessor()
+ * to create a memoized processor that pre-computes patterns.
+ *
+ * This function:
+ * - Finds all food names and aliases in the content
+ * - Converts them to markdown links with @food: prefix
+ * - Handles longer names before shorter ones (e.g., "Bell Pepper" before "Pepper")
+ * - Avoids overlapping matches
+ * - Skips food names that are already inside markdown links
+ * - Properly escapes special regex characters in food names
+ */
+export function processContentWithFoodLinks(
+  content: string,
+  foods: Pick<Food, 'id' | 'name' | 'aliases'>[]
+): string {
+  // Build patterns on-the-fly (less efficient for repeated calls)
+  const patterns: FoodPattern[] = [];
+
+  for (const food of foods) {
+    if (food.name.length <= MAX_PATTERN_LENGTH) {
+      patterns.push({
+        foodId: food.id,
+        regex: createBoundaryRegex(food.name),
+      });
+    }
+
+    if (food.aliases) {
+      for (const alias of food.aliases) {
+        if (alias.length <= MAX_PATTERN_LENGTH) {
+          patterns.push({
+            foodId: food.id,
+            regex: createBoundaryRegex(alias),
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by regex source length descending
+  patterns.sort((a, b) => b.regex.source.length - a.regex.source.length);
+
+  return processContentWithPatterns(content, patterns);
+}

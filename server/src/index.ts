@@ -4,12 +4,16 @@ import type {
   ImageBlockParam,
   TextBlockParam,
   TextBlock,
+  ToolUseBlock,
+  ToolResultBlockParam,
 } from '@anthropic-ai/sdk/resources/messages';
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { foodDatabase, getFoodContext } from './foods.js';
+import { foodDatabase } from './foods.js';
+import { allFoods } from './foods-full.js';
+import { TOOLS, processToolCall, getCommonFoodsSummary } from './tools.js';
 import crypto from 'crypto';
 import {
   getOrCreateUser,
@@ -146,10 +150,6 @@ setInterval(cleanupCache, 60 * 1000);
 // This enables Anthropic's prompt caching which can reduce costs by up to 90%
 const BASE_SYSTEM_PROMPT = `You are a helpful SIBO (Small Intestinal Bacterial Overgrowth) diet assistant. Your role is to help users understand which foods are safe to eat during SIBO treatment, based on FODMAP content.
 
-## Your Knowledge Base
-You have detailed information about these foods and their FODMAP ratings:
-${getFoodContext()}
-
 ## Key FODMAP Types
 - Fructose: Found in fruits, honey, high-fructose corn syrup
 - Lactose: Found in dairy products
@@ -157,27 +157,34 @@ ${getFoodContext()}
 - Galactans (GOS): Found in legumes, beans
 - Polyols (Sorbitol/Mannitol): Found in stone fruits, artificial sweeteners, some vegetables
 
-## Response Guidelines
+${getCommonFoodsSummary()}
 
-1. **Be concise but helpful** - Give clear, actionable advice
-2. **Personalize responses** - If the user has told you about their tolerances, use that information
-3. **Cite serving sizes** - Mention safe serving sizes when relevant
-4. **Suggest alternatives** - For high-FODMAP foods, suggest lower-FODMAP alternatives
-5. **Acknowledge uncertainty** - If you don't have info on a specific food, say so
-6. **Remember new preferences** - If the user tells you about a new tolerance or sensitivity, acknowledge it and ask them to save it
+## Tools Available
+You have access to tools to help users:
+- **lookup_food**: Get detailed FODMAP info for any specific food. USE THIS when users ask about a food.
+- **search_foods**: Find foods by category or FODMAP rating. USE THIS for "list all low FODMAP vegetables" type questions.
+- **save_preference**: Save a user's tolerance or sensitivity. USE THIS when users tell you about foods they can/can't eat.
+
+IMPORTANT: Use tools proactively! When a user asks about a specific food, use lookup_food. When they mention a preference, use save_preference.
+
+## Response Guidelines
+1. **Use tools first** - Always look up foods before answering to get accurate, detailed information
+2. **Be concise but helpful** - Give clear, actionable advice based on tool results
+3. **Personalize responses** - Reference saved preferences when relevant
+4. **Cite serving sizes** - Mention safe serving sizes from lookup results
+5. **Suggest alternatives** - For high-FODMAP foods, suggest lower-FODMAP alternatives
 
 ## Image Analysis
 When users send images of food:
 1. Identify all visible foods/ingredients in the image
-2. For each food, provide its FODMAP rating and serving size guidance
+2. Use lookup_food for each identified food to get accurate FODMAP ratings
 3. Highlight any high-FODMAP ingredients that should be avoided
 4. Suggest modifications if the dish contains problematic ingredients
 
 ## Detecting User Preferences
-When users say things like:
-- "I can eat dairy fine" / "Lactose doesn't bother me" → They tolerate lactose
-- "Garlic makes me sick" / "I react to onions" → They're sensitive to fructans
-Acknowledge these and suggest they use the save button in the app to remember this preference.
+When users share tolerances/sensitivities (e.g., "I can eat dairy fine" or "Garlic makes me sick"):
+1. ALWAYS use the save_preference tool to record this
+2. Acknowledge clearly: "Got it! I'll remember that [item] [works/doesn't work] for you."
 
 ## Formatting
 - Use **bold** for food names when first mentioned
@@ -393,6 +400,7 @@ app.post('/api/chat', async (req, res) => {
 
     if (cachedResponse) {
       // Return cached response with cache hit indicator
+      // Also apply the general preference-detection fallback (pattern matching) to this cached response
       const detectedPreference = detectPreferenceInResponse(
         lastUserMessage?.content || '',
         cachedResponse.message
@@ -412,11 +420,10 @@ app.post('/api/chat', async (req, res) => {
     const preferencesContext = buildPreferencesContext(userPreferences);
 
     // Convert messages to Anthropic format (handles images)
-    const anthropicMessages = convertToAnthropicMessages(messages);
+    let anthropicMessages: MessageParam[] = convertToAnthropicMessages(messages);
 
     // Use Anthropic's prompt caching by sending system as array with cache_control
-    // The base prompt is static and will be cached by Anthropic for up to 5 minutes
-    // This can reduce costs by up to 90% on the cached portion
+    // The base prompt + tools are static and will be cached by Anthropic
     const systemBlocks: Array<{ type: 'text'; text: string; cache_control?: { type: 'ephemeral' } }> =
       [
         {
@@ -434,37 +441,131 @@ app.post('/api/chat', async (req, res) => {
       });
     }
 
-    const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 1024,
-      system: systemBlocks,
-      messages: anthropicMessages,
-      metadata: userId ? { user_id: userId } : undefined,
-    });
+    // Tools with cache control for cost reduction
+    const toolsWithCache = TOOLS.map((tool, index) => ({
+      ...tool,
+      // Cache the last tool definition (Anthropic requires cache_control on last item)
+      ...(index === TOOLS.length - 1 ? { cache_control: { type: 'ephemeral' as const } } : {}),
+    }));
 
-    // Extract text content from response
-    const textContent = response.content.find((block): block is TextBlock => block.type === 'text');
-    const assistantMessage = textContent?.text || '';
+    // Track detected preferences from tool calls
+    let detectedPreference: { type: 'tolerance' | 'sensitivity'; items: string[] } | null = null;
+    let totalUsage = { input_tokens: 0, output_tokens: 0, cache_read_input_tokens: 0, cache_creation_input_tokens: 0 };
 
-    // Check if Claude detected a new preference in the conversation
-    const detectedPreference = detectPreferenceInResponse(
-      lastUserMessage?.content || '',
-      assistantMessage
-    );
+    // Tool calling loop - continue until we get a final text response
+    const MAX_TOOL_ITERATIONS = 5;
+    let iterations = 0;
+    let finalMessage = '';
+    let lastResponse: Awaited<ReturnType<typeof anthropic.messages.create>> | null = null;
+
+    while (iterations < MAX_TOOL_ITERATIONS) {
+      iterations++;
+
+      const response = await anthropic.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1024,
+        system: systemBlocks,
+        tools: toolsWithCache,
+        messages: anthropicMessages,
+        metadata: userId ? { user_id: userId } : undefined,
+      });
+
+      // Store last response for fallback if max iterations reached
+      lastResponse = response;
+
+      // Accumulate usage
+      totalUsage.input_tokens += response.usage.input_tokens;
+      totalUsage.output_tokens += response.usage.output_tokens;
+      if (response.usage.cache_read_input_tokens) {
+        totalUsage.cache_read_input_tokens += response.usage.cache_read_input_tokens;
+      }
+      if (response.usage.cache_creation_input_tokens) {
+        totalUsage.cache_creation_input_tokens += response.usage.cache_creation_input_tokens;
+      }
+
+      // Check if we're done (no more tool use)
+      if (response.stop_reason === 'end_turn') {
+        // Extract final text response
+        const textContent = response.content.find((block): block is TextBlock => block.type === 'text');
+        finalMessage = textContent?.text || '';
+        break;
+      }
+
+      // Handle tool calls
+      if (response.stop_reason === 'tool_use') {
+        const toolUseBlocks = response.content.filter((block): block is ToolUseBlock => block.type === 'tool_use');
+
+        if (toolUseBlocks.length === 0) {
+          // No tool calls, extract text and finish
+          const textContent = response.content.find((block): block is TextBlock => block.type === 'text');
+          finalMessage = textContent?.text || '';
+          break;
+        }
+
+        // Process each tool call
+        const toolResults: ToolResultBlockParam[] = [];
+
+        for (const toolUse of toolUseBlocks) {
+          const { result, preference } = processToolCall(
+            toolUse.name,
+            toolUse.input as Record<string, unknown>
+          );
+
+          // If this was a save_preference call, capture the preference
+          if (preference) {
+            detectedPreference = preference;
+          }
+
+          toolResults.push({
+            type: 'tool_result',
+            tool_use_id: toolUse.id,
+            content: result,
+          });
+        }
+
+        // Add assistant's response and tool results to messages for next iteration
+        anthropicMessages = [
+          ...anthropicMessages,
+          { role: 'assistant' as const, content: response.content },
+          { role: 'user' as const, content: toolResults },
+        ];
+      } else {
+        // Unknown stop reason, extract any text and finish
+        const textContent = response.content.find((block): block is TextBlock => block.type === 'text');
+        finalMessage = textContent?.text || '';
+        break;
+      }
+    }
+
+    // Handle case where max iterations was reached without a final response
+    if (iterations >= MAX_TOOL_ITERATIONS && !finalMessage && lastResponse) {
+      console.warn(`Tool calling loop reached max iterations (${MAX_TOOL_ITERATIONS})`);
+      // Try to extract any text content from the last response as fallback
+      const textContent = lastResponse.content.find((block): block is TextBlock => block.type === 'text');
+      finalMessage = textContent?.text || 'I apologize, but I encountered an issue processing your request. Please try again.';
+    }
+
+    // Fallback: if no preference was detected via tool, try pattern matching
+    if (!detectedPreference) {
+      detectedPreference = detectPreferenceInResponse(
+        lastUserMessage?.content || '',
+        finalMessage
+      );
+    }
 
     // Cache the response for future identical queries
-    if (cacheKey && assistantMessage) {
+    if (cacheKey && finalMessage) {
       setCachedResponse(cacheKey, {
-        message: assistantMessage,
-        usage: response.usage,
+        message: finalMessage,
+        usage: totalUsage,
         timestamp: Date.now(),
       });
     }
 
     res.json({
-      message: assistantMessage,
+      message: finalMessage,
       detectedPreference,
-      usage: response.usage,
+      usage: totalUsage,
     });
   } catch (error) {
     console.error('Chat error:', error);
@@ -477,7 +578,7 @@ app.post('/api/chat', async (req, res) => {
 
 // Health check endpoint
 app.get('/api/health', (_req, res) => {
-  res.json({ status: 'ok', foods: foodDatabase.length });
+  res.json({ status: 'ok', foods: foodDatabase.length, fullDatabase: allFoods.length });
 });
 
 // Get food database

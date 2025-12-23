@@ -1,8 +1,9 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import Markdown from 'react-markdown';
 import type { Food, FodmapType } from '../types/food';
 import { allFoods } from '../data/foods';
 import { useAuth } from '../contexts/AuthContext';
+import { createFoodLinkProcessor } from '../utils/foodLinks';
 import './ChatWindow.css';
 
 interface Message {
@@ -77,9 +78,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [useApi, setUseApi] = useState(true);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
+  const [preferenceSavedMessage, setPreferenceSavedMessage] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const preferenceSavedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Load preferences from localStorage or backend
   useEffect(() => {
@@ -118,6 +121,15 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
 
     loadPreferences();
   }, [isAuthenticated, getAuthHeaders]);
+
+  // Clean up preference saved message timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (preferenceSavedTimeoutRef.current) {
+        clearTimeout(preferenceSavedTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const getWelcomeMessage = useCallback((): Message => {
     const hasPref =
@@ -224,6 +236,18 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return found;
   };
 
+  // Create memoized food link processor (patterns computed once, results cached)
+  const foodLinkProcessor = useMemo(
+    () => createFoodLinkProcessor(allFoods),
+    [] // allFoods is static, so empty deps is fine
+  );
+
+  // Process content with food links using the memoized processor
+  const processMessageWithFoodLinks = useCallback(
+    (content: string): string => foodLinkProcessor.processContent(content),
+    [foodLinkProcessor]
+  );
+
   const processPreferenceItems = (
     type: 'tolerance' | 'sensitivity',
     items: string[]
@@ -231,6 +255,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     const newPrefs = { ...preferences };
     const target =
       type === 'tolerance' ? newPrefs.tolerances : newPrefs.sensitivities;
+    const addedItems: string[] = [];
 
     for (const item of items) {
       const lowerItem = item.toLowerCase();
@@ -238,6 +263,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
       const fodmapType = FODMAP_KEYWORDS[lowerItem];
       if (fodmapType && !target.fodmapTypes.includes(fodmapType)) {
         target.fodmapTypes.push(fodmapType);
+        addedItems.push(item);
         continue;
       }
 
@@ -246,16 +272,30 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         !target.categories.includes(lowerItem)
       ) {
         target.categories.push(lowerItem);
+        addedItems.push(item);
         continue;
       }
 
       const food = findFoodInDatabase(item);
       if (food && !target.foods.includes(food.id)) {
         target.foods.push(food.id);
+        addedItems.push(food.name);
       }
     }
 
-    setPreferences(newPrefs);
+    if (addedItems.length > 0) {
+      setPreferences(newPrefs);
+      const verb = type === 'tolerance' ? 'tolerate' : 'are sensitive to';
+      setPreferenceSavedMessage(`Saved: You ${verb} ${addedItems.join(', ')}`);
+      // Clear any existing timeout before setting a new one
+      if (preferenceSavedTimeoutRef.current) {
+        clearTimeout(preferenceSavedTimeoutRef.current);
+      }
+      preferenceSavedTimeoutRef.current = setTimeout(() => {
+        setPreferenceSavedMessage(null);
+        preferenceSavedTimeoutRef.current = null;
+      }, 4000);
+    }
   };
 
   const isFoodTolerated = (food: Food): boolean => {
@@ -572,6 +612,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const renderMessageContent = (message: Message) => {
     const { content, image } = message;
 
+    // Process content to add food links for assistant messages
+    const processedContent = message.role === 'assistant'
+      ? processMessageWithFoodLinks(content)
+      : content;
+
     return (
       <>
         {image && (
@@ -583,6 +628,14 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         )}
         <div className="chat-window__markdown">
           <Markdown
+            // Allow only safe URL schemes and the custom @food: scheme
+            urlTransform={(url) =>
+              url.startsWith('@food:') ||
+              url.startsWith('http://') ||
+              url.startsWith('https://')
+                ? url
+                : ''
+            }
             components={{
               // Custom strong renderer to make food names clickable
               strong: ({ children }) => {
@@ -591,8 +644,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                 if (food) {
                   return (
                     <button
+                      type="button"
                       className="chat-window__food-link"
                       onClick={() => onFoodClick(food)}
+                      aria-label={`View details for ${food.name}`}
+                      title={`View ${food.name} details`}
                     >
                       {text}
                     </button>
@@ -600,15 +656,49 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
                 }
                 return <strong>{children}</strong>;
               },
-              // Open links in new tab
-              a: ({ href, children }) => (
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                  {children}
-                </a>
-              ),
+              // Custom link renderer to handle food links
+              a: ({ href, children }) => {
+                // Check if this is a food link
+                if (href?.startsWith('@food:')) {
+                  const foodId = href.replace('@food:', '');
+                  const food = allFoods.find(f => f.id === foodId);
+                  if (food) {
+                    return (
+                      <button
+                        type="button"
+                        className="chat-window__food-link"
+                        onClick={() => onFoodClick(food)}
+                        aria-label={`View details for ${food.name}`}
+                        title={`View ${food.name} details`}
+                      >
+                        {children}
+                      </button>
+                    );
+                  }
+                  // Food link with unknown ID: log for debugging and render non-clickable text
+                  if (foodId) {
+                    console.warn(`Unknown food link in chat content: ${foodId}`);
+                  }
+                  return (
+                    <span
+                      className="chat-window__food-link chat-window__food-link--invalid"
+                      data-missing-food-id={foodId}
+                      title="Unknown food item"
+                    >
+                      {children}
+                    </span>
+                  );
+                }
+                // Regular links open in new tab
+                return (
+                  <a href={href} target="_blank" rel="noopener noreferrer">
+                    {children}
+                  </a>
+                );
+              },
             }}
           >
-            {content}
+            {processedContent}
           </Markdown>
         </div>
       </>
@@ -716,6 +806,12 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
               >
                 Clear All Preferences
               </button>
+            </div>
+          )}
+
+          {preferenceSavedMessage && (
+            <div className="chat-window__preference-saved">
+              {preferenceSavedMessage}
             </div>
           )}
 
