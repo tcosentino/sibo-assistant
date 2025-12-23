@@ -542,16 +542,17 @@ describe('Chat API Integration Tests', () => {
       expect(systemPrompt).toContain('Identify all visible foods');
     });
 
-    it('should include food database context', async () => {
+    it('should include tools and common foods reference', async () => {
       mockCreate.mockResolvedValueOnce({
         content: [{ type: 'text', text: 'Response' }],
         usage: { input_tokens: 100, output_tokens: 10 },
+        stop_reason: 'end_turn',
       });
 
       await request(app)
         .post('/api/chat')
         .send({
-          messages: [{ role: 'user', content: 'System prompt test 3 - food database' }],
+          messages: [{ role: 'user', content: 'System prompt test 3 - tools' }],
           preferences: {
             tolerances: { foods: [], fodmapTypes: [], categories: [] },
             sensitivities: { foods: [], fodmapTypes: [], categories: [] },
@@ -560,9 +561,12 @@ describe('Chat API Integration Tests', () => {
 
       const systemBlocks = mockCreate.mock.calls[0][0].system;
       const systemPrompt = getSystemPromptText(systemBlocks);
-      expect(systemPrompt).toContain('Your Knowledge Base');
-      // Should include some foods from the database
-      expect(systemPrompt).toContain('Carrot');
+      // Should reference tools instead of full food database
+      expect(systemPrompt).toContain('Tools Available');
+      expect(systemPrompt).toContain('lookup_food');
+      expect(systemPrompt).toContain('save_preference');
+      // Should include common foods summary
+      expect(systemPrompt).toContain('Quick Reference');
     });
   });
 
