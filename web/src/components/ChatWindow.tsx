@@ -164,9 +164,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     return { id: 'welcome', role: 'assistant', content };
   }, [preferences, isAuthenticated, user]);
 
+  // Set initial welcome message only on mount (not when preferences change)
   useEffect(() => {
     setMessages([getWelcomeMessage()]);
-  }, [getWelcomeMessage]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Intentionally empty - only run on mount
 
   // Save preferences to localStorage and backend
   useEffect(() => {
