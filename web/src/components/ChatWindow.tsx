@@ -83,6 +83,30 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const preferenceSavedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [keyboardHeight, setKeyboardHeight] = useState(0);
+
+  // Handle mobile keyboard visibility using visualViewport API
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const viewport = window.visualViewport;
+    if (!viewport) return;
+
+    const handleResize = () => {
+      // Calculate keyboard height as difference between window height and viewport height
+      const keyboardH = window.innerHeight - viewport.height;
+      setKeyboardHeight(keyboardH > 0 ? keyboardH : 0);
+    };
+
+    viewport.addEventListener('resize', handleResize);
+    viewport.addEventListener('scroll', handleResize);
+
+    return () => {
+      viewport.removeEventListener('resize', handleResize);
+      viewport.removeEventListener('scroll', handleResize);
+    };
+  }, [isOpen]);
 
   // Load preferences from localStorage or backend
   useEffect(() => {
@@ -734,7 +758,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
             onClick={() => setIsOpen(false)}
             aria-hidden="true"
           />
-          <div className="chat-window__container">
+          <div
+            ref={containerRef}
+            className="chat-window__container"
+            style={keyboardHeight > 0 ? { height: `calc(100% - ${keyboardHeight}px)` } : undefined}
+          >
           <div className="chat-window__header">
             <div className="chat-window__header-content">
               <h3>Food Assistant {useApi ? '' : '(Offline)'}</h3>
