@@ -79,6 +79,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isSyncing, setIsSyncing] = useState(false);
   const [preferenceSavedMessage, setPreferenceSavedMessage] = useState<string | null>(null);
+  const [isMonkeySpinning, setIsMonkeySpinning] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -547,6 +548,16 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     }
   };
 
+  const handleMonkeySpin = () => {
+    if (!isMonkeySpinning) {
+      setIsMonkeySpinning(true);
+    }
+  };
+
+  const handleSpinEnd = () => {
+    setIsMonkeySpinning(false);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if ((!input.trim() && !selectedImage) || isLoading) return;
@@ -747,7 +758,16 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
           onClick={() => setIsOpen(true)}
           aria-label="Chat with Bebo"
         >
-          🐵
+          <span
+            className={`chat-window__toggle-monkey${isMonkeySpinning ? ' chat-window__toggle-monkey--spinning' : ''}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              handleMonkeySpin();
+            }}
+            onAnimationEnd={handleSpinEnd}
+          >
+            🐵
+          </span>
         </button>
       )}
 
@@ -765,7 +785,11 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
           >
           <div className="chat-window__header">
             <div className="chat-window__header-content">
-              <h3><span className="chat-window__header-mascot">🐵</span> Bebo {useApi ? '' : '(Offline)'}</h3>
+              <h3><span
+                className={`chat-window__header-mascot${isMonkeySpinning ? ' chat-window__header-mascot--spinning' : ''}`}
+                onClick={handleMonkeySpin}
+                onAnimationEnd={handleSpinEnd}
+              >🐵</span> Bebo {useApi ? '' : '(Offline)'}</h3>
               <p>Your SIBO food guide</p>
             </div>
             <div className="chat-window__header-actions">
