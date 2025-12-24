@@ -40,18 +40,18 @@
 
 .app__title {
   margin: 0;
-  font-size: 1.75rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: white;
   position: relative;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .app__mascot {
-  font-size: 2rem;
+  font-size: 2.75rem;
   display: inline-block;
   animation: mascot-bounce 2s ease-in-out infinite;
 }
@@ -62,11 +62,13 @@
 }
 
 .app__subtitle {
-  margin: 6px 0 0;
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.9);
+  margin: 4px 0 0;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
   position: relative;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-style: italic;
 }
 
 .app__controls {

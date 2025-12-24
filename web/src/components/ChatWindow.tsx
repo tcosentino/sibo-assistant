@@ -164,12 +164,12 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
     let content = '';
 
     if (isAuthenticated && user?.name) {
-      content = `Hi ${user.name.split(' ')[0]}! `;
+      content = `Hey ${user.name.split(' ')[0]}! I'm Bebo 🐵 `;
     } else {
-      content = 'Hi! ';
+      content = "Hey there! I'm Bebo 🐵 ";
     }
 
-    content += 'Ask me about any food to learn if it\'s safe to eat with SIBO. You can also upload a photo of food and I\'ll identify it for you!';
+    content += "Ask me about any food and I'll tell you if it's safe to eat with SIBO. You can also snap a photo of food and I'll identify it for you!";
 
     if (hasPref) {
       content +=
@@ -745,9 +745,9 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
         <button
           className="chat-window__toggle"
           onClick={() => setIsOpen(true)}
-          aria-label="Ask about food"
+          aria-label="Chat with Bebo"
         >
-          💬
+          🐵
         </button>
       )}
 
@@ -765,8 +765,8 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
           >
           <div className="chat-window__header">
             <div className="chat-window__header-content">
-              <h3>Food Assistant {useApi ? '' : '(Offline)'}</h3>
-              <p>Ask about any food for SIBO</p>
+              <h3><span className="chat-window__header-mascot">🐵</span> Bebo {useApi ? '' : '(Offline)'}</h3>
+              <p>Your SIBO food guide</p>
             </div>
             <div className="chat-window__header-actions">
               {hasPreferences && (
