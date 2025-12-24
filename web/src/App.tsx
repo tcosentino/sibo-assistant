@@ -28,6 +28,7 @@ function App() {
   const [fodmapFilter, setFodmapFilter] = useState<FilterOption>('all');
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('all');
   const [selectedFood, setSelectedFood] = useState<Food | null>(null);
+  const [isMascotSpinning, setIsMascotSpinning] = useState(false);
 
   const filteredFoods = useMemo(() => {
     let foods = allFoods;
@@ -93,7 +94,11 @@ function App() {
     <div className="app">
       <header className="app__header">
         <div className="app__header-content">
-          <h1 className="app__title"><span className="app__mascot">🐵</span> Bebo</h1>
+          <h1 className="app__title"><span
+              className={`app__mascot${isMascotSpinning ? ' app__mascot--spinning' : ''}`}
+              onClick={() => !isMascotSpinning && setIsMascotSpinning(true)}
+              onAnimationEnd={() => setIsMascotSpinning(false)}
+            >🐵</span> Bebo</h1>
           <p className="app__subtitle">the SIBO assistant</p>
         </div>
         <UserMenu />
