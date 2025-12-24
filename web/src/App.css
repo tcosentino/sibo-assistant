@@ -45,6 +45,20 @@
   color: white;
   position: relative;
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app__mascot {
+  font-size: 2rem;
+  display: inline-block;
+  animation: mascot-bounce 2s ease-in-out infinite;
+}
+
+@keyframes mascot-bounce {
+  0%, 100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-4px) rotate(5deg); }
 }
 
 .app__subtitle {
