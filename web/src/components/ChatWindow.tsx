@@ -758,16 +758,7 @@ export function ChatWindow({ onFoodClick }: ChatWindowProps) {
           onClick={() => setIsOpen(true)}
           aria-label="Chat with Bebo"
         >
-          <span
-            className={`chat-window__toggle-monkey${isMonkeySpinning ? ' chat-window__toggle-monkey--spinning' : ''}`}
-            onClick={(e) => {
-              e.stopPropagation();
-              handleMonkeySpin();
-            }}
-            onAnimationEnd={handleSpinEnd}
-          >
-            🐵
-          </span>
+          🐵
         </button>
       )}
 
