@@ -93,10 +93,8 @@ function App() {
     <div className="app">
       <header className="app__header">
         <div className="app__header-content">
-          <h1 className="app__title"><span className="app__mascot">🐵</span> Bebo the SIBO Assistant</h1>
-          <p className="app__subtitle">
-            Find what's safe to eat during your SIBO journey
-          </p>
+          <h1 className="app__title"><span className="app__mascot">🐵</span> Bebo</h1>
+          <p className="app__subtitle">the SIBO assistant</p>
         </div>
         <UserMenu />
       </header>
