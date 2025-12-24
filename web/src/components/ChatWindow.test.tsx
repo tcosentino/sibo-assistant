@@ -86,17 +86,17 @@ describe('ChatWindow', () => {
     it('should render toggle button when closed', () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       expect(toggleButton).toBeInTheDocument();
     });
 
     it('should open chat window when toggle is clicked', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
-      expect(screen.getByText('Food Assistant')).toBeInTheDocument();
+      expect(screen.getByText(/Your SIBO food guide/)).toBeInTheDocument();
       expect(screen.getByPlaceholderText(/ask about a food/i)).toBeInTheDocument();
     });
 
@@ -104,23 +104,23 @@ describe('ChatWindow', () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
       // Open
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
-      expect(screen.getByText('Food Assistant')).toBeInTheDocument();
+      expect(screen.getByText(/Your SIBO food guide/)).toBeInTheDocument();
 
       // Close
       const closeButton = screen.getByRole('button', { name: /close chat/i });
       await userEvent.click(closeButton);
-      expect(screen.queryByText('Food Assistant')).not.toBeInTheDocument();
+      expect(screen.queryByText(/Your SIBO food guide/)).not.toBeInTheDocument();
     });
 
     it('should show welcome message when opened', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
-      expect(screen.getByText(/ask me about any food/i)).toBeInTheDocument();
+      expect(screen.getByText(/I'm Bebo/i)).toBeInTheDocument();
     });
   });
 
@@ -128,7 +128,7 @@ describe('ChatWindow', () => {
     it('should have disabled send button when input is empty', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const sendButton = screen.getByRole('button', { name: /send/i });
@@ -138,7 +138,7 @@ describe('ChatWindow', () => {
     it('should enable send button when input has text', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -158,7 +158,7 @@ describe('ChatWindow', () => {
     it('should respond about low FODMAP foods', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -173,7 +173,7 @@ describe('ChatWindow', () => {
     it('should respond about high FODMAP foods', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -188,7 +188,7 @@ describe('ChatWindow', () => {
     it('should respond when food is not found in database', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -209,7 +209,7 @@ describe('ChatWindow', () => {
     it('should not show preferences button when no preferences saved', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       // Brain button should not be visible
@@ -219,7 +219,7 @@ describe('ChatWindow', () => {
     it('should save preferences to localStorage', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       // Preferences are saved on component state change
@@ -229,7 +229,7 @@ describe('ChatWindow', () => {
     it('should show preferences summary when asked', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -254,7 +254,7 @@ describe('ChatWindow', () => {
 
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -283,7 +283,7 @@ describe('ChatWindow', () => {
 
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -306,7 +306,7 @@ describe('ChatWindow', () => {
     it('should have upload button', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const uploadButton = screen.getByTitle(/upload a photo/i);
@@ -318,7 +318,7 @@ describe('ChatWindow', () => {
 
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       // Simulate having an image selected by submitting with just an image indicator
@@ -341,7 +341,7 @@ describe('ChatWindow', () => {
     it('should call onFoodClick when clicking a food link', async () => {
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -378,7 +378,7 @@ describe('ChatWindow', () => {
 
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
@@ -399,7 +399,7 @@ describe('ChatWindow', () => {
 
       renderWithProviders(<ChatWindow onFoodClick={mockOnFoodClick} />);
 
-      const toggleButton = screen.getByRole('button', { name: /ask about food/i });
+      const toggleButton = screen.getByRole('button', { name: /chat with bebo/i });
       await userEvent.click(toggleButton);
 
       const input = screen.getByPlaceholderText(/ask about a food/i);
