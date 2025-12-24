@@ -2,7 +2,7 @@
   "name": "sibo-assistant",
   "private": true,
   "version": "0.1.0",
-  "description": "SIBO Food Guide - Monorepo root",
+  "description": "Bebo the SIBO Assistant - Monorepo root",
   "scripts": {
     "install": "cd web && npm install && cd ../server && npm install",
     "build": "cd web && npm run build && cd ../server && npm run build",
