@@ -4,6 +4,7 @@
   flex-direction: column;
   scroll-padding-top: 200px;
   background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+  overflow-x: hidden;
 }
 
 .app__header {
@@ -14,6 +15,7 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   position: relative;
+  overflow: hidden;
 }
 
 .app__header::before {
