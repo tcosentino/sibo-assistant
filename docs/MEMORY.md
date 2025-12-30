@@ -39,11 +39,13 @@ The SIBO Assistant memory system enables personalized dietary recommendations by
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| Database | SQLite (better-sqlite3) | Persistent storage |
+| Database | SQLite (better-sqlite3) with WAL mode | Persistent storage with concurrent access |
 | Authentication | Google OAuth 2.0 + JWT | User identity |
 | Backend | Express.js + TypeScript | API server |
-| Frontend | React + TypeScript | User interface |
-| AI | Claude (Anthropic API) | Conversational AI |
+| Frontend | React 19 + TypeScript | User interface |
+| AI | Claude Sonnet 4 (claude-sonnet-4-20250514) | Conversational AI with tool calling |
+| Monitoring | Helicone AI Observability | Usage tracking and debugging |
+| Food Database | 10,000+ foods | Comprehensive FODMAP reference |
 
 ### Database Schema
 
@@ -79,6 +81,12 @@ users                     user_preferences
                          └─────────────────┘
 ```
 
+**Database Indexes:**
+- `idx_conversations_user_id` - Fast lookup of conversations by user
+- `idx_messages_conversation_id` - Fast retrieval of messages per conversation
+- `idx_user_memories_user_id` - Quick access to user memories
+- `idx_user_memories_type` - Filter memories by type
+
 ### Authentication Flow
 
 ```
@@ -90,6 +98,41 @@ users                     user_preferences
 6. Frontend stores JWT for API calls
 7. Subsequent requests include JWT header
 ```
+
+### AI Tool Architecture
+
+The Claude AI uses tool calling to interact with the food database and user preferences:
+
+| Tool | Purpose | Parameters |
+|------|---------|------------|
+| `lookup_food` | Get detailed FODMAP info for a specific food | `food_name` |
+| `search_foods` | Search foods by category, rating, or keyword | `category`, `fodmapRating`, `query` |
+| `save_preference` | Store user tolerance or sensitivity | `preferenceType`, `items`, `category` |
+
+**Tool Calling Flow:**
+```
+User Message → Claude → Tool Call(s) → Database → Response → Claude → User
+                           ↑
+                           └── Up to 5 iterations for complex queries
+```
+
+### Performance Optimizations
+
+#### Prompt Caching
+Uses Anthropic's ephemeral cache for the static system prompt, reducing costs by up to 90%:
+- **Cached**: Base system prompt with FODMAP knowledge and tool definitions
+- **Dynamic**: User preferences injected per-request
+
+#### Response Caching
+Local in-memory cache for identical queries:
+- **TTL**: 5 minutes
+- **Strategy**: LRU (Least Recently Used) eviction
+- **Key**: Hash of user message + preferences
+
+#### Database Optimizations
+- **WAL Mode**: Write-Ahead Logging for concurrent read/write access
+- **Indexed Queries**: All foreign key lookups are indexed
+- **Connection Pooling**: Reused database connections
 
 ---
 
@@ -131,6 +174,12 @@ interface UserPreferences {
 - **Storage**: SQLite `conversations` + `messages` tables
 - **Lifetime**: Persists until user deletes
 - **Purpose**: Enables continuity and reference to past discussions
+
+**Image Analysis Support:**
+Messages can include food photos (base64 encoded) which Claude analyzes to:
+- Identify foods and ingredients in the image
+- Provide FODMAP ratings for visible items
+- Suggest modifications for SIBO-safety
 
 ### 4. Long-Term Memories (User Facts)
 
@@ -300,7 +349,7 @@ Add a new memory.
 
 ### How Our Implementation Compares to Industry Leaders
 
-Based on research of ChatGPT, Claude, Perplexity, and other AI assistants with memory features (2024-2025), here's how our implementation aligns:
+Based on research of ChatGPT, Claude, Perplexity, and other AI assistants with memory features (2025), here's how our implementation aligns:
 
 | Feature | ChatGPT | Claude | SIBO Assistant | Assessment |
 |---------|---------|--------|----------------|------------|
@@ -309,7 +358,7 @@ Based on research of ChatGPT, Claude, Perplexity, and other AI assistants with m
 | **Cross-device Sync** | Yes (all tiers now) | Yes (Pro/Enterprise) | Yes (when authenticated) | ✅ Parity achieved |
 | **Privacy Siloing** | By conversation context | By project | By user account | ✅ Appropriate for single-purpose app |
 | **Preference Detection** | AI-driven extraction | AI-driven | Pattern matching + AI | ✅ More deterministic |
-| **Context Efficiency** | Smart summarization | Context editing | Fresh per session | ⚠️ Room for improvement |
+| **Context Efficiency** | Smart summarization | Context editing | Prompt caching + fresh session | ✅ Cost-optimized approach |
 
 ### Key Best Practices Applied
 
@@ -340,6 +389,8 @@ Based on research of ChatGPT, Claude, Perplexity, and other AI assistants with m
 > "The art of compaction lies in the selection of what to keep versus what to discard."
 
 **Our Implementation:**
+- **Prompt caching**: Static system prompt cached, reducing API costs by up to 90%
+- **Response caching**: 5-minute LRU cache for identical queries
 - Only inject relevant preferences into system prompt
 - Pattern matching for preference detection (no extra AI calls)
 - Fresh conversation per session (no history bloat)
@@ -403,21 +454,21 @@ Based on trends from ChatGPT Memory, Claude Memory, and Perplexity:
 
 ## Future Improvements
 
-Based on industry trends and user needs:
+For the comprehensive product roadmap, see [FUTURE_FEATURES.md](./FUTURE_FEATURES.md).
 
-### Short-Term
+### Memory System Enhancements
 
-- [ ] Add data export feature (download your data)
-- [ ] Implement conversation history persistence UI
-- [ ] Add preference version history
-- [ ] Create memory confidence scoring
+**Short-Term:**
+- [ ] Add data export feature (download your data as JSON/PDF)
+- [ ] Implement conversation history UI in frontend
+- [ ] Add preference version history for undo/redo
+- [ ] Visual memory confidence scoring in preferences panel
 
-### Long-Term
-
-- [ ] Semantic memory with vector embeddings
-- [ ] Conversation summarization for context efficiency
-- [ ] Proactive preference suggestions based on patterns
-- [ ] Share preferences with healthcare providers
+**Long-Term:**
+- [ ] Semantic memory with vector embeddings for better recall
+- [ ] Conversation summarization for longer context retention
+- [ ] Proactive preference suggestions based on chat patterns
+- [ ] Share preferences with healthcare providers (PDF export)
 
 ---
 
@@ -450,7 +501,11 @@ VITE_GOOGLE_CLIENT_ID=xxxxx.apps.googleusercontent.com
 ## References
 
 - [OpenAI Memory Feature](https://openai.com/index/memory-and-new-controls-for-chatgpt/)
-- [Anthropic Context Management](https://anthropic.com/news/context-management)
-- [Claude Memory Documentation](https://docs.claude.com/en/docs/claude-code/memory)
-- [LangChain Memory Patterns](https://www.analyticsvidhya.com/blog/2024/11/langchain-memory/)
-- [EDPB AI Guidelines 2024](https://edpb.europa.eu/)
+- [Anthropic Claude Documentation](https://docs.anthropic.com/en/docs/)
+- [Anthropic Prompt Caching](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching)
+- [LangChain Memory Patterns](https://www.langchain.com/docs/concepts/memory)
+- [EDPB AI Guidelines](https://edpb.europa.eu/)
+
+---
+
+*Last updated: December 2025*
