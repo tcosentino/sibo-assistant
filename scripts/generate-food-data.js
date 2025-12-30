@@ -9,7 +9,8 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data', 'foods');
-const OUTPUT_FILE = path.join(__dirname, '..', 'web', 'src', 'data', 'foods.ts');
+const WEB_OUTPUT_FILE = path.join(__dirname, '..', 'web', 'src', 'data', 'foods.ts');
+const SERVER_OUTPUT_FILE = path.join(__dirname, '..', 'server', 'src', 'foods-full.ts');
 
 function loadFoodsFromDirectory(dirPath) {
   if (!fs.existsSync(dirPath)) {
@@ -44,8 +45,8 @@ function main() {
     console.log(`Loaded ${data[category].length} items from ${category}`);
   }
 
-  // Generate TypeScript file
-  const output = `// Auto-generated file - do not edit directly
+  // Generate web TypeScript file
+  const webOutput = `// Auto-generated file - do not edit directly
 // Run: node scripts/generate-food-data.js
 
 import type { Food } from '../types/food';
@@ -93,8 +94,109 @@ export const foodsByCategory = {
 };
 `;
 
-  fs.writeFileSync(OUTPUT_FILE, output);
-  console.log(`\nGenerated ${OUTPUT_FILE}`);
+  // Generate server TypeScript file (with inline types for standalone use)
+  const serverOutput = `// Auto-generated file - do not edit directly
+// Run: node scripts/generate-food-data.js
+
+// Type definitions (copied from web/src/types/food.ts for server compatibility)
+export type FodmapRating = 'low' | 'moderate' | 'high';
+
+export type FodmapType =
+  | 'fructose'
+  | 'lactose'
+  | 'fructans'
+  | 'galactans'
+  | 'polyols-sorbitol'
+  | 'polyols-mannitol';
+
+export type FoodCategory =
+  | 'vegetable'
+  | 'fruit'
+  | 'protein'
+  | 'grain'
+  | 'dairy'
+  | 'fat'
+  | 'sweetener'
+  | 'beverage'
+  | 'condiment';
+
+export interface ServingSize {
+  grams: number;
+  description: string;
+  cups?: string;
+}
+
+export interface Food {
+  id: string;
+  name: string;
+  aliases?: string[];
+  category: FoodCategory;
+  subcategory?: string;
+  fodmapRating: FodmapRating;
+  fodmapTypes: FodmapType[];
+  servingSizes: {
+    low?: ServingSize;
+    moderate?: ServingSize;
+    high?: ServingSize;
+  };
+  siboNotes: string;
+  preparationTips?: string[];
+  alternatives?: string[];
+  pairsWellWith?: string[];
+  nutritionalHighlights?: string[];
+  source?: string;
+  lastUpdated?: string;
+}
+
+export const vegetables: Food[] = ${JSON.stringify(data.vegetables, null, 2)};
+
+export const fruits: Food[] = ${JSON.stringify(data.fruits || [], null, 2)};
+
+export const proteins: Food[] = ${JSON.stringify(data.proteins || [], null, 2)};
+
+export const grains: Food[] = ${JSON.stringify(data.grains || [], null, 2)};
+
+export const dairy: Food[] = ${JSON.stringify(data.dairy || [], null, 2)};
+
+export const fats: Food[] = ${JSON.stringify(data.fats || [], null, 2)};
+
+export const sweeteners: Food[] = ${JSON.stringify(data.sweeteners || [], null, 2)};
+
+export const beverages: Food[] = ${JSON.stringify(data.beverages || [], null, 2)};
+
+export const condiments: Food[] = ${JSON.stringify(data.condiments || [], null, 2)};
+
+export const allFoods: Food[] = [
+  ...vegetables,
+  ...fruits,
+  ...proteins,
+  ...grains,
+  ...dairy,
+  ...fats,
+  ...sweeteners,
+  ...beverages,
+  ...condiments,
+];
+
+export const foodsByCategory = {
+  vegetables,
+  fruits,
+  proteins,
+  grains,
+  dairy,
+  fats,
+  sweeteners,
+  beverages,
+  condiments,
+};
+`;
+
+  fs.writeFileSync(WEB_OUTPUT_FILE, webOutput);
+  console.log(`\nGenerated ${WEB_OUTPUT_FILE}`);
+
+  fs.writeFileSync(SERVER_OUTPUT_FILE, serverOutput);
+  console.log(`Generated ${SERVER_OUTPUT_FILE}`);
+
   console.log(`Total foods: ${Object.values(data).flat().length}`);
 }
 

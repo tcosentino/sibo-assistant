@@ -1,0 +1,43 @@
+{
+  "id": "licorice",
+  "name": "Licorice",
+  "aliases": [
+    "Liquorice",
+    "Black licorice",
+    "Licorice root",
+    "Twizzlers",
+    "Red vines"
+  ],
+  "category": "sweetener",
+  "subcategory": "candy",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructans", "polyols-sorbitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 15,
+      "description": "Even small amounts are problematic",
+      "cups": "2-3 pieces"
+    }
+  },
+  "siboNotes": "High in FODMAPs from both fructans and polyols. Most varieties also contain wheat flour, adding another potential trigger. Both black and red licorice candies should be avoided.",
+  "preparationTips": [
+    "Avoid during elimination phase",
+    "Contains wheat in most commercial varieties",
+    "Licorice root tea is also high FODMAP",
+    "No safe serving size established"
+  ],
+  "alternatives": [
+    "Hard candy (sugar-based)",
+    "Marshmallows",
+    "Dark chocolate"
+  ],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Traditional licorice has medicinal properties",
+    "Contains glycyrrhizin compound",
+    "Unfortunately high in FODMAPs",
+    "May also affect blood pressure"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}

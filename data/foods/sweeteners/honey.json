@@ -1,0 +1,43 @@
+{
+  "id": "honey",
+  "name": "Honey",
+  "aliases": [
+    "Raw honey",
+    "Manuka honey",
+    "Clover honey",
+    "Wildflower honey"
+  ],
+  "category": "sweetener",
+  "subcategory": "natural-sweetener",
+  "fodmapRating": "high",
+  "fodmapTypes": ["fructose"],
+  "servingSizes": {
+    "high": {
+      "grams": 7,
+      "description": "Even 1 teaspoon is high FODMAP",
+      "cups": "1 teaspoon"
+    }
+  },
+  "siboNotes": "High in excess fructose - one of the worst sweeteners for SIBO patients. Even small amounts can trigger symptoms. The fructose-to-glucose ratio makes it poorly absorbed.",
+  "preparationTips": [
+    "Avoid completely during elimination phase",
+    "Use maple syrup or sugar as alternatives",
+    "Check labels - honey is hidden in many foods",
+    "Even 'healthy' raw honey is high FODMAP"
+  ],
+  "alternatives": [
+    "Maple syrup",
+    "Cane sugar",
+    "Rice malt syrup",
+    "Stevia"
+  ],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Contains trace minerals",
+    "Has antimicrobial properties",
+    "Natural energy source",
+    "Unfortunately high in excess fructose"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}

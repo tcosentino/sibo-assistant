@@ -1,0 +1,51 @@
+{
+  "id": "dark-chocolate",
+  "name": "Dark Chocolate",
+  "aliases": [
+    "Plain chocolate",
+    "Bittersweet chocolate",
+    "Semi-sweet chocolate"
+  ],
+  "category": "sweetener",
+  "subcategory": "chocolate",
+  "fodmapRating": "low",
+  "fodmapTypes": ["fructans"],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 5 squares or 1 oz",
+      "cups": "2 tablespoons chips"
+    },
+    "moderate": {
+      "grams": 50,
+      "description": "About 8-10 squares",
+      "cups": "3 tablespoons chips"
+    }
+  },
+  "siboNotes": "Safe at small portions. Choose 70%+ cocoa content for lower sugar. Milk chocolate contains lactose and is higher FODMAP. Dark chocolate has minimal fructans at recommended serving.",
+  "preparationTips": [
+    "Choose 70% cocoa or higher for best tolerance",
+    "Avoid varieties with added milk, cream, or inulin",
+    "Can be melted for dipping fruits",
+    "Check labels for hidden high-FODMAP ingredients"
+  ],
+  "alternatives": [
+    "Carob chips (check ingredients)",
+    "Cocoa powder"
+  ],
+  "pairsWellWith": [
+    "Strawberries",
+    "Bananas (firm)",
+    "Oranges",
+    "Peanut butter",
+    "Almonds (limit 10)"
+  ],
+  "nutritionalHighlights": [
+    "Rich in antioxidants",
+    "Contains magnesium and iron",
+    "Good source of fiber",
+    "Contains theobromine (mild stimulant)"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}

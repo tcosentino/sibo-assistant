@@ -1,0 +1,42 @@
+{
+  "id": "marshmallows",
+  "name": "Marshmallows",
+  "aliases": [
+    "Mini marshmallows",
+    "Marshmallow fluff"
+  ],
+  "category": "sweetener",
+  "subcategory": "candy",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 10,
+      "description": "About 4-5 mini marshmallows",
+      "cups": "2 tablespoons mini"
+    }
+  },
+  "siboNotes": "Safe in small portions. Traditional marshmallows are made with gelatin, sugar, and corn syrup. Check ingredients to avoid varieties with high fructose corn syrup.",
+  "preparationTips": [
+    "Choose brands made with regular corn syrup, not HFCS",
+    "Great for hot chocolate or s'mores",
+    "Can be toasted for added flavor",
+    "Store in airtight container to prevent hardening"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Dark chocolate",
+    "Hot cocoa",
+    "Graham crackers (gluten-free)",
+    "Rice crispy treats",
+    "Lactose-free ice cream"
+  ],
+  "nutritionalHighlights": [
+    "Low in fat",
+    "Contains gelatin (protein)",
+    "Quick source of sugar energy",
+    "No fiber content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}
