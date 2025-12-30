@@ -1,0 +1,41 @@
+{
+  "id": "cotton-candy",
+  "name": "Cotton Candy",
+  "aliases": [
+    "Candy floss",
+    "Fairy floss",
+    "Spun sugar"
+  ],
+  "category": "sweetener",
+  "subcategory": "candy",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 30,
+      "description": "About 1 small serving",
+      "cups": "1 cup (loosely packed)"
+    }
+  },
+  "siboNotes": "Pure spun sugar is FODMAP-free. A safe treat option for SIBO patients. The sugar dissolves quickly and is easily absorbed.",
+  "preparationTips": [
+    "Best eaten fresh as it dissolves in humidity",
+    "Store in airtight container if saving",
+    "Check pre-packaged varieties for additives",
+    "Fair/carnival versions are typically just pure sugar"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Carnival and fair foods",
+    "Birthday celebrations",
+    "Movie snacks"
+  ],
+  "nutritionalHighlights": [
+    "Pure sugar calories",
+    "Virtually no fat or protein",
+    "Quick energy source",
+    "Low calorie per volume due to air content"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "hard-candy",
+  "name": "Hard Candy",
+  "aliases": [
+    "Boiled sweets",
+    "Candy canes",
+    "Lollipops",
+    "Peppermints",
+    "Butterscotch"
+  ],
+  "category": "sweetener",
+  "subcategory": "candy",
+  "fodmapRating": "low",
+  "fodmapTypes": [],
+  "servingSizes": {
+    "low": {
+      "grams": 15,
+      "description": "About 3-4 small candies",
+      "cups": "1 tablespoon"
+    }
+  },
+  "siboNotes": "Safe if made with sugar. CRITICAL: Avoid all sugar-free versions as they contain polyols (sorbitol, mannitol, xylitol, isomalt) which are very high FODMAP and cause digestive distress.",
+  "preparationTips": [
+    "Always check ingredient labels for polyol sweeteners",
+    "Look for 'sugar' as first ingredient",
+    "Avoid anything labeled 'sugar-free' or 'diabetic'",
+    "Peppermint candies may help with nausea"
+  ],
+  "alternatives": [],
+  "pairsWellWith": [
+    "Hot tea",
+    "After meals as breath freshener",
+    "Holiday treats"
+  ],
+  "nutritionalHighlights": [
+    "Pure sugar calories",
+    "Quick energy source",
+    "No nutritional value beyond calories",
+    "Long-lasting sweet treat"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}

@@ -24476,6 +24476,100 @@ export const sweeteners: Food[] = [
     "lastUpdated": "2025-12-22"
   },
   {
+    "id": "cotton-candy",
+    "name": "Cotton Candy",
+    "aliases": [
+      "Candy floss",
+      "Fairy floss",
+      "Spun sugar"
+    ],
+    "category": "sweetener",
+    "subcategory": "candy",
+    "fodmapRating": "low",
+    "fodmapTypes": [],
+    "servingSizes": {
+      "low": {
+        "grams": 30,
+        "description": "About 1 small serving",
+        "cups": "1 cup (loosely packed)"
+      }
+    },
+    "siboNotes": "Pure spun sugar is FODMAP-free. A safe treat option for SIBO patients. The sugar dissolves quickly and is easily absorbed.",
+    "preparationTips": [
+      "Best eaten fresh as it dissolves in humidity",
+      "Store in airtight container if saving",
+      "Check pre-packaged varieties for additives",
+      "Fair/carnival versions are typically just pure sugar"
+    ],
+    "alternatives": [],
+    "pairsWellWith": [
+      "Carnival and fair foods",
+      "Birthday celebrations",
+      "Movie snacks"
+    ],
+    "nutritionalHighlights": [
+      "Pure sugar calories",
+      "Virtually no fat or protein",
+      "Quick energy source",
+      "Low calorie per volume due to air content"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
+  },
+  {
+    "id": "dark-chocolate",
+    "name": "Dark Chocolate",
+    "aliases": [
+      "Plain chocolate",
+      "Bittersweet chocolate",
+      "Semi-sweet chocolate"
+    ],
+    "category": "sweetener",
+    "subcategory": "chocolate",
+    "fodmapRating": "low",
+    "fodmapTypes": [
+      "fructans"
+    ],
+    "servingSizes": {
+      "low": {
+        "grams": 30,
+        "description": "About 5 squares or 1 oz",
+        "cups": "2 tablespoons chips"
+      },
+      "moderate": {
+        "grams": 50,
+        "description": "About 8-10 squares",
+        "cups": "3 tablespoons chips"
+      }
+    },
+    "siboNotes": "Safe at small portions. Choose 70%+ cocoa content for lower sugar. Milk chocolate contains lactose and is higher FODMAP. Dark chocolate has minimal fructans at recommended serving.",
+    "preparationTips": [
+      "Choose 70% cocoa or higher for best tolerance",
+      "Avoid varieties with added milk, cream, or inulin",
+      "Can be melted for dipping fruits",
+      "Check labels for hidden high-FODMAP ingredients"
+    ],
+    "alternatives": [
+      "Carob chips (check ingredients)",
+      "Cocoa powder"
+    ],
+    "pairsWellWith": [
+      "Strawberries",
+      "Bananas (firm)",
+      "Oranges",
+      "Peanut butter",
+      "Almonds (limit 10)"
+    ],
+    "nutritionalHighlights": [
+      "Rich in antioxidants",
+      "Contains magnesium and iron",
+      "Good source of fiber",
+      "Contains theobromine (mild stimulant)"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
+  },
+  {
     "id": "date-sugar",
     "name": "Date Sugar",
     "aliases": [
@@ -24703,6 +24797,94 @@ export const sweeteners: Food[] = [
     "lastUpdated": "2025-12-23"
   },
   {
+    "id": "hard-candy",
+    "name": "Hard Candy",
+    "aliases": [
+      "Boiled sweets",
+      "Candy canes",
+      "Lollipops",
+      "Peppermints",
+      "Butterscotch"
+    ],
+    "category": "sweetener",
+    "subcategory": "candy",
+    "fodmapRating": "low",
+    "fodmapTypes": [],
+    "servingSizes": {
+      "low": {
+        "grams": 15,
+        "description": "About 3-4 small candies",
+        "cups": "1 tablespoon"
+      }
+    },
+    "siboNotes": "Safe if made with sugar. CRITICAL: Avoid all sugar-free versions as they contain polyols (sorbitol, mannitol, xylitol, isomalt) which are very high FODMAP and cause digestive distress.",
+    "preparationTips": [
+      "Always check ingredient labels for polyol sweeteners",
+      "Look for 'sugar' as first ingredient",
+      "Avoid anything labeled 'sugar-free' or 'diabetic'",
+      "Peppermint candies may help with nausea"
+    ],
+    "alternatives": [],
+    "pairsWellWith": [
+      "Hot tea",
+      "After meals as breath freshener",
+      "Holiday treats"
+    ],
+    "nutritionalHighlights": [
+      "Pure sugar calories",
+      "Quick energy source",
+      "No nutritional value beyond calories",
+      "Long-lasting sweet treat"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "aliases": [
+      "Raw honey",
+      "Manuka honey",
+      "Clover honey",
+      "Wildflower honey"
+    ],
+    "category": "sweetener",
+    "subcategory": "natural-sweetener",
+    "fodmapRating": "high",
+    "fodmapTypes": [
+      "fructose"
+    ],
+    "servingSizes": {
+      "high": {
+        "grams": 7,
+        "description": "Even 1 teaspoon is high FODMAP",
+        "cups": "1 teaspoon"
+      }
+    },
+    "siboNotes": "High in excess fructose - one of the worst sweeteners for SIBO patients. Even small amounts can trigger symptoms. The fructose-to-glucose ratio makes it poorly absorbed.",
+    "preparationTips": [
+      "Avoid completely during elimination phase",
+      "Use maple syrup or sugar as alternatives",
+      "Check labels - honey is hidden in many foods",
+      "Even 'healthy' raw honey is high FODMAP"
+    ],
+    "alternatives": [
+      "Maple syrup",
+      "Cane sugar",
+      "Rice malt syrup",
+      "Stevia"
+    ],
+    "pairsWellWith": [],
+    "nutritionalHighlights": [
+      "Contains trace minerals",
+      "Has antimicrobial properties",
+      "Natural energy source",
+      "Unfortunately high in excess fructose"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
+  },
+  {
     "id": "isomalt",
     "name": "Isomalt",
     "aliases": [
@@ -24761,6 +24943,52 @@ export const sweeteners: Food[] = [
     ],
     "source": "FODMAP research (Monash University guidelines)",
     "lastUpdated": "2025-12-22"
+  },
+  {
+    "id": "licorice",
+    "name": "Licorice",
+    "aliases": [
+      "Liquorice",
+      "Black licorice",
+      "Licorice root",
+      "Twizzlers",
+      "Red vines"
+    ],
+    "category": "sweetener",
+    "subcategory": "candy",
+    "fodmapRating": "high",
+    "fodmapTypes": [
+      "fructans",
+      "polyols-sorbitol"
+    ],
+    "servingSizes": {
+      "high": {
+        "grams": 15,
+        "description": "Even small amounts are problematic",
+        "cups": "2-3 pieces"
+      }
+    },
+    "siboNotes": "High in FODMAPs from both fructans and polyols. Most varieties also contain wheat flour, adding another potential trigger. Both black and red licorice candies should be avoided.",
+    "preparationTips": [
+      "Avoid during elimination phase",
+      "Contains wheat in most commercial varieties",
+      "Licorice root tea is also high FODMAP",
+      "No safe serving size established"
+    ],
+    "alternatives": [
+      "Hard candy (sugar-based)",
+      "Marshmallows",
+      "Dark chocolate"
+    ],
+    "pairsWellWith": [],
+    "nutritionalHighlights": [
+      "Traditional licorice has medicinal properties",
+      "Contains glycyrrhizin compound",
+      "Unfortunately high in FODMAPs",
+      "May also affect blood pressure"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
   },
   {
     "id": "maltitol",
@@ -24870,6 +25098,48 @@ export const sweeteners: Food[] = [
     ],
     "source": "FODMAP research (Monash University guidelines)",
     "lastUpdated": "2025-12-22"
+  },
+  {
+    "id": "marshmallows",
+    "name": "Marshmallows",
+    "aliases": [
+      "Mini marshmallows",
+      "Marshmallow fluff"
+    ],
+    "category": "sweetener",
+    "subcategory": "candy",
+    "fodmapRating": "low",
+    "fodmapTypes": [],
+    "servingSizes": {
+      "low": {
+        "grams": 10,
+        "description": "About 4-5 mini marshmallows",
+        "cups": "2 tablespoons mini"
+      }
+    },
+    "siboNotes": "Safe in small portions. Traditional marshmallows are made with gelatin, sugar, and corn syrup. Check ingredients to avoid varieties with high fructose corn syrup.",
+    "preparationTips": [
+      "Choose brands made with regular corn syrup, not HFCS",
+      "Great for hot chocolate or s'mores",
+      "Can be toasted for added flavor",
+      "Store in airtight container to prevent hardening"
+    ],
+    "alternatives": [],
+    "pairsWellWith": [
+      "Dark chocolate",
+      "Hot cocoa",
+      "Graham crackers (gluten-free)",
+      "Rice crispy treats",
+      "Lactose-free ice cream"
+    ],
+    "nutritionalHighlights": [
+      "Low in fat",
+      "Contains gelatin (protein)",
+      "Quick source of sugar energy",
+      "No fiber content"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
   },
   {
     "id": "molasses",
@@ -25235,6 +25505,53 @@ export const sweeteners: Food[] = [
     ],
     "source": "FODMAP research (Monash University guidelines)",
     "lastUpdated": "2025-12-22"
+  },
+  {
+    "id": "sugar-free-candy",
+    "name": "Sugar-Free Candy",
+    "aliases": [
+      "Diet candy",
+      "Diabetic candy",
+      "No sugar added candy",
+      "Sugar-free mints",
+      "Sugar-free gum"
+    ],
+    "category": "sweetener",
+    "subcategory": "candy",
+    "fodmapRating": "high",
+    "fodmapTypes": [
+      "polyols-sorbitol",
+      "polyols-mannitol"
+    ],
+    "servingSizes": {
+      "high": {
+        "grams": 5,
+        "description": "Even 1-2 pieces can trigger symptoms",
+        "cups": "1 piece"
+      }
+    },
+    "siboNotes": "AVOID! Sugar-free candies contain polyol sweeteners (sorbitol, mannitol, xylitol, maltitol, isomalt) which are very high FODMAP. These are poorly absorbed and fermented by gut bacteria, causing gas, bloating, and diarrhea.",
+    "preparationTips": [
+      "Avoid all sugar-free candy and gum",
+      "Check ingredients for -ol endings (sorbitol, xylitol, etc.)",
+      "Choose regular sugar-based candy instead",
+      "Even small amounts can cause significant symptoms"
+    ],
+    "alternatives": [
+      "Hard candy (regular sugar)",
+      "Dark chocolate",
+      "Marshmallows",
+      "Regular mints"
+    ],
+    "pairsWellWith": [],
+    "nutritionalHighlights": [
+      "Lower calories than regular candy",
+      "But causes severe GI symptoms in SIBO",
+      "Polyols are fermentable carbohydrates",
+      "Not worth the digestive consequences"
+    ],
+    "source": "FODMAP research (Monash University guidelines)",
+    "lastUpdated": "2025-12-30"
   },
   {
     "id": "treacle",

@@ -1,0 +1,44 @@
+{
+  "id": "sugar-free-candy",
+  "name": "Sugar-Free Candy",
+  "aliases": [
+    "Diet candy",
+    "Diabetic candy",
+    "No sugar added candy",
+    "Sugar-free mints",
+    "Sugar-free gum"
+  ],
+  "category": "sweetener",
+  "subcategory": "candy",
+  "fodmapRating": "high",
+  "fodmapTypes": ["polyols-sorbitol", "polyols-mannitol"],
+  "servingSizes": {
+    "high": {
+      "grams": 5,
+      "description": "Even 1-2 pieces can trigger symptoms",
+      "cups": "1 piece"
+    }
+  },
+  "siboNotes": "AVOID! Sugar-free candies contain polyol sweeteners (sorbitol, mannitol, xylitol, maltitol, isomalt) which are very high FODMAP. These are poorly absorbed and fermented by gut bacteria, causing gas, bloating, and diarrhea.",
+  "preparationTips": [
+    "Avoid all sugar-free candy and gum",
+    "Check ingredients for -ol endings (sorbitol, xylitol, etc.)",
+    "Choose regular sugar-based candy instead",
+    "Even small amounts can cause significant symptoms"
+  ],
+  "alternatives": [
+    "Hard candy (regular sugar)",
+    "Dark chocolate",
+    "Marshmallows",
+    "Regular mints"
+  ],
+  "pairsWellWith": [],
+  "nutritionalHighlights": [
+    "Lower calories than regular candy",
+    "But causes severe GI symptoms in SIBO",
+    "Polyols are fermentable carbohydrates",
+    "Not worth the digestive consequences"
+  ],
+  "source": "FODMAP research (Monash University guidelines)",
+  "lastUpdated": "2025-12-30"
+}
