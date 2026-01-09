@@ -1,5 +1,5 @@
 {
-  "name": "sibo-food-guide",
+  "name": "@apps/macro-tracker-web",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -8,12 +8,11 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-data": "node ../scripts/generate-food-data.js",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:watch": "vitest"
   },
   "dependencies": {
+    "@monorepo/shared": "*",
     "@react-oauth/google": "^0.13.4",
     "jwt-decode": "^4.0.0",
     "react": "^19.2.0",
