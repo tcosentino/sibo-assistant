@@ -168,11 +168,19 @@ jobs:
 
       - name: Upload Playwright Report
         uses: actions/upload-artifact@v4
-        if: failure()
+        if: always()
         with:
           name: sibo-playwright-report
           path: apps/sibo/web/playwright-report/
-          retention-days: 7
+          retention-days: 14
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sibo-screenshots
+          path: apps/sibo/web/test-results/
+          retention-days: 14
 
   e2e-macro-tracker:
     name: Macro Tracker E2E Tests
@@ -205,11 +213,19 @@ jobs:
 
       - name: Upload Playwright Report
         uses: actions/upload-artifact@v4
-        if: failure()
+        if: always()
         with:
           name: macro-tracker-playwright-report
           path: apps/macro-tracker/web/playwright-report/
-          retention-days: 7
+          retention-days: 14
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: macro-tracker-screenshots
+          path: apps/macro-tracker/web/test-results/
+          retention-days: 14
 
   all-tests-pass:
     name: All Tests Pass
