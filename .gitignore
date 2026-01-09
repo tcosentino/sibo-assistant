@@ -31,6 +31,11 @@ npm-debug.log*
 # Test coverage
 coverage/
 
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+
 # Temp files
 .tmp/
 tmp/

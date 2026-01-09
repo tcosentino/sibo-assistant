@@ -22,6 +22,9 @@
     "test:macro-tracker-web": "npm run test -w @apps/macro-tracker-web",
     "test:macro-tracker-server": "npm run test -w @apps/macro-tracker-server",
     "test": "npm run test:sibo-web && npm run test:sibo-server && npm run test:macro-tracker-web && npm run test:macro-tracker-server",
+    "test:e2e:sibo": "npm run test:e2e -w @apps/sibo-web",
+    "test:e2e:macro-tracker": "npm run test:e2e -w @apps/macro-tracker-web",
+    "test:e2e": "npm run test:e2e:sibo && npm run test:e2e:macro-tracker",
     "lint:sibo-web": "npm run lint -w @apps/sibo-web",
     "lint": "npm run lint:sibo-web"
   }
