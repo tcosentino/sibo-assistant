@@ -1,5 +1,5 @@
 {
-  "name": "sibo-assistant-server",
+  "name": "@apps/macro-tracker-server",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -7,13 +7,11 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "gather-fodmap": "node scripts/gather-fodmap-data.js",
-    "gather-fodmap:dry": "node scripts/gather-fodmap-data.js --dry-run"
+    "test:watch": "vitest"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.52.0",
+    "@monorepo/agent": "*",
+    "@monorepo/shared": "*",
     "better-sqlite3": "^12.5.0",
     "cors": "^2.8.5",
     "express": "^4.21.0",

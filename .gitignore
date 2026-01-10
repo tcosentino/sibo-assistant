@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+npm-debug.log*
+
+# Database files
+*.db
+*.sqlite
+
+# Test coverage
+coverage/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+test-results/
+
+# Temp files
+.tmp/
+tmp/

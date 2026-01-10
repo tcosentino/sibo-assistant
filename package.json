@@ -1,13 +1,31 @@
 {
-  "name": "sibo-assistant",
+  "name": "assistant-monorepo",
   "private": true,
   "version": "0.1.0",
-  "description": "Bebo the SIBO Assistant - Monorepo root",
+  "description": "Monorepo for agent-powered applications",
+  "workspaces": [
+    "packages/*",
+    "apps/*/web",
+    "apps/*/server"
+  ],
   "scripts": {
-    "install": "cd web && npm install && cd ../server && npm install",
-    "build": "cd web && npm run build && cd ../server && npm run build",
-    "postbuild": "cp -r web/dist server/dist/public",
-    "start": "cd server && npm start",
-    "dev": "cd web && npm run dev"
+    "build:packages": "npm run build -w @monorepo/shared && npm run build -w @monorepo/agent",
+    "build:sibo": "npm run build -w @apps/sibo-web && npm run build -w @apps/sibo-server",
+    "build:macro-tracker": "npm run build -w @apps/macro-tracker-web && npm run build -w @apps/macro-tracker-server",
+    "build": "npm run build:packages && npm run build:sibo && npm run build:macro-tracker",
+    "dev:sibo-web": "npm run dev -w @apps/sibo-web",
+    "dev:sibo-server": "npm run dev -w @apps/sibo-server",
+    "dev:macro-tracker-web": "npm run dev -w @apps/macro-tracker-web",
+    "dev:macro-tracker-server": "npm run dev -w @apps/macro-tracker-server",
+    "test:sibo-web": "npm run test -w @apps/sibo-web",
+    "test:sibo-server": "npm run test -w @apps/sibo-server",
+    "test:macro-tracker-web": "npm run test -w @apps/macro-tracker-web",
+    "test:macro-tracker-server": "npm run test -w @apps/macro-tracker-server",
+    "test": "npm run test:sibo-web && npm run test:sibo-server && npm run test:macro-tracker-web && npm run test:macro-tracker-server",
+    "test:e2e:sibo": "npm run test:e2e -w @apps/sibo-web",
+    "test:e2e:macro-tracker": "npm run test:e2e -w @apps/macro-tracker-web",
+    "test:e2e": "npm run test:e2e:sibo && npm run test:e2e:macro-tracker",
+    "lint:sibo-web": "npm run lint -w @apps/sibo-web",
+    "lint": "npm run lint:sibo-web"
   }
 }

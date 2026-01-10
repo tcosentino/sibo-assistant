@@ -1,18 +1,20 @@
 # Render.com Blueprint
 # https://render.com/docs/blueprint-spec
 #
-# For direct deployment (non-Blueprint), use these settings:
-#   Root Directory: (leave empty)
-#   Build Command: npm install && npm run build
-#   Publish Directory: dist
+# This monorepo contains multiple apps. Deploy each app separately.
+# For each service, set the Root Directory appropriately.
 
 services:
-  # Express API server with Claude integration
+  # ============================================================================
+  # SIBO Assistant
+  # ============================================================================
+
+  # SIBO Express API server with Claude integration
   - type: web
     name: sibo-assistant-api
     runtime: node
-    rootDir: server
-    buildCommand: npm install && npm run build
+    rootDir: apps/sibo/server
+    buildCommand: cd ../../.. && npm install && npm run build:packages && npm run build -w @apps/sibo-server
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
@@ -33,11 +35,12 @@ services:
       mountPath: /var/data
       sizeGB: 1
 
-  # Static frontend
+  # SIBO Static frontend
   - type: web
     name: sibo-food-guide
     runtime: static
-    buildCommand: npm install && npm run build
+    rootDir: apps/sibo/web
+    buildCommand: cd ../../.. && npm install && npm run build:packages && npm run build -w @apps/sibo-web
     staticPublishPath: dist
     envVars:
       - key: NODE_VERSION
@@ -46,6 +49,64 @@ services:
         fromService:
           type: web
           name: sibo-assistant-api
+          property: host
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+  # ============================================================================
+  # Macro Tracker (MacroMeal)
+  # ============================================================================
+
+  # MacroMeal Express API server
+  - type: web
+    name: macro-tracker-api
+    runtime: node
+    rootDir: apps/macro-tracker/server
+    buildCommand: cd ../../.. && npm install && npm run build:packages && npm run build -w @apps/macro-tracker-server
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: DATABASE_PATH
+        value: /var/data/macromeal.db
+    healthCheckPath: /api/health
+    disk:
+      name: macromeal-data
+      mountPath: /var/data
+      sizeGB: 1
+
+  # MacroMeal Static frontend
+  - type: web
+    name: macro-tracker-web
+    runtime: static
+    rootDir: apps/macro-tracker/web
+    buildCommand: cd ../../.. && npm install && npm run build:packages && npm run build -w @apps/macro-tracker-web
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: macro-tracker-api
           property: host
     headers:
       - path: /*
