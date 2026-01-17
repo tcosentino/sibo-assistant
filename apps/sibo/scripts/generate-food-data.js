@@ -38,11 +38,21 @@ function main() {
   const categories = ['vegetables', 'fruits', 'proteins', 'grains', 'dairy', 'fats', 'sweeteners', 'beverages', 'condiments'];
 
   const data = {};
+  const seenIds = new Map(); // Track IDs to detect duplicates
 
   for (const category of categories) {
     const dirPath = path.join(DATA_DIR, category);
     data[category] = loadFoodsFromDirectory(dirPath);
     console.log(`Loaded ${data[category].length} items from ${category}`);
+
+    // Check for duplicate IDs
+    for (const food of data[category]) {
+      if (seenIds.has(food.id)) {
+        console.error(`ERROR: Duplicate ID "${food.id}" found in ${category}/ (first seen in ${seenIds.get(food.id)}/)`);
+        process.exit(1);
+      }
+      seenIds.set(food.id, category);
+    }
   }
 
   // Generate web TypeScript file
