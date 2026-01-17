@@ -4,6 +4,31 @@
   "aliases": ["extra virgin olive oil", "EVOO"],
   "category": "fat",
   "subcategory": "oil",
+  "nutrition": {
+    "per100g": {
+      "calories": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fiber": 0,
+      "sugar": 0,
+      "fat": 100,
+      "saturatedFat": 13.81,
+      "sodium": 2,
+      "potassium": 1,
+      "vitaminC": 0,
+      "vitaminK": 60.2,
+      "vitaminA": 0,
+      "calcium": 1,
+      "iron": 0.56
+    },
+    "servingSize": {
+      "amount": 14,
+      "unit": "g",
+      "description": "1 tbsp"
+    },
+    "source": "USDA FoodData Central",
+    "fdcId": "171413"
+  },
   "fodmapRating": "low",
   "fodmapTypes": [],
   "servingSizes": {

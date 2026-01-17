@@ -696,6 +696,31 @@ export const vegetables: Food[] = [
     ],
     "category": "vegetable",
     "subcategory": "cruciferous",
+    "nutrition": {
+      "per100g": {
+        "calories": 34,
+        "protein": 2.82,
+        "carbs": 6.64,
+        "fiber": 2.6,
+        "sugar": 1.7,
+        "fat": 0.37,
+        "saturatedFat": 0.04,
+        "sodium": 33,
+        "potassium": 316,
+        "vitaminC": 89.2,
+        "vitaminK": 101.6,
+        "vitaminA": 31,
+        "calcium": 47,
+        "iron": 0.73
+      },
+      "servingSize": {
+        "amount": 91,
+        "unit": "g",
+        "description": "1 cup chopped"
+      },
+      "source": "USDA FoodData Central",
+      "fdcId": "170379"
+    },
     "fodmapRating": "low",
     "fodmapTypes": [
       "fructans",
@@ -9725,6 +9750,31 @@ export const proteins: Food[] = [
     ],
     "category": "protein",
     "subcategory": "poultry",
+    "nutrition": {
+      "per100g": {
+        "calories": 165,
+        "protein": 31.02,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "fat": 3.57,
+        "saturatedFat": 1.01,
+        "sodium": 74,
+        "potassium": 256,
+        "vitaminC": 0,
+        "vitaminK": 0.3,
+        "vitaminA": 6,
+        "calcium": 15,
+        "iron": 1.04
+      },
+      "servingSize": {
+        "amount": 85,
+        "unit": "g",
+        "description": "3 oz cooked"
+      },
+      "source": "USDA FoodData Central",
+      "fdcId": "171077"
+    },
     "fodmapRating": "low",
     "fodmapTypes": [],
     "servingSizes": {
@@ -23003,6 +23053,31 @@ export const fats: Food[] = [
     ],
     "category": "fat",
     "subcategory": "oil",
+    "nutrition": {
+      "per100g": {
+        "calories": 884,
+        "protein": 0,
+        "carbs": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "fat": 100,
+        "saturatedFat": 13.81,
+        "sodium": 2,
+        "potassium": 1,
+        "vitaminC": 0,
+        "vitaminK": 60.2,
+        "vitaminA": 0,
+        "calcium": 1,
+        "iron": 0.56
+      },
+      "servingSize": {
+        "amount": 14,
+        "unit": "g",
+        "description": "1 tbsp"
+      },
+      "source": "USDA FoodData Central",
+      "fdcId": "171413"
+    },
     "fodmapRating": "low",
     "fodmapTypes": [],
     "servingSizes": {
@@ -29553,6 +29628,31 @@ export const condiments: Food[] = [
     ],
     "category": "condiment",
     "subcategory": "spice",
+    "nutrition": {
+      "per100g": {
+        "calories": 247,
+        "protein": 3.99,
+        "carbs": 80.59,
+        "fiber": 53.1,
+        "sugar": 2.17,
+        "fat": 1.24,
+        "saturatedFat": 0.34,
+        "sodium": 10,
+        "potassium": 431,
+        "vitaminC": 3.8,
+        "vitaminK": 31.2,
+        "vitaminA": 15,
+        "calcium": 1002,
+        "iron": 8.32
+      },
+      "servingSize": {
+        "amount": 2.6,
+        "unit": "g",
+        "description": "1 tsp ground"
+      },
+      "source": "USDA FoodData Central",
+      "fdcId": "171320"
+    },
     "fodmapRating": "low",
     "fodmapTypes": [],
     "servingSizes": {

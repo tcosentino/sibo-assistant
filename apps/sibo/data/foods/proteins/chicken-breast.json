@@ -8,6 +8,31 @@
   ],
   "category": "protein",
   "subcategory": "poultry",
+  "nutrition": {
+    "per100g": {
+      "calories": 165,
+      "protein": 31.02,
+      "carbs": 0,
+      "fiber": 0,
+      "sugar": 0,
+      "fat": 3.57,
+      "saturatedFat": 1.01,
+      "sodium": 74,
+      "potassium": 256,
+      "vitaminC": 0,
+      "vitaminK": 0.3,
+      "vitaminA": 6,
+      "calcium": 15,
+      "iron": 1.04
+    },
+    "servingSize": {
+      "amount": 85,
+      "unit": "g",
+      "description": "3 oz cooked"
+    },
+    "source": "USDA FoodData Central",
+    "fdcId": "171077"
+  },
   "fodmapRating": "low",
   "fodmapTypes": [],
   "servingSizes": {

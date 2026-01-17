@@ -4,6 +4,31 @@
   "aliases": ["ground cinnamon", "cinnamon sticks"],
   "category": "condiment",
   "subcategory": "spice",
+  "nutrition": {
+    "per100g": {
+      "calories": 247,
+      "protein": 3.99,
+      "carbs": 80.59,
+      "fiber": 53.1,
+      "sugar": 2.17,
+      "fat": 1.24,
+      "saturatedFat": 0.34,
+      "sodium": 10,
+      "potassium": 431,
+      "vitaminC": 3.8,
+      "vitaminK": 31.2,
+      "vitaminA": 15,
+      "calcium": 1002,
+      "iron": 8.32
+    },
+    "servingSize": {
+      "amount": 2.6,
+      "unit": "g",
+      "description": "1 tsp ground"
+    },
+    "source": "USDA FoodData Central",
+    "fdcId": "171320"
+  },
   "fodmapRating": "low",
   "fodmapTypes": [],
   "servingSizes": {
