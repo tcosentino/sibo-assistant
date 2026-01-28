@@ -44,5 +44,383 @@
     "Provides umami flavor compounds"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "1999628",
+    "usdaName": "Mushrooms, shiitake",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "10/28/2021",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 88.6,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 44.1,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 36.39,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.39,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 2.41,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.2,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.62,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 8.17,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 4.17,
+        "unit": "g"
+      },
+      {
+        "id": 2058,
+        "number": null,
+        "name": "Beta-glucan",
+        "amount": 2.92,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 0.77,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.14,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 14.06,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 75.82,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 243,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0.94,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.76,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.05,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.17,
+        "unit": "mg"
+      },
+      {
+        "id": 1103,
+        "number": "317",
+        "name": "Selenium, Se",
+        "amount": 1.24,
+        "unit": "µg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 2.74,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 6.05,
+        "unit": "µg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 32.13,
+        "unit": "µg"
+      },
+      {
+        "id": 1110,
+        "number": "324",
+        "name": "Vitamin D (D2 + D3), International Units",
+        "amount": 2.25,
+        "unit": "IU"
+      },
+      {
+        "id": 1114,
+        "number": "328",
+        "name": "Vitamin D (D2 + D3)",
+        "amount": 0.06,
+        "unit": "µg"
+      },
+      {
+        "id": 1111,
+        "number": "325",
+        "name": "Vitamin D2 (ergocalciferol)",
+        "amount": 0.06,
+        "unit": "µg"
+      },
+      {
+        "id": 2059,
+        "number": null,
+        "name": "Vitamin D4",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 2069,
+        "number": "961",
+        "name": "Glutathione",
+        "amount": 12.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1285,
+        "number": "638",
+        "name": "Stigmasterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1286,
+        "number": "639",
+        "name": "Campesterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1288,
+        "number": "641",
+        "name": "Beta-sitosterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 2060,
+        "number": null,
+        "name": "Ergosta-7-enol",
+        "amount": 6.41,
+        "unit": "mg"
+      },
+      {
+        "id": 2062,
+        "number": null,
+        "name": "Ergosta-5,7-dienol",
+        "amount": 3.61,
+        "unit": "mg"
+      },
+      {
+        "id": 2061,
+        "number": null,
+        "name": "Ergosta-7,22-dienol",
+        "amount": 1.51,
+        "unit": "mg"
+      },
+      {
+        "id": 1284,
+        "number": "637",
+        "name": "Ergosterol",
+        "amount": 61.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1294,
+        "number": "647",
+        "name": "Beta-sitostanol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1296,
+        "number": "649",
+        "name": "Delta-5-avenasterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 2052,
+        "number": null,
+        "name": "Delta-7-Stigmastenol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1210,
+        "number": "501",
+        "name": "Tryptophan",
+        "amount": 0.29,
+        "unit": "g"
+      },
+      {
+        "id": 1211,
+        "number": "502",
+        "name": "Threonine",
+        "amount": 0.99,
+        "unit": "g"
+      },
+      {
+        "id": 1212,
+        "number": "503",
+        "name": "Isoleucine",
+        "amount": 0.79,
+        "unit": "g"
+      },
+      {
+        "id": 1213,
+        "number": "504",
+        "name": "Leucine",
+        "amount": 1.31,
+        "unit": "g"
+      },
+      {
+        "id": 1214,
+        "number": "505",
+        "name": "Lysine",
+        "amount": 1.17,
+        "unit": "g"
+      },
+      {
+        "id": 1215,
+        "number": "506",
+        "name": "Methionine",
+        "amount": 0.27,
+        "unit": "g"
+      },
+      {
+        "id": 1217,
+        "number": "508",
+        "name": "Phenylalanine",
+        "amount": 0.79,
+        "unit": "g"
+      },
+      {
+        "id": 1219,
+        "number": "510",
+        "name": "Valine",
+        "amount": 1.64,
+        "unit": "g"
+      },
+      {
+        "id": 1221,
+        "number": "512",
+        "name": "Histidine",
+        "amount": 0.44,
+        "unit": "g"
+      },
+      {
+        "id": 2057,
+        "number": null,
+        "name": "Ergothioneine",
+        "amount": 11.06,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 85,
+        "unit": "g",
+        "description": "85g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

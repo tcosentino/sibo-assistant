@@ -111,7 +111,7 @@ async function fetchWithRetry(url, maxRetries = 3) {
 
 // Search USDA for a food item
 async function searchUSDA(query) {
-  const url = `${USDA_API_BASE}/foods/search?api_key=${API_KEY}&query=${encodeURIComponent(query)}&dataType=Foundation,SR Legacy&pageSize=5`;
+  const url = `${USDA_API_BASE}/foods/search?api_key=${API_KEY}&query=${encodeURIComponent(query)}&dataType=${encodeURIComponent('Foundation,SR Legacy')}&pageSize=5`;
 
   const response = await fetchWithRetry(url);
   if (!response.ok) {

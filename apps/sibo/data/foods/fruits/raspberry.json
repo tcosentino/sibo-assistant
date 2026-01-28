@@ -1,7 +1,9 @@
 {
   "id": "raspberry",
   "name": "Raspberry",
-  "aliases": ["raspberries"],
+  "aliases": [
+    "raspberries"
+  ],
   "category": "fruit",
   "subcategory": "berry",
   "fodmapRating": "low",
@@ -24,8 +26,16 @@
     "Frozen work well for smoothies",
     "Combine with other safe fruits"
   ],
-  "alternatives": ["strawberry", "blueberry"],
-  "pairsWellWith": ["lactose-free yogurt", "maple syrup", "oats", "dark chocolate"],
+  "alternatives": [
+    "strawberry",
+    "blueberry"
+  ],
+  "pairsWellWith": [
+    "lactose-free yogurt",
+    "maple syrup",
+    "oats",
+    "dark chocolate"
+  ],
   "nutritionalHighlights": [
     "Very high in fiber",
     "Excellent source of vitamin C",
@@ -33,5 +43,243 @@
     "High in antioxidants"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2346410",
+    "usdaName": "Raspberries, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "10/28/2022",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 85.55,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 57.34,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 51.41,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.16,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.01,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.19,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.35,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 12.9,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 2.68,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 0.99,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 1.68,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1075,
+        "number": "287",
+        "name": "Galactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1032,
+        "number": "236",
+        "name": "Citric acid",
+        "amount": 1740,
+        "unit": "mg"
+      },
+      {
+        "id": 1039,
+        "number": "243",
+        "name": "Malic acid",
+        "amount": 54.08,
+        "unit": "mg"
+      },
+      {
+        "id": 1041,
+        "number": "245",
+        "name": "Oxalic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1043,
+        "number": "247",
+        "name": "Pyruvic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1044,
+        "number": "248",
+        "name": "Quinic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 16.41,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.45,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 19.15,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 27.47,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 155.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.22,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.05,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.49,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 23.04,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 3.43,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 140,
+        "unit": "g",
+        "description": "140g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 150,
+      "unit": "g",
+      "description": "1 medium piece"
+    }
+  }
 }

@@ -56,5 +56,761 @@
     "Good source of calcium from parmesan cheese"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-23"
+  "lastUpdated": "2025-12-23",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "171582",
+    "usdaName": "Sauce, pesto, CLASSICO, basil pesto, ready-to-serve",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 49.16,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 372,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 1556,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 4.16,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 36.38,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 3.36,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 6.93,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 2.1,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 2.6,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 0.39,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 2.21,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1075,
+        "number": "287",
+        "name": "Galactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1009,
+        "number": "209",
+        "name": "Starch",
+        "amount": 0.07,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 166,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.71,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 40,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 97,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 195,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 1028,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.68,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.08,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.37,
+        "unit": "mg"
+      },
+      {
+        "id": 1103,
+        "number": "317",
+        "name": "Selenium, Se",
+        "amount": 5.5,
+        "unit": "µg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.27,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 0.88,
+        "unit": "mg"
+      },
+      {
+        "id": 1170,
+        "number": "410",
+        "name": "Pantothenic acid",
+        "amount": 0.28,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.27,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 29,
+        "unit": "µg"
+      },
+      {
+        "id": 1187,
+        "number": "432",
+        "name": "Folate, food",
+        "amount": 29,
+        "unit": "µg"
+      },
+      {
+        "id": 1180,
+        "number": "421",
+        "name": "Choline, total",
+        "amount": 13.7,
+        "unit": "mg"
+      },
+      {
+        "id": 1198,
+        "number": "454",
+        "name": "Betaine",
+        "amount": 0.6,
+        "unit": "mg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 96,
+        "unit": "µg"
+      },
+      {
+        "id": 1107,
+        "number": "321",
+        "name": "Carotene, beta",
+        "amount": 1151,
+        "unit": "µg"
+      },
+      {
+        "id": 1108,
+        "number": "322",
+        "name": "Carotene, alpha",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1120,
+        "number": "334",
+        "name": "Cryptoxanthin, beta",
+        "amount": 13,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 1929,
+        "unit": "IU"
+      },
+      {
+        "id": 1122,
+        "number": "337",
+        "name": "Lycopene",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1123,
+        "number": "338",
+        "name": "Lutein + zeaxanthin",
+        "amount": 986,
+        "unit": "µg"
+      },
+      {
+        "id": 1109,
+        "number": "323",
+        "name": "Vitamin E (alpha-tocopherol)",
+        "amount": 4.61,
+        "unit": "mg"
+      },
+      {
+        "id": 1125,
+        "number": "341",
+        "name": "Tocopherol, beta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1126,
+        "number": "342",
+        "name": "Tocopherol, gamma",
+        "amount": 26.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1127,
+        "number": "343",
+        "name": "Tocopherol, delta",
+        "amount": 10.23,
+        "unit": "mg"
+      },
+      {
+        "id": 1128,
+        "number": "344",
+        "name": "Tocotrienol, alpha",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1129,
+        "number": "345",
+        "name": "Tocotrienol, beta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1130,
+        "number": "346",
+        "name": "Tocotrienol, gamma",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1131,
+        "number": "347",
+        "name": "Tocotrienol, delta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1185,
+        "number": "430",
+        "name": "Vitamin K (phylloquinone)",
+        "amount": 193.8,
+        "unit": "µg"
+      },
+      {
+        "id": 1184,
+        "number": "429",
+        "name": "Vitamin K (Dihydrophylloquinone)",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1183,
+        "number": "428",
+        "name": "Vitamin K (Menaquinone-4)",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 6.72,
+        "unit": "g"
+      },
+      {
+        "id": 1259,
+        "number": "607",
+        "name": "SFA 4:0",
+        "amount": 0.05,
+        "unit": "g"
+      },
+      {
+        "id": 1260,
+        "number": "608",
+        "name": "SFA 6:0",
+        "amount": 0.04,
+        "unit": "g"
+      },
+      {
+        "id": 1261,
+        "number": "609",
+        "name": "SFA 8:0",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "id": 1262,
+        "number": "610",
+        "name": "SFA 10:0",
+        "amount": 0.06,
+        "unit": "g"
+      },
+      {
+        "id": 1263,
+        "number": "611",
+        "name": "SFA 12:0",
+        "amount": 0.06,
+        "unit": "g"
+      },
+      {
+        "id": 1264,
+        "number": "612",
+        "name": "SFA 14:0",
+        "amount": 0.22,
+        "unit": "g"
+      },
+      {
+        "id": 1299,
+        "number": "652",
+        "name": "SFA 15:0",
+        "amount": 0.03,
+        "unit": "g"
+      },
+      {
+        "id": 1265,
+        "number": "613",
+        "name": "SFA 16:0",
+        "amount": 4.4,
+        "unit": "g"
+      },
+      {
+        "id": 1300,
+        "number": "653",
+        "name": "SFA 17:0",
+        "amount": 0.04,
+        "unit": "g"
+      },
+      {
+        "id": 1266,
+        "number": "614",
+        "name": "SFA 18:0",
+        "amount": 1.56,
+        "unit": "g"
+      },
+      {
+        "id": 1267,
+        "number": "615",
+        "name": "SFA 20:0",
+        "amount": 0.12,
+        "unit": "g"
+      },
+      {
+        "id": 1273,
+        "number": "624",
+        "name": "SFA 22:0",
+        "amount": 0.1,
+        "unit": "g"
+      },
+      {
+        "id": 1301,
+        "number": "654",
+        "name": "SFA 24:0",
+        "amount": 0.03,
+        "unit": "g"
+      },
+      {
+        "id": 1292,
+        "number": "645",
+        "name": "Fatty acids, total monounsaturated",
+        "amount": 10.05,
+        "unit": "g"
+      },
+      {
+        "id": 1274,
+        "number": "625",
+        "name": "MUFA 14:1",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "id": 1333,
+        "number": "697",
+        "name": "MUFA 15:1",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1275,
+        "number": "626",
+        "name": "MUFA 16:1",
+        "amount": 0.14,
+        "unit": "g"
+      },
+      {
+        "id": 1314,
+        "number": "673",
+        "name": "MUFA 16:1 c",
+        "amount": 0.14,
+        "unit": "g"
+      },
+      {
+        "id": 1323,
+        "number": "687",
+        "name": "MUFA 17:1",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "id": 1268,
+        "number": "617",
+        "name": "MUFA 18:1",
+        "amount": 9.69,
+        "unit": "g"
+      },
+      {
+        "id": 1315,
+        "number": "674",
+        "name": "MUFA 18:1 c",
+        "amount": 9.61,
+        "unit": "g"
+      },
+      {
+        "id": 1277,
+        "number": "628",
+        "name": "MUFA 20:1",
+        "amount": 0.17,
+        "unit": "g"
+      },
+      {
+        "id": 1279,
+        "number": "630",
+        "name": "MUFA 22:1",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1317,
+        "number": "676",
+        "name": "MUFA 22:1 c",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1312,
+        "number": "671",
+        "name": "MUFA 24:1 c",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "amount": 18.43,
+        "unit": "g"
+      },
+      {
+        "id": 1269,
+        "number": "618",
+        "name": "PUFA 18:2",
+        "amount": 16.01,
+        "unit": "g"
+      },
+      {
+        "id": 1316,
+        "number": "675",
+        "name": "PUFA 18:2 n-6 c,c",
+        "amount": 15.91,
+        "unit": "g"
+      },
+      {
+        "id": 1311,
+        "number": "670",
+        "name": "PUFA 18:2 CLAs",
+        "amount": 0.03,
+        "unit": "g"
+      },
+      {
+        "id": 1270,
+        "number": "619",
+        "name": "PUFA 18:3",
+        "amount": 2.4,
+        "unit": "g"
+      },
+      {
+        "id": 1404,
+        "number": "851",
+        "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+        "amount": 2.29,
+        "unit": "g"
+      },
+      {
+        "id": 1321,
+        "number": "685",
+        "name": "PUFA 18:3 n-6 c,c,c",
+        "amount": 0.1,
+        "unit": "g"
+      },
+      {
+        "id": 1409,
+        "number": "856",
+        "name": "PUFA 18:3i",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1276,
+        "number": "627",
+        "name": "PUFA 18:4",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1313,
+        "number": "672",
+        "name": "PUFA 20:2 n-6 c,c",
+        "amount": 0.01,
+        "unit": "g"
+      },
+      {
+        "id": 1325,
+        "number": "689",
+        "name": "PUFA 20:3",
+        "amount": 0.01,
+        "unit": "g"
+      },
+      {
+        "id": 1405,
+        "number": "852",
+        "name": "PUFA 20:3 n-3",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1406,
+        "number": "853",
+        "name": "PUFA 20:3 n-6",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1271,
+        "number": "620",
+        "name": "PUFA 20:4",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1278,
+        "number": "629",
+        "name": "PUFA 20:5 n-3 (EPA)",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1411,
+        "number": "858",
+        "name": "PUFA 22:4",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1280,
+        "number": "631",
+        "name": "PUFA 22:5 n-3 (DPA)",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1272,
+        "number": "621",
+        "name": "PUFA 22:6 n-3 (DHA)",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0.16,
+        "unit": "g"
+      },
+      {
+        "id": 1329,
+        "number": "693",
+        "name": "Fatty acids, total trans-monoenoic",
+        "amount": 0.08,
+        "unit": "g"
+      },
+      {
+        "id": 1303,
+        "number": "662",
+        "name": "TFA 16:1 t",
+        "amount": 0.01,
+        "unit": "g"
+      },
+      {
+        "id": 1304,
+        "number": "663",
+        "name": "TFA 18:1 t",
+        "amount": 0.07,
+        "unit": "g"
+      },
+      {
+        "id": 1305,
+        "number": "664",
+        "name": "TFA 22:1 t",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1306,
+        "number": "665",
+        "name": "TFA 18:2 t not further defined",
+        "amount": 0.07,
+        "unit": "g"
+      },
+      {
+        "id": 1331,
+        "number": "695",
+        "name": "Fatty acids, total trans-polyenoic",
+        "amount": 0.07,
+        "unit": "g"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 62,
+        "unit": "g",
+        "description": "cup"
+      }
+    ],
+    "defaultServing": {
+      "amount": 15,
+      "unit": "g",
+      "description": "1 tbsp"
+    }
+  }
 }

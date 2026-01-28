@@ -7,7 +7,9 @@ import { FoodCard } from './components/FoodCard';
 import { FoodDetail } from './components/FoodDetail';
 import { ChatWindow } from './components/ChatWindow';
 import { UserMenu } from './components/UserMenu';
+import { FeedbackButtons } from './components/FeedbackButtons';
 import './App.css';
+import './components/FeedbackButtons.css';
 
 type CategoryFilter = 'all' | FoodCategory;
 
@@ -163,6 +165,7 @@ function App() {
           Data sourced from Monash University FODMAP App.<br />
           Always consult with your healthcare provider.
         </p>
+        <FeedbackButtons />
       </footer>
 
       {selectedFood && (
