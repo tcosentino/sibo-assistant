@@ -14,27 +14,27 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, '..', 'data', 'foods');
 const USDA_API_BASE = 'https://api.nal.usda.gov/fdc/v1';
 
+// Load .env file if it exists (no dependencies needed)
+const envPath = path.join(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf-8');
+  for (const line of envContent.split('\n')) {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith('#')) {
+      const [key, ...valueParts] = trimmed.split('=');
+      if (key && valueParts.length > 0) {
+        process.env[key.trim()] = valueParts.join('=').trim();
+      }
+    }
+  }
+}
+
 // USDA API key - use DEMO_KEY for testing or set USDA_API_KEY env var
 // Get your own key at: https://fdc.nal.usda.gov/api-key-signup.html
 const API_KEY = process.env.USDA_API_KEY || 'DEMO_KEY';
 
-// USDA nutrient IDs mapped to our schema fields
-const NUTRIENT_MAP = {
-  1008: 'calories',      // Energy (kcal)
-  1003: 'protein',       // Protein
-  1005: 'carbs',         // Carbohydrate, by difference
-  1079: 'fiber',         // Fiber, total dietary
-  2000: 'sugar',         // Sugars, total
-  1004: 'fat',           // Total lipid (fat)
-  1258: 'saturatedFat',  // Fatty acids, total saturated
-  1093: 'sodium',        // Sodium, Na
-  1092: 'potassium',     // Potassium, K
-  1162: 'vitaminC',      // Vitamin C, total ascorbic acid
-  1185: 'vitaminK',      // Vitamin K (phylloquinone)
-  1106: 'vitaminA',      // Vitamin A, RAE
-  1087: 'calcium',       // Calcium, Ca
-  1089: 'iron',          // Iron, Fe
-};
+// Nutrients to skip (category headers, not actual nutrients)
+const SKIP_NUTRIENTS = new Set(['Proximates', 'Minerals', 'Vitamins', 'Lipids', 'Carbohydrates', 'Amino Acids', 'Other']);
 
 // Default serving sizes by category (in grams)
 const DEFAULT_SERVINGS = {
@@ -91,11 +91,29 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Fetch with retry for rate limiting
+async function fetchWithRetry(url, maxRetries = 3) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const response = await fetch(url);
+
+    if (response.status === 429) {
+      if (attempt < maxRetries) {
+        const waitTime = Math.pow(2, attempt + 1) * 1000; // 2s, 4s, 8s
+        console.log(`  Rate limited, waiting ${waitTime / 1000}s before retry...`);
+        await sleep(waitTime);
+        continue;
+      }
+    }
+
+    return response;
+  }
+}
+
 // Search USDA for a food item
 async function searchUSDA(query) {
   const url = `${USDA_API_BASE}/foods/search?api_key=${API_KEY}&query=${encodeURIComponent(query)}&dataType=Foundation,SR Legacy&pageSize=5`;
 
-  const response = await fetch(url);
+  const response = await fetchWithRetry(url);
   if (!response.ok) {
     const text = await response.text();
     throw new Error(`USDA API error: ${response.status} ${response.statusText} - ${text}`);
@@ -109,7 +127,7 @@ async function searchUSDA(query) {
 async function getFoodDetails(fdcId) {
   const url = `${USDA_API_BASE}/food/${fdcId}?api_key=${API_KEY}`;
 
-  const response = await fetch(url);
+  const response = await fetchWithRetry(url);
   if (!response.ok) {
     const text = await response.text();
     throw new Error(`USDA API error: ${response.status} ${response.statusText} - ${text}`);
@@ -118,45 +136,62 @@ async function getFoodDetails(fdcId) {
   return response.json();
 }
 
-// Extract nutrition data from USDA food details
+// Extract nutrition data from USDA food details - keeps all nutrients as array
 function extractNutrition(usdaFood, category) {
-  const per100g = {};
+  const rawNutrients = usdaFood.foodNutrients || [];
 
-  // Get nutrients from the food data
-  const nutrients = usdaFood.foodNutrients || [];
+  // Extract all nutrients, preserving USDA structure but simplified
+  const nutrients = [];
+  for (const item of rawNutrients) {
+    const id = item.nutrient?.id || item.nutrientId;
+    const number = item.nutrient?.number || item.nutrientNumber;
+    const name = item.nutrient?.name || item.nutrientName;
+    const unit = item.nutrient?.unitName || item.unitName;
+    const amount = item.amount ?? item.value;
 
-  for (const nutrient of nutrients) {
-    const nutrientId = nutrient.nutrient?.id || nutrient.nutrientId;
-    const fieldName = NUTRIENT_MAP[nutrientId];
+    // Skip category headers and items without values
+    if (!name || SKIP_NUTRIENTS.has(name) || amount === undefined || amount === null) {
+      continue;
+    }
 
-    if (fieldName) {
-      const value = nutrient.amount ?? nutrient.value;
-      if (value !== undefined && value !== null) {
-        // Round to 2 decimal places
-        per100g[fieldName] = Math.round(value * 100) / 100;
+    nutrients.push({
+      id: id || null,
+      number: number || null,  // USDA's alternate identifier
+      name,
+      amount: Math.round(amount * 100) / 100,
+      unit: unit || '',
+    });
+  }
+
+  // Get all portion/serving options from USDA
+  const portions = [];
+  if (usdaFood.foodPortions && usdaFood.foodPortions.length > 0) {
+    for (const portion of usdaFood.foodPortions) {
+      if (portion.gramWeight) {
+        portions.push({
+          amount: portion.gramWeight,
+          unit: 'g',
+          description: portion.portionDescription || portion.modifier || `${portion.gramWeight}g`,
+        });
       }
     }
   }
 
-  // Get serving size (use portion data if available, otherwise default)
-  let servingSize = DEFAULT_SERVINGS[category] || DEFAULT_SERVINGS.vegetable;
-
-  if (usdaFood.foodPortions && usdaFood.foodPortions.length > 0) {
-    const portion = usdaFood.foodPortions[0];
-    if (portion.gramWeight) {
-      servingSize = {
-        amount: portion.gramWeight,
-        unit: 'g',
-        description: portion.portionDescription || portion.modifier || `${portion.gramWeight}g`,
-      };
-    }
+  // Add default serving for this category if no portions from USDA
+  const defaultServing = DEFAULT_SERVINGS[category] || DEFAULT_SERVINGS.vegetable;
+  if (portions.length === 0) {
+    portions.push(defaultServing);
   }
 
   return {
-    per100g,
-    servingSize,
     source: 'USDA FoodData Central',
-    fdcId: String(usdaFood.fdcId),
+    usdaFdcId: String(usdaFood.fdcId),
+    usdaName: usdaFood.description || '',
+    usdaDataType: usdaFood.dataType || 'Unknown',
+    usdaPublicationDate: usdaFood.publicationDate || '',
+    nutrients,
+    usdaPortions: portions,  // All USDA serving sizes
+    defaultServing,  // Category-based default for quick reference
   };
 }
 
@@ -191,7 +226,7 @@ async function processFood(filePath, args) {
   const food = JSON.parse(content);
 
   // Skip if already has nutrition data (unless forced)
-  if (food.nutrition?.per100g && Object.keys(food.nutrition.per100g).length > 0) {
+  if (food.nutrition?.nutrients && food.nutrition.nutrients.length > 0) {
     if (args.verbose) {
       console.log(`  Skipping ${food.name} - already has nutrition data`);
     }
@@ -214,7 +249,7 @@ async function processFood(filePath, args) {
     const details = await getFoodDetails(match.fdcId);
     const nutrition = extractNutrition(details, food.category);
 
-    if (Object.keys(nutrition.per100g).length === 0) {
+    if (nutrition.nutrients.length === 0) {
       console.log(`  ⚠ No nutrient data available for: ${food.name}`);
       return { skipped: true, reason: 'no nutrients' };
     }
@@ -222,14 +257,19 @@ async function processFood(filePath, args) {
     // Update the food object
     food.nutrition = nutrition;
 
+    // Find key nutrients for summary display
+    const energy = nutrition.nutrients.find(n => n.name.includes('Energy') && n.unit === 'kcal');
+    const protein = nutrition.nutrients.find(n => n.name === 'Protein');
+
     if (args.dryRun) {
       console.log(`  [DRY RUN] Would update ${food.name}:`);
-      console.log(`    Calories: ${nutrition.per100g.calories}, Protein: ${nutrition.per100g.protein}g`);
-      console.log(`    FDC ID: ${nutrition.fdcId}`);
+      console.log(`    ${nutrition.nutrients.length} nutrients from ${nutrition.usdaDataType}`);
+      console.log(`    Energy: ${energy?.amount ?? 'N/A'} kcal, Protein: ${protein?.amount ?? 'N/A'}g`);
+      console.log(`    USDA FDC ID: ${nutrition.usdaFdcId}`);
     } else {
       // Write updated file with proper formatting
       fs.writeFileSync(filePath, JSON.stringify(food, null, 2) + '\n');
-      console.log(`  ✓ Updated ${food.name} (${nutrition.per100g.calories} kcal/100g)`);
+      console.log(`  ✓ Updated ${food.name} (${nutrition.nutrients.length} nutrients, ${energy?.amount ?? '?'} kcal/100g)`);
     }
 
     return { success: true, food: food.name };
@@ -261,8 +301,10 @@ async function processCategory(categoryDir, args) {
     else if (result.skipped) stats.skipped++;
     else if (result.error) stats.errors++;
 
-    // Rate limiting: wait 100ms between requests to stay well under 1000/hour
-    await sleep(100);
+    // Rate limiting: wait between requests
+    // DEMO_KEY has ~30 req/hour limit, real keys have 1000/hour
+    const delayMs = API_KEY === 'DEMO_KEY' ? 2000 : 200;
+    await sleep(delayMs);
   }
 
   return stats;
