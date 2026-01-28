@@ -38,5 +38,173 @@
     "Good source of zinc and phosphorus"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "167622",
+    "usdaName": "Deer (venison), sitka, raw (Alaska Native)",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 75,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 116,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 484,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 21.5,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 2.66,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.64,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 7,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 2.9,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.36,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 6.6,
+        "unit": "mg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 0,
+        "unit": "IU"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 0.63,
+        "unit": "g"
+      },
+      {
+        "id": 1292,
+        "number": "645",
+        "name": "Fatty acids, total monounsaturated",
+        "amount": 0.34,
+        "unit": "g"
+      },
+      {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "amount": 0.35,
+        "unit": "g"
+      },
+      {
+        "id": 1269,
+        "number": "618",
+        "name": "PUFA 18:2",
+        "amount": 0.18,
+        "unit": "g"
+      },
+      {
+        "id": 1270,
+        "number": "619",
+        "name": "PUFA 18:3",
+        "amount": 0.05,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 18,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 85,
+        "unit": "g",
+        "description": "3 oz cooked"
+      }
+    ],
+    "defaultServing": {
+      "amount": 85,
+      "unit": "g",
+      "description": "3 oz cooked"
+    }
+  }
 }

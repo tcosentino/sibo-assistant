@@ -1,11 +1,15 @@
 {
   "id": "parsnip",
   "name": "Parsnip",
-  "aliases": ["parsnips"],
+  "aliases": [
+    "parsnips"
+  ],
   "category": "vegetable",
   "subcategory": "root",
   "fodmapRating": "low",
-  "fodmapTypes": ["polyols-sorbitol"],
+  "fodmapTypes": [
+    "polyols-sorbitol"
+  ],
   "servingSizes": {
     "low": {
       "grams": 75,
@@ -20,7 +24,13 @@
     "Good in soups",
     "Pairs well with warming spices"
   ],
-  "pairsWellWith": ["olive oil", "rosemary", "maple syrup (small amount)", "chicken", "beef"],
+  "pairsWellWith": [
+    "olive oil",
+    "rosemary",
+    "maple syrup (small amount)",
+    "chicken",
+    "beef"
+  ],
   "nutritionalHighlights": [
     "High in fiber",
     "Good source of vitamin C",
@@ -28,5 +38,208 @@
     "Provides potassium"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2747659",
+    "usdaName": "Parsnips, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "12/18/2025",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 77.75,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 87.07,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.2,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.27,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.54,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 1.15,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 19.29,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 5.35,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 10.52,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 0.34,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 0.18,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 44.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.51,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 22,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 62.54,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 492.6,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0.49,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.33,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.12,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 11.85,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 4.29,
+        "unit": "µg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 83.42,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "description": "1 cup raw"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

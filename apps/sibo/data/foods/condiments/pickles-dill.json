@@ -40,5 +40,374 @@
     "Provides electrolytes"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-23"
+  "lastUpdated": "2025-12-23",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "324653",
+    "usdaName": "Pickles, cucumber, dill or kosher dill",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 94.7,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 12,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 50,
+        "unit": "kJ"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.08,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 0.48,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.43,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 2.44,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 1.99,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 1.28,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 0.63,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 0.65,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1075,
+        "number": "287",
+        "name": "Galactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 54,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.23,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 7.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 16,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 112,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 808,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.11,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.03,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.06,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 2.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.05,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.06,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 0.11,
+        "unit": "mg"
+      },
+      {
+        "id": 1170,
+        "number": "410",
+        "name": "Pantothenic acid",
+        "amount": 0.2,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.03,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 8,
+        "unit": "µg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 4,
+        "unit": "µg"
+      },
+      {
+        "id": 1107,
+        "number": "321",
+        "name": "Carotene, beta",
+        "amount": 45,
+        "unit": "µg"
+      },
+      {
+        "id": 1108,
+        "number": "322",
+        "name": "Carotene, alpha",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1120,
+        "number": "334",
+        "name": "Cryptoxanthin, beta",
+        "amount": 1,
+        "unit": "µg"
+      },
+      {
+        "id": 1122,
+        "number": "337",
+        "name": "Lycopene",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1123,
+        "number": "338",
+        "name": "Lutein + zeaxanthin",
+        "amount": 199,
+        "unit": "µg"
+      },
+      {
+        "id": 1109,
+        "number": "323",
+        "name": "Vitamin E (alpha-tocopherol)",
+        "amount": 0.12,
+        "unit": "mg"
+      },
+      {
+        "id": 1125,
+        "number": "341",
+        "name": "Tocopherol, beta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1126,
+        "number": "342",
+        "name": "Tocopherol, gamma",
+        "amount": 0.04,
+        "unit": "mg"
+      },
+      {
+        "id": 1127,
+        "number": "343",
+        "name": "Tocopherol, delta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1128,
+        "number": "344",
+        "name": "Tocotrienol, alpha",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1129,
+        "number": "345",
+        "name": "Tocotrienol, beta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1130,
+        "number": "346",
+        "name": "Tocotrienol, gamma",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1131,
+        "number": "347",
+        "name": "Tocotrienol, delta",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1185,
+        "number": "430",
+        "name": "Vitamin K (phylloquinone)",
+        "amount": 16.8,
+        "unit": "µg"
+      },
+      {
+        "id": 1184,
+        "number": "429",
+        "name": "Vitamin K (Dihydrophylloquinone)",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1183,
+        "number": "428",
+        "name": "Vitamin K (Menaquinone-4)",
+        "amount": 0,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 40.4,
+        "unit": "g",
+        "description": "40.4g"
+      },
+      {
+        "amount": 30,
+        "unit": "g",
+        "description": "30g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 15,
+      "unit": "g",
+      "description": "1 tbsp"
+    }
+  }
 }

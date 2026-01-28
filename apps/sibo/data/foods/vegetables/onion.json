@@ -1,11 +1,19 @@
 {
   "id": "onion",
   "name": "Onion",
-  "aliases": ["onions", "white onion", "yellow onion", "red onion", "brown onion"],
+  "aliases": [
+    "onions",
+    "white onion",
+    "yellow onion",
+    "red onion",
+    "brown onion"
+  ],
   "category": "vegetable",
   "subcategory": "allium",
   "fodmapRating": "high",
-  "fodmapTypes": ["fructans"],
+  "fodmapTypes": [
+    "fructans"
+  ],
   "servingSizes": {
     "high": {
       "grams": 10,
@@ -20,7 +28,11 @@
     "Garlic-infused oil does not contain fructans (oil-soluble, not water-soluble)",
     "Asafoetida powder can provide similar savory flavor"
   ],
-  "alternatives": ["scallion-green", "chives", "asafoetida"],
+  "alternatives": [
+    "scallion-green",
+    "chives",
+    "asafoetida"
+  ],
   "pairsWellWith": [],
   "nutritionalHighlights": [
     "Contains quercetin (antioxidant)",
@@ -28,5 +40,227 @@
     "Contains prebiotic fibers"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "790577",
+    "usdaName": "Onions, red, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/1/2020",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 88.6,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 44,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 186,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 0.94,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.1,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.43,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 9.93,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 2.2,
+        "unit": "g"
+      },
+      {
+        "id": 2033,
+        "number": "293",
+        "name": "Total dietary fiber (AOAC 2011.25)",
+        "amount": 3.97,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 5.76,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 1.68,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 2.29,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 1.79,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 17,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 11.4,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 41,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 197,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 1,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.17,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.06,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.12,
+        "unit": "mg"
+      },
+      {
+        "id": 1100,
+        "number": "314",
+        "name": "Iodine, I",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1103,
+        "number": "317",
+        "name": "Selenium, Se",
+        "amount": 0.5,
+        "unit": "µg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 8.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 0,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 197,
+        "unit": "g",
+        "description": "Edible"
+      },
+      {
+        "amount": 85,
+        "unit": "g",
+        "description": "85g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

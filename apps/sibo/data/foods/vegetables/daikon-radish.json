@@ -40,5 +40,208 @@
     "Low in calories but high in fiber"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2747665",
+    "usdaName": "Radishes, red, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "12/18/2025",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 94.68,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 19.6,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.11,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 0.66,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.08,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.52,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 4.06,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 1.31,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 2.64,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 1.56,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 1.08,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 21.51,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 8.94,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 17.91,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 197.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 51.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.07,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 17.76,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 0.86,
+        "unit": "µg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 63.2,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 100,
+        "unit": "g",
+        "description": "1 cup raw"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

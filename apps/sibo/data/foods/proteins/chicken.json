@@ -1,7 +1,11 @@
 {
   "id": "chicken",
   "name": "Chicken",
-  "aliases": ["chicken breast", "chicken thigh", "poultry"],
+  "aliases": [
+    "chicken breast",
+    "chicken thigh",
+    "poultry"
+  ],
   "category": "protein",
   "subcategory": "poultry",
   "fodmapRating": "low",
@@ -21,8 +25,18 @@
     "Check marinades for hidden onion/garlic",
     "Avoid breaded versions during elimination"
   ],
-  "alternatives": ["turkey", "fish", "eggs"],
-  "pairsWellWith": ["rice", "potatoes", "safe vegetables", "lemon", "herbs"],
+  "alternatives": [
+    "turkey",
+    "fish",
+    "eggs"
+  ],
+  "pairsWellWith": [
+    "rice",
+    "potatoes",
+    "safe vegetables",
+    "lemon",
+    "herbs"
+  ],
   "nutritionalHighlights": [
     "Excellent source of lean protein",
     "High in B vitamins",
@@ -30,5 +44,180 @@
     "Contains phosphorus"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2514746",
+    "usdaName": "Chicken, ground, with additives, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/20/2023",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 74.72,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 133.05,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 138.13,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 2.87,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 17.91,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 7.16,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.97,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 5.82,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.59,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 20.51,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 165.5,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 301.7,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 62.95,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 1.18,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.04,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.01,
+        "unit": "mg"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 1.56,
+        "unit": "g"
+      },
+      {
+        "id": 1292,
+        "number": "645",
+        "name": "Fatty acids, total monounsaturated",
+        "amount": 2.17,
+        "unit": "g"
+      },
+      {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "amount": 1.38,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 81.69,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 114,
+        "unit": "g",
+        "description": "114g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 85,
+      "unit": "g",
+      "description": "3 oz cooked"
+    }
+  }
 }

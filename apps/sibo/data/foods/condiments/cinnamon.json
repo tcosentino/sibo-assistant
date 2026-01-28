@@ -1,9 +1,257 @@
 {
   "id": "cinnamon",
   "name": "Cinnamon",
-  "aliases": ["ground cinnamon", "cinnamon sticks"],
+  "aliases": [
+    "ground cinnamon",
+    "cinnamon sticks"
+  ],
   "category": "condiment",
   "subcategory": "spice",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "167782",
+    "usdaName": "Abiyuch, raw",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 79.9,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 69,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 290,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.5,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.1,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.9,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 17.6,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 5.3,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 8.55,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0.05,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 4.5,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 3.8,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0.2,
+        "unit": "g"
+      },
+      {
+        "id": 1075,
+        "number": "287",
+        "name": "Galactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 8,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 1.61,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 24,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 47,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 304,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 20,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.31,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.06,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.18,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 54.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 5,
+        "unit": "µg"
+      },
+      {
+        "id": 1105,
+        "number": "319",
+        "name": "Retinol",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1107,
+        "number": "321",
+        "name": "Carotene, beta",
+        "amount": 60,
+        "unit": "µg"
+      },
+      {
+        "id": 1108,
+        "number": "322",
+        "name": "Carotene, alpha",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 100,
+        "unit": "IU"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 0.01,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0,
+        "unit": "g"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 114,
+        "unit": "g",
+        "description": "cup"
+      }
+    ],
+    "defaultServing": {
+      "amount": 15,
+      "unit": "g",
+      "description": "1 tbsp"
+    }
+  },
   "fodmapRating": "low",
   "fodmapTypes": [],
   "servingSizes": {
@@ -20,8 +268,17 @@
     "Works in savory dishes too",
     "Ceylon cinnamon is milder"
   ],
-  "alternatives": ["nutmeg", "allspice"],
-  "pairsWellWith": ["oats", "banana-firm", "apples (avoid)", "sweet potato", "coffee"],
+  "alternatives": [
+    "nutmeg",
+    "allspice"
+  ],
+  "pairsWellWith": [
+    "oats",
+    "banana-firm",
+    "apples (avoid)",
+    "sweet potato",
+    "coffee"
+  ],
   "nutritionalHighlights": [
     "May help blood sugar regulation",
     "Contains antioxidants",

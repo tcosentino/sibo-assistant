@@ -38,5 +38,152 @@
     "May support digestive health in small amounts"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-23"
+  "lastUpdated": "2025-12-23",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "171181",
+    "usdaName": "SMART SOUP, Indian Bean Masala",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 84.3,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 57,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 238,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 3.3,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.88,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 1.1,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 10.5,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 2.6,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 2.3,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 22,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 1,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 92,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1105,
+        "number": "319",
+        "name": "Retinol",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1107,
+        "number": "321",
+        "name": "Carotene, beta",
+        "amount": 233,
+        "unit": "µg"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 0.18,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 283,
+        "unit": "g",
+        "description": "oz 1 pouch"
+      }
+    ],
+    "defaultServing": {
+      "amount": 15,
+      "unit": "g",
+      "description": "1 tbsp"
+    }
+  }
 }

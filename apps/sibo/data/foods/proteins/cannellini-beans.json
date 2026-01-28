@@ -56,5 +56,159 @@
     "Contains iron and potassium"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2644281",
+    "usdaName": "Beans, cannellini, dry",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "10/26/2023",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 12.3,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 345.22,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 336.6,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 3.45,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 21.56,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 2.2,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 4.14,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 59.8,
+        "unit": "g"
+      },
+      {
+        "id": 1009,
+        "number": "209",
+        "name": "Starch",
+        "amount": 29.87,
+        "unit": "g"
+      },
+      {
+        "id": 1071,
+        "number": "283",
+        "name": "Resistant starch",
+        "amount": 33,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 142.9,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 6.67,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 153.6,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 412.3,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 1424,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 2.72,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.74,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 1.78,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 35,
+        "unit": "g",
+        "description": "35g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 85,
+      "unit": "g",
+      "description": "3 oz cooked"
+    }
+  }
 }

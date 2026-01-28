@@ -55,5 +55,229 @@
     "Moderate fiber content"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "175083",
+    "usdaName": "Nabisco, Nabisco Grahams Crackers",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 3.6,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 424,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 1776,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 6.99,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 2.8,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 76.2,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 3.4,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 23,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 79,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 4.13,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 59,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 202,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 177,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 659,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 1.94,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.03,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.23,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 3.78,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 46,
+        "unit": "µg"
+      },
+      {
+        "id": 1187,
+        "number": "432",
+        "name": "Folate, food",
+        "amount": 46,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 0,
+        "unit": "IU"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 1.56,
+        "unit": "g"
+      },
+      {
+        "id": 1292,
+        "number": "645",
+        "name": "Fatty acids, total monounsaturated",
+        "amount": 3.6,
+        "unit": "g"
+      },
+      {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "amount": 0.46,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 28,
+        "unit": "g",
+        "description": "serving"
+      }
+    ],
+    "defaultServing": {
+      "amount": 45,
+      "unit": "g",
+      "description": "1 slice or 1/2 cup cooked"
+    }
+  }
 }

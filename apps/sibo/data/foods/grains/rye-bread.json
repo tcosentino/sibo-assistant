@@ -56,5 +56,236 @@
     "Magnesium"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2512375",
+    "usdaName": "Flour, rye",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/20/2023",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 11.13,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 359.4,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 350.96,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 1.44,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 8.4,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 1.91,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 1.41,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 77.16,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 13.68,
+        "unit": "g"
+      },
+      {
+        "id": 2033,
+        "number": "293",
+        "name": "Total dietary fiber (AOAC 2011.25)",
+        "amount": 17.9,
+        "unit": "g"
+      },
+      {
+        "id": 2038,
+        "number": "293.3",
+        "name": "High Molecular Weight Dietary Fiber (HMWDF)",
+        "amount": 12.99,
+        "unit": "g"
+      },
+      {
+        "id": 2065,
+        "number": "293.4",
+        "name": "Low Molecular Weight Dietary Fiber (LMWDF)",
+        "amount": 4.9,
+        "unit": "g"
+      },
+      {
+        "id": 2058,
+        "number": null,
+        "name": "Beta-glucan",
+        "amount": 1.91,
+        "unit": "g"
+      },
+      {
+        "id": 1009,
+        "number": "209",
+        "name": "Starch",
+        "amount": 54.11,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 32.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 2.54,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 95.39,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 280.3,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 434,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 2.33,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.34,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 2.13,
+        "unit": "mg"
+      },
+      {
+        "id": 1103,
+        "number": "317",
+        "name": "Selenium, Se",
+        "amount": 16.6,
+        "unit": "µg"
+      },
+      {
+        "id": 1102,
+        "number": "316",
+        "name": "Molybdenum, Mo",
+        "amount": 75.46,
+        "unit": "µg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.17,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 1.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1176,
+        "number": "416",
+        "name": "Biotin",
+        "amount": 8.98,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 30,
+        "unit": "g",
+        "description": "30g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 45,
+      "unit": "g",
+      "description": "1 slice or 1/2 cup cooked"
+    }
+  }
 }

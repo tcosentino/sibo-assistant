@@ -39,5 +39,306 @@
     "Provides selenium for antioxidant function"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "172957",
+    "usdaName": "Bratwurst, chicken, cooked",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 70.28,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 176,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 738,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 19.44,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 10.35,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.88,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 11,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.87,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 23,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 160,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 211,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 72,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 1.43,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.05,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 2,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.07,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.13,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 7.55,
+        "unit": "mg"
+      },
+      {
+        "id": 1170,
+        "number": "410",
+        "name": "Pantothenic acid",
+        "amount": 0.96,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.39,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 6,
+        "unit": "µg"
+      },
+      {
+        "id": 1186,
+        "number": "431",
+        "name": "Folic acid",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1187,
+        "number": "432",
+        "name": "Folate, food",
+        "amount": 6,
+        "unit": "µg"
+      },
+      {
+        "id": 1190,
+        "number": "435",
+        "name": "Folate, DFE",
+        "amount": 6,
+        "unit": "µg"
+      },
+      {
+        "id": 1178,
+        "number": "418",
+        "name": "Vitamin B-12",
+        "amount": 0.34,
+        "unit": "µg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 30,
+        "unit": "µg"
+      },
+      {
+        "id": 1105,
+        "number": "319",
+        "name": "Retinol",
+        "amount": 30,
+        "unit": "µg"
+      },
+      {
+        "id": 1107,
+        "number": "321",
+        "name": "Carotene, beta",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1108,
+        "number": "322",
+        "name": "Carotene, alpha",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1120,
+        "number": "334",
+        "name": "Cryptoxanthin, beta",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 101,
+        "unit": "IU"
+      },
+      {
+        "id": 1122,
+        "number": "337",
+        "name": "Lycopene",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1123,
+        "number": "338",
+        "name": "Lutein + zeaxanthin",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 71,
+        "unit": "mg"
+      },
+      {
+        "id": 1018,
+        "number": "221",
+        "name": "Alcohol, ethyl",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1057,
+        "number": "262",
+        "name": "Caffeine",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1058,
+        "number": "263",
+        "name": "Theobromine",
+        "amount": 0,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 84,
+        "unit": "g",
+        "description": "serving 2.96 oz"
+      }
+    ],
+    "defaultServing": {
+      "amount": 85,
+      "unit": "g",
+      "description": "3 oz cooked"
+    }
+  }
 }

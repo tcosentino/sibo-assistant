@@ -39,5 +39,264 @@
     "Rich in iron and potassium"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-22"
+  "lastUpdated": "2025-12-22",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "173032",
+    "usdaName": "Goji berries, dried",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 7.5,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 349,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 1461,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 14.26,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.39,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.78,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 77.06,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 13,
+        "unit": "g"
+      },
+      {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "amount": 45.61,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 190,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 6.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 298,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 48.4,
+        "unit": "mg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 26822,
+        "unit": "IU"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1211,
+        "number": "502",
+        "name": "Threonine",
+        "amount": 0.36,
+        "unit": "g"
+      },
+      {
+        "id": 1212,
+        "number": "503",
+        "name": "Isoleucine",
+        "amount": 0.26,
+        "unit": "g"
+      },
+      {
+        "id": 1213,
+        "number": "504",
+        "name": "Leucine",
+        "amount": 0.46,
+        "unit": "g"
+      },
+      {
+        "id": 1214,
+        "number": "505",
+        "name": "Lysine",
+        "amount": 0.23,
+        "unit": "g"
+      },
+      {
+        "id": 1215,
+        "number": "506",
+        "name": "Methionine",
+        "amount": 0.09,
+        "unit": "g"
+      },
+      {
+        "id": 1216,
+        "number": "507",
+        "name": "Cystine",
+        "amount": 0.14,
+        "unit": "g"
+      },
+      {
+        "id": 1217,
+        "number": "508",
+        "name": "Phenylalanine",
+        "amount": 0.27,
+        "unit": "g"
+      },
+      {
+        "id": 1218,
+        "number": "509",
+        "name": "Tyrosine",
+        "amount": 0.22,
+        "unit": "g"
+      },
+      {
+        "id": 1219,
+        "number": "510",
+        "name": "Valine",
+        "amount": 0.32,
+        "unit": "g"
+      },
+      {
+        "id": 1220,
+        "number": "511",
+        "name": "Arginine",
+        "amount": 0.72,
+        "unit": "g"
+      },
+      {
+        "id": 1221,
+        "number": "512",
+        "name": "Histidine",
+        "amount": 0.16,
+        "unit": "g"
+      },
+      {
+        "id": 1222,
+        "number": "513",
+        "name": "Alanine",
+        "amount": 0.7,
+        "unit": "g"
+      },
+      {
+        "id": 1223,
+        "number": "514",
+        "name": "Aspartic acid",
+        "amount": 1.71,
+        "unit": "g"
+      },
+      {
+        "id": 1224,
+        "number": "515",
+        "name": "Glutamic acid",
+        "amount": 1.43,
+        "unit": "g"
+      },
+      {
+        "id": 1225,
+        "number": "516",
+        "name": "Glycine",
+        "amount": 0.3,
+        "unit": "g"
+      },
+      {
+        "id": 1226,
+        "number": "517",
+        "name": "Proline",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "id": 1227,
+        "number": "518",
+        "name": "Serine",
+        "amount": 0.5,
+        "unit": "g"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 28,
+        "unit": "g",
+        "description": "tbsp"
+      }
+    ],
+    "defaultServing": {
+      "amount": 150,
+      "unit": "g",
+      "description": "1 medium piece"
+    }
+  }
 }

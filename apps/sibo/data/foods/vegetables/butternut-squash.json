@@ -1,11 +1,17 @@
 {
   "id": "butternut-squash",
   "name": "Butternut Squash",
-  "aliases": ["butternut pumpkin"],
+  "aliases": [
+    "butternut pumpkin"
+  ],
   "category": "vegetable",
   "subcategory": "squash",
   "fodmapRating": "moderate",
-  "fodmapTypes": ["fructans", "galactans", "polyols-mannitol"],
+  "fodmapTypes": [
+    "fructans",
+    "galactans",
+    "polyols-mannitol"
+  ],
   "servingSizes": {
     "low": {
       "grams": 45,
@@ -24,8 +30,16 @@
     "Roasting concentrates flavors, allowing smaller portions",
     "Use in soups in limited amounts"
   ],
-  "alternatives": ["potato", "carrot", "pumpkin"],
-  "pairsWellWith": ["sage", "olive oil", "cinnamon"],
+  "alternatives": [
+    "potato",
+    "carrot",
+    "pumpkin"
+  ],
+  "pairsWellWith": [
+    "sage",
+    "olive oil",
+    "cinnamon"
+  ],
   "nutritionalHighlights": [
     "Very high in vitamin A",
     "Good source of vitamin C",
@@ -33,5 +47,173 @@
     "Provides fiber"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2685570",
+    "usdaName": "Squash, winter, butternut, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/18/2024",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 87.32,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 48.13,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 41.72,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.18,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.15,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.17,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.86,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 10.51,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 1.96,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 21.74,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.21,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 14.95,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 26.53,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 329.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.19,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.07,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.08,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 7.6,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 55,
+        "unit": "µg"
+      },
+      {
+        "id": 1188,
+        "number": "433",
+        "name": "5-methyl tetrahydrofolate (5-MTHF)",
+        "amount": 30,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 85,
+        "unit": "g",
+        "description": "85g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

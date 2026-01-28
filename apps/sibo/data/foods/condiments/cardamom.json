@@ -39,5 +39,332 @@
     "Provides small amounts of iron and zinc"
   ],
   "source": "FODMAP research (Monash University guidelines)",
-  "lastUpdated": "2025-12-23"
+  "lastUpdated": "2025-12-23",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "170919",
+    "usdaName": "Spices, cardamom",
+    "usdaDataType": "SR Legacy",
+    "usdaPublicationDate": "4/1/2019",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 8.28,
+        "unit": "g"
+      },
+      {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "amount": 311,
+        "unit": "kcal"
+      },
+      {
+        "id": 1062,
+        "number": "268",
+        "name": "Energy",
+        "amount": 1303,
+        "unit": "kJ"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 10.76,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 6.7,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 5.78,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 68.47,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 28,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 383,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 13.97,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 229,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 178,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 1119,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 18,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 7.47,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.38,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 28,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 21,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg"
+      },
+      {
+        "id": 1166,
+        "number": "405",
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 1.1,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.23,
+        "unit": "mg"
+      },
+      {
+        "id": 1178,
+        "number": "418",
+        "name": "Vitamin B-12",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1106,
+        "number": "320",
+        "name": "Vitamin A, RAE",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1105,
+        "number": "319",
+        "name": "Retinol",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "amount": 0,
+        "unit": "IU"
+      },
+      {
+        "id": 1110,
+        "number": "324",
+        "name": "Vitamin D (D2 + D3), International Units",
+        "amount": 0,
+        "unit": "IU"
+      },
+      {
+        "id": 1114,
+        "number": "328",
+        "name": "Vitamin D (D2 + D3)",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "amount": 0.68,
+        "unit": "g"
+      },
+      {
+        "id": 1262,
+        "number": "610",
+        "name": "SFA 10:0",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1263,
+        "number": "611",
+        "name": "SFA 12:0",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1264,
+        "number": "612",
+        "name": "SFA 14:0",
+        "amount": 0.03,
+        "unit": "g"
+      },
+      {
+        "id": 1265,
+        "number": "613",
+        "name": "SFA 16:0",
+        "amount": 0.57,
+        "unit": "g"
+      },
+      {
+        "id": 1266,
+        "number": "614",
+        "name": "SFA 18:0",
+        "amount": 0.06,
+        "unit": "g"
+      },
+      {
+        "id": 1292,
+        "number": "645",
+        "name": "Fatty acids, total monounsaturated",
+        "amount": 0.87,
+        "unit": "g"
+      },
+      {
+        "id": 1275,
+        "number": "626",
+        "name": "MUFA 16:1",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "id": 1268,
+        "number": "617",
+        "name": "MUFA 18:1",
+        "amount": 0.85,
+        "unit": "g"
+      },
+      {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "amount": 0.43,
+        "unit": "g"
+      },
+      {
+        "id": 1269,
+        "number": "618",
+        "name": "PUFA 18:2",
+        "amount": 0.31,
+        "unit": "g"
+      },
+      {
+        "id": 1270,
+        "number": "619",
+        "name": "PUFA 18:3",
+        "amount": 0.12,
+        "unit": "g"
+      },
+      {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg"
+      },
+      {
+        "id": 1283,
+        "number": "636",
+        "name": "Phytosterols",
+        "amount": 46,
+        "unit": "mg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 2,
+        "unit": "g",
+        "description": "tsp, ground"
+      },
+      {
+        "amount": 5.8,
+        "unit": "g",
+        "description": "tbsp, ground"
+      }
+    ],
+    "defaultServing": {
+      "amount": 15,
+      "unit": "g",
+      "description": "1 tbsp"
+    }
+  }
 }

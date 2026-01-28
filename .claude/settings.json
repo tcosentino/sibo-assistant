@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:sibo-server*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:sibo-web:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}

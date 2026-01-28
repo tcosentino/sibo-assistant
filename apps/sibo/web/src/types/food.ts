@@ -19,31 +19,69 @@ export type FoodCategory =
   | 'beverage'
   | 'condiment';
 
-export interface ServingSize {
+// Nutrition data structures (general-purpose)
+export interface NutrientsPer100g {
+  calories?: number;      // kcal
+  protein?: number;       // grams
+  carbs?: number;         // grams
+  fiber?: number;         // grams
+  sugar?: number;         // grams
+  fat?: number;           // grams
+  saturatedFat?: number;  // grams
+  sodium?: number;        // milligrams
+  potassium?: number;     // milligrams
+  vitaminC?: number;      // milligrams
+  vitaminK?: number;      // micrograms
+  vitaminA?: number;      // micrograms RAE
+  calcium?: number;       // milligrams
+  iron?: number;          // milligrams
+}
+
+export interface NutritionServingSize {
+  amount: number;         // grams
+  unit: string;           // typically 'g'
+  description: string;    // e.g., '1 cup chopped' or '1 tsp ground'
+}
+
+export interface Nutrition {
+  per100g: NutrientsPer100g;
+  servingSize?: NutritionServingSize;
+  source?: string;        // e.g., 'USDA FoodData Central'
+  fdcId?: string;         // USDA FoodData Central ID
+}
+
+// FODMAP serving size (SIBO-specific)
+export interface FodmapServingSize {
   grams: number;
   description: string;
   cups?: string;
 }
 
 export interface Food {
+  // Required fields (general)
   id: string;
   name: string;
-  aliases?: string[];
   category: FoodCategory;
+
+  // Optional fields (general)
+  aliases?: string[];
   subcategory?: string;
-  fodmapRating: FodmapRating;
-  fodmapTypes: FodmapType[];
-  servingSizes: {
-    low?: ServingSize;
-    moderate?: ServingSize;
-    high?: ServingSize;
+  nutrition?: Nutrition;
+
+  // SIBO-specific fields (optional for general use)
+  fodmapRating?: FodmapRating;
+  fodmapTypes?: FodmapType[];
+  servingSizes?: {
+    low?: FodmapServingSize;
+    moderate?: FodmapServingSize;
+    high?: FodmapServingSize;
   };
-  siboNotes: string;
+  siboNotes?: string;
   preparationTips?: string[];
   alternatives?: string[];
   pairsWellWith?: string[];
-  nutritionalHighlights?: string[];
-  source?: string;
+  nutritionalHighlights?: string[];  // Legacy field, prefer nutrition.per100g
+  source?: string;                   // FODMAP data source
   lastUpdated?: string;
 }
 

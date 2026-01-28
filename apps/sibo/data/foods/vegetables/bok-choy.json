@@ -1,11 +1,17 @@
 {
   "id": "bok-choy",
   "name": "Bok Choy",
-  "aliases": ["pak choi", "chinese cabbage"],
+  "aliases": [
+    "pak choi",
+    "chinese cabbage"
+  ],
   "category": "vegetable",
   "subcategory": "cruciferous",
   "fodmapRating": "low",
-  "fodmapTypes": ["fructans", "polyols-sorbitol"],
+  "fodmapTypes": [
+    "fructans",
+    "polyols-sorbitol"
+  ],
   "servingSizes": {
     "low": {
       "grams": 75,
@@ -25,7 +31,13 @@
     "Can be grilled or roasted",
     "Baby bok choy can be cooked whole"
   ],
-  "pairsWellWith": ["ginger", "sesame oil", "soy sauce (check ingredients)", "chicken", "shrimp"],
+  "pairsWellWith": [
+    "ginger",
+    "sesame oil",
+    "soy sauce (check ingredients)",
+    "chicken",
+    "shrimp"
+  ],
   "nutritionalHighlights": [
     "Excellent source of vitamin A",
     "High in vitamin C",
@@ -33,5 +45,173 @@
     "Contains calcium"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2685572",
+    "usdaName": "Cabbage, bok choy, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "4/18/2024",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 94.54,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 20.26,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 17,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.16,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.02,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.23,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.69,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 3.51,
+        "unit": "g"
+      },
+      {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "amount": 1.26,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 61.93,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.44,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 13.64,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 30.51,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 227.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 14.27,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.27,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.03,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.2,
+        "unit": "mg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 30.3,
+        "unit": "mg"
+      },
+      {
+        "id": 1177,
+        "number": "417",
+        "name": "Folate, total",
+        "amount": 68,
+        "unit": "µg"
+      },
+      {
+        "id": 1188,
+        "number": "433",
+        "name": "5-methyl tetrahydrofolate (5-MTHF)",
+        "amount": 50,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 85,
+        "unit": "g",
+        "description": "85g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

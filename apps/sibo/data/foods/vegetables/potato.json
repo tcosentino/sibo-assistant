@@ -1,7 +1,12 @@
 {
   "id": "potato",
   "name": "Potato",
-  "aliases": ["potatoes", "white potato", "russet potato", "red potato"],
+  "aliases": [
+    "potatoes",
+    "white potato",
+    "russet potato",
+    "red potato"
+  ],
   "category": "vegetable",
   "subcategory": "root",
   "fodmapRating": "low",
@@ -20,7 +25,13 @@
     "Mashed potatoes with lactose-free butter are safe",
     "Cooled potatoes contain resistant starch for gut health"
   ],
-  "pairsWellWith": ["butter (lactose-free)", "olive oil", "rosemary", "chicken", "beef"],
+  "pairsWellWith": [
+    "butter (lactose-free)",
+    "olive oil",
+    "rosemary",
+    "chicken",
+    "beef"
+  ],
   "nutritionalHighlights": [
     "Good source of potassium",
     "Contains vitamin C",
@@ -28,5 +39,271 @@
     "Good source of fiber (with skin)"
   ],
   "source": "Monash University FODMAP App",
-  "lastUpdated": "2024-12-18"
+  "lastUpdated": "2024-12-18",
+  "nutrition": {
+    "source": "USDA FoodData Central",
+    "usdaFdcId": "2346403",
+    "usdaName": "Potatoes, gold, without skin, raw",
+    "usdaDataType": "Foundation",
+    "usdaPublicationDate": "10/28/2022",
+    "nutrients": [
+      {
+        "id": 1051,
+        "number": "255",
+        "name": "Water",
+        "amount": 81.07,
+        "unit": "g"
+      },
+      {
+        "id": 2047,
+        "number": "957",
+        "name": "Energy (Atwater General Factors)",
+        "amount": 73.47,
+        "unit": "kcal"
+      },
+      {
+        "id": 2048,
+        "number": "958",
+        "name": "Energy (Atwater Specific Factors)",
+        "amount": 71.58,
+        "unit": "kcal"
+      },
+      {
+        "id": 1002,
+        "number": "202",
+        "name": "Nitrogen",
+        "amount": 0.29,
+        "unit": "g"
+      },
+      {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "amount": 1.81,
+        "unit": "g"
+      },
+      {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "amount": 0.26,
+        "unit": "g"
+      },
+      {
+        "id": 1007,
+        "number": "207",
+        "name": "Ash",
+        "amount": 0.89,
+        "unit": "g"
+      },
+      {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "amount": 15.96,
+        "unit": "g"
+      },
+      {
+        "id": 2033,
+        "number": "293",
+        "name": "Total dietary fiber (AOAC 2011.25)",
+        "amount": 13.83,
+        "unit": "g"
+      },
+      {
+        "id": 2038,
+        "number": "293.3",
+        "name": "High Molecular Weight Dietary Fiber (HMWDF)",
+        "amount": 13.25,
+        "unit": "g"
+      },
+      {
+        "id": 2065,
+        "number": "293.4",
+        "name": "Low Molecular Weight Dietary Fiber (LMWDF)",
+        "amount": 0.59,
+        "unit": "g"
+      },
+      {
+        "id": 1063,
+        "number": "269.3",
+        "name": "Sugars, Total",
+        "amount": 0.65,
+        "unit": "g"
+      },
+      {
+        "id": 1010,
+        "number": "210",
+        "name": "Sucrose",
+        "amount": 0.13,
+        "unit": "g"
+      },
+      {
+        "id": 1011,
+        "number": "211",
+        "name": "Glucose",
+        "amount": 0.21,
+        "unit": "g"
+      },
+      {
+        "id": 1012,
+        "number": "212",
+        "name": "Fructose",
+        "amount": 0.31,
+        "unit": "g"
+      },
+      {
+        "id": 1013,
+        "number": "213",
+        "name": "Lactose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1014,
+        "number": "214",
+        "name": "Maltose",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "amount": 5.94,
+        "unit": "mg"
+      },
+      {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "amount": 0.37,
+        "unit": "mg"
+      },
+      {
+        "id": 1090,
+        "number": "304",
+        "name": "Magnesium, Mg",
+        "amount": 22.3,
+        "unit": "mg"
+      },
+      {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "amount": 56.95,
+        "unit": "mg"
+      },
+      {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "amount": 445.8,
+        "unit": "mg"
+      },
+      {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "amount": 2.24,
+        "unit": "mg"
+      },
+      {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "amount": 0.37,
+        "unit": "mg"
+      },
+      {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "amount": 0.13,
+        "unit": "mg"
+      },
+      {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "amount": 0.16,
+        "unit": "mg"
+      },
+      {
+        "id": 1103,
+        "number": "317",
+        "name": "Selenium, Se",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1102,
+        "number": "316",
+        "name": "Molybdenum, Mo",
+        "amount": 7.84,
+        "unit": "µg"
+      },
+      {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "amount": 23.3,
+        "unit": "mg"
+      },
+      {
+        "id": 1165,
+        "number": "404",
+        "name": "Thiamin",
+        "amount": 0.05,
+        "unit": "mg"
+      },
+      {
+        "id": 1167,
+        "number": "406",
+        "name": "Niacin",
+        "amount": 1.59,
+        "unit": "mg"
+      },
+      {
+        "id": 1175,
+        "number": "415",
+        "name": "Vitamin B-6",
+        "amount": 0.14,
+        "unit": "mg"
+      },
+      {
+        "id": 1185,
+        "number": "430",
+        "name": "Vitamin K (phylloquinone)",
+        "amount": 0.8,
+        "unit": "µg"
+      },
+      {
+        "id": 1184,
+        "number": "429",
+        "name": "Vitamin K (Dihydrophylloquinone)",
+        "amount": 0,
+        "unit": "µg"
+      },
+      {
+        "id": 1183,
+        "number": "428",
+        "name": "Vitamin K (Menaquinone-4)",
+        "amount": 0,
+        "unit": "µg"
+      }
+    ],
+    "usdaPortions": [
+      {
+        "amount": 110,
+        "unit": "g",
+        "description": "110g"
+      }
+    ],
+    "defaultServing": {
+      "amount": 100,
+      "unit": "g",
+      "description": "1 cup raw"
+    }
+  }
 }

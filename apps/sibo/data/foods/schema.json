@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "SIBO Food Database Schema",
-  "description": "Schema for food items in the SIBO assistant database",
+  "title": "Food Database Schema",
+  "description": "Schema for food items - general nutrition data with optional SIBO/FODMAP extensions",
   "type": "object",
-  "required": ["id", "name", "category", "fodmapRating", "servingSizes"],
+  "required": ["id", "name", "category"],
   "properties": {
     "id": {
       "type": "string",
@@ -27,10 +27,53 @@
       "type": "string",
       "description": "More specific category (e.g., 'leafy-green', 'cruciferous', 'allium')"
     },
+    "nutrition": {
+      "type": "object",
+      "description": "Nutritional information from USDA or other verified sources",
+      "properties": {
+        "per100g": {
+          "type": "object",
+          "description": "Nutrient values per 100 grams (normalized base for calculations)",
+          "properties": {
+            "calories": { "type": "number", "description": "Energy in kcal" },
+            "protein": { "type": "number", "description": "Protein in grams" },
+            "carbs": { "type": "number", "description": "Total carbohydrates in grams" },
+            "fiber": { "type": "number", "description": "Dietary fiber in grams" },
+            "sugar": { "type": "number", "description": "Total sugars in grams" },
+            "fat": { "type": "number", "description": "Total fat in grams" },
+            "saturatedFat": { "type": "number", "description": "Saturated fat in grams" },
+            "sodium": { "type": "number", "description": "Sodium in milligrams" },
+            "potassium": { "type": "number", "description": "Potassium in milligrams" },
+            "vitaminC": { "type": "number", "description": "Vitamin C in milligrams" },
+            "vitaminK": { "type": "number", "description": "Vitamin K in micrograms" },
+            "vitaminA": { "type": "number", "description": "Vitamin A in micrograms RAE" },
+            "calcium": { "type": "number", "description": "Calcium in milligrams" },
+            "iron": { "type": "number", "description": "Iron in milligrams" }
+          }
+        },
+        "servingSize": {
+          "type": "object",
+          "description": "Typical serving size for display purposes",
+          "properties": {
+            "amount": { "type": "number", "description": "Serving size in grams" },
+            "unit": { "type": "string", "description": "Unit (typically 'g')" },
+            "description": { "type": "string", "description": "Human-readable serving description (e.g., '1 cup chopped')" }
+          }
+        },
+        "source": {
+          "type": "string",
+          "description": "Source of nutrition data (e.g., 'USDA FoodData Central')"
+        },
+        "fdcId": {
+          "type": "string",
+          "description": "USDA FoodData Central ID for traceability"
+        }
+      }
+    },
     "fodmapRating": {
       "type": "string",
       "enum": ["low", "moderate", "high"],
-      "description": "Overall FODMAP rating at typical serving"
+      "description": "Overall FODMAP rating at typical serving (SIBO-specific)"
     },
     "fodmapTypes": {
       "type": "array",
@@ -38,10 +81,11 @@
         "type": "string",
         "enum": ["fructose", "lactose", "fructans", "galactans", "polyols-sorbitol", "polyols-mannitol"]
       },
-      "description": "Which FODMAPs this food contains"
+      "description": "Which FODMAPs this food contains (SIBO-specific)"
     },
-    "servingSizes": {
+    "fodmapServingSizes": {
       "type": "object",
+      "description": "FODMAP-based serving size guidance (SIBO-specific)",
       "properties": {
         "low": {
           "type": "object",
@@ -94,11 +138,11 @@
     "nutritionalHighlights": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "Key nutrients this food provides"
+      "description": "Key nutrients this food provides (legacy field, prefer nutrition.per100g)"
     },
     "source": {
       "type": "string",
-      "description": "Primary data source (e.g., 'Monash University FODMAP App')"
+      "description": "Primary FODMAP data source (e.g., 'Monash University FODMAP App')"
     },
     "lastUpdated": {
       "type": "string",
